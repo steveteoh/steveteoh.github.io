@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+#nav {
+  width: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#map {
+  flex: 1 1 auto;
+}
+
+.nav-item {
+  font-family: "Segoe UI",Arial,sans-serif;
+  padding: 8px 16px;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  font-size: calc(16px + 1vh);
+  font-weight: 500;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.nav-item:active {
+  background-color: #eee !important;
+}
+
+@media (hover: hover) {
+  .nav-item:hover {
+    background-color: #eee !important;
+  }
+}
+
+.info-item {
+  font-family: "Segoe UI",Arial,sans-serif;
+  padding: 2px 8px;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  font-size: calc(14px + 0.2vh);
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.notice {
+  font-family: "Segoe UI",Arial,sans-serif;
+  padding: 1px 4px;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  font-size: calc(12px + 0.1vh);
+  font-weight: 500;
+  background-color: #fff;
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
