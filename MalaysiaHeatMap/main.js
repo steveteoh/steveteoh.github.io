@@ -94,8 +94,8 @@ var updateHeatmap = async () => {
     heatmaps.push(heatmap);
   }
   document.getElementById('lastUpdateAt').innerText = `Last update at: ${new Date().toLocaleString()}`;
-  document.getElementById('eastUpdatedAt').innerText = `East Malaysia last updated on: ${new Date(areas[0].updatedAt).toLocaleString()}`;
-  document.getElementById('westUpdatedAt').innerText = `West Malaysia last updated on: ${new Date(areas[1].updatedAt).toLocaleString()}`;
+  document.getElementById('eastUpdatedAt').innerText = `East M'sia last updated on: ${new Date(areas[0].updatedAt).toLocaleString()}`;
+  document.getElementById('westUpdatedAt').innerText = `West M'sia last updated on: ${new Date(areas[1].updatedAt).toLocaleString()}`;
   if(document.getElementById('heatmapButton').textContent === 'Hide Heatmap') heatmaps.forEach(hm => hm.setMap(map));
 }
 let userLocation = undefined;
@@ -161,7 +161,7 @@ var initMap = async () => {
     center: { lat: 4.3, lng: 109.5 },
     zoom: 6, controlSize: 50,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    streetViewControl: false
+    streetViewControl: true
   });
   updateHeatmap();
 }
