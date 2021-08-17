@@ -89,8 +89,9 @@ var updateHeatmap = async () => {
   heatmaps.splice(0);
   for(const area of areas){
     const heatmap = new google.maps.visualization.HeatmapLayer({
-      data: generatePoints(area), dissipating: false, radius: 0.02
+      data: generatePoints(area), dissipating: false, radius: 0.01, opacity = 0
     });
+    //heatmap.set("radius", heatmap.get("radius") ? null : 20);
     heatmaps.push(heatmap);
   }
   document.getElementById('lastUpdateAt').innerText = `Last update at: ${new Date().toLocaleString()}`;
@@ -159,7 +160,7 @@ var heatmapButton = () => {
 var initMap = async () => {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 3.04, lng: 101.79 },
-    zoom: 5, controlSize: 40,
+    zoom: 7, controlSize: 40,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     streetViewControl: true
   });
