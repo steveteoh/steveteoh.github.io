@@ -87,6 +87,7 @@ var updateHeatmap = async () => {
   );
   if(heatmaps.length) heatmaps.forEach(hm => hm.setMap(null));
   heatmaps.splice(0);
+  //Google Maps Heatmaplayer
   for(const area of areas){
     const heatmap = new google.maps.visualization.HeatmapLayer({
       data: generatePoints(area), dissipating: false, radius: 0.02
@@ -158,7 +159,7 @@ var heatmapButton = () => {
 
 var initMap = async () => {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 4.3, lng: 109.5 },
+    center: { lat: 3.039, lng: 101.794 },
     zoom: 6, controlSize: 50,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     streetViewControl: true
