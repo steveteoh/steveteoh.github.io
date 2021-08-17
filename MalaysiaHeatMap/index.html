@@ -3,17 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>Malaysia Covid-19 and Earthquake Heatmap</title>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Malaysia Covid-19 Heatmap"/>
-    <meta property="og:description" content="A Heatmap that displays covid 19 cases in Malaysia, updates every week"/>
-    <!-- <meta property="og:url" content="./root.html"/>
-    <meta property="og:image" content="https://khoohaoyit.github.io/Covid19%20Malaysia%20Heatmap/preview.png"/>
-    <meta property="og:image:secure_url" content="https://khoohaoyit.github.io/Covid19%20Malaysia%20Heatmap/preview.png"/> 
-    -->
     <meta property="og:image:width" content="1000"/>
     <meta property="og:image:height" content="600"/>
     <meta property="og:image:type" content="image/png"/>
-    <script src="https://unpkg.com/deck.gl@^7.0.0/dist.min.js"></script>
+    <!-- <script src="https://unpkg.com/deck.gl@^7.0.0/dist.min.js"></script> -->
     <script src="./main.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8KAHldpvIOBBG8Lb3lrpWlFlS3mfFf9o&libraries=visualization&v=3&callback=initMap"></script>
     <link rel="stylesheet" type="text/css" href="./style.css"/>
@@ -28,7 +21,7 @@
     <div id="info">
       <div id="lastUpdateAt" class="info-item float-right">Last update: </div>
       <div id="westUpdatedAt" class="info-item float-right">West Malaysia last updated on:</div>
-      <div id="eastUpdatedAt" class="info-item float-right">East Malaysia last updated on:</div>
+      <div id="eastUpdatedAt" class="info-item float-right">East Malaysia last updated on:</div><br><br>
       <div class="info-item float-right">Heatmap is based on cases within 1 km radius accross 2 weeks</div>
       <div class="info-item float-right">Heatmap will update every week</div>
     </div>
