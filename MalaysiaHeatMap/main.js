@@ -158,7 +158,7 @@ var heatmapButton = () => {
 
 var initMap = async () => {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 4.3, lng: 109.5 },
+    center: { lat: 3.03950, lng: 101.79403 },
     zoom: 5, controlSize: 30,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     streetViewControl: true
