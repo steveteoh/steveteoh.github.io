@@ -14,16 +14,17 @@
   <body>
     <div></div>
     <div id="nav">
-      <button onclick="updateHeatmap()" class="nav-item float-right">Update C-19 Heatmap</button>
-      <button onclick="heatmapButton()" class="nav-item float-right" id="heatmapButton">Hide C-19 Heatmap</button>
-      <button onclick="locationButton()" class="nav-item float-right" id="locationButton">Show My Location</button>
+      <button onclick="updateHeatmap()" class="button float-right">Update C-19 Heatmap</button>
+      <button onclick="heatmapButton()" class="button float-right" id="heatmapButton">Hide C-19 Heatmap</button>
+      <button onclick="locationButton()" class="button float-right" id="locationButton">Show My Location</button>
     </div>
     <div id="info">
       <div id="lastUpdateAt" class="info-item float-right">Last update: </div>
       <div id="westUpdatedAt" class="info-item float-right">West Malaysia last updated on:</div>
       <div id="eastUpdatedAt" class="info-item float-right">East Malaysia last updated on:</div><br><br>
       <div class="info-item float-right">Heatmap is based on cases within 1 km radius accross 2 weeks</div>
-      <div class="info-item float-right">Heatmap will update every week</div>
+      <div class="info-item float-right">Heatmap will update every week</div><br><br>
+      <div class="info-item float-left">Earthquake data is from USGS</div>
     </div>
     <div id="map"></div>
   </body>

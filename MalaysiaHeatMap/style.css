@@ -32,6 +32,20 @@ body {
   cursor: pointer;
 }
 
+.button {
+  font-family: "Segoe UI",Arial,sans-serif;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
 .nav-item:active {
   background-color: #eee !important;
 }
