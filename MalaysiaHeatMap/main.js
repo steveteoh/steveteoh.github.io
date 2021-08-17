@@ -89,7 +89,7 @@ var updateHeatmap = async () => {
   heatmaps.splice(0);
   for(const area of areas){
     const heatmap = new google.maps.visualization.HeatmapLayer({
-      data: generatePoints(area), dissipating: false, radius: 0.01, opacity = 0
+      data: generatePoints(area), dissipating: false, radius: 0.01
     });
     //heatmap.set("radius", heatmap.get("radius") ? null : 20);
     heatmaps.push(heatmap);
