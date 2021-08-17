@@ -186,9 +186,6 @@ var initMap = async () => {
             duration: 10000,
           },
         },
-        onDataLoad: (_) => {
-          progress.done(); // hides progress bar
-        },
       }),
     ],
   }); 
