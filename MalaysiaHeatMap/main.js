@@ -164,30 +164,4 @@ var initMap = async () => {
     streetViewControl: true
   });
   updateHeatmap();
-  const deckOverlay = new deck.GoogleMapsOverlay({
-    layers: [
-      new deck.GeoJsonLayer({
-        id: "earthquakes",
-        data: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",
-        filled: true,
-        pointRadiusMinPixels: 2,
-        pointRadiusMaxPixels: 200,
-        opacity: 0.4,
-        pointRadiusScale: 0.3,
-        getRadius: (f) => Math.pow(10, f.properties.mag),
-        getFillColor: [255, 70, 30, 180],
-        autoHighlight: true,
-        transitions: {
-          getRadius: {
-            type: "spring",
-            stiffness: 0.1,
-            damping: 0.15,
-            enter: (_) => [0],
-            duration: 10000,
-          },
-        },
-      }),
-    ],
-  }); 
-  deckOverlay.setMap(map);
 }
