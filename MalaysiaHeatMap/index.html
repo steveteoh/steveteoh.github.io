@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Malaysia Covid 19 Heatmap</title>
+    <title>Malaysia Covid-19 and Earthquake Heatmap</title>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="Malaysia Covid-19 Heatmap"/>
     <meta property="og:description" content="A Heatmap that displays covid 19 cases in Malaysia, updates every week"/>
@@ -19,17 +19,18 @@
     <link rel="stylesheet" type="text/css" href="./style.css"/>
   </head>
   <body>
+    <div></div>
     <div id="nav">
-      <button onclick="updateHeatmap()" class="nav-item float-right">Update Heatmap</button>
-      <button onclick="heatmapButton()" class="nav-item float-right" id="heatmapButton">Hide Heatmap</button>
-      <button onclick="locationButton()" class="nav-item float-right" id="locationButton">Show Location</button>
+      <button onclick="updateHeatmap()" class="nav-item float-right">Update C19 Heatmap</button>
+      <button onclick="heatmapButton()" class="nav-item float-right" id="heatmapButton">Hide C19 Heatmap</button>
+      <button onclick="locationButton()" class="nav-item float-right" id="locationButton">Show My Location</button>
     </div>
     <div id="info">
-      <div id="lastUpdateAt" class="info-item float-left">Last update: </div>
-      <div id="westUpdatedAt" class="info-item float-left">West Malaysia last updated on:</div>
-      <div id="eastUpdatedAt" class="info-item float-left">East Malaysia last updated on:</div>
-      <div class="info-item float-right">Heatmap is based on cases within 1 km radius accross 2 weeks</div>
-      <div class="info-item float-left">Heatmap will update every week</div>
+      <div id="lastUpdateAt" class="info-item float-right">Last update: </div>
+      <div id="westUpdatedAt" class="info-item float-right">West Malaysia last updated on:</div>
+      <div id="eastUpdatedAt" class="info-item float-right">East Malaysia last updated on:</div><br />
+      <div class="info-item float-right">Heatmap is based on cases within 1 km radius accross 2 weeks</div> <br />
+      <div class="info-item float-right">Heatmap will update every week</div>
     </div>
     <div id="map"></div>
   </body>
