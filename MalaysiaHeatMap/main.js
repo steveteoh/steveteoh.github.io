@@ -94,15 +94,15 @@ var updateHeatmap = async () => {
     heatmaps.push(heatmap);
   }
   document.getElementById('lastUpdateAt').innerText = `Last update at: ${new Date().toLocaleString()}`;
-  document.getElementById('eastUpdatedAt').innerText = `East M'sia last updated on: ${new Date(areas[0].updatedAt).toLocaleString()}`;
-  document.getElementById('westUpdatedAt').innerText = `West M'sia last updated on: ${new Date(areas[1].updatedAt).toLocaleString()}`;
-  if(document.getElementById('heatmapButton').textContent === 'Hide Heatmap') heatmaps.forEach(hm => hm.setMap(map));
+  document.getElementById('eastUpdatedAt').innerText = `East Malaysia last updated on: ${new Date(areas[0].updatedAt).toLocaleString()}`;
+  document.getElementById('westUpdatedAt').innerText = `West Malaysia last updated on: ${new Date(areas[1].updatedAt).toLocaleString()}`;
+  if(document.getElementById('heatmapButton').textContent === 'Hide C-19 Heatmap') heatmaps.forEach(hm => hm.setMap(map));
 }
 let userLocation = undefined;
 var locationButton = async () => {
   const button = document.getElementById('locationButton');
   switch(button.textContent){
-    case 'Show Location': {
+    case 'Show My Location': {
       if(userLocation !== undefined) return;
       userLocation = null;
       const location = await new Promise((rs, rj) => navigator.geolocation.getCurrentPosition(rs, rj))
@@ -131,13 +131,13 @@ var locationButton = async () => {
           radius: location.coords.accuracy,
         })
       }
-      button.textContent = 'Hide Location';
+      button.textContent = 'Hide My Location';
     } break;
-    case 'Hide Location': {
+    case 'Hide My Location': {
       userLocation.pointer.setMap(null);
       userLocation.circle.setMap(null);
       userLocation = undefined;
-      button.textContent = 'Show Location';
+      button.textContent = 'Show My Location';
     } break;
   }
 }
@@ -145,23 +145,52 @@ var heatmapButton = () => {
   if(map === null || heatmaps.length === 0) return;
   const button = document.getElementById('heatmapButton');
   switch(button.textContent){
-    case 'Show Heatmap': {
+    case 'Show C-19 Heatmap': {
       heatmaps.forEach(hm => hm.setMap(map));
-      button.textContent = 'Hide Heatmap';
+      button.textContent = 'Hide C-19 Heatmap';
     } break;
-    case 'Hide Heatmap': {
+    case 'Hide C-19 Heatmap': {
       heatmaps.forEach(hm => hm.setMap(null));
-      button.textContent = 'Show Heatmap';
+      button.textContent = 'Show C-19 Heatmap';
     } break;
   }
 }
 
 var initMap = async () => {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 3.03950, lng: 101.79403 },
-    zoom: 5, controlSize: 30,
+    center: { lat: 3.04, lng: 101.79 },
+    zoom: 5, controlSize: 40,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     streetViewControl: true
   });
   updateHeatmap();
+  const deckOverlay = new deck.GoogleMapsOverlay({
+    layers: [
+      new deck.GeoJsonLayer({
+        id: "earthquakes",
+        data: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",
+        filled: true,
+        pointRadiusMinPixels: 2,
+        pointRadiusMaxPixels: 200,
+        opacity: 0.4,
+        pointRadiusScale: 0.3,
+        getRadius: (f) => Math.pow(10, f.properties.mag),
+        getFillColor: [255, 70, 30, 180],
+        autoHighlight: true,
+        transitions: {
+          getRadius: {
+            type: "spring",
+            stiffness: 0.1,
+            damping: 0.15,
+            enter: (_) => [0],
+            duration: 10000,
+          },
+        },
+        onDataLoad: (_) => {
+          progress.done(); // hides progress bar
+        },
+      }),
+    ],
+  });
+  deckOverlay.setMap(map);
 }
