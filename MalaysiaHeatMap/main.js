@@ -81,37 +81,6 @@ const fetchAPI = api => {
   return fetch(`./data/${api}.json`)
     .then(res => res.json());
 }
-var deckOverlay = async() => {
-   const deckOverlay = new deck.GoogleMapsOverlay({
-    layers: [
-      new deck.GeoJsonLayer({
-        id: "earthquakes",
-        data: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",
-        filled: true,
-        pointRadiusMinPixels: 2,
-        pointRadiusMaxPixels: 200,
-        opacity: 0.4,
-        pointRadiusScale: 0.3,
-        getRadius: (f) => Math.pow(10, f.properties.mag),
-        getFillColor: [255, 70, 30, 180],
-        autoHighlight: true,
-        transitions: {
-          getRadius: {
-            type: "spring",
-            stiffness: 0.1,
-            damping: 0.15,
-            enter: (_) => [0],
-            duration: 10000,
-          },
-        },
-        onDataLoad: (_) => {
-          progress.done(); // hides progress bar
-        },
-      }),
-    ],
-  }); 
-  deckOverlay.setMap(map);
-}
 var updateHeatmap = async () => {
   areas = await Promise.all(
     'east,west'.split(',').map(area => fetchAPI(area))
@@ -195,5 +164,33 @@ var initMap = async () => {
     streetViewControl: true
   });
   updateHeatmap();
-  deckOverlay();
+  const deckOverlay = new deck.GoogleMapsOverlay({
+    layers: [
+      new deck.GeoJsonLayer({
+        id: "earthquakes",
+        data: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",
+        filled: true,
+        pointRadiusMinPixels: 2,
+        pointRadiusMaxPixels: 200,
+        opacity: 0.4,
+        pointRadiusScale: 0.3,
+        getRadius: (f) => Math.pow(10, f.properties.mag),
+        getFillColor: [255, 70, 30, 180],
+        autoHighlight: true,
+        transitions: {
+          getRadius: {
+            type: "spring",
+            stiffness: 0.1,
+            damping: 0.15,
+            enter: (_) => [0],
+            duration: 10000,
+          },
+        },
+        onDataLoad: (_) => {
+          progress.done(); // hides progress bar
+        },
+      }),
+    ],
+  }); 
+  deckOverlay.setMap(map);
 }
