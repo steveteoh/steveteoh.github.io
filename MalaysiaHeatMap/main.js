@@ -76,7 +76,7 @@ const generatePoints = ({ area, data }) => {
   return output;
 }
 
-var map = null, areas = null, largest = null, heatmaps = [], utarCentre = null;
+var map = null, areas = null, largest = null, heatmaps = [], deckOverlay = null, utarCentre = null;
 const fetchAPI = api => {
   return fetch(`./data/${api}.json`)
     .then(res => res.json());
@@ -178,7 +178,7 @@ var initMap = async () => {
     streetViewControl: true
   });
   updateHeatmap();
-  const deckOverlay = new deck.GoogleMapsOverlay({
+  deckOverlay = new deck.GoogleMapsOverlay({
     layers: [
       new deck.GeoJsonLayer({
         id: "earthquakes",
