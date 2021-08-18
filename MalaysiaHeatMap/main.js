@@ -76,7 +76,7 @@ const generatePoints = ({ area, data }) => {
   return output;
 }
 
-var map = null, areas = null, largest = null, heatmaps = [];
+var map = null, areas = null, largest = null, heatmaps = [], utarCentre = null;
 const fetchAPI = api => {
   return fetch(`./data/${api}.json`)
     .then(res => res.json());
@@ -168,8 +168,8 @@ var EQButton = () => {
     } break;
   }
 }
-var utarCentre = new google.maps.LatLng(3.04, 101.79); //Landmark - Utar since it's close to my house
 var initMap = async () => {
+  utarCentre = new google.maps.LatLng(3.04, 101.79); //Utar since it is close to my house
   map = new google.maps.Map(document.getElementById("map"), {
     center: utarCentre,
     zoom: 6, controlSize: 40,
