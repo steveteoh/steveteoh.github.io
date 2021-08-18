@@ -158,13 +158,13 @@ var heatmapButton = () => {
 var EQButton = () => {
   const button = document.getElementById('EQButton');
   switch(button.textContent){
-    case 'Hide Earthquake Map': {
+    case 'Show Earthquake Map': {
       deckOverlay.setMap(map);
       button.textContent = 'Hide Earthquake Map';
     } break;
     case 'Hide Earthquake Map': {
       deckOverlay.setMap(null);
-      button.textContent = 'Hide Earthquake Map';
+      button.textContent = 'Show Earthquake Map';
     } break;
   }
 }
