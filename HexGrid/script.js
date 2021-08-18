@@ -8,8 +8,9 @@ var places = [
   [3.0395, 101.7784],
   [3.0395, 101.7940],
   [3.0395, 101.8096],
-   /* [4.3, 109.5],          //this is in the middle of south china sea
-    [3.037685, 101.7939424], //my sensed area
+   /* [4.3, 109.5],            //this is in the middle of south china sea
+      [3.0395, 101.7940],      //UTAR lah
+      [3.037685, 101.7939424], //my sensed area
    */
 ]
 
@@ -19,7 +20,7 @@ $(document).ready(function(){
   
   bounds = new google.maps.LatLngBounds();
   
-  map = new google.maps.Map(document.getElementById("map_canvas"), {center: {lat: 0, lng: 0}, zoom: 2});
+  map = new google.maps.Map(document.getElementById("map_canvas"), {center: {lat: 0, lng: 0}, zoom: 4});
   
   // Adding a marker just so we can visualize where the actual data points are.
   // In the end, we want to see the hex tile that contain them
