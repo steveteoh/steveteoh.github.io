@@ -122,10 +122,10 @@ var locationButton = async () => {
         }),
         circle: new google.maps.Circle({
           strokeColor: '#addfff',
-          strokeOpacity: 0.8,
+          strokeOpacity: 0.6,
           strokeWeight: 2,
           fillColor: '#addfff',
-          fillOpacity: 0.3,
+          fillOpacity: 0.1,
           map,
           center: center,
           radius: location.coords.accuracy,
@@ -155,10 +155,23 @@ var heatmapButton = () => {
     } break;
   }
 }
-
+var EQButton = () => {
+  const button = document.getElementById('EQButton');
+  switch(button.textContent){
+    case 'Hide Earthquake Map': {
+      deckOverlay.setMap(map);
+      button.textContent = 'Hide Earthquake Map';
+    } break;
+    case 'Hide Earthquake Map': {
+      deckOverlay.setMap(null);
+      button.textContent = 'Hide Earthquake Map';
+    } break;
+  }
+}
+var utarCentre = new google.maps.LatLng(3.04, 101.79); //Landmark - Utar since it's close to my house
 var initMap = async () => {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 3.04, lng: 101.79 },
+    center: utarCentre,
     zoom: 6, controlSize: 40,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     streetViewControl: true
