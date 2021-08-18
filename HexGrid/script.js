@@ -20,7 +20,7 @@ $(document).ready(function(){
   
   bounds = new google.maps.LatLngBounds();
   
-  map = new google.maps.Map(document.getElementById("map_canvas"), {center: {lat: 0, lng: 0}, zoom: 4});
+  map = new google.maps.Map(document.getElementById("map_canvas"), {center: {lat: 0, lng: 0}, zoom: 6});
   
   // Adding a marker just so we can visualize where the actual data points are.
   // In the end, we want to see the hex tile that contain them
