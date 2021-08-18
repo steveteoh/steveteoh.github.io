@@ -1,11 +1,12 @@
 var map;
 var pointCount = 0;
 var locations = [];
-var gridWidth = 4000; // hex tile size in meters
+var gridWidth = 1000; // hex tile size in meters
 var bounds;
 
 var places = [
   [3.0395, 101.7840],
+  [3.0396, 101.7850],
   [4.3, 109.5],
   /*[48.85, 2.35],
     [48.8250, 2.444905],
