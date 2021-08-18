@@ -169,7 +169,8 @@ var EQButton = () => {
   }
 }
 var initMap = async () => {
-  utarCentre = new google.maps.LatLng(3.04, 101.79); //Utar since it is close to my house
+  utarCentre = new google.maps.LatLng(3.04, 101.79); 
+  //Utar since it is close to my house
   map = new google.maps.Map(document.getElementById("map"), {
     center: utarCentre,
     zoom: 6, controlSize: 40,
