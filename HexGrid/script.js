@@ -5,7 +5,7 @@ var gridWidth = 1000; // hex tile size in meters
 var bounds;
 
 var places = [
-  [3.0395, 101.7786],
+  [3.0395, 101.7784],
   [3.0395, 101.7940],
   [3.0395, 101.8096],
    /* [4.3, 109.5],          //this is in the middle of south china sea
