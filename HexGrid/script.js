@@ -73,7 +73,7 @@ $(document).ready(function(){
     marker = new google.maps.Marker({
              position: latlng, 
              map: map, 
-             label: '${p + 1}',
+             label: `${p + 1}`,
              title: '('+place[0]+','+place[1]+')'
     })
     
