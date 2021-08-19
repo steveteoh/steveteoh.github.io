@@ -5,9 +5,15 @@ var gridWidth = 1000; // hex tile size in meters
 var bounds;
 
 var places = [
+  [3.0395, 101.7764],
+  [3.0395, 101.7940],
+  [3.0395, 101.8116],
+
+  /* Horizontal
   [3.0395, 101.7784],
   [3.0395, 101.7940],
   [3.0395, 101.8096],
+  */
    /* [4.3, 109.5],            //this is in the middle of south china sea
       [3.0395, 101.7940],      //UTAR lah
       [3.037685, 101.7939424], //my sensed area
