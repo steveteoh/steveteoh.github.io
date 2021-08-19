@@ -173,7 +173,9 @@ var initMap = async () => {
   //Utar since it is close to my house
   map = new google.maps.Map(document.getElementById("map"), {
     center: utarCentre,
-    zoom: 6, controlSize: 40,
+    zoom: 6, 
+    controlSize: 40,
+    scaleControl: true,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     streetViewControl: true
   });
@@ -182,7 +184,8 @@ var initMap = async () => {
     layers: [
       new deck.GeoJsonLayer({
         id: "earthquakes",
-        data: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",
+        data: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+        // "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",
         filled: true,
         pointRadiusMinPixels: 2,
         pointRadiusMaxPixels: 200,
