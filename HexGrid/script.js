@@ -8,11 +8,11 @@ var places = [
    //vertical hex
   [3.04726, 101.7805],        //north west
   [3.05502, 101.7940],        //north
-  [3.04726, 101.8120],        //north east
+  [3.04726, 101.8075],        //north east
   [3.03950, 101.7940],        //UTAR - centre
   [3.03175, 101.7805],        //south west
   [3.02399, 101.7940],        //south
-  [3.03175, 101.8120],        //south east
+  [3.03175, 101.8075],        //south east
 
   /* Horizontal hex
   [3.0395, 101.7784],
