@@ -1,7 +1,7 @@
 var map;
 var pointCount = 0;
 var locations = [];
-var gridWidth = 1000; // hex tile size in meters
+var gridWidth = 500; // hex tile size in meters
 var bounds;
 
 var places = [
@@ -24,7 +24,7 @@ var places = [
    */
 ]
 
-var SQRT3 = 1.73205080756887729352744634150587236;
+var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
 $(document).ready(function(){
   
