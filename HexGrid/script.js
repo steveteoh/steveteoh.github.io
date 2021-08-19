@@ -14,14 +14,13 @@ var places = [
   [3.02399, 101.7940],        //south
   [3.03175, 101.8075],        //south east
 
-  /* Horizontal hex
+  /* Horizontal hex - not used
   [3.0395, 101.7784],
   [3.0395, 101.7940],
   [3.0395, 101.8096],
-  */
-   /* [4.3, 109.5],            //this is in the middle of south china sea
-      [3.0395, 101.7940],      //UTAR lah
-      [3.037685, 101.7939424], //my sensed area
+  [4.3, 109.5],            //this is in the middle of south china sea
+  [3.0395, 101.7940],      //UTAR lah
+  [3.037685, 101.7939424], //my sensed area
    */
 ]
 
@@ -31,7 +30,12 @@ $(document).ready(function(){
   
   bounds = new google.maps.LatLngBounds();
   
-  map = new google.maps.Map(document.getElementById("map_canvas"), {center: {lat: 0, lng: 0}, zoom: 6});
+  map = new google.maps.Map(document.getElementById("map_canvas"), {
+        center: {lat: 0, lng: 0}, 
+        scaleControl: true,
+        zoom: 6,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+   });
   
   // Adding a marker just so we can visualize where the actual data points are.
   // In the end, we want to see the hex tile that contain them
@@ -63,7 +67,8 @@ function drawVerticalHexagon(map, position, radius){
      coordinates.push(google.maps.geometry.spherical.computeOffset(position, radius, angle));    
   }
 
-  var color = 'rgb(255, 94, 0)';
+  //var color = 'rgb(255, 94, 0)';  //orange
+  var color = 'rgb(255, 0, 0)';    //red
 
   // Construct the polygon.
   var polygon = new google.maps.Polygon({
