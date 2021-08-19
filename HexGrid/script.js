@@ -67,14 +67,13 @@ $(document).ready(function(){
    });
   
   // Adding a marker just so we can visualize where the actual data points are.
-  // In the end, we want to see the hex tile that contain them
   places.forEach(function(place, p){
     
     latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});
     marker = new google.maps.Marker({
              position: latlng, 
              map: map, 
-             label: p,
+             label: '${p + 1}',
              title: '('+place[0]+','+place[1]+')'
     })
     
