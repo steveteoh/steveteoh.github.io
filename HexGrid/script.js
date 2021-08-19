@@ -39,13 +39,33 @@ $(document).ready(function(){
   locations = makeBins(places);
   
   locations.forEach(function(place, p){
-    drawHorizontalHexagon(map, place, gridWidth);
+    //drawHorizontalHexagon(map, place, gridWidth);
+    drawVerticalHexagon(map, place, gridWidth);
   })
     
     
 });
 
-  
+function drawVerticalHexagon(map, position, radius){
+  var coordinates = [];
+  for(var angle= 30;angle < 360; angle+=60) {
+     coordinates.push(google.maps.geometry.spherical.computeOffset(position, radius, angle));    
+  }
+
+  // Construct the polygon.
+  var polygon = new google.maps.Polygon({
+      paths: coordinates,
+      position: position,
+      strokeColor: '#FF0000',
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+      fillColor: '#FF0000',
+      fillOpacity: 0.35,
+      geodesic: true
+  });
+  polygon.setMap(map);
+}
+
   function drawHorizontalHexagon(map, position, radius){
     var coordinates = [];
     for(var angle= 0;angle < 360; angle+=60) {
