@@ -181,12 +181,12 @@ var initMap = async () => {
   });
   updateHeatmap();
 
-  //data: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+  // data:"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",
   deckOverlay = new deck.GoogleMapsOverlay({
     layers: [
       new deck.GeoJsonLayer({
         id: "earthquakes",
-        data:"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson",
+	data: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
         filled: true,
         pointRadiusMinPixels: 2,
         pointRadiusMaxPixels: 200,
