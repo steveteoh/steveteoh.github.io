@@ -71,7 +71,12 @@ $(document).ready(function(){
   places.forEach(function(place, p){
     
     latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});
-    marker = new google.maps.Marker({position: latlng, map: map, label: place[0]+','+place[1]})
+    marker = new google.maps.Marker({
+             position: latlng, 
+             map: map, 
+             label: p,
+             title: '('+place[0]+','+place[1]+')'
+    })
     
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
