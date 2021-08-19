@@ -5,9 +5,9 @@ var gridWidth = 1000; // hex tile size in meters
 var bounds;
 
 var places = [
-  [3.0395, 101.7764],
+  [3.0395, 101.7760],
   [3.0395, 101.7940],
-  [3.0395, 101.8116],
+  [3.0395, 101.8120],
 
   /* Horizontal
   [3.0395, 101.7784],
@@ -58,14 +58,16 @@ function drawVerticalHexagon(map, position, radius){
      coordinates.push(google.maps.geometry.spherical.computeOffset(position, radius, angle));    
   }
 
+  var color = 'rgb(255, 94, 0)';
+
   // Construct the polygon.
   var polygon = new google.maps.Polygon({
       paths: coordinates,
       position: position,
-      strokeColor: 'rgb(255, 94, 0)',
+      strokeColor: color,
       strokeOpacity: 0.8,
       strokeWeight: 2,
-      fillColor: 'rgb(255, 94, 0)',
+      fillColor: color,
       fillOpacity: 0.35,
       geodesic: true
   });
