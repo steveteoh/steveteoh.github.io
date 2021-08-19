@@ -1,11 +1,20 @@
 var map;
 var pointCount = 0;
 var locations = [];
-var gridWidth = 500; // hex tile size in meters
+var gridWidth = 500; // hex tile width
 var bounds;
 
+// Places should be automatically generated in future version
+// using just north, south, east and west boundary cordinates.
+const PLACE_BOUNDS = {
+      north: 10.316892,
+      south: -4.9452478,
+      west: 95.2936829,
+      east: 121.0019857,
+  };
+
 var places = [
-   //vertical hex
+  //vertical hex  
   [3.04728, 101.78049],       ///northwestx2
   [3.05503, 101.7940],        ///northx2
   [3.04728, 101.80753],       ///northeastx2
@@ -16,7 +25,7 @@ var places = [
   [3.04339, 101.78725],       //northwest
   [3.04726, 101.7940],        //north
   [3.04339, 101.80075],       //northeast
-  [3.03950, 101.7940],        //UTAR - centre
+  [3.03950, 101.7940],        //Centre
   [3.03562, 101.78725],       //southwest
   [3.03173, 101.7940],        //south
   [3.03562, 101.80075],       //southeast
@@ -37,15 +46,24 @@ var places = [
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
+//This is the limit for map panning. Not implemented for the time being.
+const MAP_BOUNDS = {
+        north: 10.316892,
+        south: -4.9452478,
+        west: 95.2936829,
+        east: 121.0019857,
+  };
+
 $(document).ready(function(){
-  
+
   bounds = new google.maps.LatLngBounds();
-  
+ 
   map = new google.maps.Map(document.getElementById("map_canvas"), {
         center: {lat: 0, lng: 0}, 
         scaleControl: true,
         zoom: 6,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        //latLngBounds: MAP_BOUNDS,
    });
   
   // Adding a marker just so we can visualize where the actual data points are.
@@ -53,7 +71,7 @@ $(document).ready(function(){
   places.forEach(function(place, p){
     
     latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});
-    marker = new google.maps.Marker({position: latlng, map: map})
+    marker = new google.maps.Marker({position: latlng, map: map, label: place[0]+','+place[1]})
     
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
@@ -65,7 +83,7 @@ $(document).ready(function(){
   locations = makeBins(places);
   
   locations.forEach(function(place, p){
-    //drawHorizontalHexagon(map, place, gridWidth);
+    // drawHorizontalHexagon(map, place, gridWidth); //horizontal hex are not so useful
     drawVerticalHexagon(map, place, gridWidth);
   })
     
