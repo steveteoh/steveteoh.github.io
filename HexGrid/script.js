@@ -5,7 +5,7 @@ var gridWidth = 1000; // hex tile size in meters
 var bounds;
 
 var places = [
-  [3.0395, 101.7760],
+  [3.0350, 101.7805],
   [3.0395, 101.7940],
   [3.0395, 101.8120],
 
