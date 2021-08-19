@@ -6,18 +6,18 @@ var bounds;
 
 var places = [
    //vertical hex
-  [3.04726, 101.7803],        //northwestx2
+  [3.04726, 101.78035],        //northwestx2
   [3.04338, 101.7872],        //northwest
   [3.05503, 101.7940],        //northx2
   [3.04726, 101.7940],        //north
-  [3.04338, 101.8009],        //northeast
+  [3.04338, 101.80085],        //northeast
   [3.04726, 101.8076],        //northeastx2
   [3.03950, 101.7940],        //UTAR - centre
-  [3.03175, 101.7803],        //southwestx2
+  [3.03175, 101.78035],        //southwestx2
   [3.03562, 101.7872],        //southwest
   [3.02399, 101.7940],        //southx2
   [3.03174, 101.7940],        //south
-  [3.03562, 101.8009],        //southeast
+  [3.03562, 101.80085],        //southeast
   [3.03175, 101.8076],        //southeastx2
 
   /* Horizontal hex - not used
