@@ -10,14 +10,14 @@ var places = [
   [3.04339, 101.78725],        //northwest
   [3.05503, 101.7940],        //northx2
   [3.04726, 101.7940],        //north
-  [3.04339, 101.80089],        //northeast
+  [3.04339, 101.80070],        //northeast
   [3.04728, 101.80755],        //northeastx2
   [3.03950, 101.7940],        //UTAR - centre
   [3.03173, 101.78049],        //southwestx2
   [3.03562, 101.78725],        //southwest
   [3.02399, 101.7940],        //southx2
   [3.03174, 101.7940],        //south
-  [3.03562, 101.80089],        //southeast
+  [3.03562, 101.80070],        //southeast
   [3.03173, 101.80755],        ///southeastx2
 
   /* Horizontal hex - not used
