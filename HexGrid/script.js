@@ -76,12 +76,12 @@ $(document).ready(function(){
              map: map, 
              label: `${p + 1}`,
              title: place[3],
-    })
+    });
 
     marker.addListener("click", () => {
     infowindow.open({anchor: marker, map,shouldFocus: false,});
+    });
 
-    
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
   });
@@ -100,28 +100,28 @@ $(document).ready(function(){
     
 });
 
-function drawVerticalHexagon(map, position, radius){
-  var coordinates = [];
-  for(var angle= 30;angle < 360; angle+=60) {
-     coordinates.push(google.maps.geometry.spherical.computeOffset(position, radius, angle));    
+ function drawVerticalHexagon(map, position, radius){
+   var coordinates = [];
+   for(var angle= 30;angle < 360; angle+=60) {
+      coordinates.push(google.maps.geometry.spherical.computeOffset(position, radius, angle));    
+   }
+
+   //var color = 'rgb(255, 94, 0)';  //orange
+   var color = 'rgb(255, 0, 0)';  //red
+
+   // Construct the polygon.
+   var polygon = new google.maps.Polygon({
+       paths: coordinates,
+       position: position,
+       strokeColor: color,
+       strokeOpacity: 0.8,
+       strokeWeight: 2,
+       fillColor: color,
+       fillOpacity: 0.35,
+       geodesic: true
+    });
+    polygon.setMap(map);
   }
-
-  //var color = 'rgb(255, 94, 0)';  //orange
-  var color = 'rgb(255, 0, 0)';  //red
-
-  // Construct the polygon.
-  var polygon = new google.maps.Polygon({
-      paths: coordinates,
-      position: position,
-      strokeColor: color,
-      strokeOpacity: 0.8,
-      strokeWeight: 2,
-      fillColor: color,
-      fillOpacity: 0.35,
-      geodesic: true
-  });
-  polygon.setMap(map);
-}
 
   function drawHorizontalHexagon(map, position, radius){
     var coordinates = [];
