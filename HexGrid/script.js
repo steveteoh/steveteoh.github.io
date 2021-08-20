@@ -35,6 +35,10 @@ var places = [
   [3.03172, 101.780510, 13,"southwest_2"],
   [3.03172, 101.807490, 14,"southeast_2"],
   [3.02394, 101.794000, 15,"south_2"],
+  [3.04728, 101.787255, 16,"NNW"],
+  [3.04728, 101.800745, 17,"NNE"],
+  [3.03172, 101.780510, 18,"SSW"],
+  [3.03172, 101.800745, 19,"SSE"],
 
   /* Horizontal hex - not used
   [3.0395, 101.7784],
@@ -76,7 +80,7 @@ $(document).ready(function(){
              title: place[3],
     });
     //Attaching related information onto the marker
-    attachMessage(marker, place[2]+' : '+place[3]+'<br>('+place[0]+','+place[1]+')<br>#cases: <br>deaths:');
+    attachMessage(marker, place[2]+' : '+place[3]+'<br>('+place[0]+','+place[1]+')<br>active cases: <br>deaths:');
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
