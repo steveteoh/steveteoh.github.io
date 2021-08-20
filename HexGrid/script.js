@@ -1,5 +1,6 @@
 /*
-Modified by Steve Teoh for local use @ 2021/08/19
+Modified by Steve Teoh @ 2021/08/19
+For Research Purposes only
 */
 
 var map;
@@ -49,16 +50,14 @@ var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
-        north: 10.316892,
+        north: 10.316892, 
         south: -4.9452478,
         west: 95.2936829,
         east: 121.0019857,
   };
 
 $(document).ready(function(){
-
   bounds = new google.maps.LatLngBounds();
- 
   map = new google.maps.Map(document.getElementById("map_canvas"), {
         center: {lat: 0, lng: 0}, 
         scaleControl: true,
@@ -69,7 +68,6 @@ $(document).ready(function(){
   
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
-    //infowindow = new google.maps.InfoWindow({content: place[2]+': ('+place[0]+','+place[1]+')' });
     latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});  
     marker = new google.maps.Marker({
              position: latlng, 
@@ -77,12 +75,8 @@ $(document).ready(function(){
              label: `${p + 1}`,
              title: place[3],
     });
-    attachMessage(marker, place[2]+': ('+place[0]+','+place[1]+')');
-
-    //marker.addListener("click", () => {
-    //infowindow.open(marker.get("map_canvas"), marker);
-    //infowindow.open({anchor: marker, map,shouldFocus: true,});
-    //});
+    //Attaching related information onto the marker
+    attachMessage(marker, place[2]+' : '+place[3]+'<br>('+place[0]+','+place[1]+')');
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
