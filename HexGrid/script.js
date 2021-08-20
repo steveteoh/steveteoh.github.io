@@ -19,21 +19,21 @@ const PLACE_BOUNDS = {
 
 var places = [
   //vertical hex  
-  [3.05503, 101.79400,1,'north_2'],
-  [3.04728, 101.78049,2,'northwest_2'],
-  [3.04728, 101.80753,3,'northeast_2'],
-  [3.0395, 101.780490,4,'west_2'],
-  [3.0395, 101.807530,5,'east_2'],
-  [3.04339, 101.78725,6,'northwest'],
-  [3.04726, 101.79400,7,'north'],
-  [3.04339, 101.80075,8,'northeast'],
-  [3.03950, 101.79400,9,'centre - UTAR'],
-  [3.03562, 101.78725,10,'southwest'],
-  [3.03173, 101.79400,11,'south'],
-  [3.03562, 101.80075,12,'southeast'],
-  [3.03173, 101.78049,13,'southwest_2'],
-  [3.03173, 101.80753,14,'southeast_2'],
-  [3.02398, 101.79400,15,'south_2'],
+  [3.05503, 101.79400, 1,"north_2"],
+  [3.04728, 101.78049, 2,"northwest_2"],
+  [3.04728, 101.80753, 3,"northeast_2"],
+  [3.0395, 101.780490, 4,"west_2"],
+  [3.0395, 101.807530, 5,"east_2"],
+  [3.04339, 101.78725, 6,"northwest"],
+  [3.04726, 101.79400, 7,"north"],
+  [3.04339, 101.80075, 8,"northeast"],
+  [3.03950, 101.79400, 9,"centre - UTAR"],
+  [3.03562, 101.78725, 10,"southwest"],
+  [3.03173, 101.79400, 11,"south"],
+  [3.03562, 101.80075, 12,"southeast"],
+  [3.03173, 101.78049, 13,"southwest_2"],
+  [3.03173, 101.80753, 14,"southeast_2"],
+  [3.02398, 101.79400, 15,"south_2"],
 
   /* Horizontal hex - not used
   [3.0395, 101.7784],
@@ -70,20 +70,17 @@ $(document).ready(function(){
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
     infowindow = new google.maps.InfoWindow({content: place[2]+': ('+place[0]+','+place[1]+')' });
-    latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});
-  
+    latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});  
     marker = new google.maps.Marker({
              position: latlng, 
              map: map, 
              label: `${p + 1}`,
              title: place[3],
     })
+
     marker.addListener("click", () => {
-    infowindow.open({
-      anchor: marker,
-      map,
-      shouldFocus: false,
-    });
+    infowindow.open({anchor: marker, map,shouldFocus: false,});
+
     
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
@@ -95,7 +92,8 @@ $(document).ready(function(){
   locations = makeBins(places);
   
   locations.forEach(function(place, p){
-    // drawHorizontalHexagon(map, place, gridWidth); //horizontal hex are not so useful
+    // horizontal hex are not so useful
+    // drawHorizontalHexagon(map, place, gridWidth);
     drawVerticalHexagon(map, place, gridWidth);
   })
     
@@ -109,7 +107,7 @@ function drawVerticalHexagon(map, position, radius){
   }
 
   //var color = 'rgb(255, 94, 0)';  //orange
-  var color = 'rgb(255, 0, 0)';    //red
+  var color = 'rgb(255, 0, 0)';  //red
 
   // Construct the polygon.
   var polygon = new google.maps.Polygon({
