@@ -109,7 +109,7 @@ $(document).ready(function(){
      content: Message,
    });
    marker.addListener("click", () => {
-     infowindow.open(marker.get("map"), marker);
+     infowindow.open(marker.get("map_canvas"), marker);
    });
  }
 
