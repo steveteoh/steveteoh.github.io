@@ -69,7 +69,7 @@ $(document).ready(function(){
   
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
-    infowindow = new google.maps.InfoWindow({content: place[2]+': ('+place[0]+','+place[1]+')' });
+    //infowindow = new google.maps.InfoWindow({content: place[2]+': ('+place[0]+','+place[1]+')' });
     latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});  
     marker = new google.maps.Marker({
              position: latlng, 
@@ -77,11 +77,12 @@ $(document).ready(function(){
              label: `${p + 1}`,
              title: place[3],
     });
+    attachMessage(marker, place[2]+': ('+place[0]+','+place[1]+')');
 
-    marker.addListener("click", () => {
-    infowindow.open(marker.get("map_canvas"), marker);
+    //marker.addListener("click", () => {
+    //infowindow.open(marker.get("map_canvas"), marker);
     //infowindow.open({anchor: marker, map,shouldFocus: true,});
-    });
+    //});
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
@@ -100,6 +101,17 @@ $(document).ready(function(){
     
     
 });
+
+ // Attaches an info window to a marker with the provided message. When the
+ // marker is clicked, the info window will open with the message.
+ function attachMessage(marker, Message) {
+   const infowindow = new google.maps.InfoWindow({
+     content: Message,
+   });
+   marker.addListener("click", () => {
+     infowindow.open(marker.get("map"), marker);
+   });
+ }
 
  function drawVerticalHexagon(map, position, radius){
    var coordinates = [];
