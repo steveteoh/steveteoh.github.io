@@ -79,7 +79,8 @@ $(document).ready(function(){
     });
 
     marker.addListener("click", () => {
-    infowindow.open({anchor: marker, marker.get("map"),shouldFocus: true,});
+    infowindow.open(marker.get("map_canvas"), marker);
+    //infowindow.open({anchor: marker, map,shouldFocus: true,});
     });
 
     // Fitting to bounds so the map is zoomed to the right place
