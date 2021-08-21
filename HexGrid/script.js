@@ -229,7 +229,7 @@ function makeBins(data){
        console.log("Final location:", px_nearest[1], py_nearest[1]);
     }
   
-    bins.push(bin,cases);
+    bins.push([bin, cases]);
     
   })
   return bins;
