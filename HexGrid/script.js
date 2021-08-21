@@ -1,5 +1,5 @@
 /*
-Modified by Steve Teoh @ 2021/08/19
+By Steve Teoh @ 2021/08/19
 For Research Purposes only.
 */
 
@@ -19,7 +19,7 @@ const PLACE_BOUNDS = {
   };
 
 var places = [
-  //vertical hex data -> json feed in future. 
+  //vertical hex data -> will be incorporated into a json feed in future. 
   [3.05506, 101.794000, 1,"North_2",0,0,1,'2021-08-15T12:11:01.587Z'],
   [3.04728, 101.780510, 2,"Northwest_2",0,0,1,'2021-08-15T12:11:01.587Z'],
   [3.04728, 101.807490, 3,"Northeast_2",0,0,1,'2021-08-15T12:11:01.587Z'],
@@ -67,7 +67,7 @@ $(document).ready(function(){
         scaleControl: true,
         zoom: 6,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        //latLngBounds: MAP_BOUNDS,
+        //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
    });
   
   // Adding a marker just so we can visualize where the actual data points are.
@@ -94,13 +94,13 @@ $(document).ready(function(){
   
   map.fitBounds(bounds);
   
-  // Now, we draw our hexagons! (or try to)
+  // Now, we draw our hexagons! 
   locations = makeBins(places);
   
   locations.forEach(function(place, p){
     // horizontal hex are not so useful
-    // drawHorizontalHexagon(map, place, gridWidth);
-    drawVerticalHexagon(map, place, gridWidth);
+    // drawHorizontalHexagon(map, place, gridWidth, place[4]);
+    drawVerticalHexagon(map, place, gridWidth, place[4]);
   })
     
     
@@ -117,14 +117,16 @@ $(document).ready(function(){
    });
  }
 
- function drawVerticalHexagon(map, position, radius){
+ function drawVerticalHexagon(map, position, radius, cases){
+   const green = 'rgb(0, 255, 0)';  //for less than 10 cases
+   const orange = 'rgb(255, 94, 0)';  //for 11 - 50 cases
+   const red = 'rgb(255, 0, 0)';      //for > 50 active cases
+   var color = (cases > 50)? red : (cases > 11)? orange : green;
+
    var coordinates = [];
    for(var angle= 30;angle < 360; angle+=60) {
       coordinates.push(google.maps.geometry.spherical.computeOffset(position, radius, angle));    
    }
-
-   //var color = 'rgb(255, 94, 0)';  //orange
-   var color = 'rgb(255, 0, 0)';  //red
 
    // Construct the polygon.
    var polygon = new google.maps.Polygon({
@@ -140,7 +142,11 @@ $(document).ready(function(){
     polygon.setMap(map);
   }
 
-  function drawHorizontalHexagon(map, position, radius){
+function drawHorizontalHexagon(map, position, radius) {
+    const green = 'rgb(0, 255, 0)';  //for less than 10 cases
+    const orange = 'rgb(255, 94, 0)';  //for 11 - 50 cases
+    const red = 'rgb(255, 0, 0)';      //for > 50 active cases
+    var color = (cases > 50) ? red : (cases > 11) ? orange : green;
     var coordinates = [];
     for(var angle= 0;angle < 360; angle+=60) {
        coordinates.push(google.maps.geometry.spherical.computeOffset(position, radius, angle));    
@@ -150,10 +156,10 @@ $(document).ready(function(){
     var polygon = new google.maps.Polygon({
         paths: coordinates,
         position: position,
-        strokeColor: '#FF0000',
+        strokeColor: color,
         strokeOpacity: 0.8,
         strokeWeight: 2,
-        fillColor: '#FF0000',
+        fillColor: color,
         fillOpacity: 0.35,
         geodesic: true
     });
@@ -161,7 +167,8 @@ $(document).ready(function(){
 }
 
 // Below is my attempt at porting binner.py to Javascript.
-// Source: https://github.com/coryfoo/hexbins/blob/master/hexbin/binner.py
+// Borrowed from: https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map
+// Original Source: https://github.com/coryfoo/hexbins/blob/master/hexbin/binner.py
 
 function distance(x1, y1, x2, y2){
   console.log(x1, y1, x2, y2);
