@@ -99,8 +99,8 @@ $(document).ready(function(){
   
   locations.forEach(function(place, p){
     // horizontal hex are not so useful
-    // drawHorizontalHexagon(map, place, gridWidth, place[4]);
-    drawVerticalHexagon(map, place, gridWidth, place[4]);
+    // drawHorizontalHexagon(map, place, gridWidth);
+    drawVerticalHexagon(map, place, gridWidth);
   })
     
     
@@ -117,15 +117,15 @@ $(document).ready(function(){
    });
  }
 
- function drawVerticalHexagon(map, position, radius, cases){
+ function drawVerticalHexagon(map, position, radius){
    const green = 'rgb(0, 255, 0)';  //for less than 10 cases
    const orange = 'rgb(255, 94, 0)';  //for 11 - 50 cases
    const red = 'rgb(255, 0, 0)';      //for > 50 active cases
-   var color = (cases > 50)? red : (cases > 11)? orange : green;
+   var color = (position[1] > 50)? red : (position[1] > 11)? orange : green;
 
    var coordinates = [];
    for(var angle= 30;angle < 360; angle+=60) {
-      coordinates.push(google.maps.geometry.spherical.computeOffset(position, radius, angle));    
+      coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
    }
 
    // Construct the polygon.
@@ -146,10 +146,10 @@ function drawHorizontalHexagon(map, position, radius) {
     const green = 'rgb(0, 255, 0)';  //for less than 10 cases
     const orange = 'rgb(255, 94, 0)';  //for 11 - 50 cases
     const red = 'rgb(255, 0, 0)';      //for > 50 active cases
-    var color = (cases > 50) ? red : (cases > 11) ? orange : green;
+    var color = (position[1] > 50) ? red : (position[1] > 11) ? orange : green;
     var coordinates = [];
     for(var angle= 0;angle < 360; angle+=60) {
-       coordinates.push(google.maps.geometry.spherical.computeOffset(position, radius, angle));    
+       coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
     }
 
     // Construct the polygon.
@@ -210,6 +210,7 @@ function makeBins(data){
   data.forEach(function(place, p){
     x = place[0];
     y = place[1];
+    cases = place[4];
     
     console.log("Original location:", x, y);
     
@@ -228,7 +229,7 @@ function makeBins(data){
        console.log("Final location:", px_nearest[1], py_nearest[1]);
     }
   
-    bins.push(bin);
+    bins.push(bin,cases);
     
   })
   return bins;
