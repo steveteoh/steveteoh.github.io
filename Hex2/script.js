@@ -31,11 +31,11 @@ const delta_ln = 0.006745;
     }
   }
   //even delta columns
-  for(let k = 0; (2*k - 1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++k){
-    lt = (2*k - 2) * delta_lt + PLACE_BOUNDS.south;
+  for(let k = 0; (2*k)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++k){
+    lt = (2*k) * delta_lt + PLACE_BOUNDS.south;
     console.log("lat=", lt);
-    for(let l = 0; (3.5*l) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
-      ln=(3.5 *l) * delta_lt + PLACE_BOUNDS.west;
+    for(let l = 0; (2.5*l) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
+      ln=(2.5 *l) * delta_lt + PLACE_BOUNDS.west;
       console.log("lon=", ln, "\n");
       places.push([lt, ln, k+','+l,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
