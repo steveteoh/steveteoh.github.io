@@ -7,17 +7,25 @@ var pointCount = 0;
 var locations = [];
 var gridWidth = 500; // hex tile width
 var bounds;
-// Places should be automatically generated in future version
-// using just north, south, east and west boundary cordinates.
+var places = [];
+var lat=0, lon =0;
+// Places are automatically generated using just north, south, east and west boundary cordinates.
 const PLACE_BOUNDS = {
       north: 10.316892,
       south: -4.9452478,
       west: 95.2936829,
       east: 121.0019857,
   };
-var places = [
+
+  for(let m = 0; lat= (2 *m + 1) * PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++m){
+    for(let n = 0; lon = (2 *n + 1) * PLACE_BOUNDS.east <= PLACE_BOUNDS.west; ++n){
+      places.push([lat, lon, m*n,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
+    }
+  }
+
+//var places = [
   //vertical hex data -> will be incorporated into a json feed in future. 
-  [3.05506, 101.794000, 1,"North_2",0,0,1,'2021-08-15T12:11:01.587Z'],
+  /*[3.05506, 101.794000, 1,"North_2",0,0,1,'2021-08-15T12:11:01.587Z'],
   [3.04728, 101.780510, 2,"Northwest_2",0,0,1,'2021-08-15T12:11:01.587Z'],
   [3.04728, 101.807490, 3,"Northeast_2",0,0,1,'2021-08-15T12:11:01.587Z'],
   [3.03950, 101.780510, 4,"west_2",0,0,1,'2021-08-15T12:11:01.587Z'],
@@ -44,7 +52,7 @@ var places = [
   [3.0395, 101.7940],      //UTAR lah
   [3.037685, 101.7939424], //my sensed area
    */
-]
+//]
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
