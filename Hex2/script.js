@@ -39,7 +39,7 @@ const delta_lon = 0.006745;
     lt = -(2*i +1) * delta_lat + PLACE_BOUNDS.north;
     for(let j = 0; (2*j + 1) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
       ln=(2 *j + 1) * delta_lon + PLACE_BOUNDS.west;
-      var label  = (2*i+1).toString() +"," + (j).toString() ;
+      var label  = (j).toString() +"," + (2*i+1).toString() ;
       places.push([lt, ln, label ,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
@@ -48,7 +48,7 @@ const delta_lon = 0.006745;
     lt = -(2*k) * delta_lat + PLACE_BOUNDS.north;
     for(let l = 0; (2*l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
       ln=(2*l) * delta_lon + PLACE_BOUNDS.west;
-      var label  = (2*k).toString() +"," + (l).toString() ;
+      var label  = (l).toString() +"," + (2*k).toString() ;
       places.push([lt, ln, label,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
