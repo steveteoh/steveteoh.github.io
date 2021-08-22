@@ -10,17 +10,25 @@ var bounds;
 var places = [];
 var lt=0, ln =0;
 
+//This is the limit for map panning. Not implemented for the time being.
+const MAP_BOUNDS = {
+  north: 10.316892, 
+  south: -4.9452478,
+  west: 95.2936829,
+  east: 121.0019857,
+};
+
 // Places are automatically generated using just north, south, east and west boundary cordinates.
 const PLACE_BOUNDS = {
-      north: 3.05506, //10.316892,
-      south: 3.02394, //-4.9452478,
-      west: 101.780511, //95.2936829,
-      east: 101.807490, //101.807490,
+      north: 10.316892,  //3.05506, 
+      south: -4.9452478, //3.02394,
+      west: 95.2936829,  //101.780511, 
+      east: 101.807490,  //101.807490, 
   };
 const delta_lt = 0.00389;
 const delta_ln = 0.006745;
 
-  //odd hex delta columns
+  //odd hex columns
   for(let i = 0; (2*i +1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++i){
     lt = (2*i +1) * delta_lt + PLACE_BOUNDS.south;
     for(let j = 0; (2*j + 1) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
@@ -28,7 +36,7 @@ const delta_ln = 0.006745;
       places.push([lt, ln, i+','+j ,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
-  //even hex delta columns
+  //even hex columns
   for(let k = 0; (2*k)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++k){
     lt = (2*k) * delta_lt + PLACE_BOUNDS.south;
     for(let l = 0; (2*l) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
@@ -36,7 +44,6 @@ const delta_ln = 0.006745;
       places.push([lt, ln, k+','+l,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
-
 
 //var places = [
   //vertical hex data -> will be incorporated into a json feed in future. 
@@ -70,14 +77,6 @@ const delta_ln = 0.006745;
 //]
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
-
-//This is the limit for map panning. Not implemented for the time being.
-const MAP_BOUNDS = {
-        north: 10.316892, 
-        south: -4.9452478,
-        west: 95.2936829,
-        east: 121.0019857,
-  };
 
 $(document).ready(function(){
   bounds = new google.maps.LatLngBounds();
@@ -120,8 +119,7 @@ $(document).ready(function(){
     // horizontal hex are not so useful
     // drawHorizontalHexagon(map, place, gridWidth);
     drawVerticalHexagon(map, place, gridWidth);
-  })
-    
+  })    
     
 });
 
@@ -137,10 +135,11 @@ $(document).ready(function(){
  }
 
  function drawVerticalHexagon(map, position, radius){
-   const green = 'rgb(0, 255, 0)';  //for less than 10 cases
-   const orange = 'rgb(255, 94, 0)';  //for 11 - 50 cases
-   const red = 'rgb(255, 0, 0)';      //for > 50 active cases
-   var color = (position[1] > 50)? red : (position[1] > 11)? orange : green;
+   const green = 'rgb(0, 255, 0)';     //for less than 10 cases
+   const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
+   const orange = 'rgb(255, 102, 0)';  //for 50 - 99 cases
+   const red = 'rgb(255, 0, 0)';       //for > 100 active cases
+   var color = (position[1] > 99)? red : (position[1] > 50)? orange : (position[1] > 50)? yellow : green;
    var coordinates = [];
    for(var angle= 30;angle < 360; angle+=60) {
       coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
@@ -160,10 +159,11 @@ $(document).ready(function(){
   }
 
 function drawHorizontalHexagon(map, position, radius) {
-    const green = 'rgb(0, 255, 0)';  //for less than 10 cases
-    const orange = 'rgb(255, 94, 0)';  //for 11 - 50 cases
-    const red = 'rgb(255, 0, 0)';      //for > 50 active cases
-    var color = (position[1] > 50) ? red : (position[1] > 11) ? orange : green;
+  const green = 'rgb(0, 255, 0)';     //for less than 10 cases
+  const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
+  const orange = 'rgb(255, 102, 0)';  //for 50 - 99 cases
+  const red = 'rgb(255, 0, 0)';       //for > 100 active cases
+  var color = (position[1] > 99)? red : (position[1] > 50)? orange : (position[1] > 50)? yellow: green;
     var coordinates = [];
     for(var angle= 0;angle < 360; angle+=60) {
        coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
