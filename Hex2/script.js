@@ -24,7 +24,7 @@ const delta_ln = 0.006745;
     lt = (2 *m + 1) * delta_lt + PLACE_BOUNDS.south;
     console.log("lat=", lt);
     for(let n = 0; (2 *n + 1) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++n){
-      ln=(4 *n + 1) * delta_lt + PLACE_BOUNDS.west;
+      ln=(3.5 *n + 1) * delta_lt + PLACE_BOUNDS.west;
       console.log("lon=", ln, "\n");
       places.push([lt, ln, m*n,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
