@@ -43,7 +43,7 @@ const delta_lon = 0.006745;
     }
   }
   //even hex columns
-  for(let k = 0; -(2*k)  * -delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k){
+  for(let k = 0; -(2*k)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k){
     lt = -(2*k) * delta_lat + PLACE_BOUNDS.north;
     for(let l = 0; (2*l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
       ln=(2*l) * delta_lon + PLACE_BOUNDS.west;
