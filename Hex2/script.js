@@ -11,14 +11,14 @@ var places = [];
 var lat=0, lon =0;
 // Places are automatically generated using just north, south, east and west boundary cordinates.
 const PLACE_BOUNDS = {
-      north: 10.316892,
-      south: -4.9452478,
-      west: 95.2936829,
-      east: 121.0019857,
+      north: 3.05506, //10.316892,
+      south: 3.02394, //-4.9452478,
+      west: 780510, //95.2936829,
+      east: 101.807490, //101.807490,
   };
 
   for(let m = 0; lat= (2 *m + 1) * PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++m){
-    for(let n = 0; lon = (2 *n + 1) * PLACE_BOUNDS.east <= PLACE_BOUNDS.west; ++n){
+    for(let n = 0; lon = (2 *n + 1) * PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++n){
       places.push([lat, lon, m*n,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
