@@ -31,7 +31,7 @@ const delta_ln = 0.006745;
     }
   }
   //even delta columns
-  for(let k = 0; (2*k - 2  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++k){
+  for(let k = 0; (2*k - 2)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++k){
     lt = (2*k - 2) * delta_lt + PLACE_BOUNDS.south;
     console.log("lat=", lt);
     for(let l = 0; (3.5*l - 2) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
