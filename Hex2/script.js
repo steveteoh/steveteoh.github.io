@@ -9,6 +9,7 @@ var gridWidth = 500; // hex tile width
 var bounds;
 var places = [];
 var lt=0, ln =0;
+
 // Places are automatically generated using just north, south, east and west boundary cordinates.
 const PLACE_BOUNDS = {
       north: 3.05506, //10.316892,
@@ -16,12 +17,14 @@ const PLACE_BOUNDS = {
       west: 101.780510, //95.2936829,
       east: 101.807490, //101.807490,
   };
+const delta_lt = 0.00389;
+const delta_ln = 0.006745;
 
-  for(let m = 0; (2 *m + 1) * PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++m){
-    lt = (2 *m + 1) * PLACE_BOUNDS.south;
+  for(let m = 0; (2 *m + 1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++m){
+    lt = (2 *m + 1) * delta_lt + PLACE_BOUNDS.south;
     console.log("lat=", lt);
-    for(let n = 0; (2 *n + 1) * PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++n){
-      ln=(2 *n + 1) * PLACE_BOUNDS.west;
+    for(let n = 0; (2 *n + 1) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++n){
+      ln=(2 *n + 1) * delta_lt + PLACE_BOUNDS.west;
       console.log("lon=", ln, "\n");
       places.push([lt, ln, m*n,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
