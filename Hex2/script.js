@@ -31,22 +31,22 @@ const PLACE_BOUNDS = {
      //west: 100.812550,  //101.780511, 
      //east: 101.958404,  //101.807490, 
   };
-const delta_lt = 0.00389;
-const delta_ln = 0.006745;
+const delta_lat = 0.00389;
+const delta_lon = 0.006745;
 
   //odd hex columns
-  for(let i = 0; (2*i +1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++i){
-    lt = (2*i +1) * delta_lt + PLACE_BOUNDS.south;
-    for(let j = 0; (2*j + 1) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
-      ln=(2 *j + 1) * delta_ln + PLACE_BOUNDS.west;
+  for(let i = 0; -(2*i +1)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++i){
+    lt = -(2*i +1) * delta_lat + PLACE_BOUNDS.north;
+    for(let j = 0; (2*j + 1) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
+      ln=(2 *j + 1) * delta_lon + PLACE_BOUNDS.west;
       places.push([lt, ln, i+','+j ,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
   //even hex columns
-  for(let k = 0; (2*k)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++k){
-    lt = (2*k) * delta_lt + PLACE_BOUNDS.south;
-    for(let l = 0; (2*l) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
-      ln=(2*l) * delta_ln + PLACE_BOUNDS.west;
+  for(let k = 0; -(2*k)  * -delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k){
+    lt = -(2*k) * delta_lat + PLACE_BOUNDS.north;
+    for(let l = 0; (2*l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
+      ln=(2*l) * delta_lon + PLACE_BOUNDS.west;
       places.push([lt, ln, k+','+l,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
