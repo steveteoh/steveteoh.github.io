@@ -14,21 +14,33 @@ var lt=0, ln =0;
 const PLACE_BOUNDS = {
       north: 3.05506, //10.316892,
       south: 3.02394, //-4.9452478,
-      west: 101.780510, //95.2936829,
+      west: 101.780511, //95.2936829,
       east: 101.807490, //101.807490,
   };
 const delta_lt = 0.00389;
 const delta_ln = 0.006745;
 
-  for(let m = 0; (2 *m + 1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++m){
-    lt = (2 *m + 1) * delta_lt + PLACE_BOUNDS.south;
+  //odd columns
+  for(let i = 0; (2 *i + 1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++i){
+    lt = (2 *i + 1) * delta_lt + PLACE_BOUNDS.south;
     console.log("lat=", lt);
-    for(let n = 0; (2 *n + 1) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++n){
-      ln=(3.5 *n + 1) * delta_lt + PLACE_BOUNDS.west;
+    for(let j = 0; (3.5 *j + 1) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
+      ln=(3.5 *j + 1) * delta_lt + PLACE_BOUNDS.west;
       console.log("lon=", ln, "\n");
-      places.push([lt, ln, m*n,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
+      places.push([lt, ln, i+','+j ,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
+  //even columns
+  for(let k = 0; (2 *k - 1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++k){
+    lt = (2 *k - 1) * delta_lt + PLACE_BOUNDS.south;
+    console.log("lat=", lt);
+    for(let l = 0; (3.5 *l - 1) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
+      ln=(3.5 *l - 1) * delta_lt + PLACE_BOUNDS.west;
+      console.log("lon=", ln, "\n");
+      places.push([lt, ln, k+','+l,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
+    }
+  }
+
 
 //var places = [
   //vertical hex data -> will be incorporated into a json feed in future. 
