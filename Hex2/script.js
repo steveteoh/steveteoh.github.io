@@ -39,7 +39,7 @@ const delta_lon = 0.006745;
     lt = -(2*i +1) * delta_lat + PLACE_BOUNDS.north;
     for(let j = 0; (2*j + 1) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
       ln=(2 *j + 1) * delta_lon + PLACE_BOUNDS.west;
-      var label  = (j).toString() +"," + (2*i+1).toString() ;
+      var label  = (2*j+1).toString() +"," + (i).toString() ;
       places.push([lt, ln, label ,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
@@ -48,7 +48,7 @@ const delta_lon = 0.006745;
     lt = -(2*k) * delta_lat + PLACE_BOUNDS.north;
     for(let l = 0; (2*l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
       ln=(2*l) * delta_lon + PLACE_BOUNDS.west;
-      var label  = (l).toString() +"," + (2*k).toString() ;
+      var label  = (2*l).toString() +"," + (k).toString() ;
       places.push([lt, ln, label,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
@@ -197,15 +197,15 @@ function drawHorizontalHexagon(map, position, radius) {
 function distance(x1, y1, x2, y2){
   console.log(x1, y1, x2, y2);
   result =  Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
-  console.log("Distance: ", result);
+  //console.log("Distance: ", result);
   return
 }
 
 function nearestCenterPoint(value, scale){
     div = value / (scale/2);
-    console.log("div", div);
+    //console.log("div", div);
     mod = value % (scale/2);
-    console.log("mod", mod);
+    //console.log("mod", mod);
     
     if(div % 2 == 1){
       increment = 1;
@@ -224,7 +224,7 @@ function nearestCenterPoint(value, scale){
     rounded_scaled = scale / 2 * (div + increment);
     
     result = [rounded, rounded_scaled]
-    console.log("nearest centerpoint to", value, result);
+    //console.log("nearest centerpoint to", value, result);
     return result;
 }
 
@@ -236,7 +236,7 @@ function makeBins(data){
     y = place[1];
     cases = place[4];
     
-    console.log("Original location:", x, y);
+    //console.log("Original location:", x, y);
     
     px_nearest = nearestCenterPoint(x, gridWidth);
     
@@ -247,10 +247,10 @@ function makeBins(data){
     
     if(z1 > z2){
       bin = new google.maps.LatLng({lat: px_nearest[0], lng: py_nearest[0]});
-       console.log("Final location:", px_nearest[0], py_nearest[0]);
+       //console.log("Final location:", px_nearest[0], py_nearest[0]);
     } else {
       bin = new google.maps.LatLng({lat: px_nearest[1], lng: py_nearest[1]});
-       console.log("Final location:", px_nearest[1], py_nearest[1]);
+       //console.log("Final location:", px_nearest[1], py_nearest[1]);
     }
     //multidimensional array consisting of (lat,lon) and cases
     bins.push([bin, cases]);
