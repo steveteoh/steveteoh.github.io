@@ -18,12 +18,13 @@ const MAP_BOUNDS = {
   east: 121.0019857,
 };
 
-// Places are automatically generated using just north, south, east and west boundary cordinates.
+// Places are automatically generated using just north, south, east and west boundary cordinates. 
+// E.g. Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
-      north: 10.316892,  //3.05506, 
-      south: -4.9452478, //3.02394,
-      west: 95.2936829,  //101.780511, 
-      east: 101.807490,  //101.807490, 
+      north: 3.809677,  //3.05506, 
+      south: 2.595847, //3.02394,
+      west: 100.812550,  //101.780511, 
+      east: 101.958404,  //101.807490, 
   };
 const delta_lt = 0.00389;
 const delta_ln = 0.006745;
