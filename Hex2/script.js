@@ -1,5 +1,5 @@
 /*
-By Steve Teoh @ 2021/08/19
+By Steve Teoh v 1.1 @ 2021/08/22
 For Research Purposes only.
 */
 var map;
@@ -20,9 +20,9 @@ const PLACE_BOUNDS = {
 const delta_lt = 0.00389;
 const delta_ln = 0.006745;
 
-  //odd columns
-  for(let i = 0; (2 *i + 1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++i){
-    lt = (2 *i + 1) * delta_lt + PLACE_BOUNDS.south;
+  //odd delta columns
+  for(let i = 0; (2*i +1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++i){
+    lt = (2*i +1) * delta_lt + PLACE_BOUNDS.south;
     console.log("lat=", lt);
     for(let j = 0; (3.5 *j + 1) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
       ln=(3.5 *j + 1) * delta_lt + PLACE_BOUNDS.west;
@@ -30,12 +30,12 @@ const delta_ln = 0.006745;
       places.push([lt, ln, i+','+j ,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
-  //even columns
-  for(let k = 0; (2 *k - 1)  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++k){
-    lt = (2 *k - 1) * delta_lt + PLACE_BOUNDS.south;
+  //even delta columns
+  for(let k = 0; (2*k - 2  * delta_lt + PLACE_BOUNDS.south <= PLACE_BOUNDS.north; ++k){
+    lt = (2*k - 2) * delta_lt + PLACE_BOUNDS.south;
     console.log("lat=", lt);
-    for(let l = 0; (3.5 *l - 1) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
-      ln=(3.5 *l - 1) * delta_lt + PLACE_BOUNDS.west;
+    for(let l = 0; (3.5*l - 2) * delta_ln + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
+      ln=(3.5 *l - 2) * delta_lt + PLACE_BOUNDS.west;
       console.log("lon=", ln, "\n");
       places.push([lt, ln, k+','+l,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
