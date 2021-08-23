@@ -8,6 +8,7 @@ var locations = [];
 var gridWidth = 500; // hex tile edge (a). 
 var bounds;
 var places = [];
+var markers = [];
 var lt=0, ln =0;
 
 //This is the limit for map panning. Not implemented for the time being.
@@ -125,8 +126,7 @@ $(document).ready(function(){
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
-  });
-  
+  });  
   map.fitBounds(bounds);
   
   // Now, we draw our hexagons! 
@@ -137,7 +137,11 @@ $(document).ready(function(){
     // drawHorizontalHexagon(map, place, gridWidth);
     drawVerticalHexagon(map, place, gridWidth);
   })    
-    
+  
+  // add event listeners for the buttons
+  document.getElementById("show-markers").addEventListener("click", showMarkers);
+  document.getElementById("hide-markers").addEventListener("click", hideMarkers);
+
 });
 
  // Attaches an info window to a marker with the provided message. When the
@@ -149,6 +153,23 @@ $(document).ready(function(){
    marker.addListener("click", () => {
      infowindow.open(marker.get("map_canvas"), marker);
    });
+ }
+
+ // Sets the map on all markers in the array.
+ function setMapOnAll(map) {
+   for (let i = 0; i < markers.length; i++) {
+     markers[i].setMap(map);
+   }
+ }
+
+ // Removes the markers from the map, but keeps them in the array.
+ function hideMarkers() {
+   setMapOnAll(null);
+ }
+
+ // Shows any markers currently in the array.
+ function showMarkers() {
+   setMapOnAll(map);
  }
 
  function drawVerticalHexagon(map, position, radius){
