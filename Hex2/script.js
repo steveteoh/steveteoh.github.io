@@ -109,7 +109,7 @@ $(document).ready(function(){
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
     latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});  
-    marker = new google.maps.Marker({
+    const marker = new google.maps.Marker({
              position: latlng, 
              map: map, 
              label: `${p + 1}`,
@@ -123,12 +123,13 @@ $(document).ready(function(){
           '<br>Weight:' + place[6] +
           '<br>Timestamp: ' + place[7]
       );
+    markers.push(marker);
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
   });  
   map.fitBounds(bounds);
-  
+
   // add event listeners for the buttons
   document.getElementById("show-markers").addEventListener("click", showMarkers);
   document.getElementById("hide-markers").addEventListener("click", hideMarkers);
@@ -156,7 +157,7 @@ $(document).ready(function(){
 
  // Sets the map on all markers in the array.
  function setMapOnAll(map) {
-   for (let i = 0; i < markers.length; i++) {
+   for (let i = 0; i < marker.length; i++) {
      markers[i].setMap(map);
    }
  }
