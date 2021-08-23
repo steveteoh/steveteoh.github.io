@@ -131,15 +131,6 @@ $(document).ready(function(){
       );
     markers.push(marker);
 
-    //process geojson features - e.g. sempadan daerah (new)
-    //
-    map.data.forEach((feature) => {
-      const geometry = feature.getGeometry();  
-      if (geometry) {
-        processPoints(geometry, bounds.extend, bounds);
-      }
-    });
-
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
   });  
@@ -236,6 +227,23 @@ function loadGeoJsonString(geoString) {
   }
   zoom(map);
 }
+
+/**
+ * Update a map's viewport to fit each geometry in a dataset
+ * process geojson features - e.g. sempadan daerah (new)
+ */
+ function zoom(map) {
+  const bounds = new google.maps.LatLngBounds();
+  map.data.forEach((feature) => {
+    const geometry = feature.getGeometry();
+
+    if (geometry) {
+      processPoints(geometry, bounds.extend, bounds);
+    }
+  });
+  map.fitBounds(bounds);
+}
+
 
 /*
    Process each point in a Geometry, regardless of how deep the points may lie.
