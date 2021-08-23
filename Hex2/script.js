@@ -11,6 +11,9 @@ var places = [];
 var markers = [];
 var lt=0, ln =0;
 
+//Administrative boundary file - geojson
+let requestURL = 'https://steveteoh.github.io/Hex2/hulu_langat.json';
+
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
   north: 10.316892, 
@@ -106,6 +109,9 @@ $(document).ready(function(){
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
    });
   
+   //Get the Administrative boundary geojson file
+   getFile(requestURL);
+
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
     latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});  
@@ -124,6 +130,15 @@ $(document).ready(function(){
           '<br>Timestamp: ' + place[7]
       );
     markers.push(marker);
+
+    //process geojson features - e.g. sempadan daerah (new)
+    //
+    map.data.forEach((feature) => {
+      const geometry = feature.getGeometry();  
+      if (geometry) {
+        processPoints(geometry, bounds.extend, bounds);
+      }
+    });
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
@@ -210,6 +225,44 @@ function drawHorizontalHexagon(map, position, radius) {
         geodesic: true
     });
     polygon.setMap(map);
+}
+
+function loadGeoJsonString(geoString) {
+  try {
+    const geojson = JSON.parse(geoString);
+    map.data.addGeoJson(geojson);
+  } catch (e) {
+    alert("Not a GeoJSON file!");
+  }
+  zoom(map);
+}
+
+/*
+   Process each point in a Geometry, regardless of how deep the points may lie.
+ */
+ function processPoints(geometry, callback, thisArg) {
+  if (geometry instanceof google.maps.LatLng) {
+    callback.call(thisArg, geometry);
+  } else if (geometry instanceof google.maps.Data.Point) {
+    callback.call(thisArg, geometry.get());
+  } else {
+    geometry.getArray().forEach((g) => {
+      processPoints(g, callback, thisArg);
+    });
+  }
+}
+
+function getFile(url) {
+  let request = new XMLHttpRequest();
+  request.open('GET', url); 
+  request.responseType = 'json';
+  request.send();
+
+  request.onload = function() {
+    const result = request.response;
+    //populate data 
+    loadGeoJsonString(result);    
+  }
 }
 
 // Below is my attempt at porting binner.py to Javascript.
