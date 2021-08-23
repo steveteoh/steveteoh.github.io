@@ -224,6 +224,7 @@ function loadGeoJsonString(geoString) {
     map.data.addGeoJson(geojson);
   } catch (e) {
     alert("Not a GeoJSON file!");
+    return 
   }
   zoom(map);
 }
@@ -263,7 +264,8 @@ function loadGeoJsonString(geoString) {
 function getFile(url) {
   let request = new XMLHttpRequest();
   request.open('GET', url); 
-  request.responseType = 'json';
+  //request.responseType = 'json';
+  request.responseType = 'text'; // now we're getting strings!
   request.send();
 
   request.onload = function() {
