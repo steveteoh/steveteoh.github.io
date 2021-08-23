@@ -5,7 +5,7 @@ For Research Purposes only.
 var map;
 var pointCount = 0;
 var locations = [];
-var gridWidth = 700; // hex tile edge (a). radius = edge (x) * smallest scale (2m)
+var gridWidth = 500; // hex tile edge (a). 
 var bounds;
 var places = [];
 var lt=0, ln =0;
