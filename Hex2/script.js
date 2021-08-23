@@ -25,10 +25,10 @@ const MAP_BOUNDS = {
 // Places are automatically generated using just north, south, east and west boundary cordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
-     north: 3.173617,  
+     north: 3.275179,  
      south: 2.866524, 
      west: 101.721198, 
-     east: 101.958441,
+     east: 101.970060,
      //Selangor   and      Malaysia (warning!! do not use!! super heavy computation)
      //north: 3.809677,   //3.05506, 
      //south: 2.595847,   //3.02394,
