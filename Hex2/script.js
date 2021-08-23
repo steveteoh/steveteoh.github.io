@@ -5,7 +5,7 @@ For Research Purposes only.
 var map;
 var pointCount = 0;
 var locations = [];
-var gridWidth = 500; // hex tile width
+var gridWidth = 700; // hex tile edge (a). radius = edge (x) * smallest scale (2m)
 var bounds;
 var places = [];
 var lt=0, ln =0;
@@ -34,21 +34,30 @@ const PLACE_BOUNDS = {
 const delta_lat = 0.00389;
 const delta_lon = 0.006745;
 
-  //odd hex columns
+const green = 'rgb(0, 255, 0)';     //for less than 10 cases
+const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
+const orange = 'rgb(255, 102, 0)';  //for 50 - 99 cases
+const red = 'rgb(255, 0, 0)';       //for > 100 active cases
+const greenno = 10;
+const yellowno = 50;
+const orangeno = 99;
+//const redno = infinity;
+
+  //generate odd hex columns
   for(let i = 0; -(2*i +1)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++i){
     lt = -(2*i +1) * delta_lat + PLACE_BOUNDS.north;
     for(let j = 0; (2*j + 1) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
       ln=(2 *j + 1) * delta_lon + PLACE_BOUNDS.west;
-      var label  = (2*j+1).toString() +"," + (i).toString() ;
+      var label  = "Hex:("+(2*j+1).toString() +"," + (i).toString()+")" ;
       places.push([lt, ln, label ,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
-  //even hex columns
+  //generate even hex columns
   for(let k = 0; -(2*k)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k){
     lt = -(2*k) * delta_lat + PLACE_BOUNDS.north;
     for(let l = 0; (2*l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
       ln=(2*l) * delta_lon + PLACE_BOUNDS.west;
-      var label  = (2*l).toString() +"," + (k).toString() ;
+      var label  = "Hex:("+(2*l).toString() +"," + (k).toString()+")";
       places.push([lt, ln, label,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
@@ -124,7 +133,7 @@ $(document).ready(function(){
   locations = makeBins(places);
   
   locations.forEach(function(place, p){
-    // horizontal hex are not so useful
+    // horizontal hex are not so useful, changed to vertical hex.
     // drawHorizontalHexagon(map, place, gridWidth);
     drawVerticalHexagon(map, place, gridWidth);
   })    
@@ -143,11 +152,7 @@ $(document).ready(function(){
  }
 
  function drawVerticalHexagon(map, position, radius){
-   const green = 'rgb(0, 255, 0)';     //for less than 10 cases
-   const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
-   const orange = 'rgb(255, 102, 0)';  //for 50 - 99 cases
-   const red = 'rgb(255, 0, 0)';       //for > 100 active cases
-   var color = (position[1] > 99)? red : (position[1] > 50)? orange : (position[1] > 50)? yellow : green;
+   var color = (position[1] > orangeno)? red : (position[1] > yellowno)? orange : (position[1] > greenno)? yellow : green;
    var coordinates = [];
    for(var angle= 30;angle < 360; angle+=60) {
       coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
@@ -167,12 +172,8 @@ $(document).ready(function(){
   }
 
 function drawHorizontalHexagon(map, position, radius) {
-  const green = 'rgb(0, 255, 0)';     //for less than 10 cases
-  const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
-  const orange = 'rgb(255, 102, 0)';  //for 50 - 99 cases
-  const red = 'rgb(255, 0, 0)';       //for > 100 active cases
-  var color = (position[1] > 99)? red : (position[1] > 50)? orange : (position[1] > 50)? yellow: green;
-    var coordinates = [];
+  var color = (position[1] > orangeno)? red : (position[1] > yellowno)? orange : (position[1] > greenno)? yellow : green;
+  var coordinates = [];
     for(var angle= 0;angle < 360; angle+=60) {
        coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
     }
@@ -234,14 +235,13 @@ function makeBins(data){
   data.forEach(function(place, p){
     x = place[0];
     y = place[1];
-    cases = place[4];
-    
+    cases = place[4];    
     //console.log("Original location:", x, y);
     
-    px_nearest = nearestCenterPoint(x, gridWidth);
-    
-    py_nearest = nearestCenterPoint(y, gridWidth * SQRT3);
-    
+    px_nearest = nearestCenterPoint(x, gridWidth);    
+    py_nearest = nearestCenterPoint(y, gridWidth * SQRT3);     //short diagonal (d2) = SQRT3 * edge (a)
+                                                               //incircle radius (r) = SQRT3 * edge(a) / 2
+                                                               //height (h) = 2 * radius (r) = short diagonal (d2)
     z1 = distance(x, y, px_nearest[0], py_nearest[0]);
     z2 = distance(x, y, px_nearest[1], py_nearest[1]);
     
