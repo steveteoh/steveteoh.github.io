@@ -2,7 +2,6 @@
 By Steve Teoh @ 2021/08/19
 For Research Purposes only.
 */
-
 var map;
 var pointCount = 0;
 var locations = [];
@@ -17,6 +16,15 @@ const PLACE_BOUNDS = {
       west: 95.2936829,
       east: 121.0019857,
   };
+
+const green = 'rgb(0, 255, 0)';     //for less than 10 cases
+const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
+const orange = 'rgb(255, 102, 0)';  //for 50 - 99 cases
+const red = 'rgb(255, 0, 0)';       //for > 100 active cases
+const greenlvl = 10;
+const yellowlvl = 50;
+const orangelvl = 99;
+//const redlvl = infinity;
 
 var places = [
   //vertical hex data -> will be incorporated into a json feed in future. 
@@ -39,7 +47,6 @@ var places = [
   [3.05117, 101.800745, 17,"NNE",0,0,1,'2021-08-15T12:11:01.587Z'],
   [3.02783, 101.787255, 18,"SSW",0,0,1,'2021-08-15T12:11:01.587Z'],
   [3.02783, 101.800745, 19,"SSE",0,0,1,'2021-08-15T12:11:01.587Z'],
-
   /* Horizontal hex - not used
   [3.0395, 101.7784],
   [3.0395, 101.7940],
@@ -90,8 +97,7 @@ $(document).ready(function(){
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
-  });
-  
+  });  
   map.fitBounds(bounds);
   
   // Now, we draw our hexagons! 
@@ -101,8 +107,7 @@ $(document).ready(function(){
     // horizontal hex are not so useful
     // drawHorizontalHexagon(map, place, gridWidth);
     drawVerticalHexagon(map, place, gridWidth);
-  })
-    
+  })    
     
 });
 
@@ -118,18 +123,13 @@ $(document).ready(function(){
  }
 
  function drawVerticalHexagon(map, position, radius){
-   const green = 'rgb(0, 255, 0)';  //for less than 10 cases
-   const orange = 'rgb(255, 94, 0)';  //for 11 - 50 cases
-   const red = 'rgb(255, 0, 0)';      //for > 50 active cases
-   var color = (position[1] > 50)? red : (position[1] > 11)? orange : green;
-
+   var color = (position[1] > orangelvl)? red : (position[1] > yellowlvl)? orange : (position[1] > greenlvl)? yellow : green;
    var coordinates = [];
    for(var angle= 30;angle < 360; angle+=60) {
       coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
    }
-
-   // Construct the polygon.
-   var polygon = new google.maps.Polygon({
+  // Construct the polygon.
+  var polygon = new google.maps.Polygon({
        paths: coordinates,
        position: position,
        strokeColor: color,
@@ -142,16 +142,12 @@ $(document).ready(function(){
     polygon.setMap(map);
   }
 
-function drawHorizontalHexagon(map, position, radius) {
-    const green = 'rgb(0, 255, 0)';  //for less than 10 cases
-    const orange = 'rgb(255, 94, 0)';  //for 11 - 50 cases
-    const red = 'rgb(255, 0, 0)';      //for > 50 active cases
-    var color = (position[1] > 50) ? red : (position[1] > 11) ? orange : green;
+ function drawHorizontalHexagon(map, position, radius) {
+    var color = (position[1] > orangelvl)? red : (position[1] > yellowlvl)? orange : (position[1] > greenlvl)? yellow : green;
     var coordinates = [];
     for(var angle= 0;angle < 360; angle+=60) {
        coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
     }
-
     // Construct the polygon.
     var polygon = new google.maps.Polygon({
         paths: coordinates,
@@ -164,24 +160,24 @@ function drawHorizontalHexagon(map, position, radius) {
         geodesic: true
     });
     polygon.setMap(map);
-}
+ }
 
 // Below is my attempt at porting binner.py to Javascript.
 // Borrowed from: https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map
 // Original Source: https://github.com/coryfoo/hexbins/blob/master/hexbin/binner.py
 
 function distance(x1, y1, x2, y2){
-  console.log(x1, y1, x2, y2);
+  //console.log(x1, y1, x2, y2);
   result =  Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
-  console.log("Distance: ", result);
+  //console.log("Distance: ", result);
   return
 }
 
 function nearestCenterPoint(value, scale){
     div = value / (scale/2);
-    console.log("div", div);
+    //console.log("div", div);
     mod = value % (scale/2);
-    console.log("mod", mod);
+    //console.log("mod", mod);
     
     if(div % 2 == 1){
       increment = 1;
@@ -200,7 +196,7 @@ function nearestCenterPoint(value, scale){
     rounded_scaled = scale / 2 * (div + increment);
     
     result = [rounded, rounded_scaled]
-    console.log("nearest centerpoint to", value, result);
+    //console.log("nearest centerpoint to", value, result);
     return result;
 }
 
@@ -212,10 +208,8 @@ function makeBins(data){
     y = place[1];
     cases = place[4];
     
-    console.log("Original location:", x, y);
-    
-    px_nearest = nearestCenterPoint(x, gridWidth);
-    
+    //console.log("Original location:", x, y);    
+    px_nearest = nearestCenterPoint(x, gridWidth);    
     py_nearest = nearestCenterPoint(y, gridWidth * SQRT3);
     
     z1 = distance(x, y, px_nearest[0], py_nearest[0]);
@@ -223,12 +217,12 @@ function makeBins(data){
     
     if(z1 > z2){
       bin = new google.maps.LatLng({lat: px_nearest[0], lng: py_nearest[0]});
-       console.log("Final location:", px_nearest[0], py_nearest[0]);
+      //console.log("Final location:", px_nearest[0], py_nearest[0]);
     } else {
       bin = new google.maps.LatLng({lat: px_nearest[1], lng: py_nearest[1]});
-       console.log("Final location:", px_nearest[1], py_nearest[1]);
+      //console.log("Final location:", px_nearest[1], py_nearest[1]);
     }
-  
+    //multidimensional array consisting of (lat,lon) and cases
     bins.push([bin, cases]);
     
   })
