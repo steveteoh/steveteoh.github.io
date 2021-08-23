@@ -129,6 +129,10 @@ $(document).ready(function(){
   });  
   map.fitBounds(bounds);
   
+  // add event listeners for the buttons
+  document.getElementById("show-markers").addEventListener("click", showMarkers);
+  document.getElementById("hide-markers").addEventListener("click", hideMarkers);
+  
   // Now, we draw our hexagons! 
   locations = makeBins(places);
   
@@ -137,11 +141,6 @@ $(document).ready(function(){
     // drawHorizontalHexagon(map, place, gridWidth);
     drawVerticalHexagon(map, place, gridWidth);
   })    
-  
-  // add event listeners for the buttons
-  document.getElementById("show-markers").addEventListener("click", showMarkers);
-  document.getElementById("hide-markers").addEventListener("click", hideMarkers);
-
 });
 
  // Attaches an info window to a marker with the provided message. When the
@@ -217,7 +216,7 @@ function drawHorizontalHexagon(map, position, radius) {
 // Original Source: https://github.com/coryfoo/hexbins/blob/master/hexbin/binner.py
 
 function distance(x1, y1, x2, y2){
-  console.log(x1, y1, x2, y2);
+  //console.log(x1, y1, x2, y2);
   result =  Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
   //console.log("Distance: ", result);
   return
