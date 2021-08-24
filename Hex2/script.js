@@ -3,12 +3,12 @@
 * For Research Purposes only. 
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
-var map;
-var mygeometry;
+var map = null;
+var mygeometry = null;
 var pointCount = 0;
 var locations = [];
 var gridWidth = 500; // hex tile edge (a). 
-var bounds;
+var bounds = null;
 var markers = [];
 var places = [];
 var lt=0, ln =0;
@@ -259,6 +259,7 @@ function loadGeoJsonString(geoString) {
   map.data.forEach((feature) => {
     const geometry = feature.getGeometry();
     mygeometry = geometry;
+    console.log ("mygeometry: " + geometry);
     if (geometry) {
       processPoints(geometry, bounds.extend, bounds);
     }
