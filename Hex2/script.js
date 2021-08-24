@@ -191,9 +191,8 @@ $(document).ready(function(){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
    var resultColor = color;      
-   var state = new google.maps.Data(); 
-   var area = state.getFeatureById ('406');
-   var mygeometry = area.getGeometry();
+   var feature = map.data.getFeatureById ('406');
+   var mygeometry = feature.getGeometry();
 
       for(var angle= 30;angle < 360; angle+=60) {
         resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;     
