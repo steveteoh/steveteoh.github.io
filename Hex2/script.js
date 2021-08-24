@@ -195,12 +195,13 @@ $(document).ready(function(){
    map.data.forEach((feature) => {
       const mygeometry = feature.getGeometry();
       console.log (mygeometry.LatLng.toString());
+    });
+
       for(var angle= 30;angle < 360; angle+=60) {
         console.log (position[0].toString()); 
         //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
-  });
   // Construct the polygon.
    var polygon = new google.maps.Polygon({
        paths: coordinates,
@@ -223,12 +224,12 @@ function drawHorizontalHexagon(map, position, radius) {
     map.data.forEach((feature) => {
        const mygeometry = feature.getGeometry();
        console.log (mygeometry.LatLng.toString()); 
-       for(var angle= 0;angle < 360; angle+=60) {
+      });
+      for(var angle= 0;angle < 360; angle+=60) {
          console.log (position[0].toString());
-         resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
+         //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
          coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
-    });
 
     // Construct the polygon.
     var polygon = new google.maps.Polygon({
