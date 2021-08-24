@@ -155,7 +155,7 @@ $(document).ready(function(){
     // drawHorizontalHexagon(map, place, gridWidth);
     drawVerticalHexagon(map, place, gridWidth);
   })    
-  
+
   hideMarkers();
 });
 
@@ -190,8 +190,13 @@ $(document).ready(function(){
  function drawVerticalHexagon(map, position, radius){
    var color = (position[1] > orangeno)? red : (position[1] > yellowno)? orange : (position[1] > greenno)? yellow : green;
    var coordinates = [];
+   var mygeometry;
+
+   map.data.forEach((feature) => {
+      mygeometry = feature.getGeometry();
+   });
    for(var angle= 30;angle < 360; angle+=60) {
-      resultColor = google.maps.geometry.poly.containsLocation(position[0])? grey: color;     
+      resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
       coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
    }
    // Construct the polygon.
@@ -211,8 +216,13 @@ $(document).ready(function(){
 function drawHorizontalHexagon(map, position, radius) {
   var color = (position[1] > orangeno)? red : (position[1] > yellowno)? orange : (position[1] > greenno)? yellow : green;
   var coordinates = [];
+  var mygeometry;
+
+    map.data.forEach((feature) => {
+       mygeometry = feature.getGeometry();
+    });
     for(var angle= 0;angle < 360; angle+=60) {
-       resultColor = google.maps.geometry.poly.containsLocation(position[0])? grey: color;     
+       resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
        coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
     }
     // Construct the polygon.
