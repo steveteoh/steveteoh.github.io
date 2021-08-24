@@ -192,6 +192,8 @@ $(document).ready(function(){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
    var resultColor = color;      
+   console.log ("draw: LatLng: " + position[0]);
+   console.log ("draw mygeometry: " + mygeometry);
 
       for(var angle= 30;angle < 360; angle+=60) {
         resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;     
