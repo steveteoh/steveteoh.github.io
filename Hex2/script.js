@@ -4,6 +4,7 @@
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
 var map;
+var mygeometry;
 var pointCount = 0;
 var locations = [];
 var gridWidth = 500; // hex tile edge (a). 
@@ -192,10 +193,6 @@ $(document).ready(function(){
    var coordinates = [];
    var resultColor = color;      
 
-   var feature = map.data.getFeatureById ('406');
-   console.log("feature: " + feature);
-   var mygeometry = feature.getGeometry();
-
       for(var angle= 30;angle < 360; angle+=60) {
         resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
@@ -219,11 +216,6 @@ function drawHorizontalHexagon(map, position, radius) {
   var coordinates = [];
   var resultColor = color;
 
-    map.data.forEach((feature) => {
-       const mygeometry = feature.getGeometry();
-       if (mygeometry)
-          console.log (mygeometry.LatLng.toString()); 
-      });
       for(var angle= 0;angle < 360; angle+=60) {
          //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
          coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
@@ -266,6 +258,7 @@ function loadGeoJsonString(geoString) {
   const bounds = new google.maps.LatLngBounds();
   map.data.forEach((feature) => {
     const geometry = feature.getGeometry();
+    mygeometry = geometry;
     if (geometry) {
       processPoints(geometry, bounds.extend, bounds);
     }
