@@ -192,13 +192,12 @@ $(document).ready(function(){
    var coordinates = [];
    var resultColor = color;
    
-   map.data.forEach((feature) => {
+    map.data.forEach((feature) => {
       const mygeometry = feature.getGeometry();
-      console.log ("Geometry:", mygeometry.LatLng.toString());
+      console.log ("Geometry:", mygeometry.toString());
     });
 
       for(var angle= 30;angle < 360; angle+=60) {
-        //console.log (position[0].toString()); 
         //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
@@ -226,7 +225,6 @@ function drawHorizontalHexagon(position, radius) {
        console.log (mygeometry.LatLng.toString()); 
       });
       for(var angle= 0;angle < 360; angle+=60) {
-         console.log (position[0].toString());
          //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
          coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
@@ -269,6 +267,7 @@ function loadGeoJsonString(geoString) {
   map.data.forEach((feature) => {
     const geometry = feature.getGeometry();
     if (geometry) {
+      console.log ("Geometry:", mygeometry.toString());
       processPoints(geometry, bounds.extend, bounds);
     }
   });
