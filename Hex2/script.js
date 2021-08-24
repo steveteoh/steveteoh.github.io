@@ -191,14 +191,15 @@ $(document).ready(function(){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
    var resultColor = color;
+   var mygeometry;
    
     map.data.forEach((feature) => {
-      const mygeometry = feature.getGeometry();
-      console.log ("Geometry:", mygeometry.toString());
+       mygeometry = feature.getGeometry();
     });
 
       for(var angle= 30;angle < 360; angle+=60) {
-        //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
+        var point = new google.maps.LatLng(position[0].LatLng);
+        resultColor = google.maps.geometry.poly.containsLocation(point, mygeometry)? grey: color;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
   // Construct the polygon.
@@ -222,7 +223,8 @@ function drawHorizontalHexagon(position, radius) {
 
     map.data.forEach((feature) => {
        const mygeometry = feature.getGeometry();
-       console.log (mygeometry.LatLng.toString()); 
+       if (mygeometry)
+          console.log (mygeometry.LatLng.toString()); 
       });
       for(var angle= 0;angle < 360; angle+=60) {
          //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
@@ -267,7 +269,6 @@ function loadGeoJsonString(geoString) {
   map.data.forEach((feature) => {
     const geometry = feature.getGeometry();
     if (geometry) {
-      console.log ("Geometry:", geometry.toString());
       processPoints(geometry, bounds.extend, bounds);
     }
   });
