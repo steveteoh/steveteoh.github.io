@@ -193,7 +193,7 @@ $(document).ready(function(){
    var resultColor = color;      
 
    var feature = map.data.getFeatureById ('406');
-   console.log(feature);
+   console.log("feature: " + feature);
    var mygeometry = feature.getGeometry();
 
       for(var angle= 30;angle < 360; angle+=60) {
