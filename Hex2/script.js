@@ -4,7 +4,7 @@
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
 var map = null;
-var mygeometry = null;
+const mygeometry;
 var pointCount = 0;
 var locations = [];
 var gridWidth = 500; // hex tile edge (a). 
