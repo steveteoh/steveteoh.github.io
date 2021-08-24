@@ -5,8 +5,9 @@ For Research Purposes only.
 var map;
 var pointCount = 0;
 var locations = [];
-var gridWidth = 500; // hex tile width
+var gridWidth = 500; // hex tile edge
 var bounds;
+var markers = [];
 
 // Places should be automatically generated in future version
 // using just north, south, east and west boundary cordinates.
@@ -87,7 +88,7 @@ $(document).ready(function(){
              title: place[3],
     });
     //Attaching related information onto the marker
-      attachMessage(marker, place[2] + ' : ' + place[3] +
+    attachMessage(marker, place[2] + ' : ' + place[3] +
       '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
       '<br>Weekly Active cases: '+place[4]+
       ' | Total Active cases: '+place[5]+
@@ -98,11 +99,15 @@ $(document).ready(function(){
       '<br>Weight:' + place[10] +
       '<br>Timestamp: ' + place[11]
       );
-
+    markers.push(marker);
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
   });  
   map.fitBounds(bounds);
+
+    // add event listeners for the buttons
+    document.getElementById("show-markers").addEventListener("click", showMarkers);
+    document.getElementById("hide-markers").addEventListener("click", hideMarkers);
   
   // Now, we draw our hexagons! 
   locations = makeBins(places);
@@ -126,6 +131,23 @@ $(document).ready(function(){
    });
  }
 
+  // Sets the map on all markers in the array.
+  function setMapOnAll(map) {
+    for (let i = 0; i < markers.length; i++) {
+      markers[i].setMap(map);
+    }
+  }
+ 
+  // Removes the markers from the map, but keeps them in the array.
+  function hideMarkers() {
+    setMapOnAll(null);
+  }
+ 
+  // Shows any markers currently in the array.
+  function showMarkers() {
+    setMapOnAll(map);
+  }
+  
  function drawVerticalHexagon(map, position, radius){
    var color = (position[1] > orangelvl)? red : (position[1] > yellowlvl)? orange : (position[1] > greenlvl)? yellow : green;
    var coordinates = [];
