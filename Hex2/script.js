@@ -194,6 +194,7 @@ $(document).ready(function(){
 
    map.data.forEach((feature) => {
       mygeometry = feature.getGeometry();
+      console.log (mygeometry.LatLng.toString()); 
    });
    for(var angle= 30;angle < 360; angle+=60) {
       //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
