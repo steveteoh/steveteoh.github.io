@@ -152,8 +152,8 @@ $(document).ready(function(){
   
   locations.forEach(function(place, p){
     // horizontal hex are not so useful, changed to vertical hex.
-    // drawHorizontalHexagon(place, gridWidth);
-    drawVerticalHexagon(place, gridWidth);
+    // drawHorizontalHexagon(map, place, gridWidth);
+    drawVerticalHexagon(map, place, gridWidth);
   })    
 
   hideMarkers();
@@ -187,12 +187,13 @@ $(document).ready(function(){
    setMapOnAll(map);
  }
 
- function drawVerticalHexagon(position, radius){
+ function drawVerticalHexagon(map, position, radius){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
    var resultColor = color;      
+
    var feature = map.data.getFeatureById (1);
-   console.log(feature.getProperty("id"));
+   console.log(feature.toString());
    var mygeometry = feature.getGeometry();
 
       for(var angle= 30;angle < 360; angle+=60) {
@@ -213,7 +214,7 @@ $(document).ready(function(){
     polygon.setMap(map);
   }
 
-function drawHorizontalHexagon(position, radius) {
+function drawHorizontalHexagon(map, position, radius) {
   var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
   var coordinates = [];
   var resultColor = color;
