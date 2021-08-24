@@ -78,7 +78,8 @@ const generatePoints = ({ area, data }) => {
 
 var map = null, areas = null, largest = null, heatmaps = [], deckOverlay = null, utarCentre = null;
 const fetchAPI = api => {
-  return fetch(`./data/${api}.json`)
+  //fetch(`./data/${api}.json`)
+  return fetch(`https://khoohaoyit.github.io/Covid19%20Malaysia%20Heatmap/data/${api}.json`)
     .then(res => res.json());
 }
 var updateHeatmap = async () => {
