@@ -195,9 +195,9 @@ $(document).ready(function(){
    map.data.forEach((feature) => {
       const mygeometry = feature.getGeometry();
       console.log (mygeometry.LatLng.toString());
-      console.log (position[0].toString()); 
       for(var angle= 30;angle < 360; angle+=60) {
-        resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
+        console.log (position[0].toString()); 
+        //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
   });
@@ -223,8 +223,8 @@ function drawHorizontalHexagon(map, position, radius) {
     map.data.forEach((feature) => {
        const mygeometry = feature.getGeometry();
        console.log (mygeometry.LatLng.toString()); 
-       console.log (position[0].toString()); 
        for(var angle= 0;angle < 360; angle+=60) {
+         console.log (position[0].toString());
          resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
          coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
