@@ -192,14 +192,11 @@ $(document).ready(function(){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
    var resultColor = color;      
-   console.log ("draw: LatLng: " + position[0]);
-   console.log ("draw mygeometry: " + mygeometry);
-
-      for(var angle= 30;angle < 360; angle+=60) {
-        resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;     
+   for(var angle= 30;angle < 360; angle+=60) {
+        //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
-      }
-  // Construct the polygon.
+   }
+   // Construct the polygon.
    var polygon = new google.maps.Polygon({
        paths: coordinates,
        position: position,
@@ -249,8 +246,6 @@ function loadGeoJsonString(geoString) {
     alert("Not a GeoJSON file!");
     return 
   }
-  mygeometry = map.data.feature.getGeometry();
-  console.log ("loadGeoJSON mygeometry: " + mygeometry);
   zoom(map);
 }
 
@@ -262,8 +257,8 @@ function loadGeoJsonString(geoString) {
   const bounds = new google.maps.LatLngBounds();
   map.data.forEach((feature) => {
     const geometry = feature.getGeometry();
+    //mygeometry = feature.getGeometry();
     if (geometry) {
-      console.log ("zoom mygeometry: " + mygeometry +" geometry:" + geometry);
       processPoints(geometry, bounds.extend, bounds);
     }
   });
