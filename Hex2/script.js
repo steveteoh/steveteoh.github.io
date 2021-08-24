@@ -43,12 +43,12 @@ const delta_lon = 0.006745;
 const grey = 'rgb(77, 77, 77)';     //for coloring unrelated borders
 const green = 'rgb(0, 255, 0)';     //for less than 10 cases
 const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
-const orange = 'rgb(255, 192, 0)';  //for 50 - 99 cases
+const orange = 'rgb(255, 82, 0)';   //for 50 - 99 cases
 const red = 'rgb(255, 0, 0)';       //for > 100 active cases
-const greenno = 10;
-const yellowno = 50;
-const orangeno = 99;
-//const redno = infinity;
+const greenlevel = 10;
+const yellowlevel = 50;
+const orangelevel = 99;
+//const redlevel = infinity;
 
   //generate odd hex columns
   for(let i = 0; -(2*i +1)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++i){
@@ -188,7 +188,7 @@ $(document).ready(function(){
  }
 
  function drawVerticalHexagon(map, position, radius){
-   var color = (position[1] > orangeno)? red : (position[1] > yellowno)? orange : (position[1] > greenno)? yellow : green;
+   var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
    var mygeometry;
 
@@ -215,7 +215,7 @@ $(document).ready(function(){
   }
 
 function drawHorizontalHexagon(map, position, radius) {
-  var color = (position[1] > orangeno)? red : (position[1] > yellowno)? orange : (position[1] > greenno)? yellow : green;
+  var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
   var coordinates = [];
   var mygeometry;
 
@@ -245,6 +245,10 @@ function loadGeoJsonString(geoString) {
   try {
     const geojson = JSON.parse(geoString);
     map.data.addGeoJson(geojson);
+    map.data.setStyle({
+      fillColor: green,
+      strokeWeight: 1
+  });
   } catch (e) {
     alert("Not a GeoJSON file!");
     return 
