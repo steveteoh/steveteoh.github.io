@@ -190,8 +190,9 @@ $(document).ready(function(){
  function drawVerticalHexagon(position, radius){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
-   var resultColor = color;       
-   var area = map.data.getFeatureById ('406');
+   var resultColor = color;      
+   var state = new google.maps.Data(); 
+   var area = state.getFeatureById ('406');
    var mygeometry = area.getGeometry();
 
       for(var angle= 30;angle < 360; angle+=60) {
