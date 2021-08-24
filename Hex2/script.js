@@ -4,7 +4,7 @@
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
 var map = null;
-const mygeometry;
+var mygeometry;
 var pointCount = 0;
 var locations = [];
 var gridWidth = 500; // hex tile edge (a). 
@@ -249,6 +249,8 @@ function loadGeoJsonString(geoString) {
     alert("Not a GeoJSON file!");
     return 
   }
+  mygeometry = map.data.feature.getGeometry();
+  console.log ("loadGeoJSON mygeometry: " + mygeometry);
   zoom(map);
 }
 
@@ -259,7 +261,6 @@ function loadGeoJsonString(geoString) {
  function zoom(map) {
   const bounds = new google.maps.LatLngBounds();
   map.data.forEach((feature) => {
-    mygeometry = feature.getGeometry();
     const geometry = feature.getGeometry();
     if (geometry) {
       console.log ("zoom mygeometry: " + mygeometry +" geometry:" + geometry);
