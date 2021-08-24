@@ -190,23 +190,12 @@ $(document).ready(function(){
  function drawVerticalHexagon(position, radius){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
-   var resultColor = color;
-   var mygeometry;
-   
-    map.data.forEach((feature) => {
-       mygeometry = feature.getGeometry();
-    });
-
-    var triangleCoords = [
-      {lat: 25.774, lng: -80.19},
-      {lat: 18.466, lng: -66.118},
-      {lat: 32.321, lng: -64.757}
-    ];
-    var bermudaTriangle = new google.maps.Polygon({paths: triangleCoords});
+   var resultColor = color;       
+   var area = map.data.getFeatureById ('406');
+   var mygeometry = area.getGeometry();
 
       for(var angle= 30;angle < 360; angle+=60) {
-        var point = new google.maps.LatLng(position[0].LatLng);
-        resultColor = google.maps.geometry.poly.containsLocation(position[0], bermudaTriangle)? color: grey;     
+        resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
   // Construct the polygon.
