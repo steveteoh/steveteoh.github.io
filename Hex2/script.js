@@ -40,9 +40,10 @@ const PLACE_BOUNDS = {
 const delta_lat = 0.00389;
 const delta_lon = 0.006745;
 
+const grey = 'rgb(77, 77, 77)';     //for coloring unrelated borders
 const green = 'rgb(0, 255, 0)';     //for less than 10 cases
 const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
-const orange = 'rgb(255, 102, 0)';  //for 50 - 99 cases
+const orange = 'rgb(255, 192, 0)';  //for 50 - 99 cases
 const red = 'rgb(255, 0, 0)';       //for > 100 active cases
 const greenno = 10;
 const yellowno = 50;
@@ -154,6 +155,8 @@ $(document).ready(function(){
     // drawHorizontalHexagon(map, place, gridWidth);
     drawVerticalHexagon(map, place, gridWidth);
   })    
+  
+  hideMarkers();
 });
 
  // Attaches an info window to a marker with the provided message. When the
@@ -188,16 +191,17 @@ $(document).ready(function(){
    var color = (position[1] > orangeno)? red : (position[1] > yellowno)? orange : (position[1] > greenno)? yellow : green;
    var coordinates = [];
    for(var angle= 30;angle < 360; angle+=60) {
+      resultColor = google.maps.geometry.poly.containsLocation(position[0])? grey: color;     
       coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
    }
    // Construct the polygon.
    var polygon = new google.maps.Polygon({
        paths: coordinates,
        position: position,
-       strokeColor: color,
+       strokeColor: resultColor,
        strokeOpacity: 0.8,
        strokeWeight: 2,
-       fillColor: color,
+       fillColor: resultColor,
        fillOpacity: 0.15,
        geodesic: true
     });
@@ -208,16 +212,17 @@ function drawHorizontalHexagon(map, position, radius) {
   var color = (position[1] > orangeno)? red : (position[1] > yellowno)? orange : (position[1] > greenno)? yellow : green;
   var coordinates = [];
     for(var angle= 0;angle < 360; angle+=60) {
+       resultColor = google.maps.geometry.poly.containsLocation(position[0])? grey: color;     
        coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
     }
     // Construct the polygon.
     var polygon = new google.maps.Polygon({
         paths: coordinates,
         position: position,
-        strokeColor: color,
+        strokeColor: resultColor,
         strokeOpacity: 0.8,
         strokeWeight: 2,
-        fillColor: color,
+        fillColor: resultColor,
         fillOpacity: 0.15,
         geodesic: true
     });
@@ -243,7 +248,6 @@ function loadGeoJsonString(geoString) {
   const bounds = new google.maps.LatLngBounds();
   map.data.forEach((feature) => {
     const geometry = feature.getGeometry();
-
     if (geometry) {
       processPoints(geometry, bounds.extend, bounds);
     }
