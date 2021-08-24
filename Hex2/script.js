@@ -192,8 +192,8 @@ $(document).ready(function(){
    var coordinates = [];
    var resultColor = color;      
 
-   var feature = map.data.getFeatureById (1);
-   console.log(feature.toString());
+   var feature = map.data.getFeatureById ('406');
+   console.log(feature);
    var mygeometry = feature.getGeometry();
 
       for(var angle= 30;angle < 360; angle+=60) {
