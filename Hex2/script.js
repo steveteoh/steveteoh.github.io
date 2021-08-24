@@ -190,6 +190,7 @@ $(document).ready(function(){
  function drawVerticalHexagon(map, position, radius){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
+   var resultColor = color;
    
    map.data.forEach((feature) => {
       const mygeometry = feature.getGeometry();
@@ -197,7 +198,6 @@ $(document).ready(function(){
       console.log (position[0].toString()); 
       for(var angle= 30;angle < 360; angle+=60) {
         resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
-        resultColor  =color;
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
   });
@@ -218,6 +218,7 @@ $(document).ready(function(){
 function drawHorizontalHexagon(map, position, radius) {
   var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
   var coordinates = [];
+  var resultColor = color;
 
     map.data.forEach((feature) => {
        const mygeometry = feature.getGeometry();
@@ -225,7 +226,6 @@ function drawHorizontalHexagon(map, position, radius) {
        console.log (position[0].toString()); 
        for(var angle= 0;angle < 360; angle+=60) {
          resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
-         //resultColor  =color;
          coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
     });
