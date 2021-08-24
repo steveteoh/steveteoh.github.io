@@ -206,7 +206,7 @@ $(document).ready(function(){
 
       for(var angle= 30;angle < 360; angle+=60) {
         var point = new google.maps.LatLng(position[0].LatLng);
-        resultColor = google.maps.geometry.poly.containsLocation(point, bermudaTriangle)? color: grey;     
+        resultColor = google.maps.geometry.poly.containsLocation(position[0], bermudaTriangle)? color: grey;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
   // Construct the polygon.
