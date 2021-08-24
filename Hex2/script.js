@@ -257,9 +257,9 @@ function loadGeoJsonString(geoString) {
  function zoom(map) {
   const bounds = new google.maps.LatLngBounds();
   map.data.forEach((feature) => {
+    mygeometry = feature.getGeometry();
     const geometry = feature.getGeometry();
-    mygeometry = geometry;
-    console.log ("mygeometry: " + geometry);
+    console.log ("mygeometry: " + mygeometry);
     if (geometry) {
       processPoints(geometry, bounds.extend, bounds);
     }
