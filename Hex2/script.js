@@ -197,9 +197,16 @@ $(document).ready(function(){
        mygeometry = feature.getGeometry();
     });
 
+    var triangleCoords = [
+      {lat: 25.774, lng: -80.19},
+      {lat: 18.466, lng: -66.118},
+      {lat: 32.321, lng: -64.757}
+    ];
+    var bermudaTriangle = new google.maps.Polygon({paths: triangleCoords});
+
       for(var angle= 30;angle < 360; angle+=60) {
         var point = new google.maps.LatLng(position[0].LatLng);
-        resultColor = google.maps.geometry.poly.containsLocation(point, mygeometry)? grey: color;     
+        resultColor = google.maps.geometry.poly.containsLocation(point, bermudaTriangle)? grey: color;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
   // Construct the polygon.
