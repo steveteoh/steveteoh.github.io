@@ -197,7 +197,7 @@ $(document).ready(function(){
       console.log (position[0].toString()); 
       for(var angle= 30;angle < 360; angle+=60) {
         resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
-        //resultColor  =color;
+        resultColor  =color;
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
       }
   });
