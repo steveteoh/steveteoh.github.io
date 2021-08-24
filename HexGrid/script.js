@@ -90,11 +90,11 @@ $(document).ready(function(){
       attachMessage(marker, place[2] + ' : ' + place[3] +
       '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
       '<br>Weekly Active cases: '+place[4]+
-      '| Total Active cases: '+place[5]+
+      ' | Total Active cases: '+place[5]+
       '<br>Weekly Deaths: ' + place[6]+
-      '| Total Deaths: ' + place[7]+
+      ' | Total Deaths: ' + place[7]+
       '<br>Weekly Recovered:' + place[8] +
-      '| Total Recovered:' + place[9] +
+      ' | Total Recovered:' + place[9] +
       '<br>Weight:' + place[10] +
       '<br>Timestamp: ' + place[11]
       );
