@@ -1,18 +1,20 @@
 /*
-By Steve Teoh v 1.1 @ 2021/08/22
-For Research Purposes only.
+* By Steve Teoh v 1.1 @ 2021/08/22
+* For Research Purposes only. 
+* Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
 var map;
 var pointCount = 0;
 var locations = [];
 var gridWidth = 500; // hex tile edge (a). 
 var bounds;
-var places = [];
 var markers = [];
+var places = [];
 var lt=0, ln =0;
 
-//Administrative boundary file - geojson
-let requestURL = 'https://steveteoh.github.io/Hex2/hulu_langat.json';
+//Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
+//let requestURL = 'https://steveteoh.github.io/Hex2/hulu_langat.json';
+let requestURL = 'https://steveteoh.github.io/Hex2/selangor.json';
 
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
@@ -53,7 +55,7 @@ const orangeno = 99;
     for(let j = 0; (2*j + 1) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
       ln=(2 *j + 1) * delta_lon + PLACE_BOUNDS.west;
       var label  = "Hex:("+(2*j+1).toString() +"," + (i).toString()+")" ;
-      places.push([lt, ln, label ,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
+      places.push([lt, ln, label ,'Noname',0,0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
   //generate even hex columns
@@ -62,31 +64,31 @@ const orangeno = 99;
     for(let l = 0; (2*l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
       ln=(2*l) * delta_lon + PLACE_BOUNDS.west;
       var label  = "Hex:("+(2*l).toString() +"," + (k).toString()+")";
-      places.push([lt, ln, label,'Noname',0,0,1,'2021-08-15T12:11:01.587Z']);
+      places.push([lt, ln, label,'Noname',0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
 
 //var places = [
   //vertical hex data -> will be incorporated into a json feed in future. 
-  /*[3.05506, 101.794000, 1,"North_2",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.04728, 101.780510, 2,"Northwest_2",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.04728, 101.807490, 3,"Northeast_2",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03950, 101.780510, 4,"west_2",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03950, 101.807490, 5,"East_2",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.04339, 101.787255, 6,"Northwest",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.04728, 101.794000, 7,"North",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.04339, 101.800745, 8,"Northeast",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03950, 101.794000, 9,"Centre", 48, 0,2,'2021-08-15T12:11:01.587Z'],
-  [3.03561, 101.787255, 10,"Southwest",113,1,3,'2021-08-15T12:11:01.587Z'],
-  [3.03172, 101.794000, 11,"South",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03561, 101.800745, 12,"Southeast",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03172, 101.780510, 13,"Southwest_2",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03172, 101.807490, 14,"Southeast_2",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.02394, 101.794000, 15,"South_2",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.05117, 101.787255, 16,"NNW",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.05117, 101.800745, 17,"NNE",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.02783, 101.787255, 18,"SSW",0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.02783, 101.800745, 19,"SSE",0,0,1,'2021-08-15T12:11:01.587Z'],
+  /*  [3.05506, 101.794000, 1,"North_2",200,200,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.04728, 101.780510, 2,"Northwest_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.04728, 101.807490, 3,"Northeast_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.03950, 101.780510, 4,"west_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.03950, 101.807490, 5,"East_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.04339, 101.787255, 6,"Northwest",51,51,0,0,0,0,2,'2021-08-15T12:11:01.587Z'],
+  [3.04728, 101.794000, 7,"North",30,30,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.04339, 101.800745, 8,"Northeast",40,40,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.03950, 101.794000, 9,"Centre",111,111,1,1,2,2,1,'2021-08-15T12:11:01.587Z'],
+  [3.03561, 101.787255, 10,"Southwest",135,135,0,0,3,3,2,'2021-08-15T12:11:01.587Z'],
+  [3.03172, 101.794000, 11,"South",45,45,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.03561, 101.800745, 12,"Southeast",55,55,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.03172, 101.780510, 13,"Southwest_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.03172, 101.807490, 14,"Southeast_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.02394, 101.794000, 15,"South_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.05117, 101.787255, 16,"NNW",120,120,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.05117, 101.800745, 17,"NNE",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.02783, 101.787255, 18,"SSW",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
+  [3.02783, 101.800745, 19,"SSE",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
   /* Horizontal hex - not used
   [3.0395, 101.7784],
   [3.0395, 101.7940],
@@ -109,7 +111,7 @@ $(document).ready(function(){
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
    });
   
-   //Get the Administrative boundary geojson file
+   //Get the Administrative boundary through geojson file
    getFile(requestURL);
 
   // Adding a marker just so we can visualize where the actual data points are.
@@ -124,10 +126,14 @@ $(document).ready(function(){
     //Attaching related information onto the marker
       attachMessage(marker, place[2] + ' : ' + place[3] +
           '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
-          '<br>Active cases: '+place[4]+
-          '<br>Deaths: ' + place[5]+
-          '<br>Weight:' + place[6] +
-          '<br>Timestamp: ' + place[7]
+          '<br>Weekly Active cases: '+place[4]+
+          ' | Total Active cases: '+place[5]+
+          '<br>Weekly Deaths: ' + place[6]+
+          ' | Total Deaths: ' + place[7]+
+          '<br>Weekly Recovered:' + place[8] +
+          ' | Total Recovered:' + place[9] +
+          '<br>Weight:' + place[10] +
+          '<br>Timestamp: ' + place[11]
       );
     markers.push(marker);
 
@@ -231,7 +237,7 @@ function loadGeoJsonString(geoString) {
 
 /**
  * Update a map's viewport to fit each geometry in a dataset
- * process geojson features - e.g. sempadan daerah (new)
+ * process geojson features - e.g. sempadan daerah
  */
  function zoom(map) {
   const bounds = new google.maps.LatLngBounds();
@@ -246,7 +252,7 @@ function loadGeoJsonString(geoString) {
 }
 
 /*
-   Process each point in a Geometry, regardless of how deep the points may lie.
+   Process each point in a Geometry using recursive function call, regardless of how deep the points may lie. 
  */
  function processPoints(geometry, callback, thisArg) {
   if (geometry instanceof google.maps.LatLng) {
