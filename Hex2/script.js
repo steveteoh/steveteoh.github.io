@@ -221,6 +221,7 @@ function drawHorizontalHexagon(map, position, radius) {
 
     map.data.forEach((feature) => {
        mygeometry = feature.getGeometry();
+       console.log (mygeometry.LatLng.toString()); 
     });
     for(var angle= 0;angle < 360; angle+=60) {
        //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
