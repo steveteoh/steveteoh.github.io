@@ -190,18 +190,18 @@ $(document).ready(function(){
  function drawVerticalHexagon(map, position, radius){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
-   var mygeometry;
-
+   
    map.data.forEach((feature) => {
-      mygeometry = feature.getGeometry();
-      console.log (mygeometry.LatLng.toString()); 
-   });
-   for(var angle= 30;angle < 360; angle+=60) {
-      //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
-      resultColor  =color;
-      coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
-   }
-   // Construct the polygon.
+      const mygeometry = feature.getGeometry();
+      console.log (mygeometry.LatLng.toString());
+      console.log (position[0].toString()); 
+      for(var angle= 30;angle < 360; angle+=60) {
+        resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
+        //resultColor  =color;
+        coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
+      }
+  });
+  // Construct the polygon.
    var polygon = new google.maps.Polygon({
        paths: coordinates,
        position: position,
@@ -218,17 +218,18 @@ $(document).ready(function(){
 function drawHorizontalHexagon(map, position, radius) {
   var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
   var coordinates = [];
-  var mygeometry;
 
     map.data.forEach((feature) => {
-       mygeometry = feature.getGeometry();
+       const mygeometry = feature.getGeometry();
        console.log (mygeometry.LatLng.toString()); 
+       console.log (position[0].toString()); 
+       for(var angle= 0;angle < 360; angle+=60) {
+         resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
+         //resultColor  =color;
+         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
+      }
     });
-    for(var angle= 0;angle < 360; angle+=60) {
-       //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
-       resultColor  =color;
-       coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
-    }
+
     // Construct the polygon.
     var polygon = new google.maps.Polygon({
         paths: coordinates,
