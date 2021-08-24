@@ -20,7 +20,7 @@ const PLACE_BOUNDS = {
 
 const green = 'rgb(0, 255, 0)';     //for less than 10 cases
 const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
-const orange = 'rgb(255, 192, 0)';  //for 50 - 99 cases
+const orange = 'rgb(255, 72, 0)';  //for 50 - 99 cases
 const red = 'rgb(255, 0, 0)';       //for > 100 active cases
 const greenlvl = 10;
 const yellowlvl = 50;
