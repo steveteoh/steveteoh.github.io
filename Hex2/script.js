@@ -261,8 +261,8 @@ function loadGeoJsonString(geoString) {
   map.data.forEach((feature) => {
     mygeometry = feature.getGeometry();
     const geometry = feature.getGeometry();
-    console.log ("mygeometry: " + mygeometry);
     if (geometry) {
+      console.log ("zoom mygeometry: " + mygeometry +" geometry:" + geometry);
       processPoints(geometry, bounds.extend, bounds);
     }
   });
