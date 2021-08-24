@@ -191,7 +191,8 @@ $(document).ready(function(){
    var color = (position[1] > orangelevel)? red : (position[1] > yellowlevel)? orange : (position[1] > greenlevel)? yellow : green;
    var coordinates = [];
    var resultColor = color;      
-   var feature = map.data.getFeatureById ('406');
+   var feature = map.data.getFeatureById (1);
+   console.log(feature.getProperty("id"));
    var mygeometry = feature.getGeometry();
 
       for(var angle= 30;angle < 360; angle+=60) {
