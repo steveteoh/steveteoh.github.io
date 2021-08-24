@@ -196,7 +196,8 @@ $(document).ready(function(){
       mygeometry = feature.getGeometry();
    });
    for(var angle= 30;angle < 360; angle+=60) {
-      resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
+      //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
+      resultColor  =color;
       coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
    }
    // Construct the polygon.
@@ -222,7 +223,8 @@ function drawHorizontalHexagon(map, position, radius) {
        mygeometry = feature.getGeometry();
     });
     for(var angle= 0;angle < 360; angle+=60) {
-       resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
+       //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
+       resultColor  =color;
        coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
     }
     // Construct the polygon.
