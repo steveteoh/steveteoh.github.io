@@ -11,13 +11,12 @@ var gridWidth = 500; // hex tile edge (a).
 var bounds = null;
 var markers = [];
 var places = [];
-var lt=0, ln =0;
 var lt1=0, ln1=0;
 var lt2=0, ln2=0;
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
-//let requestURL = 'https://steveteoh.github.io/Hex2/hulu_langat.json';
-let requestURL = 'https://steveteoh.github.io/Hex2/selangor.json';
+let districtRequestURL = 'https://steveteoh.github.io/Hex2/hulu_langat.json';
+let stateRequestURL = 'https://steveteoh.github.io/Hex2/selangor.json';
 
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
@@ -53,26 +52,7 @@ const yellowlevel = 50;
 const orangelevel = 99;
 //const redlevel = infinity;
 
-  //generate odd hex columns
-  // for(let i = 0; -(2*i +1)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++i){
-  //   lt = -(2*i +1) * delta_lat + PLACE_BOUNDS.north;
-  //   for(let j = 0; (2*j + 1) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
-  //     ln=(2 *j + 1) * delta_lon + PLACE_BOUNDS.west;
-  //     var label  = "Hex:("+(2*j+1).toString() +"," + (i).toString()+")" ;
-  //     places.push([lt, ln, label ,'Noname',0,0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
-  //   }
-  // }
-  //generate even hex columns
-  // for(let k = 0; -(2*k)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k){
-  //   lt = -(2*k) * delta_lat + PLACE_BOUNDS.north;
-  //   for(let l = 0; (2*l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
-  //     ln=(2*l) * delta_lon + PLACE_BOUNDS.west;
-  //     var label  = "Hex:("+(2*l).toString() +"," + (k).toString()+")";
-  //     places.push([lt, ln, label,'Noname',0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
-  //   }
-  // }
-
-  //combine odd and even hex
+  //combine odd and even hex columns from top left to bottom right
   for(let k = 0; -(2*k)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k){
     lt1 = -(2*k) * delta_lat + PLACE_BOUNDS.north;
     lt2 = -(2*k +1) * delta_lat + PLACE_BOUNDS.north;
@@ -85,38 +65,6 @@ const orangelevel = 99;
       places.push([lt2, ln2, label2,'Noname',0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
-  
-
-//var places = [
-  //vertical hex data -> will be incorporated into a json feed in future. 
-  /*  [3.05506, 101.794000, 1,"North_2",200,200,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.04728, 101.780510, 2,"Northwest_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.04728, 101.807490, 3,"Northeast_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03950, 101.780510, 4,"west_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03950, 101.807490, 5,"East_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.04339, 101.787255, 6,"Northwest",51,51,0,0,0,0,2,'2021-08-15T12:11:01.587Z'],
-  [3.04728, 101.794000, 7,"North",30,30,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.04339, 101.800745, 8,"Northeast",40,40,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03950, 101.794000, 9,"Centre",111,111,1,1,2,2,1,'2021-08-15T12:11:01.587Z'],
-  [3.03561, 101.787255, 10,"Southwest",135,135,0,0,3,3,2,'2021-08-15T12:11:01.587Z'],
-  [3.03172, 101.794000, 11,"South",45,45,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03561, 101.800745, 12,"Southeast",55,55,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03172, 101.780510, 13,"Southwest_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.03172, 101.807490, 14,"Southeast_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.02394, 101.794000, 15,"South_2",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.05117, 101.787255, 16,"NNW",120,120,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.05117, 101.800745, 17,"NNE",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.02783, 101.787255, 18,"SSW",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  [3.02783, 101.800745, 19,"SSE",0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z'],
-  /* Horizontal hex - not used
-  [3.0395, 101.7784],
-  [3.0395, 101.7940],
-  [3.0395, 101.8096],
-  [4.3, 109.5],            //this is in the middle of south china sea
-  [3.0395, 101.7940],      //UTAR lah
-  [3.037685, 101.7939424], //my sensed area
-   */
-//]
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
@@ -130,8 +78,8 @@ $(document).ready(function(){
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
    });
   
-   //Get the Administrative boundary through geojson file
-   getFile(requestURL);
+   //Get the State administrative boundary through geojson file
+   getFile(stateRequestURL);
 
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
@@ -165,6 +113,9 @@ $(document).ready(function(){
   document.getElementById("show-markers").addEventListener("click", showMarkers);
   document.getElementById("hide-markers").addEventListener("click", hideMarkers);
   
+ //Get the State administrative boundary through geojson file
+  getFile(districtRequestURL);
+
   // Now, we draw our hexagons! 
   locations = makeBins(places);
   
@@ -210,7 +161,8 @@ $(document).ready(function(){
    var coordinates = [];
    var resultColor = color;      
    for(var angle= 30;angle < 360; angle+=60) {
-        //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;     
+        //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;  
+        //note: if outside, skip and do not draw   
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
    }
    // Construct the polygon.
