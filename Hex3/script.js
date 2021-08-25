@@ -82,7 +82,7 @@ $(document).ready(function(){
   var layer1 = new google.maps.Data();
   layer1.loadGeoJson(districtRequestURL);
   layer1.setStyle({
-    fillColor: green,
+    fillColor: red,
     fillOpacity: 0.1,
     strokeWeight: 1
   });
