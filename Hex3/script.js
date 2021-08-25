@@ -86,7 +86,8 @@ $(document).ready(function(){
     fillOpacity: 0.1,
     strokeWeight: 1
   });
-
+  zoom(map);
+  
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
     latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});  
@@ -285,6 +286,7 @@ function loadGeoJsonString(fillcolor, geoString) {
     const geometry = feature.getGeometry();
     //mygeometry = feature.getGeometry();
     if (geometry) {
+      console.log ("geometry detected"); 
       processPoints(geometry, bounds.extend, bounds); //extending the bounds
     }
   });
