@@ -110,7 +110,7 @@ $(document).ready(function () {
         );
 
         //layer1.forEach
-        map.data.forEach((feature) => {
+        layer1.forEach((feature) => {
             const geometry = feature.getGeometry();
             console.log("geometry:" + geometry);
 
