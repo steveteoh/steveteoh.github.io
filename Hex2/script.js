@@ -12,6 +12,8 @@ var bounds = null;
 var markers = [];
 var places = [];
 var lt=0, ln =0;
+var lt1=0, ln1=0;
+var lt2=0, ln2=0;
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 //let requestURL = 'https://steveteoh.github.io/Hex2/hulu_langat.json';
@@ -25,7 +27,7 @@ const MAP_BOUNDS = {
   east: 121.0019857,
 };
 
-// Places are automatically generated using just north, south, east and west boundary cordinates. 
+// Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
      north: 3.275179,  
@@ -52,23 +54,38 @@ const orangelevel = 99;
 //const redlevel = infinity;
 
   //generate odd hex columns
-  for(let i = 0; -(2*i +1)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++i){
-    lt = -(2*i +1) * delta_lat + PLACE_BOUNDS.north;
-    for(let j = 0; (2*j + 1) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
-      ln=(2 *j + 1) * delta_lon + PLACE_BOUNDS.west;
-      var label  = "Hex:("+(2*j+1).toString() +"," + (i).toString()+")" ;
-      places.push([lt, ln, label ,'Noname',0,0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
-    }
-  }
+  // for(let i = 0; -(2*i +1)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++i){
+  //   lt = -(2*i +1) * delta_lat + PLACE_BOUNDS.north;
+  //   for(let j = 0; (2*j + 1) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++j){
+  //     ln=(2 *j + 1) * delta_lon + PLACE_BOUNDS.west;
+  //     var label  = "Hex:("+(2*j+1).toString() +"," + (i).toString()+")" ;
+  //     places.push([lt, ln, label ,'Noname',0,0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
+  //   }
+  // }
   //generate even hex columns
+  // for(let k = 0; -(2*k)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k){
+  //   lt = -(2*k) * delta_lat + PLACE_BOUNDS.north;
+  //   for(let l = 0; (2*l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
+  //     ln=(2*l) * delta_lon + PLACE_BOUNDS.west;
+  //     var label  = "Hex:("+(2*l).toString() +"," + (k).toString()+")";
+  //     places.push([lt, ln, label,'Noname',0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
+  //   }
+  // }
+
+  //combine odd and even hex
   for(let k = 0; -(2*k)  * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k){
-    lt = -(2*k) * delta_lat + PLACE_BOUNDS.north;
+    lt1 = -(2*k) * delta_lat + PLACE_BOUNDS.north;
+    lt2 = -(2*k +1) * delta_lat + PLACE_BOUNDS.north;
     for(let l = 0; (2*l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l){
-      ln=(2*l) * delta_lon + PLACE_BOUNDS.west;
-      var label  = "Hex:("+(2*l).toString() +"," + (k).toString()+")";
-      places.push([lt, ln, label,'Noname',0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
+      ln1=(2*l) * delta_lon + PLACE_BOUNDS.west;
+      ln2=(2 *l + 1) * delta_lon + PLACE_BOUNDS.west;
+      var label1  = "Hex:("+(2*l).toString() +"," + (k).toString()+")";
+      var label2  = "Hex:("+(2*l+1).toString() +"," + (k).toString()+")" ;
+      places.push([lt1, ln1, label1,'Noname',0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
+      places.push([lt2, ln2, label2,'Noname',0,0,0,0,0,0,1,'2021-08-15T12:11:01.587Z']);
     }
   }
+  
 
 //var places = [
   //vertical hex data -> will be incorporated into a json feed in future. 
@@ -234,6 +251,20 @@ function drawHorizontalHexagon(map, position, radius) {
     polygon.setMap(map);
 }
 
+function getFile(url) {
+  let request = new XMLHttpRequest();
+  request.open('GET', url); 
+  //request.responseType = 'json';
+  request.responseType = 'text'; // now we're getting strings!
+  request.send();
+
+  request.onload = function() {
+    const result = request.response;
+    //populate data 
+    loadGeoJsonString(result);    
+  }
+}
+
 function loadGeoJsonString(geoString) {
   try {
     const geojson = JSON.parse(geoString);
@@ -259,7 +290,7 @@ function loadGeoJsonString(geoString) {
     const geometry = feature.getGeometry();
     //mygeometry = feature.getGeometry();
     if (geometry) {
-      processPoints(geometry, bounds.extend, bounds);
+      processPoints(geometry, bounds.extend, bounds); //extending the bounds
     }
   });
   map.fitBounds(bounds);
@@ -269,28 +300,14 @@ function loadGeoJsonString(geoString) {
    Process each point in a Geometry using recursive function call, regardless of how deep the points may lie. 
  */
  function processPoints(geometry, callback, thisArg) {
-  if (geometry instanceof google.maps.LatLng) {
+  if (geometry instanceof google.maps.LatLng) {               //latlng only
     callback.call(thisArg, geometry);
-  } else if (geometry instanceof google.maps.Data.Point) {
+  } else if (geometry instanceof google.maps.Data.Point) {    //data point only
     callback.call(thisArg, geometry.get());
   } else {
-    geometry.getArray().forEach((g) => {
+    geometry.getArray().forEach((g) => {                      //array 
       processPoints(g, callback, thisArg);
     });
-  }
-}
-
-function getFile(url) {
-  let request = new XMLHttpRequest();
-  request.open('GET', url); 
-  //request.responseType = 'json';
-  request.responseType = 'text'; // now we're getting strings!
-  request.send();
-
-  request.onload = function() {
-    const result = request.response;
-    //populate data 
-    loadGeoJsonString(result);    
   }
 }
 
