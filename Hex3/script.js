@@ -86,7 +86,6 @@ $(document).ready(function(){
     fillOpacity: 0.1,
     strokeWeight: 1
   });
-  zoom(map);
 
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
