@@ -108,11 +108,9 @@ $(document).ready(function(){
           '<br>Weight:' + place[10] +
           '<br>Timestamp: ' + place[11]
       );
-    //determine if the marker is within the boundary.
-    var mygeometry = layer1.feature.getGeometry();
-    var inside = google.maps.geometry.poly.containsLocation(latlng, mygeometry)? true : false;
-    if (inside)
-       markers.push(marker);
+
+    if (isInside(latlng, layer1))
+        markers.push(marker);
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
@@ -142,6 +140,18 @@ $(document).ready(function(){
 
   hideMarkers();
 });
+
+  /** 
+  * ver 3 
+  * function to determine whether a point is inside a geometry. Previously method is ray casting algorithm.
+  */
+  function isInside(latlng, datalayer) {
+          datalayer.forEach(function(feature) {
+          mygeometry = feature.getGeometry();
+          if (datalayer.geometry.poly.containsLocation(latlng, mygeometry)) return true;
+       });
+    return false;
+  }
 
  // Attaches an info window to a marker with the provided message. When the
  // marker is clicked, the info window will open with the message.
@@ -218,7 +228,22 @@ function drawHorizontalHexagon(map, position, radius) {
     polygon.setMap(map);
 }
 
+//ver 2
+function getFile(url, fillcolor) {
+  let request = new XMLHttpRequest();
+  request.open('GET', url); 
+  //request.responseType = 'json';
+  request.responseType = 'text'; // now we're getting strings!
+  request.send();
 
+  request.onload = function() {
+    const result = request.response;
+    //populate data 
+    loadGeoJsonString(fillcolor, result);    
+  }
+}
+
+//ver 2
 function loadGeoJsonString(fillcolor, geoString) {
   try {
     const geojson = JSON.parse(geoString);
@@ -236,6 +261,7 @@ function loadGeoJsonString(fillcolor, geoString) {
 }
 
 /**
+ * ver 2
  * Update a map's viewport to fit each geometry in a dataset
  * process geojson features - e.g. sempadan daerah
  */
@@ -252,7 +278,8 @@ function loadGeoJsonString(fillcolor, geoString) {
 }
 
 /*
-   Process each point in a Geometry using recursive function call, regardless of how deep the points may lie. 
+ *  ver 2
+ *  Process each point in a Geometry using recursive function call, regardless of how deep the points may lie. 
  */
  function processPoints(geometry, callback, thisArg) {
   if (geometry instanceof google.maps.LatLng) {               //latlng only
