@@ -109,7 +109,7 @@ $(document).ready(function(){
           '<br>Timestamp: ' + place[11]
       );
 
-    if (isInside(layer1, latlng))
+    if (isInside(map, latlng))
        console.log ("inside coord:" + latlng);
     markers.push(marker);
 
