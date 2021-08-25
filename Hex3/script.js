@@ -282,6 +282,7 @@ function loadGeoJsonString(fillcolor, geoString) {
  */
  function zoom(map) {
   const bounds = new google.maps.LatLngBounds();
+  console.log ("bounds:" + bounds.toString()); 
   map.data.forEach((feature) => {
     const geometry = feature.getGeometry();
     //mygeometry = feature.getGeometry();
