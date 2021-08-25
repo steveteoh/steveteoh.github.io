@@ -148,8 +148,16 @@ $(document).ready(function(){
   function isInside(latlng, datalayer) {
           datalayer.forEach(function(feature) {
           mygeometry = feature.getGeometry();
-          if (datalayer.geometry.poly.containsLocation(latlng, mygeometry)) return true;
+          if (datalayer.geometry.poly.containsLocation(latlng, mygeometry)) {
+            console.log ("geometry found")
+            return true;
+          }
+          else
+          {
+            console.log ("searching geometry...")
+          }
        });
+    console.log ("geometry not found")
     return false;
   }
 
