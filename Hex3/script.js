@@ -108,9 +108,8 @@ $(document).ready(function(){
           '<br>Timestamp: ' + place[11]
       );
     //determine if the marker is within the boundary.
-    let latlng = {lat: place[0], lng: place [1]};
     const geometry = map.data.feature.getGeometry();
-    var inside = google.maps.geometry.poly.containsLocation( latlng, mygeometry)? true : false;
+    var inside = google.maps.geometry.poly.containsLocation(latlng, mygeometry)? true : false;
     if (inside)
        markers.push(marker);
 
