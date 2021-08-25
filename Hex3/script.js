@@ -87,7 +87,7 @@ $(document).ready(function(){
     strokeWeight: 1
   });
   zoom(map);
-  
+
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
     latlng = new google.maps.LatLng({lat: place[0], lng: place[1]});  
@@ -139,6 +139,7 @@ $(document).ready(function(){
       fillOpacity: 0.1,
       strokeWeight: 1
   });
+  zoom(map);
 
   hideMarkers();  //initially hide all markers for faster display
 });
