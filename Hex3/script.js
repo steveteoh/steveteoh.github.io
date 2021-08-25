@@ -79,7 +79,7 @@ $(document).ready(function(){
    });
   
   //Get the district administrative boundary through geojson file
-  map.data.loadGeoJson(stateRequestURL);
+  map.data.loadGeoJson(districtRequestURL);
   map.data.setStyle({
     fillColor: green,
     fillOpacity: 0.1,
@@ -108,10 +108,11 @@ $(document).ready(function(){
           '<br>Timestamp: ' + place[11]
       );
     //determine if the marker is within the boundary.
-    //let latlng = 
-    //google.maps.geometry.poly.containsLocation(position[0], mygeometry)?
-
-    markers.push(marker);
+    let latlng = {lat: place[0], lng: place [1]};
+    const geometry = map.data.feature.getGeometry();
+    var inside = google.maps.geometry.poly.containsLocation( latlng, mygeometry)? true : false;
+    if (inside)
+       markers.push(marker);
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
