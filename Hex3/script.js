@@ -78,13 +78,13 @@ $(document).ready(function(){
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
    });
   
-   //Get the State administrative boundary through geojson file
-   map.data.loadGeoJson(stateRequestURL);
-   map.data.setStyle({
-    fillColor: grey,
+  //Get the district administrative boundary through geojson file
+  map.data.loadGeoJson(stateRequestURL);
+  map.data.setStyle({
+    fillColor: green,
     fillOpacity: 0.1,
     strokeWeight: 1
-   });
+  });
 
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
@@ -121,14 +121,6 @@ $(document).ready(function(){
   // add event listeners for the buttons
   document.getElementById("show-markers").addEventListener("click", showMarkers);
   document.getElementById("hide-markers").addEventListener("click", hideMarkers);
-  
- //Get the district administrative boundary through geojson file
-  map.data.loadGeoJson(stateRequestURL);
-  map.data.setStyle({
-    fillColor: green,
-    fillOpacity: 0.1,
-    strokeWeight: 1
-  });
 
   // Now, we draw our hexagons! 
   locations = makeBins(places);
@@ -138,6 +130,14 @@ $(document).ready(function(){
     // drawHorizontalHexagon(map, place, gridWidth);
     drawVerticalHexagon(map, place, gridWidth);
   })    
+
+  //Get the State administrative boundary through geojson file
+     map.data.loadGeoJson(stateRequestURL);
+     map.data.setStyle({
+      fillColor: grey,
+      fillOpacity: 0.1,
+      strokeWeight: 1
+  });
 
   hideMarkers();
 });
