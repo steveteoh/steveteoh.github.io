@@ -109,7 +109,7 @@ $(document).ready(function(){
           '<br>Timestamp: ' + place[11]
       );
 
-    if (isInside(latlng, layer1))
+    if (isInside(layer1, latlng))
        console.log ("inside coord:" + latlng);
     markers.push(marker);
 
@@ -138,7 +138,6 @@ $(document).ready(function(){
       fillOpacity: 0.1,
       strokeWeight: 1
   });
-  zoom(map);
 
   hideMarkers();  //initially hide all markers for faster display
 });
@@ -147,7 +146,7 @@ $(document).ready(function(){
   * ver 3 
   * function to determine whether a point is inside a geometry. Previously method is ray casting algorithm.
   */
-  function isInside(latlng, datalayer) {
+  function isInside(datalayer, latlng) {
           datalayer.forEach(function(feature) {
           mygeometry = feature.getGeometry();
           poly = new google.maps.Polygon({
