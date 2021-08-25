@@ -73,7 +73,7 @@ $(document).ready(function(){
   map = new google.maps.Map(document.getElementById("map_canvas"), {
         center: {lat: 0, lng: 0}, 
         scaleControl: true,
-        zoom: 6,
+        zoom: 4,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
    });
@@ -139,7 +139,7 @@ $(document).ready(function(){
       strokeWeight: 1
   });
 
-  hideMarkers();
+  hideMarkers();  //initially hide all markers for faster display
 });
 
   /** 
@@ -149,16 +149,21 @@ $(document).ready(function(){
   function isInside(latlng, datalayer) {
           datalayer.forEach(function(feature) {
           mygeometry = feature.getGeometry();
-          if (datalayer.geometry.poly.containsLocation(latlng, mygeometry)) {
-            console.log ("geometry found")
+          poly = new google.maps.Polygon({
+            paths: mygeometry.get().getArray(),
+            map: map,
+            clickable: false
+          });
+          if (datalayer.geometry.poly.containsLocation(latlng, poly)) {
+            console.log ("poly found")
             return true;
           }
           else
           {
-            console.log ("searching geometry...")
+            console.log ("searching poly...")
           }
        });
-    console.log ("geometry not found")
+    console.log ("poly not found")
     return false;
   }
 
