@@ -86,7 +86,6 @@ $(document).ready(function(){
     fillOpacity: 0.1,
     strokeWeight: 1
   });
-  var mygeometry = layer1.feature.getGeometry();
 
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
@@ -110,7 +109,7 @@ $(document).ready(function(){
           '<br>Timestamp: ' + place[11]
       );
     //determine if the marker is within the boundary.
-    const geometry = map.data.feature.getGeometry().forEachLatLng();
+    var mygeometry = layer1.feature.getGeometry();
     var inside = google.maps.geometry.poly.containsLocation(latlng, mygeometry)? true : false;
     if (inside)
        markers.push(marker);
