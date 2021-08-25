@@ -79,7 +79,6 @@ $(document).ready(function(){
    });
   
    //Get the State administrative boundary through geojson file
-   // load the data
    map.data.loadGeoJson(stateRequestURL);
    //getFile(stateRequestURL, grey);
 
@@ -120,7 +119,8 @@ $(document).ready(function(){
   document.getElementById("hide-markers").addEventListener("click", hideMarkers);
   
  //Get the district administrative boundary through geojson file
-  getFile(districtRequestURL, green);
+  //getFile(districtRequestURL, green);
+  map.data.loadGeoJson(stateRequestURL);
 
   // Now, we draw our hexagons! 
   locations = makeBins(places);
