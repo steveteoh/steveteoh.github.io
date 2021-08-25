@@ -79,7 +79,9 @@ $(document).ready(function(){
    });
   
    //Get the State administrative boundary through geojson file
-   getFile(stateRequestURL, grey);
+   // load the data
+   map.data.loadGeoJson(stateRequestURL);
+   //getFile(stateRequestURL, grey);
 
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
@@ -102,6 +104,10 @@ $(document).ready(function(){
           '<br>Weight:' + place[10] +
           '<br>Timestamp: ' + place[11]
       );
+    //determine if the marker is within the boundary.
+    //let latlng = 
+    //google.maps.geometry.poly.containsLocation(position[0], mygeometry)?
+
     markers.push(marker);
 
     // Fitting to bounds so the map is zoomed to the right place
@@ -162,7 +168,7 @@ $(document).ready(function(){
    var resultColor = color;      
    for(var angle= 30;angle < 360; angle+=60) {
         //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;  
-        //note: if outside, skip and do not draw   
+        //note: if outside, skip and do not draw           
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));    
    }
    // Construct the polygon.
