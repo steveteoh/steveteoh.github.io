@@ -109,8 +109,8 @@ $(document).ready(function(){
           '<br>Timestamp: ' + place[11]
       );
 
-    if (isInside(latlng, layer1))
-        markers.push(marker);
+    //if (isInside(latlng, layer1))
+    markers.push(marker);
 
     // Fitting to bounds so the map is zoomed to the right place
     bounds.extend(latlng);
