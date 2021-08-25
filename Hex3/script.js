@@ -80,7 +80,11 @@ $(document).ready(function(){
   
    //Get the State administrative boundary through geojson file
    map.data.loadGeoJson(stateRequestURL);
-   //getFile(stateRequestURL, grey);
+   map.data.setStyle({
+    fillColor: grey,
+    fillOpacity: 0.1,
+    strokeWeight: 1
+   });
 
   // Adding a marker just so we can visualize where the actual data points are.
   places.forEach(function(place, p){
@@ -119,8 +123,12 @@ $(document).ready(function(){
   document.getElementById("hide-markers").addEventListener("click", hideMarkers);
   
  //Get the district administrative boundary through geojson file
-  //getFile(districtRequestURL, green);
   map.data.loadGeoJson(stateRequestURL);
+  map.data.setStyle({
+    fillColor: green,
+    fillOpacity: 0.1,
+    strokeWeight: 1
+  });
 
   // Now, we draw our hexagons! 
   locations = makeBins(places);
@@ -209,19 +217,6 @@ function drawHorizontalHexagon(map, position, radius) {
     polygon.setMap(map);
 }
 
-function getFile(url, fillcolor) {
-  let request = new XMLHttpRequest();
-  request.open('GET', url); 
-  //request.responseType = 'json';
-  request.responseType = 'text'; // now we're getting strings!
-  request.send();
-
-  request.onload = function() {
-    const result = request.response;
-    //populate data 
-    loadGeoJsonString(fillcolor, result);    
-  }
-}
 
 function loadGeoJsonString(fillcolor, geoString) {
   try {
