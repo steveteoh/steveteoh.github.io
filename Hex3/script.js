@@ -78,6 +78,8 @@ $(window).load(function () {
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
     });
 
+    var infoWindow = new google.maps.InfoWindow({ map: map });
+
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
     map.data.loadGeoJson(districtRequestURL, { idPropertyName: 'name'},
