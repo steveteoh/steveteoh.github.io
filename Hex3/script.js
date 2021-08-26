@@ -4,8 +4,8 @@
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
 var map = null;
-var myfeature;
-var mygeometry;
+var myfeature = {};
+var mygeometry = {};
 var pointCount = 0;
 var locations = [];
 var gridWidth = 500; // hex tile edge (a). 
@@ -14,6 +14,7 @@ var markers = [];
 var places = [];
 var lt1 = 0, ln1 = 0;
 var lt2 = 0, ln2 = 0;
+var pos = {};
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var districtRequestURL = 'https://steveteoh.github.io/Hex2/hulu_langat.json';
@@ -74,12 +75,33 @@ $(window).load(function () {
     map = new google.maps.Map(document.getElementById("map_canvas"), {
         center: { lat: 0, lng: 0 },
         scaleControl: true,
-        zoom: 17,
+        zoom: 6,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
     });
 
     var infoWindow = new google.maps.InfoWindow({ map: map });
+    // Ver 3: Try HTML5 geolocation.
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude,
+                };
+                infoWindow.setPosition(pos);
+                infoWindow.setContent("Your Location");
+                infoWindow.open(map);
+                map.setCenter(pos);
+            },
+            () => {
+                handleLocationError(true, infoWindow, map.getCenter());
+            }
+        );
+    } else {
+        // Browser doesn't support Geolocation
+        handleLocationError(false, infoWindow, map.getCenter());
+    }
 
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
@@ -92,8 +114,8 @@ $(window).load(function () {
             layer1.forEach((feature) => {
                 const geometry = feature.getGeometry();
                 console.log("geometry:" + geometry);
-                //if (isInside(geometry, latlng))
-                //    console.log("inside coord =" + latlng);
+                if (isInside(geometry, pos))
+                    console.log("inside coord =" + pos);
             });
         }
     );
@@ -154,28 +176,6 @@ $(window).load(function () {
     });
 
     hideMarkers();  //initially hide all markers for faster display
-
-    // Ver 3: Try HTML5 geolocation.
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
-            (position) => {
-                const pos = {
-                    lat: position.coords.latitude,
-                    lng: position.coords.longitude,
-                };
-                infoWindow.setPosition(pos);
-                infoWindow.setContent("Your Location");
-                infoWindow.open(map);
-                map.setCenter(pos);
-            },
-            () => {
-                handleLocationError(true, infoWindow, map.getCenter());
-            }
-        );
-    } else {
-        // Browser doesn't support Geolocation
-        handleLocationError(false, infoWindow, map.getCenter());
-    }
 });
 
 /**
