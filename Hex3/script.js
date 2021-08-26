@@ -73,7 +73,7 @@ $(document).ready(function () {
     map = new google.maps.Map(document.getElementById("map_canvas"), {
         center: { lat: 0, lng: 0 },
         scaleControl: true,
-        zoom: 4,
+        zoom: 17,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
     });
