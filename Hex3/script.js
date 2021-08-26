@@ -103,11 +103,6 @@ $(window).load(function () {
         handleLocationError(false, infoWindow, map.getCenter());
     }
 
-    var polygons = [];
-    google.maps.event.addDomListener(drawingManager, 'polygoncomplete', function (polygon) {
-        polygons.push(polygon);
-    });
-
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
@@ -118,8 +113,9 @@ $(window).load(function () {
                 console.log("feature: " + feature);
                 const geometry = feature.getGeometry();
                 console.log("geometry:" + geometry);
-                console.log("polygons:" + polygons);
-                if (isInside(polygons, pos))
+                console.log("type:" + geometry.getType());
+
+                if (isInside(layer1, geometry, pos))
                     console.log("inside coord =" + pos);
             });
         }
@@ -200,21 +196,25 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 * function to determine whether a point is inside a geometry. Previously method is ray casting algorithm.
 */
 function isInside(layer, geom, latlng) {
-    //console.log(geom.getPath());
-    //poly = new google.maps.Data.Polygon({
-    //    paths: geom.getPath(),
-    //});
-    if (layer.geometry.poly.containsLocation(latlng, geom)) {
-        console.log("poly found");
-        return true;
-    }
-    else {
-        console.log("searching poly...");
-        geom.getArray().forEach((g) => {
-            isInside(layer, g, latlng);
+    var array = geom.getArray();
+    array.forEach(function (item, i) {
+        var coords = item.getAt(0).getArray();
+        var poly = new google.maps.Polygon({
+            paths: coords
         });
-    }
-    return false;
+
+        if (layer.geometry.poly.containsLocation(latlng, poly)) {
+            console.log("poly found");
+            return true;
+        }
+        else {
+            console.log("searching poly...");
+            geom.getArray().forEach((g) => {
+                isInside(layer, g, latlng);
+            });
+        }
+        return false;
+    });
 }
 
 // Attaches an info window to a marker with the provided message. When the
