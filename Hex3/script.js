@@ -105,7 +105,7 @@ $(window).load(function () {
 
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
-    layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name'},
+    layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
             console.log(districtRequestURL);
             myfeature = layer1.getFeatureById("Hulu Langat");
@@ -195,21 +195,20 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 * function to determine whether a point is inside a geometry. Previously method is ray casting algorithm.
 */
 function isInside(layer, geom, latlng) {
-        poly = new google.maps.Data.MultiPolygon({
-            paths: geom.getArray(),
-            map: map,
-            clickable: false
+    console.log(geom.getArray());
+    poly = new google.maps.Data.Polygon({
+        paths: geom.getArray(),
+    });
+    if (layer.geometry.poly.containsLocation(latlng, poly)) {
+        console.log("poly found");
+        return true;
+    }
+    else {
+        console.log("searching poly...");
+        geom.getArray().forEach((g) => {
+            isInside(layer, g, latlng);
         });
-        if (layer.geometry.poly.containsLocation(latlng, poly)) {
-            console.log("poly found");
-            return true;
-        }
-        else {
-            console.log("searching poly...");
-            geom.getArray().forEach((g) => {
-                isInside(layer, g, latlng);
-            });
-        }
+    }
     return false;
 }
 
