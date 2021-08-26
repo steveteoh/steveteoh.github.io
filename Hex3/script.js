@@ -202,7 +202,7 @@ function isInside(geom, latlng) {
         //    map: map,
         //    clickable: false
         //});
-        if (layer1.geometry.poly.containsLocation(latlng, geom)) {
+        if (map.data.geometry.poly.containsLocation(latlng, geom)) {
             console.log("poly found");
             return true;
         }
