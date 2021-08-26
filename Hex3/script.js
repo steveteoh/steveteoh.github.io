@@ -120,7 +120,6 @@ $(window).load(function () {
         );
 
         //layer1.forEach
-        console.log("geometry:" + myfeature.getGeometry());
         layer1.forEach((feature) => {
             const geometry = feature.getGeometry();
             console.log("geometry:" + geometry);
