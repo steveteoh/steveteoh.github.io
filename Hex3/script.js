@@ -195,9 +195,9 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 * function to determine whether a point is inside a geometry. Previously method is ray casting algorithm.
 */
 function isInside(layer, geom, latlng) {
-    console.log(geom.getArray());
+    console.log(geom.getPath());
     poly = new google.maps.Data.Polygon({
-        paths: geom.getArray(),
+        paths: geom.getPath(),
     });
     if (layer.geometry.poly.containsLocation(latlng, poly)) {
         console.log("poly found");
