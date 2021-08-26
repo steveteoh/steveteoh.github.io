@@ -88,6 +88,13 @@ $(window).load(function () {
             console.log(districtRequestURL);
             myfeature = layer1.getFeatureById("Hulu Langat");
             console.log("geom: " + myfeature);
+            //layer1.forEach
+            layer1.forEach((feature) => {
+                const geometry = feature.getGeometry();
+                console.log("geometry:" + geometry);
+                //if (isInside(geometry, latlng))
+                //    console.log("inside coord =" + latlng);
+            });
         }
     );
     layer1.setStyle({
@@ -118,16 +125,6 @@ $(window).load(function () {
             '<br>Weight:' + place[10] +
             '<br>Timestamp: ' + place[11]
         );
-
-        //layer1.forEach
-        layer1.forEach((feature) => {
-            const geometry = feature.getGeometry();
-            console.log("geometry:" + geometry);
-
-            if (isInside(geometry, latlng))
-                console.log("inside coord =" + latlng);
-        });
-
         markers.push(marker);
 
         // Fitting to bounds so the map is zoomed to the right place
