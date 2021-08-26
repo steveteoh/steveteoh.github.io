@@ -82,6 +82,7 @@ $(document).ready(function () {
     var layer1 = new google.maps.Data();
     map.data.loadGeoJson(districtRequestURL, {},
         function (features) {
+            console.log(districtRequestURL);
             console.log("geom: " + map.data.getFeatureById("406"));
             console.log(map.data.getFeatureById("406").getProperty("name"));
         }
