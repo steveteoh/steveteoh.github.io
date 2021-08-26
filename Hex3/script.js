@@ -80,11 +80,10 @@ $(window).load(function () {
 
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
-    map.data.loadGeoJson(districtRequestURL, {},
+    map.data.loadGeoJson(districtRequestURL, { idPropertyName: 'name'},
         function (features) {
             console.log(districtRequestURL);
-            console.log("geom: " + map.data.getFeatureById("406"));
-            console.log(map.data.getFeatureById("406").getProperty("name"));
+            console.log("geom: " + map.data.getFeatureById("Hulu Langat"));
         }
     );
     layer1.setStyle({
@@ -154,8 +153,46 @@ $(window).load(function () {
     });
 
     hideMarkers();  //initially hide all markers for faster display
+
+    // Ver 3: Try HTML5 geolocation.
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                const pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude,
+                };
+                infoWindow.setPosition(pos);
+                infoWindow.setContent("Your Location");
+                infoWindow.open(map);
+                map.setCenter(pos);
+            },
+            () => {
+                handleLocationError(true, infoWindow, map.getCenter());
+            }
+        );
+    } else {
+        // Browser doesn't support Geolocation
+        handleLocationError(false, infoWindow, map.getCenter());
+    }
 });
 
+/**
+ * Ver 3
+ * Handle Browser doesn't support Geolocation error
+ * @param {any} browserHasGeolocation
+ * @param {any} infoWindow
+ * @param {any} pos
+ */
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+    infoWindow.setPosition(pos);
+    infoWindow.setContent(
+        browserHasGeolocation
+            ? "Error: The Geolocation service failed."
+            : "Error: Your browser doesn't support geolocation."
+    );
+    infoWindow.open(map);
+}
 
 /** 
 * ver 3 
