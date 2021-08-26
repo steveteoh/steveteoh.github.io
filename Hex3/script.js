@@ -80,13 +80,16 @@ $(document).ready(function () {
 
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
-    layer1.loadGeoJson(districtRequestURL);
+    layer1.loadGeoJson(districtRequestURL, {},
+        function (features) {
+            console.log("geom: " + layer1.getFeatureById(406));
+        }
+    );
     layer1.setStyle({
         fillColor: red,
         fillOpacity: 0.1,
         strokeWeight: 1
     });
-    console.log("geom: " + layer1.getFeatureById(406));
 
     // Adding a marker just so we can visualize where the actual data points are.
     places.forEach(function (place, p) {
