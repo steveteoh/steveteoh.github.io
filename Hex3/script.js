@@ -96,6 +96,7 @@ $(document).ready(function () {
             label: `${p + 1}`,
             title: place[3],
         });
+        marker.setIcon("http://maps.google.com/mapfiles/ms/icons/blue.png");
         //Attaching related information onto the marker
         attachMessage(marker, place[2] + ' : ' + place[3] +
             '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
@@ -154,7 +155,6 @@ $(document).ready(function () {
 * function to determine whether a point is inside a geometry. Previously method is ray casting algorithm.
 */
 function isInside(geom, latlng) {
-        console.log("mygeometry:" + geom);
         poly = new google.maps.Polygon({
             paths: mygeometry.get().getArray(),
             map: map,
