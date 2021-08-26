@@ -4,6 +4,7 @@
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
 var map = null;
+var myfeature;
 var mygeometry;
 var pointCount = 0;
 var locations = [];
@@ -85,7 +86,7 @@ $(window).load(function () {
     map.data.loadGeoJson(districtRequestURL, { idPropertyName: 'name'},
         function (features) {
             console.log(districtRequestURL);
-            var feature = map.data.getFeatureById("Hulu Langat");
+            myfeature = map.data.getFeatureById("Hulu Langat");
             console.log("geom: " + map.data.getFeatureById("Hulu Langat"));
         }
     );
