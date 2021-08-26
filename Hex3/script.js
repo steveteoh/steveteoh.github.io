@@ -85,6 +85,7 @@ $(window).load(function () {
     map.data.loadGeoJson(districtRequestURL, { idPropertyName: 'name'},
         function (features) {
             console.log(districtRequestURL);
+            var feature = map.data.getFeatureById("Hulu Langat");
             console.log("geom: " + map.data.getFeatureById("Hulu Langat"));
         }
     );
@@ -119,7 +120,7 @@ $(window).load(function () {
 
         //layer1.forEach
         layer1.forEach((feature) => {
-            const geometry = feature.getGeometry();
+            const geometry = myfeature.getGeometry();
             console.log("geometry:" + geometry);
 
             if (isInside(geometry, latlng))
@@ -181,17 +182,12 @@ $(window).load(function () {
 
 /**
  * Ver 3
- * Handle Browser doesn't support Geolocation error
- * @param {any} browserHasGeolocation
- * @param {any} infoWindow
- * @param {any} pos
+ * Handler for "Browser doesn't support Geolocation error"
  */
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.setPosition(pos);
     infoWindow.setContent(
-        browserHasGeolocation
-            ? "Error: The Geolocation service failed."
-            : "Error: Your browser doesn't support geolocation."
+        browserHasGeolocation ? "Error: The Geolocation service failed." : "Error: Your browser doesn't support geolocation."
     );
     infoWindow.open(map);
 }
