@@ -203,17 +203,17 @@ function isInside(layer, geom, latlng) {
         var poly = new google.maps.Polygon({
             paths: paths
         });
-        if (geom.poly.containsLocation(latlng, poly)) {
-            console.log("poly found");
-            return true;
-        }
-        else {
-            console.log("searching poly...");
-            geom.getArray().forEach((g) => {
-                isInside(layer, g, latlng);
-            });
-        }
-        return false;
+        //if (google.map.geometry.poly.containsLocation(latlng, poly)) {
+        //    console.log("poly found");
+        //    return true;
+        //}
+        //else {
+        //    console.log("searching poly...");
+        //    geom.getArray().forEach((g) => {
+        //        isInside(layer, g, latlng);
+        //    });
+        //}
+        //return false;
     });
 }
 
