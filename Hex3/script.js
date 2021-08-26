@@ -196,7 +196,7 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 */
 function isInside(layer, geom, latlng) {
         poly = new google.maps.Data.MultiPolygon({
-            paths: layer.geometry.getArray(),
+            paths: geom.getArray(),
             map: map,
             clickable: false
         });
