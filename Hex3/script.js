@@ -80,9 +80,10 @@ $(document).ready(function () {
 
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
-    layer1.loadGeoJson(districtRequestURL, {},
+    map.data.loadGeoJson(districtRequestURL, {},
         function (features) {
-            console.log("geom: " + layer1.getFeatureById(406));
+            console.log("geom: " + map.data.getFeatureById(406));
+            console.log(map.data.getFeatureById(406).getProperty("name"));
         }
     );
     layer1.setStyle({
