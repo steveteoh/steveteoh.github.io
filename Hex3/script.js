@@ -203,7 +203,7 @@ function isInside(layer, geom, latlng) {
         var poly = new google.maps.Polygon({
             paths: paths
         });
-        if (google.maps.geometry.poly.containsLocation(latlng, poly)) {
+        if (geom.poly.containsLocation(latlng, poly)) {
             console.log("poly found");
             return true;
         }
