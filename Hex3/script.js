@@ -68,7 +68,7 @@ for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south;
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
-function initialize () {
+$(window).load(function () {
     bounds = new google.maps.LatLngBounds();
     map = new google.maps.Map(document.getElementById("map_canvas"), {
         center: { lat: 0, lng: 0 },
@@ -121,8 +121,8 @@ function initialize () {
             const geometry = feature.getGeometry();
             console.log("geometry:" + geometry);
 
-        if (isInside(geometry, latlng))
-            console.log("inside coord =" + latlng);
+            if (isInside(geometry, latlng))
+                console.log("inside coord =" + latlng);
         });
 
         markers.push(marker);
@@ -154,8 +154,7 @@ function initialize () {
     });
 
     hideMarkers();  //initially hide all markers for faster display
-}
-google.maps.event.addDomListener(window, "load", initialize);
+});
 
 
 /** 
