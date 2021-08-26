@@ -109,9 +109,11 @@ $(window).load(function () {
         function (features) {
             console.log(districtRequestURL);
             myfeature = layer1.getFeatureById("Hulu Langat");
-            console.log("geom: " + myfeature);
+            console.log("myfeature: " + myfeature);
+            console.log("mygeometry:" + myfeature.getGeometry());
             //layer1.forEach
             layer1.forEach((feature) => {
+                console.log("feature: " + feature);
                 const geometry = feature.getGeometry();
                 console.log("geometry:" + geometry);
                 if (isInside(geometry, pos))
