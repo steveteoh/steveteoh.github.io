@@ -83,11 +83,11 @@ $(window).load(function () {
 
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
-    map.data.loadGeoJson(districtRequestURL, { idPropertyName: 'name'},
+    layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name'},
         function (features) {
             console.log(districtRequestURL);
-            myfeature = map.data.getFeatureById("Hulu Langat");
-            console.log("geom: " + map.data.getFeatureById("Hulu Langat"));
+            myfeature = layer1.getFeatureById("Hulu Langat");
+            console.log("geom: " + myfeature);
         }
     );
     layer1.setStyle({
@@ -120,8 +120,9 @@ $(window).load(function () {
         );
 
         //layer1.forEach
+        console.log("geometry:" + myfeature.getGeometry());
         layer1.forEach((feature) => {
-            const geometry = myfeature.getGeometry();
+            const geometry = feature.getGeometry();
             console.log("geometry:" + geometry);
 
             if (isInside(geometry, latlng))
@@ -199,17 +200,17 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 */
 function isInside(geom, latlng) {
         poly = new google.maps.Polygon({
-            paths: mygeometry.get().getArray(),
+            paths: geom.get().getArray(),
             map: map,
             clickable: false
         });
-        if (map.data.geometry.poly.containsLocation(latlng, poly)) {
+        if (layer1.geometry.poly.containsLocation(latlng, poly)) {
             console.log("poly found");
             return true;
         }
         else {
             console.log("searching poly...");
-            mygeometry.getArray().forEach((g) => {
+            geom.getArray().forEach((g) => {
                 isInside(g, latlng);
             });
         }
