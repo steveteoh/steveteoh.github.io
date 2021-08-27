@@ -111,16 +111,16 @@ $(window).load(function () {
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
                 //example - my location
-                isInside(mygeometry, pos) ?
-                    console.log("inside coord: " + pos.lat + "," + pos.lng) :
-                    console.log("outside coord: " + pos.lat + "," + pos.lng);
+                //isInside(mygeometry, pos) ?
+                //    console.log("inside coord: " + pos.lat + "," + pos.lng) :
+                //    console.log("outside coord: " + pos.lat + "," + pos.lng);
                 //example of not found
-                pos = {
-                    lat: -1,  lng: -30,
-                };
-                isInside(mygeometry, pos) ?
-                    console.log("inside coord: " + pos.lat + "," + pos.lng) :
-                    console.log("outside coord: " + pos.lat + "," + pos.lng);
+                //pos = {
+                //    lat: -1,  lng: -30,
+                //};
+                //isInside(mygeometry, pos) ?
+                //    console.log("inside coord: " + pos.lat + "," + pos.lng) :
+                //    console.log("outside coord: " + pos.lat + "," + pos.lng);
 
                 //combine odd and even hex columns from top left to bottom right
                 for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
@@ -225,19 +225,19 @@ function isInside(geom, latlng) {
 
     array.every(function (item, i) {
         var list = item.getAt(0).getArray();
-        console.log(list);
+        //console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
         });
         //if (google.maps.geometry.poly.containsLocation(point, poly)) {
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
-            console.log(latlng + " found inside poly [" + i + "]");
+            //console.log(latlng + " found inside poly [" + i + "]");
             found = true;
             // every() loop stops iterating through the array whenever the callback function returns a false value.
             return false;
         }
         else {
-            console.log("Not found at poly [" + i + "]. Searching next poly");
+            //console.log("Not found at poly [" + i + "]. Searching next poly");
             found = false;
             // Make sure you return "true". If you don't return a value, `every()` will stop.
             return true;
