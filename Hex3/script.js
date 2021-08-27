@@ -115,9 +115,7 @@ $(window).load(function () {
                 //    console.log("inside coord: " + pos.lat + "," + pos.lng) :
                 //    console.log("outside coord: " + pos.lat + "," + pos.lng);
                 //example of not found
-                //pos = {
-                //    lat: -1,  lng: -30,
-                //};
+                //pos = {  lat: -1,  lng: -30, };
                 //isInside(mygeometry, pos) ?
                 //    console.log("inside coord: " + pos.lat + "," + pos.lng) :
                 //    console.log("outside coord: " + pos.lat + "," + pos.lng);
@@ -130,13 +128,53 @@ $(window).load(function () {
                         ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
                         ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
                         pos = { lat: lt1, lng: ln1 };
-                        if (isInside(mygeometry, pos) == false)    // splice outside hex
+                        if (isInside(mygeometry, pos) == false)    // not inside -> splice outside hex
                             places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         pos = { lat: lt2, lng: ln2 };
-                        if (isInside(mygeometry, pos) == false)    // splice outside hex
+                        if (isInside(mygeometry, pos) == false)    // not inside -> splice outside hex
                             places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
                     }
                 }
+            });
+            // Adding a marker just so we can visualize where the actual data points are.
+            places.forEach(function (place, p) {
+                latlng = new google.maps.LatLng({ lat: place[0], lng: place[1] });
+                const marker = new google.maps.Marker({
+                    position: latlng,
+                    map: map,
+                    label: `${p + 1}`,
+                    title: place[3],
+                });
+                marker.setIcon("http://maps.google.com/mapfiles/ms/icons/blue.png");
+                //Attaching related information onto the marker
+                attachMessage(marker, place[2] + ' : ' + place[3] +
+                    '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
+                    '<br>Weekly Active cases: ' + place[4] +
+                    '       | Total Active cases: ' + place[5] +
+                    '<br>Weekly Deaths: ' + place[6] +
+                    '       | Total Deaths: ' + place[7] +
+                    '<br>Weekly Recovered:' + place[8] +
+                    '       | Total Recovered:' + place[9] +
+                    '<br>Weight:' + place[10] +
+                    '<br>Timestamp: ' + place[11]
+                );
+                markers.push(marker);
+                // Fitting to bounds so the map is zoomed to the right place
+                bounds.extend(latlng);
+            });
+            map.fitBounds(bounds);
+
+            // add event listeners for the buttons
+            document.getElementById("show-markers").addEventListener("click", showMarkers);
+            document.getElementById("hide-markers").addEventListener("click", hideMarkers);
+
+            // Now, we draw our hexagons! 
+            locations = makeBins(places);
+
+            locations.forEach(function (place, p) {
+                // horizontal hex are not so useful, changed to vertical hex.
+                // drawHorizontalHexagon(map, place, gridWidth);
+                drawVerticalHexagon(map, place, gridWidth);
             });
         }
     );
@@ -146,46 +184,9 @@ $(window).load(function () {
         strokeWeight: 1
     });
 
-    // Adding a marker just so we can visualize where the actual data points are.
-    places.forEach(function (place, p) {
-        latlng = new google.maps.LatLng({ lat: place[0], lng: place[1] });
-        const marker = new google.maps.Marker({
-            position: latlng,
-            map: map,
-            label: `${p + 1}`,
-            title: place[3],
-        });
-        marker.setIcon("http://maps.google.com/mapfiles/ms/icons/blue.png");
-        //Attaching related information onto the marker
-        attachMessage(marker, place[2] + ' : ' + place[3] +
-            '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
-            '<br>Weekly Active cases: ' + place[4] +
-            '       | Total Active cases: ' + place[5] +
-            '<br>Weekly Deaths: ' + place[6] +
-            '       | Total Deaths: ' + place[7] +
-            '<br>Weekly Recovered:' + place[8] +
-            '       | Total Recovered:' + place[9] +
-            '<br>Weight:' + place[10] +
-            '<br>Timestamp: ' + place[11]
-        );
-        markers.push(marker);
-        // Fitting to bounds so the map is zoomed to the right place
-        bounds.extend(latlng);
-    });
-    map.fitBounds(bounds);
-
-    // add event listeners for the buttons
-    document.getElementById("show-markers").addEventListener("click", showMarkers);
-    document.getElementById("hide-markers").addEventListener("click", hideMarkers);
-
-    // Now, we draw our hexagons! 
-    locations = makeBins(places);
-
-    locations.forEach(function (place, p) {
-        // horizontal hex are not so useful, changed to vertical hex.
-        // drawHorizontalHexagon(map, place, gridWidth);
-        drawVerticalHexagon(map, place, gridWidth);
-    });
+    /**
+     * 
+     */
 
     //Get the State administrative boundary through geojson file
     map.data.loadGeoJson(stateRequestURL);
@@ -218,8 +219,7 @@ function isInside(geom, latlng) {
     var array = geom.getArray();
     var point = new google.maps.LatLng(latlng);
     var found = false;
-
-    console.log("array:" + geom.getArray());
+    //console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
         var list = item.getAt(0).getArray();
@@ -229,7 +229,7 @@ function isInside(geom, latlng) {
         });
         //if (google.maps.geometry.poly.containsLocation(point, poly)) {
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
-            //console.log(latlng + " found inside poly [" + i + "]");
+            console.log(point.lat + "," + point.lng + " found inside poly [" + i + "]");
             found = true;
             // every() loop stops iterating through the array whenever the callback function returns a false value.
             return false;
@@ -239,10 +239,6 @@ function isInside(geom, latlng) {
             found = false;
             // Make sure you return "true". If you don't return a value, `every()` will stop.
             return true;
-
-            //    geom.getArray().forEach((g) => {
-            //        isInside(layer, g, latlng);
-            //    });
         }
     });
     return found;
