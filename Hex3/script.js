@@ -108,16 +108,26 @@ $(window).load(function () {
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
             myfeature = layer1.getFeatureById("Hulu Langat");
-            //layer1.forEach
-            layer1.forEach((feature) => {
-                //console.log("feature: " + feature);
-                const geometry = feature.getGeometry();
-                //console.log("geometry:" + geometry);
-                //console.log("type:" + geometry.getType());
 
-                if (isInside(layer1, geometry, pos)) {
-                    console.log("inside coord =" + pos);
+            layer1.forEach((feature) => {
+                const geometry = feature.getGeometry();
+                if (isInside(geometry, pos)) {
+                    console.log("inside coord: " + pos.lat + "," + pos.lng);
                 }
+                else {
+                    console.log("outside coord: " + pos.lat + "," + pos.lng);
+                }
+                pos = {
+                    lat: -1,
+                    lng: -30,
+                };
+                if (isInside(geometry, pos)) {
+                    console.log("inside coord: " + pos.lat + "," + pos.lng);
+                }
+                else {
+                    console.log("outside coord: " + pos.lat + "," + pos.lng);
+                }
+
             });
         }
     );
@@ -195,10 +205,10 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 * ver 3 
 * function to determine whether a point is inside a geometry. Previously method is ray casting algorithm.
 */
-function isInside(layer, geom, latlng) {
-    var array = geom.getArray();                 
+function isInside(geom, latlng) {
+    var array = geom.getArray();
     var point = new google.maps.LatLng(latlng);
-    var found = false; 
+    var found = false;
 
     console.log("array:" + geom.getArray());
 
@@ -211,14 +221,14 @@ function isInside(layer, geom, latlng) {
         //if (google.maps.geometry.poly.containsLocation(point, poly)) {
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
             console.log(latlng + " found inside poly [" + i + "]");
-            found = true; 
+            found = true;
             // every() loop stops iterating through the array whenever the callback function returns a false value.
             return false;
         }
         else {
             console.log("Not found at poly [" + i + "]. Searching next poly");
             found = false;
-            // Make sure you return true. If you don't return a value, `every()` will stop.
+            // Make sure you return "true". If you don't return a value, `every()` will stop.
             return true;
 
             //    geom.getArray().forEach((g) => {
