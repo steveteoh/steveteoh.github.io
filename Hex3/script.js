@@ -115,8 +115,9 @@ $(window).load(function () {
                 console.log("geometry:" + geometry);
                 console.log("type:" + geometry.getType());
 
-                if (isInside(layer1, geometry, pos))
+                if (isInside(layer1, geometry, pos)) {
                     console.log("inside coord =" + pos);
+                }
             });
         }
     );
@@ -197,23 +198,24 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 */
 function isInside(layer, geom, latlng) {
     var array = geom.getArray();
+    console.log(array);
     array.forEach(function (item, i) {
-        var paths = item.getAt(0).getArray();
-        console.log(paths);
+        var list = item.getAt(i).getArray();
+        console.log(list); 
         var poly = new google.maps.Polygon({
             paths: paths
         });
-        //if (google.map.geometry.poly.containsLocation(latlng, poly)) {
-        //    console.log("poly found");
-        //    return true;
-        //}
-        //else {
-        //    console.log("searching poly...");
-        //    geom.getArray().forEach((g) => {
-        //        isInside(layer, g, latlng);
-        //    });
-        //}
-        //return false;
+        if (google.map.geometry.poly.containsLocation(latlng, poly)) {
+            console.log(latlng + " found inside poly " + poly);
+            return true;
+        }
+        else {
+            console.log("Not found. Searching next poly...");
+            //    geom.getArray().forEach((g) => {
+            //        isInside(layer, g, latlng);
+            //    });
+        }
+        return false;
     });
 }
 
