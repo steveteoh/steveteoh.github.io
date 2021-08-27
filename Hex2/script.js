@@ -78,6 +78,29 @@ $(document).ready(function () {
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
     });
 
+    var infoWindow = new google.maps.InfoWindow({ map: map });
+    // Ver 3: Try HTML5 geolocation.
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude,
+                };
+                infoWindow.setPosition(pos);
+                infoWindow.setContent("Your Location");
+                infoWindow.open(map);
+                map.setCenter(pos);
+            },
+            () => {
+                handleLocationError(true, infoWindow, map.getCenter());
+            }
+        );
+    } else {
+        // Browser doesn't support Geolocation
+        handleLocationError(false, infoWindow, map.getCenter());
+    }
+
     //Get the State administrative boundary through geojson file
     getFile(stateRequestURL, grey);
 
