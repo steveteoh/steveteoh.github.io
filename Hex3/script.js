@@ -132,11 +132,11 @@ $(window).load(function () {
                         var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
                         var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
                         pos = { lat: lt1, lng: ln1 };
-                        if  (isInside(mygeometry, pos))
+                        if (isInside(mygeometry, pos))
                             places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
                         pos = { lat: lt2, lng: ln2 };
                         if (isInside(mygeometry, pos))
-                        places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+                            places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
                     }
                 }
             });
