@@ -128,7 +128,8 @@ $(window).load(function () {
                     for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
                         ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
                         ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
-
+                        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
+                        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
                         pos = { lat: lt1, lng: ln1 };
                         if (isInside(mygeometry, pos) == true) {
                             places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
