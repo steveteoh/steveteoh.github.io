@@ -55,18 +55,18 @@ const orangelevel = 99;
 //const redlevel = infinity;
 
 //combine odd and even hex columns from top left to bottom right
-for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
-    lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
-    lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
-    for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
-        ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
-        ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
-        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
-        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
-        places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-        places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-    }
-}
+//for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
+//    lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
+//    lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
+//    for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
+//        ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
+//        ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
+//        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
+//        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
+//        places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+//        places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+//    }
+//}
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
@@ -110,11 +110,34 @@ $(window).load(function () {
             myfeature = layer1.getFeatureById("Hulu Langat");
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
-                if (isInside(mygeometry, pos)) {
-                    console.log("inside coord: " + pos.lat + "," + pos.lng);
-                }
-                else {
+                //example - my location
+                isInside(mygeometry, pos) ?
+                    console.log("inside coord: " + pos.lat + "," + pos.lng) :
                     console.log("outside coord: " + pos.lat + "," + pos.lng);
+                //example of not found
+                pos = {
+                    lat: -1,  lng: -30,
+                };
+                isInside(mygeometry, pos) ?
+                    console.log("inside coord: " + pos.lat + "," + pos.lng) :
+                    console.log("outside coord: " + pos.lat + "," + pos.lng);
+
+                //combine odd and even hex columns from top left to bottom right
+                for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
+                    lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
+                    lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
+                    for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
+                        ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
+                        ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
+                        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
+                        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
+                        pos = { lat: lt1, lng: ln1 };
+                        if  (isInside(mygeometry, pos))
+                            places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+                        pos = { lat: lt2, lng: ln2 };
+                        if (isInside(mygeometry, pos))
+                        places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+                    }
                 }
             });
         }
@@ -165,17 +188,6 @@ $(window).load(function () {
         // drawHorizontalHexagon(map, place, gridWidth);
         drawVerticalHexagon(map, place, gridWidth);
     });
-
-    pos = {
-        lat: -1,
-        lng: -30,
-    };
-    if (isInside(mygeometry, pos)) {
-        console.log("inside coord: " + pos.lat + "," + pos.lng);
-    }
-    else {
-        console.log("outside coord: " + pos.lat + "," + pos.lng);
-    }
 
     //Get the State administrative boundary through geojson file
     map.data.loadGeoJson(stateRequestURL);
