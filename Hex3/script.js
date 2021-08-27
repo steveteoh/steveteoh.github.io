@@ -198,9 +198,10 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 function isInside(layer, geom, latlng) {
     var array = geom.getArray();
     console.log(array);
+    console.log(latlng);
     array.forEach(function (item, i) {
         var list = item.getAt(i).getArray();
-        console.log(list); 
+        console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
         });
