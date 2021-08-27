@@ -55,18 +55,18 @@ const orangelevel = 99;
 //const redlevel = infinity;
 
 //combine odd and even hex columns from top left to bottom right
-//for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
-//    lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
-//    lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
-//    for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
-//        ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
-//        ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
-//        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
-//        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
-//        places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-//        places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-//    }
-//}
+for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
+    lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
+    lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
+    for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
+        ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
+        ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
+        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
+        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
+        places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+        places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+    }
+}
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
@@ -122,21 +122,19 @@ $(window).load(function () {
                 //    console.log("inside coord: " + pos.lat + "," + pos.lng) :
                 //    console.log("outside coord: " + pos.lat + "," + pos.lng);
 
-                //combine odd and even hex columns from top left to bottom right
+                //search odd and even hex columns from top left to bottom right
                 for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
                     lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
                     lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
                     for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
                         ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
                         ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
-                        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
-                        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
                         pos = { lat: lt1, lng: ln1 };
-                        if (isInside(mygeometry, pos))
-                            places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+                        if (isInside(mygeometry, pos) == false)    // splice outside hex
+                            places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         pos = { lat: lt2, lng: ln2 };
-                        if (isInside(mygeometry, pos))
-                            places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+                        if (isInside(mygeometry, pos) == false)    // splice outside hex
+                            places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
                     }
                 }
             });
@@ -162,11 +160,11 @@ $(window).load(function () {
         attachMessage(marker, place[2] + ' : ' + place[3] +
             '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
             '<br>Weekly Active cases: ' + place[4] +
-            ' | Total Active cases: ' + place[5] +
+            '       | Total Active cases: ' + place[5] +
             '<br>Weekly Deaths: ' + place[6] +
-            ' | Total Deaths: ' + place[7] +
+            '       | Total Deaths: ' + place[7] +
             '<br>Weekly Recovered:' + place[8] +
-            ' | Total Recovered:' + place[9] +
+            '       | Total Recovered:' + place[9] +
             '<br>Weight:' + place[10] +
             '<br>Timestamp: ' + place[11]
         );
@@ -283,10 +281,11 @@ function drawVerticalHexagon(map, position, radius) {
     var coordinates = [];
     var resultColor = color;
     for (var angle = 30; angle < 360; angle += 60) {
-        //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;  
-        //note: if outside, skip and do not draw           
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));
     }
+    //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;  
+    //note: if outside, skip and do not draw       
+
     // Construct the polygon.
     var polygon = new google.maps.Polygon({
         paths: coordinates,
