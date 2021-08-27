@@ -203,18 +203,18 @@ function isInside(layer, geom, latlng) {
     console.log("array:" + geom.getArray());
 
     array.forEach(function (item, i) {
-        var list = item.getAt(0).getArray();
+        var list = item.getAt(i).getArray();
         console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
         });
         //if (google.maps.geometry.poly.containsLocation(point, poly)) {
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
-            console.log(latlng + " found inside poly " + poly);
+            console.log(latlng + " found inside poly [" + i + "]");
             return true;
         }
         else {
-            console.log("Not found. Searching next poly...");
+            console.log("Not found at poly ["+ i+ "]. Searching next poly");
             //    geom.getArray().forEach((g) => {
             //        isInside(layer, g, latlng);
             //    });
