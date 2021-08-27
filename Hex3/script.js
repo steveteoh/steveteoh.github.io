@@ -205,7 +205,7 @@ function isInside(layer, geom, latlng) {
         var poly = new google.maps.Polygon({
             paths: list,
         });
-        if (layer1.geometry.poly.containsLocation(latlng, poly)) {
+        if (map.data.geometry.poly.containsLocation(latlng, poly)) {
             console.log(latlng + " found inside poly " + poly);
             return true;
         }
