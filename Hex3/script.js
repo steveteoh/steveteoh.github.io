@@ -110,10 +110,10 @@ $(window).load(function () {
             myfeature = layer1.getFeatureById("Hulu Langat");
             //layer1.forEach
             layer1.forEach((feature) => {
-                console.log("feature: " + feature);
+                //console.log("feature: " + feature);
                 const geometry = feature.getGeometry();
-                console.log("geometry:" + geometry);
-                console.log("type:" + geometry.getType());
+                //console.log("geometry:" + geometry);
+                //console.log("type:" + geometry.getType());
 
                 if (isInside(layer1, geometry, pos)) {
                     console.log("inside coord =" + pos);
@@ -196,16 +196,20 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 * function to determine whether a point is inside a geometry. Previously method is ray casting algorithm.
 */
 function isInside(layer, geom, latlng) {
-    var array = geom.getArray();
+    var array = geom.getArray();                 
     var point = new google.maps.LatLng(latlng);
-    console.log(array);
-    console.log(point + " vs " + latlng);
+    var layer1 = new google.maps.Data();
+    layer1 = layer;
+
+    console.log("array:" + geometry.getArray());
+
     array.forEach(function (item, i) {
-        var list = item.getAt(i).getArray();
+        var list = item.getAt(0).getArray();
         console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
         });
+        //if (google.maps.geometry.poly.containsLocation(point, poly)) {
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
             console.log(latlng + " found inside poly " + poly);
             return true;
