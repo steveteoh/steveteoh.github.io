@@ -200,8 +200,7 @@ function isInside(layer, geom, latlng) {
     var point = new google.maps.LatLng(latlng);
     var layer1 = new google.maps.Data();
     layer1 = layer;
-
-    console.log("array:" + geometry.getArray());
+    console.log("array:" + geom.getArray());
 
     array.forEach(function (item, i) {
         var list = item.getAt(0).getArray();
