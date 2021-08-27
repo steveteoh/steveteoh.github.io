@@ -198,11 +198,11 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 function isInside(layer, geom, latlng) {
     var array = geom.getArray();                 
     var point = new google.maps.LatLng(latlng);
-    var layer1 = new google.maps.Data();
-    layer1 = layer;
+    var found = false; 
+
     console.log("array:" + geom.getArray());
 
-    array.forEach(function (item, i) {
+    array.every(function (item, i) {
         var list = item.getAt(i).getArray();
         console.log(list);
         var poly = new google.maps.Polygon({
@@ -211,16 +211,22 @@ function isInside(layer, geom, latlng) {
         //if (google.maps.geometry.poly.containsLocation(point, poly)) {
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
             console.log(latlng + " found inside poly [" + i + "]");
-            return true;
+            found = true; 
+            // every() loop stops iterating through the array whenever the callback function returns a false value.
+            return false;
         }
         else {
-            console.log("Not found at poly ["+ i+ "]. Searching next poly");
+            console.log("Not found at poly [" + i + "]. Searching next poly");
+            found = false;
+            // Make sure you return true. If you don't return a value, `every()` will stop.
+            return true;
+
             //    geom.getArray().forEach((g) => {
             //        isInside(layer, g, latlng);
             //    });
         }
-        return false;
     });
+    return found;
 }
 
 // Attaches an info window to a marker with the provided message. When the
