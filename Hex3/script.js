@@ -43,7 +43,8 @@ const PLACE_BOUNDS = {
 };
 const delta_lat = 0.00389;
 const delta_lon = 0.006745;
-
+const cols = (north - south) / delta_lat ; // 105.05 -> 106
+const rows = (east - west) / delta_lon;    // 36.89  -> 37
 const grey = 'rgb(77, 77, 77)';     //for coloring unrelated borders
 const green = 'rgb(0, 255, 0)';     //for less than 10 cases
 const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
@@ -55,18 +56,18 @@ const orangelevel = 99;
 //const redlevel = infinity;
 
 //combine odd and even hex columns from top left to bottom right
-for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
-    lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
-    lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
-    for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
-        ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
-        ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
-        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
-        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
-        places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-        places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-    }
-}
+//for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
+//    lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
+//    lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
+//    for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
+//        ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
+//        ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
+//        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
+//        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
+//        places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+//        places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+//    }
+//}
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
@@ -127,12 +128,19 @@ $(window).load(function () {
                     for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
                         ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
                         ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
+
                         pos = { lat: lt1, lng: ln1 };
-                        if (isInside(mygeometry, pos) == false)    // not inside -> splice outside hex
-                            places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
+                        if (isInside(mygeometry, pos) == true) {
+                            places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+                            // not inside -> splice outside hex
+                            //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
+                        }
                         pos = { lat: lt2, lng: ln2 };
-                        if (isInside(mygeometry, pos) == false)    // not inside -> splice outside hex
-                            places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
+                        if (isInside(mygeometry, pos) == true) {
+                            places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+                            // not inside -> splice outside hex
+                            //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
+                        }
                     }
                 }
             });
@@ -229,7 +237,7 @@ function isInside(geom, latlng) {
         });
         //if (google.maps.geometry.poly.containsLocation(point, poly)) {
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
-            console.log(point.lat + "," + point.lng + " found inside poly [" + i + "]");
+            //console.log("found inside poly [" + i + "]");
             found = true;
             // every() loop stops iterating through the array whenever the callback function returns a false value.
             return false;
