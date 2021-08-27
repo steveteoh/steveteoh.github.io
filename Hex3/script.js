@@ -108,10 +108,9 @@ $(window).load(function () {
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
             myfeature = layer1.getFeatureById("Hulu Langat");
-
             layer1.forEach((feature) => {
-                const geometry = feature.getGeometry();
-                if (isInside(geometry, pos)) {
+                mygeometry = feature.getGeometry();
+                if (isInside(mygeometry, pos)) {
                     console.log("inside coord: " + pos.lat + "," + pos.lng);
                 }
                 else {
@@ -121,13 +120,12 @@ $(window).load(function () {
                     lat: -1,
                     lng: -30,
                 };
-                if (isInside(geometry, pos)) {
+                if (isInside(mygeometry, pos)) {
                     console.log("inside coord: " + pos.lat + "," + pos.lng);
                 }
                 else {
                     console.log("outside coord: " + pos.lat + "," + pos.lng);
                 }
-
             });
         }
     );
