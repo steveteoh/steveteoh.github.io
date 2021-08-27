@@ -43,8 +43,8 @@ const PLACE_BOUNDS = {
 };
 const delta_lat = 0.00389;
 const delta_lon = 0.006745;
-const cols = (north - south) / delta_lat ; // 105.05 -> 106
-const rows = (east - west) / delta_lon;    // 36.89  -> 37
+const cols = (PLACE_BOUNDS.north - PLACE_BOUNDS.south) / delta_lat ; // 105.05 -> 106
+const rows = (PLACE_BOUNDS.east - PLACE_BOUNDS.west) / delta_lon;    // 36.89  -> 37
 const grey = 'rgb(77, 77, 77)';     //for coloring unrelated borders
 const green = 'rgb(0, 255, 0)';     //for less than 10 cases
 const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
