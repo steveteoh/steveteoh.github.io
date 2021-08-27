@@ -211,7 +211,7 @@ function isInside(geom, latlng) {
     console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
-        var list = item.getAt(i).getArray();
+        var list = item.getAt(0).getArray();
         console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
