@@ -116,16 +116,6 @@ $(window).load(function () {
                 else {
                     console.log("outside coord: " + pos.lat + "," + pos.lng);
                 }
-                pos = {
-                    lat: -1,
-                    lng: -30,
-                };
-                if (isInside(mygeometry, pos)) {
-                    console.log("inside coord: " + pos.lat + "," + pos.lng);
-                }
-                else {
-                    console.log("outside coord: " + pos.lat + "," + pos.lng);
-                }
             });
         }
     );
@@ -176,6 +166,17 @@ $(window).load(function () {
         drawVerticalHexagon(map, place, gridWidth);
     });
 
+    pos = {
+        lat: -1,
+        lng: -30,
+    };
+    if (isInside(mygeometry, pos)) {
+        console.log("inside coord: " + pos.lat + "," + pos.lng);
+    }
+    else {
+        console.log("outside coord: " + pos.lat + "," + pos.lng);
+    }
+
     //Get the State administrative boundary through geojson file
     map.data.loadGeoJson(stateRequestURL);
     map.data.setStyle({
@@ -201,7 +202,7 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 
 /** 
 * ver 3 
-* function to determine whether a point is inside a geometry. Previously method is ray casting algorithm.
+* function to determine whether a point is inside a geometry. Previous method is "ray casting" algorithm.
 */
 function isInside(geom, latlng) {
     var array = geom.getArray();
