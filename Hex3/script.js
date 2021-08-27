@@ -197,15 +197,16 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 */
 function isInside(layer, geom, latlng) {
     var array = geom.getArray();
+    var point = new google.maps.LatLng(latlng);
     console.log(array);
-    console.log(latlng);
+    console.log(point + " vs " + latlng);
     array.forEach(function (item, i) {
         var list = item.getAt(i).getArray();
         console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
         });
-        if (google.maps.geometry.poly.containsLocation(latlng, poly)) {
+        if (google.maps.geometry.poly.containsLocation(point, poly)) {
             console.log(latlng + " found inside poly " + poly);
             return true;
         }
