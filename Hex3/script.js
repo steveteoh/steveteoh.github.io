@@ -150,7 +150,6 @@ $(window).load(function () {
             '<br>Timestamp: ' + place[11]
         );
         markers.push(marker);
-
         // Fitting to bounds so the map is zoomed to the right place
         bounds.extend(latlng);
     });
@@ -205,7 +204,7 @@ function isInside(layer, geom, latlng) {
         var poly = new google.maps.Polygon({
             paths: list,
         });
-        if (map.data.geometry.poly.containsLocation(latlng, poly)) {
+        if (google.maps.geometry.poly.containsLocation(latlng, poly)) {
             console.log(latlng + " found inside poly " + poly);
             return true;
         }
