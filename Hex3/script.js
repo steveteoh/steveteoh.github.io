@@ -8,7 +8,7 @@ var myfeature = {};
 var mygeometry = {};
 var pointCount = 0;
 var locations = [];
-var gridWidth = 500; // hex tile edge (a). 
+var gridWidth = 500; // radius ~= hex tile edge (a). 
 var bounds = null;
 var markers = [];
 var places = [];
@@ -17,8 +17,8 @@ var lt2 = 0, ln2 = 0;
 var pos = {};
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
-var districtRequestURL = 'https://steveteoh.github.io/Hex3/daerah/hulu_langat.json';
-var stateRequestURL = 'https://steveteoh.github.io/Hex2/selangor.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
+var stateRequestURL = 'https://steveteoh.github.io/Selangor/selangor.json';
 
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
@@ -123,13 +123,13 @@ $(window).load(function () {
                         pos = { lat: lt1, lng: ln1 };
                         if (isInside(mygeometry, pos) == true) {
                             places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-                            // not inside -> splice outside hex
+                            // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         }
                         pos = { lat: lt2, lng: ln2 };
                         if (isInside(mygeometry, pos) == true) {
                             places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-                            // not inside -> splice outside hex
+                            // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
                         }
                     }
