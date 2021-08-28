@@ -112,7 +112,7 @@ $(window).load(function () {
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
-            myfeature = layer1.getFeatureById(mapID);
+            myfeature = layer1.getFeatureById("Klang");
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
                 //example - my location
