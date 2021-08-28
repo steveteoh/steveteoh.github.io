@@ -235,10 +235,12 @@ function isInside(geom, latlng) {
     var array = geom.getArray();
     var point = new google.maps.LatLng(latlng);
     var found = false;
+    console.log("geom:" + geom);
     console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
-        var list = item.getAt(0).getArray();
+       //var list = item.getAt(0).getArray();
+       var list = item.getArray();
         //console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
