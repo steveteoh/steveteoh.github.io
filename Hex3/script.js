@@ -229,7 +229,7 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 
 /** 
 * ver 3 
-* function to determine whether a point is inside a geometry. Previous method is "ray casting" algorithm.
+* function to determine whether a point is inside a geometry. This is a quick alternative method to the previous "ray casting" algorithm.
 */
 function isInside(geom, latlng) {
     var array = geom.getArray();
@@ -239,8 +239,12 @@ function isInside(geom, latlng) {
     console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
-       //var list = item.getAt(0).getArray();
-       var list = item.getArray();
+        // If shape is multipolygon
+        if (geom.getType() == "Multipolygon")
+            var list = item.getAt(0).getArray();
+        //else if shape is polygon
+        else if (geom.getType() == "Polygon")
+            var list = item.getArray();
         //console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
