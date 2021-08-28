@@ -18,12 +18,15 @@ var pos = {};
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sepang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/klang.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_selangor.json';
 var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
+
 //var mapID = "Sepang";
-var mapID = "Klang";
+//var mapID = "Klang";
 //var mapID = "Hulu Langat";
+var mapID = "Kuala Selangor";
 
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
@@ -32,26 +35,24 @@ const MAP_BOUNDS = {
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
-
-
 const PLACE_BOUNDS = {
     //north: 3.012039,   //Sepang
     //south: 2.594652,   //Sepang
     //west: 101.589953,  //Sepang
     //east: 101.78966,   //Sepang
-    north: 3.19289,   //Klang
-    south: 2.88442,   //Klang
-    west: 101.199003, //Klang
-    east: 101.524080, //Klang
-    //north: 3.393082,  //Kuala Sel
-    //south: 3.316052,  //Kuala Sel
-    //west: 101.230419, //Kuala Sel
-    //east: 101.278226, //Kuala Sel
-
+    //north: 3.19289,   //Klang
+    //south: 2.88442,   //Klang
+    //west: 101.199003, //Klang
+    //east: 101.524080, //Klang
+    north: 3.393082,  //Kuala Sel
+    south: 3.316052,  //Kuala Sel
+    west: 101.230419, //Kuala Sel
+    east: 101.278226, //Kuala Sel
     //north: 3.275179,   //Hulu Langat
     //south: 2.866524,   //Hulu Langat
     //west: 101.721198,  //Hulu Langat
     //east: 101.970060,  //Hulu Langat
+
     //Selangor   and      Malaysia (warning!! do not use!! super heavy computation). 
     //Should offload the computation to web server instead of javascript
     //north: 3.809677,   //3.05506, 
@@ -112,7 +113,7 @@ $(window).load(function () {
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
-            myfeature = layer1.getFeatureById("Klang");
+            myfeature = layer1.getFeatureById(mapID);
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
                 //example - my location
