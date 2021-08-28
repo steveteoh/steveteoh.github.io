@@ -1,5 +1,5 @@
 /*
-* By Steve Teoh v 1.1 @ 2021/08/22
+* By Steve Teoh v 3.1 @ 2021/08/28
 * For Research Purposes only. 
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
@@ -107,7 +107,6 @@ $(window).load(function () {
                 //isInside(mygeometry, pos) ?
                 //    console.log("inside coord: " + pos.lat + "," + pos.lng) :
                 //    console.log("outside coord: " + pos.lat + "," + pos.lng);
-
                 ////future version will read the coordinate and related data from a json file (instead of two for loop), 
                 ////and determine whether the hex should be added to the boundary or not.
                 ////
