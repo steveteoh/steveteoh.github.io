@@ -16,38 +16,56 @@ var lt1 = 0, ln1 = 0;
 var lt2 = 0, ln2 = 0;
 var pos = {};
 
-//Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
-var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sepang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/klang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_selangor.json';
-var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
 
-var mapID = "Sepang";
-//var mapID = "Klang";
-//var mapID = "Hulu Langat";
-//var mapID = "Kuala Selangor";
-
-//This is the limit for map panning. Not implemented for the time being.
+//This is the limit for Malaysia map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
     north: 10.316892, south: -4.9452478, west: 95.2936829, east: 121.0019857,
 };
 
+//Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
+var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
+
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/ampang_jaya.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sepang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/klang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_selangor.json';
+
+var mapID = "Ampang Jaya";
+//var mapID = "Sepang";
+//var mapID = "Klang";
+//var mapID = "Hulu Langat";
+//var mapID = "Kuala Selangor";
+
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
-    north: 3.012039,   //Sepang
-    south: 2.594652,   //Sepang
-    west: 101.589953,  //Sepang
-    east: 101.78966,   //Sepang
+    //name: "",
+    //north: ,
+    //south: ,
+    //west: ,
+    //east: ,
+    name: "Ampang Jaya",
+    north: 3.23509,
+    south: 3.141598,
+    west: 101.733063,
+    east: 101.792115,
+    //name: "Sepang",
+    //north: 3.012039,   //Sepang
+    //south: 2.594652,   //Sepang
+    //west: 101.589953,  //Sepang
+    //east: 101.78966,   //Sepang
+    //name: "Klang",
     //north: 3.19289,   //Klang
     //south: 2.88442,   //Klang
     //west: 101.199003, //Klang
     //east: 101.524080, //Klang
+    //name: "Kuala Selangor",
     //north: 3.600198,  //Kuala Sel
     //south: 3.165252,  //Kuala Sel
     //west: 101.101054, //Kuala Sel
     //east: 101.492745, //Kuala Sel
+    //name: "Hulu Langat",
     //north: 3.275179,   //Hulu Langat
     //south: 2.866524,   //Hulu Langat
     //west: 101.721198,  //Hulu Langat
