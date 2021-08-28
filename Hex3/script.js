@@ -25,13 +25,15 @@ const MAP_BOUNDS = {
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
 
-var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/ampang_jaya.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_selangor.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/ampang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sepang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_selangor.json';
 
-var mapID = "Ampang Jaya";
+var mapID = "Hulu Selangor";
+//var mapID = "Ampang Jaya";
 //var mapID = "Sepang";
 //var mapID = "Klang";
 //var mapID = "Hulu Langat";
@@ -45,11 +47,41 @@ const PLACE_BOUNDS = {
     //south: ,
     //west: ,
     //east: ,
-    name: "Ampang Jaya",
-    north: 3.292435,
-    south: 3.082175,
-    west: 101.733063,
-    east: 101.853560,
+    //name: "",
+    //north: ,
+    //south: ,
+    //west: ,
+    //east: ,
+    //name: "",
+    //north: ,
+    //south: ,
+    //west: ,
+    //east: ,
+    //name: "",
+    //north: ,
+    //south: ,
+    //west: ,
+    //east: ,
+    //name: "",
+    //north: ,
+    //south: ,
+    //west: ,
+    //east: ,
+    //name: "",
+    //north: ,
+    //south: ,
+    //west: ,
+    //east: ,
+    //name: "Hulu Selangor",
+    north: 3.804692,	
+    south: 3.321608,
+    west: 101.319496,
+    east: 101.814739,
+    //name: "Ampang Jaya",
+    //north: 3.292435,
+    //south: 3.081443,
+    //west: 101.733063,
+    //east: 101.853560,
     //name: "Sepang",
     //north: 3.012039,   //Sepang
     //south: 2.594652,   //Sepang
