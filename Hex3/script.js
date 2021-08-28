@@ -43,15 +43,15 @@ const PLACE_BOUNDS = {
     south: 2.88442,   //Klang
     west: 101.199003, //Klang
     east: 101.524080, //Klang
-    north: 3.393082,  //Kuala Sel
-    south: 3.316052,  //Kuala Sel
-    west: 101.230419, //Kuala Sel
-    east: 101.278226, //Kuala Sel
+    //north: 3.393082,  //Kuala Sel
+    //south: 3.316052,  //Kuala Sel
+    //west: 101.230419, //Kuala Sel
+    //east: 101.278226, //Kuala Sel
 
-    north: 3.275179,   //Hulu Langat
-    south: 2.866524,   //Hulu Langat
-    west: 101.721198,  //Hulu Langat
-    east: 101.970060,  //Hulu Langat
+    //north: 3.275179,   //Hulu Langat
+    //south: 2.866524,   //Hulu Langat
+    //west: 101.721198,  //Hulu Langat
+    //east: 101.970060,  //Hulu Langat
     //Selangor   and      Malaysia (warning!! do not use!! super heavy computation). 
     //Should offload the computation to web server instead of javascript
     //north: 3.809677,   //3.05506, 
