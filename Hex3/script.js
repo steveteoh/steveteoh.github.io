@@ -17,7 +17,7 @@ var lt2 = 0, ln2 = 0;
 var pos = {};
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
-var districtRequestURL = 'https://steveteoh.github.io/Hex2/hulu_langat.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/daerah/hulu_langat.json';
 var stateRequestURL = 'https://steveteoh.github.io/Hex2/selangor.json';
 
 //This is the limit for map panning. Not implemented for the time being.
@@ -35,7 +35,8 @@ const PLACE_BOUNDS = {
     south: 2.866524,
     west: 101.721198,
     east: 101.970060,
-    //Selangor   and      Malaysia (warning!! do not use!! super heavy computation)
+    //Selangor   and      Malaysia (warning!! do not use!! super heavy computation). 
+    //Should offload the computation to web server instead of javascript
     //north: 3.809677,   //3.05506, 
     //south: 2.595847,   //3.02394,
     //west: 100.812550,  //101.780511, 
@@ -43,7 +44,7 @@ const PLACE_BOUNDS = {
 };
 const delta_lat = 0.00389;
 const delta_lon = 0.006745;
-const cols = (PLACE_BOUNDS.north - PLACE_BOUNDS.south) / delta_lat ; // 105.05 -> 106
+const cols = (PLACE_BOUNDS.north - PLACE_BOUNDS.south) / delta_lat; // 105.05 -> 106
 const rows = (PLACE_BOUNDS.east - PLACE_BOUNDS.west) / delta_lon;    // 36.89  -> 37
 const grey = 'rgb(77, 77, 77)';     //for coloring unrelated borders
 const green = 'rgb(0, 255, 0)';     //for less than 10 cases
@@ -54,20 +55,6 @@ const greenlevel = 10;
 const yellowlevel = 50;
 const orangelevel = 99;
 //const redlevel = infinity;
-
-//combine odd and even hex columns from top left to bottom right
-//for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
-//    lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
-//    lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
-//    for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
-//        ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
-//        ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
-//        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
-//        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
-//        places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-//        places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
-//    }
-//}
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
@@ -121,6 +108,9 @@ $(window).load(function () {
                 //    console.log("inside coord: " + pos.lat + "," + pos.lng) :
                 //    console.log("outside coord: " + pos.lat + "," + pos.lng);
 
+                ////future version will read the coordinate and related data from a json file (instead of two for loop), 
+                ////and determine whether the hex should be added to the boundary or not.
+                ////
                 //search odd and even hex columns from top left to bottom right
                 for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
                     lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
@@ -236,7 +226,6 @@ function isInside(geom, latlng) {
         var poly = new google.maps.Polygon({
             paths: list,
         });
-        //if (google.maps.geometry.poly.containsLocation(point, poly)) {
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
             //console.log("found inside poly [" + i + "]");
             found = true;
@@ -284,21 +273,17 @@ function showMarkers() {
 function drawVerticalHexagon(map, position, radius) {
     var color = (position[1] > orangelevel) ? red : (position[1] > yellowlevel) ? orange : (position[1] > greenlevel) ? yellow : green;
     var coordinates = [];
-    var resultColor = color;
     for (var angle = 30; angle < 360; angle += 60) {
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));
-    }
-    //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? color: grey;  
-    //note: if outside, skip and do not draw       
-
+    }        
     // Construct the polygon.
     var polygon = new google.maps.Polygon({
         paths: coordinates,
         position: position,
-        strokeColor: resultColor,
+        strokeColor: color,
         strokeOpacity: 0.8,
         strokeWeight: 2,
-        fillColor: resultColor,
+        fillColor: color,
         fillOpacity: 0.15,
         geodesic: true
     });
@@ -308,21 +293,18 @@ function drawVerticalHexagon(map, position, radius) {
 function drawHorizontalHexagon(map, position, radius) {
     var color = (position[1] > orangelevel) ? red : (position[1] > yellowlevel) ? orange : (position[1] > greenlevel) ? yellow : green;
     var coordinates = [];
-    var resultColor = color;
 
     for (var angle = 0; angle < 360; angle += 60) {
-        //resultColor = google.maps.geometry.poly.containsLocation(position[0], mygeometry)? grey: color;     
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));
     };
-
     // Construct the polygon.
     var polygon = new google.maps.Polygon({
         paths: coordinates,
         position: position,
-        strokeColor: resultColor,
+        strokeColor: color,
         strokeOpacity: 0.8,
         strokeWeight: 2,
-        fillColor: resultColor,
+        fillColor: color,
         fillOpacity: 0.15,
         geodesic: true
     });
@@ -330,7 +312,7 @@ function drawHorizontalHexagon(map, position, radius) {
 }
 
 //ver 2
-function getFile(url, fillcolor) {
+function getGeoJSONFile(url, fillcolor) {
     let request = new XMLHttpRequest();
     request.open('GET', url);
     //request.responseType = 'json';
