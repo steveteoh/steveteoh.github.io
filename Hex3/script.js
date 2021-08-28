@@ -18,7 +18,7 @@ var pos = {};
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
-var stateRequestURL = 'https://steveteoh.github.io/Selangor/selangor.json';
+var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
 
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
