@@ -17,24 +17,27 @@ var lt2 = 0, ln2 = 0;
 var pos = {};
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
-var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sepang.json';
 var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
+var mapID = "Sepang"; //"Hulu Langat";
 
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
-    north: 10.316892,
-    south: -4.9452478,
-    west: 95.2936829,
-    east: 121.0019857,
+    north: 10.316892,south: -4.9452478,west: 95.2936829, east: 121.0019857,
 };
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
+//north: 3.275179,
+//south: 2.866524,
+//west: 101.721198,
+//east: 101.970060,
+
 const PLACE_BOUNDS = {
-    north: 3.275179,
-    south: 2.866524,
-    west: 101.721198,
-    east: 101.970060,
+    north: 3.012039,   //Test Sepang
+    south: 2.594652,
+    west: 101.589953,
+    east: 101.78966,
     //Selangor   and      Malaysia (warning!! do not use!! super heavy computation). 
     //Should offload the computation to web server instead of javascript
     //north: 3.809677,   //3.05506, 
@@ -95,7 +98,7 @@ $(window).load(function () {
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
-            myfeature = layer1.getFeatureById("Hulu Langat");
+            myfeature = layer1.getFeatureById(mapID);
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
                 //example - my location
