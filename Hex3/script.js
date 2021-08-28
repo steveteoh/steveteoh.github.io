@@ -18,10 +18,12 @@ var pos = {};
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sepang.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/klang.json';
 var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
 //var mapID = "Sepang";
-var mapID = "Hulu Langat";
+var mapID = "Klang";
+//var mapID = "Hulu Langat";
 
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
@@ -33,10 +35,19 @@ const MAP_BOUNDS = {
 
 
 const PLACE_BOUNDS = {
-    //north: 3.012039,   //Test Sepang
-    //south: 2.594652,   //Test Sepang
-    //west: 101.589953,  //Test Sepang
-    //east: 101.78966,   //Test Sepang
+    //north: 3.012039,   //Sepang
+    //south: 2.594652,   //Sepang
+    //west: 101.589953,  //Sepang
+    //east: 101.78966,   //Sepang
+    north: 3.19289,   //Klang
+    south: 2.88442,   //Klang
+    west: 101.199003, //Klang
+    east: 101.524080, //Klang
+    north: 3.393082,  //Kuala Sel
+    south: 3.316052,  //Kuala Sel
+    west: 101.230419, //Kuala Sel
+    east: 101.278226, //Kuala Sel
+
     north: 3.275179,   //Hulu Langat
     south: 2.866524,   //Hulu Langat
     west: 101.721198,  //Hulu Langat
