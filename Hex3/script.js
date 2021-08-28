@@ -18,9 +18,9 @@ var pos = {};
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sepang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/klang.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_selangor.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_selangor.json';
 var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
 
 //var mapID = "Sepang";
