@@ -44,10 +44,10 @@ const PLACE_BOUNDS = {
     //south: 2.88442,   //Klang
     //west: 101.199003, //Klang
     //east: 101.524080, //Klang
-    north: 3.393082,  //Kuala Sel
-    south: 3.316052,  //Kuala Sel
-    west: 101.230419, //Kuala Sel
-    east: 101.278226, //Kuala Sel
+    north: 3.600198,  //Kuala Sel
+    south: 3.165252,  //Kuala Sel
+    west: 101.101054, //Kuala Sel
+    east: 101.492745, //Kuala Sel
     //north: 3.275179,   //Hulu Langat
     //south: 2.866524,   //Hulu Langat
     //west: 101.721198,  //Hulu Langat
