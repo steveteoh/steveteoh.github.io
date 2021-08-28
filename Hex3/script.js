@@ -25,7 +25,8 @@ const MAP_BOUNDS = {
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
 
-var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_langat.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/petaling_jaya.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/ampang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sepang.json';
@@ -33,7 +34,8 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_selangor.json';
 
-var mapID = "Kuala Langat";
+var mapID = "Petaling Jaya";
+//var mapID = "Kuala Langat";
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
 //var mapID = "Sepang";
@@ -64,16 +66,16 @@ const PLACE_BOUNDS = {
     //south: ,
     //west: ,
     //east: ,
-    //name: "",
-    //north: ,
-    //south: ,
-    //west: ,
-    //east: ,
+    //name: "Petaling Jaya",
+    north: 3.071023,
+    south: 3.205085,
+    west: 101.552817,
+    east: 101.663317,
     //name: "Kuala Langat",
-    north: 2.978663,
-    south: 2.643984,
-    west: 101.286413,
-    east: 101.681967,
+    //north: 2.978663,
+    //south: 2.643984,
+    //west: 101.286413,
+    //east: 101.681967,
     //name: "Hulu Selangor",
     //north: 3.804692,	
     //south: 3.321608,
@@ -95,22 +97,22 @@ const PLACE_BOUNDS = {
     //west: 101.199003, //Klang
     //east: 101.524080, //Klang
     //name: "Kuala Selangor",
-    //north: 3.600198,  //Kuala Sel
-    //south: 3.165252,  //Kuala Sel
-    //west: 101.101054, //Kuala Sel
-    //east: 101.492745, //Kuala Sel
+    //north: 3.600198,  
+    //south: 3.165252,  
+    //west: 101.101054, 
+    //east: 101.492745, 
     //name: "Hulu Langat",
-    //north: 3.275179,   //Hulu Langat
-    //south: 2.866524,   //Hulu Langat
-    //west: 101.721198,  //Hulu Langat
-    //east: 101.970060,  //Hulu Langat
+    //north: 3.275179,  
+    //south: 2.866524,  
+    //west: 101.721198, 
+    //east: 101.970060, 
 
     //Selangor   and      Malaysia (warning!! do not use!! super heavy computation). 
     //Should offload the computation to web server instead of javascript
-    //north: 3.809677,   //3.05506, 
-    //south: 2.595847,   //3.02394,
-    //west: 100.812550,  //101.780511, 
-    //east: 101.958404,  //101.807490, 
+    //north: 3.809677,                  //3.05506, 
+    //south: 2.595847,                  //3.02394,
+    //west: 100.812550,                 //101.780511, 
+    //east: 101.958404,                 //101.807490, 
 };
 const delta_lat = 0.00389;
 const delta_lon = 0.006745;
