@@ -24,9 +24,9 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala
 var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
 
 //var mapID = "Sepang";
-//var mapID = "Klang";
+var mapID = "Klang";
 //var mapID = "Hulu Langat";
-var mapID = "Kuala Selangor";
+//var mapID = "Kuala Selangor";
 
 //This is the limit for map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
@@ -40,14 +40,14 @@ const PLACE_BOUNDS = {
     //south: 2.594652,   //Sepang
     //west: 101.589953,  //Sepang
     //east: 101.78966,   //Sepang
-    //north: 3.19289,   //Klang
-    //south: 2.88442,   //Klang
-    //west: 101.199003, //Klang
-    //east: 101.524080, //Klang
-    north: 3.600198,  //Kuala Sel
-    south: 3.165252,  //Kuala Sel
-    west: 101.101054, //Kuala Sel
-    east: 101.492745, //Kuala Sel
+    north: 3.19289,   //Klang
+    south: 2.88442,   //Klang
+    west: 101.199003, //Klang
+    east: 101.524080, //Klang
+    //north: 3.600198,  //Kuala Sel
+    //south: 3.165252,  //Kuala Sel
+    //west: 101.101054, //Kuala Sel
+    //east: 101.492745, //Kuala Sel
     //north: 3.275179,   //Hulu Langat
     //south: 2.866524,   //Hulu Langat
     //west: 101.721198,  //Hulu Langat
@@ -235,7 +235,7 @@ function isInside(geom, latlng) {
     var array = geom.getArray();
     var point = new google.maps.LatLng(latlng);
     var found = false;
-    //console.log("array:" + geom.getArray());
+    console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
         var list = item.getAt(0).getArray();
