@@ -46,10 +46,10 @@ const PLACE_BOUNDS = {
     //west: ,
     //east: ,
     name: "Ampang Jaya",
-    north: 3.23509,
-    south: 3.141598,
+    north: 3.292435,
+    south: 3.082175,
     west: 101.733063,
-    east: 101.792115,
+    east: 101.853560,
     //name: "Sepang",
     //north: 3.012039,   //Sepang
     //south: 2.594652,   //Sepang
