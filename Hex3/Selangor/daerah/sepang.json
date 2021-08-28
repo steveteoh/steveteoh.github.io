@@ -15,7 +15,7 @@
         "id": "308"
       },
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Polygon",
         "coordinates": [
           [
             [ 101.712629807459692, 2.595990360950604 ],
