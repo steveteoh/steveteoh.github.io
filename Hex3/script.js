@@ -25,7 +25,8 @@ const MAP_BOUNDS = {
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var stateRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/selangor.json';
 
-var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sabak_bernam.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/selayang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sabak_bernam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/petaling_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_selangor.json';
@@ -35,7 +36,8 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sabak
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/hulu_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_selangor.json';
 
-var mapID = "Sabak Bernam";
+var mapID = "Selayang";
+//var mapID = "Sabak Bernam";
 //var mapID = "Petaling Jaya";
 //var mapID = "Kuala Langat";
 //var mapID = "Hulu Selangor";
@@ -58,16 +60,16 @@ const PLACE_BOUNDS = {
     //south: ,
     //west: ,
     //east: ,
-    //name: "",
-    //north: ,
-    //south: ,
-    //west: ,
-    //east: ,
-    name: "Sabak Bernam",
-    north: 3.8706898,
-    south: 3.485592,
-    west: 100.813934,
-    east: 101.349522,
+    name: "Selayang",
+    north: 3.401885,
+    south: 3.199615,
+    west: 101.430351,
+    east: 101.836780,
+    //name: "Sabak Bernam",
+    //north: 3.8706898,
+    //south: 3.485592,
+    //west: 100.813934,
+    //east: 101.349522,
     //name: "Petaling Jaya",
     //north: 3.208809,
     //south: 3.070647,
