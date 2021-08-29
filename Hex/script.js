@@ -319,8 +319,8 @@ function isInside(geom, latlng) {
     var array = geom.getArray();
     var point = new google.maps.LatLng(latlng);
     var found = false;
-    console.log("geom:" + geom);
-    console.log("array:" + geom.getArray());
+    //console.log("geom:" + geom);
+    //console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
         // If shape is multipolygon
