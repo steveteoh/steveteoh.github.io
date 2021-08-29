@@ -41,13 +41,13 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/suban
 var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
 //var mapID = "Selayang";
-//var mapID = "Sabak Bernam";
+//var mapID = "Sabak Bernam";     
 //var mapID = "Petaling Jaya";
 //var mapID = "Kuala Langat";
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
-//var mapID = "Sepang";
-//var mapID = "Klang";
+//var mapID = "Sepang";         //isinside does not work with holes (putrajaya) yet...revising
+//var mapID = "Klang";          //need to adjust the geojson boundary for pulau
 //var mapID = "Hulu Langat";
 //var mapID = "Kuala Selangor";
 
@@ -338,13 +338,13 @@ function isInside(geom, latlng) {
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
             //console.log("found inside poly [" + i + "]");
             found = true;
-            // every() loop stops iterating through the array whenever the callback function returns a false value.
+            // the `every()` loop stops iterating through the array whenever the callback function returns a false value.
             return false;
         }
         else {
             //console.log("Not found at poly [" + i + "]. Searching next poly");
             found = false;
-            // Make sure you return "true". If you don't return a value, `every()` will stop.
+            // Make sure you return "true". If you don't return a value, the `every()` loop will stop.
             return true;
         }
     });
@@ -393,7 +393,7 @@ function drawVerticalHexagon(map, position, radius) {
         strokeOpacity: 0.8,
         strokeWeight: 2,
         fillColor: color,
-        fillOpacity: 0.15,
+        fillOpacity: 0.3,
         geodesic: true
     });
     polygon.setMap(map);
