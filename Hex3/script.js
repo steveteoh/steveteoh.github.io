@@ -1,5 +1,5 @@
 /*
-* By Steve Teoh v 3.1 @ 2021/08/28
+* By Steve Teoh v 3.5.1 @ 2021/08/29
 * For Research Purposes only. 
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
@@ -208,7 +208,6 @@ $(window).load(function () {
                         ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
                         pos = { lat: lt1, lng: ln1 };
                         if (isInside(mygeometry, pos) == true) {
-                            //var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
                             counter++;
                             var label1 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l).toString() + "," + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
@@ -286,6 +285,8 @@ $(window).load(function () {
         strokeWeight: 1
     });
 
+    hideMarkers();  //initially hide all markers for faster display
+
     /**
      * 
      */
@@ -297,8 +298,6 @@ $(window).load(function () {
         fillOpacity: 0.1,
         strokeWeight: 1
     });
-
-    hideMarkers();  //initially hide all markers for faster display
 });
 
 /**
