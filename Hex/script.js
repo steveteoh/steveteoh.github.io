@@ -324,11 +324,11 @@ function isInside(geom, latlng) {
 
     array.every(function (item, i) {
         // If shape is multipolygon
-        if (geom.getType() == "Multipolygon")
+        //if (geom.getType() == "Multipolygon")
             var list = item.getAt(0).getArray();
         //else if shape is polygon
-        else if (geom.getType() == "Polygon")
-            var list = item.getArray();
+        //else if (geom.getType() == "Polygon")
+        //    var list = item.getArray();
         //console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
