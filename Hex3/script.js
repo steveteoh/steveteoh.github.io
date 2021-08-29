@@ -115,12 +115,20 @@ const PLACE_BOUNDS = {
     //west: 101.721198, 
     //east: 101.970060, 
 
-    //Selangor   and      Malaysia (warning!! do not use!! super heavy computation). 
-    //Should offload the computation to web server instead of javascript
-    //north: 3.809677,                  //3.05506, 
-    //south: 2.595847,                  //3.02394,
-    //west: 100.812550,                 //101.780511, 
-    //east: 101.958404,                 //101.807490, 
+    //Selangor and  Malaysia (warning!! Do not use!! Super heavy computations!!). 
+    //Should offload the computation to web server instead of just using client-side javascript
+    //or use a periodic, pregenerated dataset in geojson format.
+    //name: "Selangor",
+    //north: 3.8706898,	
+    //south: 2.594652, 
+    //west: 100.813934, 
+    //east: 101.97006,
+    //name: "Malaysia",
+    //north: 
+    //south: 
+    //west: 
+    //east: 
+
 };
 const delta_lat = 0.00389;
 const delta_lon = 0.006745;
@@ -143,7 +151,7 @@ $(window).load(function () {
     map = new google.maps.Map(document.getElementById("map_canvas"), {
         center: { lat: 0, lng: 0 },
         scaleControl: true,
-        zoom: 6,
+        zoom: 12,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
     });
@@ -191,25 +199,42 @@ $(window).load(function () {
                 ////and determine whether the hex should be added to the boundary or not.
                 ////
                 //search odd and even hex columns from top left to bottom right
+                let counter = 0;
                 for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
                     lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
                     lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
                     for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
                         ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
                         ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
-                        var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
-                        var label2 = "Hex:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
                         pos = { lat: lt1, lng: ln1 };
                         if (isInside(mygeometry, pos) == true) {
-                            places.push([lt1, ln1, label1, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+                            //var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
+                            counter++;
+                            var label1 = "No:" + counter + " Hex coord:(" + (2 * l).toString()  + "," + (k).toString() + ")";
+                            var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
+                            var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            places.push([lt1, ln1, label1, 'place name', weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, 1, '2021-08-15T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         }
                         pos = { lat: lt2, lng: ln2 };
                         if (isInside(mygeometry, pos) == true) {
-                            places.push([lt2, ln2, label2, 'Noname', 0, 0, 0, 0, 0, 0, 1, '2021-08-15T12:11:01.587Z']);
+                            counter++;
+                            var label2 = "No:" + counter + "Hex coord:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
+                            var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
+                            var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            places.push([lt2, ln2, label2, 'place name', weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, 1, '2021-08-15T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
+                            countery++;
                         }
                     }
                 }
