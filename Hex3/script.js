@@ -210,7 +210,7 @@ $(window).load(function () {
                         if (isInside(mygeometry, pos) == true) {
                             //var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
                             counter++;
-                            var label1 = "No:" + counter + "<br>Hex coord:(" + (2 * l).toString()  + "," + (k).toString() + ")";
+                            var label1 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l).toString() + "," + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
@@ -224,7 +224,7 @@ $(window).load(function () {
                         pos = { lat: lt2, lng: ln2 };
                         if (isInside(mygeometry, pos) == true) {
                             counter++;
-                            var label2 = "No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
+                            var label2 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
