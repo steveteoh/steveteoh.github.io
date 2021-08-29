@@ -23,7 +23,7 @@ const MAP_BOUNDS = {
 };
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
-var stateRequestURL = './Hex/Selangor/selangor.json';
+var stateRequestURL = './Selangor/selangor.json';
 
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/subang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/shah_alam.json';
@@ -36,7 +36,7 @@ var stateRequestURL = './Hex/Selangor/selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/sepang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex3/Selangor/daerah/kuala_selangor.json';
-var districtRequestURL = './Hex/Selangor/daerah/hulu_langat.json';
+var districtRequestURL = './Selangor/daerah/hulu_langat.json';
 
 //var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
