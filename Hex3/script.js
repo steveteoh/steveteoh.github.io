@@ -210,28 +210,28 @@ $(window).load(function () {
                         if (isInside(mygeometry, pos) == true) {
                             //var label1 = "Hex:(" + (2 * l).toString() + "," + (k).toString() + ")";
                             counter++;
-                            var label1 = "No:" + counter + " Hex coord:(" + (2 * l).toString()  + "," + (k).toString() + ")";
+                            var label1 = "No:" + counter + "<br>Hex coord:(" + (2 * l).toString()  + "," + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
                             var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt1, ln1, label1, 'place name', weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, 1, '2021-08-15T12:11:01.587Z']);
+                            places.push([lt1, ln1, label1, 'place name', weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         }
                         pos = { lat: lt2, lng: ln2 };
                         if (isInside(mygeometry, pos) == true) {
                             counter++;
-                            var label2 = "No:" + counter + "Hex coord:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
+                            var label2 = "No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + "," + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
                             var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt2, ln2, label2, 'place name', weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, 1, '2021-08-15T12:11:01.587Z']);
+                            places.push([lt2, ln2, label2, 'place name', weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
                         }
