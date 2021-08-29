@@ -234,7 +234,6 @@ $(window).load(function () {
                             places.push([lt2, ln2, label2, 'place name', weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, 1, '2021-08-15T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
-                            countery++;
                         }
                     }
                 }
