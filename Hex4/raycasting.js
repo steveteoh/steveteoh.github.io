@@ -1,5 +1,4 @@
-{
-    pointInPolygon(polygonPath, coordinates) {
+function pointInPolygon(polygonPath, coordinates) {
         let numberOfVertexs = polygonPath.length - 1;
         let inPoly = false;
         let { lat, lng } = coordinates;
@@ -20,4 +19,3 @@
         }
         return inside;
     }
-}
