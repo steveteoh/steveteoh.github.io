@@ -37,6 +37,7 @@ body {
     background: white;
     background: linear-gradient(to bottom, white 0%, whitesmoke 100%);
     border: #e5e5e5 1px solid;
+    justify-content:right;
 }
 
 #data-box {
