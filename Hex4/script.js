@@ -237,6 +237,9 @@ $(window).load(function () {
                     }
                 }
             });
+            //export test
+            exportToCsvFile(places);
+
             // Adding a marker just so we can visualize where the actual data points are.
             places.forEach(function (place, p) {
                 latlng = new google.maps.LatLng({ lat: place[0], lng: place[1] });
@@ -287,10 +290,6 @@ $(window).load(function () {
 
     hideMarkers();  //initially hide all markers for faster display
 
-    /**
-     * 
-     */
-
     //Get the State administrative boundary through geojson file
     map.data.loadGeoJson(stateRequestURL);
     map.data.setStyle({
@@ -299,6 +298,37 @@ $(window).load(function () {
         strokeWeight: 1
     });
 });
+
+/*
+ * Export data to CSV in new window * 
+ */
+function exportToCsvFile(sourcedata) {
+    var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
+    var myCsv = "\n" + sourcedata;
+    const data = header + myCsv;
+
+    // Create a Blob object
+    const blob = new Blob([data], { type: 'text/csv' });
+    // Create an object URL
+    const url = URL.createObjectURL(blob);
+    // Download file
+    download(url, 'output.txt');
+    // Release the object URL
+    URL.revokeObjectURL(url);
+}
+
+const download = (path, filename) => {
+    // Create a new link
+    const anchor = document.createElement('a');
+    anchor.href = path;
+    anchor.download = filename;
+    // Append to the DOM
+    document.body.appendChild(anchor);
+    // Trigger `click` event
+    anchor.click();
+    // Remove element from DOM
+    document.body.removeChild(anchor);
+};
 
 /**
  * Ver 3
