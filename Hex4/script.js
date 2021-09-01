@@ -210,7 +210,7 @@ $(window).load(function () {
                         pos = { lat: lt1, lng: ln1 };
                         if (isInside(mygeometry, pos) == true) {
                             counter++;
-                            var locationname = geocodeLatLng(geocoder, map, lat1, lon1);
+                            var locationname = geocodeLatLng(geocoder, map, lt1, ln1);
                             var label1 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l).toString() + ";" + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
@@ -225,7 +225,7 @@ $(window).load(function () {
                         pos = { lat: lt2, lng: ln2 };
                         if (isInside(mygeometry, pos) == true) {
                             counter++;
-                            var locationname = geocodeLatLng(geocoder, map, lat2, lon2);
+                            var locationname = geocodeLatLng(geocoder, map, lt2, ln2);
                             var label2 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + ";" + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
