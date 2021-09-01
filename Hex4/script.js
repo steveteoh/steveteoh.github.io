@@ -252,7 +252,7 @@ $(window).load(function () {
                     label: `${p + 1}`,
                     title: place[3],
                 });
-                marker.setIcon("http://maps.google.com/mapfiles/ms/icons/blue.png");
+                marker.setIcon("https://maps.google.com/mapfiles/ms/icons/blue.png");
                 //Attaching related information onto the marker
                 attachMessage(marker, place[2] + ' : ' + place[3] +
                     '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
@@ -304,8 +304,8 @@ $(window).load(function () {
 
 function geocodeLatLng(geocoder, map, lt, ln) {
     const latlng = {
-        lat: parseFloat(lt),
-        lng: parseFloat(ln),
+        lat: lt,
+        lng: ln,
     };
     geocoder.geocode(latlng)
         .then((response) => {
@@ -373,8 +373,8 @@ function isInside(geom, latlng) {
     var array = geom.getArray();
     var point = new google.maps.LatLng(latlng);
     var found = false;
-    console.log("geom:" + geom);
-    console.log("array:" + geom.getArray());
+    //console.log("geom:" + geom);
+    //console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
         // If shape is multipolygon
