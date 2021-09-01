@@ -324,7 +324,7 @@ function geocodeLatLng(geocoder, map, pos) {
  */
 function exportToCsvFile(sourcedata) {
     var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
-    var info = sourcedata.forEach(function (i) { return sourcedata[i] + "\n"; } )
+    var info = sourcedata.forEach(function (i) { sourcedata[i] + "\n"; } )
     var myCsv = "\n" + info;
     const data = header + myCsv;
     // Create a Blob object
