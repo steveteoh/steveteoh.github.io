@@ -303,7 +303,7 @@ $(window).load(function () {
 });
 
 function geocodeLatLng(geocoder, map, pos) {
-    geocoder.geocode(pos)
+    geocoder.geocode({ location: pos })
         .then((response) => {
             if (response.results[0]) {
                 map.setZoom(11);
