@@ -318,7 +318,9 @@ function geocodeLatLng(geocoder, map, lt, ln) {
                 return "place name n/a";
             }
         })
-        .catch ((e) => window.alert("Geocoder failed due to: " + e));
+        .catch((e) => {
+            console.log("Geocoder failed due to: " + e);
+        });
 }
 
 /*
