@@ -371,7 +371,9 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 */
 function isInside(geom, latlng) {
     var array = geom.getArray();
-    var point = new google.maps.LatLng(latlng);
+    var point = new google.maps.LatLng(latlng);    //to extend the checking of latlng of centroid to 6 vertices. 
+                                                   //If any 3 of the vertices is inside,
+                                                   //then the coordinate is considered inside.
     var found = false;
     //console.log("geom:" + geom);
     //console.log("array:" + geom.getArray());
