@@ -302,21 +302,23 @@ $(window).load(function () {
     });
 });
 
-function geocodeLatLng(geocoder, map, lats, lons) {
+function geocodeLatLng(geocoder, map, lt, ln) {
     const latlng = {
-        lat: parseFloat(lats),
-        lng: parseFloat(lons),
+        lat: parseFloat(lt),
+        lng: parseFloat(ln),
     };
-    geocoder
-        .geocode(latlng)
+    geocoder.geocode(latlng)
         .then((response) => {
             if (response.results[0]) {
+                map.setZoom(11);
                 return response.results[0].formatted_address;
             }
             else {
+
                 return "place name n/a";
             }
-        });
+        })
+        .catch ((e) => window.alert("Geocoder failed due to: " + e));
 }
 
 /*
