@@ -210,7 +210,7 @@ $(window).load(function () {
                         pos = { lat: lt1, lng: ln1 };
                         if (isInside(mygeometry, pos) == true) {
                             counter++;
-                            var locationname = geocodeLatLng(geocoder, map, pos);
+                            var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
                             var label1 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l).toString() + ";" + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
@@ -218,14 +218,15 @@ $(window).load(function () {
                             var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
                             var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z']);
+                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         }
+                        
                         pos = { lat: lt2, lng: ln2 };
                         if (isInside(mygeometry, pos) == true) {
                             counter++;
-                            var locationname = geocodeLatLng(geocoder, map, pos);
+                            var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
                             var label2 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + ";" + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
@@ -233,7 +234,7 @@ $(window).load(function () {
                             var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
                             var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt2, ln2, label2, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z']);
+                            places.push([lt2, ln2, label2, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
                         }
@@ -323,14 +324,15 @@ function geocodeLatLng(geocoder, map, pos) {
  */
 function exportToCsvFile(sourcedata) {
     var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
-    var myCsv = "\n" + sourcedata;
+    var info = sourcedata.forEach(function (i) { return i + "\n"; } )
+    var myCsv = "\n" + info;
     const data = header + myCsv;
     // Create a Blob object
     const blob = new Blob([data], { type: 'text/csv' });
     // Create an object URL
     const url = URL.createObjectURL(blob);
     // Download file
-    download(url, 'output.txt');
+    download(url, 'subang_jaya.csv');
     // Release the object URL
     URL.revokeObjectURL(url);
 }
