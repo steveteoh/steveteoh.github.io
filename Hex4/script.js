@@ -4,6 +4,7 @@
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
 var map = null;
+var geocoder = null;
 var myfeature = {};
 var mygeometry = {};
 var pointCount = 0;
@@ -155,7 +156,7 @@ $(window).load(function () {
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
     });
-    const geocoder = new google.maps.Geocoder();
+    geocoder = new google.maps.Geocoder();
     var infoWindow = new google.maps.InfoWindow({ map: map });
     // Ver 3: Try HTML5 geolocation.
     if (navigator.geolocation) {
@@ -209,7 +210,8 @@ $(window).load(function () {
                         pos = { lat: lt1, lng: ln1 };
                         if (isInside(mygeometry, pos) == true) {
                             counter++;
-                            var locationname = geocodeLatLng(geocoder, map, lt1 + "," + ln1);
+                            var input1 = lt1 + "," + ln1;
+                            var locationname = geocodeLatLng(geocoder, map, input1);
                             var label1 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l).toString() + ";" + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
@@ -217,14 +219,15 @@ $(window).load(function () {
                             var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
                             var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
+                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         }
                         pos = { lat: lt2, lng: ln2 };
                         if (isInside(mygeometry, pos) == true) {
                             counter++;
-                            var locationname = geocodeLatLng(geocoder, map, lt2 + "," + ln2);
+                            var input2 = lt2 + "," + ln2;
+                            var locationname = geocodeLatLng(geocoder, map, input2);
                             var label2 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + ";" + (k).toString() + ")";
                             var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
@@ -232,7 +235,7 @@ $(window).load(function () {
                             var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
                             var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt2, ln2, label2, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
+                            places.push([lt2, ln2, label2, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
                         }
