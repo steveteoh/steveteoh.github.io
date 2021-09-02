@@ -75,7 +75,7 @@ $(window).load(function () {
     }
 
     //read csv file 
-    getFile('https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv', data);
+    data = getFile('https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv');
     console.log(data);
 
     var layer1 = new google.maps.Data();
@@ -176,7 +176,7 @@ function geocodeLatLng(geocoder, map, pos) {
         });
 }
 
-function getFile(url, callback) {
+function getFile(url) {
     return fetch(url).then(response => {
         if (!response.ok) {
             throw new Error("HTTP error " + response.status); // Rejects the promise
