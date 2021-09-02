@@ -95,8 +95,8 @@ $(window).load(function () {
                 //replace loop with data from csv file
                 //var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
                 data.forEach(function (item, index) {
-                    lt1 = item[index][0];
-                    ln1 = item[index][1];
+                    lt1 = item [0];
+                    ln1 = item[1];
                     pos = { lat: lt1, lng: ln1 };
                     var locationname = item[index][3];
                     var label1 = item[index][2];
