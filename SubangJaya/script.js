@@ -95,18 +95,17 @@ $(window).load(function () {
                 //replace loop with data from csv file
                 //var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
                 data.forEach(function (item, index) {
-                    console.log(item.get("lat") + "," + item.get("lon") + "," + item.get("label"));
-                    lt1 = item.get("lat");
-                    ln1 = item.get("lon");
+                    lt1 = item.lat;
+                    ln1 = item.lon;
                     pos = { lat: lt1, lng: ln1 };
-                    var locationname = item.get("placename");
-                    var label1 = item.get("label");
-                    var weeklyactive = item.get("weeklyactive");
-                    var totalactive = item.get("totalactive");
-                    var weeklyrecovered = item.get("totalrecovered");
-                    var totalrecovered = item.get("totalrecovered");
-                    var weeklydeaths = item.get("weeklydeaths");
-                    var totaldeaths = item.get("totaldeaths");
+                    var locationname = item.placename;
+                    var label1 = item.label;
+                    var weeklyactive = item.weeklyactive;
+                    var totalactive = item.totalactive;
+                    var weeklyrecovered = item.weeklyrecovered;
+                    var totalrecovered = item.totalrecovered;
+                    var weeklydeaths = item.weeklydeaths;
+                    var totaldeaths = item.totaldeaths;
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
                 });
             });
