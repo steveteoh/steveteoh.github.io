@@ -1,5 +1,5 @@
 /*
-* By Steve Teoh v 3.6 @ 2021/09/02 Live Data Display (Beta)
+* By Steve Teoh v 4.2 @ 2021/09/02 Live Data Display (Beta)
 * For Research Purposes only. 
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
@@ -75,12 +75,7 @@ $(window).load(function () {
     }
 
     //read csv file 
-    const reader = new FileReader();
-    reader.onload = function (e) {
-        const text = e.target.result;
-        data = csvToArray(text);
-    };
-    reader.readAsText('https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv');
+    data = getFile('https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv');
 
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
@@ -178,6 +173,18 @@ function geocodeLatLng(geocoder, map, pos) {
         .catch((e) => {
             console.log("Geocoder failed due to: " + e);
         });
+}
+
+function getFile(url) {
+    let request = new XMLHttpRequest();
+    request.open('GET', url);
+    request.responseType = 'text'; // now we're getting strings!
+    request.send();
+
+    request.onload = function () {
+        const result = request.response;
+        return result;
+    }
 }
 
 function csvToArray(str, delimiter = ",") {
