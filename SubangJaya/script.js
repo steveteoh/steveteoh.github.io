@@ -1,5 +1,5 @@
 /*
-* By Steve Teoh v 3.5.1 @ 2021/08/29
+* By Steve Teoh v 3.6 @ 2021/09/02 Live Data Display (Beta)
 * For Research Purposes only. 
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
@@ -14,127 +14,23 @@ var bounds = null;
 var markers = [];
 var places = [];
 var lt1 = 0, ln1 = 0;
-var lt2 = 0, ln2 = 0;
 var pos = {};
+var data;
 
-
-//This is the limit for Malaysia map panning. Not implemented for the time being.
-const MAP_BOUNDS = {
-    north: 10.316892, south: -4.9452478, west: 95.2936829, east: 121.0019857,
-};
-
-//Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var stateRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/selangor.json';
-
 var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/shah_alam.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/selayang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/sabak_bernam.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/petaling_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/kuala_langat.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/hulu_selangor.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/ampang_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/sepang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/klang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/hulu_langat.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/kuala_selangor.json';
-
 var mapID = "Subang Jaya";
-//var mapID = "Shah Alam";
-//var mapID = "Selayang";
-//var mapID = "Sabak Bernam";     
-//var mapID = "Petaling Jaya";
-//var mapID = "Kuala Langat";
-//var mapID = "Hulu Selangor";
-//var mapID = "Ampang Jaya";
-//var mapID = "Sepang";         //isinside does not work with holes (putrajaya) yet...revising
-//var mapID = "Klang";          //need to adjust the geojson boundary for pulau
-//var mapID = "Hulu Langat";
-//var mapID = "Kuala Selangor";
-
-// Places are automatically generated using just north, south, east and west boundary coordinates. 
-// E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
     name: "Subang Jaya",
     north: 3.085027,
     south: 2.976325,
     west: 101.549597,
     east: 101.730601,
-    //name: "Shah Alam",
-    //north: 3.223441,
-    //south: 2.958439,
-    //west: 101.441838,
-    //east: 101.591569,
-    //name: "Selayang",
-    //north: 3.401885,
-    //south: 3.199615,
-    //west: 101.430351,
-    //east: 101.836780,
-    //name: "Sabak Bernam",
-    //north: 3.8706898,
-    //south: 3.485592,
-    //west: 100.813934,
-    //east: 101.349522,
-    //name: "Petaling Jaya",
-    //north: 3.208809,
-    //south: 3.070647,
-    //west: 101.550759,
-    //east: 101.663325,
-    //name: "Kuala Langat",
-    //north: 2.978663,
-    //south: 2.643984,
-    //west: 101.286413,
-    //east: 101.681967,
-    //name: "Hulu Selangor",
-    //north: 3.804692,	
-    //south: 3.321608,
-    //west: 101.319496,
-    //east: 101.814739,
-    //name: "Ampang Jaya",
-    //north: 3.292435,
-    //south: 3.081443,
-    //west: 101.733063,
-    //east: 101.853560,
-    //name: "Sepang",
-    //north: 3.012039,   //Sepang
-    //south: 2.594652,   //Sepang
-    //west: 101.589953,  //Sepang
-    //east: 101.78966,   //Sepang
-    //name: "Klang",
-    //north: 3.19289,   //Klang
-    //south: 2.88442,   //Klang
-    //west: 101.199003, //Klang
-    //east: 101.524080, //Klang
-    //name: "Kuala Selangor",
-    //north: 3.600198,  
-    //south: 3.165252,  
-    //west: 101.101054, 
-    //east: 101.492745, 
-    //name: "Hulu Langat",
-    //north: 3.275179,  
-    //south: 2.866524,  
-    //west: 101.721198, 
-    //east: 101.970060, 
-
-    //Selangor and  Malaysia (warning!! Do not use!! Super heavy computations!!). 
-    //Should offload the computation to web server instead of just using client-side javascript
-    //or use a periodic, pregenerated dataset in geojson format.
-    //name: "Selangor",
-    //north: 3.8706898,	
-    //south: 2.594652, 
-    //west: 100.813934, 
-    //east: 101.97006,
-    //name: "Malaysia",
-    //north: 
-    //south: 
-    //west: 
-    //east: 
-
 };
 const delta_lat = 0.00389;
 const delta_lon = 0.006745;
-const cols = (PLACE_BOUNDS.north - PLACE_BOUNDS.south) / delta_lat; // 105.05 -> 106
-const rows = (PLACE_BOUNDS.east - PLACE_BOUNDS.west) / delta_lon;    // 36.89  -> 37
+const cols = (PLACE_BOUNDS.north - PLACE_BOUNDS.south) / delta_lat;  // 
+const rows = (PLACE_BOUNDS.east - PLACE_BOUNDS.west) / delta_lon;    //
 const grey = 'rgb(77, 77, 77)';     //for coloring unrelated borders
 const green = 'rgb(0, 255, 0)';     //for less than 10 cases
 const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
@@ -154,11 +50,10 @@ $(window).load(function () {
         scaleControl: true,
         zoom: 12,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
     });
     geocoder = new google.maps.Geocoder();
     var infoWindow = new google.maps.InfoWindow({ map: map });
-    // Ver 3: Try HTML5 geolocation.
+
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
             (position) => {
@@ -176,74 +71,39 @@ $(window).load(function () {
             }
         );
     } else {
-        // Browser doesn't support Geolocation
         handleLocationError(false, infoWindow, map.getCenter());
     }
 
-    //Get the district administrative boundary through geojson file
+    //read csv file 
+    const reader = new FileReader();
+    reader.onload = function (e) {
+        const text = e.target.result;
+        data = csvToArray(text);
+    };
+    reader.readAsText('https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv');
+
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
             myfeature = layer1.getFeatureById(mapID);
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
-                //example - my location
-                //isInside(mygeometry, pos) ?
-                //    console.log("inside coord: " + pos.lat + "," + pos.lng) :
-                //    console.log("outside coord: " + pos.lat + "," + pos.lng);
-                //example of not found
-                //pos = {  lat: -1,  lng: -30, };
-                //isInside(mygeometry, pos) ?
-                //    console.log("inside coord: " + pos.lat + "," + pos.lng) :
-                //    console.log("outside coord: " + pos.lat + "," + pos.lng);
-                ////future version will read the coordinate and related data from a json file (instead of two for loop), 
-                ////and determine whether the hex should be added to the boundary or not.
-                ////
-                //search odd and even hex columns from top left to bottom right
-                let counter = 0;
-                for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
-                    lt1 = -(2 * k) * delta_lat + PLACE_BOUNDS.north;
-                    lt2 = -(2 * k + 1) * delta_lat + PLACE_BOUNDS.north;
-                    for (let l = 0; (2 * l) * delta_lon + PLACE_BOUNDS.west <= PLACE_BOUNDS.east; ++l) {
-                        ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
-                        ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
-                        pos = { lat: lt1, lng: ln1 };
-                        if (isInside(mygeometry, pos) == true) {
-                            counter++;
-                            var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
-                            var label1 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l).toString() + ";" + (k).toString() + ")";
-                            var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
-                            var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
-                            var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
-                            var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
-                            // if not inside -> splice outside hex
-                            //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
-                        }
-                        
-                        pos = { lat: lt2, lng: ln2 };
-                        if (isInside(mygeometry, pos) == true) {
-                            counter++;
-                            var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
-                            var label2 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + ";" + (k).toString() + ")";
-                            var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
-                            var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
-                            var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
-                            var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt2, ln2, label2, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
-                            // if not inside -> splice outside hex
-                            //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
-                        }
-                    }
-                }
+                //replace loop with data from csv file
+                //var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
+                data.forEach(function (item, index) {
+                    lt1 = item[index].lat; ln1 = item[index].lon;
+                    pos = { lat: lt1, lng: ln1 };
+                    var locationname = item[index].placename;
+                    var label1 = item[index].label;
+                    var weeklyactive = item[index].weeklyactive;
+                    var totalactive = item[index].totalactive;
+                    var weeklyrecovered = item[index].totalrecovered;
+                    var totalrecovered = item[index].totalrecovered;
+                    var weeklydeaths = item[index].weeklydeaths;
+                    var totaldeaths = item[index].totaldeaths;
+                    places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
+                });
             });
-            //export CSV file
-            var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
-            exportToCsvFile(header, places, mapID);
 
             // Adding a marker just so we can visualize where the actual data points are.
             places.forEach(function (place, p) {
@@ -251,7 +111,7 @@ $(window).load(function () {
                 const marker = new google.maps.Marker({
                     position: latlng,
                     map: map,
-                    label: `${p + 1}`,
+                    label: place[5],       //instead of index() we show the totalactive  //`${p + 1}`,
                     title: place[3],
                 });
                 marker.setIcon("https://maps.google.com/mapfiles/ms/icons/blue.png");
@@ -320,10 +180,38 @@ function geocodeLatLng(geocoder, map, pos) {
         });
 }
 
+function csvToArray(str, delimiter = ",") {
+    // slice from start of text to the first \n index
+    // use split to create an array from string by delimiter
+    const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
+
+    // slice from \n index + 1 to the end of the text
+    // use split to create an array of each csv value row
+    const rows = str.slice(str.indexOf("\n") + 1).split("\n");
+
+    // Map the rows
+    // split values from each row into an array
+    // use headers.reduce to create an object
+    // object properties derived from headers:values
+    // the object passed as an element of the array
+    const arr = rows.map(function (row) {
+        const values = row.split(delimiter);
+        const el = headers.reduce(function (object, header, index) {
+            object[header] = values[index];
+            return object;
+        }, {});
+        return el;
+    });
+
+    // return the array
+    return arr;
+}
+
 /*
  * Export data to CSV using download dialog* 
  */
-function exportToCsvFile(header, sourcedata, filename) {
+function exportToCsvFile(sourcedata) {
+    var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
     var info = "";
     for (var i in sourcedata) {
         info += sourcedata[i] + "\n";
@@ -335,22 +223,17 @@ function exportToCsvFile(header, sourcedata, filename) {
     // Create an object URL
     const url = URL.createObjectURL(blob);
     // Download file
-    download(url, filename+'.csv');
+    download(url, 'subang_jaya.csv');  //call download helper fn
     // Release the object URL
     URL.revokeObjectURL(url);
 }
 
-//Helper Function for downloading CSV
 const download = (path, filename) => {
-    // Create a new link
     const anchor = document.createElement('a');
     anchor.href = path;
     anchor.download = filename;
-    // Append to the DOM
     document.body.appendChild(anchor);
-    // Trigger `click` event
     anchor.click();
-    // Remove element from DOM
     document.body.removeChild(anchor);
 };
 
@@ -373,8 +256,8 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 function isInside(geom, latlng) {
     var array = geom.getArray();
     var point = new google.maps.LatLng(latlng);    //to extend the checking of latlng of centroid to 6 vertices. 
-                                                   //If any 3 of the vertices is inside,
-                                                   //then the coordinate is considered inside.
+    //If any 3 of the vertices is inside,
+    //then the coordinate is considered inside.
     var found = false;
     //console.log("geom:" + geom);
     //console.log("array:" + geom.getArray());
@@ -475,72 +358,6 @@ function drawHorizontalHexagon(map, position, radius) {
     polygon.setMap(map);
 }
 
-//ver 2
-function getGeoJSONFile(url, fillcolor) {
-    let request = new XMLHttpRequest();
-    request.open('GET', url);
-    //request.responseType = 'json';
-    request.responseType = 'text'; // now we're getting strings!
-    request.send();
-
-    request.onload = function () {
-        const result = request.response;
-        //populate data 
-        loadGeoJsonString(fillcolor, result);
-    };
-}
-
-//ver 2
-function loadGeoJsonString(fillcolor, geoString) {
-    try {
-        const geojson = JSON.parse(geoString);
-        map.data.addGeoJson(geojson);
-        map.data.setStyle({
-            fillColor: fillcolor,
-            fillOpacity: 0.1,
-            strokeWeight: 1
-        });
-    } catch (e) {
-        alert("Not a GeoJSON file!");
-        return
-    }
-    zoom(map);
-}
-
-/**
- * ver 2
- * Update a map's viewport to fit each geometry in a dataset
- * process geojson features - e.g. sempadan daerah
- */
-function zoom(map) {
-    const bounds = new google.maps.LatLngBounds();
-    console.log("bounds:" + bounds.toString());
-    map.data.forEach((feature) => {
-        const geometry = feature.getGeometry();
-        //mygeometry = feature.getGeometry();
-        if (geometry) {
-            console.log("geometry detected");
-            processPoints(geometry, bounds.extend, bounds); //extending the bounds
-        }
-    });
-    map.fitBounds(bounds);
-}
-
-/*
- *  ver 2
- *  Process each point in a Geometry using recursive function call, regardless of how deep the points may lie. 
- */
-function processPoints(geometry, callback, thisArg) {
-    if (geometry instanceof google.maps.LatLng) {               //latlng only
-        callback.call(thisArg, geometry);
-    } else if (geometry instanceof google.maps.Data.Point) {    //data point only
-        callback.call(thisArg, geometry.get());
-    } else {
-        geometry.getArray().forEach((g) => {                      //array 
-            processPoints(g, callback, thisArg);
-        });
-    }
-}
 
 // Below is my attempt at porting binner.py to Javascript.
 // Borrowed from: https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map
