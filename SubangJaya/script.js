@@ -193,6 +193,7 @@ function getFile(url) {
 
 
 function csvToArray(str, delimiter = ",") {
+    console.log(str);
     // slice from start of text to the first \n index
     // use split to create an array from string by delimiter
     const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
