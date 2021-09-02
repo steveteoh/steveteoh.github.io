@@ -181,7 +181,13 @@ function getFile(url) {
         if (!response.ok) {
             throw new Error("HTTP error " + response.status); // Rejects the promise
         }
-    });
+        else {
+            return response;
+        }
+    })
+    .catch((e) => {
+            console.log("Fetch file failed due to: " + e);
+      });
 }
 
 
