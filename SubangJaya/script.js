@@ -95,17 +95,17 @@ $(window).load(function () {
                 //replace loop with data from csv file
                 //var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
                 data.forEach(function (item, index) {
-                    lt1 = item.lat;
-                    ln1 = item.lon;
+                    lt1 = item[index].lat;
+                    ln1 = item[index].lon;
                     pos = { lat: lt1, lng: ln1 };
-                    var locationname = item.placename;
-                    var label1 = item.label;
-                    var weeklyactive = item.weeklyactive;
-                    var totalactive = item.totalactive;
-                    var weeklyrecovered = item.weeklyrecovered;
-                    var totalrecovered = item.totalrecovered;
-                    var weeklydeaths = item.weeklydeaths;
-                    var totaldeaths = item.totaldeaths;
+                    var locationname = item[index].placename;
+                    var label1 = item[index].label;
+                    var weeklyactive = item[index].weeklyactive;
+                    var totalactive = item[index].totalactive;
+                    var weeklyrecovered = item[index].weeklyrecovered;
+                    var totalrecovered = item[index].totalrecovered;
+                    var weeklydeaths = item[index].weeklydeaths;
+                    var totaldeaths = item[index].totaldeaths;
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
                 });
             });
