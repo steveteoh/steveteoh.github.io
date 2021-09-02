@@ -97,15 +97,16 @@ $(window).load(function () {
                 data.forEach(function (item, index) {
                     lt1 = item [0];
                     ln1 = item[1];
+                    console.log(lt1 + "," + ln1);
                     pos = { lat: lt1, lng: ln1 };
-                    var locationname = item[index][3];
-                    var label1 = item[index][2];
-                    var weeklyactive = item[index][4];
-                    var totalactive = item[index][5];
-                    var weeklyrecovered = item[index][6];
-                    var totalrecovered = item[index][7];
-                    var weeklydeaths = item[index][8];
-                    var totaldeaths = item[index][9];
+                    var locationname = item[3];
+                    var label1 = item[2];
+                    var weeklyactive = item[4];
+                    var totalactive = item[5];
+                    var weeklyrecovered = item[6];
+                    var totalrecovered = item[7];
+                    var weeklydeaths = item[8];
+                    var totaldeaths = item[9];
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
                 });
             });
