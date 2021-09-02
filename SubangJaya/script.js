@@ -75,8 +75,9 @@ $(window).load(function () {
     }
 
     //read csv file 
-    data = getFile('https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv');
-    console.log(data);
+    const text = await getFile('https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv');
+    data= csvToArray(text);
+    //console.log(data);
 
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
