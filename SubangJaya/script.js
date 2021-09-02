@@ -86,8 +86,6 @@ $(window).load(function () {
         success: function (text) { data = csvToArray(text); }
     });
 
-    console.log(data);
-
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
@@ -97,12 +95,12 @@ $(window).load(function () {
                 //replace loop with data from csv file
                 //var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
                 data.forEach(function (item, index) {
-                    console.log(item["lat"] + "," + item["lon"]);
-                    lt1 = item["lat"];
-                    ln1 = item["lon"];
+                    console.log(item[0] + "," + item[1] + "," + item[2]);
+                    lt1 = item[0];
+                    ln1 = item[1];
                     pos = { lat: lt1, lng: ln1 };
-                    var locationname = item["placename"];
-                    var label1 = item["label"];
+                    var locationname = item[3];
+                    var label1 = item[2];
                     var weeklyactive = item["weeklyactive"];
                     var totalactive = item["totalactive"];
                     var weeklyrecovered = item["totalrecovered"];
