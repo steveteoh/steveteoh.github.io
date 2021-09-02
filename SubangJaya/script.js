@@ -97,7 +97,9 @@ $(window).load(function () {
                 //replace loop with data from csv file
                 //var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
                 data.forEach(function (item, index) {
-                    lt1 = item["lat"]; ln1 = item["lon"];
+                    console.log(item["lat"] + "," + item["lon"]);
+                    lt1 = item["lat"];
+                    ln1 = item["lon"];
                     pos = { lat: lt1, lng: ln1 };
                     var locationname = item["placename"];
                     var label1 = item["label"];
@@ -202,9 +204,9 @@ function getFile(url) {
 
 
 function csvToArray(str, delimiter = ",") {
-    console.log(str);
     // slice from start of text to the first \n index
     // use split to create an array from string by delimiter
+    //console.log(str);
     const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
 
     // slice from \n index + 1 to the end of the text
