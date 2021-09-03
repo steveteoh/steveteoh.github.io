@@ -75,17 +75,10 @@ $(window).load(function () {
     }
 
     //read csv file 
-    $.ajax({
-        type: "GET",
-        url: "https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv",
-        dataType: "text",
-        success: function (text) {
-            data = text;
-        }
-    });
-    console.log("before " + data.length);
-    data = csvToArray(data, ',');
-    console.log("after " + data.length);
+    var result = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
+    console.log("before " + result);
+    data = csvToArray(result, ',');
+    console.log("after " + data);
 
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
@@ -185,6 +178,18 @@ function geocodeLatLng(geocoder, map, pos) {
         .catch((e) => {
             console.log("Geocoder failed due to: " + e);
         });
+}
+
+function getFileAjax(url) {
+    var result = "";
+    $.ajax({
+        url: url,
+        async: false,
+        success: function (data) {
+            result = data;
+        }
+    });
+    return result;
 }
 
 function getFile(url) {
