@@ -106,7 +106,7 @@ $(window).load(function () {
                     var weeklydeaths = parseInt(data[index]['weeklydeaths']);
                     var totaldeaths = parseInt(data[index]['totaldeaths']);
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
-                    console.log(places[places.length - 1]);
+                    //console.log(places[places.length - 1]);
                     //}
                 });
             });
@@ -199,21 +199,6 @@ function getFileAjax(url) {
     return result;
 }
 
-function getFile(url) {
-    return fetch(url).then(response => {
-        if (!response.ok) {
-            throw new Error("HTTP error " + response.status); // Rejects the promise
-        }
-        else {
-            return response;
-        }
-    })
-        .catch((e) => {
-            console.log("Fetch file failed due to: " + e);
-        });
-}
-
-
 function csvToArray(str, delimiter = ",") {
     // slice from start of text to the first \n index. use split to create an array from string by delimiter
     const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
@@ -221,9 +206,8 @@ function csvToArray(str, delimiter = ",") {
     // slice from \n index + 1 to the end of the text. use split to create an array of each csv value row
     const rows = str.slice(str.indexOf("\n") + 1).split("\n");
 
-    // Map the rows: split values from each row into an array use headers.
-    // reduce to create an object. object properties derived from headers:values
-    // the object passed as an element of the array
+    // Map the rows: split values from each row into an array use headers. reduce to create an object. 
+    // object properties derived from headers: values. the object passed as an element of the array
     var arr = rows.map(function (row) {
         const values = row.split(delimiter);
         const el = headers.reduce(function (object, header, index) {
@@ -286,7 +270,8 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 */
 function isInside(geom, latlng) {
     var array = geom.getArray();
-    var point = new google.maps.LatLng(latlng);    //to extend the checking of latlng of centroid to 6 vertices. 
+    var point = new google.maps.LatLng(latlng);  //centroid version does not cover the geographical boundary well.
+    //to extend the checking of latlng of centroid to 6 vertices.
     //If any 3 of the vertices is inside,
     //then the coordinate is considered inside.
     var found = false;
@@ -320,8 +305,7 @@ function isInside(geom, latlng) {
     return found;
 }
 
-// Attaches an info window to a marker with the provided message. When the
-// marker is clicked, the info window will open with the message.
+// Attaches an info window to a marker with the provided message. When the marker is clicked, the info window will open with the message.
 function attachMessage(marker, Message) {
     const infowindow = new google.maps.InfoWindow({
         content: Message,
