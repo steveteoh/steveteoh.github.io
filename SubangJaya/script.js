@@ -86,21 +86,23 @@ $(window).load(function () {
                 mygeometry = feature.getGeometry();
                 //replace loop with data from csv file
                 //var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
-                data.forEach(function (item, index) {
-                    lt1 = item[index]['lat'];
-                    ln1 = item[index]['lon'];
+                //data.forEach(function (item, index) {
+                for (var index = 0; index < data.length; index++) {
+                    lt1 = data[index]['lat'];
+                    ln1 = data[index]['lon'];
                     pos = { lat: lt1, lng: ln1 };
                     console.log(pos);
-                    var locationname = item[index]['placename'];
-                    var label1 = item[index]['label'];
-                    var weeklyactive = item[index]['weeklyactive'];
-                    var totalactive = item[index]['totalactive'];
-                    var weeklyrecovered = item[index]['weeklyrecovered'];
-                    var totalrecovered = item[index]['totalrecovered'];
-                    var weeklydeaths = item[index]['weeklydeaths'];
-                    var totaldeaths = item[index]['totaldeaths'];
+                    var locationname = data[index]['placename'];
+                    var label1 = data[index]['label'];
+                    var weeklyactive = data[index]['weeklyactive'];
+                    var totalactive = data[index]['totalactive'];
+                    var weeklyrecovered = data[index]['weeklyrecovered'];
+                    var totalrecovered = data[index]['totalrecovered'];
+                    var weeklydeaths = data[index]['weeklydeaths'];
+                    var totaldeaths = data[index]['totaldeaths'];
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
-                });
+                }
+                //});
             });
 
             // Adding a marker just so we can visualize where the actual data points are.
