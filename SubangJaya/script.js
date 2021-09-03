@@ -77,6 +77,7 @@ $(window).load(function () {
     //read csv file 
     var result = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
     data = csvToArray(result, ',');
+    console.log(data);
 
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
@@ -91,7 +92,7 @@ $(window).load(function () {
                     lt1 = data[index]['lat'];
                     ln1 = data[index]['lon'];
                     pos = { lat: lt1, lng: ln1 };
-                    console.log(pos);
+                    //console.log(pos);
                     var locationname = data[index]['placename'];
                     var label1 = data[index]['label'];
                     var weeklyactive = data[index]['weeklyactive'];
@@ -101,6 +102,7 @@ $(window).load(function () {
                     var weeklydeaths = data[index]['weeklydeaths'];
                     var totaldeaths = data[index]['totaldeaths'];
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
+                    console.log(places[places.length-1]);
                 }
                 //});
             });
@@ -184,7 +186,7 @@ function getFileAjax(url) {
     var result = "";
     $.ajax({
         url: url,
-        async: false,
+        //async: false,
         success: function (data) {
             result = data;
         }
