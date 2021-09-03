@@ -125,7 +125,8 @@ $(window).load(function () {
                     label: place[4].toString(),  //instead of index() we show the totalactive  //`${p + 1}`,
                     title: place[3],
                     icon: {
-                        url: iconUrl
+                        url: iconUrl,
+                        scaledSize: new google.maps.Size(50, 50), // scaled size
                     }
                 });
                 //marker.setIcon("https://maps.google.com/mapfiles/ms/icons/blue.png");
