@@ -89,8 +89,8 @@ $(window).load(function () {
                 //var header = "lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp";
                 data.forEach(function (item, index) {
                 //for (var index = 0; index < data.length; index++) {
-                    lt1 = parseInt(data[index]['lat']);
-                    ln1 = parseInt(data[index]['lon']);
+                    lt1 = parseFloat(data[index]['lat']);
+                    ln1 = parseFloat(data[index]['lon']);
                     pos = { lat: lt1, lng: ln1 };
                     //console.log(pos);
                     var locationname = data[index]['placename'];
