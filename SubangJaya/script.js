@@ -113,7 +113,7 @@ $(window).load(function () {
                 const marker = new google.maps.Marker({
                     position: latlng,
                     map: map,
-                    label: place[5].toString(),       //instead of index() we show the totalactive  //`${p + 1}`,
+                    label: place[4].toString(),       //instead of index() we show the totalactive  //`${p + 1}`,
                     title: place[3],
                 });
                 //marker.setIcon("https://maps.google.com/mapfiles/ms/icons/blue.png");
