@@ -36,13 +36,13 @@ const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
 const orange = 'rgb(255, 82, 0)';   //for 50 - 99 cases
 const red = 'rgb(255, 0, 0)';       //for 100 - 199 active cases
 const medred = 'rgb(204, 0, 0)';    //for 200 -299 active cases
-const darkred = 'rgb(165, 0, 0)';   //for > 300 active cases
+const purple = 'rgb(102, 0, 102)';  //for > 300 active cases
 const greenlevel = 10;
 const yellowlevel = 50;
 const orangelevel = 99;
 const redlevel = 199;
 const medredlevel = 299;
-//const darkredlevel = infinity;
+//const purplelevel = infinity;
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
@@ -343,7 +343,7 @@ function showMarkers() {
 }
 
 function drawVerticalHexagon(map, position, radius) {
-    var color = (position[1] > medredlevel) ? darkred :
+    var color = (position[1] > medredlevel) ? purple :
                 (position[1] > redlevel) ? medred :
                 (position[1] > orangelevel) ? red :
                 (position[1] > yellowlevel) ? orange :
@@ -367,7 +367,7 @@ function drawVerticalHexagon(map, position, radius) {
 }
 
 function drawHorizontalHexagon(map, position, radius) {
-    var color = (position[1] > medredlevel) ? darkred :
+    var color = (position[1] > medredlevel) ? purple :
                 (position[1] > redlevel) ? medred :
                 (position[1] > orangelevel) ? red :
                 (position[1] > yellowlevel) ? orange :
