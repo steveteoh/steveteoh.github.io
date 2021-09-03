@@ -34,11 +34,15 @@ const grey = 'rgb(77, 77, 77)';     //for coloring unrelated borders
 const green = 'rgb(0, 255, 0)';     //for less than 10 cases
 const yellow = 'rgb(255, 255, 0)';  //for 11 - 50 cases
 const orange = 'rgb(255, 82, 0)';   //for 50 - 99 cases
-const red = 'rgb(255, 0, 0)';       //for > 100 active cases
+const red = 'rgb(255, 0, 0)';       //for 100 - 199 active cases
+const medred = 'rgb(204, 0, 0)';    //for 200 -299 active cases
+const darkred = 'rgb(165, 0, 0)';   //for > 300 active cases
 const greenlevel = 10;
 const yellowlevel = 50;
 const orangelevel = 99;
-//const redlevel = infinity;
+const redlevel = 199;
+const medredlevel = 299;
+//const darkredlevel = infinity;
 
 var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
@@ -88,7 +92,7 @@ $(window).load(function () {
                 //replace loop with data from csv file
                 //var header = "lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp";
                 data.forEach(function (item, index) {
-                //for (var index = 0; index < data.length; index++) {
+                    //for (var index = 0; index < data.length; index++) {
                     lt1 = parseFloat(data[index]['lat']);
                     ln1 = parseFloat(data[index]['lon']);
                     pos = { lat: lt1, lng: ln1 };
@@ -103,7 +107,7 @@ $(window).load(function () {
                     var totaldeaths = parseInt(data[index]['totaldeaths']);
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
                     console.log(places[places.length - 1]);
-                //}
+                    //}
                 });
             });
 
@@ -345,7 +349,11 @@ function showMarkers() {
 }
 
 function drawVerticalHexagon(map, position, radius) {
-    var color = (position[1] > orangelevel) ? red : (position[1] > yellowlevel) ? orange : (position[1] > greenlevel) ? yellow : green;
+    var color = (position[1] > medredlevel) ? darkred :
+                (position[1] > redlevel) ? medred :
+                (position[1] > orangelevel) ? red :
+                (position[1] > yellowlevel) ? orange :
+                (position[1] > greenlevel) ? yellow : green;
     var coordinates = [];
     for (var angle = 30; angle < 360; angle += 60) {
         coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));
@@ -365,7 +373,11 @@ function drawVerticalHexagon(map, position, radius) {
 }
 
 function drawHorizontalHexagon(map, position, radius) {
-    var color = (position[1] > orangelevel) ? red : (position[1] > yellowlevel) ? orange : (position[1] > greenlevel) ? yellow : green;
+    var color = (position[1] > medredlevel) ? darkred :
+                (position[1] > redlevel) ? medred :
+                (position[1] > orangelevel) ? red :
+                (position[1] > yellowlevel) ? orange :
+                (position[1] > greenlevel) ? yellow : green;
     var coordinates = [];
 
     for (var angle = 0; angle < 360; angle += 60) {
