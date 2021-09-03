@@ -15,7 +15,6 @@ var markers = [];
 var places = [];
 var lt1 = 0, ln1 = 0;
 var pos = {};
-var data;
 
 var stateRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/selangor.json';
 var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.json';
@@ -75,8 +74,9 @@ $(window).load(function () {
     }
 
     //read csv file 
-    var result = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
-    data = csvToArray(result, ',');
+    const input = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
+    console.log(input);
+    const data = csvToArray(input, ',');
     console.log(data.length);
     
     var layer1 = new google.maps.Data();
@@ -209,7 +209,7 @@ function getFile(url) {
 }
 
 
-function csvToArray(str, delimiter = ",") {
+ static function csvToArray(str, delimiter = ",") {
     //// slice from start of text to the first \n index. use split to create an array from string by delimiter
     ////console.log(str);
     //const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
