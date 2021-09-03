@@ -76,9 +76,7 @@ $(window).load(function () {
 
     //read csv file 
     var result = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
-    console.log("before " + result);
     data = csvToArray(result, ',');
-    console.log("after " + data);
 
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
@@ -89,18 +87,18 @@ $(window).load(function () {
                 //replace loop with data from csv file
                 //var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
                 data.forEach(function (item, index) {
-                    lt1 = item ['lat'];
-                    ln1 = item['lon'];
-                    console.log(lt1 + "," + ln1);
+                    lt1 = item[index]['lat'];
+                    ln1 = item[index]['lon'];
                     pos = { lat: lt1, lng: ln1 };
-                    var locationname = item['placename'];
-                    var label1 = item['label'];
-                    var weeklyactive = item['weeklyactive'];
-                    var totalactive = item['totalactive'];
-                    var weeklyrecovered = item['weeklyrecovered'];
-                    var totalrecovered = item['totalrecovered'];
-                    var weeklydeaths = item['weeklydeaths'];
-                    var totaldeaths = item['totaldeaths'];
+                    console.log(pos);
+                    var locationname = item[index]['placename'];
+                    var label1 = item[index]['label'];
+                    var weeklyactive = item[index]['weeklyactive'];
+                    var totalactive = item[index]['totalactive'];
+                    var weeklyrecovered = item[index]['weeklyrecovered'];
+                    var totalrecovered = item[index]['totalrecovered'];
+                    var weeklydeaths = item[index]['weeklydeaths'];
+                    var totaldeaths = item[index]['totaldeaths'];
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
                 });
             });
@@ -208,19 +206,15 @@ function getFile(url) {
 
 
 function csvToArray(str, delimiter = ",") {
-    // slice from start of text to the first \n index
-    // use split to create an array from string by delimiter
+    // slice from start of text to the first \n index. use split to create an array from string by delimiter
     //console.log(str);
     const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
 
-    // slice from \n index + 1 to the end of the text
-    // use split to create an array of each csv value row
+    // slice from \n index + 1 to the end of the text. use split to create an array of each csv value row
     const rows = str.slice(str.indexOf("\n") + 1).split("\n");
 
-    // Map the rows
-    // split values from each row into an array
-    // use headers.reduce to create an object
-    // object properties derived from headers:values
+    // Map the rows: split values from each row into an array use headers.
+    // reduce to create an object. object properties derived from headers:values
     // the object passed as an element of the array
     var arr = rows.map(function (row) {
         const values = row.split(delimiter);
