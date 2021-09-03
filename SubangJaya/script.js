@@ -74,9 +74,9 @@ $(window).load(function () {
     }
 
     //read csv file 
-    const input = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
-    console.log(input);
-    const data = csvToArray(input, ',');
+    const inputfile = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
+    console.log(inputfile);
+    const data = csvToArray(inputfile, ',');
     console.log(data.length);
     
     var layer1 = new google.maps.Data();
