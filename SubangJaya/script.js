@@ -74,7 +74,7 @@ $(window).load(function () {
     }
 
     //read csv file 
-    const inputfile = getFile("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
+    const inputfile = getFileAJAX("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
     console.log(inputfile);
     const data = csvToArray(inputfile, ',');
     console.log(data.length);
@@ -186,7 +186,7 @@ function getFileAjax(url) {
     var result = "";
     $.ajax({
         url: url,
-        //async: false,
+        async: false,
         success: function (data) {
             result = data;
         }
