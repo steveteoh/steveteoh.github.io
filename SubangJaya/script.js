@@ -118,7 +118,7 @@ $(window).load(function () {
                 let thisColor = (place[4] > orangelevel) ? "red" :
                                 (place[4] > yellowlevel) ? "orange" :
                                 (place[4] > greenlevel) ? "yellow" : "green";
-                iconUrl += thisColor + "-dot.png";
+                iconUrl += thisColor + ".png";
                 const marker = new google.maps.Marker({
                     position: latlng,
                     map: map,
