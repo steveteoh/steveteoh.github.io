@@ -77,8 +77,8 @@ $(window).load(function () {
     const inputfile = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
     console.log(inputfile);
     const data = csvToArray(inputfile, ',');
-    console.log(data.length);
-    
+    console.log(data);
+
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
@@ -102,7 +102,7 @@ $(window).load(function () {
                     var weeklydeaths = data[index]['weeklydeaths'];
                     var totaldeaths = data[index]['totaldeaths'];
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
-                    console.log(places[places.length-1]);
+                    console.log(places[places.length - 1]);
                 }
                 //});
             });
@@ -209,61 +209,28 @@ function getFile(url) {
 }
 
 
- function csvToArray(str, delimiter = ",") {
-    //// slice from start of text to the first \n index. use split to create an array from string by delimiter
-    ////console.log(str);
-    //const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
+function csvToArray(str, delimiter = ",") {
+    // slice from start of text to the first \n index. use split to create an array from string by delimiter
+    const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
 
-    //// slice from \n index + 1 to the end of the text. use split to create an array of each csv value row
-    //const rows = str.slice(str.indexOf("\n") + 1).split("\n");
+    // slice from \n index + 1 to the end of the text. use split to create an array of each csv value row
+    const rows = str.slice(str.indexOf("\n") + 1).split("\n");
 
-    //// Map the rows: split values from each row into an array use headers.
-    //// reduce to create an object. object properties derived from headers:values
-    //// the object passed as an element of the array
-    //var arr = rows.map(function (row) {
-    //    const values = row.split(delimiter);
-    //    const el = headers.reduce(function (object, header, index) {
-    //        object[header] = values[index];
-    //        //console.log ('header=' + header +":" + 'value=' + object[header])
-    //        return object;
-    //    }, {});
-    //
-    //return el;
-    //});
-    // return the array
-    //return arr;
-
-    //Header: CSV1 line item: csvRows: value for the item 
-    const [header, ...csvRows] = str.split('\n').filter(function (row) {
-        if (row !== '') {
-            return row;
-        }
-    }).map(function (row) {
-        return row.split(delimiter);
-    });
-    let arrayInKeyAndValue;
-    let resultArray;
-    let tmpResultArray;
-
-    tmpResultArray = csvRows.map(function (r) {
-        arrayInKeyAndValue = header.map(function (_, index) {
-            //delete the space character in the header key and the value set the value in. 
-            return ({ key: header[index].replace(/\s+/g, ''), value: r[index] });
-        });
-        arrayInKeyAndValue = arrayInKeyAndValue.reduce(function (previous, current) {
-            previous[current.key] = current.value;
-            return previous;
+    // Map the rows: split values from each row into an array use headers.
+    // reduce to create an object. object properties derived from headers:values
+    // the object passed as an element of the array
+    var arr = rows.map(function (row) {
+        const values = row.split(delimiter);
+        const el = headers.reduce(function (object, header, index) {
+            object[header] = values[index];
+            //console.log ('header=' + header +":" + 'value=' + object[header])
+            return object;
         }, {});
 
-        return arrayInKeyAndValue;
+        return el;
     });
-
-    resultArray = tmpResultArray.reduce(function (previous, current, index) {
-        previous[index] = current;
-        return previous;
-    }, {});
-
-    return resultArray;
+    //return the array
+    return arr;
 }
 
 /*
