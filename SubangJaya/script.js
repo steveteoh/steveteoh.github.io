@@ -220,7 +220,7 @@ function csvToArray(str, delimiter = ",") {
         const values = row.split(delimiter);
         const el = headers.reduce(function (object, header, index) {
             object[header] = values[index];
-            //console.log ('header=' + header +":" + 'value=' + object[header])
+            console.log ('header=' + header +":" + 'value=' + object[header])
             return object;
         }, {});
         return el;
