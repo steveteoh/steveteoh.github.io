@@ -209,7 +209,7 @@ function getFile(url) {
 }
 
 
- static function csvToArray(str, delimiter = ",") {
+ function csvToArray(str, delimiter = ",") {
     //// slice from start of text to the first \n index. use split to create an array from string by delimiter
     ////console.log(str);
     //const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
