@@ -115,9 +115,9 @@ $(window).load(function () {
             places.forEach(function (place, p) {
                 latlng = new google.maps.LatLng({ lat: place[0], lng: place[1] });
                 let iconUrl = "http://maps.google.com/mapfiles/ms/icons/";
-                let thisColor = (place[5] > orangelevel) ? "red" :
-                                (place[5] > yellowlevel) ? "orange" :
-                                (place[5] > greenlevel) ? "yellow" : "green";
+                let thisColor = (place[4] > orangelevel) ? "red" :
+                                (place[4] > yellowlevel) ? "orange" :
+                                (place[4] > greenlevel) ? "yellow" : "green";
                 iconUrl += thisColor + "-dot.png";
                 const marker = new google.maps.Marker({
                     position: latlng,
