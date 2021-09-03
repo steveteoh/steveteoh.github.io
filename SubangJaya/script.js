@@ -97,7 +97,7 @@ $(window).load(function () {
                 data.forEach(function (item, index) {
                     lt1 = item ['lat'];
                     ln1 = item['lon'];
-                    //console.log(lt1 + "," + ln1);
+                    console.log(lt1 + "," + ln1);
                     pos = { lat: lt1, lng: ln1 };
                     var locationname = item['placename'];
                     var label1 = item['label'];
@@ -220,7 +220,7 @@ function csvToArray(str, delimiter = ",") {
         const values = row.split(delimiter);
         const el = headers.reduce(function (object, header, index) {
             object[header] = values[index];
-            console.log ('header=' + header +":" + 'value=' + object[header])
+            //console.log ('header=' + header +":" + 'value=' + object[header])
             return object;
         }, {});
         return el;
