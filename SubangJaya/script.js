@@ -75,18 +75,17 @@ $(window).load(function () {
     }
 
     //read csv file 
-    //const text = getFile('https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv');
-    //data= csvToArray(text);
-    //console.log(data);
-
     $.ajax({
         type: "GET",
         url: "https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv",
         dataType: "text",
         success: function (text) {
-            csvToArray(text, data, ',');
+            data = text;
         }
     });
+    console.log("before " + data.length);
+    data = csvToArray(data, ',');
+    console.log("after " + data.length);
 
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
@@ -203,7 +202,7 @@ function getFile(url) {
 }
 
 
-function csvToArray(str, output, delimiter = ",") {
+function csvToArray(str, delimiter = ",") {
     // slice from start of text to the first \n index
     // use split to create an array from string by delimiter
     //console.log(str);
@@ -218,7 +217,7 @@ function csvToArray(str, output, delimiter = ",") {
     // use headers.reduce to create an object
     // object properties derived from headers:values
     // the object passed as an element of the array
-    const arr = rows.map(function (row) {
+    var arr = rows.map(function (row) {
         const values = row.split(delimiter);
         const el = headers.reduce(function (object, header, index) {
             object[header] = values[index];
@@ -229,7 +228,6 @@ function csvToArray(str, output, delimiter = ",") {
     });
 
     // return the array
-    output = arr;
     return arr;
 }
 
