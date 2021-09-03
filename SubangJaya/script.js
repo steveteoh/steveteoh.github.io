@@ -116,7 +116,8 @@ $(window).load(function () {
                     label: place[5].toString(),       //instead of index() we show the totalactive  //`${p + 1}`,
                     title: place[3],
                 });
-                marker.setIcon("https://maps.google.com/mapfiles/ms/icons/blue.png");
+                //marker.setIcon("https://maps.google.com/mapfiles/ms/icons/blue.png");
+
                 //Attaching related information onto the marker
                 attachMessage(marker, place[2] + '<br>place name: ' + place[3] +
                     '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
