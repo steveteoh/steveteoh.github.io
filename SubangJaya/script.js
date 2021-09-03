@@ -106,7 +106,7 @@ $(window).load(function () {
                     var weeklydeaths = parseInt(data[index]['weeklydeaths']);
                     var totaldeaths = parseInt(data[index]['totaldeaths']);
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
-                    //console.log(places[places.length - 1]);
+                    console.log(places[places.length - 1]);
                     //}
                 });
             });
