@@ -126,7 +126,7 @@ $(window).load(function () {
                     title: place[3],
                     icon: {
                         url: iconUrl,
-                        scaledSize: new google.maps.Size(100, 50), // scaled size
+                        scaledSize: new google.maps.Size(100, 75), // scaled size
                     }
                 });
                 //marker.setIcon("https://maps.google.com/mapfiles/ms/icons/blue.png");
