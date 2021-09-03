@@ -83,7 +83,9 @@ $(window).load(function () {
         type: "GET",
         url: "https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv",
         dataType: "text",
-        success: function (text) { data = csvToArray(text); }
+        success: function (text) {
+            csvToArray(text, data, ',');
+        }
     });
 
     var layer1 = new google.maps.Data();
@@ -201,7 +203,7 @@ function getFile(url) {
 }
 
 
-function csvToArray(str, delimiter = ",") {
+function csvToArray(str, output, delimiter = ",") {
     // slice from start of text to the first \n index
     // use split to create an array from string by delimiter
     //console.log(str);
@@ -220,13 +222,14 @@ function csvToArray(str, delimiter = ",") {
         const values = row.split(delimiter);
         const el = headers.reduce(function (object, header, index) {
             object[header] = values[index];
-            console.log ('header=' + header +":" + 'value=' + object[header])
+            //console.log ('header=' + header +":" + 'value=' + object[header])
             return object;
         }, {});
         return el;
     });
 
     // return the array
+    output = arr;
     return arr;
 }
 
