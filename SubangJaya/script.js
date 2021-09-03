@@ -75,9 +75,9 @@ $(window).load(function () {
 
     //read csv file 
     const inputfile = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
-    console.log(inputfile);
+    //console.log(inputfile);
     const data = csvToArray(inputfile, ',');
-    console.log(data);
+    //console.log(data);
 
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
@@ -86,25 +86,25 @@ $(window).load(function () {
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
                 //replace loop with data from csv file
-                //var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
-                //data.forEach(function (item, index) {
-                for (var index = 0; index < data.length; index++) {
-                    lt1 = data[index]['lat'];
-                    ln1 = data[index]['lon'];
+                //var header = "lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp";
+                data.forEach(function (item, index) {
+                //for (var index = 0; index < data.length; index++) {
+                    lt1 = parseInt(data[index]['lat']);
+                    ln1 = parseInt(data[index]['lon']);
                     pos = { lat: lt1, lng: ln1 };
                     //console.log(pos);
                     var locationname = data[index]['placename'];
                     var label1 = data[index]['label'];
-                    var weeklyactive = data[index]['weeklyactive'];
-                    var totalactive = data[index]['totalactive'];
-                    var weeklyrecovered = data[index]['weeklyrecovered'];
-                    var totalrecovered = data[index]['totalrecovered'];
-                    var weeklydeaths = data[index]['weeklydeaths'];
-                    var totaldeaths = data[index]['totaldeaths'];
+                    var weeklyactive = parseInt(data[index]['weeklyactive']);
+                    var totalactive = parseInt(data[index]['totalactive']);
+                    var weeklyrecovered = parseInt(data[index]['weeklyrecovered']);
+                    var totalrecovered = parseInt(data[index]['totalrecovered']);
+                    var weeklydeaths = parseInt(data[index]['weeklydeaths']);
+                    var totaldeaths = parseInt(data[index]['totaldeaths']);
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
                     console.log(places[places.length - 1]);
-                }
-                //});
+                //}
+                });
             });
 
             // Adding a marker just so we can visualize where the actual data points are.
@@ -223,7 +223,6 @@ function csvToArray(str, delimiter = ",") {
         const values = row.split(delimiter);
         const el = headers.reduce(function (object, header, index) {
             object[header] = values[index];
-            //console.log ('header=' + header +":" + 'value=' + object[header])
             return object;
         }, {});
 
@@ -237,7 +236,7 @@ function csvToArray(str, delimiter = ",") {
  * Export data to CSV using download dialog* 
  */
 function exportToCsvFile(sourcedata) {
-    var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
+    var header = "lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp";
     var info = "";
     for (var i in sourcedata) {
         info += sourcedata[i] + "\n";

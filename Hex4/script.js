@@ -242,7 +242,7 @@ $(window).load(function () {
                 }
             });
             //export CSV file
-            var header = "lat, lon, label, placename, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weight, timestamp";
+            var header = "lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp";
             exportToCsvFile(header, places, mapID);
 
             // Adding a marker just so we can visualize where the actual data points are.
