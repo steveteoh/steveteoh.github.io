@@ -27,7 +27,7 @@ const MAP_BOUNDS = {
 var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.json';
 
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/subang_jaya.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/shah_alam.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/shah_alam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/selayang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
@@ -35,12 +35,12 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
 
 //var mapID = "Subang Jaya";
-var mapID = "Shah Alam";
+//var mapID = "Shah Alam";
 //var mapID = "Selayang";
 //var mapID = "Sabak Bernam";     
 //var mapID = "Petaling Jaya";
@@ -48,7 +48,7 @@ var mapID = "Shah Alam";
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
 //var mapID = "Sepang";         //isinside does not work with holes (putrajaya) yet...revising
-//var mapID = "Klang";          //need to adjust the geojson boundary for pulau
+var mapID = "Klang";          //need to adjust the geojson boundary for pulau
 //var mapID = "Hulu Langat";
 //var mapID = "Kuala Selangor";
 
@@ -60,11 +60,11 @@ const PLACE_BOUNDS = {
     //south: 2.976325,
     //west: 101.549597,
     //east: 101.730601,
-    name: "Shah Alam",
-    north: 3.223441,
-    south: 2.958439,
-    west: 101.441838,
-    east: 101.591569,
+    //name: "Shah Alam",
+    //north: 3.223441,
+    //south: 2.958439,
+    //west: 101.441838,
+    //east: 101.591569,
     //name: "Selayang",
     //north: 3.401885,
     //south: 3.199615,
@@ -100,11 +100,11 @@ const PLACE_BOUNDS = {
     //south: 2.594652,   //Sepang
     //west: 101.589953,  //Sepang
     //east: 101.78966,   //Sepang
-    //name: "Klang",
-    //north: 3.19289,   //Klang
-    //south: 2.88442,   //Klang
-    //west: 101.199003, //Klang
-    //east: 101.524080, //Klang
+    name: "Klang",
+    north: 3.19289,   //Klang
+    south: 2.88442,   //Klang
+    west: 101.199003, //Klang
+    east: 101.524080, //Klang
     //name: "Kuala Selangor",
     //north: 3.600198,  
     //south: 3.165252,  
@@ -168,7 +168,7 @@ $(window).load(function () {
                 };
                 infoWindow.setPosition(pos);
                 infoWindow.setContent("Your Location");
-                //infoWindow.open(map);
+                infoWindow.open(map);
                 //map.setCenter(pos);
             },
             () => {
