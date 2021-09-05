@@ -49,7 +49,7 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Ampang Jaya";
 //var mapID = "Sepang";         //isinside does not work with holes (putrajaya) yet...revising
 //var mapID = "Klang";          //need to adjust the geojson boundary for pulau
-//var mapID = "Hulu Langat";
+var mapID = "Hulu Langat";
 //var mapID = "Kuala Selangor";
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
