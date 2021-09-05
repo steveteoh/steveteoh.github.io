@@ -30,8 +30,8 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/shah_alam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/selayang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
@@ -43,8 +43,8 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Shah Alam";
 //var mapID = "Selayang";
 //var mapID = "Sabak Bernam";     
-//var mapID = "Petaling Jaya";
-var mapID = "Hulu Selangor";
+var mapID = "Petaling Jaya";
+//var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
 //var mapID = "Kuala Selangor";
 //var mapID = "Sepang";         //NOTE: - isinside does not work with holes (putrajaya) yet...revising. Alternative - visual method
@@ -76,16 +76,16 @@ const PLACE_BOUNDS = {
     //south: 3.485592,
     //west: 100.813934,
     //east: 101.349522,
-    //name: "Petaling Jaya",
-    //north: 3.208809,
-    //south: 3.070647,
-    //west: 101.550759,
-    //east: 101.663325,
-    name: "Hulu Selangor",
-    north: 3.804692,	
-    south: 3.321608,
-    west: 101.319496,
-    east: 101.814739,
+    name: "Petaling Jaya",
+    north: 3.208809,
+    south: 3.070647,
+    west: 101.550759,
+    east: 101.663325,
+    //name: "Hulu Selangor",
+    //north: 3.804692,	
+    //south: 3.321608,
+    //west: 101.319496,
+    //east: 101.814739,
     //name: "Ampang Jaya",
     //north: 3.292435,
     //south: 3.081443,
