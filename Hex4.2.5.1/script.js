@@ -388,17 +388,12 @@ function isInside(geom, latlng) {
     //console.log("geom:" + geom); console.log("type:" + geom.getType()); console.log("array:" + geom.getArray());
     array.every(function (item, i) {
         var geoType = geom.getType();
+        var list = undefined;
         if (geoType == "MultiPolygon") {
-            var list = item.getAt(0).getArray();
-            var poly = new google.maps.Polygon({
-                paths: list,
-            });
+            list = item.getAt(0).getArray();
         }
         else if (geoType == "Polygon") {
-            var list = item.getArray();
-            var poly = new google.maps.Polygon({
-                paths: list,
-            });
+            list = item.getArray();
         }
         else {
             //Irrelevant types: "Point", "MultiPoint", "LineString", "MultiLineString", "LinearRing","GeometryCollection".
@@ -406,7 +401,11 @@ function isInside(geom, latlng) {
             found = false;
             return false;
         }
-        console.log(list);
+        var poly = new google.maps.Polygon({
+            paths: list,
+        });
+        //console.log(list);
+
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
             found = true;
             //console.log("found inside poly [" + i + "]");
