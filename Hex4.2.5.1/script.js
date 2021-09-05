@@ -27,8 +27,8 @@ const MAP_BOUNDS = {
 var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.json';
 
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/subang_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/shah_alam.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/selayang.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/shah_alam.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/selayang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
@@ -40,8 +40,8 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
 
 //var mapID = "Subang Jaya";
-//var mapID = "Shah Alam";
-var mapID = "Selayang";
+var mapID = "Shah Alam";
+//var mapID = "Selayang";
 //var mapID = "Sabak Bernam";     
 //var mapID = "Petaling Jaya";
 //var mapID = "Hulu Selangor";
@@ -61,16 +61,16 @@ const PLACE_BOUNDS = {
     //south: 2.976325,
     //west: 101.549597,
     //east: 101.730601,
-    //name: "Shah Alam",
-    //north: 3.223441,
-    //south: 2.958439,
-    //west: 101.441838,
-    //east: 101.591569,
-    name: "Selayang",
-    north: 3.401885,
-    south: 3.199615,
-    west: 101.430351,
-    east: 101.836780,
+    name: "Shah Alam",
+    north: 3.223441,
+    south: 2.958439,
+    west: 101.441838,
+    east: 101.591569,
+    //name: "Selayang",
+    //north: 3.401885,
+    //south: 3.199615,
+    //west: 101.430351,
+    //east: 101.836780,
     //name: "Sabak Bernam",
     //north: 3.8706898,
     //south: 3.485592,
