@@ -35,9 +35,9 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
 
 //var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
@@ -46,11 +46,11 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Petaling Jaya";
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
-//var mapID = "Sepang";         //NOTE: isinside does not work with holes (putrajaya) yet...revising
-var mapID = "Klang";            //MULTI - need to adjust the geojson boundary for pulau
+//var mapID = "Sepang";         //NOTE: - isinside does not work with holes (putrajaya) yet...revising
+//var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
 //var mapID = "Hulu Langat";    //MULTI
 //var mapID = "Kuala Langat";   //MULTI
-//var mapID = "Kuala Selangor";
+var mapID = "Kuala Selangor";
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
@@ -100,23 +100,20 @@ const PLACE_BOUNDS = {
     //south: 2.594652,   //Sepang
     //west: 101.589953,  //Sepang
     //east: 101.78966,   //Sepang
-    name: "Klang",
-    north: 3.19289,   //Klang
-    south: 2.88442,   //Klang
-    west: 101.199003, //Klang
-    east: 101.524080, //Klang
-
-    //name: "Kuala Selangor",
+    //name: "Klang",
+    //north: 3.19289,   //Klang
+    //south: 2.88442,   //Klang
+    //west: 101.199003, //Klang
+    //east: 101.524080, //Klang
+    name: "Kuala Selangor",
     //north: 3.600000,  
     //south: 3.158670,
     //west: 101.10080,
     //east: 101.49380,
-
-    //north: 3.600198,
-    //south: 3.165252,  
-    //west: 101.101054, 
-    //east: 101.492745, 
-
+    north: 3.600198,
+    south: 3.165252,  
+    west: 101.101054, 
+    east: 101.492745, 
     //name: "Hulu Langat",
     //north: 3.275179,  
     //south: 2.866524,  
@@ -400,9 +397,15 @@ function isInside(geom, latlng) {
         // If shape is multipolygon
         if (geom.getType() == "Multipolygon") {
             var list = item.getAt(0).getArray();
+            var poly = new google.maps.Polygon({
+                paths: list,
+            });
         }
         else if (geom.getType() == "Polygon") {
             var list = item.getArray();
+            var poly = new google.maps.Polygon({
+                paths: list,
+            });
         }
         else {
             //Irrelevant types: "Point", "MultiPoint", "LineString", "MultiLineString", "LinearRing","GeometryCollection".
@@ -410,9 +413,6 @@ function isInside(geom, latlng) {
             return false;
         }
         console.log(list);
-        var poly = new google.maps.Polygon({
-            paths: list,
-        });
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
             found = true;
             //console.log("found inside poly [" + i + "]");
