@@ -106,10 +106,10 @@ const PLACE_BOUNDS = {
     //west: 101.199003, //Klang
     //east: 101.524080, //Klang
     name: "Kuala Selangor",
-    north: 3.600198,  
+    north: 3.600000,  
     south: 3.158670,
-    west: 101.100810,
-    east: 101.493825,
+    west: 101.10080,
+    east: 101.49380,
     //name: "Hulu Langat",
     //north: 3.275179,  
     //south: 2.866524,  
@@ -208,7 +208,9 @@ $(window).load(function () {
                         ln1 = (2 * l) * delta_lon + PLACE_BOUNDS.west;
                         ln2 = (2 * l + 1) * delta_lon + PLACE_BOUNDS.west;
                         pos = { lat: lt1, lng: ln1 };
+
                         if (isInside(mygeometry, pos) == true) {
+                            console.log("inside coord: " + pos.lat + "," + pos.lng);
                             counter++;
                             var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
                             var label1 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l).toString() + ";" + (k).toString() + ")";
@@ -225,6 +227,7 @@ $(window).load(function () {
                         
                         pos = { lat: lt2, lng: ln2 };
                         if (isInside(mygeometry, pos) == true) {
+                            console.log("inside coord: " + pos.lat + "," + pos.lng);
                             counter++;
                             var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
                             var label2 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + ";" + (k).toString() + ")";
