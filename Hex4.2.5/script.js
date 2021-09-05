@@ -24,20 +24,20 @@ const MAP_BOUNDS = {
 };
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
-var stateRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/selangor.json';
+var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/selangor.json';
 
-var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/shah_alam.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/selayang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/sabak_bernam.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/petaling_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/kuala_langat.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/hulu_selangor.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/ampang_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/sepang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/klang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/hulu_langat.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/kuala_selangor.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/subang_jaya.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/shah_alam.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/selayang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/sabak_bernam.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/petaling_jaya.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/kuala_langat.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/hulu_selangor.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/ampang_jaya.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/sepang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/klang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/hulu_langat.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5/Selangor/daerah/kuala_selangor.json';
 
 var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
