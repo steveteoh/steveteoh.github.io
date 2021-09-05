@@ -32,8 +32,8 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
@@ -45,8 +45,8 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Sabak Bernam";     
 //var mapID = "Petaling Jaya";
 //var mapID = "Hulu Selangor";
-//var mapID = "Ampang Jaya";
-var mapID = "Kuala Selangor";
+var mapID = "Ampang Jaya";
+//var mapID = "Kuala Selangor";
 //var mapID = "Sepang";         //NOTE: - isinside does not work with holes (putrajaya) yet...revising. Alternative - visual method
 //var mapID = "Kuala Langat";   
 //var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
@@ -86,16 +86,16 @@ const PLACE_BOUNDS = {
     //south: 3.321608,
     //west: 101.319496,
     //east: 101.814739,
-    //name: "Ampang Jaya",
-    //north: 3.292435,
-    //south: 3.081443,
-    //west: 101.733063,
-    //east: 101.853560,
-    name: "Kuala Selangor",
-    north: 3.600000,  
-    south: 3.158670,
-    west: 101.10080,
-    east: 101.49380,
+    name: "Ampang Jaya",
+    north: 3.292435,
+    south: 3.081443,
+    west: 101.733063,
+    east: 101.853560,
+    //name: "Kuala Selangor",
+    //north: 3.600000,  
+    //south: 3.158670,
+    //west: 101.10080,
+    //east: 101.49380,
     //name: "Sepang",
     //north: 3.012039,
     //south: 2.594652,
