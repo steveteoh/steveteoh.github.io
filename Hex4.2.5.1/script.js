@@ -169,7 +169,7 @@ $(window).load(function () {
                 infoWindow.setPosition(pos);
                 infoWindow.setContent("Your Location");
                 infoWindow.open(map);
-                //map.setCenter(pos);
+                map.setCenter(pos);
             },
             () => {
                 handleLocationError(true, infoWindow, map.getCenter());
