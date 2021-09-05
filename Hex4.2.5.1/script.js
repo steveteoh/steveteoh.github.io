@@ -1,6 +1,6 @@
 /*
 * By Steve Teoh v 4.2.5 @ 2021/09/02
-* For Research Purposes only. 
+* For Research Purposes only. Strictly non-commercial.
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
 var map = null;
@@ -105,11 +105,18 @@ const PLACE_BOUNDS = {
     south: 2.88442,   //Klang
     west: 101.199003, //Klang
     east: 101.524080, //Klang
+
     //name: "Kuala Selangor",
     //north: 3.600000,  
     //south: 3.158670,
     //west: 101.10080,
     //east: 101.49380,
+
+    //north: 3.600198,
+    //south: 3.165252,  
+    //west: 101.101054, 
+    //east: 101.492745, 
+
     //name: "Hulu Langat",
     //north: 3.275179,  
     //south: 2.866524,  
@@ -157,8 +164,8 @@ $(window).load(function () {
         //latLngBounds: MAP_BOUNDS,  //MAP bound to be implemented in future
     });
     geocoder = new google.maps.Geocoder();
-    var infoWindow = new google.maps.InfoWindow({ map: map });
-    // Ver 3: Try HTML5 geolocation.
+    const infoWindow = new google.maps.InfoWindow({ map: map });
+
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
             (position) => {
@@ -166,9 +173,19 @@ $(window).load(function () {
                     lat: position.coords.latitude,
                     lng: position.coords.longitude,
                 };
+                const posmarker = new google.maps.Marker({
+                    position: pos,
+                    map,
+                    title: "Your Location",
+                });
                 infoWindow.setPosition(pos);
-                infoWindow.setContent("Your Location");
-                infoWindow.open(map);
+                infoWindow.setContent("Your Location detected by the browser");
+                posmarker.addListener("click", () => {
+                    infowindow.open({
+                        anchor: posmarker,
+                        shouldFocus: false,
+                    });
+                });
                 map.setCenter(pos);
             },
             () => {
@@ -213,12 +230,12 @@ $(window).load(function () {
                             counter++;
                             var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
                             var label1 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l).toString() + ";" + (k).toString() + ")";
-                            var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
-                            var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
-                            var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
-                            var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var weeklyactive = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var totalactive = 0; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var weeklyrecovered = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var totalrecovered = 0; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var weeklydeaths = 0; //Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
+                            var totaldeaths = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-09-05T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
@@ -229,12 +246,12 @@ $(window).load(function () {
                             counter++;
                             var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
                             var label2 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + ";" + (k).toString() + ")";
-                            var weeklyactive = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalactive = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
-                            var weeklyrecovered = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
-                            var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
-                            var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var weeklyactive = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var totalactive = 0; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var weeklyrecovered = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var totalrecovered = 0; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var weeklydeaths = 0; //Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
+                            var totaldeaths = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             places.push([lt2, ln2, label2, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-09-05T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
@@ -281,7 +298,6 @@ $(window).load(function () {
 
             // Now, we draw our hexagons! 
             locations = makeBins(places);
-
             locations.forEach(function (place, p) {
                 // horizontal hex are not so useful, changed to vertical hex.
                 // drawHorizontalHexagon(map, place, gridWidth);
@@ -294,7 +310,6 @@ $(window).load(function () {
         fillOpacity: 0.1,
         strokeWeight: 1
     });
-
 
     //Get the State administrative boundary through geojson file
     map.data.loadGeoJson(stateRequestURL);
@@ -376,10 +391,10 @@ function isInside(geom, latlng) {
     var point = new google.maps.LatLng(latlng);     //centroid version does not cover the geographical boundary well.
                                                     //to extend the checking of latlng of centroid to 6 vertices.
                                                     //If any 3 of the vertices is inside,
-                                                    //then the coordinate is considered inside.
-    var found = false;
-    //console.log("geom:" + geom);
-    //console.log("array:" + geom.getArray());
+                                                    //then the coordinate is considered inside.    var found = false;
+    console.log("geom:" + geom);
+    console.log("type:" + geom.getType());
+    console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
         // If shape is multipolygon
