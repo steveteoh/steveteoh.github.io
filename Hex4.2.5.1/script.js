@@ -9,7 +9,7 @@ var myfeature = {};
 var mygeometry = {};
 var pointCount = 0;
 var locations = [];
-var gridWidth = 500; // radius ~= hex tile edge (a). 
+var gridWidth = 500*2; // radius ~= hex tile edge (a). 
 var bounds = null;
 var markers = [];
 var places = [];
@@ -131,8 +131,8 @@ const PLACE_BOUNDS = {
     //east: 
 
 };
-const delta_lat = 0.00389;
-const delta_lon = 0.006745;
+const delta_lat = 0.003890*2;
+const delta_lon = 0.006745*2;
 
 //const cols = (PLACE_BOUNDS.north - PLACE_BOUNDS.south) / delta_lat; // 105.05 -> 106
 //const rows = (PLACE_BOUNDS.east - PLACE_BOUNDS.west) / delta_lon;    // 36.89  -> 37
