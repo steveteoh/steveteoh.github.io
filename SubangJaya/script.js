@@ -1,13 +1,13 @@
 /*
-* By Steve Teoh v 4.2 @ 2021/09/02 Live Data Display (Beta)
+* By Steve Teoh v 4.2.5.5 @ 2021/09/02 Live Data Display (Beta)
 * For Research Purposes only. 
+* Purpose: Area Display Tool 
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
 */
 var map = null;
 var geocoder = null;
 var myfeature = {};
 var mygeometry = {};
-var pointCount = 0;
 var locations = [];
 var gridWidth = 500; // radius ~= hex tile edge (a). 
 var bounds = null;
@@ -18,6 +18,8 @@ var pos = {};
 
 var stateRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/selangor.json';
 var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.json';
+var inputURL = "https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv";
+
 var mapID = "Subang Jaya";
 const PLACE_BOUNDS = {
     name: "Subang Jaya",
@@ -26,10 +28,7 @@ const PLACE_BOUNDS = {
     west: 101.549597,
     east: 101.730601,
 };
-const delta_lat = 0.00389;
-const delta_lon = 0.006745;
-const cols = (PLACE_BOUNDS.north - PLACE_BOUNDS.south) / delta_lat;  // 
-const rows = (PLACE_BOUNDS.east - PLACE_BOUNDS.west) / delta_lon;    //
+
 const grey = 'rgb(77, 77, 77)';     //for coloring unrelated borders
 const green = 'rgb(0, 255, 0)';     //for less than 10 cases
 const yellow = 'rgb(255, 255, 102)';  //for 11 - 50 cases
@@ -44,7 +43,7 @@ const redlevel = 199;
 const medredlevel = 299;
 //const purplelevel = infinity;
 
-var SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
+const SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
 
 $(window).load(function () {
     bounds = new google.maps.LatLngBounds();
@@ -54,16 +53,13 @@ $(window).load(function () {
         zoom: 12,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
     });
+
     geocoder = new google.maps.Geocoder();
     var infoWindow = new google.maps.InfoWindow({ map: map });
-
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
             (position) => {
-                pos = {
-                    lat: position.coords.latitude,
-                    lng: position.coords.longitude,
-                };
+                pos = { lat: position.coords.latitude, lng: position.coords.longitude };
                 infoWindow.setPosition(pos);
                 infoWindow.setContent("Your Location");
                 infoWindow.open(map);
@@ -78,10 +74,8 @@ $(window).load(function () {
     }
 
     //read csv file 
-    const inputfile = getFileAjax("https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv");
-    //console.log(inputfile);
-    const data = csvToArray(inputfile, ',');
-    //console.log(data);
+    const inputfile = getFileAjax(inputURL);       //console.log(inputfile);
+    const data = csvToArray(inputfile, ',');       //console.log(data);
 
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
@@ -89,14 +83,12 @@ $(window).load(function () {
             myfeature = layer1.getFeatureById(mapID);
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
-                //replace loop with data from csv file
-                //var header = "lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp";
+                //replace the loop with data read from a csv file
+                //header = "lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp";
                 data.forEach(function (item, index) {
-                    //for (var index = 0; index < data.length; index++) {
                     lt1 = parseFloat(data[index]['lat']);
                     ln1 = parseFloat(data[index]['lon']);
                     pos = { lat: lt1, lng: ln1 };
-                    //console.log(pos);
                     var locationname = data[index]['placename'];
                     var label1 = data[index]['label'];
                     var weeklyactive = parseInt(data[index]['weeklyactive']);
@@ -106,8 +98,6 @@ $(window).load(function () {
                     var weeklydeaths = parseInt(data[index]['weeklydeaths']);
                     var totaldeaths = parseInt(data[index]['totaldeaths']);
                     places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
-                    //console.log(places[places.length - 1]);
-                    //}
                 });
             });
 
@@ -123,7 +113,7 @@ $(window).load(function () {
                 const marker = new google.maps.Marker({
                     position: latlng,
                     map: map,
-                    label: place[4].toString(),  //instead of index() we show the totalactive  //`${p + 1}`,
+                    label: place[4].toString(),  //instead of index=`${p + 1}`, we show the totalactive
                     title: place[3],
                     icon: {
                         url: iconUrl,
@@ -156,10 +146,7 @@ $(window).load(function () {
 
             // Now, we draw our hexagons! 
             locations = makeBins(places);
-
             locations.forEach(function (place, p) {
-                // horizontal hex are not so useful, changed to vertical hex.
-                // drawHorizontalHexagon(map, place, gridWidth);
                 drawVerticalHexagon(map, place, gridWidth);
             });
         }
@@ -170,8 +157,6 @@ $(window).load(function () {
         strokeWeight: 1
     });
 
-    hideMarkers();  //initially hide all markers for faster display
-
     //Get the State administrative boundary through geojson file
     map.data.loadGeoJson(stateRequestURL);
     map.data.setStyle({
@@ -179,24 +164,11 @@ $(window).load(function () {
         fillOpacity: 0.1,
         strokeWeight: 1
     });
+
+    hideMarkers();  //initially hide all markers for faster display
 });
 
-function geocodeLatLng(geocoder, map, pos) {
-    geocoder.geocode({ location: pos })
-        .then((response) => {
-            if (response.results[0]) {
-                map.setZoom(11);
-                return response.results[0].formatted_address;
-            }
-            else {
-                return "place name n/a";
-            }
-        })
-        .catch((e) => {
-            console.log("Geocoder failed due to: " + e);
-        });
-}
-
+//Ajax method to read file from url
 function getFileAjax(url) {
     var result = "";
     $.ajax({
@@ -209,110 +181,30 @@ function getFileAjax(url) {
     return result;
 }
 
+// Quick and Dirty csv to array function, not ecma compliant. You may want to use better ones available 
 function csvToArray(str, delimiter = ",") {
-    // slice from start of text to the first \n index. use split to create an array from string by delimiter
-    const headers = str.slice(0, str.indexOf("\n")).split(delimiter);
-
-    // slice from \n index + 1 to the end of the text. use split to create an array of each csv value row
-    const rows = str.slice(str.indexOf("\n") + 1).split("\n");
-
-    // Map the rows: split values from each row into an array use headers. reduce to create an object. 
-    // object properties derived from headers: values. the object passed as an element of the array
+    const headers = str.slice(0, str.indexOf("\n")).split(delimiter);  // slice from start of text to the first \n index. split() to create an array from string by delimiter    
+    const rows = str.slice(str.indexOf("\n") + 1).split("\n"); // slice from \n index + 1 to the end of the text. split() to create an array of each csv value row
     var arr = rows.map(function (row) {
+    // Map the rows: split values from each row into an array use headers. reduce to create an object. 
         const values = row.split(delimiter);
         const el = headers.reduce(function (object, header, index) {
+           // object properties is derived from headers:values, and then passed as an element of the array
             object[header] = values[index];
             return object;
         }, {});
-
         return el;
     });
-    //return the array
-    return arr;
+    return arr;      //return the array
 }
 
-/*
- * Export data to CSV using download dialog* 
- */
-function exportToCsvFile(sourcedata) {
-    var header = "lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp";
-    var info = "";
-    for (var i in sourcedata) {
-        info += sourcedata[i] + "\n";
-    }
-    var myCsv = "\n" + info;
-    const data = header + myCsv;
-    // Create a Blob object
-    const blob = new Blob([data], { type: 'text/csv' });
-    // Create an object URL
-    const url = URL.createObjectURL(blob);
-    // Download file
-    download(url, 'subang_jaya.csv');  //call download helper fn
-    // Release the object URL
-    URL.revokeObjectURL(url);
-}
-
-// helper function
-const download = (path, filename) => {
-    const anchor = document.createElement('a');
-    anchor.href = path;
-    anchor.download = filename;
-    document.body.appendChild(anchor);
-    anchor.click();
-    document.body.removeChild(anchor);
-};
-
-/**
- * Ver 3
- * Handler for "Browser doesn't support Geolocation error"
- */
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+//Handler for "Browser doesn't support Geolocation error"
+ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.setPosition(pos);
     infoWindow.setContent(
         browserHasGeolocation ? "Error: The Geolocation service failed." : "Error: Your browser doesn't support geolocation."
     );
     infoWindow.open(map);
-}
-
-/** 
-* ver 3 
-* function to determine whether a point is inside a geometry. This is a quick alternative method to the previous "ray casting" algorithm.
-*/
-function isInside(geom, latlng) {
-    var array = geom.getArray();
-    var point = new google.maps.LatLng(latlng);  //centroid version does not cover the geographical boundary well.
-    //to extend the checking of latlng of centroid to 6 vertices.
-    //If any 3 of the vertices is inside,
-    //then the coordinate is considered inside.
-    var found = false;
-    //console.log("geom:" + geom);
-    //console.log("array:" + geom.getArray());
-
-    array.every(function (item, i) {
-        // If shape is multipolygon
-        if (geom.getType() == "Multipolygon")
-            var list = item.getAt(0).getArray();
-        //else if shape is polygon
-        else if (geom.getType() == "Polygon")
-            var list = item.getArray();
-        //console.log(list);
-        var poly = new google.maps.Polygon({
-            paths: list,
-        });
-        if (google.maps.geometry.poly.containsLocation(point, poly)) {
-            //console.log("found inside poly [" + i + "]");
-            found = true;
-            // the `every()` loop stops iterating through the array whenever the callback function returns a false value.
-            return false;
-        }
-        else {
-            //console.log("Not found at poly [" + i + "]. Searching next poly");
-            found = false;
-            // Make sure you return "true". If you don't return a value, the `every()` loop will stop.
-            return true;
-        }
-    });
-    return found;
 }
 
 // Attaches an info window to a marker with the provided message. When the marker is clicked, the info window will open with the message.
@@ -365,32 +257,6 @@ function drawVerticalHexagon(map, position, radius) {
     });
     polygon.setMap(map);
 }
-
-function drawHorizontalHexagon(map, position, radius) {
-    var color = (position[1] > medredlevel) ? purple :
-                (position[1] > redlevel) ? medred :
-                (position[1] > orangelevel) ? red :
-                (position[1] > yellowlevel) ? orange :
-                (position[1] > greenlevel) ? yellow : green;
-    var coordinates = [];
-
-    for (var angle = 0; angle < 360; angle += 60) {
-        coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));
-    };
-    // Construct the polygon.
-    var polygon = new google.maps.Polygon({
-        paths: coordinates,
-        position: position,
-        strokeColor: color,
-        strokeOpacity: 0.8,
-        strokeWeight: 2,
-        fillColor: color,
-        fillOpacity: 0.15,
-        geodesic: true
-    });
-    polygon.setMap(map);
-}
-
 
 // Below is my attempt at porting binner.py to Javascript.
 // Borrowed from: https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map

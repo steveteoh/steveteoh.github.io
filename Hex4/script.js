@@ -218,7 +218,7 @@ $(window).load(function () {
                             var totalrecovered = Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
                             var totaldeaths = Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z\ ']);
+                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-08-15T12:11:01.587Z']);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         }
@@ -372,9 +372,10 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 */
 function isInside(geom, latlng) {
     var array = geom.getArray();
-    var point = new google.maps.LatLng(latlng);    //to extend the checking of latlng of centroid to 6 vertices. 
-                                                   //If any 3 of the vertices is inside,
-                                                   //then the coordinate is considered inside.
+    var point = new google.maps.LatLng(latlng);     //centroid version does not cover the geographical boundary well.
+                                                    //to extend the checking of latlng of centroid to 6 vertices.
+                                                    //If any 3 of the vertices is inside,
+                                                    //then the coordinate is considered inside.
     var found = false;
     //console.log("geom:" + geom);
     //console.log("array:" + geom.getArray());
