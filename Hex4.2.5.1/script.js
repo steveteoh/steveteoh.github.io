@@ -164,8 +164,7 @@ $(window).load(function () {
         navigator.geolocation.getCurrentPosition(
             (position) => {
                 pos = {
-                    lat: position.coords.latitude,
-                    lng: position.coords.longitude,
+                    lat: position.coords.latitude, lng: position.coords.longitude,
                 };
                 const posmarker = new google.maps.Marker({
                     position: pos,
