@@ -44,12 +44,12 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Selayang";
 //var mapID = "Sabak Bernam";     
 //var mapID = "Petaling Jaya";
-//var mapID = "Kuala Langat";   //MULTI
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
-//var mapID = "Sepang";         //isinside does not work with holes (putrajaya) yet...revising
-var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
-//var mapID = "Hulu Langat";
+//var mapID = "Sepang";         //NOTE: isinside does not work with holes (putrajaya) yet...revising
+var mapID = "Klang";            //MULTI - need to adjust the geojson boundary for pulau
+//var mapID = "Hulu Langat";    //MULTI
+//var mapID = "Kuala Langat";   //MULTI
 //var mapID = "Kuala Selangor";
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
@@ -165,7 +165,6 @@ $(window).load(function () {
     });
     geocoder = new google.maps.Geocoder();
     const infoWindow = new google.maps.InfoWindow({ map: map });
-
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
             (position) => {
@@ -180,8 +179,9 @@ $(window).load(function () {
                 });
                 infoWindow.setPosition(pos);
                 infoWindow.setContent("Your Location detected by the browser");
+                infoWindow.close();
                 posmarker.addListener("click", () => {
-                    infowindow.open({
+                    infoWindow.open({
                         anchor: posmarker,
                         shouldFocus: false,
                     });
@@ -398,24 +398,30 @@ function isInside(geom, latlng) {
 
     array.every(function (item, i) {
         // If shape is multipolygon
-        if (geom.getType() == "Multipolygon")
+        if (geom.getType() == "Multipolygon") {
             var list = item.getAt(0).getArray();
-        //else if shape is polygon
-        else if (geom.getType() == "Polygon")
+        }
+        else if (geom.getType() == "Polygon") {
             var list = item.getArray();
-        //console.log(list);
+        }
+        else {
+            //Irrelevant types: "Point", "MultiPoint", "LineString", "MultiLineString", "LinearRing","GeometryCollection".
+            found = false;
+            return false;
+        }
+        console.log(list);
         var poly = new google.maps.Polygon({
             paths: list,
         });
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
-            //console.log("found inside poly [" + i + "]");
             found = true;
+            //console.log("found inside poly [" + i + "]");
             // the `every()` loop stops iterating through the array whenever the callback function returns a false value.
             return false;
         }
         else {
-            //console.log("Not found at poly [" + i + "]. Searching next poly");
             found = false;
+            //console.log("Not found at poly [" + i + "]. Searching next poly");
             // Make sure you return "true". If you don't return a value, the `every()` loop will stop.
             return true;
         }
