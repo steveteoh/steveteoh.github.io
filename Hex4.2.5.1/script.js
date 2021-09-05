@@ -34,8 +34,8 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
 
@@ -44,11 +44,11 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Selayang";
 //var mapID = "Sabak Bernam";     
 //var mapID = "Petaling Jaya";
-//var mapID = "Kuala Langat";
+//var mapID = "Kuala Langat";   //MULTI
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
-//var mapID = "Sepang";         //isinside does not work with holes (putrajaya) yet...revising
-var mapID = "Klang";          //need to adjust the geojson boundary for pulau
+var mapID = "Sepang";         //isinside does not work with holes (putrajaya) yet...revising
+//var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
 //var mapID = "Hulu Langat";
 //var mapID = "Kuala Selangor";
 
@@ -95,16 +95,16 @@ const PLACE_BOUNDS = {
     //south: 3.081443,
     //west: 101.733063,
     //east: 101.853560,
-    //name: "Sepang",
-    //north: 3.012039,   //Sepang
-    //south: 2.594652,   //Sepang
-    //west: 101.589953,  //Sepang
-    //east: 101.78966,   //Sepang
-    name: "Klang",
-    north: 3.19289,   //Klang
-    south: 2.88442,   //Klang
-    west: 101.199003, //Klang
-    east: 101.524080, //Klang
+    name: "Sepang",
+    north: 3.012039,   //Sepang
+    south: 2.594652,   //Sepang
+    west: 101.589953,  //Sepang
+    east: 101.78966,   //Sepang
+    //name: "Klang",
+    //north: 3.19289,   //Klang
+    //south: 2.88442,   //Klang
+    //west: 101.199003, //Klang
+    //east: 101.524080, //Klang
     //name: "Kuala Selangor",
     //north: 3.600198,  
     //south: 3.165252,  
