@@ -107,9 +107,9 @@ const PLACE_BOUNDS = {
     //east: 101.524080, //Klang
     name: "Kuala Selangor",
     north: 3.600198,  
-    south: 3.165252,  
-    west: 101.101054, 
-    east: 101.492745, 
+    south: 3.159107,
+    west: 101.100810,
+    east: 101.493825,
     //name: "Hulu Langat",
     //north: 3.275179,  
     //south: 2.866524,  
