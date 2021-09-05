@@ -26,8 +26,8 @@ const MAP_BOUNDS = {
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.json';
 
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/subang_jaya.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/shah_alam.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/subang_jaya.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/shah_alam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/selayang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
@@ -39,8 +39,8 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
 
-//var mapID = "Subang Jaya";
-var mapID = "Shah Alam";
+var mapID = "Subang Jaya";
+//var mapID = "Shah Alam";
 //var mapID = "Selayang";
 //var mapID = "Sabak Bernam";     
 //var mapID = "Petaling Jaya";
@@ -56,16 +56,16 @@ var mapID = "Shah Alam";
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
-    //name: "Subang Jaya",
-    //north: 3.085027,
-    //south: 2.976325,
-    //west: 101.549597,
-    //east: 101.730601,
-    name: "Shah Alam",
-    north: 3.223441,
-    south: 2.958439,
-    west: 101.441838,
-    east: 101.591569,
+    name: "Subang Jaya",
+    north: 3.085027,
+    south: 2.976325,
+    west: 101.549597,
+    east: 101.730601,
+    //name: "Shah Alam",
+    //north: 3.223441,
+    //south: 2.958439,
+    //west: 101.441838,
+    //east: 101.591569,
     //name: "Selayang",
     //north: 3.401885,
     //south: 3.199615,
@@ -181,7 +181,7 @@ $(window).load(function () {
                         shouldFocus: false,
                     });
                 });
-                map.setCenter(pos);
+                //map.setCenter(pos);
             },
             () => {
                 handleLocationError(true, infoWindow, map.getCenter());
