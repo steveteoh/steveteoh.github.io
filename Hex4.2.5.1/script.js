@@ -389,15 +389,11 @@ function isInside(geom, latlng) {
                                                     //To extend the checking of latlng of centroid to 6 vertices:
                                                     //If any 3 of the vertices is inside, the coordinate is considered inside.    
     var found = false;
-    //console.log("geom:" + geom);
-    //console.log("type:" + geom.getType());
-    //console.log("array:" + geom.getArray());
-
+    //console.log("geom:" + geom); console.log("type:" + geom.getType()); console.log("array:" + geom.getArray());
     array.every(function (item, i) {
-        // If shape is multipolygon
         var geoType = geom.getType();
         console.log("type:" + geoType);
-        if ( geoType == "Multipolygon") {
+        if (geoType == "MultiPolygon") {
             var list = item.getAt(0).getArray();
             var poly = new google.maps.Polygon({
                 paths: list,
