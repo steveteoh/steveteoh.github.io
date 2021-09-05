@@ -30,20 +30,20 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/shah_alam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/selayang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
 
 //var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
 //var mapID = "Selayang";
 //var mapID = "Sabak Bernam";     
-var mapID = "Petaling Jaya";
+//var mapID = "Petaling Jaya";
 //var mapID = "Kuala Langat";
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
@@ -75,11 +75,11 @@ const PLACE_BOUNDS = {
     //south: 3.485592,
     //west: 100.813934,
     //east: 101.349522,
-    name: "Petaling Jaya",
-    north: 3.208809,
-    south: 3.070647,
-    west: 101.550759,
-    east: 101.663325,
+    //name: "Petaling Jaya",
+    //north: 3.208809,
+    //south: 3.070647,
+    //west: 101.550759,
+    //east: 101.663325,
     //name: "Kuala Langat",
     //north: 2.978663,
     //south: 2.643984,
@@ -110,11 +110,11 @@ const PLACE_BOUNDS = {
     //south: 3.165252,  
     //west: 101.101054, 
     //east: 101.492745, 
-    //name: "Hulu Langat",
-    //north: 3.275179,  
-    //south: 2.866524,  
-    //west: 101.721198, 
-    //east: 101.970060, 
+    name: "Hulu Langat",
+    north: 3.275179,  
+    south: 2.866524,  
+    west: 101.721198, 
+    east: 101.970060, 
 
     //Selangor and  Malaysia (warning!! Do not use!! Super heavy computations!!). 
     //Should offload the computation to web server instead of just using client-side javascript
