@@ -35,9 +35,9 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
 
 //var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
@@ -47,10 +47,10 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
 //var mapID = "Sepang";         //NOTE: - isinside does not work with holes (putrajaya) yet...revising
-//var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
+var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
 //var mapID = "Hulu Langat";    //MULTI
 //var mapID = "Kuala Langat";   //MULTI
-var mapID = "Kuala Selangor";
+//var mapID = "Kuala Selangor";
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
@@ -96,20 +96,20 @@ const PLACE_BOUNDS = {
     //west: 101.733063,
     //east: 101.853560,
     //name: "Sepang",
-    //north: 3.012039,   //Sepang
-    //south: 2.594652,   //Sepang
-    //west: 101.589953,  //Sepang
-    //east: 101.78966,   //Sepang
-    //name: "Klang",
-    //north: 3.19289,   //Klang
-    //south: 2.88442,   //Klang
-    //west: 101.199003, //Klang
-    //east: 101.524080, //Klang
-    name: "Kuala Selangor",
-    north: 3.600000,  
-    south: 3.158670,
-    west: 101.10080,
-    east: 101.49380,
+    //north: 3.012039,
+    //south: 2.594652,
+    //west: 101.589953,
+    //east: 101.78966,
+    name: "Klang",
+    north: 3.19289,
+    south: 2.88442,
+    west: 101.199003,
+    east: 101.524080,
+    //name: "Kuala Selangor",
+    //north: 3.600000,  
+    //south: 3.158670,
+    //west: 101.10080,
+    //east: 101.49380,
     //name: "Hulu Langat",
     //north: 3.275179,  
     //south: 2.866524,  
@@ -133,6 +133,7 @@ const PLACE_BOUNDS = {
 };
 const delta_lat = 0.00389;
 const delta_lon = 0.006745;
+
 //const cols = (PLACE_BOUNDS.north - PLACE_BOUNDS.south) / delta_lat; // 105.05 -> 106
 //const rows = (PLACE_BOUNDS.east - PLACE_BOUNDS.west) / delta_lon;    // 36.89  -> 37
 const grey = 'rgb(77, 77, 77)';     //for coloring unrelated borders
@@ -224,7 +225,7 @@ $(window).load(function () {
                             var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
                             var label1 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l).toString() + ";" + (k).toString() + ")";
                             var weeklyactive = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalactive = 0; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var totalactive = 1; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklyrecovered = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalrecovered = 0; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = 0; //Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
@@ -240,7 +241,7 @@ $(window).load(function () {
                             var locationname = "n/a"; //geocodeLatLng(geocoder, map, pos); //warning. geolocation is a paid service
                             var label2 = "Daerah: " + mapID + "<br>No:" + counter + "<br>Hex coord:(" + (2 * l + 1).toString() + ";" + (k).toString() + ")";
                             var weeklyactive = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            var totalactive = 0; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
+                            var totalactive = 1; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklyrecovered = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var totalrecovered = 0; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = 0; //Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
