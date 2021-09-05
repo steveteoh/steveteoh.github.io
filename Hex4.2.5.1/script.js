@@ -107,7 +107,7 @@ const PLACE_BOUNDS = {
     //east: 101.524080, //Klang
     name: "Kuala Selangor",
     north: 3.600198,  
-    south: 3.159107,
+    south: 3.158670,
     west: 101.100810,
     east: 101.493825,
     //name: "Hulu Langat",
@@ -335,7 +335,7 @@ function exportToCsvFile(header, sourcedata, filename) {
     // Create an object URL
     const url = URL.createObjectURL(blob);
     // Download file
-    download(url, filename+'.csv');
+    download(url, filename+'2.csv');
     // Release the object URL
     URL.revokeObjectURL(url);
 }
