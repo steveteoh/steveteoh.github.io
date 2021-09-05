@@ -32,12 +32,12 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_langat.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
 
 //var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
@@ -45,12 +45,12 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Sabak Bernam";     
 //var mapID = "Petaling Jaya";
 //var mapID = "Kuala Langat";   //MULTI
-var mapID = "Hulu Selangor";
+//var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
 //var mapID = "Sepang";         //isinside does not work with holes (putrajaya) yet...revising
 //var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
 //var mapID = "Hulu Langat";
-//var mapID = "Kuala Selangor";
+var mapID = "Kuala Selangor";
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
@@ -85,11 +85,11 @@ const PLACE_BOUNDS = {
     //south: 2.643984,
     //west: 101.286413,
     //east: 101.681967,
-    name: "Hulu Selangor",
-    north: 3.804692,	
-    south: 3.321608,
-    west: 101.319496,
-    east: 101.814739,
+    //name: "Hulu Selangor",
+    //north: 3.804692,	
+    //south: 3.321608,
+    //west: 101.319496,
+    //east: 101.814739,
     //name: "Ampang Jaya",
     //north: 3.292435,
     //south: 3.081443,
@@ -105,11 +105,11 @@ const PLACE_BOUNDS = {
     //south: 2.88442,   //Klang
     //west: 101.199003, //Klang
     //east: 101.524080, //Klang
-    //name: "Kuala Selangor",
-    //north: 3.600198,  
-    //south: 3.165252,  
-    //west: 101.101054, 
-    //east: 101.492745, 
+    name: "Kuala Selangor",
+    north: 3.600198,  
+    south: 3.165252,  
+    west: 101.101054, 
+    east: 101.492745, 
     //name: "Hulu Langat",
     //north: 3.275179,  
     //south: 2.866524,  
