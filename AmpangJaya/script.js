@@ -59,10 +59,21 @@ $(window).load(function () {
         navigator.geolocation.getCurrentPosition(
             (position) => {
                 pos = { lat: position.coords.latitude, lng: position.coords.longitude };
+                const posmarker = new google.maps.Marker({
+                    position: pos,
+                    map,
+                    title: "Your Location",
+                });
                 infoWindow.setPosition(pos);
-                infoWindow.setContent("Your Location");
-                infoWindow.open(map);
-                map.setCenter(pos);
+                infoWindow.setContent("Your Location detected by the browser");
+                infoWindow.close();
+                posmarker.addListener("click", () => {
+                    infoWindow.open({
+                        anchor: posmarker,
+                        shouldFocus: false,
+                    });
+                });
+                //map.setCenter(pos);
             },
             () => {
                 handleLocationError(true, infoWindow, map.getCenter());
@@ -116,7 +127,7 @@ $(window).load(function () {
                     title: place[3],
                     icon: {
                         url: iconUrl,
-                        scaledSize: new google.maps.Size(100, 75), // scaled size
+                        scaledSize: new google.maps.Size(75, 75), // scaled size
                     }
                 });
                 //marker.setIcon("https://maps.google.com/mapfiles/ms/icons/blue.png");
