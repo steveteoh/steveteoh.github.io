@@ -389,9 +389,9 @@ function isInside(geom, latlng) {
                                                     //to extend the checking of latlng of centroid to 6 vertices.
                                                     //If any 3 of the vertices is inside,
                                                     //then the coordinate is considered inside.    var found = false;
-    console.log("geom:" + geom);
+    //console.log("geom:" + geom);
     console.log("type:" + geom.getType());
-    console.log("array:" + geom.getArray());
+    //console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
         // If shape is multipolygon
@@ -409,19 +409,20 @@ function isInside(geom, latlng) {
         }
         else {
             //Irrelevant types: "Point", "MultiPoint", "LineString", "MultiLineString", "LinearRing","GeometryCollection".
+            console.log("irrelevant type " + geom.getType());
             found = false;
             return false;
         }
         console.log(list);
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
             found = true;
-            //console.log("found inside poly [" + i + "]");
+            console.log("found inside poly [" + i + "]");
             // the `every()` loop stops iterating through the array whenever the callback function returns a false value.
             return false;
         }
         else {
             found = false;
-            //console.log("Not found at poly [" + i + "]. Searching next poly");
+            console.log("Not found at poly [" + i + "]. Searching next poly");
             // Make sure you return "true". If you don't return a value, the `every()` loop will stop.
             return true;
         }
