@@ -106,14 +106,10 @@ const PLACE_BOUNDS = {
     //west: 101.199003, //Klang
     //east: 101.524080, //Klang
     name: "Kuala Selangor",
-    //north: 3.600000,  
-    //south: 3.158670,
-    //west: 101.10080,
-    //east: 101.49380,
-    north: 3.600198,
-    south: 3.165252,  
-    west: 101.101054, 
-    east: 101.492745, 
+    north: 3.600000,  
+    south: 3.158670,
+    west: 101.10080,
+    east: 101.49380,
     //name: "Hulu Langat",
     //north: 3.275179,  
     //south: 2.866524,  
@@ -392,7 +388,6 @@ function isInside(geom, latlng) {
     //console.log("geom:" + geom); console.log("type:" + geom.getType()); console.log("array:" + geom.getArray());
     array.every(function (item, i) {
         var geoType = geom.getType();
-        console.log("type:" + geoType);
         if (geoType == "MultiPolygon") {
             var list = item.getAt(0).getArray();
             var poly = new google.maps.Polygon({
@@ -414,13 +409,13 @@ function isInside(geom, latlng) {
         console.log(list);
         if (google.maps.geometry.poly.containsLocation(point, poly)) {
             found = true;
-            console.log("found inside poly [" + i + "]");
+            //console.log("found inside poly [" + i + "]");
             // the `every()` loop stops iterating through the array whenever the callback function returns a false value.
             return false;
         }
         else {
             found = false;
-            console.log("Not found at poly [" + i + "]. Searching next poly");
+            //console.log("Not found at poly [" + i + "]. Searching next poly");
             // Make sure you return "true". If you don't return a value, the `every()` loop will stop.
             return true;
         }
