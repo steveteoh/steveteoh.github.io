@@ -16,9 +16,9 @@ var places = [];
 var lt1 = 0, ln1 = 0;
 var pos = {};
 
-var stateRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/selangor.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.json';
-var inputURL = "https://steveteoh.github.io/Hex4/Selangor/daerah/subang_jaya.csv";
+var stateRequestURL = 'https://steveteoh.github.io/Hex/Selangor/selangor.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex/Selangor/daerah/subang_jaya.json';
+var inputURL = "https://steveteoh.github.io/Hex/Selangor/daerah/subang_jaya.csv";
 
 var mapID = "Subang Jaya";
 const PLACE_BOUNDS = {
@@ -104,7 +104,7 @@ $(window).load(function () {
             // Adding a marker just so we can visualize where the actual data points are.
             places.forEach(function (place, p) {
                 latlng = new google.maps.LatLng({ lat: place[0], lng: place[1] });
-                let iconUrl = "http://maps.google.com/mapfiles/ms/icons/";
+                let iconUrl = "https://maps.google.com/mapfiles/ms/icons/";
                 let thisColor = (place[4] > medredlevel) ? "purple" :
                                 (place[4] > orangelevel) ? "red" :
                                 (place[4] > yellowlevel) ? "orange" :
