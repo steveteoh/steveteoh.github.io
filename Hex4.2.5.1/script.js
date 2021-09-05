@@ -28,8 +28,8 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/subang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/shah_alam.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/selayang.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/selayang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
@@ -41,8 +41,8 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 
 //var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
-//var mapID = "Selayang";
-var mapID = "Sabak Bernam";     
+var mapID = "Selayang";
+//var mapID = "Sabak Bernam";     
 //var mapID = "Petaling Jaya";
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
@@ -66,16 +66,16 @@ const PLACE_BOUNDS = {
     //south: 2.958439,
     //west: 101.441838,
     //east: 101.591569,
-    //name: "Selayang",
-    //north: 3.401885,
-    //south: 3.199615,
-    //west: 101.430351,
-    //east: 101.836780,
-    name: "Sabak Bernam",
-    north: 3.8706898,
-    south: 3.485592,
-    west: 100.813934,
-    east: 101.349522,
+    name: "Selayang",
+    north: 3.401885,
+    south: 3.199615,
+    west: 101.430351,
+    east: 101.836780,
+    //name: "Sabak Bernam",
+    //north: 3.8706898,
+    //south: 3.485592,
+    //west: 100.813934,
+    //east: 101.349522,
     //name: "Petaling Jaya",
     //north: 3.208809,
     //south: 3.070647,
