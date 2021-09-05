@@ -31,13 +31,13 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/selayang.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sabak_bernam.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/petaling_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_langat.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
 
 //var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
@@ -46,11 +46,12 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Petaling Jaya";
 //var mapID = "Hulu Selangor";
 //var mapID = "Ampang Jaya";
-//var mapID = "Sepang";         //NOTE: - isinside does not work with holes (putrajaya) yet...revising
-var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
-//var mapID = "Hulu Langat";    //MULTI
-//var mapID = "Kuala Langat";   //MULTI
 //var mapID = "Kuala Selangor";
+//var mapID = "Sepang";         //NOTE: - isinside does not work with holes (putrajaya) yet...revising
+//var mapID = "Kuala Langat";   //MULTI
+//var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
+var mapID = "Hulu Langat";      //MULTI
+
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
@@ -80,11 +81,6 @@ const PLACE_BOUNDS = {
     //south: 3.070647,
     //west: 101.550759,
     //east: 101.663325,
-    //name: "Kuala Langat",
-    //north: 2.978663,
-    //south: 2.643984,
-    //west: 101.286413,
-    //east: 101.681967,
     //name: "Hulu Selangor",
     //north: 3.804692,	
     //south: 3.321608,
@@ -95,26 +91,31 @@ const PLACE_BOUNDS = {
     //south: 3.081443,
     //west: 101.733063,
     //east: 101.853560,
-    //name: "Sepang",
-    //north: 3.012039,
-    //south: 2.594652,
-    //west: 101.589953,
-    //east: 101.78966,
-    name: "Klang",
-    north: 3.19289,
-    south: 2.88442,
-    west: 101.199003,
-    east: 101.524080,
     //name: "Kuala Selangor",
     //north: 3.600000,  
     //south: 3.158670,
     //west: 101.10080,
     //east: 101.49380,
-    //name: "Hulu Langat",
-    //north: 3.275179,  
-    //south: 2.866524,  
-    //west: 101.721198, 
-    //east: 101.970060, 
+    //name: "Sepang",
+    //north: 3.012039,
+    //south: 2.594652,
+    //west: 101.589953,
+    //east: 101.78966,
+    //name: "Kuala Langat",
+    //north: 2.978663,
+    //south: 2.643984,
+    //west: 101.286413,
+    //east: 101.681967,
+    //name: "Klang",
+    //north: 3.19289,
+    //south: 2.88442,
+    //west: 101.199003,
+    //east: 101.524080,
+    name: "Hulu Langat",
+    north: 3.275179,  
+    south: 2.866524,  
+    west: 101.721198, 
+    east: 101.970060, 
 
     //Selangor and  Malaysia (warning!! Do not use!! Super heavy computations!!). 
     //Should offload the computation to web server instead of just using client-side javascript
