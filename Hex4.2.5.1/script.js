@@ -348,7 +348,7 @@ function exportToCsvFile(header, sourcedata, filename) {
     // Create an object URL
     const url = URL.createObjectURL(blob);
     // Download file
-    download(url, filename+'2.csv');
+    download(url, filename+'.csv');
     // Release the object URL
     URL.revokeObjectURL(url);
 }
@@ -386,22 +386,24 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 function isInside(geom, latlng) {
     var array = geom.getArray();
     var point = new google.maps.LatLng(latlng);     //centroid version does not cover the geographical boundary well.
-                                                    //to extend the checking of latlng of centroid to 6 vertices.
-                                                    //If any 3 of the vertices is inside,
-                                                    //then the coordinate is considered inside.    var found = false;
+                                                    //To extend the checking of latlng of centroid to 6 vertices:
+                                                    //If any 3 of the vertices is inside, the coordinate is considered inside.    
+    var found = false;
     //console.log("geom:" + geom);
-    console.log("type:" + geom.getType());
+    //console.log("type:" + geom.getType());
     //console.log("array:" + geom.getArray());
 
     array.every(function (item, i) {
         // If shape is multipolygon
-        if (geom.getType() == "Multipolygon") {
+        var geoType = geom.getType();
+        console.log("type:" + geoType);
+        if ( geoType == "Multipolygon") {
             var list = item.getAt(0).getArray();
             var poly = new google.maps.Polygon({
                 paths: list,
             });
         }
-        else if (geom.getType() == "Polygon") {
+        else if (geoType == "Polygon") {
             var list = item.getArray();
             var poly = new google.maps.Polygon({
                 paths: list,
@@ -409,7 +411,7 @@ function isInside(geom, latlng) {
         }
         else {
             //Irrelevant types: "Point", "MultiPoint", "LineString", "MultiLineString", "LinearRing","GeometryCollection".
-            console.log("irrelevant type " + geom.getType());
+            console.log("irrelevant type " + geoType);
             found = false;
             return false;
         }
