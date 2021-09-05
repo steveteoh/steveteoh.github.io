@@ -35,9 +35,9 @@ var stateRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/selangor.
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/ampang_jaya.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_selangor.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/sepang.json';
-//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_langat.json';
+var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/kuala_langat.json';
 //var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/klang.json';
-var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
+//var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah/hulu_langat.json';
 
 //var mapID = "Subang Jaya";
 //var mapID = "Shah Alam";
@@ -48,9 +48,9 @@ var districtRequestURL = 'https://steveteoh.github.io/Hex4.2.5.1/Selangor/daerah
 //var mapID = "Ampang Jaya";
 //var mapID = "Kuala Selangor";
 //var mapID = "Sepang";         //NOTE: - isinside does not work with holes (putrajaya) yet...revising
-//var mapID = "Kuala Langat";   //MULTI
+var mapID = "Kuala Langat";   
 //var mapID = "Klang";          //MULTI - need to adjust the geojson boundary for pulau
-var mapID = "Hulu Langat";      //MULTI
+//var mapID = "Hulu Langat";    //MULTI
 
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
@@ -101,21 +101,21 @@ const PLACE_BOUNDS = {
     //south: 2.594652,
     //west: 101.589953,
     //east: 101.78966,
-    //name: "Kuala Langat",
-    //north: 2.978663,
-    //south: 2.643984,
-    //west: 101.286413,
-    //east: 101.681967,
+    name: "Kuala Langat",
+    north: 2.978663,
+    south: 2.643984,
+    west: 101.286413,
+    east: 101.681967,
     //name: "Klang",
     //north: 3.19289,
     //south: 2.88442,
     //west: 101.199003,
     //east: 101.524080,
-    name: "Hulu Langat",
-    north: 3.275179,  
-    south: 2.866524,  
-    west: 101.721198, 
-    east: 101.970060, 
+    //name: "Hulu Langat",
+    //north: 3.275179,  
+    //south: 2.866524,  
+    //west: 101.721198, 
+    //east: 101.970060, 
 
     //Selangor and  Malaysia (warning!! Do not use!! Super heavy computations!!). 
     //Should offload the computation to web server instead of just using client-side javascript
