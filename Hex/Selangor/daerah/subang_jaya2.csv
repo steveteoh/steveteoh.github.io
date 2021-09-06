@@ -20,8 +20,8 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 3.038347,101.603557,Daerah: Subang Jaya<br>No:19<br>Hex coord:(4;3),Lake Residences. 47100 Puchong. Selangor,63,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 3.030567,101.617047,Daerah: Subang Jaya<br>No:20<br>Hex coord:(5;3),Setiawalk. Jalan Wawasan. Pusat Bandar Puchong. 47100 Puchong. Selangor,274,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 3.038347,101.630537,Daerah: Subang Jaya<br>No:21<br>Hex coord:(6;3),Near Sri Kesidang Apartments. Puchong. Selangor,131,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
-3.030567,101.644027,Daerah: Subang Jaya<br>No:22<br>Hex coord:(7;3),Near J&T Express Bandar Kinrara. Puchong. Selangor,0,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
-3.038347,101.657517,Daerah: Subang Jaya<br>No:23<br>Hex coord:(8;3),44. Jalan BK 6b/11. Bandar Kinrara. 47180 Puchong. Selangor,0,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
+3.030567,101.644027,Daerah: Subang Jaya<br>No:22<br>Hex coord:(7;3),Near J&T Express Bandar Kinrara. Puchong. Selangor,15,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
+3.038347,101.657517,Daerah: Subang Jaya<br>No:23<br>Hex coord:(8;3),44. Jalan BK 6b/11. Bandar Kinrara. 47180 Puchong. Selangor,47,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 3.030567,101.671007,Daerah: Subang Jaya<br>No:24<br>Hex coord:(9;3),Jalan DU 4/1. Taman Damai Utama. 47180 Puchong. Selangor,68,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 3.038347,101.684497,Daerah: Subang Jaya<br>No:25<br>Hex coord:(10;3),15. Jalan PUJ 9/27a. Taman Puncak Jalil. 43300 Seri Kembangan. Selangor,73,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 3.030567,101.697987,Daerah: Subang Jaya<br>No:26<br>Hex coord:(11;3),Jalan 14/2. Taman Serdang Utama. 43300 Seri Kembangan. Selangor,114,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
@@ -44,8 +44,8 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 3.007227,101.603557,Daerah: Subang Jaya<br>No:43<br>Hex coord:(4;5),Taman Puchong Perdana. 47100 Puchong. Selangor,476,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 2.999447,101.617047,Daerah: Subang Jaya<br>No:44<br>Hex coord:(5;5),7. Jalan PU 3/2A. Taman Puchong Utama. 47100 Puchong. Selangor,147,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 3.007227,101.630537,Daerah: Subang Jaya<br>No:45<br>Hex coord:(6;5),Bandar Puteri Puchong. 47100 Puchong. Selangor,48,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
-2.999447,101.644027,Daerah: Subang Jaya<br>No:46<br>Hex coord:(7;5),Taman Saujana Puchong. 47100 Puchong. Selangor,0,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
-3.007227,101.657517,Daerah: Subang Jaya<br>No:47<br>Hex coord:(8;5),SMK Taman Desaminium. Seri Kembangan. Selangor,0,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
+2.999447,101.644027,Daerah: Subang Jaya<br>No:46<br>Hex coord:(7;5),Taman Saujana Puchong. 47100 Puchong. Selangor,83,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
+3.007227,101.657517,Daerah: Subang Jaya<br>No:47<br>Hex coord:(8;5),SMK Taman Desaminium. Seri Kembangan. Selangor,38,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 2.999447,101.671007,Daerah: Subang Jaya<br>No:48<br>Hex coord:(9;5),Jalan Equine 9. Seri Kembangan. Selangor,171,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 3.007227,101.684497,Daerah: Subang Jaya<br>No:49<br>Hex coord:(10;5),Lebuhraya MEX. Seri Kembangan. Selangor,50,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 2.999447,101.697987,Daerah: Subang Jaya<br>No:50<br>Hex coord:(11;5),Jalan Kejuruteraan. UPM. Serdang. Selangor,37,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
@@ -56,8 +56,8 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 2.991667,101.603557,Daerah: Subang Jaya<br>No:55<br>Hex coord:(4;6),Lake View Town Villa. Puchong. Selangor,97,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 2.983887,101.617047,Daerah: Subang Jaya<br>No:56<br>Hex coord:(5;6),No. 37-2. Pusat Perdagangan One Puchong. Jalan OP 1/2. Off Jalan Puchong. Selangor. 47160 Puchong,110,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 2.991667,101.630537,Daerah: Subang Jaya<br>No:57<br>Hex coord:(6;6),Bandar Bukit. 47100 Puchong. Selangor,115,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
-2.983887,101.644027,Daerah: Subang Jaya<br>No:58<br>Hex coord:(7;6),Saujana Puchong. Seri Kembangan. Selangor,0,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
-2.991667,101.657517,Daerah: Subang Jaya<br>No:59<br>Hex coord:(8;6),Persiaran Kota Perdana. Kota Perdana. 43300 Seri Kembangan. Selangor,0,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
+2.983887,101.644027,Daerah: Subang Jaya<br>No:58<br>Hex coord:(7;6),Saujana Puchong. Seri Kembangan. Selangor,55,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
+2.991667,101.657517,Daerah: Subang Jaya<br>No:59<br>Hex coord:(8;6),Persiaran Kota Perdana. Kota Perdana. 43300 Seri Kembangan. Selangor,96,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 2.983887,101.671007,Daerah: Subang Jaya<br>No:60<br>Hex coord:(9;6),Pusat Bandar Putra Permai. 43400 Seri Kembangan. Selangor,171,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 2.991667,101.684497,Daerah: Subang Jaya<br>No:61<br>Hex coord:(10;6),R&R Seri Kembangan. Serdang. Selangor,92,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
 2.983887,101.697987,Daerah: Subang Jaya<br>No:62<br>Hex coord:(11;6),Jalan Mardi. Serdang. Selangor,0,0,0,0,0,0,1,2021-09-05T12:11:01.587Z
