@@ -60,10 +60,21 @@ $(window).load(function () {
         navigator.geolocation.getCurrentPosition(
             (position) => {
                 pos = { lat: position.coords.latitude, lng: position.coords.longitude };
+                const posmarker = new google.maps.Marker({
+                    position: pos,
+                    map,
+                    title: "Your Location",
+                });
                 infoWindow.setPosition(pos);
-                infoWindow.setContent("Your Location");
-                infoWindow.open(map);
-                map.setCenter(pos);
+                infoWindow.setContent("Your Location detected by the browser");
+                infoWindow.close();
+                posmarker.addListener("click", () => {
+                    infoWindow.open({
+                        anchor: posmarker,
+                        shouldFocus: false,
+                    });
+                });
+                //map.setCenter(pos);
             },
             () => {
                 handleLocationError(true, infoWindow, map.getCenter());
