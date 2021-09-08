@@ -62,7 +62,7 @@ const PLACE_BOUNDS = {
     name: "Dewan Bandaraya Kuala Lumpur",
     north: 3.244429,
     south: 3.033254,
-    west: 101.615359,
+    west: 101.615100,
     east: 101.758290,
     // name: "Subang Jaya",
     // north: 3.085027,
