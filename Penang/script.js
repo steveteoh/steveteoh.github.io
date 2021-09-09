@@ -111,9 +111,9 @@ $(window).load(function () {
 
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
-    layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'subname' },
+    layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
-            myfeature = layer1.getFeatureById(mapID);
+            myfeature = layer1.getFeatureById(PLACE_BOUNDS.name);
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
 
