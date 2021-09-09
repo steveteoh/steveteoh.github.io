@@ -150,7 +150,7 @@ $(window).load(function () {
                             var totaldeaths = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
                             var weightage = 1;
                             var isoDateString = new Date().toISOString();
-                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, isoDateString]);
+                            places.push([lt2, ln2, label2, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, isoDateString]);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
                         }
