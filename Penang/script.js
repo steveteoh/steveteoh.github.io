@@ -26,7 +26,7 @@ const MAP_BOUNDS = {
 var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
 
 var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/seberangperai.json';
-var mapID = "Utara";
+var mapID = "mainland";
 //var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/island.json';
 //var mapID = "Penang";
 
