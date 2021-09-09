@@ -32,10 +32,15 @@ var mapID = "Seberang Perai";
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
     name: "Seberang Perai",
-    north: 5.482900,
-    south: 5.257000,
-    west: 100.177000,
-    east: 100.346900,
+    north: 5.586900,
+    south: 5.121500,
+    west: 100.336000,
+    east: 100.539800,
+    //name: "Penang",
+    //north: 5.482900,
+    //south: 5.257000,
+    //west: 100.177000,
+    //east: 100.346900,
     //name: "Malaysia",
     //north: 
     //south: 
