@@ -25,7 +25,7 @@ const MAP_BOUNDS = {
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
 var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/seberangperai.json';
-var mapID = "trial";
+var mapID = "trial2";
 //var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/island.json';
 //var mapID = "Penang";
 
