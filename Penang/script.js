@@ -25,7 +25,7 @@ const MAP_BOUNDS = {
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
 var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/seberangperai.json';
-var mapID = "Selatan";
+var mapID = "SP";
 //var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/island.json';
 //var mapID = "Penang";
 
@@ -33,10 +33,10 @@ var mapID = "Selatan";
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
     name: "Seberang Perai",
-    north: 5.585500,
+    north: 5.586000,
     south: 5.121000,    //5.273800,   //5.382580   //
-    west: 100.551900,  
-    east: 101.360000, 
+    west: 100.390000,  
+    east: 101.560000, 
     //name: "Penang",
     //north: 5.482900,
     //south: 5.257000,
@@ -110,7 +110,7 @@ $(window).load(function () {
 
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
-    layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'subname' },
+    layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
             myfeature = layer1.getFeatureById(mapID);
             layer1.forEach((feature) => {
