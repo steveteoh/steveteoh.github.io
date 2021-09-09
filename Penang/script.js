@@ -35,7 +35,7 @@ var mapID = "Seberang Perai";
 const PLACE_BOUNDS = {
     name: "Seberang Perai",
     north: 5.586900,
-    south: 5.121500,
+    south: 5.273800, //5.121500,
     west: 100.336000,
     east: 100.539800,
     //name: "Penang",
