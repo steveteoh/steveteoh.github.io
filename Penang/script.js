@@ -35,7 +35,7 @@ var mapID = "Seberang Perai";
 const PLACE_BOUNDS = {
     name: "Seberang Perai",
     north: 5.586900,
-    south: 5.121500,   //5.273800,   //5.382580
+    south: 5.273800,   //5.382580   //5.121500,   //
     west: 101.330000, //100.336000,
     east: 100.539800,
     //name: "Penang",
@@ -113,7 +113,7 @@ $(window).load(function () {
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
-            myfeature = layer1.getFeatureById(1);
+            myfeature = layer1.getFeatureById(mapID);
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
 
