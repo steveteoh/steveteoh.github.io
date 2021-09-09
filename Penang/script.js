@@ -26,7 +26,7 @@ const MAP_BOUNDS = {
 var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
 
 var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/seberangperai.json';
-var mapID = "Seberang Perai";
+var mapID = "Tengah";
 //var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/island.json';
 //var mapID = "Penang";
 
@@ -111,7 +111,7 @@ $(window).load(function () {
 
     //Get the district administrative boundary through geojson file
     var layer1 = new google.maps.Data();
-    layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
+    layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'subname' },
         function (features) {
             myfeature = layer1.getFeatureById(mapID);
             layer1.forEach((feature) => {
