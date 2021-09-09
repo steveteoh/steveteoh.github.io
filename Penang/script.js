@@ -26,7 +26,7 @@ const MAP_BOUNDS = {
 var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
 
 var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/seberangperai.json';
-var mapID = "mainland";
+var mapID = "Seberang Perai";
 //var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/island.json';
 //var mapID = "Penang";
 
@@ -113,7 +113,7 @@ $(window).load(function () {
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
-            myfeature = layer1.getFeatureById(PLACE_BOUNDS.name);
+            myfeature = layer1.getFeatureById(1);
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
 
