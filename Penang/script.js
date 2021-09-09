@@ -24,24 +24,24 @@ const MAP_BOUNDS = {
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
-var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/seberangperai.json';
-var mapID = "Seberang Perai";
-//var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/island.json';
-//var mapID = "Penang";
+//var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/seberangperai.json';
+//var mapID = "Seberang Perai";
+var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/island.json';
+var mapID = "Penang";
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
-    name: "Seberang Perai",
-    north: 5.587000,
-    south: 5.121500,   //5.273800,   //5.382580   //
-    west: 101.360000, //100.336000,
-    east: 100.551900,
-    //name: "Penang",
-    //north: 5.482900,
-    //south: 5.257000,
-    //west: 100.177000,
-    //east: 100.346900,
+    //name: "Seberang Perai",
+    //north: 5.587000,
+    //south: 5.121500,   //5.273800,   //5.382580   //
+    //west: 101.360000, //100.336000,
+    //east: 100.551900,
+    name: "Penang",
+    north: 5.482900,
+    south: 5.257000,
+    west: 100.177000,
+    east: 100.346900,
     //name: "Malaysia",
     //north: 
     //south: 
