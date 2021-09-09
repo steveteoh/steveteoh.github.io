@@ -112,10 +112,11 @@ $(window).load(function () {
     var layer1 = new google.maps.Data();
     layer1.loadGeoJson(districtRequestURL, { idPropertyName: 'name' },
         function (features) {
-            myfeature = layer1.getFeatureById(mapID);
+            myfeature = layer1.getFeatureById(PLACE_BOUNDS.name);
+
             layer1.forEach((feature) => {
-                mygeometry = feature.getGeometry();
                 console.log(feature.getProperty('subname'));
+                mygeometry = feature.getGeometry();
                 //search odd and even hex columns from top left to bottom right
                 let counter = 0;
                 for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
@@ -139,8 +140,6 @@ $(window).load(function () {
                             var weightage = 1;
                             var isoDateString = new Date().toISOString();
                             places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, isoDateString]);
-                            // if not inside -> splice outside hex
-                            //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         }
                         
                         pos = { lat: lt2, lng: ln2 };
@@ -157,8 +156,6 @@ $(window).load(function () {
                             var weightage = 1;
                             var isoDateString = new Date().toISOString();
                             places.push([lt2, ln2, label2, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, isoDateString]);
-                            // if not inside -> splice outside hex
-                            //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
                         }
                     }
                 }
