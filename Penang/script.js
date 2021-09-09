@@ -115,7 +115,7 @@ $(window).load(function () {
             myfeature = layer1.getFeatureById(mapID);
             layer1.forEach((feature) => {
                 mygeometry = feature.getGeometry();
-                console.log("")
+                console.log(feature.getProperty('subname'));
                 //search odd and even hex columns from top left to bottom right
                 let counter = 0;
                 for (let k = 0; -(2 * k) * delta_lat + PLACE_BOUNDS.north >= PLACE_BOUNDS.south; ++k) {
