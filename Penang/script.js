@@ -33,10 +33,10 @@ var mapID = "Barat daya";
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
     name: "Barat Daya",
-    north: 3.244429,
-    south: 3.033254,
-    west: 101.614000,
-    east: 101.758290,
+    north: 5.482900,
+    south: 5.257000,
+    west: 100.177000,
+    east: 100.346900,
     //name: "Malaysia",
     //north: 
     //south: 
