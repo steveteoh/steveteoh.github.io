@@ -24,15 +24,14 @@ const MAP_BOUNDS = {
 };
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
-//var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
 var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
 var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/island.json';
-var mapID = "Barat daya";
+var mapID = "Penang";
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
 const PLACE_BOUNDS = {
-    name: "Barat Daya",
+    name: "Penang",
     north: 5.482900,
     south: 5.257000,
     west: 100.177000,
@@ -131,8 +130,9 @@ $(window).load(function () {
                             var totalrecovered = 1; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = 0; //Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
                             var totaldeaths = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
+                            var weightage = 1;
                             var isoDateString = new Date().toISOString();
-                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, isoDateString]);
+                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, isoDateString]);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + l, 1);  // a * k + 2l + 1
                         }
@@ -148,7 +148,9 @@ $(window).load(function () {
                             var totalrecovered = 1; //Math.floor(Math.random() * 1001); // generates a random integer from 0 to 1000:
                             var weeklydeaths = 0; //Math.floor(Math.random() * 11); // generates a random integer from 0 to 10:
                             var totaldeaths = 0; //Math.floor(Math.random() * 101); // generates a random integer from 0 to 100:
-                            places.push([lt2, ln2, label2, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, totalactive / totalrecovered, '2021-09-05T12:11:01.587Z']);
+                            var weightage = 1;
+                            var isoDateString = new Date().toISOString();
+                            places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, isoDateString]);
                             // if not inside -> splice outside hex
                             //places.splice(38 * k + 2 * l + 2, 1);  // a * k + 2l + 2
                         }
