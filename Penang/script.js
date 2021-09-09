@@ -17,7 +17,6 @@ var lt1 = 0, ln1 = 0;
 var lt2 = 0, ln2 = 0;
 var pos = {};
 
-
 //This is the limit for Malaysia map panning. Not implemented for the time being.
 const MAP_BOUNDS = {
     north: 10.316892, south: -4.9452478, west: 95.2936829, east: 121.0019857,
@@ -25,8 +24,11 @@ const MAP_BOUNDS = {
 
 //Administrative boundary file - geojson (sourced from: https://github.com/TindakMalaysia/Selangor-Maps)
 var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
+
 var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/seberangperai.json';
 var mapID = "Seberang Perai";
+//var districtRequestURL = 'https://steveteoh.github.io/Maps/Penang/island.json';
+//var mapID = "Penang";
 
 // Places are automatically generated using just north, south, east and west boundary coordinates. 
 // E.g. Hulu Langat, Selangor (not yet according to map shape. Future version will include precise kmz boundaries)
