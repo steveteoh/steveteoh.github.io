@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8KAHldpvIOBBG8Lb3lrpWlFlS3mfFf9o&libraries=geometry"></script>
+</head>
+
+<body>
+    <div class="col-xs-12" style="text-align:right">
+        <h1>Hex Grid For Penang (Barat Daya)</h1>
+        <div id="floating-panel">
+            <input id="hide-markers" type="button" value="Hide Markers" />
+            <input id="show-markers" type="button" value="Show Markers" />
+        </div>
+    </div>
+    <div id="controls" class="nicebox">
+        <div>
+            <select id="census-variable">
+                <option value="">
+                </option>
+            </select>
+            <div id="legend">
+                <div id="census-min">min</div>
+                <div class="color-key"><span id="data-caret">&#x25c6;</span></div>
+                <div id="census-max">max</div>
+            </div>
+        </div>
+        <div id="data-box" class="nicebox">
+            <label id="data-label" for="data-value"></label>
+            <span id="data-value"></span>
+        </div>
+    </div>
+    <div id="map_canvas" style="width:100%; height:80vh;">
+    </div>
+</body>
+
+</html>
