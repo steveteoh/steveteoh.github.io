@@ -6,23 +6,37 @@ My shared code (http://steveteoh.github.io/HexGrid) derived from https://github.
 
 # Hex Maps for Selangor Districts
 Below are standalone maps of Selangor districts:
-## AmpangJaya (http://steveteoh.github.io/AmpangJaya/)
-## HuluLangat (http://steveteoh.github.io/HuluLangat/)
-## HuluSelangor (http://steveteoh.github.io/HuluSelangor/)
-## Klang (http://steveteoh.github.io/Klang/)
-## KualaLangat (http://steveteoh.github.io/KualaLangat/)
-## KualaSelangor (http://steveteoh.github.io/KualaSelangor/)
-## PetalingJaya (http://steveteoh.github.io/PetalingJaya/
-## SabakBernam (http://steveteoh.github.io/SabakBernam)
-## Selayang (http://steveteoh.github.io/Selayang/)
-## Sepang (http://steveteoh.github.io/Sepang/)
-## ShahAlam ((http://steveteoh.github.io/ShahAlam/)
-## SubangJayaNew (http://steveteoh.github.io/SubangJayaNew/)
+## AmpangJaya 
+[Ampang Jaya] (http://steveteoh.github.io/AmpangJaya/)
+## HuluLangat 
+[Hulu Langat] (http://steveteoh.github.io/HuluLangat/)
+## HuluSelangor 
+[HuluSelangor] (http://steveteoh.github.io/HuluSelangor/)
+## Klang 
+[Klang] (http://steveteoh.github.io/Klang/)
+## KualaLangat 
+[Kuala Langat] (http://steveteoh.github.io/KualaLangat/)
+## KualaSelangor 
+[Kuala Selangor] (http://steveteoh.github.io/KualaSelangor/)
+## PetalingJaya
+[Petaling Jaya] (http://steveteoh.github.io/PetalingJaya/)
+## SabakBernam 
+[Sabak Bernam] (http://steveteoh.github.io/SabakBernam)
+## Selayang 
+[Selayang] (http://steveteoh.github.io/Selayang/)
+## Sepang 
+[Sepang] (http://steveteoh.github.io/Sepang/)
+## ShahAlam 
+[Shah Alam] (http://steveteoh.github.io/ShahAlam/)
+## SubangJayaNew 
+[Subang Jaya] (http://steveteoh.github.io/SubangJayaNew/)
 
 # Hex Maps for Wilayah Persekutuan Districts
 Below are standalone maps of Wilayah Persekutuan districts:
-## KualaLumpur (http://steveteoh.github.io/KualaLumpur)
-## Putrajaya (http://steveteoh.github.io/Putrajaya)
+## KualaLumpur 
+[Kuala Lumpur] (http://steveteoh.github.io/KualaLumpur)
+## Putrajaya 
+[Putrajaya] (http://steveteoh.github.io/Putrajaya)
 
 
 ## Contributing
