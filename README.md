@@ -53,4 +53,4 @@ Hex Map for Malaysia - latest revision is 5.5.5
 
 ## Issues and Contact
 Kindly contact Steve Teoh at [@teohcheehooi](https://twitter.com/teohcheehooi) <br>
- oe email to [Email](mailto:chteoh@1utar.my?subject=Map "Map")
+ oe email to [Steve](mailto:chteoh@1utar.my?subject=Map "Map")
