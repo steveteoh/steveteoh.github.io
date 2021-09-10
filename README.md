@@ -6,23 +6,39 @@ My shared code derived from https://github.com/KhooHaoYit/KhooHaoYit.github.io/t
 ## HexGrid
 My shared code derived from https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map 
 
-# Hex Maps for Klang Valley
+#Hex Maps for Selangor Districts
 Below are standalone maps of Selangor districts:
+
 ##AmpangJaya
+
 ##HuluLangat
+
 ##HuluSelangor
+
 ##Klang
+
 ##KualaLangat
+
 ##KualaSelangor
+
 ##PetalingJaya
+
 ##SabakBernam
+
 ##Selayang
+
 ##Sepang
+
 ##ShahAlam
+
 ##SubangJayaNew
 
+#Hex Maps for Wilayah Persekutuan Districts
+
 Below are standalone maps of Wilayah Persekutuan districts:
+
 ##KualaLumpur
+
 ##Putrajaya
 
 
