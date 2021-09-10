@@ -1,32 +1,32 @@
 ## MalaysiaHeatmap
-[My shared code](http://steveteoh.github.io/MalaysiaHeatmap) derived from [Khoo Hao Yit's work](https://github.com/KhooHaoYit/KhooHaoYit.github.io/tree/main/Covid19%20Malaysia%20Heatmap)
+[My shared code](http://steveteoh.github.io/MalaysiaHeatMap) derived from [Khoo Hao Yit's work](https://github.com/KhooHaoYit/KhooHaoYit.github.io/tree/main/Covid19%20Malaysia%20Heatmap)
 
 ## HexGrid
 [My shared code](http://steveteoh.github.io/HexGrid) derived from [https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map](https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map) 
 
-# Hex Maps for Selangor Districts
+## Hex Maps for Selangor Districts
 Below are standalone maps of Selangor districts:
-[Ampang Jaya](http://steveteoh.github.io/AmpangJaya/)
-[Hulu Langat](http://steveteoh.github.io/HuluLangat/)
-[Hulu Selangor](http://steveteoh.github.io/HuluSelangor/)
-[Klang](http://steveteoh.github.io/Klang/)
-[Kuala Langat](http://steveteoh.github.io/KualaLangat/)
-[Kuala Selangor](http://steveteoh.github.io/KualaSelangor/)
-[Petaling Jaya](http://steveteoh.github.io/PetalingJaya/)
-[Sabak Bernam](http://steveteoh.github.io/SabakBernam)
-[Selayang](http://steveteoh.github.io/Selayang/)
-[Sepang](http://steveteoh.github.io/Sepang/)
-[Shah Alam](http://steveteoh.github.io/ShahAlam/)
+[Ampang Jaya](http://steveteoh.github.io/AmpangJaya/),
+[Hulu Langat](http://steveteoh.github.io/HuluLangat/),
+[Hulu Selangor](http://steveteoh.github.io/HuluSelangor/),
+[Klang](http://steveteoh.github.io/Klang/),
+[Kuala Langat](http://steveteoh.github.io/KualaLangat/),
+[Kuala Selangor](http://steveteoh.github.io/KualaSelangor/),
+[Petaling Jaya](http://steveteoh.github.io/PetalingJaya/),
+[Sabak Bernam](http://steveteoh.github.io/SabakBernam),
+[Selayang](http://steveteoh.github.io/Selayang/),
+[Sepang](http://steveteoh.github.io/Sepang/),
+[Shah Alam](http://steveteoh.github.io/ShahAlam/), and 
 [Subang Jaya](http://steveteoh.github.io/SubangJayaNew/)
 
-# Hex Maps for Wilayah Persekutuan Districts
+## Hex Maps for Wilayah Persekutuan Districts
 Below are standalone maps of Wilayah Persekutuan districts:
-[Kuala Lumpur](http://steveteoh.github.io/KualaLumpur)
+[Kuala Lumpur](http://steveteoh.github.io/KualaLumpur), and 
 [Putrajaya](http://steveteoh.github.io/Putrajaya)
 
-# Hex Maps for Penang Districts
+## Hex Maps for Penang Districts
 Below are standalone maps of Penang districts:
-[Island](http://steveteoh.github.io/Penang/island.html)
+[Island](http://steveteoh.github.io/Penang/island.html), and 
 [Seberang Perai](http://steveteoh.github.io/Penang/perai.html)
 
 ## Contributing
@@ -35,7 +35,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Version History
-
+Hex Map for Malaysia - latest revision is 5.5.5
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
