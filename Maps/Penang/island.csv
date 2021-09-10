@@ -45,7 +45,7 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 5.33508,100.24445,Daerah: Barat Daya<br>No:38<br>Hex coord:(5;9),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.179Z
 5.34286,100.25794,Daerah: Barat Daya<br>No:39 Hex coord:(6;9),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.179Z
 5.33508,100.27143000000001,Daerah: Barat Daya<br>No:40<br>Hex coord:(7;9),Sg Ara,256,1,0,1,0,0,1,2021-09-09T14:23:12.180Z
-5.33508,100.29841,Daerah: Barat Daya<br>No:41<br>Hex coord:(9;9),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.182Z
+5.33508,100.29841,Daerah: Barat Daya<br>No:41<br>Hex coord:(9;9),Taman Sri Nibong,318,1,0,1,0,0,1,2021-09-09T14:23:12.182Z
 5.31952,100.19049000000001,Daerah: Barat Daya<br>No:x Hex coord:(1;10),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.188Z
 5.3273,100.20398,Daerah: Barat Daya<br>No:42 Hex coord:(2;10),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.188Z
 5.31952,100.21747,Daerah: Barat Daya<br>No:43<br>Hex coord:(3;10),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.189Z
@@ -64,7 +64,7 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 5.31174,100.25794,Daerah: Barat Daya<br>No:55 Hex coord:(6;11),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.203Z
 5.30396,100.27143000000001,Daerah: Barat Daya<br>No:56<br>Hex coord:(7;11),Jalan Sungai tiram 1.,175,1,0,1,0,0,1,2021-09-09T14:23:12.204Z
 5.31174,100.28492,Daerah: Barat Daya<br>No:57 Hex coord:(8;11),Jalan Sultan Azlan Shah. Robert Bosch (M) Sdn Bhd,163,1,0,1,0,0,1,2021-09-09T14:23:12.205Z
-5.30396,100.29841,Daerah: Barat Daya<br>No:x Hex coord:(9;11),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.205Z
+5.30396,100.29841,Daerah: Barat Daya<br>No:x Hex coord:(9;11),Tun Dr. Lim Chong Eu Highway (Viewing Area),0,1,0,1,0,0,1,2021-09-09T14:23:12.205Z
 5.2884,100.19049000000001,Daerah: Barat Daya<br>No:58<br>Hex coord:(1;12),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.215Z
 5.2728399999999995,100.19049000000001,Daerah: Barat Daya<br>No:x<br>Hex coord:(1;13),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.215Z
 5.29618,100.20398,Daerah: Barat Daya<br>No:59 Hex coord:(2;12),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.216Z
@@ -74,14 +74,14 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 5.29618,100.25794,Daerah: Barat Daya<br>No:63 Hex coord:(6;12),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.219Z
 5.2884,100.27143000000001,Daerah: Barat Daya<br>No:64<br>Hex coord:(7;12),POS Aviation Cargo Complex,142,1,0,1,0,0,1,2021-09-09T14:23:12.220Z
 5.29618,100.28492,Daerah: Barat Daya<br>No:65 Hex coord:(8;12),Lintang Bayan Lepas 7,14,1,0,1,0,0,1,2021-09-09T14:23:12.221Z
-5.28840,100.29841,Daerah: Barat Daya<br>No:x Hex coord:(9;12),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.221Z
+5.28840,100.29841,Daerah: Barat Daya<br>No:x Hex coord:(9;12),Jambatan Kedua P.Pinang,0,1,0,1,0,0,1,2021-09-09T14:23:12.221Z
 5.28062,100.20398,Daerah: Barat Daya<br>No:66 Hex coord:(2;13),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.226Z
 5.28062,100.23096000000001,Daerah: Barat Daya<br>No:x Hex coord:(4;13),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.226Z
 5.2728399999999995,100.24445,Daerah: Barat Daya<br>No:x Hex coord:(5;13),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.228Z
 5.28062,100.25794,Daerah: Barat Daya<br>No:67 Hex coord:(6;13),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.228Z
 5.2728399999999995,100.27143000000001,Daerah: Barat Daya<br>No:68<br>Hex coord:(7;13),Lrg Permatang Damar Laut,186,1,0,1,0,0,1,2021-09-09T14:23:12.229Z
-5.28062,100.28492,Daerah: Barat Daya<br>No:69 Hex coord:(8;13),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.230Z
-5.2650598,100.28492,Daerah: Barat Daya<br>No:69 Hex coord:(8;14),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.230Z
+5.28062,100.28492,Daerah: Barat Daya<br>No:69 Hex coord:(8;13),Cheng Choo Tze. Jalan Teluk Tempoyak,198,1,0,1,0,0,1,2021-09-09T14:23:12.230Z
+5.2650598,100.28492,Daerah: Barat Daya<br>No:69 Hex coord:(8;14),Batu Maung,0,1,0,1,0,0,1,2021-09-09T14:23:12.230Z
 5.4751199999999995,100.27143000000001,Daerah: Timur Laut<br>No:1<br>Hex coord:(7;0),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.250Z
 5.45956,100.24445,Daerah: Timur Laut<br>No:2<br>Hex coord:(5;1),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.258Z
 5.46734,100.25794,Daerah: Timur Laut<br>No:3 Hex coord:(6;1),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.258Z
@@ -130,7 +130,7 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 5.35842,100.28492,Daerah: Timur Laut<br>No:41 Hex coord:(8;8),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.333Z
 5.35064,100.29841,Daerah: Timur Laut<br>No:42<br>Hex coord:(9;8),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.334Z
 5.35842,100.31190000000001,Daerah: Timur Laut<br>No:43 Hex coord:(10;8),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.334Z
-5.34286,100.28492,Daerah: Timur Laut<br>No:44 Hex coord:(8;9),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.343Z
+5.34286,100.28492,Daerah: Timur Laut<br>No:44 Hex coord:(8;9),Puncak Bukit Jambul,81,1,0,1,0,0,1,2021-09-09T14:23:12.343Z
 5.34286,100.31190000000001,Daerah: Timur Laut<br>No:45 Hex coord:(10;9),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.344Z
 5.3273,100.31190000000001,Daerah: Timur Laut?<br>No:Jerejak 1 Hex coord:(10;10),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.368Z
-5.31174,100.31190000000001,Daerah: Barat Daya<br>No:Jerejak 2 Hex coord:(10;11),n/a,0,1,0,1,0,0,1,2021-09-09T14:23:12.368Z
+5.31174,100.31190000000001,Daerah: Barat Daya<br>No:Jerejak 2 Hex coord:(10;11),Pulau Jerejak,0,1,0,1,0,0,1,2021-09-09T14:23:12.368Z
