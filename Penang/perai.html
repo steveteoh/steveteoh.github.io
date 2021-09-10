@@ -14,23 +14,24 @@
     <div class="col-xs-12" style="text-align:center">
         <h3>Penang - Mainland (Active covid cases for the past 14 days). 1 km radius sampling)</h3>
         <div id="floating-panel">
-            <input id="hide-markers" type="button" value="Hide Markers" />
-            <input id="show-markers" type="button" value="Show Markers" />
-        </div>
-        <div class='my-legend'>
-            <div class='legend-title'>Number of Active Covid=19 cases (14-days period)</div>
-            <div class='legend-scale'>
-                <ul class='legend-labels'>
-                    <li><span style='background:#00ff00;'></span>0 </li>
-                    <li><span style='background:#ffff66;'></span>1-20</li>
-                    <li><span style='background:#ff9900;'></span>21-40</li>
-                    <li><span style='background:#ff4343;'></span>41-60</li>
-                    <li><span style='background:#cc0000;'></span>61-80</li>
-                    <li><span style='background:#660066;'></span>> 80</li>
-                </ul>
+            <div class='my-legend'>
+                <div class='legend-title'>Number of Active Covid=19 cases (14-days period)</div>
+                <div class='legend-scale'>
+                    <ul class='legend-labels'>
+                        <li><span style='background:#00ff00;'></span>0 </li>
+                        <li><span style='background:#ffff66;'></span>1-20</li>
+                        <li><span style='background:#ff9900;'></span>21-40</li>
+                        <li><span style='background:#ff4343;'></span>41-60</li>
+                        <li><span style='background:#cc0000;'></span>61-80</li>
+                        <li><span style='background:#660066;'></span>> 80</li>
+                    </ul>
+                    <input id="hide-markers" type="button" value="Hide Markers" />
+                    <input id="show-markers" type="button" value="Show Markers" />
+                </div>
+                <div class='legend-source'>Source: <a href="#link to source">Mysejahtera</a></div>
             </div>
-            <div class='legend-source'>Source: <a href="#link to source">Name of source</a></div>
         </div>
+
         <style type='text/css'>
             .my-legend .legend-title {
                 text-align: left;
@@ -64,6 +65,7 @@
             }
 
             .my-legend .legend-source {
+                text-align: left;
                 font-size: 70%;
                 color: #999;
                 clear: both;
@@ -74,7 +76,7 @@
             }
         </style>
     </div>
-    <div id="map_canvas" style="width:100%; height:95vh;">
+    <div id="map_canvas" style="width:100%; height:90vh;">
     </div>
 </body>
 
