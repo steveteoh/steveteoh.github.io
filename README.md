@@ -5,7 +5,7 @@
 [My shared code](http://steveteoh.github.io/HexGrid) derived from [https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map](https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map) 
 
 ## Hex Maps for Selangor Districts
-Below are standalone maps of Selangor districts:
+Below are standalone maps of Selangor districts: <br>
 [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/), <br>
 [Hulu Langat](http://steveteoh.github.io/HuluLangat/), <br>
 [Hulu Selangor](http://steveteoh.github.io/HuluSelangor/), <br>
@@ -20,12 +20,12 @@ Below are standalone maps of Selangor districts:
 [Subang Jaya](http://steveteoh.github.io/SubangJayaNew/)
 
 ## Hex Maps for Wilayah Persekutuan Districts
-Below are standalone maps of Wilayah Persekutuan districts:
+Below are standalone maps of Wilayah Persekutuan districts: <br>
 [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur), and  <br>
 [Putrajaya](http://steveteoh.github.io/Putrajaya)
 
 ## Hex Maps for Penang Districts
-Below are standalone maps of Penang districts:
+Below are standalone maps of Penang districts: <br>
 [Island](http://steveteoh.github.io/Penang/island.html), and  <br>
 [Seberang Perai](http://steveteoh.github.io/Penang/perai.html)
 
