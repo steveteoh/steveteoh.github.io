@@ -29,7 +29,7 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 Below are standalone map demo for Wilayah Persekutuan districts: <br>
 1. [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur) (awaiting data), and  <br>
 2. [Putrajaya](http://steveteoh.github.io/Putrajaya) (awaiting data) <br>
-3. [Labuan](http://steveteoh.github.io/Labuan) (awaiting data) <br>
+3. [Labuan](http://steveteoh.github.io/Labuan) (awaiting data) (New)<br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
 ## Covid-19 Hex Maps for Penang Districts
