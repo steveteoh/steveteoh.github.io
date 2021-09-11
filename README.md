@@ -1,4 +1,9 @@
-﻿## MalaysiaHeatmap
+﻿# steveteoh.github.io
+
+This page highlights the shared code available in http://steveteoh.github.io as demo webpages.
+The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https://github.com/steveteoh/steveteoh.github.io)
+
+## MalaysiaHeatmap
 [My shared code](http://steveteoh.github.io/MalaysiaHeatMap) derived from [Khoo Hao Yit's work](https://github.com/KhooHaoYit/KhooHaoYit.github.io/tree/main/Covid19%20Malaysia%20Heatmap)
 
 ## HexGrid
@@ -29,7 +34,7 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 
 ## Covid-19 Hex Maps for Penang Districts
 Below are standalone map demo for Penang districts: <br>
-1. [Island](http://steveteoh.github.io/Penang/island.html), and  <br>
+1. [Penang island](http://steveteoh.github.io/Penang/island.html), and  <br>
 2. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) <br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
