@@ -62,5 +62,4 @@ Note: Kindly email me on the link below if you wish to have the raw code.
 **Steve Teoh**
 
 ## Issues and Contact
-Kindly contact Steve Teoh at [@teohcheehooi](https://twitter.com/teohcheehooi) <br>
- oe email to [Steve](mailto:chteoh@1utar.my?subject=Map "Map")
+Kindly contact Steve Teoh at [@teohcheehooi](https://twitter.com/teohcheehooi) or email to [Steve](mailto:chteoh@1utar.my?subject=Map "Map")
