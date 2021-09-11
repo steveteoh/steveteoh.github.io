@@ -1,6 +1,6 @@
 ﻿# steveteoh.github.io
 
-This page highlights the shared code available in http://steveteoh.github.io as demo webpages.
+Welcome to Dr Steve Teoh's public github page. This page highlights the shared code available in http://steveteoh.github.io as demo webpages.
 The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https://github.com/steveteoh/steveteoh.github.io)
 
 ## MalaysiaHeatmap
@@ -11,18 +11,18 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 
 ## Covid-19 Hex Maps for Selangor Districts
 Below are standalone map demo for Selangor districts: <br>
-1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/), <br>
+1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (data updated 5/9/2021), <br>
 2. [Hulu Langat](http://steveteoh.github.io/HuluLangat/), <br>
 3. [Hulu Selangor](http://steveteoh.github.io/HuluSelangor/), <br>
 4. [Klang](http://steveteoh.github.io/Klang/), <br>
 5. [Kuala Langat](http://steveteoh.github.io/KualaLangat/), <br>
 6. [Kuala Selangor](http://steveteoh.github.io/KualaSelangor/), <br>
-7. [Petaling Jaya](http://steveteoh.github.io/PetalingJaya/), <br>
+7. [Petaling Jaya](http://steveteoh.github.io/PetalingJaya/) (data updated 5/9/2021), <br>
 8. [Sabak Bernam](http://steveteoh.github.io/SabakBernam), <br>
 9. [Selayang](http://steveteoh.github.io/Selayang/), <br>
 10. [Sepang](http://steveteoh.github.io/Sepang/), <br>
 11. [Shah Alam](http://steveteoh.github.io/ShahAlam/), and  <br>
-12. [Subang Jaya](http://steveteoh.github.io/SubangJayaNew/) <br>
+12. [Subang Jaya](http://steveteoh.github.io/SubangJayaNew/) (data updated 9/9/2021)<br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
 ## Covid-19 Hex Maps for Wilayah Persekutuan Districts
@@ -34,7 +34,7 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 
 ## Covid-19 Hex Maps for Penang Districts
 Below are standalone map demo for Penang districts: <br>
-1. [Penang island](http://steveteoh.github.io/Penang/island.html), and  <br>
+1. [Penang island](http://steveteoh.github.io/Penang/island.html) (updating @ 10/9/2021), and  <br>
 2. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) <br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
@@ -42,6 +42,7 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 
 - Google Maps API
 - JavaScript
+- node.js (only server version. Not included here)
 - Visual Studio Code
 - HTML
 - CSS
