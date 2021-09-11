@@ -53,7 +53,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Version History
-Hex Map for Malaysia - latest revision is 5.5.5
+Hex Map for Malaysia - latest revision is 4.2.5.2.
 Note: Kindly email me on the link below if you wish to have the raw code. 
 
 ## License
