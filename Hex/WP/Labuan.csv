@@ -1,8 +1,11 @@
 lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp
-5.276936,115.323094,Daerah: Labuan<br>No:1<br>Hex coord:(15;7),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:52.979Z
-5.269156,115.309604,Daerah: Labuan<br>No:2<br>Hex coord:(14;8),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:52.983Z
+5.273148,115.317955,Daerah: Labuan<br>No:x<br>Hex coord:(15;7),Pulau Daat,0,0,0,0,0,0,1,2021-09-11T18:21:53.135Z
+5.224900,115.130984,Daerah: Labuan<br>No:x<br>Hex coord:(0;0),Kuraman Island,0,0,0,0,0,0,1,2021-09-11T18:21:53.135Z
 5.385856,115.242154,Daerah: Labuan<br>No:1<br>Hex coord:(9;0),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.006Z
+5.370296,115.215174,Daerah: Labuan<br>No:x<br>Hex coord:(7;1),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.018Z
+5.378076,115.228664,Daerah: Labuan<br>No:x<br>Hex coord:(8;1),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.018Z
 5.370296,115.242154,Daerah: Labuan<br>No:2<br>Hex coord:(9;1),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.018Z
+5.378076,115.255644,Daerah: Labuan<br>No:x<br>Hex coord:(10;1),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.018Z
 5.354736,115.215174,Daerah: Labuan<br>No:3<br>Hex coord:(7;2),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.032Z
 5.362516,115.228664,Daerah: Labuan<br>No:4<br>Hex coord:(8;2),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.032Z
 5.354736,115.242154,Daerah: Labuan<br>No:5<br>Hex coord:(9;2),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.033Z
@@ -20,20 +23,28 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 5.308056,115.215174,Daerah: Labuan<br>No:17<br>Hex coord:(7;5),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.078Z
 5.315836,115.228664,Daerah: Labuan<br>No:18<br>Hex coord:(8;5),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.078Z
 5.308056,115.242154,Daerah: Labuan<br>No:19<br>Hex coord:(9;5),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.079Z
+5.315836,115.255644,Daerah: Labuan<br>No:x<br>Hex coord:(10;5),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.018Z
+5.300276,115.174704,Daerah: Labuan<br>No:x<br>Hex coord:(4;6),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.018Z
 5.292496,115.188194,Daerah: Labuan<br>No:20<br>Hex coord:(5;6),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.093Z
 5.300276,115.201684,Daerah: Labuan<br>No:21<br>Hex coord:(6;6),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.094Z
 5.292496,115.215174,Daerah: Labuan<br>No:22<br>Hex coord:(7;6),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.095Z
 5.300276,115.228664,Daerah: Labuan<br>No:23<br>Hex coord:(8;6),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.096Z
 5.292496,115.242154,Daerah: Labuan<br>No:24<br>Hex coord:(9;6),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.096Z
 5.300276,115.255644,Daerah: Labuan<br>No:25<br>Hex coord:(10;6),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.097Z
+5.292496,115.269134,Daerah: Labuan<br>No:x<br>Hex coord:(11;6),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.097Z
 5.284716,115.174704,Daerah: Labuan<br>No:26<br>Hex coord:(4;7),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.107Z
 5.276936,115.188194,Daerah: Labuan<br>No:27<br>Hex coord:(5;7),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.108Z
 5.284716,115.201684,Daerah: Labuan<br>No:28<br>Hex coord:(6;7),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.109Z
+5.276936,115.215174,Daerah: Labuan<br>No:x<br>Hex coord:(7;7),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.109Z
 5.284716,115.228664,Daerah: Labuan<br>No:29<br>Hex coord:(8;7),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.110Z
 5.276936,115.242154,Daerah: Labuan<br>No:30<br>Hex coord:(9;7),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.111Z
 5.284716,115.255644,Daerah: Labuan<br>No:31<br>Hex coord:(10;7),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.111Z
+5.261376,115.161214,Daerah: Labuan<br>No:x<br>Hex coord:(3;8),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.117Z
 5.269156,115.174704,Daerah: Labuan<br>No:32<br>Hex coord:(4;8),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.117Z
+5.261376,115.188194,Daerah: Labuan<br>No:x<br>Hex coord:(5;8),TLDM Labuan,0,0,0,0,0,0,1,2021-09-11T18:21:53.117Z
 5.269156,115.228664,Daerah: Labuan<br>No:33<br>Hex coord:(8;8),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.122Z
+5.261376,115.242154,Daerah: Labuan<br>No:x<br>Hex coord:(9;8),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.122Z
+5.269156,115.255644,Daerah: Labuan<br>No:x<br>Hex coord:(10;8),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.122Z
+5.253596,115.174704,Daerah: Labuan<br>No:x<br>Hex coord:(4;9),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.135Z
+5.253596,115.228664,Daerah: Labuan<br>No:x<br>Hex coord:(8;9),filler,0,0,0,0,0,0,1,2021-09-11T18:21:53.135Z
 5.245816,115.242154,Daerah: Labuan<br>No:34<br>Hex coord:(9;9),n/a,0,0,0,0,0,0,1,2021-09-11T18:21:53.135Z
-5.2249,115.130984,Daerah: Labuan<br>No:35<br>Hex coord:(N/A),Kuraman Island,0,0,0,0,0,0,1,2021-09-11T18:21:53.135Z
-5.273148,115.317955,Daerah: Labuan<br>No:36<br>Hex coord:(N/A),Pulau Daat,0,0,0,0,0,0,1,2021-09-11T18:21:53.135Z
