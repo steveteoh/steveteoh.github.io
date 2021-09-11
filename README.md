@@ -1,6 +1,6 @@
 ﻿# steveteoh.github.io
 
-Welcome to Dr Steve Teoh's public github page. This page highlights the shared code available in http://steveteoh.github.io as demo webpages.
+Welcome to Dr Steve Teoh's public github page. This page highlights the shared sources available in http://steveteoh.github.io as demo webpages.
 The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https://github.com/steveteoh/steveteoh.github.io)
 
 ## MalaysiaHeatmap
