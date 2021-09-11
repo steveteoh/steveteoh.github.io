@@ -42,7 +42,7 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 
 - Google Maps API
 - JavaScript
-- node.js (only server version. Not included here)
+- node.js (server version is not included here)
 - Visual Studio Code
 - HTML
 - CSS
