@@ -1,6 +1,6 @@
 ﻿# steveteoh.github.io
 
-Welcome to Dr Steve Teoh's public github page. This page highlights the shared sources available in http://steveteoh.github.io as demo webpages.
+Welcome to Steve Teoh's public github page. This page highlights the shared sources available in http://steveteoh.github.io as demo webpages.
 The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https://github.com/steveteoh/steveteoh.github.io)
 
 ## MalaysiaHeatmap
@@ -60,7 +60,7 @@ Note: Kindly email me on the link below if you wish to have the raw code.
 [MIT](https://steveteoh.github.io/LICENSE)
 
 ## Author
-**Steve Teoh**
+**Steve Teoh** B.S, MSc, PhD, MIET, SMIEEE
 
 ## Issues and Contact
 Kindly contact Steve Teoh at [@teohcheehooi](https://twitter.com/teohcheehooi) or email to [Steve](mailto:chteoh@1utar.my?subject=Map "Map")
