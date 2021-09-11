@@ -22,14 +22,15 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 
 ## Covid-19 Hex Maps for Wilayah Persekutuan Districts
 Below are standalone map demo for Wilayah Persekutuan districts: <br>
-[Kuala Lumpur](http://steveteoh.github.io/KualaLumpur), and  <br>
-[Putrajaya](http://steveteoh.github.io/Putrajaya)
+1. [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur), and  <br>
+2. [Putrajaya](http://steveteoh.github.io/Putrajaya) <br>
+3. [Labuan] on the way <br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
 ## Covid-19 Hex Maps for Penang Districts
 Below are standalone map demo for Penang districts: <br>
-[Island](http://steveteoh.github.io/Penang/island.html), and  <br>
-[Seberang Perai](http://steveteoh.github.io/Penang/perai.html)
+1. [Island](http://steveteoh.github.io/Penang/island.html), and  <br>
+2. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) <br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
 ## Built With
