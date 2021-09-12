@@ -126,7 +126,7 @@ var locationButton = async () => {
           strokeOpacity: 0.6,
           strokeWeight: 2,
           fillColor: '#addfff',
-          fillOpacity: 0.1,
+          fillOpacity: 0.05,
           map,
           center: center,
           radius: location.coords.accuracy,
