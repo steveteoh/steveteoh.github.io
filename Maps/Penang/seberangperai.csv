@@ -122,7 +122,7 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 5.39928,100.3650689,Daerah: Seberang Perai Utara<br>No:102<br>Hex coord:(2;12),Jalan Pantai,72,0,0,0,0,0,1,2021-09-14T04:22:37.603Z,2,12
 5.44596,100.4462758,Daerah: Seberang Perai Tengah<br>No:1<br>Hex coord:(8;9),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.177Z,8,9
 5.43818,100.4598103,Daerah: Seberang Perai Tengah<br>No:2<br>Hex coord:(9;9),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.178Z,9,9
-5.42262,100.4056724,Daerah: Seberang Perai Tengah<br>No:3<br>Hex coord:(5;10),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.261Z,5,10
+5.42262,100.4056724,Daerah: Seberang Perai Tengah<br>No:3<br>Hex coord:(5;10),Kampung Sama Gagah,82,0,0,0,0,0,1,2021-09-14T04:22:40.261Z,5,10
 5.4304,100.4192068,Daerah: Seberang Perai Tengah<br>No:4<br>Hex coord:(6;10),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.262Z,6,10
 5.42262,100.4327413,Daerah: Seberang Perai Tengah<br>No:5<br>Hex coord:(7;10),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.263Z,7,10
 5.4304,100.4462758,Daerah: Seberang Perai Tengah<br>No:6<br>Hex coord:(8;10),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.264Z,8,10
@@ -132,7 +132,7 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 5.4304,100.5004137,Daerah: Seberang Perai Tengah<br>No:10<br>Hex coord:(12;10),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.267Z,12,10
 5.42262,100.5139482,Daerah: Seberang Perai Tengah<br>No:11<br>Hex coord:(13;10),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.269Z,13,10
 5.4304,100.5274826,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(14;10),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:36.949Z,14,10
-5.40706,100.4056724,Daerah: Seberang Perai Tengah<br>No:12<br>Hex coord:(5;11),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.338Z,5,11
+5.40706,100.4056724,Daerah: Seberang Perai Tengah<br>No:12<br>Hex coord:(5;11),River Tropics Condominium,175,0,0,0,0,0,1,2021-09-14T04:22:40.338Z,5,11
 5.41484,100.4192068,Daerah: Seberang Perai Tengah<br>No:13<br>Hex coord:(6;11),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.338Z,6,11
 5.40706,100.4327413,Daerah: Seberang Perai Tengah<br>No:14<br>Hex coord:(7;11),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.339Z,7,11
 5.41484,100.4462758,Daerah: Seberang Perai Tengah<br>No:15<br>Hex coord:(8;11),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.340Z,8,11
@@ -142,8 +142,8 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 5.41484,100.5004137,Daerah: Seberang Perai Tengah<br>No:19<br>Hex coord:(12;11),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.344Z,12,11
 5.40706,100.5139482,Daerah: Seberang Perai Tengah<br>No:20<br>Hex coord:(13;11),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.345Z,13,11
 5.41484,100.5274826,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(14;11),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:36.949Z,14,11
-5.3915,100.3786034,Daerah: Seberang Perai Tengah<br>No:21<br>Hex coord:(3;12),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.418Z,3,12
-5.39928,100.3921379,Daerah: Seberang Perai Tengah<br>No:22<br>Hex coord:(4;12),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.418Z,4,12
+5.3915,100.3786034,Daerah: Seberang Perai Tengah<br>No:21<br>Hex coord:(3;12),Taman Perai Utama,180,0,0,0,0,0,1,2021-09-14T04:22:40.418Z,3,12
+5.39928,100.3921379,Daerah: Seberang Perai Tengah<br>No:22<br>Hex coord:(4;12),Seberang Jaya Industrial,72,0,0,0,0,0,1,2021-09-14T04:22:40.418Z,4,12
 5.3915,100.4056724,Daerah: Seberang Perai Tengah<br>No:23<br>Hex coord:(5;12),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.419Z,5,12
 5.39928,100.4192068,Daerah: Seberang Perai Tengah<br>No:24<br>Hex coord:(6;12),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.420Z,6,12
 5.3915,100.4327413,Daerah: Seberang Perai Tengah<br>No:25<br>Hex coord:(7;12),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.421Z,7,12
@@ -154,7 +154,7 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 5.39928,100.5004137,Daerah: Seberang Perai Tengah<br>No:30<br>Hex coord:(12;12),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.426Z,12,12
 5.3915,100.5139482,Daerah: Seberang Perai Tengah<br>No:31<br>Hex coord:(13;12),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.427Z,13,12
 5.39928,100.5274826,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(14;12),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:36.949Z,14,12
-5.38372,100.3650689,Daerah: Seberang Perai Tengah<br>No:x<br>Hex coord:(2;13),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.505Z,2,13
+5.38372,100.3650689,Daerah: Seberang Perai Tengah<br>No:x<br>Hex coord:(2;13),Dermaga Dalam,1,0,0,0,0,0,1,2021-09-14T04:22:40.505Z,2,13
 5.37594,100.3786034,Daerah: Seberang Perai Tengah<br>No:32<br>Hex coord:(3;13),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.505Z,3,13
 5.38372,100.3921379,Daerah: Seberang Perai Tengah<br>No:33<br>Hex coord:(4;13),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.505Z,4,13
 5.37594,100.4056724,Daerah: Seberang Perai Tengah<br>No:34<br>Hex coord:(5;13),n/a,0,0,0,0,0,0,1,2021-09-14T04:22:40.507Z,5,13
