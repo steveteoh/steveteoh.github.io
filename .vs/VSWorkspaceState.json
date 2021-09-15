@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Hex",
-    "\\HexGrid",
-    "\\Labuan",
-    "\\MalaysiaHeatMap",
-    "\\Penang",
-    "\\SubangJaya"
+    "\\Maps",
+    "\\Penang"
   ],
-  "SelectedNode": "\\HexGrid\\script.js",
+  "SelectedNode": "\\Penang\\perai.js",
   "PreviewInSolutionExplorer": false
 }
