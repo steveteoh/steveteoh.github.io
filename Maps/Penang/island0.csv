@@ -1,4 +1,4 @@
-lat,lon,label,placename,dailydead,weeklydead,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp
+lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp
 5.47512,100.2445834,Daerah: Timur Laut<br>No:x<br>Hex coord:(5;0),Ferringhi beach,0,0,0,0,0,0,1,2021-09-19T12:21:12.035Z
 5.4829,100.2581179,Daerah: Timur Laut<br>No:x<br>Hex coord:(6;0),Moonlight Bay,0,0,0,0,0,0,1,2021-09-19T12:21:12.035Z
 5.45956,100.1904456,Daerah: Barat Daya<br>No:1<br>Hex coord:(1;1),Penang National Park,0,0,0,0,0,0,1,2021-09-19T12:21:12.035Z
