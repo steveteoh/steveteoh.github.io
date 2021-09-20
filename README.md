@@ -9,6 +9,9 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 ## HexGrid (Concepts)
 [My shared code](http://steveteoh.github.io/HexGrid) derived from [https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map](https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map) 
 
+## Data Sources
+14-day active cases data is sourced from mysejahtera app (lookup).
+
 ## Covid-19 Hex Maps for Selangor Districts
 Below are standalone map demo for Selangor districts: <br>
 1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (data updated 19/9/2021,5/9/2021), <br>
