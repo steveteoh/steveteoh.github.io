@@ -16,15 +16,15 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 Below are standalone map demo for Selangor districts: <br>
 1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (data updated 19/9/2021,5/9/2021), <br>
 2. [Hulu Langat](http://steveteoh.github.io/HuluLangat/) (data updated 19/9/2021), <br>
-3. [Hulu Selangor](http://steveteoh.github.io/HuluSelangor/) (awaiting data), <br>
-4. [Klang](http://steveteoh.github.io/Klang/) (awaiting data), <br>
-5. [Kuala Langat](http://steveteoh.github.io/KualaLangat/) (awaiting data), <br>
-6. [Kuala Selangor](http://steveteoh.github.io/KualaSelangor/) (awaiting data), <br>
+3. [Hulu Selangor](http://steveteoh.github.io/HuluSelangor/) (data updated 21/9/2021), <br>
+4. [Klang](http://steveteoh.github.io/Klang/) (data updated 21/9/2021), <br>
+5. [Kuala Langat](http://steveteoh.github.io/KualaLangat/) (data updated 21/9/2021), <br>
+6. [Kuala Selangor](http://steveteoh.github.io/KualaSelangor/) (data updated 21/9/2021), <br>
 7. [Petaling Jaya](http://steveteoh.github.io/PetalingJaya/) (data updated 19/9/2021,5/9/2021), <br>
-8. [Sabak Bernam](http://steveteoh.github.io/SabakBernam) (awaiting data), <br>
-9. [Selayang](http://steveteoh.github.io/Selayang/) (awaiting data), <br>
-10. [Sepang](http://steveteoh.github.io/Sepang/) (awaiting data), <br>
-11. [Shah Alam](http://steveteoh.github.io/ShahAlam/) (awaiting data), and  <br>
+8. [Sabak Bernam](http://steveteoh.github.io/SabakBernam) (data updated 21/9/2021), <br>
+9. [Selayang](http://steveteoh.github.io/Selayang/) (data updated 21/9/2021), <br>
+10. [Sepang](http://steveteoh.github.io/Sepang/) (data updated 21/9/2021), <br>
+11. [Shah Alam](http://steveteoh.github.io/ShahAlam/) (data updated 21/9/2021), and  <br>
 12. [Subang Jaya](http://steveteoh.github.io/SubangJayaNew/) (data updated 19/9/2021,9/9/2021)<br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
@@ -37,8 +37,9 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 
 ## Covid-19 Hex Maps for Penang Districts
 Below are standalone map demo for Penang districts: <br>
-1. [Penang island](http://steveteoh.github.io/Penang/island.html) (data updated 19/9/2021, 10/9/2021), and  <br>
-2. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) (data updated 19/9/2021) <br>
+1. [Penang state](http://steveteoh.github.io/Penang/index.html) (data updated 19/9/2021),  <br>
+2. [Penang island](http://steveteoh.github.io/Penang/island.html) (data updated 19/9/2021, 10/9/2021), and  <br>
+3. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) (data updated 19/9/2021) <br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
 ## Built With
