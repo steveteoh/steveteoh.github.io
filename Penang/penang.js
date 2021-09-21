@@ -1,1 +1,371 @@
-var _0x7bf6 = ["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x74\x65\x76\x65\x74\x65\x6F\x68\x2E\x67\x69\x74\x68\x75\x62\x2E\x69\x6F\x2F\x4D\x61\x70\x73\x2F\x50\x65\x6E\x61\x6E\x67\x2F\x70\x65\x6E\x61\x6E\x67\x2E\x6A\x73\x6F\x6E", "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x74\x65\x76\x65\x74\x65\x6F\x68\x2E\x67\x69\x74\x68\x75\x62\x2E\x69\x6F\x2F\x4D\x61\x70\x73\x2F\x50\x65\x6E\x61\x6E\x67\x2F\x69\x73\x6C\x61\x6E\x64\x2E\x6A\x73\x6F\x6E", "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x74\x65\x76\x65\x74\x65\x6F\x68\x2E\x67\x69\x74\x68\x75\x62\x2E\x69\x6F\x2F\x4D\x61\x70\x73\x2F\x50\x65\x6E\x61\x6E\x67\x2F\x73\x65\x62\x65\x72\x61\x6E\x67\x70\x65\x72\x61\x69\x2E\x6A\x73\x6F\x6E", "\x4D\x61\x6A\x6C\x69\x73\x20\x42\x61\x6E\x64\x61\x72\x61\x79\x61\x20\x50\x75\x6C\x61\x75\x20\x50\x69\x6E\x61\x6E\x67", "\x4D\x61\x6A\x6C\x69\x73\x20\x50\x65\x72\x62\x61\x6E\x64\x61\x72\x61\x6E\x20\x53\x65\x62\x65\x72\x61\x6E\x67\x20\x50\x65\x72\x61\x69", "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x74\x65\x76\x65\x74\x65\x6F\x68\x2E\x67\x69\x74\x68\x75\x62\x2E\x69\x6F\x2F\x4D\x61\x70\x73\x2F\x50\x65\x6E\x61\x6E\x67\x2F\x69\x73\x6C\x61\x6E\x64\x2E\x63\x73\x76", "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x74\x65\x76\x65\x74\x65\x6F\x68\x2E\x67\x69\x74\x68\x75\x62\x2E\x69\x6F\x2F\x4D\x61\x70\x73\x2F\x50\x65\x6E\x61\x6E\x67\x2F\x73\x65\x62\x65\x72\x61\x6E\x67\x70\x65\x72\x61\x69\x2E\x63\x73\x76", "\x72\x67\x62\x28\x37\x37\x2C\x20\x37\x37\x2C\x20\x37\x37\x29", "\x72\x67\x62\x28\x30\x2C\x20\x32\x35\x35\x2C\x20\x30\x29", "\x72\x67\x62\x28\x32\x35\x35\x2C\x20\x32\x35\x35\x2C\x20\x31\x30\x32\x29", "\x72\x67\x62\x28\x32\x35\x35\x2C\x20\x31\x35\x33\x2C\x20\x30\x29", "\x72\x67\x62\x28\x32\x35\x35\x2C\x20\x36\x37\x2C\x20\x36\x37\x29", "\x72\x67\x62\x28\x32\x30\x34\x2C\x20\x30\x2C\x20\x30\x29", "\x72\x67\x62\x28\x31\x30\x32\x2C\x20\x30\x2C\x20\x31\x30\x32\x29", "\x72\x67\x62\x28\x30\x2C\x20\x30\x2C\x20\x32\x35\x35\x29", "\x6D\x61\x70\x73", "\x6D\x61\x70\x5F\x63\x61\x6E\x76\x61\x73", "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64", "\x52\x4F\x41\x44\x4D\x41\x50", "\x4D\x61\x70\x54\x79\x70\x65\x49\x64", "\x6C\x6F\x61\x64\x47\x65\x6F\x4A\x73\x6F\x6E", "\x64\x61\x74\x61", "\x73\x65\x74\x53\x74\x79\x6C\x65", "\x63\x6C\x69\x63\x6B", "\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72", "\x73\x68\x6F\x77\x2D\x6D\x61\x72\x6B\x65\x72\x73", "\x68\x69\x64\x65\x2D\x6D\x61\x72\x6B\x65\x72\x73", "\x6C\x6F\x61\x64", "\x2C", "\x4E\x61\x6D\x61", "\x67\x65\x74\x46\x65\x61\x74\x75\x72\x65\x42\x79\x49\x64", "\x67\x65\x74\x47\x65\x6F\x6D\x65\x74\x72\x79", "\x6C\x61\x74", "\x6C\x6F\x6E", "\x70\x6C\x61\x63\x65\x6E\x61\x6D\x65", "\x6C\x61\x62\x65\x6C", "\x77\x65\x65\x6B\x6C\x79\x61\x63\x74\x69\x76\x65", "\x74\x6F\x74\x61\x6C\x61\x63\x74\x69\x76\x65", "\x77\x65\x65\x6B\x6C\x79\x72\x65\x63\x6F\x76\x65\x72\x65\x64", "\x74\x6F\x74\x61\x6C\x72\x65\x63\x6F\x76\x65\x72\x65\x64", "\x77\x65\x65\x6B\x6C\x79\x64\x65\x61\x74\x68\x73", "\x74\x6F\x74\x61\x6C\x64\x65\x61\x74\x68\x73", "\x77\x65\x69\x67\x68\x74", "\x74\x69\x6D\x65\x73\x74\x61\x6D\x70", "\x70\x75\x73\x68", "\x66\x6F\x72\x45\x61\x63\x68", "\x69\x6E\x6E\x65\x72\x54\x65\x78\x74", "\x67\x72\x61\x6E\x64\x74\x6F\x74\x61\x6C", "\x20", "\x20\x63\x61\x73\x65\x73", "\x70\x67\x4C\x61\x73\x74\x55\x70\x64\x61\x74\x65", "\x50\x65\x6E\x61\x6E\x67\x20\x75\x70\x64\x61\x74\x65\x64\x3A\x20", "\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x53\x74\x72\x69\x6E\x67", "\x20\x28", "\x20\x63\x61\x73\x65\x73\x29\x2C\x20\x20\x20\x20", "\x70\x72\x4C\x61\x73\x74\x55\x70\x64\x61\x74\x65", "\x53\x65\x62\x65\x72\x61\x6E\x67\x20\x50\x65\x72\x61\x69\x20\x75\x70\x64\x61\x74\x65\x64\x3A\x20", "\x20\x63\x61\x73\x65\x73\x29\x2E", "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6D\x61\x70\x73\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x6D\x61\x70\x66\x69\x6C\x65\x73\x2F\x6D\x73\x2F\x69\x63\x6F\x6E\x73\x2F", "\x62\x6C\x75\x65", "\x70\x75\x72\x70\x6C\x65", "\x72\x65\x64", "\x6F\x72\x61\x6E\x67\x65", "\x79\x65\x6C\x6C\x6F\x77", "\x67\x72\x65\x65\x6E", "\x2E\x70\x6E\x67", "\x3C\x62\x72\x3E\x70\x6C\x61\x63\x65\x20\x6E\x61\x6D\x65\x3A\x20", "\x3C\x62\x72\x3E\x43\x6F\x6F\x72\x64\x69\x6E\x61\x74\x65\x73\x3A\x20\x28", "\x29", "\x3C\x62\x72\x3E\x43\x75\x72\x72\x65\x6E\x74\x20\x41\x63\x74\x69\x76\x65\x20\x63\x61\x73\x65\x73\x3A\x20", "\x20\x20\x20\x20\x20\x20\x20\x7C\x20\x50\x72\x65\x76\x69\x6F\x75\x73\x20\x41\x63\x74\x69\x76\x65\x20\x63\x61\x73\x65\x73\x3A\x20", "\x3C\x62\x72\x3E\x57\x65\x65\x6B\x6C\x79\x20\x44\x65\x61\x74\x68\x73\x3A\x20", "\x20\x20\x20\x20\x20\x20\x20\x7C\x20\x54\x6F\x74\x61\x6C\x20\x44\x65\x61\x74\x68\x73\x3A\x20", "\x3C\x62\x72\x3E\x57\x65\x65\x6B\x6C\x79\x20\x52\x65\x63\x6F\x76\x65\x72\x65\x64\x3A", "\x20\x20\x20\x20\x20\x20\x20\x7C\x20\x54\x6F\x74\x61\x6C\x20\x52\x65\x63\x6F\x76\x65\x72\x65\x64\x3A", "\x3C\x62\x72\x3E\x57\x65\x69\x67\x68\x74\x3A", "\x3C\x62\x72\x3E\x54\x69\x6D\x65\x73\x74\x61\x6D\x70\x3A\x20", "\x65\x78\x74\x65\x6E\x64", "\x66\x69\x74\x42\x6F\x75\x6E\x64\x73", "\x67\x65\x6F\x6C\x6F\x63\x61\x74\x69\x6F\x6E", "\x6C\x61\x74\x69\x74\x75\x64\x65", "\x63\x6F\x6F\x72\x64\x73", "\x6C\x6F\x6E\x67\x69\x74\x75\x64\x65", "\x59\x6F\x75\x72\x20\x4C\x6F\x63\x61\x74\x69\x6F\x6E", "\x73\x65\x74\x50\x6F\x73\x69\x74\x69\x6F\x6E", "\x59\x6F\x75\x72\x20\x4C\x6F\x63\x61\x74\x69\x6F\x6E\x20\x64\x65\x74\x65\x63\x74\x65\x64\x20\x62\x79\x20\x74\x68\x65\x20\x62\x72\x6F\x77\x73\x65\x72", "\x73\x65\x74\x43\x6F\x6E\x74\x65\x6E\x74", "\x63\x6C\x6F\x73\x65", "\x6F\x70\x65\x6E", "\x61\x64\x64\x4C\x69\x73\x74\x65\x6E\x65\x72", "\x67\x65\x74\x43\x65\x6E\x74\x65\x72", "\x67\x65\x74\x43\x75\x72\x72\x65\x6E\x74\x50\x6F\x73\x69\x74\x69\x6F\x6E", "", "\x61\x6A\x61\x78", "\x73\x70\x6C\x69\x74", "\x0A", "\x69\x6E\x64\x65\x78\x4F\x66", "\x73\x6C\x69\x63\x65", "\x72\x65\x64\x75\x63\x65", "\x6D\x61\x70", "\x45\x72\x72\x6F\x72\x3A\x20\x54\x68\x65\x20\x47\x65\x6F\x6C\x6F\x63\x61\x74\x69\x6F\x6E\x20\x73\x65\x72\x76\x69\x63\x65\x20\x66\x61\x69\x6C\x65\x64\x2E", "\x45\x72\x72\x6F\x72\x3A\x20\x59\x6F\x75\x72\x20\x62\x72\x6F\x77\x73\x65\x72\x20\x64\x6F\x65\x73\x6E\x27\x74\x20\x73\x75\x70\x70\x6F\x72\x74\x20\x67\x65\x6F\x6C\x6F\x63\x61\x74\x69\x6F\x6E\x2E", "\x67\x65\x74", "\x6C\x65\x6E\x67\x74\x68", "\x73\x65\x74\x4D\x61\x70", "\x63\x6F\x6D\x70\x75\x74\x65\x4F\x66\x66\x73\x65\x74", "\x73\x70\x68\x65\x72\x69\x63\x61\x6C", "\x67\x65\x6F\x6D\x65\x74\x72\x79", "\x73\x71\x72\x74"]; var map = null; var geocoder = null; var myfeature = {}; var mygeometry = {}; var locations = []; var gridWidth = 500 * 2; var bounds = null; var markers = []; var places = []; var lt1 = 0, ln1 = 0; var pos = {}; var grandtotal = 0; var stateRequestURL = _0x7bf6[0]; var districtRequestURL = [_0x7bf6[1], _0x7bf6[2]]; var mapID = [_0x7bf6[3], _0x7bf6[4]]; var inputURL = [_0x7bf6[5], _0x7bf6[6]]; const grey = _0x7bf6[7]; const green = _0x7bf6[8]; const yellow = _0x7bf6[9]; const orange = _0x7bf6[10]; const red = _0x7bf6[11]; const medred = _0x7bf6[12]; const purple = _0x7bf6[13]; const blue = _0x7bf6[14]; const greenlevel = 0; const yellowlevel = 20; const orangelevel = 40; const redlevel = 80; const medredlevel = 200; const purplelevel = 300; const SQRT3 = 1.73205080756887729352744634150587236; $(window)[_0x7bf6[27]](function () { bounds = new google[_0x7bf6[15]].LatLngBounds(); map = new google[_0x7bf6[15]].Map(document[_0x7bf6[17]](_0x7bf6[16]), { center: { lat: 0, lng: 0 }, scaleControl: true, zoom: 16, mapTypeId: google[_0x7bf6[15]][_0x7bf6[19]][_0x7bf6[18]] }); findMylocation(); map[_0x7bf6[21]][_0x7bf6[20]](stateRequestURL); map[_0x7bf6[21]][_0x7bf6[22]]({ fillOpacity: 0.0, strokeWeight: 1 }); drawDistrict(districtRequestURL[0], inputURL[0], mapID[0]); drawDistrict(districtRequestURL[1], inputURL[1], mapID[1]); document[_0x7bf6[17]](_0x7bf6[25])[_0x7bf6[24]](_0x7bf6[23], showMarkers); document[_0x7bf6[17]](_0x7bf6[26])[_0x7bf6[24]](_0x7bf6[23], hideMarkers) }); function drawDistrict(districtRequestURL, inputURL, mapID) { const _0xf0e5x22 = getFileAjax(inputURL); const _0xf0e5x23 = csvToArray(_0xf0e5x22, _0x7bf6[28]); var _0xf0e5x24 = new google[_0x7bf6[15]].Data(); var _0xf0e5x25 = 0; _0xf0e5x24[_0x7bf6[20]](districtRequestURL, { idPropertyName: _0x7bf6[29] }, function (_0xf0e5x26) { myfeature = _0xf0e5x24[_0x7bf6[30]](mapID); _0xf0e5x24[_0x7bf6[45]]((_0xf0e5x27) => { mygeometry = _0xf0e5x27[_0x7bf6[31]](); _0xf0e5x23[_0x7bf6[45]](function (_0xf0e5x28, _0xf0e5x29) { lt1 = parseFloat(_0xf0e5x23[_0xf0e5x29][_0x7bf6[32]]); ln1 = parseFloat(_0xf0e5x23[_0xf0e5x29][_0x7bf6[33]]); pos = { lat: lt1, lng: ln1 }; var _0xf0e5x2a = _0xf0e5x23[_0xf0e5x29][_0x7bf6[34]]; var _0xf0e5x2b = _0xf0e5x23[_0xf0e5x29][_0x7bf6[35]]; var _0xf0e5x2c = parseInt(_0xf0e5x23[_0xf0e5x29][_0x7bf6[36]]); _0xf0e5x25 += _0xf0e5x2c; var _0xf0e5x2d = parseInt(_0xf0e5x23[_0xf0e5x29][_0x7bf6[37]]); var _0xf0e5x2e = parseInt(_0xf0e5x23[_0xf0e5x29][_0x7bf6[38]]); var _0xf0e5x2f = parseInt(_0xf0e5x23[_0xf0e5x29][_0x7bf6[39]]); var _0xf0e5x30 = parseInt(_0xf0e5x23[_0xf0e5x29][_0x7bf6[40]]); var _0xf0e5x31 = parseInt(_0xf0e5x23[_0xf0e5x29][_0x7bf6[41]]); var _0xf0e5x32 = parseInt(_0xf0e5x23[_0xf0e5x29][_0x7bf6[42]]); var _0xf0e5x33 = _0xf0e5x23[_0xf0e5x29][_0x7bf6[43]]; places[_0x7bf6[44]]([lt1, ln1, _0xf0e5x2b, _0xf0e5x2a, _0xf0e5x2c, _0xf0e5x2d, _0xf0e5x2e, _0xf0e5x2f, _0xf0e5x30, _0xf0e5x31, _0xf0e5x32, _0xf0e5x33]) }); grandtotal += _0xf0e5x25; document[_0x7bf6[17]](_0x7bf6[47])[_0x7bf6[46]] = `${_0x7bf6[48]}${grandtotal.toString()}${_0x7bf6[49]}` }); switch (mapID) { case _0x7bf6[3]: document[_0x7bf6[17]](_0x7bf6[50])[_0x7bf6[46]] += `${_0x7bf6[51]}${new Date(_0xf0e5x23[0][_0x7bf6[43]])[_0x7bf6[52]]()}${_0x7bf6[53]}${_0xf0e5x25.toString()}${_0x7bf6[54]}`; _0xf0e5x25 = 0; break; case _0x7bf6[4]: document[_0x7bf6[17]](_0x7bf6[55])[_0x7bf6[46]] += `${_0x7bf6[56]}${new Date(_0xf0e5x23[0][_0x7bf6[43]])[_0x7bf6[52]]()}${_0x7bf6[53]}${_0xf0e5x25.toString()}${_0x7bf6[57]}`; _0xf0e5x25 = 0; break; default: _0xf0e5x25 = 0; break }; places[_0x7bf6[45]](function (_0xf0e5x34, _0xf0e5x35) { latlng = new google[_0x7bf6[15]].LatLng({ lat: _0xf0e5x34[0], lng: _0xf0e5x34[1] }); let _0xf0e5x36 = _0x7bf6[58]; let _0xf0e5x37 = (_0xf0e5x34[4] > purplelevel) ? _0x7bf6[59] : (_0xf0e5x34[4] > medredlevel) ? _0x7bf6[60] : (_0xf0e5x34[4] > orangelevel) ? _0x7bf6[61] : (_0xf0e5x34[4] > yellowlevel) ? _0x7bf6[62] : (_0xf0e5x34[4] > greenlevel) ? _0x7bf6[63] : _0x7bf6[64]; _0xf0e5x36 += _0xf0e5x37 + _0x7bf6[65]; const _0xf0e5x38 = new google[_0x7bf6[15]].Marker({ position: latlng, map: map, label: _0xf0e5x34[4].toString(), title: _0xf0e5x34[3], icon: { url: _0xf0e5x36, scaledSize: new google[_0x7bf6[15]].Size(100, 75) } }); attachMessage(_0xf0e5x38, _0xf0e5x34[2] + _0x7bf6[66] + _0xf0e5x34[3] + _0x7bf6[67] + _0xf0e5x34[0] + _0x7bf6[28] + _0xf0e5x34[1] + _0x7bf6[68] + _0x7bf6[69] + _0xf0e5x34[4] + _0x7bf6[70] + _0xf0e5x34[5] + _0x7bf6[71] + _0xf0e5x34[6] + _0x7bf6[72] + _0xf0e5x34[7] + _0x7bf6[73] + _0xf0e5x34[8] + _0x7bf6[74] + _0xf0e5x34[9] + _0x7bf6[75] + _0xf0e5x34[10] + _0x7bf6[76] + _0xf0e5x34[11]); markers[_0x7bf6[44]](_0xf0e5x38); bounds[_0x7bf6[77]](latlng) }); map[_0x7bf6[78]](bounds); hideMarkers(); locations = makeBins(places); locations[_0x7bf6[45]](function (_0xf0e5x34, _0xf0e5x35) { drawVerticalHexagon(map, _0xf0e5x34, gridWidth) }) }); _0xf0e5x24[_0x7bf6[22]]({ fillOpacity: 0.0, strokeWeight: 1 }) } function findMylocation() { geocoder = new google[_0x7bf6[15]].Geocoder(); var _0xf0e5x3a = new google[_0x7bf6[15]].InfoWindow({ map: map }); if (navigator[_0x7bf6[79]]) { navigator[_0x7bf6[79]][_0x7bf6[91]]((_0xf0e5x3b) => { pos = { lat: _0xf0e5x3b[_0x7bf6[81]][_0x7bf6[80]], lng: _0xf0e5x3b[_0x7bf6[81]][_0x7bf6[82]] }; const _0xf0e5x3c = new google[_0x7bf6[15]].Marker({ position: pos, map, title: _0x7bf6[83] }); _0xf0e5x3a[_0x7bf6[84]](pos); _0xf0e5x3a[_0x7bf6[86]](_0x7bf6[85]); _0xf0e5x3a[_0x7bf6[87]](); _0xf0e5x3c[_0x7bf6[89]](_0x7bf6[23], () => { _0xf0e5x3a[_0x7bf6[88]]({ anchor: _0xf0e5x3c, shouldFocus: false }) }) }, () => { handleLocationError(true, _0xf0e5x3a, map[_0x7bf6[90]]()) }) } else { handleLocationError(false, _0xf0e5x3a, map[_0x7bf6[90]]()) } } function getFileAjax(_0xf0e5x3e) { var _0xf0e5x3f = _0x7bf6[92]; $[_0x7bf6[93]]({ url: _0xf0e5x3e, async: false, success: function (_0xf0e5x23) { _0xf0e5x3f = _0xf0e5x23 } }); return _0xf0e5x3f } function csvToArray(_0xf0e5x41, _0xf0e5x42 = _0x7bf6[28]) { const _0xf0e5x43 = _0xf0e5x41[_0x7bf6[97]](0, _0xf0e5x41[_0x7bf6[96]](_0x7bf6[95]))[_0x7bf6[94]](_0xf0e5x42); const _0xf0e5x44 = _0xf0e5x41[_0x7bf6[97]](_0xf0e5x41[_0x7bf6[96]](_0x7bf6[95]) + 1)[_0x7bf6[94]](_0x7bf6[95]); var _0xf0e5x45 = _0xf0e5x44[_0x7bf6[99]](function (_0xf0e5x46) { const _0xf0e5x47 = _0xf0e5x46[_0x7bf6[94]](_0xf0e5x42); const _0xf0e5x48 = _0xf0e5x43[_0x7bf6[98]](function (_0xf0e5x49, _0xf0e5x4a, _0xf0e5x29) { _0xf0e5x49[_0xf0e5x4a] = _0xf0e5x47[_0xf0e5x29]; return _0xf0e5x49 }, {}); return _0xf0e5x48 }); return _0xf0e5x45 } function handleLocationError(_0xf0e5x4c, _0xf0e5x3a, pos) { _0xf0e5x3a[_0x7bf6[84]](pos); _0xf0e5x3a[_0x7bf6[86]](_0xf0e5x4c ? _0x7bf6[100] : _0x7bf6[101]); _0xf0e5x3a[_0x7bf6[88]](map) } function attachMessage(_0xf0e5x38, _0xf0e5x4e) { const _0xf0e5x4f = new google[_0x7bf6[15]].InfoWindow({ content: _0xf0e5x4e }); _0xf0e5x38[_0x7bf6[89]](_0x7bf6[23], () => { _0xf0e5x4f[_0x7bf6[88]](_0xf0e5x38[_0x7bf6[102]](_0x7bf6[16]), _0xf0e5x38) }) } function setMapOnAll(map) { for (let _0xf0e5x51 = 0; _0xf0e5x51 < markers[_0x7bf6[103]]; _0xf0e5x51++) { markers[_0xf0e5x51][_0x7bf6[104]](map) } } function hideMarkers() { setMapOnAll(null) } function showMarkers() { setMapOnAll(map) } function drawVerticalHexagon(map, _0xf0e5x3b, _0xf0e5x55) { var _0xf0e5x56 = (_0xf0e5x3b[1] > purplelevel) ? blue : (_0xf0e5x3b[1] > medredlevel) ? purple : (_0xf0e5x3b[1] > redlevel) ? medred : (_0xf0e5x3b[1] > orangelevel) ? red : (_0xf0e5x3b[1] > yellowlevel) ? orange : (_0xf0e5x3b[1] > greenlevel) ? yellow : green; var _0xf0e5x57 = []; for (var _0xf0e5x58 = 30; _0xf0e5x58 < 360; _0xf0e5x58 += 60) { _0xf0e5x57[_0x7bf6[44]](google[_0x7bf6[15]][_0x7bf6[107]][_0x7bf6[106]][_0x7bf6[105]](_0xf0e5x3b[0], _0xf0e5x55, _0xf0e5x58)) }; var _0xf0e5x59 = new google[_0x7bf6[15]].Polygon({ paths: _0xf0e5x57, position: _0xf0e5x3b, strokeColor: _0xf0e5x56, strokeOpacity: 0.6, strokeWeight: 1, fillColor: _0xf0e5x56, fillOpacity: 0.15, geodesic: true }); _0xf0e5x59[_0x7bf6[104]](map) } function distance(_0xf0e5x5b, _0xf0e5x5c, _0xf0e5x5d, _0xf0e5x5e) { result = Math[_0x7bf6[108]]((_0xf0e5x5b - _0xf0e5x5d) * (_0xf0e5x5b - _0xf0e5x5d) + (_0xf0e5x5c - _0xf0e5x5e) * (_0xf0e5x5c - _0xf0e5x5e)); return } function nearestCenterPoint(_0xf0e5x60, _0xf0e5x61) { div = _0xf0e5x60 / (_0xf0e5x61 / 2); mod = _0xf0e5x60 % (_0xf0e5x61 / 2); if (div % 2 == 1) { increment = 1 } else { increment = 0 }; rounded = _0xf0e5x61 / 2 * (div + increment); if (div % 2 === 0) { increment = 1 } else { increment = 0 }; rounded_scaled = _0xf0e5x61 / 2 * (div + increment); result = [rounded, rounded_scaled]; return result } function makeBins(_0xf0e5x23) { bins = []; _0xf0e5x23[_0x7bf6[45]](function (_0xf0e5x34, _0xf0e5x35) { x = _0xf0e5x34[0]; y = _0xf0e5x34[1]; cases = _0xf0e5x34[4]; px_nearest = nearestCenterPoint(x, gridWidth); py_nearest = nearestCenterPoint(y, gridWidth * SQRT3); z1 = distance(x, y, px_nearest[0], py_nearest[0]); z2 = distance(x, y, px_nearest[1], py_nearest[1]); if (z1 > z2) { bin = new google[_0x7bf6[15]].LatLng({ lat: px_nearest[0], lng: py_nearest[0] }) } else { bin = new google[_0x7bf6[15]].LatLng({ lat: px_nearest[1], lng: py_nearest[1] }) }; bins[_0x7bf6[44]]([bin, cases]) }); return bins }
+/*
+* By Steve Teoh v 4.2.5.5 @ 2021/09/02 Live Data Display (Beta)
+* For Research Purposes only. 
+* Purpose: Area Display Tool 
+* Steve is an avid wargamer and crazy programmer that can code at amazing speed.
+*/
+var map = null;
+var geocoder = null;
+var myfeature = {};
+var mygeometry = {};
+var locations = [];
+var gridWidth = 500 * 2; // radius ~= hex tile edge (a). 
+var bounds = null;
+var markers = [];
+var places = [];
+var lt1 = 0, ln1 = 0;
+var pos = {};
+var grandtotal = 0;
+
+var stateRequestURL = 'https://steveteoh.github.io/Maps/Penang/penang.json';
+var districtRequestURL = ['https://steveteoh.github.io/Maps/Penang/island.json', 'https://steveteoh.github.io/Maps/Penang/seberangperai.json'];
+var mapID = ["Majlis Bandaraya Pulau Pinang", "Majlis Perbandaran Seberang Perai"];
+var inputURL = ['https://steveteoh.github.io/Maps/Penang/island.csv', 'https://steveteoh.github.io/Maps/Penang/seberangperai.csv'];
+//var inputURL = "http://localhost:1337/islands.csv";
+
+const grey = 'rgb(77, 77, 77)';       //for coloring unrelated borders
+const green = 'rgb(0, 255, 0)';       //for 0 cases
+const yellow = 'rgb(255, 255, 102)';  //for  1 - 20 cases
+const orange = 'rgb(255, 153, 0)';    //for 21 - 39 cases
+const red = 'rgb(255, 67, 67)';       //for 40 - 80 active cases
+const medred = 'rgb(204, 0, 0)';      //for 81 - 199 active cases
+const purple = 'rgb(102, 0, 102)';    //for 200 - 300 active cases
+const blue = 'rgb(0, 0, 255)';        //for > 300 active cases
+const greenlevel = 0;
+const yellowlevel = 20;
+const orangelevel = 40;
+const redlevel = 80;
+const medredlevel = 200;
+const purplelevel = 300;
+//const bluelevel = infinity;
+
+const SQRT3 = 1.73205080756887729352744634150587236;   // sqrt(3)
+
+$(window).load(function () {
+    bounds = new google.maps.LatLngBounds();
+    map = new google.maps.Map(document.getElementById("map_canvas"), {
+        center: { lat: 0, lng: 0 },
+        scaleControl: true,
+        zoom: 16,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+    });
+
+    findMylocation();
+
+    //Get the State administrative boundary through geojson file
+    map.data.loadGeoJson(stateRequestURL);
+    map.data.setStyle({
+        //fillColor: grey,
+        fillOpacity: 0.0,
+        strokeWeight: 1
+    });
+
+    drawDistrict(districtRequestURL[0], inputURL[0], mapID[0]);
+    drawDistrict(districtRequestURL[1], inputURL[1], mapID[1]);
+
+    // add event listeners for the buttons
+    document.getElementById("show-markers").addEventListener("click", showMarkers);
+    document.getElementById("hide-markers").addEventListener("click", hideMarkers);
+
+    //hideMarkers();  //initially hide all markers for faster display
+});
+
+
+function drawDistrict(districtRequestURL, inputURL, mapID) {
+    //read csv file 
+    const inputfile = getFileAjax(inputURL);       //console.log(inputfile);
+    const data = csvToArray(inputfile, ',');       //console.log(data);
+
+    var mylayer = new google.maps.Data();
+    var subtotal = 0;
+    mylayer.loadGeoJson(districtRequestURL, { idPropertyName: 'Nama' },
+        function (features) {
+            myfeature = mylayer.getFeatureById(mapID);
+            mylayer.forEach((feature) => {
+                mygeometry = feature.getGeometry();
+                //replace the loop with data read from a csv file
+                //header = "lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp";
+                data.forEach(function (item, index) {
+                    lt1 = parseFloat(data[index]['lat']);
+                    ln1 = parseFloat(data[index]['lon']);
+                    pos = { lat: lt1, lng: ln1 };
+                    var locationname = data[index]['placename'];
+                    var label1 = data[index]['label'];
+                    var weeklyactive = parseInt(data[index]['weeklyactive']);
+                    subtotal += weeklyactive;
+                    //console.log(mapID + " #" + index + " weekly=" + weeklyactive + " subtotal=" + subtotal.toString());
+                    var totalactive = parseInt(data[index]['totalactive']);
+                    var weeklyrecovered = parseInt(data[index]['weeklyrecovered']);
+                    var totalrecovered = parseInt(data[index]['totalrecovered']);
+                    var weeklydeaths = parseInt(data[index]['weeklydeaths']);
+                    var totaldeaths = parseInt(data[index]['totaldeaths']);
+                    var weightage = parseInt(data[index]['weight']);
+                    var timestamp = data[index]['timestamp'];
+                    places.push([lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, timestamp]);
+                });
+                grandtotal += subtotal;
+                //console.log("grandtotal=" + grandtotal.toString());
+                document.getElementById('grandtotal').innerText = ` ${grandtotal.toString()} cases`;
+            });
+
+            switch (mapID) {
+                case "Majlis Bandaraya Pulau Pinang":
+                    document.getElementById('pgLastUpdate').innerText += `Penang updated: ${new Date(data[0]['timestamp']).toLocaleString()} (${subtotal.toString()} cases),    `;
+                    subtotal = 0;
+                    break;
+                case "Majlis Perbandaran Seberang Perai":
+                    document.getElementById('prLastUpdate').innerText += `Seberang Perai updated: ${new Date(data[0]['timestamp']).toLocaleString()} (${subtotal.toString()} cases).`;
+                    subtotal = 0;
+                    break;
+                default:
+                    subtotal = 0;
+                    break;
+            }
+
+
+            // Adding a marker just so we can visualize where the actual data points are.
+            places.forEach(function (place, p) {
+                latlng = new google.maps.LatLng({ lat: place[0], lng: place[1] });
+                let iconUrl = "https://maps.google.com/mapfiles/ms/icons/";
+                let thisColor = (place[4] > purplelevel) ? "blue" :
+                    (place[4] > medredlevel) ? "purple" :
+                        (place[4] > orangelevel) ? "red" :                   //red and medred uses the same red marker (limited color choice!)
+                            (place[4] > yellowlevel) ? "orange" :
+                                (place[4] > greenlevel) ? "yellow" : "green";
+                iconUrl += thisColor + ".png";
+                const marker = new google.maps.Marker({
+                    position: latlng,
+                    map: map,
+                    label: place[4].toString(),  //instead of index=`${p + 1}`, we show the totalactive
+                    title: place[3],
+                    icon: {
+                        url: iconUrl,
+                        scaledSize: new google.maps.Size(100, 75), // scaled size
+                    }
+                });
+                //marker.setIcon("https://maps.google.com/mapfiles/ms/icons/blue.png");
+
+                //Attaching related information onto the marker
+                attachMessage(marker, place[2] + '<br>place name: ' + place[3] +
+                    '<br>Coordinates: (' + place[0] + ',' + place[1] + ')' +
+                    '<br>Current Active cases: ' + place[4] +
+                    '       | Previous Active cases: ' + place[5] +
+                    '<br>Weekly Deaths: ' + place[6] +
+                    '       | Total Deaths: ' + place[7] +
+                    '<br>Weekly Recovered:' + place[8] +
+                    '       | Total Recovered:' + place[9] +
+                    '<br>Weight:' + place[10] +
+                    '<br>Timestamp: ' + place[11]
+                );
+                markers.push(marker);
+                // Fitting to bounds so the map is zoomed to the right place
+                bounds.extend(latlng);
+            });
+            map.fitBounds(bounds);
+
+            hideMarkers();  //initially hide all markers for faster display
+
+            // Now, we draw our hexagons! 
+            locations = makeBins(places);
+            locations.forEach(function (place, p) {
+                drawVerticalHexagon(map, place, gridWidth);
+            });
+        }
+    );
+    mylayer.setStyle({
+        //    fillColor: grey,
+        fillOpacity: 0.0,
+        strokeWeight: 1
+    });
+}
+
+function findMylocation() {
+    geocoder = new google.maps.Geocoder();
+    var infoWindow = new google.maps.InfoWindow({ map: map });
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                pos = { lat: position.coords.latitude, lng: position.coords.longitude };
+                const posmarker = new google.maps.Marker({
+                    position: pos,
+                    map,
+                    title: "Your Location",
+                });
+                infoWindow.setPosition(pos);
+                infoWindow.setContent("Your Location detected by the browser");
+                infoWindow.close();
+                posmarker.addListener("click", () => {
+                    infoWindow.open({
+                        anchor: posmarker,
+                        shouldFocus: false,
+                    });
+                });
+                //map.setCenter(pos);
+            },
+            () => {
+                handleLocationError(true, infoWindow, map.getCenter());
+            }
+        );
+    } else {
+        handleLocationError(false, infoWindow, map.getCenter());
+    }
+}
+
+//Ajax method to read file from url
+function getFileAjax(url) {
+    var result = "";
+    $.ajax({
+        url: url,
+        async: false,
+        success: function (data) {
+            result = data;
+        }
+    });
+    return result;
+}
+
+// Quick and Dirty csv to array function, not ecma compliant. You may want to use better ones available 
+function csvToArray(str, delimiter = ",") {
+    const headers = str.slice(0, str.indexOf("\n")).split(delimiter);  // slice from start of text to the first \n index. split() to create an array from string by delimiter    
+    const rows = str.slice(str.indexOf("\n") + 1).split("\n"); // slice from \n index + 1 to the end of the text. split() to create an array of each csv value row
+    var arr = rows.map(function (row) {
+        // Map the rows: split values from each row into an array use headers. reduce to create an object. 
+        const values = row.split(delimiter);
+        const el = headers.reduce(function (object, header, index) {
+            // object properties is derived from headers:values, and then passed as an element of the array
+            object[header] = values[index];
+            return object;
+        }, {});
+        return el;
+    });
+    return arr;      //return the array
+}
+
+//Handler for "Browser doesn't support Geolocation error"
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+    infoWindow.setPosition(pos);
+    infoWindow.setContent(
+        browserHasGeolocation ? "Error: The Geolocation service failed." : "Error: Your browser doesn't support geolocation."
+    );
+    infoWindow.open(map);
+}
+
+// Attaches an info window to a marker with the provided message. When the marker is clicked, the info window will open with the message.
+function attachMessage(marker, Message) {
+    const infowindow = new google.maps.InfoWindow({
+        content: Message,
+    });
+    marker.addListener("click", () => {
+        infowindow.open(marker.get("map_canvas"), marker);
+    });
+}
+
+// Sets the map on all markers in the array.
+function setMapOnAll(map) {
+    for (let i = 0; i < markers.length; i++) {
+        markers[i].setMap(map);
+    };
+}
+
+// Removes the markers from the map, but keeps them in the array.
+function hideMarkers() {
+    setMapOnAll(null);
+}
+
+// Shows any markers currently in the array.
+function showMarkers() {
+    setMapOnAll(map);
+}
+
+function drawVerticalHexagon(map, position, radius) {
+    var color = (position[1] > purplelevel) ? blue :
+        (position[1] > medredlevel) ? purple :
+            (position[1] > redlevel) ? medred :
+                (position[1] > orangelevel) ? red :
+                    (position[1] > yellowlevel) ? orange :
+                        (position[1] > greenlevel) ? yellow : green;
+    var coordinates = [];
+    for (var angle = 30; angle < 360; angle += 60) {
+        coordinates.push(google.maps.geometry.spherical.computeOffset(position[0], radius, angle));
+    }
+    // Construct the polygon.
+    var polygon = new google.maps.Polygon({
+        paths: coordinates,
+        position: position,
+        strokeColor: color,
+        strokeOpacity: 0.6,
+        strokeWeight: 1,
+        fillColor: color,
+        fillOpacity: 0.15,
+        geodesic: true
+    });
+    polygon.setMap(map);
+}
+
+// Below is my attempt at porting binner.py to Javascript.
+// Borrowed from: https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map
+// Original Source: https://github.com/coryfoo/hexbins/blob/master/hexbin/binner.py
+
+function distance(x1, y1, x2, y2) {
+    //console.log(x1, y1, x2, y2);
+    result = Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+    //console.log("Distance: ", result);
+    return
+}
+
+function nearestCenterPoint(value, scale) {
+    div = value / (scale / 2);
+    //console.log("div", div);
+    mod = value % (scale / 2);
+    //console.log("mod", mod);
+
+    if (div % 2 == 1) {
+        increment = 1;
+    } else {
+        increment = 0;
+    }
+
+    rounded = scale / 2 * (div + increment);
+
+    if (div % 2 === 0) {
+        increment = 1;
+    } else {
+        increment = 0;
+    }
+
+    rounded_scaled = scale / 2 * (div + increment);
+
+    result = [rounded, rounded_scaled]
+    //console.log("nearest centerpoint to", value, result);
+    return result;
+}
+
+function makeBins(data) {
+    bins = [];
+
+    data.forEach(function (place, p) {
+        x = place[0];
+        y = place[1];
+        cases = place[4];
+        //console.log("Original location:", x, y);
+
+        px_nearest = nearestCenterPoint(x, gridWidth);
+        py_nearest = nearestCenterPoint(y, gridWidth * SQRT3);     //short diagonal (d2) = SQRT3 * edge (a)
+        //incircle radius (r) = SQRT3 * edge(a) / 2
+        //height (h) = 2 * radius (r) = short diagonal (d2)
+        z1 = distance(x, y, px_nearest[0], py_nearest[0]);
+        z2 = distance(x, y, px_nearest[1], py_nearest[1]);
+
+        if (z1 > z2) {
+            bin = new google.maps.LatLng({ lat: px_nearest[0], lng: py_nearest[0] });
+            //console.log("Final location:", px_nearest[0], py_nearest[0]);
+        } else {
+            bin = new google.maps.LatLng({ lat: px_nearest[1], lng: py_nearest[1] });
+            //console.log("Final location:", px_nearest[1], py_nearest[1]);
+        }
+        //multidimensional array consisting of (lat,lon) and cases
+        bins.push([bin, cases]);
+
+    })
+    return bins;
+}
