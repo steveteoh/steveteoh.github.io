@@ -105,16 +105,16 @@ body {
 
 .button {
     font-family: "Segoe UI",Arial,sans-serif;
-    padding: 15px 25px;
-    font-size: 16px;
+    padding: 12px 20px;
+    font-size: 12px;
     text-align: center;
     cursor: pointer;
     outline: none;
     color: #fff;
     background-color: #62aa04;
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    border-radius: 12px;
+    box-shadow: 0 7px #999;
 }
 
 .nav-item:active {
