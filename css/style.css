@@ -113,8 +113,9 @@ body {
     color: #fff;
     background-color: #62aa04;
     border: none;
-    border-radius: 4px;
-    box-shadow: 0 2px #999;
+    border-radius: 8px;
+    box-shadow: 0 8px #999;
+    float: left;
 }
 
 .nav-item:active {
