@@ -9,7 +9,7 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 ## Covid-19 Hex Maps for States in Peninsula Malaysia
 Below are state-level map for : <br>
 1. [Klang Valley (Selangor and Wilayah Persekututan)](http://steveteoh.github.io/KlangValley/) (data updated 23/9/2021), <br>
-2. [Johor](http://steveteoh.github.io/Melaka/) (data updated 23/9/2021), <br>
+2. [Johor](http://steveteoh.github.io/Johor/) (data updated 23/9/2021), <br>
 3. [Melaka](http://steveteoh.github.io/Melaka/) (data updated 24/9/2021), <br>
 4. [Penang](http://steveteoh.github.io/Penang/index.html) (data updated 19/9/2021), <br>
 5. [Wilayah Persekutuan (KL, Putrajaya and Labuan)](http://steveteoh.github.io/Wilayah) (data updated 19/9/2021) <br>
