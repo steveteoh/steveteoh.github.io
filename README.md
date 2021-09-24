@@ -3,17 +3,20 @@
 Welcome to Steve Teoh's public github page. This page highlights the shared sources available in http://steveteoh.github.io as demo webpages.
 The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https://github.com/steveteoh/steveteoh.github.io)
 
-## MalaysiaHeatmap
-[My shared code](http://steveteoh.github.io/MalaysiaHeatMap) derived from [Khoo Hao Yit's work](https://github.com/KhooHaoYit/KhooHaoYit.github.io/tree/main/Covid19%20Malaysia%20Heatmap)
-
-## HexGrid (Concepts)
-[My shared code](http://steveteoh.github.io/HexGrid) derived from [https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map](https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map) 
-
 ## Data Sources
 14-day active cases data is sourced from mysejahtera app (lookup).
 
+## Covid-19 Hex Maps for States in Peninsula Malaysia
+Below are state-level map for : <br>
+1. [Klang Valley (Selangor and Wilayah Persekututan)](http://steveteoh.github.io/KlangValley/) (data updated 23/9/2021), <br>
+2. [Johor](http://steveteoh.github.io/Melaka/) (data updated 23/9/2021), <br>
+3. [Melaka](http://steveteoh.github.io/Melaka/) (data updated 24/9/2021), <br>
+4. [Penang](http://steveteoh.github.io/Penang/index.html) (data updated 19/9/2021), <br>
+5. [Wilayah Persekutuan (KL, Putrajaya and Labuan)](http://steveteoh.github.io/Wilayah) (data updated 19/9/2021) <br>
+Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
+
 ## Covid-19 Hex Maps for Selangor Districts
-Below are standalone map demo for Selangor districts: <br>
+Below are standalone map for Selangor districts: <br>
 1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (data updated 19/9/2021,5/9/2021), <br>
 2. [Hulu Langat](http://steveteoh.github.io/HuluLangat/) (data updated 19/9/2021), <br>
 3. [Hulu Selangor](http://steveteoh.github.io/HuluSelangor/) (data updated 21/9/2021), <br>
@@ -29,7 +32,7 @@ Below are standalone map demo for Selangor districts: <br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
 ## Covid-19 Hex Maps for Wilayah Persekutuan Districts
-Below are standalone map demo for Wilayah Persekutuan districts: <br>
+Below are standalone map for Wilayah Persekutuan districts: <br>
 1. [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur) (data updated 19/9/2021), and  <br>
 2. [Putrajaya](http://steveteoh.github.io/Putrajaya) (data updated 19/9/2021) <br>
 3. [Labuan](http://steveteoh.github.io/Labuan) (data updated 19/9/2021) (New)<br>
@@ -41,6 +44,12 @@ Below are standalone map demo for Penang districts: <br>
 2. [Penang island](http://steveteoh.github.io/Penang/island.html) (data updated 19/9/2021, 10/9/2021), and  <br>
 3. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) (data updated 19/9/2021) <br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
+
+## MalaysiaHeatmap
+[My shared code](http://steveteoh.github.io/MalaysiaHeatMap) derived from [Khoo Hao Yit's work](https://github.com/KhooHaoYit/KhooHaoYit.github.io/tree/main/Covid19%20Malaysia%20Heatmap)
+
+## HexGrid (Concepts)
+[My shared code](http://steveteoh.github.io/HexGrid) derived from [https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map](https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map) 
 
 ## Built With
 
