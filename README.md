@@ -8,7 +8,7 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 
 ## Covid-19 Hex Maps for Malaysia
 Below are state-level map for : <br>
-1. [Klang Valley (Selangor and Wilayah Persekututan)](http://steveteoh.github.io/KlangValley/) (updated 30/9/2021), <br>
+1. [Klang Valley (Selangor + Wilayah Persekututan)](http://steveteoh.github.io/KlangValley/) (updated 30/9/2021), <br>
 2. [Johor](http://steveteoh.github.io/Johor/) (updated 23/9/2021), <br>
 3. [Melaka](http://steveteoh.github.io/Melaka/) (updated 24/9/2021), <br>
 4. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (updated 24/9/2021), <br>
@@ -16,9 +16,9 @@ Below are state-level map for : <br>
 6. [Wilayah Persekutuan (KL, Putrajaya and Labuan)](http://steveteoh.github.io/Wilayah/) (updated 19/9/2021) <br>
 7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 29/9/2021) <br>
 8. [Sabah](http://steveteoh.github.io/Sabah/) (updated 30/9/2021) <br>
-9. [Perlis] (updated 29/9/2021) <br>
+9. [Perlis](https://steveteoh.github.io/Perlis/) (updated 30/9/2021) <br>
 10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 29/9/2021) <br>
-11. [Pahang] (updated 29/9/2021) <br>
+11. [Pahang](https://steveteoh.github.io/Pahang/) (updated 29/9/2021) <br>
 12. [Kelantan] (updated 29/9/2021) <br>
 13. [Terengganu] (updated 29/9/2021) <br>
 
