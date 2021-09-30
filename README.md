@@ -8,15 +8,18 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 
 ## Covid-19 Hex Maps for States in Peninsula Malaysia
 Below are state-level map for : <br>
-1. [Klang Valley (Selangor and Wilayah Persekututan)](http://steveteoh.github.io/KlangValley/) (data updated 30/9/2021), <br>
-2. [Johor](http://steveteoh.github.io/Johor/) (data updated 23/9/2021), <br>
-3. [Melaka](http://steveteoh.github.io/Melaka/) (data updated 24/9/2021), <br>
-4. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (data updated 24/9/2021), <br>
-5. [Penang](http://steveteoh.github.io/Penang/) (data updated 30/9/2021), <br>
-6. [Wilayah Persekutuan (KL, Putrajaya and Labuan)](http://steveteoh.github.io/Wilayah/) (data updated 19/9/2021) <br>
-7. [Sarawak](http://steveteoh.github.io/Sarawak/) (data updated 29/9/2021) <br>
-8. [Sabah](http://steveteoh.github.io/Sabah/) (data updated 30/9/2021) <br>
+1. [Klang Valley (Selangor and Wilayah Persekututan)](http://steveteoh.github.io/KlangValley/) (updated 30/9/2021), <br>
+2. [Johor](http://steveteoh.github.io/Johor/) (updated 23/9/2021), <br>
+3. [Melaka](http://steveteoh.github.io/Melaka/) (updated 24/9/2021), <br>
+4. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (updated 24/9/2021), <br>
+5. [Penang](http://steveteoh.github.io/Penang/) (updated 30/9/2021), <br>
+6. [Wilayah Persekutuan (KL, Putrajaya and Labuan)](http://steveteoh.github.io/Wilayah/) (updated 19/9/2021) <br>
+7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 29/9/2021) <br>
+8. [Sabah](http://steveteoh.github.io/Sabah/) (updated 30/9/2021) <br>
+
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
+
+##Deprecated --->
 
 ## Covid-19 Hex Maps for Selangor Districts
 Below are standalone map for Selangor districts: <br>
@@ -43,7 +46,7 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 
 ## Covid-19 Hex Maps for Penang Districts
 Below are standalone map demo for Penang districts: <br>
-1. [Penang state](http://steveteoh.github.io/Penang/index.html) (data updated 19/9/2021),  <br>
+1. [Penang state](http://steveteoh.github.io/Penang/index.html) (data updated 30/9/2021, 19/9/2021),  <br>
 2. [Penang island](http://steveteoh.github.io/Penang/island.html) (data updated 19/9/2021, 10/9/2021), and  <br>
 3. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) (data updated 19/9/2021) <br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
