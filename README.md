@@ -15,6 +15,7 @@ Below are state-level map for : <br>
 5. [Penang](http://steveteoh.github.io/Penang/) (data updated 19/9/2021), <br>
 6. [Wilayah Persekutuan (KL, Putrajaya and Labuan)](http://steveteoh.github.io/Wilayah/) (data updated 19/9/2021) <br>
 7. [Sarawak](http://steveteoh.github.io/Sarawak/) (data updated 29/9/2021) <br>
+8. [Sabah](http://steveteoh.github.io/Sabah/) (data updated 30/9/2021) <br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
 ## Covid-19 Hex Maps for Selangor Districts
