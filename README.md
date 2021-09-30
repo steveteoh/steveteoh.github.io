@@ -20,11 +20,11 @@ Below are state-level map for : <br>
 10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 29/9/2021) <br>
 11. [Pahang](https://steveteoh.github.io/Pahang/) (updated 29/9/2021) <br>
 12. [Kelantan](https://steveteoh.github.io/Kelantan/) (updated 30/9/2021) <br>
-13. [Terengganu] (updated 29/9/2021) <br>
+13. [Terengganu](https://steveteoh.github.io/Terengganu/) (updated 30/9/2021) <br>
 
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
-## ---Deprecated --->
+## <---Deprecated --->
 ## Covid-19 Hex Maps for Selangor Districts
 Below are standalone map for Selangor districts: <br>
 1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (updated 19/9/2021,5/9/2021), <br>
