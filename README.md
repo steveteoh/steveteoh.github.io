@@ -16,16 +16,15 @@ Below are state-level map for : <br>
 6. [Wilayah Persekutuan (KL, Putrajaya and Labuan)](http://steveteoh.github.io/Wilayah/) (updated 19/9/2021) <br>
 7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 29/9/2021) <br>
 8. [Sabah](http://steveteoh.github.io/Sabah/) (updated 30/9/2021) <br>
-9. [Perlis]
-10. [Kedah]
-11. [Pahang]
-12. [Kelantan]
-13. [Terengganu]
+9. [Perlis] (updated 29/9/2021) <br>
+10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 29/9/2021) <br>
+11. [Pahang] (updated 29/9/2021) <br>
+12. [Kelantan] (updated 29/9/2021) <br>
+13. [Terengganu] (updated 29/9/2021) <br>
 
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
-##---Deprecated --->
-
+## ---Deprecated --->
 ## Covid-19 Hex Maps for Selangor Districts
 Below are standalone map for Selangor districts: <br>
 1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (updated 19/9/2021,5/9/2021), <br>
