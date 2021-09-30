@@ -39,9 +39,9 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 
 ## Covid-19 Hex Maps for Wilayah Persekutuan Districts
 Below are standalone map for Wilayah Persekutuan districts: <br>
-1. [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur) (data updated 19/9/2021), and  <br>
-2. [Putrajaya](http://steveteoh.github.io/Putrajaya) (data updated 19/9/2021) <br>
-3. [Labuan](http://steveteoh.github.io/Labuan) (data updated 19/9/2021) (New)<br>
+1. [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur) (data updated 30/9/2021, 19/9/2021), and  <br>
+2. [Putrajaya](http://steveteoh.github.io/Putrajaya) (data updated 30/9/2021, 19/9/2021) <br>
+3. [Labuan](http://steveteoh.github.io/Labuan) (data updated 30/9/2021, 19/9/2021)<br>
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
 ## Covid-19 Hex Maps for Penang Districts
