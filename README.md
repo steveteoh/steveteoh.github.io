@@ -7,7 +7,7 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 14-day active cases data is sourced from mysejahtera app (lookup).
 
 ## Covid-19 Hex Maps for Malaysia
-Below are state-level map for : <br>
+Below are state-level maps for : <br>
 1. [Klang Valley (Selangor + Wilayah Persekututan)](http://steveteoh.github.io/KlangValley/) (updated 30/9/2021), <br>
 2. [Johor](http://steveteoh.github.io/Johor/) (updated 30/9/2021), <br>
 3. [Melaka](http://steveteoh.github.io/Melaka/) (updated 30/9/2021), <br>
@@ -26,7 +26,7 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 
 ## <---Deprecated --->
 ## Covid-19 Hex Maps for Selangor Districts
-Below are standalone map for Selangor districts: <br>
+Below are standalone maps for Selangor districts: <br>
 1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (updated 19/9/2021,5/9/2021), <br>
 2. [Hulu Langat](http://steveteoh.github.io/HuluLangat/) (updated 19/9/2021), <br>
 3. [Hulu Selangor](http://steveteoh.github.io/HuluSelangor/) (updated 21/9/2021), <br>
@@ -41,13 +41,13 @@ Below are standalone map for Selangor districts: <br>
 12. [Subang Jaya](http://steveteoh.github.io/SubangJayaNew/) (updated 19/9/2021,9/9/2021)<br>
 
 ## Covid-19 Hex Maps for Wilayah Persekutuan Districts
-Below are standalone map for Wilayah Persekutuan districts: <br>
+Below are standalone maps for Wilayah Persekutuan districts: <br>
 1. [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur) (updated 30/9/2021, 19/9/2021)<br>
 2. [Putrajaya](http://steveteoh.github.io/Putrajaya) (updated 30/9/2021, 19/9/2021), and<br>
 3. [Labuan](http://steveteoh.github.io/Labuan) (updated 30/9/2021, 19/9/2021)<br>
 
 ## Covid-19 Hex Maps for Penang Districts
-Below are standalone map demo for Penang districts: <br>
+Below are standalone maps for Penang districts: <br>
 1. [Penang state](http://steveteoh.github.io/Penang/index.html) (updated 30/9/2021, 19/9/2021),  <br>
 2. [Penang island](http://steveteoh.github.io/Penang/island.html) (updated 30/9/2021, 19/9/2021, 10/9/2021), and  <br>
 3. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) (updated 30/9/2021, 19/9/2021) <br>
