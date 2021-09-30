@@ -19,7 +19,7 @@ Below are state-level map for : <br>
 9. [Perlis](https://steveteoh.github.io/Perlis/) (updated 30/9/2021) <br>
 10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 29/9/2021) <br>
 11. [Pahang](https://steveteoh.github.io/Pahang/) (updated 29/9/2021) <br>
-12. [Kelantan] (updated 30/9/2021) <br>
+12. [Kelantan](https://steveteoh.github.io/Kelantan/) (updated 30/9/2021) <br>
 13. [Terengganu] (updated 29/9/2021) <br>
 
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
