@@ -30,11 +30,11 @@ Note: The javascripts are minified and obfuscated for faster performance. Kindly
 ## <---Deprecated --->
 ## Covid-19 Hex Maps for Selangor Districts
 Below are standalone maps for Selangor districts: <br>
-1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (updated 19/9/2021,5/9/2021), <br>
-2. [Hulu Langat](http://steveteoh.github.io/HuluLangat/) (updated 19/9/2021), <br>
-3. [Hulu Selangor](http://steveteoh.github.io/HuluSelangor/) (updated 21/9/2021), <br>
-4. [Klang](http://steveteoh.github.io/Klang/) (updated 21/9/2021), <br>
-5. [Kuala Langat](http://steveteoh.github.io/KualaLangat/) (updated 21/9/2021), <br>
+1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (updated 1/10/2021,19/9/2021,5/9/2021), <br>
+2. [Hulu Langat](http://steveteoh.github.io/HuluLangat/) (updated 1/10/2021,19/9/2021), <br>
+3. [Hulu Selangor](http://steveteoh.github.io/HuluSelangor/) (updated 1/20/2021,21/9/2021), <br>
+4. [Klang](http://steveteoh.github.io/Klang/) (updated 1/10/2021,21/9/2021), <br>
+5. [Kuala Langat](http://steveteoh.github.io/KualaLangat/) (updated 1/10/2021,21/9/2021), <br>
 6. [Kuala Selangor](http://steveteoh.github.io/KualaSelangor/) (updated 21/9/2021), <br>
 7. [Petaling Jaya](http://steveteoh.github.io/PetalingJaya/) (updated 19/9/2021,5/9/2021), <br>
 8. [Sabak Bernam](http://steveteoh.github.io/SabakBernam) (updated 21/9/2021), <br>
