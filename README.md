@@ -38,11 +38,11 @@ Below are standalone maps for Selangor districts: <br>
 5. [Kuala Langat](http://steveteoh.github.io/KualaLangat/) (updated 1/10/2021,21/9/2021), <br>
 6. [Kuala Selangor](http://steveteoh.github.io/KualaSelangor/) (updated 1/10/2021,21/9/2021), <br>
 7. [Petaling Jaya](http://steveteoh.github.io/PetalingJaya/) (updated 1/10/2021,20/9/2021,5/9/2021), <br>
-8. [Sabak Bernam](http://steveteoh.github.io/SabakBernam) (updated 21/9/2021), <br>
-9. [Selayang](http://steveteoh.github.io/Selayang/) (updated 21/9/2021), <br>
-10. [Sepang](http://steveteoh.github.io/Sepang/) (updated 21/9/2021), <br>
-11. [Shah Alam](http://steveteoh.github.io/ShahAlam/) (updated 21/9/2021), and  <br>
-12. [Subang Jaya](http://steveteoh.github.io/SubangJayaNew/) (updated 19/9/2021,9/9/2021)<br>
+8. [Sabak Bernam](http://steveteoh.github.io/SabakBernam) (updated 1/10/2021,21/9/2021), <br>
+9. [Selayang](http://steveteoh.github.io/Selayang/) (updated 1/10/2021,21/9/2021), <br>
+10. [Sepang](http://steveteoh.github.io/Sepang/) (updated 1/10/2021,21/9/2021), <br>
+11. [Shah Alam](http://steveteoh.github.io/ShahAlam/) (updated 1/10/2021,21/9/2021), and  <br>
+12. [Subang Jaya](http://steveteoh.github.io/SubangJaya/) (updated 1/10/2021,19/9/2021,9/9/2021)<br>
 
 ## Covid-19 Hex Maps for Wilayah Persekutuan Districts
 Below are standalone maps for Wilayah Persekutuan districts: <br>
