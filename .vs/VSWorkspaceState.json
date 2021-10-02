@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Maps",
-    "\\Putrajaya",
-    "\\Wilayah"
+    "\\data",
+    "\\data\\selangor\\daerah"
   ],
-  "SelectedNode": "\\Maps\\geoBoundaries-MYS-ADM0.geojson",
+  "SelectedNode": "\\data\\selangor",
   "PreviewInSolutionExplorer": false
 }
