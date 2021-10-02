@@ -11,7 +11,7 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 Below are state-level maps for : <br>
 1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (updated 30/9/2021), <br>
 2. [Johor](http://steveteoh.github.io/Johor/) (updated 30/9/2021), <br>
-3. [Melaka](http://steveteoh.github.io/Melaka/) (updated 30/9/2021), <br>
+3. [Melaka](http://steveteoh.github.io/Melaka/) (updated 2/10/2021,30/9/2021), <br>
 4. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (updated 30/9/2021), <br>
 5. [Penang](http://steveteoh.github.io/Penang/) (updated 2/10/2021,30/9/2021), <br>
 6. [Wilayah Persekutuan](http://steveteoh.github.io/Wilayah/) <br>
