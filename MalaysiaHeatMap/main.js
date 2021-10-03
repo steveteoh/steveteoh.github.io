@@ -156,7 +156,7 @@ var heatmapButton = () => {
     if (map === null || heatmaps.length === 0) return;
     const button = document.getElementById('heatmapButton');
     switch (button.textContent) {
-        case 'Show C-19  Heatmap': {
+        case 'Show C-19 Heatmap': {
             heatmaps.forEach(hm => hm.setMap(map));
             button.textContent = 'Hide C-19 Heatmap';
         } break;
