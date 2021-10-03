@@ -113,7 +113,7 @@ let userLocation = undefined;
 var locationButton = async () => {
     const button = document.getElementById('locationButton');
     switch (button.textContent) {
-        case 'Show Location': {
+        case 'Show My Location': {
             if (userLocation !== undefined) return;
             userLocation = null;
             const location = await new Promise((rs, rj) => navigator.geolocation.getCurrentPosition(rs, rj))
@@ -142,13 +142,13 @@ var locationButton = async () => {
                     radius: location.coords.accuracy,
                 })
             }
-            button.textContent = 'Hide Location';
+            button.textContent = 'Hide My Location';
         } break;
-        case 'Hide Location': {
+        case 'Hide My Location': {
             userLocation.pointer.setMap(null);
             userLocation.circle.setMap(null);
             userLocation = undefined;
-            button.textContent = 'Show Location';
+            button.textContent = 'Show My Location';
         } break;
     }
 }
