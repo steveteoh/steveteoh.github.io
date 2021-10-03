@@ -24,7 +24,7 @@ Below are state-level maps for : <br>
 10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 2/10/2021,29/9/2021) <br>
 11. [Pahang](https://steveteoh.github.io/Pahang/) (updated 29/9/2021) <br>
 12. [Perak](https://steveteoh.github.io/Perak/) (updated 2/10/2021,29/9/2021) <br>
-13. [Kelantan](https://steveteoh.github.io/Kelantan/) (updated 30/9/2021) <br>
+13. [Kelantan](https://steveteoh.github.io/Kelantan/) (updated 2/10/2021,30/9/2021) <br>
 14. [Terengganu](https://steveteoh.github.io/Terengganu/) (updated 2/10/2021,30/9/2021) <br>
 
 Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
