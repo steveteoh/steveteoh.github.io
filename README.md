@@ -18,7 +18,7 @@ Below are state-level maps for : <br>
    [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/) (updated 30/9/2021) <br>
    [Putrajaya](http://steveteoh.github.io/Putrajaya/) (updated 30/9/2021) <br>
    [Labuan](http://steveteoh.github.io/Labuan/) (updated 30/9/2021) <br>
-7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 29/9/2021) <br>
+7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 2/10/2021,29/9/2021) <br>
 8. [Sabah](http://steveteoh.github.io/Sabah/) (updated 2/10/2021,30/9/2021) <br>
 9. [Perlis](https://steveteoh.github.io/Perlis/) (updated 2/10/2021,30/9/2021) <br>
 10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 2/10/2021,29/9/2021) <br>
