@@ -1,5 +1,5 @@
 ﻿# steveteoh.github.io
-Last Updated: 1/10/2021
+Last Updated: 3/10/2021
 
 Welcome to Steve Teoh's public github page. This page highlights the shared sources available in http://steveteoh.github.io as demo webpages.
 The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https://github.com/steveteoh/steveteoh.github.io)
@@ -27,7 +27,10 @@ Below are state-level maps for : <br>
 13. [Kelantan](https://steveteoh.github.io/Kelantan/) (updated 3/10/2021,30/9/2021) <br>
 14. [Terengganu](https://steveteoh.github.io/Terengganu/) (updated 3/10/2021,30/9/2021) <br>
 
-Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
+Note: 
+1. The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
+2. Some maps may be too large (Sarawak, Sabah, Pahang) and hence the performance and display on the client side will be extremely slow, particularly when the markers are enabled. 
+   A server side clustering solution is available.
 
 ## <---Deprecated --->
 ## Covid-19 Hex Maps for Selangor Districts
