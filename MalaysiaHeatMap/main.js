@@ -158,11 +158,11 @@ var heatmapButton = () => {
     switch (button.textContent) {
         case 'Show C-19  Heatmap': {
             heatmaps.forEach(hm => hm.setMap(map));
-            button.textContent = 'Hide Heatmap';
+            button.textContent = 'Hide C-19 Heatmap';
         } break;
         case 'Hide C-19 Heatmap': {
             heatmaps.forEach(hm => hm.setMap(null));
-            button.textContent = 'Show Heatmap';
+            button.textContent = 'Show C-19 Heatmap';
         } break;
     }
 }
