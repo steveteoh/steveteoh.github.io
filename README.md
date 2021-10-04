@@ -20,10 +20,10 @@ Below are state-level maps for : <br>
    [Labuan](http://steveteoh.github.io/Labuan/) (updated 3/10,30/9) <br>
 7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 2/10,29/9) <br>
 8. [Sabah](http://steveteoh.github.io/Sabah/) (updated 2/10,30/9) <br>
-9. [Perlis](https://steveteoh.github.io/Perlis/) (updated 2/10,30/9) <br>
-10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 2/10,29/9) <br>
+9. [Perlis](https://steveteoh.github.io/Perlis/) (updated 4/10,2/10,30/9) <br>
+10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 4/10,2/10,29/9) <br>
 11. [Pahang](https://steveteoh.github.io/Pahang/) (updated 3/10,29/9) <br>
-12. [Perak](https://steveteoh.github.io/Perak/) (updated 2/10,29/9) <br>
+12. [Perak](https://steveteoh.github.io/Perak/) (updated 4/10,2/10,29/9) <br>
 13. [Kelantan](https://steveteoh.github.io/Kelantan/) (updated 3/10,30/9) <br>
 14. [Terengganu](https://steveteoh.github.io/Terengganu/) (updated 3/10,30/9) <br>
 
