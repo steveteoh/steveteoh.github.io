@@ -15,9 +15,9 @@ Below are state-level maps for : <br>
 4. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (updated 3/10,30/9), <br>
 5. [Penang](http://steveteoh.github.io/Penang/) (updated 4/10,2/10,30/9), <br>
 6. [Wilayah Persekutuan](http://steveteoh.github.io/Wilayah/) <br>
-   [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/) (updated 3/10,30/9) <br>
-   [Putrajaya](http://steveteoh.github.io/Putrajaya/) (updated 3/10,30/9) <br>
-   [Labuan](http://steveteoh.github.io/Labuan/) (updated 3/10,30/9) <br>
+   [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/) (updated 5/10,3/10,30/9) <br>
+   [Putrajaya](http://steveteoh.github.io/Putrajaya/) (updated 5/10,3/10,30/9) <br>
+   [Labuan](http://steveteoh.github.io/Labuan/) (updated 5/10,3/10,30/9) <br>
 7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 2/10,29/9) <br>
 8. [Sabah](http://steveteoh.github.io/Sabah/) (updated 2/10,30/9) <br>
 9. [Perlis](https://steveteoh.github.io/Perlis/) (updated 4/10,2/10,30/9) <br>
