@@ -56,9 +56,9 @@ Below are standalone maps for Wilayah Persekutuan districts: <br>
 
 ## Covid-19 Hex Maps for Penang Districts
 Below are standalone maps for Penang districts: <br>
-1. [Penang state](http://steveteoh.github.io/Penang/index.html) (updated 2/10,30/9,19/9),  <br>
-2. [Penang island](http://steveteoh.github.io/Penang/island.html) (updated 2/10,30/9,19/9,10/9), and  <br>
-3. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) (updated 2/10,30/9,19/9) <br>
+1. [Penang state](http://steveteoh.github.io/Penang/index.html) (updated 4/10,2/10,30/9,19/9),  <br>
+2. [Penang island](http://steveteoh.github.io/Penang/island.html) (updated 4/10,2/10,30/9,19/9,10/9), and  <br>
+3. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) (updated 4/10,2/10,30/9,19/9) <br>
 
 General Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
