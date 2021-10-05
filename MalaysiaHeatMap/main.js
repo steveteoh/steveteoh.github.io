@@ -104,9 +104,9 @@ var updateHeatmap = async () => {
         });
         heatmaps.push(heatmap);
     }
-    document.getElementById('lastUpdateAt').innerText = `Last update at: ${new Date().toLocaleString()}`;
-    document.getElementById('eastUpdatedAt').innerText = `East Malaysia last updated on: ${new Date(areas[0].updatedAt).toLocaleString()}`;
-    document.getElementById('westUpdatedAt').innerText = `West Malaysia last updated on: ${new Date(areas[1].updatedAt).toLocaleString()}`;
+    document.getElementById('lastUpdateAt').innerText = `Last update at: ${new Date().toLocaleString('en-GB', { timeZone: 'Asia/Kuala_Lumpur' })}`;
+    document.getElementById('eastUpdatedAt').innerText = `East Malaysia last updated on: ${new Date(areas[0].updatedAt).toLocaleString('en-GB', { timeZone: 'Asia/Kuala_Lumpur' })}`;
+    document.getElementById('westUpdatedAt').innerText = `West Malaysia last updated on: ${new Date(areas[1].updatedAt).toLocaleString('en-GB', { timeZone: 'Asia/Kuala_Lumpur' })}`;
     if (document.getElementById('heatmapButton').textContent === 'Hide C-19 Heatmap') heatmaps.forEach(hm => hm.setMap(map));
 }
 let userLocation = undefined;
