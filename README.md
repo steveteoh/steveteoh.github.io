@@ -15,7 +15,7 @@ Below is the latest statistical map that contains all state related variables. T
 ### Covid-19 Hex Maps for Malaysia
 Below are state-level maps for : <br>
 
-1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (updated 8/10,5/10,3/10,30/9), <br> |  ![Statistic Maps](https://steveteoh.github.io/img/statistics.png)
+1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (updated 8/10,5/10,3/10,30/9), <br> |  ![Klang Valley](https://steveteoh.github.io/img/klangvalley.png)
 2. [Johor](http://steveteoh.github.io/Johor/) (updated -5/10,3/10,30/9), <br>        |
 3. [Melaka](http://steveteoh.github.io/Melaka/) (updated 8/10,5/10,3/10,30/9), <br>  |
 4. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (updated 8/10,5/10,3/10,30/9), <br>  |
