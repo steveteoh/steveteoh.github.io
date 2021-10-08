@@ -8,14 +8,13 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 14-day active cases data is sourced from mysejahtera app (lookup).
 
 ### Statistic Maps for Malaysia based on KKM's Official Data Source (New)
-Below is the latest statistical map that contains all state related variables. The dropdown options are auto generated.
-![Statistic Maps](https://steveteoh.github.io/img/statistics.png)
-[Here's the link](https://steveteoh.github.io/Statistics/) (auto updated based on data from https://github.com/MoH-Malaysia/covid19-public/)
+1. Below is the latest statistical map that contains all state related variables. The dropdown options are auto generated.
+   [Here's the link](https://steveteoh.github.io/Statistics/) (auto updated based on data from https://github.com/MoH-Malaysia/covid19-public/)  | ![Statistic Maps](https://steveteoh.github.io/img/statistics.png)
 
 ### Covid-19 Hex Maps for Malaysia
 Below are state-level maps for : <br>
 
-1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (updated 8/10,5/10,3/10,30/9), <br> |  ![Klang Valley](https://steveteoh.github.io/img/klangvalley.png)
+1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (updated 8/10,5/10,3/10,30/9), <br> |  ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)
 2. [Johor](http://steveteoh.github.io/Johor/) (updated -5/10,3/10,30/9), <br>        |
 3. [Melaka](http://steveteoh.github.io/Melaka/) (updated 8/10,5/10,3/10,30/9), <br>  |
 4. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (updated 8/10,5/10,3/10,30/9), <br>  |
