@@ -7,6 +7,9 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 ## Data Sources
 14-day active cases data is sourced from mysejahtera app (lookup).
 
+##Statistic Maps for Malaysia based on KKM's Officla Data
+[Statistic Maps](http://steveteoh.github.io/Statistics/) (auto updated based on data from https://github.com/MoH-Malaysia/covid19-public/)
+
 ## Covid-19 Hex Maps for Malaysia
 Below are state-level maps for : <br>
 1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (updated 5/10,3/10,30/9), <br>
