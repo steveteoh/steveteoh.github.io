@@ -7,7 +7,7 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 ## Data Sources
 14-day active cases data is sourced from mysejahtera app (lookup).
 
-##Statistic Maps for Malaysia based on KKM's Official Data Source (New)
+## Statistic Maps for Malaysia based on KKM's Official Data Source (New)
 Below is the latest statistical map that contains all state related variables. The dropdown options are auto generated.
 [Statistic Maps](http://steveteoh.github.io/Statistics/) (auto updated based on data from https://github.com/MoH-Malaysia/covid19-public/)
 
