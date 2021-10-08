@@ -8,7 +8,8 @@ The official repo is at [https://github.com/steveteoh/steveteoh.github.io](https
 14-day active cases data is sourced from mysejahtera app (lookup).
 
 ### Statistic Maps for Malaysia based on KKM's Official Data Source (New)
-1. Here is the latest statistical map that contains all state related variables. The dropdown options are automatically generated (based on data from https://github.com/MoH-Malaysia/covid19-public/). [You can just follow the link here to access it](https://steveteoh.github.io/Statistics/)   |  ![Statistic Maps](https://steveteoh.github.io/img/statistics.png)
+1. Here is the latest statistical map that contains all state related variables. The dropdown options are automatically generated (based on data from https://github.com/MoH-Malaysia/covid19-public/).  |  
+   [You can just follow the link here:](https://steveteoh.github.io/Statistics/)   |  ![Statistic Maps](https://steveteoh.github.io/img/statistics.png)
 
 ### Covid-19 Hex Maps for Malaysia
 Below are state-level maps for : <br>
