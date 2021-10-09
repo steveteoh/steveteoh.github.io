@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Maps"
+    "\\data",
+    "\\data\\johor",
+    "\\data\\pahang",
+    "\\data\\perak",
+    "\\data\\sabah",
+    "\\data\\sarawak",
+    "\\data\\selangor\\daerah",
+    "\\img"
   ],
-  "SelectedNode": "\\Maps\\geoBoundaries-MYS-ADM1_simplified.geojson",
+  "SelectedNode": "\\img",
   "PreviewInSolutionExplorer": false
 }
