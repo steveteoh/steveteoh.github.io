@@ -274,7 +274,9 @@ function loadCsvItem(filename, keyId, elementId, daily) {
                 stateId = items[keyId];
             }
 
-            const censusVariable = isNaN(items[elementId]) ? 0 : parseFloat(items[elementId]);
+            var censusVariable = isNaN(items[elementId]) ? 0 : parseFloat(items[elementId]);
+            if (isNaN(censusVariable)) censusVariable = 0;
+            //double protection, in case the government decides not to release certain variables, the data will be null which cannot be displayed (happening in 9/10/2021?!)
 
             // keep track of min and max values
             if (censusVariable < censusMin) {
