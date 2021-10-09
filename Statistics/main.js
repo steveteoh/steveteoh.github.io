@@ -154,7 +154,7 @@ function loadCensusData(filename, keyid, elementid, daily) {
         loadCsvItem(filename, keyid, elementid, daily);
     }
     //Display initial Date
-    document.getElementById("date-label").textContent = "Last";
+    document.getElementById("date-label").textContent = "Last Upd";
     document.getElementById("date-box").style.display = "block";
     document.getElementById("date-value").textContent = lastDate;
 }
@@ -351,7 +351,7 @@ function mouseInToRegion(e) {
     document.getElementById("data-caret").style.display = "block";
     document.getElementById("data-caret").style.paddingLeft = percent + "%";
     //update data
-    document.getElementById("date-label").textContent = "Last";
+    document.getElementById("date-label").textContent = "Last Upd";
     document.getElementById("date-value").textContent = lastDate;
     document.getElementById("date-box").style.display = "block";
 }
