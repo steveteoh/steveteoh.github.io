@@ -32,6 +32,7 @@ const mapStyle = [
 ];
 
 let map;
+let infoWindow;
 let censusMin = Number.MAX_VALUE,
     censusMax = -Number.MAX_VALUE;
 let myStates = [];
@@ -66,8 +67,29 @@ function initMap() {
         //load the census data according to selection
         loadCensusData(items[0], items[1], items[2], items[3]);
     });
+
+    // Latest: Add a listener for the click event.  
+    map.data.addListener("click", showClick);
+    infoWindow = new google.maps.InfoWindow();
+
     // state polygons only need to be loaded once, do them now
     loadMapShapes();
+}
+
+/**
+ * Latest: Reacts to click event by showing the related state statistics
+ * 
+ * @param {any} event
+ */
+function showClick(event) {
+    let contentString =
+        "<b>Details</b><br>" +
+        event.feature.getProperty('shapeName') + " total = " + event.feature.getProperty("census_variable").toLocaleString();
+
+    // Replace the info window's content and position.
+    infoWindow.setContent(contentString);
+    infoWindow.setPosition(event.latLng);
+    infoWindow.open(map);
 }
 
 /** Loads the state boundary polygons from a GeoJSON source. */
@@ -100,7 +122,7 @@ function loadSelectOptions(sourceFile) {
             const elementid = thisrow[5];
             const isdate = thisrow[6];
             var opt = document.createElement("option");
-            opt.value = filename + "," + keyid + "," + elementid + "," + isdate;  
+            opt.value = filename + "," + keyid + "," + elementid + "," + isdate;
             opt.innerHTML = title;
             //append it to the select element
             selectList.appendChild(opt);
@@ -180,12 +202,11 @@ const yesterday = () => {
 function loadJsonItem(filename, keyId, elementId, daily) {
     // load the requested variable from the census API (using local copies)
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", filename);   
+    xhr.open("GET", filename);
     xhr.onload = function () {
         const censusData = JSON.parse(xhr.responseText);
-        censusData.shift(); 
+        censusData.shift();
         censusData.forEach((row) => {
-
             const censusVariable = parseFloat(row[0]);
             const stateId = row[1];
             // keep track of min and max values
@@ -299,8 +320,7 @@ function styleFeature(feature) {
     const low = [151, 83, 34]; // color of smallest datum
 
     // delta represents where the value sits between the min and max
-    const delta =
-        (feature.getProperty("census_variable") - censusMin) / (censusMax - censusMin);
+    const delta = (feature.getProperty("census_variable") - censusMin) / (censusMax - censusMin);
     const color = [];
 
     for (let i = 0; i < 3; i++) {
@@ -312,8 +332,7 @@ function styleFeature(feature) {
     let showRow = true;
 
     if (
-        feature.getProperty("census_variable") == null ||
-        isNaN(feature.getProperty("census_variable"))
+        feature.getProperty("census_variable") == null || isNaN(feature.getProperty("census_variable"))
     ) {
         showRow = false;
     }
