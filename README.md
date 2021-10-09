@@ -14,7 +14,7 @@ Here is the latest statistical map that contains all state related variables.   
 ### Covid-19 Hex Maps for Malaysia
 Below are state-level maps for : <br>
 1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (updated 8/10,5/10,3/10,30/9), <br> |  ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)
-2. [Johor](http://steveteoh.github.io/Johor/) (updated -5/10,3/10,30/9), <br>        |
+2. [Johor](http://steveteoh.github.io/Johor/) (updated 8/10,5/10,3/10,30/9), <br>        |
 3. [Melaka](http://steveteoh.github.io/Melaka/) (updated 8/10,5/10,3/10,30/9), <br>  |
 4. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (updated 8/10,5/10,3/10,30/9), <br>  |
 5. [Penang](http://steveteoh.github.io/Penang/) (updated 8/10,4/10,2/10,30/9), <br>  |
@@ -22,12 +22,12 @@ Below are state-level maps for : <br>
    [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/) (updated 5/10,3/10,30/9) <br>  |
    [Putrajaya](http://steveteoh.github.io/Putrajaya/) (updated 5/10,3/10,30/9) <br>  |
    [Labuan](http://steveteoh.github.io/Labuan/) (updated 5/10,3/10,30/9) <br>  |
-7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated -4/10,2/10,29/9) <br>  |
-8. [Sabah](http://steveteoh.github.io/Sabah/) (updated -4/10,2/10,30/9) <br>  |
+7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 8/10,4/10,2/10,29/9) <br>  |
+8. [Sabah](http://steveteoh.github.io/Sabah/) (updated 8/10,4/10,2/10,30/9) <br>  |
 9. [Perlis](https://steveteoh.github.io/Perlis/) (updated 8/10,4/10,2/10,30/9) <br>  |
 10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 8/10,4/10,2/10,29/9) <br>  |
-11. [Pahang](https://steveteoh.github.io/Pahang/) (updated -5/10,3/10,29/9) <br>  |
-12. [Perak](https://steveteoh.github.io/Perak/) (updated -4/10,2/10,29/9) <br>  |
+11. [Pahang](https://steveteoh.github.io/Pahang/) (updated 8/10,5/10,3/10,29/9) <br>  |
+12. [Perak](https://steveteoh.github.io/Perak/) (updated 8/10,4/10,2/10,29/9) <br>  |
 13. [Kelantan](https://steveteoh.github.io/Kelantan/) (updated 8/10,5/10,3/10,30/9) <br>  |
 14. [Terengganu](https://steveteoh.github.io/Terengganu/) (updated 8/10,5/10,3/10,30/9) <br>  |
 
