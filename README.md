@@ -24,7 +24,7 @@ Below are state-level maps for : <br>
    [Putrajaya](http://steveteoh.github.io/Putrajaya/) (updated 10/10,8/10,5/10,3/10,30/9) <br>  |
    [Labuan](http://steveteoh.github.io/Labuan/) (updated 10/10,8/10,5/10,3/10,30/9) <br>  |
 7. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 8/10,4/10,2/10,29/9) <br>  |
-8. [Sabah](http://steveteoh.github.io/Sabah/) (updated 11/8/,8/10,4/10,2/10,30/9) <br>  |
+8. [Sabah](http://steveteoh.github.io/Sabah/) (updated 11/10/,8/10,4/10,2/10,30/9) <br>  |
 9. [Perlis](https://steveteoh.github.io/Perlis/) (updated 10/10,8/10,4/10,2/10,30/9) <br>  |
 10. [Kedah](https://steveteoh.github.io/Kedah/) (updated 10/10,8/10,4/10,2/10,29/9) <br>  |
 11. [Pahang](https://steveteoh.github.io/Pahang/) (updated 10/10,9/10,5/10,3/10,29/9) <br>  |
