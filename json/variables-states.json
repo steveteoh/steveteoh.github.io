@@ -1,7 +1,7 @@
 ﻿[
   [ "title", "filename", "keyname", "key", "elementname", "element", "date" ],
   [ "1(a) Total Population 总人口", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/static/population.csv", "state", 0, "pop", 2, false ],
-  [ "1(b) Population age below 18 十八岁以下总人口", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/static/population.csv", "state", 0, "pop_18", 3, false ],
+  [ "1(b) Population age above 18 十八岁以上总人口", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/static/population.csv", "state", 0, "pop_18", 3, false ],
   [ "1(c) Population age above 60 六十岁以上总人口", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/static/population.csv", "state", 0, "pop_60", 4, false ],
   [ "1(d) Population of age below 12 十二岁以下总人口", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/static/population.csv", "state", 0, "pop_12", 5, false ],
   [ "2(a) Daily new cases 新增病例", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/cases_state.csv", "state", 1, "cases_new", 2, true ],
