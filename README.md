@@ -40,18 +40,18 @@ Note:
 ### <---Deprecated --->
 ### Covid-19 Hex Maps for Selangor Districts
 Below are standalone maps for Selangor districts: <br>
-1. [Ampang Jaya](http://steveteoh.github.io/AmpangJaya/) (updated 13/10,10/10,8/10,4/10,1/10,19/9,5/9), <br>
-2. [Hulu Langat](http://steveteoh.github.io/HuluLangat/) (updated 13/10,10/10,8/10,4/10,1/10,19/9), <br>
-3. [Hulu Selangor](http://steveteoh.github.io/HuluSelangor/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
-4. [Klang](http://steveteoh.github.io/Klang/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
-5. [Kuala Langat](http://steveteoh.github.io/KualaLangat/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
-6. [Kuala Selangor](http://steveteoh.github.io/KualaSelangor/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
-7. [Petaling Jaya](http://steveteoh.github.io/PetalingJaya/) (updated 13/10,10/10,8/10,4/10,1/10,20/9,5/9), <br>
-8. [Sabak Bernam](http://steveteoh.github.io/SabakBernam) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
-9. [Selayang](http://steveteoh.github.io/Selayang/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
-10. [Sepang](http://steveteoh.github.io/Sepang/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
-11. [Shah Alam](http://steveteoh.github.io/ShahAlam/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), and  <br>
-12. [Subang Jaya](http://steveteoh.github.io/SubangJaya/) (updated 13/10,10/10,8/10,4/10,1/10,19/9,9/9)<br>
+1. [Ampang Jaya](http://steveteoh.github.io/Selangor/AmpangJaya/) (updated 13/10,10/10,8/10,4/10,1/10,19/9,5/9), <br>
+2. [Hulu Langat](http://steveteoh.github.io/Selangor/HuluLangat/) (updated 13/10,10/10,8/10,4/10,1/10,19/9), <br>
+3. [Hulu Selangor](http://steveteoh.github.io/Selangor/HuluSelangor/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
+4. [Klang](http://steveteoh.github.io/Selangor/Klang/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
+5. [Kuala Langat](http://steveteoh.github.io/Selangor/KualaLangat/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
+6. [Kuala Selangor](http://steveteoh.github.io/Selangor/KualaSelangor/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
+7. [Petaling Jaya](http://steveteoh.github.io/Selangor/PetalingJaya/) (updated 13/10,10/10,8/10,4/10,1/10,20/9,5/9), <br>
+8. [Sabak Bernam](http://steveteoh.github.io/Selangor/SabakBernam) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
+9. [Selayang](http://steveteoh.github.io/Selangor/Selayang/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
+10. [Sepang](http://steveteoh.github.io/Selangor/Sepang/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
+11. [Shah Alam](http://steveteoh.github.io/Selangor/ShahAlam/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), and  <br>
+12. [Subang Jaya](http://steveteoh.github.io/Selangor/SubangJaya/) (updated 13/10,10/10,8/10,4/10,1/10,19/9,9/9)<br>
 
 ### Covid-19 Hex Maps for Wilayah Persekutuan Districts
 Below are standalone maps for Wilayah Persekutuan districts: <br>
