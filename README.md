@@ -43,7 +43,7 @@ Below are standalone maps for Selangor districts: <br>
 1. [Ampang Jaya](http://steveteoh.github.io/Selangor/AmpangJaya/) (updated 13/10,10/10,8/10,4/10,1/10,19/9,5/9), <br>
 2. [Hulu Langat](http://steveteoh.github.io/Selangor/HuluLangat/) (updated 13/10,10/10,8/10,4/10,1/10,19/9), <br>
 3. [Hulu Selangor](http://steveteoh.github.io/Selangor/HuluSelangor/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
-4. [Klang](http://steveteoh.github.io/Selangor/Selangor/Klang/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
+4. [Klang](http://steveteoh.github.io/Selangor/Klang/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
 5. [Kuala Langat](http://steveteoh.github.io/Selangor/KualaLangat/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
 6. [Kuala Selangor](http://steveteoh.github.io/Selangor/KualaSelangor/) (updated 13/10,10/10,8/10,4/10,1/10,21/9), <br>
 7. [Petaling Jaya](http://steveteoh.github.io/Selangor/PetalingJaya/) (updated 13/10,10/10,8/10,4/10,1/10,20/9,5/9), <br>
