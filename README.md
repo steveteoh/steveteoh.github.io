@@ -14,23 +14,23 @@ Here is the latest statistical map that contains all state-related variables.  T
 
 ### Covid-19 Hex Maps for Malaysia
 Below are state-level maps for : <br>
-1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (updated 21/10,20/10,19/10,18/10,17/10,12/10,10/10,8/10,5/10,3/10,30/9), <br> |  ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)
-2. [Johor](http://steveteoh.github.io/Johor/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,9/10,5/10,3/10,30/9), <br>        |
-3. [Kedah](https://steveteoh.github.io/Kedah/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,4/10,2/10,29/9) <br>  |
-4. [Kelantan](https://steveteoh.github.io/Kelantan/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,5/10,3/10,30/9) <br>  |
-5. [Melaka](http://steveteoh.github.io/Melaka/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,5/10,3/10,30/9), <br>  |
-6. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,5/10,3/10,30/9), <br>  |
-7. [Pahang](https://steveteoh.github.io/Pahang/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,9/10,5/10,3/10,29/9) <br>  |
-8. [Penang](http://steveteoh.github.io/Penang/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,4/10,2/10,30/9), <br>  |
-9. [Perak](https://steveteoh.github.io/Perak/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,9/10,4/10,2/10,29/9) <br>  |
-10. [Perlis](https://steveteoh.github.io/Perlis/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,4/10,2/10,30/9) <br>  |
-11. [Sabah](http://steveteoh.github.io/Sabah/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,11/10/,8/10,4/10,2/10,30/9) <br>  |
-12. [Sarawak](http://steveteoh.github.io/Sarawak/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,4/10,2/10,29/9) <br>  |
-13. [Terengganu](https://steveteoh.github.io/Terengganu/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,5/10,3/10,30/9) <br>  |
+1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (last updated ), <br> |  ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)
+2. [Johor](http://steveteoh.github.io/Johor/) (last updated ), <br>        |
+3. [Kedah](https://steveteoh.github.io/Kedah/) (last updated ), <br>  |
+4. [Kelantan](https://steveteoh.github.io/Kelantan/) (last updated ), <br>  |
+5. [Melaka](http://steveteoh.github.io/Melaka/) (last updated ), <br>  |
+6. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (last updated ), <br>  |
+7. [Pahang](https://steveteoh.github.io/Pahang/) (last updated ), <br>  |
+8. [Penang](http://steveteoh.github.io/Penang/) (last updated ), <br>  |
+9. [Perak](https://steveteoh.github.io/Perak/) (last updated ), <br>  |
+10. [Perlis](https://steveteoh.github.io/Perlis/) (last updated ), <br>  |
+11. [Sabah](http://steveteoh.github.io/Sabah/) (last updated ), <br>  |
+12. [Sarawak](http://steveteoh.github.io/Sarawak/) (last updated ), <br>  |
+13. [Terengganu](https://steveteoh.github.io/Terengganu/) (last updated ), <br>  |
 14. [Wilayah Persekutuan](http://steveteoh.github.io/Wilayah/) <br>  |
-    [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,5/10,3/10,30/9) <br>  |
-    [Putrajaya](http://steveteoh.github.io/Putrajaya/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,5/10,3/10,30/9) <br>  |
-    [Labuan](http://steveteoh.github.io/Labuan/) (updated 21/10,20/10,19/10,18/10,17/10,14/10,12/10,10/10,8/10,5/10,3/10,30/9) <br>  |
+    [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/) (last updated ), <br>  |
+    [Putrajaya](http://steveteoh.github.io/Putrajaya/) (last updated ), <br>  |
+    [Labuan](http://steveteoh.github.io/Labuan/) (last updated ).<br>  |
  
 Note: 
 1. The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
@@ -40,30 +40,30 @@ Note:
 ### <---Deprecated --->
 ### Covid-19 Hex Maps for Selangor Districts
 Below are standalone maps for Selangor districts: <br>
-1. [Ampang Jaya](http://steveteoh.github.io/Selangor/AmpangJaya/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,19/9,5/9), <br>
-2. [Hulu Langat](http://steveteoh.github.io/Selangor/HuluLangat/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,19/9), <br>
-3. [Hulu Selangor](http://steveteoh.github.io/Selangor/HuluSelangor/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,21/9), <br>
-4. [Klang](http://steveteoh.github.io/Selangor/Klang/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,21/9), <br>
-5. [Kuala Langat](http://steveteoh.github.io/Selangor/KualaLangat/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,21/9), <br>
-6. [Kuala Selangor](http://steveteoh.github.io/Selangor/KualaSelangor/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,21/9), <br>
-7. [Petaling Jaya](http://steveteoh.github.io/Selangor/PetalingJaya/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,20/9,5/9), <br>
-8. [Sabak Bernam](http://steveteoh.github.io/Selangor/SabakBernam) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,21/9), <br>
-9. [Selayang](http://steveteoh.github.io/Selangor/Selayang/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,21/9), <br>
-10. [Sepang](http://steveteoh.github.io/Selangor/Sepang/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,21/9), <br>
-11. [Shah Alam](http://steveteoh.github.io/Selangor/ShahAlam/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,21/9), and  <br>
-12. [Subang Jaya](http://steveteoh.github.io/Selangor/SubangJaya/) (updated 21/10,20/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,1/10,19/9,9/9)<br>
+1. [Ampang Jaya](http://steveteoh.github.io/Selangor/AmpangJaya/) (last updated 26/10), <br>
+2. [Hulu Langat](http://steveteoh.github.io/Selangor/HuluLangat/) (last updated 26/10), <br>
+3. [Hulu Selangor](http://steveteoh.github.io/Selangor/HuluSelangor/) (last updated 26/10), <br>
+4. [Klang](http://steveteoh.github.io/Selangor/Klang/) (last updated 26/10), <br>
+5. [Kuala Langat](http://steveteoh.github.io/Selangor/KualaLangat/) (last updated 26/10), <br>
+6. [Kuala Selangor](http://steveteoh.github.io/Selangor/KualaSelangor/) (last updated 26/10), <br>
+7. [Petaling Jaya](http://steveteoh.github.io/Selangor/PetalingJaya/) (last updated 26/10), <br>
+8. [Sabak Bernam](http://steveteoh.github.io/Selangor/SabakBernam) (last updated 26/10), <br>
+9. [Selayang](http://steveteoh.github.io/Selangor/Selayang/) (last updated 26/10), <br>
+10. [Sepang](http://steveteoh.github.io/Selangor/Sepang/) (last updated 26/10), <br>
+11. [Shah Alam](http://steveteoh.github.io/Selangor/ShahAlam/) (last updated 26/10), and  <br>
+12. [Subang Jaya](http://steveteoh.github.io/Selangor/SubangJaya/) (last updated 26/10).<br>
 
 ### Covid-19 Hex Maps for Wilayah Persekutuan Districts
 Below are standalone maps for Wilayah Persekutuan districts: <br>
-1. [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur) (updated 21/10,20/10,19/10,18/10,17/10,14/10,13/10,10/10,8/10,3/10,30/9,19/9)<br>
-2. [Putrajaya](http://steveteoh.github.io/Putrajaya) (updated 21/10,20/10,19/10,18/10,17/10,14/10,13/10,10/10,8/10,3/10,30/9,19/9), and<br>
-3. [Labuan](http://steveteoh.github.io/Labuan) (updated 21/10,20/10,19/10,18/10,17/10,14/10,13/10,10/10,8/10,3/10,30/9,19/9)<br>
+1. [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur) (last updated ),<br>
+2. [Putrajaya](http://steveteoh.github.io/Putrajaya) (last updated ), and<br>
+3. [Labuan](http://steveteoh.github.io/Labuan) (last updated ).<br>
 
 ### Covid-19 Hex Maps for Penang Districts
 Below are standalone maps for Penang districts: <br>
-1. [Penang state](http://steveteoh.github.io/Penang/index.html) (updated 21/10,20/10,19/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,2/10,30/9,19/9),  <br>
-2. [Penang island](http://steveteoh.github.io/Penang/island.html) (updated 21/10,20/10,19/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,2/10,30/9,19/9,10/9), and  <br>
-3. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) (updated 21/10,20/10,19/10,18/10,17/10,14/10,13/10,10/10,8/10,4/10,2/10,30/9,19/9) <br>
+1. [Penang state](http://steveteoh.github.io/Penang/index.html) (last updated ),  <br>
+2. [Penang island](http://steveteoh.github.io/Penang/island.html) (last updated ), and  <br>
+3. [Seberang Perai](http://steveteoh.github.io/Penang/perai.html) (last updated ). <br>
 
 General Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
 
