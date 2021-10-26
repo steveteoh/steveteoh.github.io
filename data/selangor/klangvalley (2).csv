@@ -1863,7 +1863,7 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 3.1860498,101.7072093,Daerah: KL<br>No:1862<br>Hex coord:(66;44),Jalan Ayer Molek 1. Titiwangsa. Kuala Lumpur. Malaysia,33 ,0,0,0,0,0,1,2021-10-26T07:19:53.7120778Z,0
 3.1782698,101.7207438,Daerah: KL<br>No:1863<br>Hex coord:(67;44),Jalan Sultan Yahya Petra. Semarak. 54100 Kuala Lumpur. Malaysia,27 ,0,0,0,0,0,1,2021-10-26T07:19:55.4388086Z,0
 3.1860498,101.7342783,Daerah: KL<br>No:1864<br>Hex coord:(68;44),Lebuhraya Duta-Ulu Kelang. Setiawangsa. 54100 Kuala Lumpur. Malaysia,91 ,0,0,0,0,0,1,2021-10-26T07:19:56.5596433Z,0
-3.1782698,101.7478128,Daerah: KL<br>No:1865<br>Hex coord:(69;44),Jalan Taman Setiawangsa. Taman Setiawangsa. Kuala Lumpur. Malaysia,91 ,0,0,0,0,0,1,2021-10-26T07:19:58.2682879Z,0
+3.1782698,101.7478128,Daerah: SEL/KL<br>No:1865<br>Hex coord:(69;44),Jalan Taman Setiawangsa. Taman Setiawangsa. Kuala Lumpur. Malaysia,91 ,0,0,0,0,0,1,2021-10-26T07:19:58.2682879Z,0
 3.1860498,101.7613472,Daerah: SEL/KL<br>No:1866<br>Hex coord:(70;44),Petron. Jalan Lingkaran Tengah 2. Taman Setiawangsa. Kuala Lumpur. Malaysia,37 ,0,0,0,0,0,1,2021-10-26T07:19:59.3972901Z,0
 3.1782698,101.7748817,Daerah: Selangor<br>No:1867<br>Hex coord:(71;44),Jalan Laman Oakleaf 2/1. Bukit Antarabangsa. 54200 Ampang. Selangor. Malaysia,5 ,0,0,0,0,0,1,2021-10-26T07:20:01.6116093Z,0
 3.1860498,101.7884162,Daerah: Selangor<br>No:1868<br>Hex coord:(72;44),Hutan Rizab Ampang. Gombak. Malaysia,0,0,0,0,0,0,1,2021-10-26T07:20:03.3031533Z,0
@@ -1996,15 +1996,15 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 3.1315898,101.5853991,Daerah: Selangor<br>No:1995<br>Hex coord:(57;47),Tropicana Golf & Country Resort. Jalan Tropicana Utama. Ara Damansara. 47410 Petaling Jaya. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-10-26T07:23:21.0616884Z,0
 3.1393698,101.5989335,Daerah: Selangor<br>No:1996<br>Hex coord:(58;47),Mutiara Damansara. 47410 Petaling Jaya. Selangor. Malaysia,8 ,0,0,0,0,0,1,2021-10-26T07:23:22.7514726Z,0
 3.1315898,101.612468,Daerah: Selangor<br>No:1997<br>Hex coord:(59;47),Boulevard Residence. Petaling Jaya. Selangor. Malaysia,10 ,0,0,0,0,0,1,2021-10-26T07:23:25.0701640Z,0
-3.1393698,101.6260025,Daerah: SEl/KL<br>No:1998<br>Hex coord:(60;47),28 Jalan SS 20/21. Petaling Jaya. Selangor. Malaysia,11 ,0,0,0,0,0,1,2021-10-26T07:23:26.1843052Z,0
-3.1315898,101.639537,Daerah: KL<br>No:1999<br>Hex coord:(61;47),Kelab Golf Perkhidmatan Awam. Sprint Expressway (Damansara Link). Bangsar. 46350 Kuala Lumpur. Malaysia,2 ,0,0,0,0,0,1,2021-10-26T07:23:27.2980548Z,0
+3.1393698,101.6260025,Daerah: SEL/KL<br>No:1998<br>Hex coord:(60;47),28 Jalan SS 20/21. Petaling Jaya. Selangor. Malaysia,11 ,0,0,0,0,0,1,2021-10-26T07:23:26.1843052Z,0
+3.1315898,101.639537,Daerah: SEL/KL<br>No:1999<br>Hex coord:(61;47),Kelab Golf Perkhidmatan Awam. Sprint Expressway (Damansara Link). Bangsar. 46350 Kuala Lumpur. Malaysia,2 ,0,0,0,0,0,1,2021-10-26T07:23:27.2980548Z,0
 3.1393698,101.6530714,Daerah: KL<br>No:2000<br>Hex coord:(62;47),Pencawang Masuk Utama TNB Bukit Kiara. Bukit Kiara. Kuala Lumpur. Malaysia,4 ,0,0,0,0,0,1,2021-10-26T07:23:28.4027210Z,0
 3.1315898,101.6666059,Daerah: KL<br>No:2001<br>Hex coord:(63;47),Jalan Terasek 1. Bangsar Baru. Kuala Lumpur. Malaysia,1 ,0,0,0,0,0,1,2021-10-26T07:23:30.0806322Z,0
 3.1393698,101.6801404,Daerah: KL<br>No:2002<br>Hex coord:(64;47),Malaysian Nature Society. 641 Jalan Kelantan. Federal Hill. 50480 Kuala Lumpur. Kuala Lumpur. Malaysia,21 ,0,0,0,0,0,1,2021-10-26T07:23:31.7829244Z,0
 3.1315898,101.6936749,Daerah: KL<br>No:2003<br>Hex coord:(65;47),Sri Kandaswamy Kovil. 3 Lorong Scott. Kg. Attap. 50470 Kuala Lumpur. Kuala Lumpur. Malaysia,15 ,0,0,0,0,0,1,2021-10-26T07:23:32.9891237Z,0
 3.1393698,101.7072093,Daerah: KL<br>No:2004<br>Hex coord:(66;47),Lorong Meranti 3. Bukit Bintang. Kuala Lumpur. Malaysia,48 ,0,0,0,0,0,1,2021-10-26T07:23:34.7308339Z,0
 3.1315898,101.7207438,Daerah: KL<br>No:2005<br>Hex coord:(67;47),SK Convent Jalan Peel. Jalan Peel. Cheras. 55100 Kuala Lumpur. Malaysia,52 ,0,0,0,0,0,1,2021-10-26T07:23:35.8676132Z,0
-3.1393698,101.7342783,Daerah: KL<br>No:2006<br>Hex coord:(68;47),Lorong Enam. Kampung Pandan. 50988 Kuala Lumpur. Malaysia,31 ,0,0,0,0,0,1,2021-10-26T07:23:36.9935826Z,0
+3.1393698,101.7342783,Daerah: SEL/KL<br>No:2006<br>Hex coord:(68;47),Lorong Enam. Kampung Pandan. 50988 Kuala Lumpur. Malaysia,31 ,0,0,0,0,0,1,2021-10-26T07:23:36.9935826Z,0
 3.1315898,101.7478128,Daerah: Selangor<br>No:2007<br>Hex coord:(69;47),Jalan Pandan Indah 1/11. Selangor. Malaysia,79 ,0,0,0,0,0,1,2021-10-26T07:23:38.7249379Z,0
 3.1393698,101.7613472,Daerah: Selangor<br>No:2008<br>Hex coord:(70;47),249A Jalan 8. Ampang. Selangor. Malaysia,72 ,0,0,0,0,0,1,2021-10-26T07:23:39.8723543Z,0
 3.1315898,101.7748817,Daerah: Selangor<br>No:2009<br>Hex coord:(71;47),Jalan 2/2. Taman Tasik Tambahan. 68000 Ampang Jaya Municipal Council. Selangor. Malaysia,42 ,0,0,0,0,0,1,2021-10-26T07:23:41.0399087Z,0
