@@ -1,12 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\data",
+    "\\data\\kedah",
+    "\\data\\kelantan",
+    "\\data\\melaka",
+    "\\data\\negerisembilan",
     "\\data\\pahang",
-    "\\data\\sabah",
-    "\\data\\sarawak",
-    "\\Statistics"
+    "\\data\\penang",
+    "\\data\\perak",
+    "\\data\\perlis",
+    "\\Maps"
   ],
-  "SelectedNode": "\\data\\pahang\\pahang.csv",
+  "SelectedNode": "\\Maps\\geoBoundaries-MYS-ADM2_simplified.geojson",
   "PreviewInSolutionExplorer": false
 }
