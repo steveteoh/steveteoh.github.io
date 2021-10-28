@@ -14,7 +14,7 @@ Here is the latest statistical map that contains all state-level variables. The 
 
 Here is the latest statistical map that contains all district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public )  
 [State statistics page](https://steveteoh.github.io/Statistics/main2.html)    
-![District-level Statistic Maps](https://steveteoh.github.io/img/statistics2.png)
+![District-level Statistic Maps](https://steveteoh.github.io/img/statistics2.png) 
 
 ### Covid-19 Hex Maps for Malaysia
 Below are state-level maps for : <br>
