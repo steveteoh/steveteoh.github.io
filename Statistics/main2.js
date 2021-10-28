@@ -1,7 +1,8 @@
 /*
-* By Steve Teoh v 1.0.0 @ 2021/10/06 Live Data Display for Malaysia
+* By Steve Teoh v 1.0.0 @ 2021/10/26 Live Data Display for Districts in Malaysia
 * (For Research Purposes only. Free for reuse with explicit consent from the author and a formal acknowledgement is stated in the header)
 * Purpose: Area Display Tool
+* 
 * Credits: 
 * 1. Google Map API documentation https://developers.google.com/maps/documentation/javascript/combining-data#maps_combining_data-javascript
 * 2. Source Data https://github.com/MoH-Malaysia/covid19-public/tree/main/
@@ -11,6 +12,11 @@
 * css, html
 * json, geojson, csv
 * Google Map API
+* 
+* Issues: 
+* Still many unresolved items as the MOH data is full of inconsistencies in district names and representation, 'pelbagai', '&', 'dan' etc
+* You may need to implement a language parser to handle these kinds of input.
+* 
 * ----
 * Steve is an avid wargamer and crazy programmer who can code at amazing speed. 
 * Kindly contact Steve Teoh at [@teohcheehooi](https://twitter.com/teohcheehooi) or email to [Steve](mailto:chteoh@1utar.my?subject=Map "Map")
@@ -34,22 +40,24 @@ const mapStyle = [
 ];
 
 let map;
+let markers;
 let infoWindow;
 let censusMin = Number.MAX_VALUE,
     censusMax = -Number.MAX_VALUE;
-let myStates = [];
+let myDistricts;
 let lastDate = new Date().toISOString().split('T')[0];
-let baseaddress = "https://steveteoh.github.io";
+let baseaddress = "http://localhost:1337";
+//let baseaddress = "https://steveteoh.github.io";
 
 /** This is the main initMap function to be called during the Google API init  */
 function initMap() {
-    loadStates(baseaddress + "/json/states.json");   //can be on localhost or actual site
-    loadSelectOptions(baseaddress + "/json/variables-states.json");  //can be on localhost or actual site
+    loadDistricts(baseaddress + "/json/districts.json");   //can be on localhost or actual site
+    loadSelectOptions(baseaddress + "/json/variables-districts.json");  //can be on localhost or actual site
 
     // load the map
     map = new google.maps.Map(document.getElementById("map"), {
         center: { lat: 4, lng: 109 },
-        zoom: 6,
+        zoom: 7,
         mapTypeControl: false,
         styles: mapStyle,
     });
@@ -84,41 +92,48 @@ function initMap() {
  * @param {any} event
  */
 function showClick(event) {
-    let contentString =
-        "<b>Details</b><br>" +
-        event.feature.getProperty('shapeName') + " total = " + event.feature.getProperty("census_variable").toLocaleString();
-
+    let contentString = "<b>Details</b><br>" +
+        event.feature.getProperty('shapeName') + " total = " + event.feature.getProperty("census-total").toLocaleString() +
+        "<br>" + event.feature.getProperty('clusters');
     // Replace the info window's content and position.
     infoWindow.setContent(contentString);
     infoWindow.setPosition(event.latLng);
     infoWindow.open(map);
 }
 
+
 /** Loads the state boundary polygons from a GeoJSON source. */
 function loadMapShapes() {
     // load state outline polygons from a GeoJson file
-    map.data.loadGeoJson(baseaddress + "/Maps/geoBoundaries-MYS-ADM1_simplified.geojson", { idPropertyName: 'STATE' },
-        function (features) {
+    map.data.loadGeoJson("https://steveteoh.github.io/Maps/geoBoundaries-MYS-ADM2_simplified.geojson", { idPropertyName: 'DISTRICT' },
+        (features) => {
             for (var i = 0; i < features.length; i++) {
                 var bounds = new google.maps.LatLngBounds();
                 features[i].getGeometry().forEachLatLng(function (latlng) {
                     bounds.extend(latlng);
                 });
-                var myLatlng = bounds.getCenter();
-                var mapLabel = new MapLabel({
-                    text: features[i].getProperty("shapeName"),
-                    position: myLatlng,
+                var lats = parseFloat(bounds.getCenter().toUrlValue().split(',')[0]);
+                var lons = parseFloat(bounds.getCenter().toUrlValue().split(',')[1]);
+
+                markers = new MarkerWithLabel({
+                    position: new google.maps.LatLng({ lat: lats, lng: lons }),
+                    draggable: false,
+                    raiseOnDrag: true,
                     map: map,
-                    fontSize: 11,
-                    align: 'center',
+                    labelContent: features[i].getProperty("shapeName"),   
+                    labelAnchor: new google.maps.Point(80, 0),
+                    labelClass: "labels",                           // the CSS class for the label
+                    labelStyle: { opacity: 0.6 }
                 });
-                mapLabel.set('position', myLatlng);
+                markers.setIcon("http://maps.google.com/mapfiles/kml/pal4/icon24.png");
             }
-        });
+        }
+    );
 
     // wait for the request to complete by listening for the first feature to be added
-    google.maps.event.addListenerOnce(map.data, "addfeature", () => {
+    google.maps.event.addListenerOnce(map.data, "addfeature", (e) => {
         google.maps.event.trigger(document.getElementById("census-variable"), "change");
+
     });
 }
 
@@ -141,7 +156,7 @@ function loadSelectOptions(sourceFile) {
             const elementid = thisrow[5];
             const isdate = thisrow[6];
             var opt = document.createElement("option");
-            opt.value = filename + "," + keyid + "," + elementid + "," + isdate;
+            opt.value = filename + "," + keyid + "," + elementid + "," + isdate;  //option values contains 3 parts separated by commas
             opt.innerHTML = title;
             //append it to the select element
             selectList.appendChild(opt);
@@ -156,11 +171,11 @@ function loadSelectOptions(sourceFile) {
  * 
  * @param {string} sourceFile
  */
-function loadStates(sourceFile) {
+function loadDistricts(sourceFile) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            myStates = JSON.parse(this.responseText);
+            myDistricts = JSON.parse(this.responseText); //return object
         }
     };
     xhr.open("GET", sourceFile);   //.json file
@@ -170,14 +185,14 @@ function loadStates(sourceFile) {
 /**
  * Function to get the state index 
  * 
- * @param {any} stateName
+ * @param {any} districtName
  */
-function getStateIndex(stateName) {
-    for (let i = 0; i < myStates.length - 1; i++) {
-        if (myStates[i][0] == stateName)
-            return myStates[i][1];
+function getDistrictIndex(districtName) {
+    for (let i = 0; i < Object.keys(myDistricts).length - 1; i++) {
+        if ((myDistricts[i]['daerah'] == districtName))
+            return myDistricts[i]['no'];   
     };
-    return -1;
+    return 0;
 }
 
 /**
@@ -195,13 +210,13 @@ function loadCensusData(filename, keyid, elementid, daily) {
         loadCsvItem(filename, keyid, elementid, daily);
     }
     //Display initial Date
-    document.getElementById("date-label").textContent = "Last Upd";
+    document.getElementById("date-label").textContent = "Last Update";
     document.getElementById("date-box").style.display = "block";
     document.getElementById("date-value").textContent = lastDate;
 }
 
 /**
- * Date Function to return "Yesterday" in ISO format e.g. 2021-10-07
+ * Date Function to return "Yesterday" in ISO format e.g. 2021-10-17 (for example)
  */
 const yesterday = () => {
     let d = new Date();
@@ -211,7 +226,7 @@ const yesterday = () => {
 
 /**
  * Loads data from a json file according to the specified key id (usually state id) and the element id (from the list of variables)
- * (WIP) 
+ * (WIP) ...
  *  
  * @param {any} filename
  * @param {any} keyId
@@ -219,15 +234,15 @@ const yesterday = () => {
  * @param {any} daily
  */
 function loadJsonItem(filename, keyId, elementId, daily) {
-    // load the requested variable from the census API (using local copies)
+     // load the requested variable from the census API (using local copies)
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", filename);
+    xhr.open("GET", filename);   //.json
     xhr.onload = function () {
         const censusData = JSON.parse(xhr.responseText);
-        censusData.shift();
+        censusData.shift(); // the first row contains column names
         censusData.forEach((row) => {
-            const censusVariable = parseFloat(row[0]);
-            const stateId = row[1];
+            const censusVariable = parseFloat(row[elementId]);
+            const districtId = row[keyId];
             // keep track of min and max values
             if (censusVariable < censusMin) {
                 censusMin = censusVariable;
@@ -237,10 +252,10 @@ function loadJsonItem(filename, keyId, elementId, daily) {
                 censusMax = censusVariable;
             }
 
-            const state = map.data.getFeatureById(stateId); //get the state features from gmap
+            const dist = map.data.getFeatureById(districtId); //get the state features from gmap
             // update the existing row with the new data
-            if (state) {
-                state.setProperty("census_variable", censusVariable);
+            if (dist) {
+                dist.setProperty("census-variable", censusVariable);
             }
         });
         // update and display the legend
@@ -249,6 +264,7 @@ function loadJsonItem(filename, keyId, elementId, daily) {
     };
     xhr.send();
 }
+
 
 /**
  * Loads data from a CSV file according to the specified key id (usually state id) and the element id (from the list of variables) 
@@ -268,47 +284,89 @@ function loadCsvItem(filename, keyId, elementId, daily) {
         const arr = censusData.split("\n").slice(1); // the first row contains column names so we drop it, second row onwards is data!
 
         if (daily == "true") {
-            lastDate = arr[arr.length - 2].split(',')[0];
+            lastDate = arr[arr.length - 2].split(',')[3];    //last item
         }
         else {
             lastDate = new Date().toISOString().split('T')[0];
         }
 
         arr.map(function (row, index) {
-            const items = row.split(',');
-            var stateId = 0;
+            const items = CSVtoArray(row); 
+            var districtId = 0;
 
-            if (daily == "true") {
-                if (items[0] != lastDate) {
-                    return; //if daily data, skip previous dates until the latest
+            //for new cases
+            if (elementId == 7 && daily == "true") {
+                if (items[3] != lastDate) {
+                    return; //if daily data, skip previous dates
                 }
             }
 
-            if (isNaN(items[keyId])) {
-                //Reason: E.g. Name used as key id for state
-                var stateIndex = getStateIndex(items[keyId]);
-                stateId = stateIndex;
-            }
-            else {
-                stateId = items[keyId];
+            //skip zero values
+            if (items[elementId] == 0) {
+                return; // skip zeroes
             }
 
-            var censusVariable = isNaN(items[elementId]) ? 0 : parseFloat(items[elementId]);
-            if (isNaN(censusVariable)) censusVariable = 0;
-            //double protection, in case the government decides not to release certain variables, the data will be null which cannot be displayed (happening in 9/10/2021?!)
+            //Show only active, skip the rest
+            if (elementId == 9 && items[6] != "active") {
+                return;
+            }
 
-            // keep track of min and max values
-            if (censusVariable < censusMin) {
-                censusMin = censusVariable;
-            }
-            if (censusVariable > censusMax) {
-                censusMax = censusVariable;
-            }
-            const state = map.data.getFeatureById(stateId);
-            // update the existing row with the new data
-            if (state) {
-                state.setProperty("census_variable", censusVariable);
-            }
+            var dists = [];
+            if (items[keyId] != undefined)
+                dists = items[keyId].split(',');   //to cater for mixed names (not 1-1 mapping) in the district field. What a mess....                          
+
+            var censusVariable = 0, censusTotal = 0, wpcount = 0; //wpcount: to handle duplicate count for Wilayah areas in a line of data
+
+            dists.map(function (item, index) {
+                if (isNaN(item)) {    
+                    //Reason: E.g. Name used as key id for districts
+                    var districtIndex = getDistrictIndex(item.trimStart()); //trim any leading spaces
+                    districtId = districtIndex;
+                }
+                else {
+                    districtId = item;  
+                }
+
+                if (districtId == 150) wpcount++;
+                if (wpcount > 1) {
+                    return;  //skip to avoid duplicate count for wilayah
+                }
+
+                censusVariable = isNaN(items[elementId]) ? 0 : parseFloat(items[elementId]);
+                if (isNaN(censusVariable)) censusVariable = 0;
+
+                //construct the message for cluster property
+                var msg = " " + items[3] + ", " + items[0] + ", " + items[5] + ", " + items[6] + ", total=" + censusVariable;
+
+                // keep track of min and max values
+                if (censusVariable < censusMin) {
+                    censusMin = censusVariable;
+                }
+                if (censusVariable > censusMax) {
+                    censusMax = censusVariable;
+                }
+
+                const distr = map.data.getFeatureById(districtId);
+                // update the existing row with the new data
+                if (distr) {
+                    censusTotal = distr.getProperty("census-total");
+                    if (typeof (censusTotal) == "undefined") censusTotal = 0;
+                    distr.setProperty("census-variable", censusVariable);
+                    distr.setProperty("census-total", censusTotal + censusVariable);
+
+                    var info = distr.getProperty("clusters");
+                    if (typeof (info) == "undefined") info = "";
+                    distr.setProperty("clusters", info + "<br>" + msg);
+
+                    // keep track of min and max values
+                    if (censusTotal + censusVariable < censusMin) {
+                        censusMin = censusTotal + censusVariable;
+                    }
+                    if (censusTotal + censusVariable > censusMax) {
+                        censusMax = censusTotal + censusVariable;
+                    }
+                }
+            });
         });
         // update and display the legend
         document.getElementById("census-min").textContent = censusMin.toLocaleString();
@@ -317,12 +375,43 @@ function loadCsvItem(filename, keyId, elementId, daily) {
     xhr.send();
 }
 
+/**
+ * Return array of string values, or NULL if CSV string not well formed regex.
+ * 
+ * @param {any} text
+ */
+function CSVtoArray(text) {
+    //Sorry. MOH's data is simply non RFC4180 compliant so there is no need for this strict regex checking.
+
+    //var re_valid = /^\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*(?:,\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*)*$/;
+    // Return NULL if input string is not well formed CSV string.
+    // if (!re_valid.test(text)) return null;
+
+    var re_value = /(?!\s*$)\s*(?:'([^'\\]*(?:\\[\S\s][^'\\]*)*)'|"([^"\\]*(?:\\[\S\s][^"\\]*)*)"|([^,'"\s\\]*(?:\s+[^,'"\s\\]+)*))\s*(?:,|$)/g;
+
+    var a = [];                     // Initialize array to receive values.
+    text.replace(re_value,          // "Walk" the string using replace with callback.
+        function (m0, m1, m2, m3) {
+            // Remove backslash from \' in single quoted values.
+            if (m1 !== undefined) a.push(m1.replace(/\\'/g, "'"));
+            // Remove backslash from \" in double quoted values.
+            else if (m2 !== undefined) a.push(m2.replace(/\\"/g, '"'));
+            else if (m3 !== undefined) a.push(m3);
+            return ''; // Return empty string.
+        });
+    // Handle special case of empty last value.
+    if (/,\s*$/.test(text)) a.push('');
+    return a;
+};
+
 /** Removes census data from each shape on the map and resets the UI. */
 function clearCensusData() {
     censusMin = Number.MAX_VALUE;
     censusMax = -Number.MAX_VALUE;
     map.data.forEach((row) => {
-        row.setProperty("census_variable", undefined);
+        row.setProperty("census-variable", undefined);
+        row.setProperty("census-total", undefined);
+        row.setProperty("clusters", undefined);
     });
     document.getElementById("data-box").style.display = "none";
     document.getElementById("data-caret").style.display = "none";
@@ -330,7 +419,7 @@ function clearCensusData() {
 }
 
 /**
- * Applies a gradient style based on the 'census_variable' column.
+ * Applies a gradient style based on the 'census-total' column.
  * This is the callback passed to data.setStyle() and is called for each row in
  * the data set.  Check out the docs for Data.StylingFunction.
  *
@@ -341,7 +430,7 @@ function styleFeature(feature) {
     const low = [151, 83, 34]; // color of smallest datum
 
     // delta represents where the value sits between the min and max
-    const delta = (feature.getProperty("census_variable") - censusMin) / (censusMax - censusMin);
+    const delta = (feature.getProperty("census-total") - censusMin) / (censusMax - censusMin);
     const color = [];
 
     for (let i = 0; i < 3; i++) {
@@ -353,7 +442,7 @@ function styleFeature(feature) {
     let showRow = true;
 
     if (
-        feature.getProperty("census_variable") == null || isNaN(feature.getProperty("census_variable"))
+        feature.getProperty("census-total") == null || isNaN(feature.getProperty("census-total"))
     ) {
         showRow = false;
     }
@@ -382,16 +471,16 @@ function styleFeature(feature) {
 function mouseInToRegion(e) {
     // set the hover state so the setStyle function can change the border
     e.feature.setProperty("state", "hover");
-    const percent = ((e.feature.getProperty("census_variable") - censusMin) / (censusMax - censusMin)) * 100;
+    const percent = ((e.feature.getProperty("census-variable") - censusMin) / (censusMax - censusMin)) * 100;
 
     // update the label
     document.getElementById("data-label").textContent = e.feature.getProperty("shapeName");
-    document.getElementById("data-value").textContent = e.feature.getProperty("census_variable").toLocaleString();
+    document.getElementById("data-value").textContent = e.feature.getProperty("census-total").toLocaleString();
     document.getElementById("data-box").style.display = "block";
     document.getElementById("data-caret").style.display = "block";
     document.getElementById("data-caret").style.paddingLeft = percent + "%";
     //update data
-    document.getElementById("date-label").textContent = "Last Upd";
+    document.getElementById("date-label").textContent = "Last Update";
     document.getElementById("date-value").textContent = lastDate;
     document.getElementById("date-box").style.display = "block";
 }
