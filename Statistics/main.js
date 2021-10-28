@@ -95,7 +95,24 @@ function showClick(event) {
 /** Loads the state boundary polygons from a GeoJSON source. */
 function loadMapShapes() {
     // load state outline polygons from a GeoJson file
-    map.data.loadGeoJson(baseaddress + "/Maps/geoBoundaries-MYS-ADM1_simplified.geojson", { idPropertyName: 'STATE' });
+    map.data.loadGeoJson(baseaddress + "/Maps/geoBoundaries-MYS-ADM1_simplified.geojson", { idPropertyName: 'STATE' },
+        function (features) {
+            for (var i = 0; i < features.length; i++) {
+                var bounds = new google.maps.LatLngBounds();
+                features[i].getGeometry().forEachLatLng(function (latlng) {
+                    bounds.extend(latlng);
+                });
+                var myLatlng = bounds.getCenter();
+                var mapLabel = new MapLabel({
+                    text: features[i].getProperty("shapeName"),
+                    position: myLatlng,
+                    map: map,
+                    fontSize: 12,
+                    align: 'center',
+                });
+                mapLabel.set('position', myLatlng);
+            }
+        });
 
     // wait for the request to complete by listening for the first feature to be added
     google.maps.event.addListenerOnce(map.data, "addfeature", () => {
