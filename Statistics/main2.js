@@ -46,8 +46,7 @@ let censusMin = Number.MAX_VALUE,
     censusMax = -Number.MAX_VALUE;
 let myDistricts;
 let lastDate = new Date().toISOString().split('T')[0];
-let baseaddress = "http://localhost:1337";
-//let baseaddress = "https://steveteoh.github.io";
+let baseaddress = "https://steveteoh.github.io";
 
 /** This is the main initMap function to be called during the Google API init  */
 function initMap() {
