@@ -12,7 +12,7 @@ Here is the latest statistical map that contains all state-level variables. The 
 [State statistics page](https://steveteoh.github.io/Statistics/)    
 ![State-level Statistic Maps](https://steveteoh.github.io/img/statistics.png)
 
-Here is the latest statistical map that contains all district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public )  
+Here is the latest statistical map that contains district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public )  
 [State statistics page](https://steveteoh.github.io/Statistics/main2.html)    
 ![District-level Statistic Maps](https://steveteoh.github.io/img/statistics2.png) 
 
