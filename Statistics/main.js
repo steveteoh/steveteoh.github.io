@@ -107,7 +107,7 @@ function loadMapShapes() {
                     text: features[i].getProperty("shapeName"),
                     position: myLatlng,
                     map: map,
-                    fontSize: 12,
+                    fontSize: 11,
                     align: 'center',
                 });
                 mapLabel.set('position', myLatlng);
