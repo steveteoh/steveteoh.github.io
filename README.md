@@ -18,18 +18,18 @@ Here is the statistical map that contains all state-level variables. The dropdow
 
 ### Covid-19 Hex Maps for Malaysia
 Below are state-level maps for : <br>
-1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (last updated 01/11/2021), <br> |  ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)
-2. [Johor](http://steveteoh.github.io/Johor/) (last updated 01/11), <br>        |
+1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (last updated 31/10/2021), <br> |  ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)
+2. [Johor](http://steveteoh.github.io/Johor/) (last updated 31/10), <br>        |
 3. [Kedah](https://steveteoh.github.io/Kedah/) (last updated 01/11), <br>  |
 4. [Kelantan](https://steveteoh.github.io/Kelantan/) (last updated 01/11), <br>  |
-5. [Melaka](http://steveteoh.github.io/Melaka/) (last updated 01/11), <br>  |
-6. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (last updated 01/11), <br>  |
+5. [Melaka](http://steveteoh.github.io/Melaka/) (last updated 31/10), <br>  |
+6. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (last updated 31/10), <br>  |
 7. [Pahang](https://steveteoh.github.io/Pahang/) (last updated 01/11), <br>  |
 8. [Penang](http://steveteoh.github.io/Penang/) (last updated 01/11), <br>  |
 9. [Perak](https://steveteoh.github.io/Perak/) (last updated 01/11), <br>  |
 10. [Perlis](https://steveteoh.github.io/Perlis/) (last updated 01/11), <br>  |
-11. [Sabah](http://steveteoh.github.io/Sabah/) (last updated 01/11), <br>  |
-12. [Sarawak](http://steveteoh.github.io/Sarawak/) (last updated 01/11), <br>  |
+11. [Sabah](http://steveteoh.github.io/Sabah/) (last updated 31/10), <br>  |
+12. [Sarawak](http://steveteoh.github.io/Sarawak/) (last updated 31/10), <br>  |
 13. [Terengganu](https://steveteoh.github.io/Terengganu/) (last updated 01/11), <br>  |
 14. [Wilayah Persekutuan](http://steveteoh.github.io/Wilayah/) <br>  |
     [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/) (last updated 01/11), <br>  |
