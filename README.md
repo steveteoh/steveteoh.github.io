@@ -34,7 +34,7 @@ Below are state-level maps for : <br>
 14. [Wilayah Persekutuan](http://steveteoh.github.io/Wilayah/) <br>  |
     [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/) (last updated 01/11), <br>  |
     [Putrajaya](http://steveteoh.github.io/Putrajaya/) (last updated 01/11), <br>  |
-    [Labuan](http://steveteoh.github.io/Labuan/) (last updated 01/11).<br>  |
+    [Labuan](http://steveteoh.github.io/Labuan/) (last updated 01/11).<br>  | 
  
 Note: 
 1. The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
