@@ -1,0 +1,394 @@
+lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp,reserved
+3.8629098,100.935344,Daerah: Sabak Bernam<br>No:1<br>Hex coord:(9;0),Hutan Melintang. Hilir Perak. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:10.1251908Z,0
+3.8473498,100.827424,Daerah: Sabak Bernam<br>No:2<br>Hex coord:(1;1),Sungai Lang. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:11.8261291Z,0
+3.8473498,100.854404,Daerah: Sabak Bernam<br>No:3<br>Hex coord:(3;1),Sabak Bernam. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:13.5264449Z,0
+3.8551298,100.867894,Daerah: Sabak Bernam<br>No:4<br>Hex coord:(4;1),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:15.2207865Z,0
+3.8473498,100.881384,Daerah: Sabak Bernam<br>No:5<br>Hex coord:(5;1),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:16.3108469Z,0
+3.8551298,100.894874,Daerah: Sabak Bernam<br>No:6<br>Hex coord:(6;1),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:17.4261778Z,0
+3.8473498,100.908364,Daerah: Sabak Bernam<br>No:7<br>Hex coord:(7;1),Sabak Bernam. 36400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:19.0919958Z,0
+3.8551298,100.921854,Daerah: Sabak Bernam<br>No:8<br>Hex coord:(8;1),Ladang Sabak Bernam Bahagian Satu. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:20.2906243Z,0
+3.8473498,100.935344,Daerah: Sabak Bernam<br>No:9<br>Hex coord:(9;1),Sabak Bernam. 36400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:22.2601340Z,0
+3.8395698,100.813934,Daerah: Sabak Bernam<br>No:10<br>Hex coord:(0;2),Sungai Telok Belanga Kechil. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:23.9607359Z,0
+3.8317898,100.827424,Daerah: Sabak Bernam<br>No:11<br>Hex coord:(1;2),Sabak Bernam. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:25.0457324Z,0
+3.8395698,100.840914,Daerah: Sabak Bernam<br>No:12<br>Hex coord:(2;2),Sabak Bernam. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:26.7464584Z,0
+3.8317898,100.854404,Daerah: Sabak Bernam<br>No:13<br>Hex coord:(3;2),Sabak Bernam. 45100. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:30:27.8460306Z,0
+3.8395698,100.867894,Daerah: Sabak Bernam<br>No:14<br>Hex coord:(4;2),Sabak Bernam. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:29.5466321Z,0
+3.8317898,100.881384,Daerah: Sabak Bernam<br>No:15<br>Hex coord:(5;2),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:31.2609868Z,0
+3.8395698,100.894874,Daerah: Sabak Bernam<br>No:16<br>Hex coord:(6;2),Sabak Bernam. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:30:32.3475303Z,0
+3.8317898,100.908364,Daerah: Sabak Bernam<br>No:17<br>Hex coord:(7;2),Jalan Haji Abdul Karim. Sobak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:33.4328238Z,0
+3.8395698,100.921854,Daerah: Sabak Bernam<br>No:18<br>Hex coord:(8;2),Ladang Sungai Bernam Bahagian Dua. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:34.5196391Z,0
+3.8317898,100.935344,Daerah: Sabak Bernam<br>No:19<br>Hex coord:(9;2),Sabak Bernam. 36400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:35.6181503Z,0
+3.8240098,100.813934,Daerah: Sabak Bernam<br>No:20<br>Hex coord:(0;3),Balai Cerap Selangor. 45100 Sobak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:36.7106185Z,0
+3.8162298,100.827424,Daerah: Sabak Bernam<br>No:21<br>Hex coord:(1;3),Institut Latihan Dakwah Selangor. 45100 Sobak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:37.7915725Z,0
+3.8240098,100.840914,Daerah: Sabak Bernam<br>No:22<br>Hex coord:(2;3),Bagan Beting Kepah. 45100. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:30:40.4870934Z,0
+3.8162298,100.854404,Daerah: Sabak Bernam<br>No:23<br>Hex coord:(3;3),Sungai Tangar. Sobak Bernam. Sabak Bernam. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:30:42.1874903Z,0
+3.8240098,100.867894,Daerah: Sabak Bernam<br>No:24<br>Hex coord:(4;3),Rizab Melayu Sungai Lang. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:43.8753990Z,0
+3.8162298,100.881384,Daerah: Sabak Bernam<br>No:25<br>Hex coord:(5;3),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:45.5721883Z,0
+3.8240098,100.894874,Daerah: Sabak Bernam<br>No:26<br>Hex coord:(6;3),Bagan Telok Ru. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:47.2701871Z,0
+3.8162298,100.908364,Daerah: Sabak Bernam<br>No:27<br>Hex coord:(7;3),Jalan Haji Yusof. Sobak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:48.9598255Z,0
+3.8240098,100.921854,Daerah: Sabak Bernam<br>No:28<br>Hex coord:(8;3),Jalan Haji Mahfud. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:50.0556083Z,0
+3.8162298,100.935344,Daerah: Sabak Bernam<br>No:29<br>Hex coord:(9;3),Ladang Sabak Berna Bahagian Tiga. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:51.1496187Z,0
+3.8240098,100.948834,Daerah: Sabak Bernam<br>No:30<br>Hex coord:(10;3),Ladang Sabak Berna Bahagian Tiga. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:52.8298136Z,0
+3.8162298,100.962324,Daerah: Sabak Bernam<br>No:31<br>Hex coord:(11;3),Sabak Bernam. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:54.5943029Z,0
+3.8084498,100.813934,Daerah: Sabak Bernam<br>No:32<br>Hex coord:(0;4),SBP Integrasi Sabak Bernam. 45100 Sobak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:56.2794599Z,0
+3.8006698,100.827424,Daerah: Sabak Bernam<br>No:33<br>Hex coord:(1;4),Bagan Beting Kepah. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:30:58.5119610Z,0
+3.8084498,100.840914,Daerah: Sabak Bernam<br>No:34<br>Hex coord:(2;4),Bagan Telok Ru. 45100. Selangor. Malaysia,4 ,0,0,0,0,0,1,2021-11-02T05:30:59.5962559Z,0
+3.8006698,100.854404,Daerah: Sabak Bernam<br>No:35<br>Hex coord:(3;4),Kemajuan Tanah Parit Baharu. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:01.2774201Z,0
+3.8084498,100.867894,Daerah: Sabak Bernam<br>No:36<br>Hex coord:(4;4),Bagan Telok Ru. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:31:02.3618032Z,0
+3.8006698,100.881384,Daerah: Sabak Bernam<br>No:37<br>Hex coord:(5;4),Bagan Telok Ru. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:04.0609231Z,0
+3.8084498,100.894874,Daerah: Sabak Bernam<br>No:38<br>Hex coord:(6;4),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:05.1618912Z,0
+3.8006698,100.908364,Daerah: Sabak Bernam<br>No:39<br>Hex coord:(7;4),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:06.8550446Z,0
+3.8084498,100.921854,Daerah: Sabak Bernam<br>No:40<br>Hex coord:(8;4),Sabak Bernam. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:08.5349956Z,0
+3.8006698,100.935344,Daerah: Sabak Bernam<br>No:41<br>Hex coord:(9;4),Ladang Sungai Bernam Bahagian Empat. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:09.6359163Z,0
+3.8084498,100.948834,Daerah: Sabak Bernam<br>No:42<br>Hex coord:(10;4),Sabak Bernam. 36400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:10.7309444Z,0
+3.8006698,100.962324,Daerah: Sabak Bernam<br>No:43<br>Hex coord:(11;4),Sungai Keli Besar. Hilir Perak. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:12.3922177Z,0
+3.8084498,100.975814,Daerah: Sabak Bernam<br>No:44<br>Hex coord:(12;4),Tanjung Jawa. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:14.1017509Z,0
+3.8006698,101.016284,Daerah: Sabak Bernam<br>No:45<br>Hex coord:(15;4),Teluk Sepintas. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:31:16.0760299Z,0
+3.7928898,100.813934,Daerah: Sabak Bernam<br>No:46<br>Hex coord:(0;5),Sungai Apong. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:17.7370972Z,0
+3.7851098,100.827424,Daerah: Sabak Bernam<br>No:47<br>Hex coord:(1;5),Bagan Beting Kepah. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:18.8250007Z,0
+3.7928898,100.840914,Daerah: Sabak Bernam<br>No:48<br>Hex coord:(2;5),Bagan Telok Ru. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:19.9177890Z,0
+3.7851098,100.854404,Daerah: Sabak Bernam<br>No:49<br>Hex coord:(3;5),Bagan Telok Ru. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:21.0120052Z,0
+3.7928898,100.867894,Daerah: Sabak Bernam<br>No:50<br>Hex coord:(4;5),Bagan Telok Ru. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:22.6997793Z,0
+3.7851098,100.881384,Daerah: Sabak Bernam<br>No:51<br>Hex coord:(5;5),Bagan Telok Ru. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:24.3893680Z,0
+3.7928898,100.894874,Daerah: Sabak Bernam<br>No:52<br>Hex coord:(6;5),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:25.4854773Z,0
+3.7851098,100.908364,Daerah: Sabak Bernam<br>No:53<br>Hex coord:(7;5),Masjid Al-Islakhiah. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:26.5793854Z,0
+3.7928898,100.921854,Daerah: Sabak Bernam<br>No:54<br>Hex coord:(8;5),Sabak Bernam. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:29.2844199Z,0
+3.7851098,100.935344,Daerah: Sabak Bernam<br>No:55<br>Hex coord:(9;5),Sabak Bernam. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:30.9848053Z,0
+3.7928898,100.948834,Daerah: Sabak Bernam<br>No:56<br>Hex coord:(10;5),SK Kampung Baharu. Jalan Pekan Kampung Baru. Sabak Bernam. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:33.2829378Z,0
+3.7851098,100.989304,Daerah: Sabak Bernam<br>No:57<br>Hex coord:(13;5),Teluk Sepintas. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:35.9589996Z,0
+3.7928898,101.002794,Daerah: Sabak Bernam<br>No:58<br>Hex coord:(14;5),Teluk Sepintas. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:31:38.0513565Z,0
+3.7851098,101.016284,Daerah: Sabak Bernam<br>No:59<br>Hex coord:(15;5),Teluk Sepintas. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:31:39.7385897Z,0
+3.7928898,101.029774,Daerah: Sabak Bernam<br>No:60<br>Hex coord:(16;5),Teluk Sepintas. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:41.4208529Z,0
+3.7851098,101.043264,Daerah: Sabak Bernam<br>No:61<br>Hex coord:(17;5),Teluk Sepintas. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:42.5219853Z,0
+3.7928898,101.056754,Daerah: Sabak Bernam<br>No:62<br>Hex coord:(18;5),Tanjung Ketom. Hilir Perak. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:44.2058639Z,0
+3.7773298,100.840914,Daerah: Sabak Bernam<br>No:63<br>Hex coord:(2;6),Kuala Bernam Forest Reserve. Jalan Sungai Ayer Tawar. Bagan Beting Kepah. 45100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:45.8976955Z,0
+3.7773298,100.867894,Daerah: Sabak Bernam<br>No:64<br>Hex coord:(4;6),Bagan Telok Ru. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:47.5856752Z,0
+3.7695498,100.881384,Daerah: Sabak Bernam<br>No:65<br>Hex coord:(5;6),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:49.2896932Z,0
+3.7773298,100.894874,Daerah: Sabak Bernam<br>No:66<br>Hex coord:(6;6),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:50.3823417Z,0
+3.7695498,100.908364,Daerah: Sabak Bernam<br>No:67<br>Hex coord:(7;6),Jalan Tebuk Jawa. Bagan Sungai Pulai. 45200 Sobak Bernam. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:31:52.1003011Z,0
+3.7773298,100.921854,Daerah: Sabak Bernam<br>No:68<br>Hex coord:(8;6),Rizab Melayu Raja Hitam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:54.1536380Z,0
+3.7695498,100.935344,Daerah: Sabak Bernam<br>No:69<br>Hex coord:(9;6),Bagan Sungai Pulai. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:55.8204243Z,0
+3.7773298,100.948834,Daerah: Sabak Bernam<br>No:70<br>Hex coord:(10;6),Sabak Bernam. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:56.9070972Z,0
+3.7695498,100.962324,Daerah: Sabak Bernam<br>No:71<br>Hex coord:(11;6),Jalan Kampung Baru. Sabak Bernam. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:31:57.9995064Z,0
+3.7695498,100.989304,Daerah: Sabak Bernam<br>No:72<br>Hex coord:(13;6),Teluk Sepintas. 45200. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:31:59.6928060Z,0
+3.7773298,101.002794,Daerah: Sabak Bernam<br>No:73<br>Hex coord:(14;6),Rizab Melayu Sabak. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:00.8317797Z,0
+3.7695498,101.016284,Daerah: Sabak Bernam<br>No:74<br>Hex coord:(15;6),Teluk Sepintas. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:03.5250183Z,0
+3.7773298,101.029774,Daerah: Sabak Bernam<br>No:75<br>Hex coord:(16;6),Sungai Sepintas. Sabak Bernam. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:32:05.2227891Z,0
+3.7695498,101.043264,Daerah: Sabak Bernam<br>No:76<br>Hex coord:(17;6),Teluk Sepintas. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:06.3177115Z,0
+3.7773298,101.083734,Daerah: Sabak Bernam<br>No:77<br>Hex coord:(20;6),Sungai Samak Kechil. Hilir Perak. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:07.4102659Z,0
+3.7617698,100.894874,Daerah: Sabak Bernam<br>No:78<br>Hex coord:(6;7),Rizab Melayu Sungai Lang. Sobak Bernam. Sabak Bernam. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:32:09.2952299Z,0
+3.7539898,100.908364,Daerah: Sabak Bernam<br>No:79<br>Hex coord:(7;7),Jalan Ghazali. Sobak Bernam. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:32:10.3939283Z,0
+3.7617698,100.921854,Daerah: Sabak Bernam<br>No:80<br>Hex coord:(8;7),Jalan Kubur. Sobak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:12.0951987Z,0
+3.7539898,100.935344,Daerah: Sabak Bernam<br>No:81<br>Hex coord:(9;7),Jalan Haji Sadri. Sobak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:13.1927526Z,0
+3.7617698,100.948834,Daerah: Sabak Bernam<br>No:82<br>Hex coord:(10;7),Jalan Haji Saion. Bagan Sungai Pulai. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:14.2805906Z,0
+3.7539898,100.962324,Daerah: Sabak Bernam<br>No:83<br>Hex coord:(11;7),Jalan Wan Mood. Sobak Bernam. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:32:15.9680939Z,0
+3.7617698,100.975814,Daerah: Sabak Bernam<br>No:84<br>Hex coord:(12;7),SAM Muhammadiah Pekan Sabak. Jalan Kuala Selangor-Teluk Intan. Sabak Bernam. 45200 Sobak Bernam. Selangor. Malaysia,10 ,0,0,0,0,0,1,2021-11-02T05:32:17.6811865Z,0
+3.7539898,100.989304,Daerah: Sabak Bernam<br>No:85<br>Hex coord:(13;7),K&K HARDWARE AND PHONE. Sobak Bernam. Sabak Bernam. Malaysia,5 ,0,0,0,0,0,1,2021-11-02T05:32:19.3638096Z,0
+3.7617698,101.002794,Daerah: Sabak Bernam<br>No:86<br>Hex coord:(14;7),Teluk Sepintas. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:20.4605678Z,0
+3.7539898,101.016284,Daerah: Sabak Bernam<br>No:87<br>Hex coord:(15;7),Parit Alur Raja Hitam Lama. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:22.1386339Z,0
+3.7617698,101.029774,Daerah: Sabak Bernam<br>No:88<br>Hex coord:(16;7),Teluk Sepintas. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:23.8353631Z,0
+3.7539898,101.043264,Daerah: Sabak Bernam<br>No:89<br>Hex coord:(17;7),Ladang Sungai Bernam. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:24.9244187Z,0
+3.7617698,101.056754,Daerah: Sabak Bernam<br>No:90<br>Hex coord:(18;7),Ladang Antara. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:26.0159238Z,0
+3.7539898,101.070244,Daerah: Sabak Bernam<br>No:91<br>Hex coord:(19;7),Teluk Sepintas. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:32:28.0938738Z,0
+3.7617698,101.083734,Daerah: Sabak Bernam<br>No:92<br>Hex coord:(20;7),Kampung Binjai Patah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:29.7822327Z,0
+3.7539898,101.097224,Daerah: Sabak Bernam<br>No:93<br>Hex coord:(21;7),Kampung Binjai Patah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:30.8700979Z,0
+3.7384298,100.908364,Daerah: Sabak Bernam<br>No:94<br>Hex coord:(7;8),Bagan Sungai Pulai. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:32.5644407Z,0
+3.7462098,100.921854,Daerah: Sabak Bernam<br>No:95<br>Hex coord:(8;8),Parit Banting. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:34.2550441Z,0
+3.7384298,100.935344,Daerah: Sabak Bernam<br>No:96<br>Hex coord:(9;8),Bagan Sungai Pulai. 45200. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:32:35.3383876Z,0
+3.7462098,100.948834,Daerah: Sabak Bernam<br>No:97<br>Hex coord:(10;8),Jalan Haji Siraj. Bagan Sungai Pulai. 45200. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:32:37.0421318Z,0
+3.7384298,100.962324,Daerah: Sabak Bernam<br>No:98<br>Hex coord:(11;8),Jalan Haji Mansur. Panchang Bedena. 45200 Sobak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:38.7234935Z,0
+3.7462098,100.975814,Daerah: Sabak Bernam<br>No:99<br>Hex coord:(12;8),Surau Ar-Rahmaniah. Jalan Kuala Selangor-Teluk Intan. Parit Enam. 45200 Sobak Bernam. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:32:39.8158871Z,0
+3.7384298,100.989304,Daerah: Sabak Bernam<br>No:100<br>Hex coord:(13;8),Sabak Bernam. 45200 Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:42.0430175Z,0
+3.7462098,101.002794,Daerah: Sabak Bernam<br>No:101<br>Hex coord:(14;8),Ladang Torkington. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:43.7383385Z,0
+3.7384298,101.016284,Daerah: Sabak Bernam<br>No:102<br>Hex coord:(15;8),Parit Enam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:45.4333965Z,0
+3.7462098,101.029774,Daerah: Sabak Bernam<br>No:103<br>Hex coord:(16;8),Teluk Sepintas. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:46.8996233Z,0
+3.7384298,101.043264,Daerah: Sabak Bernam<br>No:104<br>Hex coord:(17;8),Parit Sebelas Barat. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:48.5561886Z,0
+3.7462098,101.056754,Daerah: Sabak Bernam<br>No:105<br>Hex coord:(18;8),Teluk Sepintas. Selangor. Malaysia,4 ,0,0,0,0,0,1,2021-11-02T05:32:50.2385239Z,0
+3.7384298,101.070244,Daerah: Sabak Bernam<br>No:106<br>Hex coord:(19;8),Jalan Tok Khalifah. Kampung Permatang. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:32:51.3328821Z,0
+3.7384298,101.097224,Daerah: Sabak Bernam<br>No:107<br>Hex coord:(21;8),Sungai Panjang. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:53.0192526Z,0
+3.7462098,101.110714,Daerah: Sabak Bernam<br>No:108<br>Hex coord:(22;8),Sungai Bugis. Hilir Perak. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:54.7099802Z,0
+3.7384298,101.124204,Daerah: Sabak Bernam<br>No:109<br>Hex coord:(23;8),Kampung Binjai Patah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:56.3932475Z,0
+3.7462098,101.137694,Daerah: Sabak Bernam<br>No:110<br>Hex coord:(24;8),Sungai Samak. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:58.0965598Z,0
+3.7462098,101.164674,Daerah: Sabak Bernam<br>No:111<br>Hex coord:(26;8),Hospital Ulu Sungai Bernam. Hilir Perak. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:32:59.7891845Z,0
+3.7306498,100.921854,Daerah: Sabak Bernam<br>No:112<br>Hex coord:(8;9),SJK(C) Phooi Tee. Bagan Sungai Pulai. Jalan Haji Muhammad. Panchang Bedena. 45200. Selangor. Malaysia,4 ,0,0,0,0,0,1,2021-11-02T05:33:00.8721417Z,0
+3.7228698,100.935344,Daerah: Sabak Bernam<br>No:113<br>Hex coord:(9;9),Parit Pulai. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:01.9846844Z,0
+3.7306498,100.948834,Daerah: Sabak Bernam<br>No:114<br>Hex coord:(10;9),Bagan Sungai Pulai. 45200. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:33:03.6976353Z,0
+3.7228698,100.962324,Daerah: Sabak Bernam<br>No:115<br>Hex coord:(11;9),Jalan Jentera. Panchang Bedena. 45200. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:33:05.4942359Z,0
+3.7306498,100.975814,Daerah: Sabak Bernam<br>No:116<br>Hex coord:(12;9),Jalan Kuala Selangor-Teluk Intan. Panchang Bedena. 45200. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:33:07.1828065Z,0
+3.7228698,100.989304,Daerah: Sabak Bernam<br>No:117<br>Hex coord:(13;9),Parit Enam. 45200. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:08.8583482Z,0
+3.7306498,101.002794,Daerah: Sabak Bernam<br>No:118<br>Hex coord:(14;9),Ladang Lim Kooi Hua Sungai Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:10.5364809Z,0
+3.7228698,101.016284,Daerah: Sabak Bernam<br>No:119<br>Hex coord:(15;9),Parit Enam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:12.2088277Z,0
+3.7306498,101.029774,Daerah: Sabak Bernam<br>No:120<br>Hex coord:(16;9),B51. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:13.9047147Z,0
+3.7228698,101.043264,Daerah: Sabak Bernam<br>No:121<br>Hex coord:(17;9),Kampung Permatang. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:33:15.5978074Z,0
+3.7306498,101.056754,Daerah: Sabak Bernam<br>No:122<br>Hex coord:(18;9),Kampung Permatang. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:33:17.6822844Z,0
+3.7228698,101.070244,Daerah: Sabak Bernam<br>No:123<br>Hex coord:(19;9),Kampung Permatang. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:33:19.3681187Z,0
+3.7306498,101.083734,Daerah: Sabak Bernam<br>No:124<br>Hex coord:(20;9),B44. Sungai Besar. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:33:21.0643155Z,0
+3.7228698,101.097224,Daerah: Sabak Bernam<br>No:125<br>Hex coord:(21;9),Kampung Binjai Patah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:22.8087201Z,0
+3.7306498,101.110714,Daerah: Sabak Bernam<br>No:126<br>Hex coord:(22;9),Kampung Binjai Patah. Selangor. Malaysia,14 ,0,0,0,0,0,1,2021-11-02T05:33:25.3153352Z,0
+3.7228698,101.124204,Daerah: Sabak Bernam<br>No:127<br>Hex coord:(23;9),Kampung Binjai Patah. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:33:26.4053638Z,0
+3.7306498,101.137694,Daerah: Sabak Bernam<br>No:128<br>Hex coord:(24;9),Sungai Telok. Hulu Bemam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:27.4994160Z,0
+3.7228698,101.151184,Daerah: Sabak Bernam<br>No:129<br>Hex coord:(25;9),Kemajuan Tanah Belia Merbau Berdarah. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:28.5889992Z,0
+3.7306498,101.164674,Daerah: Sabak Bernam<br>No:130<br>Hex coord:(26;9),Rantau Panjang. Hilir Perak. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:29.6751573Z,0
+3.7228698,101.178164,Daerah: Sabak Bernam<br>No:131<br>Hex coord:(27;9),Ulu Bernam Bahagian Selangor. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:30.7732360Z,0
+3.7150898,100.921854,Daerah: Sabak Bernam<br>No:132<br>Hex coord:(8;10),Bagan Sungai Pulai. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:32.4720308Z,0
+3.7073098,100.935344,Daerah: Sabak Bernam<br>No:133<br>Hex coord:(9;10),Sabak Bernam. Bagan Sungai Burung. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:33.5692490Z,0
+3.7150898,100.948834,Daerah: Sabak Bernam<br>No:134<br>Hex coord:(10;10),Panchang Bedena. 45300. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:34.6537444Z,0
+3.7073098,100.962324,Daerah: Sabak Bernam<br>No:135<br>Hex coord:(11;10),Jalan Surau Suluk. Sungai Besar. Selangor. Malaysia,5 ,0,0,0,0,0,1,2021-11-02T05:33:35.7397340Z,0
+3.7150898,100.975814,Daerah: Sabak Bernam<br>No:136<br>Hex coord:(12;10),Ladang Lingam. Sobak Bernam. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:36.8332551Z,0
+3.7073098,100.989304,Daerah: Sabak Bernam<br>No:137<br>Hex coord:(13;10),Parit Enam. 45300. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:37.9241088Z,0
+3.7150898,101.002794,Daerah: Sabak Bernam<br>No:138<br>Hex coord:(14;10),Sekolah Kebangsaan Parit Enam. Sungai Besar. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:39.6514696Z,0
+3.7073098,101.016284,Daerah: Sabak Bernam<br>No:139<br>Hex coord:(15;10),Parit Enam. 45300. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:40.8431074Z,0
+3.7150898,101.029774,Daerah: Sabak Bernam<br>No:140<br>Hex coord:(16;10),Kampung Permatang. Selangor. Malaysia,6 ,0,0,0,0,0,1,2021-11-02T05:33:42.5443444Z,0
+3.7073098,101.043264,Daerah: Sabak Bernam<br>No:141<br>Hex coord:(17;10),Kampung Permatang. Selangor. Malaysia,14 ,0,0,0,0,0,1,2021-11-02T05:33:44.2354721Z,0
+3.7150898,101.056754,Daerah: Sabak Bernam<br>No:142<br>Hex coord:(18;10),Jalan Sabak Bernam - Hulu Selangor. Kampung Permatang. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:33:45.9345710Z,0
+3.7073098,101.070244,Daerah: Sabak Bernam<br>No:143<br>Hex coord:(19;10),Kampung Permatang. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:47.6185329Z,0
+3.7150898,101.083734,Daerah: Sabak Bernam<br>No:144<br>Hex coord:(20;10),Parit Tiga Belas. Sabak Bernam. Malaysia,4 ,0,0,0,0,0,1,2021-11-02T05:33:48.7060762Z,0
+3.7073098,101.097224,Daerah: Sabak Bernam<br>No:145<br>Hex coord:(21;10),Kampung Binjai Patah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:49.7865324Z,0
+3.7150898,101.110714,Daerah: Sabak Bernam<br>No:146<br>Hex coord:(22;10),Kampung Binjai Patah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:51.4707352Z,0
+3.7073098,101.124204,Daerah: Sabak Bernam<br>No:147<br>Hex coord:(23;10),Kampung Belia Satu. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:33:53.1658304Z,0
+3.7150898,101.137694,Daerah: Sabak Bernam<br>No:148<br>Hex coord:(24;10),Kampung Belia Satu. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:33:54.8664285Z,0
+3.7073098,101.151184,Daerah: Sabak Bernam<br>No:149<br>Hex coord:(25;10),Rizab Melayu Sungai Panjang. Sabak Bernam. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:33:57.5589173Z,0
+3.7150898,101.164674,Daerah: Sabak Bernam<br>No:150<br>Hex coord:(26;10),Telok Mahang. Sabak Bernam. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:33:58.8262895Z,0
+3.7073098,101.178164,Daerah: Sabak Bernam<br>No:151<br>Hex coord:(27;10),Tanjung Merbau Berdarah. Sabak Bernam. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:33:59.9191932Z,0
+3.7150898,101.191654,Daerah: Sabak Bernam<br>No:152<br>Hex coord:(28;10),Kampung Belia Dua. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:01.5968432Z,0
+3.7073098,101.205144,Daerah: Sabak Bernam<br>No:153<br>Hex coord:(29;10),Kampung Belia Dua. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:03.2857615Z,0
+3.7073098,101.232124,Daerah: Sabak Bernam<br>No:154<br>Hex coord:(31;10),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:04.9643331Z,0
+3.7150898,101.245614,Daerah: Sabak Bernam<br>No:155<br>Hex coord:(32;10),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:06.6584370Z,0
+3.6917498,100.935344,Daerah: Sabak Bernam<br>No:156<br>Hex coord:(9;11),Panchang Bedena. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:34:08.3398431Z,0
+3.6995298,100.948834,Daerah: Sabak Bernam<br>No:157<br>Hex coord:(10;11),Panchang Bedena. 45300. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:34:10.0290788Z,0
+3.6917498,100.962324,Daerah: Sabak Bernam<br>No:158<br>Hex coord:(11;11),Jalan Haji Muhammad. Taman Cahaya. 45300. Selangor. Malaysia,9 ,0,0,0,0,0,1,2021-11-02T05:34:11.7353215Z,0
+3.6995298,100.975814,Daerah: Sabak Bernam<br>No:159<br>Hex coord:(12;11),Taman Cahaya. 45300. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:12.8282352Z,0
+3.6917498,100.989304,Daerah: Sabak Bernam<br>No:160<br>Hex coord:(13;11),Taman Melati. 45300. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:34:13.9193715Z,0
+3.6995298,101.002794,Daerah: Sabak Bernam<br>No:161<br>Hex coord:(14;11),Parit Empat Barat. Sungai Besar. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:15.0143501Z,0
+3.6917498,101.016284,Daerah: Sabak Bernam<br>No:162<br>Hex coord:(15;11),Ban. Sungai Besar. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:16.7730584Z,0
+3.6995298,101.029774,Daerah: Sabak Bernam<br>No:163<br>Hex coord:(16;11),Kampung Permatang Tanah Gambut. 45300. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:18.4636902Z,0
+3.6917498,101.043264,Daerah: Sabak Bernam<br>No:164<br>Hex coord:(17;11),Parit Tujuh Timur. Sungai Besar. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:20.1651718Z,0
+3.6995298,101.056754,Daerah: Sabak Bernam<br>No:165<br>Hex coord:(18;11),Kampung Permatang. Selangor. Malaysia,8 ,0,0,0,0,0,1,2021-11-02T05:34:21.8572773Z,0
+3.6917498,101.070244,Daerah: Sabak Bernam<br>No:166<br>Hex coord:(19;11),Parit Sembilan Sungai Panjang. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:23.5638231Z,0
+3.6995298,101.083734,Daerah: Sabak Bernam<br>No:167<br>Hex coord:(20;11),Parit Sebelas Sungai Panjang. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:25.2590990Z,0
+3.6917498,101.097224,Daerah: Sabak Bernam<br>No:168<br>Hex coord:(21;11),Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:26.9486239Z,0
+3.6995298,101.110714,Daerah: Sabak Bernam<br>No:169<br>Hex coord:(22;11),Kampung Binjai Patah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:28.0376750Z,0
+3.6917498,101.124204,Daerah: Sabak Bernam<br>No:170<br>Hex coord:(23;11),Sabak Bernam. Merbau Berdarah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:29.7155852Z,0
+3.6995298,101.137694,Daerah: Sabak Bernam<br>No:171<br>Hex coord:(24;11),Sabak Bernam. Merbau Berdarah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:31.4085600Z,0
+3.6917498,101.151184,Daerah: Sabak Bernam<br>No:172<br>Hex coord:(25;11),Sabak Bernam. Merbau Berdarah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:32.5081427Z,0
+3.6995298,101.164674,Daerah: Sabak Bernam<br>No:173<br>Hex coord:(26;11),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:33.6056343Z,0
+3.6917498,101.178164,Daerah: Sabak Bernam<br>No:174<br>Hex coord:(27;11),Kampung Belia Dua. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:35.4226035Z,0
+3.6995298,101.191654,Daerah: Sabak Bernam<br>No:175<br>Hex coord:(28;11),Kampung Belia Dua. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:37.1242373Z,0
+3.6917498,101.205144,Daerah: Sabak Bernam<br>No:176<br>Hex coord:(29;11),Kampung Belia Dua. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:38.8069278Z,0
+3.6995298,101.218634,Daerah: Sabak Bernam<br>No:177<br>Hex coord:(30;11),Jalan Sabak Bernam - Hulu Selangor. Kampung Belia Dua. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:40.4961298Z,0
+3.6917498,101.232124,Daerah: Sabak Bernam<br>No:178<br>Hex coord:(31;11),Jalan Sabak Bernam - Hulu Selangor. Kampung Belia Dua. 44020. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:42.1833988Z,0
+3.6995298,101.245614,Daerah: Sabak Bernam<br>No:179<br>Hex coord:(32;11),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:43.8884504Z,0
+3.6917498,101.340044,Daerah: Sabak Bernam<br>No:180<br>Hex coord:(39;11),Jalan Sabak Bernam - Hulu Selangor. Sabak Bernam. 44020. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:45.6266288Z,0
+3.6839698,100.948834,Daerah: Sabak Bernam<br>No:181<br>Hex coord:(10;12),Sungai Haji Abdul Rahim,0,0,0,0,0,0,1,2021-11-02T05:34:46.7264698Z,0
+3.6839698,100.975814,Daerah: Sabak Bernam<br>No:182<br>Hex coord:(12;12),35 C Batu 6 1/2 Sungai Lias Jalan Kuala Selangor - Teluk Intan. 45300 Sungai Besar. Selangor. Malaysia,7 ,0,0,0,0,0,1,2021-11-02T05:34:47.8227077Z,0
+3.6761898,100.989304,Daerah: Sabak Bernam<br>No:183<br>Hex coord:(13;12),Jabatan Kerja Raya. Sungai Besar. Selangor. Malaysia,14 ,0,0,0,0,0,1,2021-11-02T05:34:49.5016326Z,0
+3.6839698,101.002794,Daerah: Sabak Bernam<br>No:184<br>Hex coord:(14;12),Taman Melati. 45300. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:51.2163288Z,0
+3.6761898,101.016284,Daerah: Sabak Bernam<br>No:185<br>Hex coord:(15;12),Kampung Sungai Che Lias. 45300. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:34:53.3098674Z,0
+3.6839698,101.029774,Daerah: Sabak Bernam<br>No:186<br>Hex coord:(16;12),Jalan Simpang Tiga Loji. Sungai Besar. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:54.3952201Z,0
+3.6761898,101.043264,Daerah: Sabak Bernam<br>No:187<br>Hex coord:(17;12),Kamping Parit Empat Sungai Haji Durani. 45300. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:34:55.4914304Z,0
+3.6839698,101.056754,Daerah: Sabak Bernam<br>No:188<br>Hex coord:(18;12),Parit Tujuh Gambut. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:56.5756877Z,0
+3.6761898,101.070244,Daerah: Sabak Bernam<br>No:189<br>Hex coord:(19;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:57.6575665Z,0
+3.6839698,101.083734,Daerah: Sabak Bernam<br>No:190<br>Hex coord:(20;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:34:59.3305247Z,0
+3.6761898,101.097224,Daerah: Sabak Bernam<br>No:191<br>Hex coord:(21;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:00.4279136Z,0
+3.6839698,101.110714,Daerah: Sabak Bernam<br>No:192<br>Hex coord:(22;12),Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:01.5693918Z,0
+3.6761898,101.124204,Daerah: Sabak Bernam<br>No:193<br>Hex coord:(23;12),Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:03.2619180Z,0
+3.6839698,101.137694,Daerah: Sabak Bernam<br>No:194<br>Hex coord:(24;12),Sabak Bernam. Merbau Berdarah. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:04.9473359Z,0
+3.6761898,101.151184,Daerah: Sabak Bernam<br>No:195<br>Hex coord:(25;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:07.0263612Z,0
+3.6839698,101.164674,Daerah: Sabak Bernam<br>No:196<br>Hex coord:(26;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:09.1130422Z,0
+3.6761898,101.178164,Daerah: Sabak Bernam<br>No:197<br>Hex coord:(27;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:11.5333282Z,0
+3.6839698,101.191654,Daerah: Sabak Bernam<br>No:198<br>Hex coord:(28;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:12.6316975Z,0
+3.6761898,101.205144,Daerah: Sabak Bernam<br>No:199<br>Hex coord:(29;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:14.4568387Z,0
+3.6839698,101.218634,Daerah: Sabak Bernam<br>No:200<br>Hex coord:(30;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:16.1845080Z,0
+3.6761898,101.232124,Daerah: Sabak Bernam<br>No:201<br>Hex coord:(31;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:18.0731415Z,0
+3.6839698,101.245614,Daerah: Sabak Bernam<br>No:202<br>Hex coord:(32;12),Sungai Tukang Udang. Batang Padang. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:19.9591482Z,0
+3.6761898,101.313064,Daerah: Sabak Bernam<br>No:203<br>Hex coord:(37;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:21.0936506Z,0
+3.6839698,101.326554,Daerah: Sabak Bernam<br>No:204<br>Hex coord:(38;12),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:22.2148148Z,0
+3.6761898,101.340044,Daerah: Sabak Bernam<br>No:205<br>Hex coord:(39;12),Jalan Sabak Bernam - Hulu Selangor. Kampung Belia Dua. 44020. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:24.3356866Z,0
+3.6606298,100.989304,Daerah: Sabak Bernam<br>No:206<br>Hex coord:(13;13),Jalan Stadium. Sungai Besar. Selangor. Malaysia,14 ,0,0,0,0,0,1,2021-11-02T05:35:27.0670063Z,0
+3.6684098,101.002794,Daerah: Sabak Bernam<br>No:207<br>Hex coord:(14;13),Surau Irsyadiah. Sungai Besar. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:35:28.1821232Z,0
+3.6606298,101.016284,Daerah: Sabak Bernam<br>No:208<br>Hex coord:(15;13),Parit Satu Timur. Sungai Besar. Sabak Bernam. Malaysia,6 ,0,0,0,0,0,1,2021-11-02T05:35:29.4581350Z,0
+3.6684098,101.029774,Daerah: Sabak Bernam<br>No:209<br>Hex coord:(16;13),Tali Air Besar Penakong. Sungai Besar. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:31.1803002Z,0
+3.6606298,101.043264,Daerah: Sabak Bernam<br>No:210<br>Hex coord:(17;13),Kamping Parit Empat Sungai Haji Durani. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:32.8884244Z,0
+3.6684098,101.056754,Daerah: Sabak Bernam<br>No:211<br>Hex coord:(18;13),Parit Lima Gambut. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:34.0048764Z,0
+3.6606298,101.070244,Daerah: Sabak Bernam<br>No:212<br>Hex coord:(19;13),Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:35.1250839Z,0
+3.6684098,101.083734,Daerah: Sabak Bernam<br>No:213<br>Hex coord:(20;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:36.2558980Z,0
+3.6606298,101.097224,Daerah: Sabak Bernam<br>No:214<br>Hex coord:(21;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:37.9762058Z,0
+3.6684098,101.110714,Daerah: Sabak Bernam<br>No:215<br>Hex coord:(22;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:39.6967578Z,0
+3.6606298,101.124204,Daerah: Sabak Bernam<br>No:216<br>Hex coord:(23;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:41.8210049Z,0
+3.6684098,101.137694,Daerah: Sabak Bernam<br>No:217<br>Hex coord:(24;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:42.9441773Z,0
+3.6606298,101.151184,Daerah: Sabak Bernam<br>No:218<br>Hex coord:(25;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:44.4115645Z,0
+3.6684098,101.164674,Daerah: Sabak Bernam<br>No:219<br>Hex coord:(26;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:45.5280780Z,0
+3.6606298,101.178164,Daerah: Sabak Bernam<br>No:220<br>Hex coord:(27;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:46.6419490Z,0
+3.6684098,101.191654,Daerah: Sabak Bernam<br>No:221<br>Hex coord:(28;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:48.7605440Z,0
+3.6606298,101.205144,Daerah: Sabak Bernam<br>No:222<br>Hex coord:(29;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:49.8758637Z,0
+3.6684098,101.218634,Daerah: Sabak Bernam<br>No:223<br>Hex coord:(30;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:50.9951922Z,0
+3.6606298,101.232124,Daerah: Sabak Bernam<br>No:224<br>Hex coord:(31;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:52.7247784Z,0
+3.6684098,101.245614,Daerah: Sabak Bernam<br>No:225<br>Hex coord:(32;13),Jalan Sabak Bernam - Hulu Selangor. Kampung Belia Dua. 44020. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:53.8460359Z,0
+3.6606298,101.259104,Daerah: Sabak Bernam<br>No:226<br>Hex coord:(33;13),Jalan Sabak Bernam - Hulu Selangor. Kampung Belia Dua. 44020. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:54.9682769Z,0
+3.6684098,101.272594,Daerah: Sabak Bernam<br>No:227<br>Hex coord:(34;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:35:56.6604592Z,0
+3.6606298,101.286084,Daerah: Sabak Bernam<br>No:228<br>Hex coord:(35;13),Sabak Bernam. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:35:58.3572541Z,0
+3.6684098,101.299574,Daerah: Sabak Bernam<br>No:229<br>Hex coord:(36;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:00.0798848Z,0
+3.6606298,101.313064,Daerah: Sabak Bernam<br>No:230<br>Hex coord:(37;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:01.8041886Z,0
+3.6684098,101.326554,Daerah: Sabak Bernam<br>No:231<br>Hex coord:(38;13),Jalan Sabak Bernam - Hulu Selangor. Kampung Belia Dua. 44020. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:03.5271097Z,0
+3.6606298,101.340044,Daerah: Sabak Bernam<br>No:232<br>Hex coord:(39;13),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:05.2357524Z,0
+3.6528498,101.002794,Daerah: Sabak Bernam<br>No:233<br>Hex coord:(14;14),Kampung Nelayan Sungai Haji Durani. 45300. Selangor. Malaysia,10 ,0,0,0,0,0,1,2021-11-02T05:36:07.3566185Z,0
+3.6450698,101.016284,Daerah: Sabak Bernam<br>No:234<br>Hex coord:(15;14),Kemajuan Tanah Semenanjung Bernam Peringkat Dua. Sungai Besar. Sabak Bernam. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:36:09.0582992Z,0
+3.6528498,101.029774,Daerah: Sabak Bernam<br>No:235<br>Hex coord:(16;14),Pekan Selasa. 45300. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:10.7443688Z,0
+3.6450698,101.043264,Daerah: Sabak Bernam<br>No:236<br>Hex coord:(17;14),Peket 60. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:36:11.8676754Z,0
+3.6528498,101.056754,Daerah: Sabak Bernam<br>No:237<br>Hex coord:(18;14),Kamping Parit Empat Sungai Haji Durani. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:36:13.5789373Z,0
+3.6450698,101.070244,Daerah: Sabak Bernam<br>No:238<br>Hex coord:(19;14),Peket 100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:15.4434042Z,0
+3.6528498,101.083734,Daerah: Sabak Bernam<br>No:239<br>Hex coord:(20;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:16.5671420Z,0
+3.6450698,101.097224,Daerah: Sabak Bernam<br>No:240<br>Hex coord:(21;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:17.8430191Z,0
+3.6528498,101.110714,Daerah: Sabak Bernam<br>No:241<br>Hex coord:(22;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:18.9698017Z,0
+3.6450698,101.124204,Daerah: Sabak Bernam<br>No:242<br>Hex coord:(23;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:20.0870319Z,0
+3.6528498,101.137694,Daerah: Sabak Bernam<br>No:243<br>Hex coord:(24;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:21.7772866Z,0
+3.6450698,101.151184,Daerah: Sabak Bernam<br>No:244<br>Hex coord:(25;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:22.8948980Z,0
+3.6528498,101.164674,Daerah: Sabak Bernam<br>No:245<br>Hex coord:(26;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:24.6040625Z,0
+3.6450698,101.178164,Daerah: Sabak Bernam<br>No:246<br>Hex coord:(27;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:25.7285988Z,0
+3.6528498,101.191654,Daerah: Sabak Bernam<br>No:247<br>Hex coord:(28;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:26.8418894Z,0
+3.6450698,101.205144,Daerah: Sabak Bernam<br>No:248<br>Hex coord:(29;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:27.9596540Z,0
+3.6528498,101.218634,Daerah: Sabak Bernam<br>No:249<br>Hex coord:(30;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:30.7986146Z,0
+3.6450698,101.232124,Daerah: Sabak Bernam<br>No:250<br>Hex coord:(31;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:32.5350028Z,0
+3.6528498,101.245614,Daerah: Sabak Bernam<br>No:251<br>Hex coord:(32;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:34.2587217Z,0
+3.6450698,101.259104,Daerah: Sabak Bernam<br>No:252<br>Hex coord:(33;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:35.9756023Z,0
+3.6528498,101.272594,Daerah: Sabak Bernam<br>No:253<br>Hex coord:(34;14),Jalan Sabak Bernam - Hulu Selangor. Kampung Belia Dua. 44020. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:38.0937251Z,0
+3.6450698,101.286084,Daerah: Sabak Bernam<br>No:254<br>Hex coord:(35;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:39.8090302Z,0
+3.6528498,101.299574,Daerah: Sabak Bernam<br>No:255<br>Hex coord:(36;14),Jalan Sabak Bernam - Hulu Selangor. Kampung Belia Dua. 44020. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:41.5354877Z,0
+3.6450698,101.313064,Daerah: Sabak Bernam<br>No:256<br>Hex coord:(37;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:44.2180733Z,0
+3.6528498,101.326554,Daerah: Sabak Bernam<br>No:257<br>Hex coord:(38;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:45.3390516Z,0
+3.6450698,101.340044,Daerah: Sabak Bernam<br>No:258<br>Hex coord:(39;14),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:47.4549194Z,0
+3.6372898,101.029774,Daerah: Sabak Bernam<br>No:259<br>Hex coord:(16;15),Pekan Selasa. Selangor. Malaysia,4 ,0,0,0,0,0,1,2021-11-02T05:36:48.5726148Z,0
+3.6295098,101.043264,Daerah: Sabak Bernam<br>No:260<br>Hex coord:(17;15),Peket 60. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:36:49.6869305Z,0
+3.6372898,101.056754,Daerah: Sabak Bernam<br>No:261<br>Hex coord:(18;15),Peket 100. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:36:50.8122422Z,0
+3.6295098,101.070244,Daerah: Sabak Bernam<br>No:262<br>Hex coord:(19;15),Tali Air Empat Belas. Sungai Besar. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:53.5323027Z,0
+3.6372898,101.083734,Daerah: Sabak Bernam<br>No:263<br>Hex coord:(20;15),Surau. Sungai Besar. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:54.6534439Z,0
+3.6295098,101.097224,Daerah: Sabak Bernam<br>No:264<br>Hex coord:(21;15),Ban. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:56.4532764Z,0
+3.6372898,101.110714,Daerah: Sabak Bernam<br>No:265<br>Hex coord:(22;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:58.1833111Z,0
+3.6295098,101.124204,Daerah: Sabak Bernam<br>No:266<br>Hex coord:(23;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:36:59.8809001Z,0
+3.6372898,101.137694,Daerah: Sabak Bernam<br>No:267<br>Hex coord:(24;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:01.5825715Z,0
+3.6295098,101.151184,Daerah: Sabak Bernam<br>No:268<br>Hex coord:(25;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:03.3011246Z,0
+3.6372898,101.164674,Daerah: Sabak Bernam<br>No:269<br>Hex coord:(26;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:05.0143775Z,0
+3.6295098,101.178164,Daerah: Sabak Bernam<br>No:270<br>Hex coord:(27;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:06.1341906Z,0
+3.6372898,101.191654,Daerah: Sabak Bernam<br>No:271<br>Hex coord:(28;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:08.2516959Z,0
+3.6295098,101.205144,Daerah: Sabak Bernam<br>No:272<br>Hex coord:(29;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:10.3706490Z,0
+3.6372898,101.218634,Daerah: Sabak Bernam<br>No:273<br>Hex coord:(30;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:12.1599087Z,0
+3.6295098,101.232124,Daerah: Sabak Bernam<br>No:274<br>Hex coord:(31;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:14.3103584Z,0
+3.6372898,101.245614,Daerah: Sabak Bernam<br>No:275<br>Hex coord:(32;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:15.4315831Z,0
+3.6295098,101.259104,Daerah: Sabak Bernam<br>No:276<br>Hex coord:(33;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:17.1356263Z,0
+3.6372898,101.272594,Daerah: Sabak Bernam<br>No:277<br>Hex coord:(34;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:18.8464380Z,0
+3.6295098,101.286084,Daerah: Sabak Bernam<br>No:278<br>Hex coord:(35;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:19.9648284Z,0
+3.6372898,101.299574,Daerah: Sabak Bernam<br>No:279<br>Hex coord:(36;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:21.0862887Z,0
+3.6295098,101.313064,Daerah: Sabak Bernam<br>No:280<br>Hex coord:(37;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:22.3639937Z,0
+3.6372898,101.326554,Daerah: Sabak Bernam<br>No:281<br>Hex coord:(38;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:24.0564794Z,0
+3.6295098,101.340044,Daerah: Sabak Bernam<br>No:282<br>Hex coord:(39;15),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:25.1758690Z,0
+3.6139498,101.043264,Daerah: Sabak Bernam<br>No:283<br>Hex coord:(17;16),Jeti Nelayan Sungai Nipah. Sabak Bernam. Malaysia,5 ,0,0,0,0,0,1,2021-11-02T05:37:26.2906479Z,0
+3.6217298,101.056754,Daerah: Sabak Bernam<br>No:284<br>Hex coord:(18;16),Peket 100. Selangor. Malaysia,7 ,0,0,0,0,0,1,2021-11-02T05:37:27.4073556Z,0
+3.6139498,101.070244,Daerah: Sabak Bernam<br>No:285<br>Hex coord:(19;16),Peket 100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:29.1200678Z,0
+3.6217298,101.083734,Daerah: Sabak Bernam<br>No:286<br>Hex coord:(20;16),Peket 100. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:30.8385645Z,0
+3.6139498,101.097224,Daerah: Sabak Bernam<br>No:287<br>Hex coord:(21;16),Rizab Melayu Tanjong Karang. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:32.5618489Z,0
+3.6217298,101.110714,Daerah: Sabak Bernam<br>No:288<br>Hex coord:(22;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:34.6937667Z,0
+3.6139498,101.124204,Daerah: Sabak Bernam<br>No:289<br>Hex coord:(23;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:36.8123822Z,0
+3.6217298,101.137694,Daerah: Sabak Bernam<br>No:290<br>Hex coord:(24;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:38.5312871Z,0
+3.6139498,101.151184,Daerah: Sabak Bernam<br>No:291<br>Hex coord:(25;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:40.2478453Z,0
+3.6217298,101.164674,Daerah: Sabak Bernam<br>No:292<br>Hex coord:(26;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:41.9738374Z,0
+3.6139498,101.178164,Daerah: Sabak Bernam<br>No:293<br>Hex coord:(27;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:43.7003777Z,0
+3.6217298,101.191654,Daerah: Sabak Bernam<br>No:294<br>Hex coord:(28;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:45.8225581Z,0
+3.6139498,101.205144,Daerah: Sabak Bernam<br>No:295<br>Hex coord:(29;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:47.5457201Z,0
+3.6217298,101.218634,Daerah: Sabak Bernam<br>No:296<br>Hex coord:(30;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:49.6699687Z,0
+3.6139498,101.232124,Daerah: Sabak Bernam<br>No:297<br>Hex coord:(31;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:51.3999786Z,0
+3.6217298,101.245614,Daerah: Sabak Bernam<br>No:298<br>Hex coord:(32;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:52.5222893Z,0
+3.6139498,101.259104,Daerah: Sabak Bernam<br>No:299<br>Hex coord:(33;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:54.7715194Z,0
+3.6217298,101.272594,Daerah: Sabak Bernam<br>No:300<br>Hex coord:(34;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:56.6362395Z,0
+3.6139498,101.286084,Daerah: Sabak Bernam<br>No:301<br>Hex coord:(35;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:37:58.3533798Z,0
+3.6217298,101.299574,Daerah: Sabak Bernam<br>No:302<br>Hex coord:(36;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:00.0684456Z,0
+3.6139498,101.313064,Daerah: Sabak Bernam<br>No:303<br>Hex coord:(37;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:01.9170301Z,0
+3.6217298,101.326554,Daerah: Sabak Bernam<br>No:304<br>Hex coord:(38;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:03.6352069Z,0
+3.6139498,101.340044,Daerah: Sabak Bernam<br>No:305<br>Hex coord:(39;16),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:05.3348169Z,0
+3.6061698,101.056754,Daerah: Sabak Bernam<br>No:306<br>Hex coord:(18;17),Tali Air Dua Belas. Sungai Besar. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:06.4457870Z,0
+3.5983898,101.070244,Daerah: Sabak Bernam<br>No:307<br>Hex coord:(19;17),Jalan Parit 12 Sungai Nibong. Pantai Sungai Nibung. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:08.3151221Z,0
+3.6061698,101.083734,Daerah: Sabak Bernam<br>No:308<br>Hex coord:(20;17),Pantai Sungai Nibung. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:10.0358068Z,0
+3.5983898,101.097224,Daerah: Sabak Bernam<br>No:309<br>Hex coord:(21;17),Pantai Sungai Nibung. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:11.7418633Z,0
+3.6061698,101.110714,Daerah: Sabak Bernam<br>No:310<br>Hex coord:(22;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:13.4600084Z,0
+3.5983898,101.124204,Daerah: Sabak Bernam<br>No:311<br>Hex coord:(23;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:15.2932553Z,0
+3.6061698,101.137694,Daerah: Sabak Bernam<br>No:312<br>Hex coord:(24;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:16.4147431Z,0
+3.5983898,101.151184,Daerah: Sabak Bernam<br>No:313<br>Hex coord:(25;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:18.2649756Z,0
+3.6061698,101.164674,Daerah: Sabak Bernam<br>No:314<br>Hex coord:(26;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:20.1508842Z,0
+3.5983898,101.178164,Daerah: Sabak Bernam<br>No:315<br>Hex coord:(27;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:23.0079058Z,0
+3.6061698,101.191654,Daerah: Sabak Bernam<br>No:316<br>Hex coord:(28;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:24.1237971Z,0
+3.5983898,101.205144,Daerah: Sabak Bernam<br>No:317<br>Hex coord:(29;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:26.0183729Z,0
+3.6061698,101.218634,Daerah: Sabak Bernam<br>No:318<br>Hex coord:(30;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:27.7242096Z,0
+3.5983898,101.232124,Daerah: Sabak Bernam<br>No:319<br>Hex coord:(31;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:29.4452029Z,0
+3.6061698,101.245614,Daerah: Sabak Bernam<br>No:320<br>Hex coord:(32;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:31.2890874Z,0
+3.5983898,101.259104,Daerah: Sabak Bernam<br>No:321<br>Hex coord:(33;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:33.8650647Z,0
+3.6061698,101.272594,Daerah: Sabak Bernam<br>No:322<br>Hex coord:(34;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:35.5478470Z,0
+3.5983898,101.286084,Daerah: Sabak Bernam<br>No:323<br>Hex coord:(35;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:37.2729512Z,0
+3.6061698,101.299574,Daerah: Sabak Bernam<br>No:324<br>Hex coord:(36;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:39.1542952Z,0
+3.5983898,101.313064,Daerah: Sabak Bernam<br>No:325<br>Hex coord:(37;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:41.0322371Z,0
+3.6061698,101.326554,Daerah: Sabak Bernam<br>No:326<br>Hex coord:(38;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:42.1565900Z,0
+3.5983898,101.340044,Daerah: Sabak Bernam<br>No:327<br>Hex coord:(39;17),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:43.2837507Z,0
+3.5906098,101.056754,Daerah: Sabak Bernam<br>No:328<br>Hex coord:(18;18),Pantai Sungai Nibung. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:44.4077634Z,0
+3.5828298,101.070244,Daerah: Sabak Bernam<br>No:329<br>Hex coord:(19;18),Jalan Parit 11 Baroh. Pantai Sungai Nibung. Sungai Besar. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:46.1206877Z,0
+3.5906098,101.083734,Daerah: Sabak Bernam<br>No:330<br>Hex coord:(20;18),Parit Sebelas. Sungai Besar. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:47.8252641Z,0
+3.5828298,101.097224,Daerah: Sabak Bernam<br>No:331<br>Hex coord:(21;18),Pantai Sungai Nibung. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:38:49.5415031Z,0
+3.5906098,101.110714,Daerah: Sabak Bernam<br>No:332<br>Hex coord:(22;18),Kamping Parit Empat Sungai Haji Durani. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:51.2536625Z,0
+3.5828298,101.124204,Daerah: Sabak Bernam<br>No:333<br>Hex coord:(23;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:52.9823048Z,0
+3.5906098,101.137694,Daerah: Sabak Bernam<br>No:334<br>Hex coord:(24;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:54.7446419Z,0
+3.5828298,101.151184,Daerah: Sabak Bernam<br>No:335<br>Hex coord:(25;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:56.4354005Z,0
+3.5906098,101.164674,Daerah: Sabak Bernam<br>No:336<br>Hex coord:(26;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:58.1538315Z,0
+3.5828298,101.178164,Daerah: Sabak Bernam<br>No:337<br>Hex coord:(27;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:38:59.8751097Z,0
+3.5906098,101.191654,Daerah: Sabak Bernam<br>No:338<br>Hex coord:(28;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:01.6382161Z,0
+3.5828298,101.205144,Daerah: Sabak Bernam<br>No:339<br>Hex coord:(29;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:03.3554405Z,0
+3.5906098,101.218634,Daerah: Sabak Bernam<br>No:340<br>Hex coord:(30;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:05.0662022Z,0
+3.5828298,101.232124,Daerah: Sabak Bernam<br>No:341<br>Hex coord:(31;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:06.7647604Z,0
+3.5906098,101.245614,Daerah: Sabak Bernam<br>No:342<br>Hex coord:(32;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:09.6598452Z,0
+3.5828298,101.259104,Daerah: Sabak Bernam<br>No:343<br>Hex coord:(33;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:11.3660326Z,0
+3.5906098,101.272594,Daerah: Sabak Bernam<br>No:344<br>Hex coord:(34;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:12.4822215Z,0
+3.5828298,101.286084,Daerah: Sabak Bernam<br>No:345<br>Hex coord:(35;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:13.6102857Z,0
+3.5906098,101.299574,Daerah: Sabak Bernam<br>No:346<br>Hex coord:(36;18),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:14.7315620Z,0
+3.5672698,101.070244,Daerah: Sabak Bernam<br>No:347<br>Hex coord:(19;19),Pantai Sungai Nibung. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:39:16.4598113Z,0
+3.5750498,101.083734,Daerah: Sabak Bernam<br>No:348<br>Hex coord:(20;19),Parit Sepuluh. Sungai Besar. Sabak Bernam. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:39:18.1716129Z,0
+3.5672698,101.097224,Daerah: Sabak Bernam<br>No:349<br>Hex coord:(21;19),Pantai Sungai Nibung. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:19.8980417Z,0
+3.5750498,101.110714,Daerah: Sabak Bernam<br>No:350<br>Hex coord:(22;19),Pantai Sungai Nibung. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:21.6065643Z,0
+3.5672698,101.124204,Daerah: Sabak Bernam<br>No:351<br>Hex coord:(23;19),Kamping Parit Empat Sungai Haji Durani. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:23.3204593Z,0
+3.5750498,101.137694,Daerah: Sabak Bernam<br>No:352<br>Hex coord:(24;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:26.0867975Z,0
+3.5672698,101.151184,Daerah: Sabak Bernam<br>No:353<br>Hex coord:(25;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:27.2105381Z,0
+3.5750498,101.164674,Daerah: Sabak Bernam<br>No:354<br>Hex coord:(26;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:29.0893226Z,0
+3.5672698,101.178164,Daerah: Sabak Bernam<br>No:355<br>Hex coord:(27;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:31.1494456Z,0
+3.5750498,101.191654,Daerah: Sabak Bernam<br>No:356<br>Hex coord:(28;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:32.8878681Z,0
+3.5672698,101.205144,Daerah: Sabak Bernam<br>No:357<br>Hex coord:(29;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:34.6095953Z,0
+3.5750498,101.218634,Daerah: Sabak Bernam<br>No:358<br>Hex coord:(30;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:36.3183806Z,0
+3.5672698,101.232124,Daerah: Sabak Bernam<br>No:359<br>Hex coord:(31;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:39.0339828Z,0
+3.5750498,101.245614,Daerah: Sabak Bernam<br>No:360<br>Hex coord:(32;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:40.1545524Z,0
+3.5672698,101.259104,Daerah: Sabak Bernam<br>No:361<br>Hex coord:(33;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:41.2825869Z,0
+3.5750498,101.272594,Daerah: Sabak Bernam<br>No:362<br>Hex coord:(34;19),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:42.9876888Z,0
+3.5594898,101.083734,Daerah: Sabak Bernam<br>No:363<br>Hex coord:(20;20),Jalan Kuala Selangor - Teluk Intan. Sungai Besar. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:39:44.6411667Z,0
+3.5517098,101.097224,Daerah: Sabak Bernam<br>No:364<br>Hex coord:(21;20),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:46.3807636Z,0
+3.5594898,101.110714,Daerah: Sabak Bernam<br>No:365<br>Hex coord:(22;20),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:48.1144225Z,0
+3.5517098,101.124204,Daerah: Sabak Bernam<br>No:366<br>Hex coord:(23;20),Taman Aman. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:49.3965306Z,0
+3.5594898,101.137694,Daerah: Sabak Bernam<br>No:367<br>Hex coord:(24;20),Kamping Parit Empat Sungai Haji Durani. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:51.1263379Z,0
+3.5517098,101.151184,Daerah: Sabak Bernam<br>No:368<br>Hex coord:(25;20),Sabak Bernam. 45400 Sekinchan. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:52.8161272Z,0
+3.5594898,101.164674,Daerah: Sabak Bernam<br>No:369<br>Hex coord:(26;20),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:53.9411317Z,0
+3.5517098,101.178164,Daerah: Sabak Bernam<br>No:370<br>Hex coord:(27;20),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:55.6542408Z,0
+3.5594898,101.191654,Daerah: Sabak Bernam<br>No:371<br>Hex coord:(28;20),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:56.7803361Z,0
+3.5517098,101.205144,Daerah: Sabak Bernam<br>No:372<br>Hex coord:(29;20),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:39:58.5131408Z,0
+3.5594898,101.218634,Daerah: Sabak Bernam<br>No:373<br>Hex coord:(30;20),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:00.2428015Z,0
+3.5439298,101.083734,Daerah: Sabak Bernam<br>No:374<br>Hex coord:(20;21),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:01.3628936Z,0
+3.5361498,101.097224,Daerah: Sabak Bernam<br>No:375<br>Hex coord:(21;21),Tali Air Tujuh. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:02.7856086Z,0
+3.5439298,101.110714,Daerah: Sabak Bernam<br>No:376<br>Hex coord:(22;21),Taman Aman. 45400. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:40:05.5106280Z,0
+3.5361498,101.124204,Daerah: Sabak Bernam<br>No:377<br>Hex coord:(23;21),Taman Aman. 45400. Selangor. Malaysia,3 ,0,0,0,0,0,1,2021-11-02T05:40:07.2529767Z,0
+3.5439298,101.137694,Daerah: Sabak Bernam<br>No:378<br>Hex coord:(24;21),Taman Aman. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:08.9779471Z,0
+3.5361498,101.151184,Daerah: Sabak Bernam<br>No:379<br>Hex coord:(25;21),Taman Indah. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:10.7034199Z,0
+3.5439298,101.164674,Daerah: Sabak Bernam<br>No:380<br>Hex coord:(26;21),Sabak Bernam. 45400 Sekinchan. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:13.4805650Z,0
+3.5439298,101.191654,Daerah: Sabak Bernam<br>No:381<br>Hex coord:(28;21),Sabak Bernam. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:15.1976545Z,0
+3.5283698,101.083734,Daerah: Sabak Bernam<br>No:382<br>Hex coord:(20;22),Sungai Haji Sirat. Sabak Bernam. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:16.3153975Z,0
+3.5205898,101.097224,Daerah: Sabak Bernam<br>No:383<br>Hex coord:(21;22),Guest House Wong Corner. 45A-C Site C Jalan Kuala Selangor. 45400. Selangor. Malaysia,4 ,0,0,0,0,0,1,2021-11-02T05:40:17.4411680Z,0
+3.5283698,101.110714,Daerah: Sabak Bernam<br>No:384<br>Hex coord:(22;22),Taman Aman. 45400. Selangor. Malaysia,2 ,0,0,0,0,0,1,2021-11-02T05:40:19.1804466Z,0
+3.5205898,101.124204,Daerah: Sabak Bernam<br>No:385<br>Hex coord:(23;22),Taman Aman Jaya. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:21.3483160Z,0
+3.5283698,101.137694,Daerah: Sabak Bernam<br>No:386<br>Hex coord:(24;22),Nan Tian Chinese Temple. 3 Lorong. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:22.4659349Z,0
+3.5205898,101.151184,Daerah: Sabak Bernam<br>No:387<br>Hex coord:(25;22),Nan Tian Chinese Temple. 3 Lorong. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:24.1912894Z,0
+3.5283698,101.164674,Daerah: Sabak Bernam<br>No:388<br>Hex coord:(26;22),Kamping Parit Empat Sungai Haji Durani. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:25.3137156Z,0
+3.5050298,101.097224,Daerah: Sabak Bernam<br>No:389<br>Hex coord:(21;23),Sekin Hotel & Resort. 285 Lorong Sebelas. sekinchan. selangor. malaysia. 45400. Selangor. Malaysia,12 ,0,0,0,0,0,1,2021-11-02T05:40:26.4405946Z,0
+3.5128098,101.110714,Daerah: Sabak Bernam<br>No:390<br>Hex coord:(22;23),VR Sekinchan Jie Yuan. 5 Jalan Menteri. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:27.7133761Z,0
+3.5050298,101.124204,Daerah: Sabak Bernam<br>No:391<br>Hex coord:(23;23),Taman Sekinchan Jaya. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2021-11-02T05:40:29.5912089Z,0
+3.5128098,101.137694,Daerah: Sabak Bernam<br>No:392<br>Hex coord:(24;23),Sabak Bernam. 45400. Selangor. Malaysia,6 ,0,0,0,0,0,1,2021-11-02T05:40:30.8710922Z,0
+3.4972498,101.110714,Daerah: Sabak Bernam<br>No:393<br>Hex coord:(22;24),Jalan Tepi Sawah. Selangor. Malaysia,1 ,0,0,0,0,0,1,2021-11-02T05:40:32.5760045Z,0
