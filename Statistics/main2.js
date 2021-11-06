@@ -14,7 +14,7 @@
 * Google Map API
 * 
 * Issues: 
-* Still many unresolved items as the MOH data is full of inconsistencies in district names and representation, 'pelbagai', '&', 'dan' etc
+* Still many unresolved items as the MOH data is full of inconsistencies in district names and representation, e.g. 'pelbagai', '&', 'dan' etc
 * You may need to implement a language parser to handle these kinds of input.
 * 
 * ----
