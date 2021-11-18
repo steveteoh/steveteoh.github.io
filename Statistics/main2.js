@@ -188,7 +188,7 @@ function loadDistricts(sourceFile) {
  */
 function getDistrictIndex(districtName) {
     for (let i = 0; i < Object.keys(myDistricts).length - 1; i++) {
-        if ((myDistricts[i]['daerah'] == districtName))
+        if ((myDistricts[i]['daerah'].toUpperCase() == districtName))
             return myDistricts[i]['no'];   
     };
     return 0;
