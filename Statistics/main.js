@@ -173,7 +173,7 @@ function loadStates(sourceFile) {
  * @param {any} stateName
  */
 function getStateIndex(stateName) {
-    for (let i = 0; i < myStates.length - 1; i++) {
+    for (let i = 0; i < myStates.length; i++) {
         if (myStates[i][0] == stateName)
             return myStates[i][1];
     };
