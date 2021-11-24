@@ -15,20 +15,6 @@ body {
     overflow: hidden;
 }
 
-#floating-panel {
-    position: absolute;
-    top: 64px;
-    left: 59%;
-    z-index: 5;
-    background-color: #fff;
-    padding: 5px;
-    border: 1px solid #999;
-    text-align: center;
-    font-family: "Roboto", "sans-serif";
-    line-height: 30px;
-    padding-left: 10px;
-}
-
 #map {
     flex: 1 1 auto;
 }
