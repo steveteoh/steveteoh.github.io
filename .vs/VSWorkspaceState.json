@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\data",
+    "\\data\\johor",
     "\\data\\kedah",
     "\\data\\kelantan",
-    "\\data\\melaka",
-    "\\data\\negerisembilan",
-    "\\data\\pahang",
-    "\\data\\penang",
-    "\\data\\perak",
     "\\data\\perlis",
-    "\\Maps"
+    "\\data\\selangor",
+    "\\Maps\\Selangor\\daerah",
+    "\\Maps\\WP",
+    "\\Wilayah"
   ],
-  "SelectedNode": "\\Maps\\geoBoundaries-MYS-ADM2_simplified.geojson",
+  "SelectedNode": "\\css",
   "PreviewInSolutionExplorer": false
 }
