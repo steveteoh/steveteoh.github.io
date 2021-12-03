@@ -175,12 +175,12 @@ function startSimulation() {
                 var lats = parseFloat(results[0].latitude);
                 var lons = parseFloat(results[0].longitude2);
                 var hdist = parseFloat(results[0].distance2);
-                var distance = traveldistance - hdist;                      //remaining distance
                 var home = { lat: lats, lng: lons };
                 gridId = searchPlace(parseFloat(lats), parseFloat(lons));   //grid id for home
 
                 // daily loop --> fix home and school, vary the rest.
                 for (var a = startdate; a <= enddate; a++) {
+                    var distance = traveldistance - hdist;                      //remaining distance
                     // push home address
                     document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") ";
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
@@ -230,13 +230,13 @@ function startSimulation() {
                 var lats = parseFloat(results[0].latitude);
                 var lons = parseFloat(results[0].longitude2);
                 var hdist = parseFloat(results[0].distance2);
-                var distance = traveldistance - hdist;                      //remaining distance
                 var home = { lat: lats, lng: lons };
                 gridId = searchPlace(parseFloat(lats), parseFloat(lons));   //grid id for home
 
 
                 // daily loop --> fix home and secondary school, vary the rest.
                 for (var a = startdate; a <= enddate; a++) {
+                    var distance = traveldistance - hdist;                      //remaining distance
                     // push home address
                     document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") ";
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
@@ -286,12 +286,12 @@ function startSimulation() {
                 var lats = parseFloat(results[0].latitude);
                 var lons = parseFloat(results[0].longitude2);
                 var hdist = parseFloat(results[0].distance2);
-                var distance = traveldistance - hdist;                      //remaining distance
                 var home = { lat: lats, lng: lons };
                 gridId = searchPlace(parseFloat(lats), parseFloat(lons));   //grid id for home
 
                 // daily loop --> fix home and uni, vary the rest.
                 for (var a = startdate; a <= enddate; a++) {
+                    var distance = traveldistance - hdist;                      //remaining distance
                     // push home address
                     document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") ";
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
@@ -336,11 +336,11 @@ function startSimulation() {
                 var offset_lat = places[gridId][0] + random(0, delta_lat * 1000000) / 1000000;
                 var offset_lon = places[gridId][1] + random(0, delta_lon * 1000000) / 1000000;
                 var home = { lat: offset_lat, lng: offset_lon };
-                var distance = traveldistance;            //init with total distance
                 var starting_point = home;                //start from home
 
                 // daily loop --> fix home and uni, vary the rest.
                 for (var a = startdate; a <= enddate; a++) {
+                    var distance = traveldistance;            //init with total distance
                     // push home address
                     document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") ";
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
