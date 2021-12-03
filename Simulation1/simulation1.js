@@ -25,6 +25,7 @@ const delta_lon = 0.0134817;
 //state maps with corresponding cases
 //Note: Records loaded are filtered by (totalcases > 0) so that we remove non inhabitat areas like forests etc.
 var places = [];
+var placesAll = [];
 
 var multiplier = 1;   //1=100samples, 10=1000samples, 100=10,000samples, 1000=100,000samples etc.
 
@@ -71,6 +72,7 @@ function initData() {
     //Start
     //1. Load the state daily active cases summary 
     LoadStateCasesSummary(baseaddress + "/data/" + foldername + "/" + summaryfilename);
+    LoadStateCasesFull(baseaddress + "/data/" + foldername + "/" + summaryfilename);
 
     //2. Load the primary and secondary schools
     //-----------------------------------------------------------------
@@ -128,8 +130,8 @@ function weightedRandom(list) {
 //Search function
 function searchPlace(lat, lon) {
     var smallest = Infinity;
-    for (var i = 0; i < places.length; i++) {
-        var dist = distance(parseFloat(places[i][0]), parseFloat(places[i][1]), parseFloat(lat), parseFloat(lon));
+    for (var i = 0; i < placesAll.length; i++) {
+        var dist = distance(parseFloat(placesAll[i][0]), parseFloat(placesAll[i][1]), parseFloat(lat), parseFloat(lon));
         if (dist <= 1000) {
             return i;
         }
@@ -142,7 +144,6 @@ function searchPlace(lat, lon) {
     console.log("something is wrong - " + lat + "," + lon + " is not found. Smallest distance computed= " + smallest);
     return -1;
 }
-
 
 function startSimulation() {
     document.getElementById('Update').innerHTML += "-------------------------------------------------------<br/>";
@@ -185,7 +186,7 @@ function startSimulation() {
                     document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") ";
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                     if (gridId != -1)
-                        document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                        document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
 
                     //if one waypoint, it is obviously home, no need to process further
                     if (waypoints == 1) {
@@ -196,7 +197,7 @@ function startSimulation() {
                     document.getElementById('Update').innerHTML += "<br> _________ school address (" + school.lat + "," + school.lng + ") @ " + primary[selection][1];
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                     if (gridId != -1)
-                        document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                        document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                     //distance between origin and destination
                     document.getElementById('Update').innerHTML += "<br> _________ home (" + home.lat + ", " + home.lng + ") to school (" + school.lat + "," + school.lng + ") =" + hdist + " m ";
 
@@ -213,7 +214,7 @@ function startSimulation() {
                         document.getElementById('Update').innerHTML += "<br>[" + a + "] school (" + school.lat + ", " + school.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
                         //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                         if (gridId != -1)
-                            document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                         // + " remaining distance=" + distance + " m";
                     }
                 }
@@ -237,11 +238,12 @@ function startSimulation() {
                 // daily loop --> fix home and secondary school, vary the rest.
                 for (var a = startdate; a <= enddate; a++) {
                     var distance = traveldistance - hdist;                      //remaining distance
+
                     // push home address
                     document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") ";
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                     if (gridId != -1)
-                        document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                        document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
 
                     //if one waypoint, it is obviously home, no need to process further
                     if (waypoints == 1) {
@@ -252,7 +254,7 @@ function startSimulation() {
                     document.getElementById('Update').innerHTML += "<br> _________ secondary school address (" + school2.lat + "," + school2.lng + ") @ " + secondary[selection][1];
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                     if (gridId != -1)
-                        document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                        document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                     //distance between origin and destination
                     document.getElementById('Update').innerHTML += "<br> _________ home (" + home.lat + ", " + home.lng + ") to secondary school (" + school2.lat + "," + school2.lng + ") =" + hdist + " m ";
 
@@ -269,7 +271,7 @@ function startSimulation() {
                         document.getElementById('Update').innerHTML += "<br>[" + a + "] secondary school (" + school2.lat + ", " + school2.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
                         //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                         if (gridId != -1)
-                            document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                         // + " remaining distance=" + distance + " m";
                     }
                 }
@@ -292,11 +294,12 @@ function startSimulation() {
                 // daily loop --> fix home and uni, vary the rest.
                 for (var a = startdate; a <= enddate; a++) {
                     var distance = traveldistance - hdist;                      //remaining distance
+
                     // push home address
                     document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") ";
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                     if (gridId != -1)
-                        document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                        document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
 
                     //if one waypoint, it is obviously home, no need to process further
                     if (waypoints == 1) {
@@ -307,7 +310,7 @@ function startSimulation() {
                     document.getElementById('Update').innerHTML += "<br> _________ uni/college address (" + uni.lat + "," + uni.lng + ") @ " + unicollege[selection][1];
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                     if (gridId != -1)
-                        document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                        document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                     //distance between origin and destination
                     document.getElementById('Update').innerHTML += "<br> _________ home (" + home.lat + ", " + home.lng + ") to uni/college (" + uni.lat + "," + uni.lng + ") =" + hdist + " m ";
 
@@ -324,7 +327,7 @@ function startSimulation() {
                         document.getElementById('Update').innerHTML += "<br>[" + a + "] uni/college (" + uni.lat + ", " + uni.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
                         //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                         if (gridId != -1)
-                            document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                         // + " remaining distance=" + distance + " m";
                     }
                 }
@@ -332,20 +335,24 @@ function startSimulation() {
             default:
                 //generate home address = centerpoint
                 //places -> lat,lon,label,placename,01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,total
-                var gridId = random(0, places.length);      //choose a grid (index) as home
-                var offset_lat = places[gridId][0] + random(0, delta_lat * 1000000) / 1000000;
-                var offset_lon = places[gridId][1] + random(0, delta_lon * 1000000) / 1000000;
+                var Id = random(0, places.length);      //choose a grid (index) as home
+                var lats = places[Id][0];
+                var lons = places[Id][1];
+                var offset_lat = lats + random(0, delta_lat * 1000000) / 1000000;
+                var offset_lon = lons + random(0, delta_lon * 1000000) / 1000000;
                 var home = { lat: offset_lat, lng: offset_lon };
                 var starting_point = home;                //start from home
+                var gridId = searchPlace(parseFloat(lats), parseFloat(lons));   //grid id for home
 
                 // daily loop --> fix home and uni, vary the rest.
                 for (var a = startdate; a <= enddate; a++) {
                     var distance = traveldistance;            //init with total distance
+
                     // push home address
                     document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") ";
                     //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                     if (gridId != -1)
-                        document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                        document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
 
                     //if one waypoint, it is obviously home, no need to process further
                     if (waypoints == 1) {
@@ -365,7 +372,7 @@ function startSimulation() {
                         document.getElementById('Update').innerHTML += "<br>[" + a + "] home (" + home.lat + ", " + home.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
                         //To do: safety net for accidental generation of out of bounds coordinates e.g. dalam laut, luar negeri etc....
                         if (gridId != -1)
-                            document.getElementById('Update').innerHTML += " at grid (" + places[gridId][0] + "," + places[gridId][1] + ") risk=" + places[gridId][a - startdate + 4] + " active cases ";
+                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                         // + " remaining distance=" + distance + " m";
                     }
                 }
@@ -435,6 +442,57 @@ function Generatelifestyle(ageGroupIndex) {
 
 //---------------------------------------------------
 //Data loading functions
+
+async function LoadStateCasesFull(sourceFile) {
+    let myPromise = new Promise(function (resolve) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", sourceFile);   //.csv file
+        xhr.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var thisGrid = this.responseText;  //return object
+                const data = csvToArray(thisGrid, ',');
+                data.forEach(function (item, index) {
+                    var lt1 = parseFloat(data[index]['lat']);
+                    var ln1 = parseFloat(data[index]['lon']);
+                    var label1 = data[index]['label'];
+                    var locationname = data[index]['placename'];
+                    var d01 = parseInt(data[index][dateBegin]); var d02 = parseInt(data[index][(parseInt(dateBegin) + 1).toString()]);
+                    var d03 = parseInt(data[index][(parseInt(dateBegin) + 2).toString()]); var d04 = parseInt(data[index][(parseInt(dateBegin) + 3).toString()]);
+                    var d05 = parseInt(data[index][(parseInt(dateBegin) + 4).toString()]); var d06 = parseInt(data[index][(parseInt(dateBegin) + 5).toString()]);
+                    var d07 = parseInt(data[index][(parseInt(dateBegin) + 6).toString()]); var d08 = parseInt(data[index][(parseInt(dateBegin) + 7).toString()]);
+                    var d09 = parseInt(data[index][(parseInt(dateBegin) + 8).toString()]); var d10 = parseInt(data[index][(parseInt(dateBegin) + 9).toString()]);
+                    var d11 = parseInt(data[index][(parseInt(dateBegin) + 10).toString()]); var d12 = parseInt(data[index][(parseInt(dateBegin) + 11).toString()]);
+                    var d13 = parseInt(data[index][(parseInt(dateBegin) + 12).toString()]); var d14 = parseInt(data[index][(parseInt(dateBegin) + 13).toString()]);
+                    var d15 = parseInt(data[index][(parseInt(dateBegin) + 14).toString()]); var d16 = parseInt(data[index][(parseInt(dateBegin) + 15).toString()]);
+                    var d17 = parseInt(data[index][(parseInt(dateBegin) + 16).toString()]); var d18 = parseInt(data[index][(parseInt(dateBegin) + 17).toString()]);
+                    var d19 = parseInt(data[index][(parseInt(dateBegin) + 18).toString()]); var d20 = parseInt(data[index][(parseInt(dateBegin) + 19).toString()]);
+                    var d21 = parseInt(data[index][(parseInt(dateBegin) + 20).toString()]); var d22 = parseInt(data[index][(parseInt(dateBegin) + 21).toString()]);
+                    var d23 = parseInt(data[index][(parseInt(dateBegin) + 22).toString()]); var d24 = parseInt(data[index][(parseInt(dateBegin) + 23).toString()]);
+                    var d25 = parseInt(data[index][(parseInt(dateBegin) + 24).toString()]); var d26 = parseInt(data[index][(parseInt(dateBegin) + 25).toString()]);
+                    var d27 = parseInt(data[index][(parseInt(dateBegin) + 26).toString()]); var d28 = parseInt(data[index][(parseInt(dateBegin) + 27).toString()]);
+                    var d29 = parseInt(data[index][(parseInt(dateBegin) + 28).toString()]); var d30 = parseInt(data[index][(parseInt(dateBegin) + 29).toString()]);
+                    var d31 = parseInt(data[index][(parseInt(dateBegin) + 30).toString()]);
+                    var ttl = parseInt(data[index]['total']);
+
+                    //drop the last row if it contains NaN. 
+                    if (!isNaN(lt1)) {
+                        //lat,lon,label,placename,01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,total
+                        //console.log(lt1, ln1, label1, locationname, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16,
+                        //    d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31, ttl);
+                        placesAll.push([lt1, ln1, label1, locationname, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16,
+                            d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31, ttl]);
+                    }
+                });
+                //console.log("response resolved.");
+                resolve(this.responseText);
+            }
+        };
+        xhr.send();
+    });
+    await myPromise.then(() => {
+        document.getElementById('Update').innerHTML += "(Async) Daily Records loaded = " + placesAll.length + " records.<br/>";
+    });
+}
 
 async function LoadStateCasesSummary(sourceFile) {
     let myPromise = new Promise(function (resolve) {
