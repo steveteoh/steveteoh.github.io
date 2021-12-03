@@ -27,7 +27,7 @@ const delta_lon = 0.0134817;
 var places = [];
 var placesAll = [];
 
-var multiplier = 1;   //1=100samples, 10=1000samples, 100=10,000samples, 1000=100,000samples etc.
+var multiplier = 100;   //1=100samples, 10=1000samples, 100=10,000samples, 1000=100,000samples etc.
 
 //Simulated personnel according to the age groups
 var personnel = [];
