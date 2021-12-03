@@ -68,9 +68,6 @@ var lifestyleParam = [
 ]
 
 function initData() {
-    //loadStates(baseaddress + "/json/states.json");   //can be on localhost or actual site   
-    //fillPlaces(baseaddress + "/data/" + foldername + "/" + filename + ".csv");
-
     //Start
     //1. Load the state daily active cases summary 
     LoadStateCasesSummary(baseaddress + "/data/" + foldername + "/" + summaryfilename);
@@ -715,4 +712,3 @@ function csvToArray(str, delimiter = ",") {
     });
     return arr;      //return the array
 }
-
