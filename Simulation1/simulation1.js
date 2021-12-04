@@ -344,7 +344,7 @@ function startSimulation() {
                 var starting_point = home;                //start from home
                 var gridId = searchPlace(parseFloat(lats), parseFloat(lons));   //grid id for home
 
-                // daily loop --> fix home and uni, vary the rest.
+                // daily loop --> fix home, vary the rest.
                 for (var a = startdate; a <= enddate; a++) {
                     var distance = traveldistance;            //init with total distance
 
