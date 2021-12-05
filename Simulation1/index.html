@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simulation Functions</title>
+    <title>Simulation Function</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/navi.css" />
     <script src="./simulation1.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8KAHldpvIOBBG8Lb3lrpWlFlS3mfFf9o&libraries=geometry"></script>
 </head>
 <body onload="initData();">
+    <div id="googleMap" style="width:10%;height:10px;"></div>
     <div style="text-align:left">
+        <input id="Samples" type="button" value="1. Generate Samples" />
+        <input id="Simulate" type="button" value="2. Start Simulation" />
+        <input id="Download" type="button" value="3. Download Results" />
         <h6>
             <b>Results : </b><br />
             <span id="Update"></span>
         </h6>
-        <input id="Samples" type="button" value="1. Generate Samples" />
-        <input id="Simulate" type="button" value="2. Start Simulation" />
-        <input id="Download" type="button" value="3. Download Results" />
     </div>
+    <footer>
+        <br />
+        <center><h6><span id="notice">Copyright (c) 2021 Steve Teoh et al.</span></h6></center>
+    </footer>
 </body>
 </html>
