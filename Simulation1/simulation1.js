@@ -309,9 +309,6 @@ async function getStateName(latlng) {
 //Initialization Function (called during loading of script)
 //
 function initData() {
-    //var land = { lat: 3.040718, lng: 101.789423 };                          //Sg Long Sec 1
-    //var origin = { lat: 3.016425, lng: 101.141194};
-
     //Start
     //1. Load the state daily active cases summary 
     LoadStateCasesSummary(baseaddress + "/data/" + foldername + "/" + summaryfilename);
