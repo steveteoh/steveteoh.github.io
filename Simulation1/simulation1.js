@@ -350,9 +350,9 @@ function initData() {
     document.getElementById("Download").addEventListener("click", saveFile);
 
     //set the initial status
-    document.getElementById("Samples").disabled = true;   //only enable once samples are created
-    document.getElementById("Simulate").disabled = false;   //only enable once samples are created
-    document.getElementById("Download").disabled = false;   //only enable once simulation is finished.
+    document.getElementById("Samples").disabled = false;   //only enable once samples are created
+    document.getElementById("Simulate").disabled = true;   //only enable once samples are created
+    document.getElementById("Download").disabled = true;   //only enable once simulation is finished.
 
     //End. Ready to run
 }
@@ -467,9 +467,9 @@ function generateSamples() {
     }
     document.getElementById('Update').innerHTML += "<br>-------------------------------------------------------";
     document.getElementById('Update').innerHTML += "<br>Total personnels generated = " + (personnel.length) + "<br>";
-    document.getElementById("Samples").disabled = false;   //samples created
-    document.getElementById("Simulate").disabled = true;   //only enable once samples are created
-    document.getElementById("Download").disabled = false;   //only enable once simulation is finished.
+    document.getElementById("Samples").disabled = true;   //samples created
+    document.getElementById("Simulate").disabled = false;   //only enable once samples are created
+    document.getElementById("Download").disabled = true;   //only enable once simulation is finished.
 
 }
 
@@ -974,9 +974,9 @@ async function startSimulation() {
         }
     }
     document.getElementById('Update').innerHTML += "<br/><br/> Simulation Ends";
-    document.getElementById("Samples").disabled = false;   //samples created
-    document.getElementById("Simulate").disabled = false;   //Simulation done
-    document.getElementById("Download").disabled = true;   //only enable once simulation is finished.
+    document.getElementById("Samples").disabled = true;   //samples created
+    document.getElementById("Simulate").disabled = true;   //Simulation done
+    document.getElementById("Download").disabled = false;   //only enable once simulation is finished.
 }
 
 
@@ -1388,4 +1388,166 @@ function subtringBetween(word, beginning, ending) {
         word.lastIndexOf(ending));
     return mySubString;
 
+}
+
+
+//-------------------------------------------------------------------------------------------------------------
+//  PUBLIC
+//------------------------------
+//let statename = "selangor";
+//let myStates = [];   //for loading the state lists
+//let myStateGrid;     //for loading sampled places of the state
+//------------------------------
+//
+//--------------------------------
+//   Unused Functions            |
+//--------------------------------
+
+/**
+ * Function to get the state index 
+ * 
+ * @param {any} stateName
+ */
+function getStateIndex(stateName) {
+    for (let i = 1; i < myStates.length; i++) {
+        //console.log(stateName + ": compared to -->" + myStates[i][0]);
+        if (myStates[i][0].toUpperCase() == stateName.toUpperCase())
+            return myStates[i][1];
+    };
+    return -1;
+}
+
+/**
+ * Function to get the state folder name 
+ * Use by: loadStates
+ * @param {any} stateName
+ */
+function getStateGridFoldername(stateName) {
+    for (let i = 1; i < myStates.length; i++) {
+        //console.log(stateName + ": compared to -->" + myStates[i][0]);
+        if (myStates[i][0].toUpperCase() == stateName.toUpperCase())
+            return myStates[i][3];
+    };
+    return -1;
+}
+
+/**
+ * Function to get the state filename 
+ * Use by: loadStates
+ * @param {any} stateName
+ */
+function getStateGridFilename(stateName) {
+    //unused
+    for (let i = 1; i < myStates.length; i++) {
+        //console.log(stateName + ": compared to -->" + myStates[i][0]);
+        if (myStates[i][0].toUpperCase() == stateName.toUpperCase())
+            return myStates[i][2];
+    };
+    return -1;
+}
+
+/**
+ * Loads the list of states asynchronously into myStates array
+ * 
+ * @param {string} sourceFile
+ * e.g. loadStates(baseaddress + "/json/states.json");   //can be on localhost or actual site
+ */
+
+async function loadStates(sourceFile) {
+    //unused
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            myStates = JSON.parse(this.responseText);
+            //console.log("states:" + myStates);        //debug
+            //console.log("State:" + state + " index:" + getStateIndex(state));
+            var filename = getStateGridFilename(statename);
+            var foldername = getStateGridFoldername(statename);
+        }
+    };
+    xhr.open("GET", sourceFile);   //.json file
+    xhr.send();
+}
+
+//---------------------------------------------------
+//summary.js
+//
+async function fillPlaces(sourceFile) {
+    let myPromise = new Promise(function (resolve) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", sourceFile);   //.csv file
+        xhr.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                myStateGrid = this.responseText;  //return object
+                //console.log("StateGrids :" + myStateGrid);        //debug
+                const data = csvToArray(myStateGrid, ',');
+                //console.log(data);                                //debug
+                data.forEach(function (item, index) {
+                    lt1 = parseFloat(data[index]['lat']);
+                    ln1 = parseFloat(data[index]['lon']);
+                    pos = { lat: lt1, lng: ln1 };
+                    var locationname = data[index]['placename'];
+                    var label1 = data[index]['label'];
+
+                    //console.log(lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, timestamp);
+                    places.push([lt1, ln1, label1, locationname, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+                });
+                //console.log("response resolved.");
+                resolve(this.responseText);
+            }
+        };
+        xhr.send();
+    });
+    await myPromise.then(() => {
+        //console.log("promise done ");
+        for (var i = dateBegin; i <= dateEnd; i++) {
+            console.log("getting " + baseaddress + "/data/" + foldername + "/" + i + "_" + filename + ".csv")
+            ReadData(i, baseaddress + "/data/" + foldername + "/" + i + "_" + filename + ".csv");
+        }
+        document.getElementById("Download").addEventListener("click", saveFile);
+    });
+}
+
+//---------------------------------------------------
+//unused
+async function ReadData(date, sourceFile) {
+    let myPromise = new Promise(function (resolve) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", sourceFile);   //.csv file
+        xhr.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var thisGrid = this.responseText;  //return object
+                //console.log("thisGrid :" + thisGrid);        //debug
+                const data = csvToArray(thisGrid, ',');
+                //console.log(data);                           //debug
+                data.forEach(function (item, index) {
+                    lt1 = parseFloat(data[index]['lat']);
+                    ln1 = parseFloat(data[index]['lon']);
+                    pos = { lat: lt1, lng: ln1 };
+                    //var locationname = data[index]['placename'];  
+                    //var label1 = data[index]['label'];
+                    var weeklyactive = parseInt(data[index]['weeklyactive']);
+                    var column = date - dateBegin + 4;  // points to the column for daily cases
+                    console.log(index + "," + column + "=" + weeklyactive);
+                    //var timestamp = data[index]['timestamp'];
+                    for (let index = 0; index < places.length; index++) {
+                        if ((lt1 == places[index][0]) && (ln1 == places[index][1])) {
+                            places[index][column] = weeklyactive;
+                            break;
+                        }
+                    }
+                    //console.log(lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, timestamp);
+                });
+                //console.log("response resolved.");
+                resolve(this.responseText);
+            }
+        };
+        xhr.send();
+    });
+    await myPromise.then(() => {
+        //for (var x = 0; x < places.length; x++)
+        //document.getElementById('Update').innerText += places [x] + "<br />";
+        document.getElementById('Update').innerText += places;
+        //console.log("promise done ");
+    });
 }
