@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lookup a point in time for Risk and Rnaught </title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="../css/navi.css" />
+    <script src="./locate.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8KAHldpvIOBBG8Lb3lrpWlFlS3mfFf9o&libraries=geometry"></script>
+</head>
+<body onload="init()">
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+    <hr />
+    <div style="text-align:left">
+        <form id="myForm" onSubmit="Search(this)">
+            <div>
+                &nbsp;&nbsp;State:
+                <select id="states"></select>
+            </div>
+            <div><br /></div>
+            <div>
+                &nbsp;&nbsp;Start Date: <input type="date" id="startdate">
+                &nbsp;&nbsp;<!--End Date: <input type="date" id="enddate">-->
+            </div>
+            <div><br /></div>
+            <div>
+                &nbsp;&nbsp;Latitude: <input type="text" name="lat" id="Latitude" size="20">
+                &nbsp;&nbsp;Longitude: <input type="text" name="lon" id="Longitude" size="20">
+            </div>
+            <div><br /></div>
+            <div>
+                &nbsp;&nbsp;If both start date and end dates are selected, the Google Map will only display the latest date.
+                &nbsp;&nbsp;The results for the date range will be shown in the results section below.
+            </div>
+            <div><br /></div>
+            <div>
+                &nbsp;&nbsp;<input id="Find" type="submit" value="Find!" />
+            </div>
+        </form>
+    </div>
+    <div style="text-align:left">
+        <h6>
+            <b>Results : </b><br />
+            <span id="Update"></span>
+        </h6>
+    </div>
+    <footer>
+        <br />
+        <center><h6><span id="notice">Copyright (c) 2021 Steve Teoh et al. All rights reserved.</span></h6></center>
+    </footer>
+</body>
+</html>
