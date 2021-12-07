@@ -1,5 +1,5 @@
 /*
-* By Steve Teoh v 1.2.0.0 @ 2021/12/08 User Travel Location Generator
+* By Steve Teoh v 1.1.0.0 @ 2021/12/02 User Travel Location Generator
 * For Research Purposes only.
 * Purpose: Simulation Tool
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
@@ -52,7 +52,7 @@ var secondary = [];
 var unicollege = [];
 
 //state maps with corresponding cases
-//Note: Records loaded are filtered by (totalcases > 0) so that we remove non inhabited areas like forests etc.
+//Note: Records loaded are filtered by (totalcases > 0) so that we remove non inhabitat areas like forests etc.
 var places = [];
 var placesAll = [];
 
@@ -309,8 +309,6 @@ async function getStateName(latlng) {
 //Initialization Function (called during loading of script)
 //
 function initData() {
-    //var land = { lat: 3.040718, lng: 101.789423 };                          //Sg Long Sec 1
-    //var origin = { lat: 3.016425, lng: 101.141194};
     //Start
     //1. Load the state daily active cases summary 
     LoadStateCasesSummary(baseaddress + "/data/" + foldername + "/" + summaryfilename);
@@ -349,46 +347,11 @@ function initData() {
     document.getElementById("Download").addEventListener("click", saveFile);
 
     //set the initial status
-    document.getElementById("Samples").disabled = false;   //default enabled for the first step
+    document.getElementById("Samples").disabled = false;   //only enable once samples are created
     document.getElementById("Simulate").disabled = true;   //only enable once samples are created
     document.getElementById("Download").disabled = true;   //only enable once simulation is finished.
 
-    //-----------------------------------------------------------------
-    //init default values
-    document.getElementById("samples").value = 100;  //default value
-
-    var today = new Date();
-    today.setHours(-24);         //set to yesterday
-    var mindate = "2021-11-01";  //min in the database
-    var maxdate = "2021-11-30";  // today.toDateInputValue();   // oct & dec data temporarily not ready yet
-
-    document.getElementById("yest").innerHTML = maxdate; // today.toDateInputValue();
-
-    var date_input1 = document.getElementById("startdate");
-    date_input1.value = mindate;
-    date_input1.min = mindate;
-    date_input1.max = maxdate;
-    var date_input2 = document.getElementById("enddate");
-    date_input2.value = maxdate;
-    date_input2.min = mindate;
-    date_input2.max = maxdate;
-
-    date_input1.onchange = function () {
-        if (this.value > date_input2.value) {
-            alert(this.value + " is more than the end date " + date_input2.value);
-            date_input2.value = this.value;
-        }
-    }
-
-    date_input2.onchange = function () {
-        if (this.value < date_input1.value) {
-            alert(this.value + " is less than the begin date " + date_input1.value);
-            date_input1.value = this.value;
-        }
-    }
-    //--------------------------------------------------------------------
     //End. Ready to run
-
 }
 
 //-------------------------
@@ -418,7 +381,7 @@ function searchPlace(lat, lon) {
 
     //remedial actions
     testWater(lat, lon); //in water?
-    testState(lat, lon); //which state is it located?
+    testState(lat, lon); //which state it is located?
 
     //Function to check the problematic points whether they are still considered inside the state.
     isBounded(baseaddress + areaRequestURL, mapID, lat, lon, smallest.toFixed(2), minlat, minlon, index);
@@ -436,26 +399,8 @@ const sleep = (milliseconds) => {
     return new Promise(resolve => setTimeout(resolve, milliseconds))
 }
 
-//Ok, we extend the Date() class to support date input of type YYYY-MM-dd
-Date.prototype.toDateInputValue = (function () {
-    var local = new Date(this);
-    local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
-    return local.toJSON().slice(0, 10);
-});
-
-Date.prototype.addDays = function (days) {
-    const date = new Date(this.valueOf());
-    date.setDate(date.getDate() + days);
-    return date;
-};
-
-Date.prototype.formatYYYYMMDD = function () {
-    return this.getFullYear() +
-        "-" + (this.getMonth() + 1) +
-        "-" + this.getDate();
-}
 //----------------------
-//Random Generators |
+//Random No Generators |
 //----------------------
 
 /**
@@ -482,63 +427,15 @@ function weightedRandom(list) {
     }
 }
 
-/**
- * Random date generator
- * 
- * @param {any} start
- * @param {any} end
- */
-function randomDate(start, end) {
-    start = Date.parse(start);
-    end = Date.parse(end);
-    return new Date(Math.floor(Math.random() * (end - start + 1) + start));
-}
-
-/**
- * Random Date and Time generator
- * Call example: randomDate(new Date(2020, 0, 1), new Date(), 0, 24)
- * 
- * @param {any} start
- * @param {any} end
- * @param {any} startHour
- * @param {any} endHour
- */
-function randomDateTime(start, end, startHour, endHour) {
-    start = Date.parse(start);
-    end = Date.parse(end);
-    var date = new Date(+start + Math.random() * (end - start));
-    var hour = startHour + Math.random() * (endHour - startHour) | 0;
-    date.setHours(hour);
-    return date;
-}
-
-function daysDifference(start, end) {
-    var diff = new Date(end).getTime() - new Date(start).getTime();       //console.log(start + "and " + end + " diff is = " + diff / 8.64e7 + " ms");
-    return Math.round(diff / 8.64e7);
-    //8.64e7 = 1000 * 60 secs * 60 mins * 24 hrs
-}
-
 //---------------------------------------
 // Simulation Param Functions (OnClick) |
 //---------------------------------------
 //Function to generate sample space, i.e. no of personnel for the simulation (called by OnClick event)
 //
 function generateSamples() {
-    //-------------------
-    //set input values
-    if (!isNaN(document.getElementById("samples").value) && (document.getElementById("samples").value > 0)) {
-        multiplier = document.getElementById("samples").value / 100;     //1=100samples, 10 = 1000samples, 100 = 10, 000samples, 1000 = 100, 000samples etc.
-    }
-    else {
-        multiplier = 1;
-    }
-    //------------------
-    var dBegin = new Date(document.getElementById("startdate").value); //parseInt(document.getElementById("startdate").value.split('-').join(''));;
-    var dEnd = new Date(document.getElementById("enddate").value);     //parseInt(document.getElementById("enddate").value.split('-').join(''));;
-
-    //-------------------
     //For every ageGroup, determine the required subsamples that is proportionate to the population
     document.getElementById('Update').innerHTML += "<br>-------------------------------------------------------";
+
     for (var index = 0; index < ageGroup.length; index++) {
         var subsamplesize = multiplier * ageGroup[index]['percentage'];
         var previous = personnel.length;
@@ -553,30 +450,23 @@ function generateSamples() {
             var days = random(lifestyleParam[lcode]['min_days'], lifestyleParam[lcode]['max_days']);
             var points = random(lifestyleParam[lcode]['min_pts'], lifestyleParam[lcode]['max_pts']);
             var distance = random(lifestyleParam[lcode]['min_distance'], lifestyleParam[lcode]['max_distance']);
-            //--
-            var endlimit = dEnd;
-            endlimit = endlimit.addDays(-parseInt(days));
-            var start = randomDate(dBegin, endlimit);                 //start=  (dBegin .. dateEnd-days)
-            var end = new Date(start);
-            end = end.addDays(parseInt(days));                        //end = start + days
-            //--
+            var start = random(parseInt(dateBegin), parseInt(dateEnd) - days);  //start=  (datebegin .. dateEnd-days)
+            var end = random(start, start + days);                              //end=    start + days 
 
             //if points = 0 or 1, there is no distance to calculate!
             distance = (points > 1) ? distance : 0;
 
             //push the data to personnel. 
             //age, date, points, travel_distance -->  will be used to simulate the (lat, lon) points in the second stage
-
-            personnel.push([myAge, lcode, new Date(start), new Date(end), points, distance]);
-            //console.log(myAge, lcode, new Date(start), new Date(end), points, distance);
+            personnel.push([myAge, lcode, start, end, points, distance]);
         }
         document.getElementById('Update').innerHTML += "<br>Unique " + ageGroup[index]['role'] + " personnels = " + (personnel.length - previous);
     }
     document.getElementById('Update').innerHTML += "<br>-------------------------------------------------------";
     document.getElementById('Update').innerHTML += "<br>Total personnels generated = " + (personnel.length) + "<br>";
-    document.getElementById("Samples").disabled = true;     //samples created
+    document.getElementById("Samples").disabled = true;   //samples created
     document.getElementById("Simulate").disabled = false;   //only enable once samples are created
-    document.getElementById("Download").disabled = true;    //only enable once simulation is finished.
+    document.getElementById("Download").disabled = true;   //only enable once simulation is finished.
 
 }
 
@@ -619,21 +509,19 @@ function Generatelifestyle(ageGroupIndex) {
 async function startSimulation() {
     document.getElementById('Update').innerHTML += "-------------------------------------------------------<br/>";
     document.getElementById('Update').innerHTML += "Simulation Starts....</br>";
-
     //myAge, start, end, points, distance
     for (var y = 0; y < personnel.length; y++) {
         state = mapID;   //default
-        var age = personnel[y][0];
+
+        document.getElementById('Update').innerHTML += "<br><br>(No " + (y + 1) + ". " + lifestyleParam[personnel[y][1]]['category'] + " age=" + personnel[y][0] + " ," +
+            personnel[y][2] + "," + personnel[y][3] + ", waypt=" + personnel[y][4] + ", dist=" + personnel[y][5] + " m " + ((personnel[y][5] <= 1) ? "(static))" : " )");
+        //var age = personnel[y][0];
         var lcode = personnel[y][1];
-        var category = lifestyleParam[lcode]['category'];
-        var startdate = new Date(personnel[y][2]);            //modified startdate
-        var enddate = new Date(personnel[y][3]);              //modified enddate
+        //var category = lifestyleParam[lcode]['category'];
+        var startdate = parseInt(personnel[y][2]);
+        var enddate = parseInt(personnel[y][3]);
         var waypoints = personnel[y][4];
         var traveldistance = personnel[y][5];
-
-        document.getElementById('Update').innerHTML += "<br><br>(No " + (y + 1) + ". " + category + " age=" + age + " , from " +
-            startdate.toLocaleDateString('en-GB') + " to " + enddate.toLocaleDateString('en-GB') + ", waypt=" + waypoints +
-            ", dist=" + traveldistance + " m " + ((traveldistance <= 1) ? "(static))" : " )");
 
         //note: 
         // For lcode 1=primary, 2=secondary, 3 = uni/college, destination is the respective school. origin = school + traveldistance ( i.e. work backwards)
@@ -673,22 +561,21 @@ async function startSimulation() {
                 }
 
                 // daily loop --> fix home and school, vary the rest.
-                for (var a = new Date(startdate); a <= enddate; a.setDate(a.getDate() + 1)) {
-
+                for (var a = startdate; a <= enddate; a++) {
                     state = mapID;   //default
                     var distance = traveldistance - hdist;                      //remaining distance
                     // show home address
-                    document.getElementById('Update').innerHTML += "<br>[" + a.toISOString().split('T')[0] + "] home address (" + home.lat + "," + home.lng + ") at grid (" +
-                        placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][daysDifference(startdate, a) + 4] + " active cases ";
+                    document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") at grid (" +
+                        placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][a - startdate + 4] + " active cases ";
 
                     //push home
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                     var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                    var cases = placesAll[gridId2][daysDifference(startdate, a) + 4];
+                    var cases = placesAll[gridId2][a - startdate + 4];
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
-                    simulation.push([who, a, state, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                    simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     //--------------------------------------------------------------------------------------------------------
 
                     //if one waypoint, it is obviously home, no need to process further
@@ -703,13 +590,13 @@ async function startSimulation() {
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                     var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                    var cases = placesAll[gridId1][daysDifference(startdate, a) + 4];
+                    var cases = placesAll[gridId1][a - startdate + 4];
                     var t_cases = placesAll[gridId1][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, school.lat, school.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     //--------------------------------------------------------------------------------------------------------
 
-                    document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId1][0] + "," + placesAll[gridId1][1] + ") risk=" + placesAll[gridId1][daysDifference(startdate, a) + 4] + " active cases ";
+                    document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId1][0] + "," + placesAll[gridId1][1] + ") risk=" + placesAll[gridId1][a - startdate + 4] + " active cases ";
                     //distance between origin and destination
                     document.getElementById('Update').innerHTML += "<br> _________ home to school  =" + hdist + " m ";
 
@@ -728,16 +615,16 @@ async function startSimulation() {
                         var gridId = searchPlace(lats, lons);
                         await sleep(600);
 
-                        document.getElementById('Update').innerHTML += "<br>[" + a.toISOString().split('T')[0] + "] school (" + school.lat + ", " + school.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
+                        document.getElementById('Update').innerHTML += "<br>[" + a + "] school (" + school.lat + ", " + school.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
 
                         if (gridId != -1) {
-                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][daysDifference(startdate, a) + 4] + " active cases ";
+                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                             // + " remaining distance=" + distance + " m";
                             //push coordinate
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                             var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                            var cases = placesAll[gridId][daysDifference(startdate, a) + 4];
+                            var cases = placesAll[gridId][a - startdate + 4];
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
@@ -791,19 +678,19 @@ async function startSimulation() {
                 }
 
                 // daily loop --> fix home and secondary school, vary the rest.
-                for (var a = new Date(startdate); a <= enddate; a.setDate(a.getDate() + 1)) {
+                for (var a = startdate; a <= enddate; a++) {
                     state = mapID;   //default
                     var distance = traveldistance - hdist;                      //remaining distance
 
                     // push home address
-                    document.getElementById('Update').innerHTML += "<br>[" + a.toISOString().split('T')[0] + "] home address (" + home.lat + "," + home.lng + ") at grid (" +
-                        placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][daysDifference(startdate, a) + 4] + " active cases ";
+                    document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") at grid (" +
+                        placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][a - startdate + 4] + " active cases ";
 
                     //push home
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                     var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                    var cases = placesAll[gridId2][daysDifference(startdate, a) + 4];
+                    var cases = placesAll[gridId2][a - startdate + 4];
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
@@ -821,13 +708,13 @@ async function startSimulation() {
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                     var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                    var cases = placesAll[gridId1][daysDifference(startdate, a) + 4];
+                    var cases = placesAll[gridId1][a - startdate + 4];
                     var t_cases = placesAll[gridId1][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, school2.lat, school2.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     //--------------------------------------------------------------------------------------------------------
 
-                    document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId1][0] + "," + placesAll[gridId1][1] + ") risk=" + placesAll[gridId1][daysDifference(startdate, a) + 4] + " active cases ";
+                    document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId1][0] + "," + placesAll[gridId1][1] + ") risk=" + placesAll[gridId1][a - startdate + 4] + " active cases ";
                     //distance between origin and destination
                     document.getElementById('Update').innerHTML += "<br> _________ home to secondary school  =" + hdist + " m ";
 
@@ -844,16 +731,16 @@ async function startSimulation() {
                         var gridId = searchPlace(lats, lons);
                         await sleep(600);
 
-                        document.getElementById('Update').innerHTML += "<br>[" + a.toISOString().split('T')[0] + "] secondary school (" + school2.lat + ", " + school2.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
+                        document.getElementById('Update').innerHTML += "<br>[" + a + "] secondary school (" + school2.lat + ", " + school2.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
 
                         if (gridId != -1) {
-                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][daysDifference(startdate, a) + 4] + " active cases ";
+                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                             // + " remaining distance=" + distance + " m";
                             //push coordinate
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                             var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                            var cases = placesAll[gridId][daysDifference(startdate, a) + 4];
+                            var cases = placesAll[gridId][a - startdate + 4];
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
@@ -907,19 +794,19 @@ async function startSimulation() {
                 }
 
                 // daily loop --> fix home and uni, vary the rest.
-                for (var a = new Date(startdate); a <= enddate; a.setDate(a.getDate() + 1)) {
+                for (var a = startdate; a <= enddate; a++) {
                     state = mapID;   //default
                     var distance = traveldistance - hdist;                      //remaining distance
 
                     // push home address
-                    document.getElementById('Update').innerHTML += "<br>[" + a.toISOString().split('T')[0] + "] home address (" + home.lat + "," + home.lng + ") at grid (" +
-                        placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][daysDifference(startdate, a) + 4] + " active cases ";
+                    document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") at grid (" +
+                        placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][a - startdate + 4] + " active cases ";
 
                     //push home
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                     var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                    var cases = placesAll[gridId2][daysDifference(startdate, a) + 4];
+                    var cases = placesAll[gridId2][a - startdate + 4];
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
@@ -936,14 +823,14 @@ async function startSimulation() {
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                     var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                    var cases = placesAll[gridId1][daysDifference(startdate, a) + 4];
+                    var cases = placesAll[gridId1][a - startdate + 4];
                     var t_cases = placesAll[gridId1][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, school2.lat, school2.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     //--------------------------------------------------------------------------------------------------------
 
 
-                    document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][daysDifference(startdate, a) + 4] + " active cases ";
+                    document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][a - startdate + 4] + " active cases ";
                     //distance between origin and destination
                     document.getElementById('Update').innerHTML += "<br> _________ home to uni/college  =" + hdist + " m ";
 
@@ -960,16 +847,16 @@ async function startSimulation() {
                         var gridId = searchPlace(lats, lons);
                         await sleep(600);
 
-                        document.getElementById('Update').innerHTML += "<br>[" + a.toISOString().split('T')[0] + "] uni/college (" + uni.lat + ", " + uni.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
+                        document.getElementById('Update').innerHTML += "<br>[" + a + "] uni/college (" + uni.lat + ", " + uni.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
 
                         if (gridId != -1) {
-                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][daysDifference(startdate, a) + 4] + " active cases ";
+                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                             // + " remaining distance=" + distance + " m";
                             //push coordinate
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                             var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                            var cases = placesAll[gridId][daysDifference(startdate, a) + 4];
+                            var cases = placesAll[gridId][a - startdate + 4];
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
@@ -1014,19 +901,19 @@ async function startSimulation() {
                 }
 
                 // daily loop --> fix home, vary the rest.
-                for (var a = new Date(startdate); a <= enddate; a.setDate(a.getDate() + 1)) {
+                for (var a = startdate; a <= enddate; a++) {
                     state = mapID;   //default
                     var distance = traveldistance;            //init with total distance
 
                     // push home address
-                    document.getElementById('Update').innerHTML += "<br>[" + a.toISOString().split('T')[0] + "] home address (" + home.lat + "," + home.lng + ") ";
-                    document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][daysDifference(startdate, a) + 4] + " active cases ";
+                    document.getElementById('Update').innerHTML += "<br>[" + a + "] home address (" + home.lat + "," + home.lng + ") ";
+                    document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId2][0] + "," + placesAll[gridId2][1] + ") risk=" + placesAll[gridId2][a - startdate + 4] + " active cases ";
 
                     //push home
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                     var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                    var cases = placesAll[gridId2][daysDifference(startdate, a) + 4];
+                    var cases = placesAll[gridId2][a - startdate + 4];
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
@@ -1053,16 +940,16 @@ async function startSimulation() {
                         gridId = searchPlace(lats, lons)
                         await sleep(600);
 
-                        document.getElementById('Update').innerHTML += "<br>[" + a.toISOString().split('T')[0] + "] home (" + home.lat + ", " + home.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
+                        document.getElementById('Update').innerHTML += "<br>[" + a + "] home (" + home.lat + ", " + home.lng + ") to point " + b + " (" + point.lat + "," + point.lng + ") =" + cdist + " m ";
 
                         if (gridId != -1) {
-                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][daysDifference(startdate, a) + 4] + " active cases ";
+                            document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId][0] + "," + placesAll[gridId][1] + ") risk=" + placesAll[gridId][a - startdate + 4] + " active cases ";
                             // + " remaining distance=" + distance + " m";
                             //push coordinate
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
                             var who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
-                            var cases = placesAll[gridId][daysDifference(startdate, a) + 4];
+                            var cases = placesAll[gridId][a - startdate + 4];
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
@@ -1500,3 +1387,164 @@ function subtringBetween(word, beginning, ending) {
 
 }
 
+
+//-------------------------------------------------------------------------------------------------------------
+//  PUBLIC
+//------------------------------
+//let statename = "selangor";
+//let myStates = [];   //for loading the state lists
+//let myStateGrid;     //for loading sampled places of the state
+//------------------------------
+//
+//--------------------------------
+//   Unused Functions            |
+//--------------------------------
+
+/**
+ * Function to get the state index 
+ * 
+ * @param {any} stateName
+ */
+function getStateIndex(stateName) {
+    for (let i = 1; i < myStates.length; i++) {
+        //console.log(stateName + ": compared to -->" + myStates[i][0]);
+        if (myStates[i][0].toUpperCase() == stateName.toUpperCase())
+            return myStates[i][1];
+    };
+    return -1;
+}
+
+/**
+ * Function to get the state folder name 
+ * Use by: loadStates
+ * @param {any} stateName
+ */
+function getStateGridFoldername(stateName) {
+    for (let i = 1; i < myStates.length; i++) {
+        //console.log(stateName + ": compared to -->" + myStates[i][0]);
+        if (myStates[i][0].toUpperCase() == stateName.toUpperCase())
+            return myStates[i][3];
+    };
+    return -1;
+}
+
+/**
+ * Function to get the state filename 
+ * Use by: loadStates
+ * @param {any} stateName
+ */
+function getStateGridFilename(stateName) {
+    //unused
+    for (let i = 1; i < myStates.length; i++) {
+        //console.log(stateName + ": compared to -->" + myStates[i][0]);
+        if (myStates[i][0].toUpperCase() == stateName.toUpperCase())
+            return myStates[i][2];
+    };
+    return -1;
+}
+
+/**
+ * Loads the list of states asynchronously into myStates array
+ * 
+ * @param {string} sourceFile
+ * e.g. loadStates(baseaddress + "/json/states.json");   //can be on localhost or actual site
+ */
+
+async function loadStates(sourceFile) {
+    //unused
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            myStates = JSON.parse(this.responseText);
+            //console.log("states:" + myStates);        //debug
+            //console.log("State:" + state + " index:" + getStateIndex(state));
+            var filename = getStateGridFilename(statename);
+            var foldername = getStateGridFoldername(statename);
+        }
+    };
+    xhr.open("GET", sourceFile);   //.json file
+    xhr.send();
+}
+
+//---------------------------------------------------
+//summary.js
+//
+async function fillPlaces(sourceFile) {
+    let myPromise = new Promise(function (resolve) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", sourceFile);   //.csv file
+        xhr.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                myStateGrid = this.responseText;  //return object
+                //console.log("StateGrids :" + myStateGrid);        //debug
+                const data = csvToArray(myStateGrid, ',');
+                //console.log(data);                                //debug
+                data.forEach(function (item, index) {
+                    lt1 = parseFloat(data[index]['lat']);
+                    ln1 = parseFloat(data[index]['lon']);
+                    pos = { lat: lt1, lng: ln1 };
+                    var locationname = data[index]['placename'];
+                    var label1 = data[index]['label'];
+
+                    //console.log(lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, timestamp);
+                    places.push([lt1, ln1, label1, locationname, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+                });
+                //console.log("response resolved.");
+                resolve(this.responseText);
+            }
+        };
+        xhr.send();
+    });
+    await myPromise.then(() => {
+        //console.log("promise done ");
+        for (var i = dateBegin; i <= dateEnd; i++) {
+            console.log("getting " + baseaddress + "/data/" + foldername + "/" + i + "_" + filename + ".csv")
+            ReadData(i, baseaddress + "/data/" + foldername + "/" + i + "_" + filename + ".csv");
+        }
+        document.getElementById("Download").addEventListener("click", saveFile);
+    });
+}
+
+//---------------------------------------------------
+//unused
+async function ReadData(date, sourceFile) {
+    let myPromise = new Promise(function (resolve) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", sourceFile);   //.csv file
+        xhr.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var thisGrid = this.responseText;  //return object
+                //console.log("thisGrid :" + thisGrid);        //debug
+                const data = csvToArray(thisGrid, ',');
+                //console.log(data);                           //debug
+                data.forEach(function (item, index) {
+                    lt1 = parseFloat(data[index]['lat']);
+                    ln1 = parseFloat(data[index]['lon']);
+                    pos = { lat: lt1, lng: ln1 };
+                    //var locationname = data[index]['placename'];  
+                    //var label1 = data[index]['label'];
+                    var weeklyactive = parseInt(data[index]['weeklyactive']);
+                    var column = date - dateBegin + 4;  // points to the column for daily cases
+                    console.log(index + "," + column + "=" + weeklyactive);
+                    //var timestamp = data[index]['timestamp'];
+                    for (let index = 0; index < places.length; index++) {
+                        if ((lt1 == places[index][0]) && (ln1 == places[index][1])) {
+                            places[index][column] = weeklyactive;
+                            break;
+                        }
+                    }
+                    //console.log(lt1, ln1, label1, locationname, weeklyactive, totalactive, weeklyrecovered, totalrecovered, weeklydeaths, totaldeaths, weightage, timestamp);
+                });
+                //console.log("response resolved.");
+                resolve(this.responseText);
+            }
+        };
+        xhr.send();
+    });
+    await myPromise.then(() => {
+        //for (var x = 0; x < places.length; x++)
+        //document.getElementById('Update').innerText += places [x] + "<br />";
+        document.getElementById('Update').innerText += places;
+        //console.log("promise done ");
+    });
+}

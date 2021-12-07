@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simulation Function</title>
+    <title>Simulation Functions</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" type="text/css" href="../css/navi.css" />
     <script src="./simulation1.js"></script>
@@ -9,6 +9,20 @@
 </head>
 <body onload="initData();">
     <div id="googleMap" style="width:10%;height:10px;"></div>
+    <div style="text-align:left">
+        &nbsp;Sample size: <input type="text" name="samples" id="samples" size="20">
+    </div>
+    <div><br /></div>
+    <div style="text-align:left">
+        &nbsp;Start Date: <input type="date" id="startdate">
+        &nbsp;End Date: <input type="date" id="enddate">
+    </div>
+    <div><br /></div>
+    <div>
+        &nbsp;Note: The minimum simulation date is from 2021-11-01.
+        <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The maximum simulation date is up to <span id="yest"></span>.
+    </div>
+    <div><br /></div>
     <div style="text-align:left">
         <input id="Samples" type="button" value="1. Generate Samples" />
         <input id="Simulate" type="button" value="2. Start Simulation" />
