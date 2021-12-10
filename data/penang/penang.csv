@@ -1,0 +1,471 @@
+lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp,reserved
+5.47512,100.2445834,Daerah: Timur Laut<br>No:x<br>Hex coord:(5;0),Ferringhi beach,6 ,0,0,0,0,0,1,2021-11-24T07:52:49.0078433Z,0
+5.4829,100.2581179,Daerah: Timur Laut<br>No:x<br>Hex coord:(6;0),Moonlight Bay,0,0,0,0,0,0,1,2021-11-24T07:52:49.6999433Z,0
+5.45956,100.1904456,Daerah: Barat Daya<br>No:1<br>Hex coord:(1;1),Penang National Park,0,0,0,0,0,0,1,2021-11-24T07:52:50.4192564Z,0
+5.46734,100.20398,Daerah: Barat Daya<br>No:x<br>Hex coord:(2;1),Jalan Hassan Abas,0,0,0,0,0,0,1,2021-11-24T07:52:51.0791041Z,0
+5.45956,100.2175145,Daerah: Barat Daya<br>No:2<br>Hex coord:(3;1),Teluk Bahang Beach,0,0,0,0,0,0,1,2021-11-24T07:52:51.9768632Z,0
+5.46734,100.2310489,Daerah: Barat Daya<br>No:x<br>Hex coord:(4;1),Jalan Teluk Bahang,0,0,0,0,0,0,1,2021-11-24T07:52:52.6382552Z,0
+5.444,100.1904456,Daerah: Barat Daya<br>No:3<br>Hex coord:(1;2),Penang National Park,0,0,0,0,0,0,1,2021-11-24T07:52:53.2970653Z,0
+5.45178,100.20398,Daerah: Barat Daya<br>No:4 Hex coord:(2;2),Kampung Tengah,0,0,0,0,0,0,1,2021-11-24T07:52:53.9896785Z,0
+5.444,100.2175145,Daerah: Barat Daya<br>No:5<br>Hex coord:(3;2),Teluk Bahang Dam,0,0,0,0,0,0,1,2021-11-24T07:52:54.6516032Z,0
+5.45178,100.2310489,Daerah: Barat Daya<br>No:6 Hex coord:(4;2),n/a,2 ,0,0,0,0,0,1,2021-11-24T07:52:56.3226479Z,0
+5.42844,100.1904456,Daerah: Barat Daya<br>No:7<br>Hex coord:(1;3),Pantai Mas,0,0,0,0,0,0,1,2021-11-24T07:52:57.0157079Z,0
+5.43622,100.20398,Daerah: Barat Daya<br>No:8 Hex coord:(2;3),National Park Penang,1 ,0,0,0,0,0,1,2021-11-24T07:52:58.0682577Z,0
+5.42844,100.2175145,Daerah: Barat Daya<br>No:9<br>Hex coord:(3;3),8321 Durian Plantation,0,0,0,0,0,0,1,2021-11-24T07:52:58.8259394Z,0
+5.43622,100.2310489,Daerah: Barat Daya<br>No:10 Hex coord:(4;3),n/a,0,0,0,0,0,0,1,2021-11-24T07:52:59.4845226Z,0
+5.41288,100.1904456,Daerah: Barat Daya<br>No:x Hex coord:(1;4),Pantai Acheh,1 ,0,0,0,0,0,1,2021-11-24T07:53:00.1481903Z,0
+5.42066,100.20398,Daerah: Barat Daya<br>No:11 Hex coord:(2;4),Unnamed,0,0,0,0,0,0,1,2021-11-24T07:53:00.8085408Z,0
+5.41288,100.2175145,Daerah: Barat Daya<br>No:12<br>Hex coord:(3;4),Titi Kerawang,0,0,0,0,0,0,1,2021-11-24T07:53:01.4661708Z,0
+5.42066,100.2310489,Daerah: Barat Daya<br>No:13 Hex coord:(4;4),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:02.1351958Z,0
+5.39732,100.1904456,Daerah: Barat Daya<br>No:14<br>Hex coord:(1;5),Kuala Sungai Pinang,0,0,0,0,0,0,1,2021-11-24T07:53:02.8124937Z,0
+5.4051,100.20398,Daerah: Barat Daya<br>No:15 Hex coord:(2;5),Kampung Batu Putih,1 ,0,0,0,0,0,1,2021-11-24T07:53:03.7425909Z,0
+5.39732,100.2175145,Daerah: Barat Daya<br>No:16<br>Hex coord:(3;5),Kampung Sungai Pinang,6 ,0,0,0,0,0,1,2021-11-24T07:53:04.4047644Z,0
+5.4051,100.2310489,Daerah: Barat Daya<br>No:17 Hex coord:(4;5),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:05.0619050Z,0
+5.38176,100.1904456,Daerah: Barat Daya<br>No:18<br>Hex coord:(1;6),Taman Nelayan,0,0,0,0,0,0,1,2021-11-24T07:53:05.7437984Z,0
+5.38954,100.20398,Daerah: Barat Daya<br>No:19 Hex coord:(2;6),Kuala Sungai Pinang,1 ,0,0,0,0,0,1,2021-11-24T07:53:06.4277755Z,0
+5.38176,100.2175145,Daerah: Barat Daya<br>No:20<br>Hex coord:(3;6),Kampung Sungai Rusa,0,0,0,0,0,0,1,2021-11-24T07:53:07.0898967Z,0
+5.38954,100.2310489,Daerah: Barat Daya<br>No:21 Hex coord:(4;6),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:07.7619033Z,0
+5.38176,100.2445834,Daerah: Barat Daya<br>No:22<br>Hex coord:(5;6),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:08.4433586Z,0
+5.3662,100.1904456,Daerah: Barat Daya<br>No:23<br>Hex coord:(1;7),Unnamed road. Balik Pulau,0,0,0,0,0,0,1,2021-11-24T07:53:09.1218712Z,0
+5.37398,100.20398,Daerah: Barat Daya<br>No:24 Hex coord:(2;7),Kampung Permatang Pasir,0,0,0,0,0,0,1,2021-11-24T07:53:10.0014418Z,0
+5.3662,100.2175145,Daerah: Barat Daya<br>No:25<br>Hex coord:(3;7),Bagan Ayer Itam,1 ,0,0,0,0,0,1,2021-11-24T07:53:10.7185594Z,0
+5.37398,100.2310489,Daerah: Barat Daya<br>No:26 Hex coord:(4;7),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:11.4131184Z,0
+5.3662,100.2445834,Daerah: Barat Daya<br>No:27<br>Hex coord:(5;7),n/a,1 ,0,0,0,0,0,1,2021-11-24T07:53:12.2039632Z,0
+5.37398,100.2581179,Daerah: Barat Daya<br>No:28 Hex coord:(6;7),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:12.9780932Z,0
+5.35064,100.1904456,Daerah: Barat Daya<br>No:29<br>Hex coord:(1;8),Kuala Jalan Baru,0,0,0,0,0,0,1,2021-11-24T07:53:13.6647797Z,0
+5.35842,100.20398,Daerah: Barat Daya<br>No:30 Hex coord:(2;8),Kampung Bagan Air Hitam,6 ,0,0,0,0,0,1,2021-11-24T07:53:14.3467651Z,0
+5.35064,100.2175145,Daerah: Barat Daya<br>No:31<br>Hex coord:(3;8),Kampung Paya Kongsi,6 ,0,0,0,0,0,1,2021-11-24T07:53:15.0142546Z,0
+5.35842,100.2310489,Daerah: Barat Daya<br>No:32 Hex coord:(4;8),Taman Titi Heights,7 ,0,0,0,0,0,1,2021-11-24T07:53:15.6829990Z,0
+5.35064,100.2445834,Daerah: Barat Daya<br>No:33<br>Hex coord:(5;8),Balik Pulau,2 ,0,0,0,0,0,1,2021-11-24T07:53:16.3446699Z,0
+5.35842,100.2581179,Daerah: Barat Daya<br>No:34 Hex coord:(6;8),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:17.0280913Z,0
+5.33508,100.1904456,Daerah: Barat Daya<br>No:x Hex coord:(1;9),Pantai Malindo,0,0,0,0,0,0,1,2021-11-24T07:53:17.7167674Z,0
+5.34286,100.20398,Daerah: Barat Daya<br>No:35 Hex coord:(2;9),Jalan Kuala Sungai Burung,1 ,0,0,0,0,0,1,2021-11-24T07:53:18.3854446Z,0
+5.33508,100.2175145,Daerah: Barat Daya<br>No:36<br>Hex coord:(3;9),Kampung Paya,9 ,0,0,0,0,0,1,2021-11-24T07:53:19.0490670Z,0
+5.34286,100.2310489,Daerah: Barat Daya<br>No:37 Hex coord:(4;9),Taman Sri Indah,11 ,0,0,0,0,0,1,2021-11-24T07:53:20.1030255Z,0
+5.33508,100.2445834,Daerah: Barat Daya<br>No:38<br>Hex coord:(5;9),Carpet Hill,0,0,0,0,0,0,1,2021-11-24T07:53:20.8892595Z,0
+5.34286,100.2581179,Daerah: Barat Daya<br>No:39 Hex coord:(6;9),Jalan Tun Sardon,1 ,0,0,0,0,0,1,2021-11-24T07:53:21.5440530Z,0
+5.33508,100.2716524,Daerah: Barat Daya<br>No:40<br>Hex coord:(7;9),Sg Ara,29 ,0,0,0,0,0,1,2021-11-24T07:53:22.2366882Z,0
+5.33508,100.2986324,Daerah: Barat Daya<br>No:41<br>Hex coord:(9;9),Taman Sri Nibong,26 ,0,0,0,0,0,1,2021-11-24T07:53:22.9148266Z,0
+5.31952,100.1904456,Daerah: Barat Daya<br>No:x Hex coord:(1;10),Betong Island,0,0,0,0,0,0,1,2021-11-24T07:53:23.5771511Z,0
+5.3273,100.20398,Daerah: Barat Daya<br>No:42 Hex coord:(2;10),Jalan Bharu,1 ,0,0,0,0,0,1,2021-11-24T07:53:24.2381218Z,0
+5.31952,100.2175145,Daerah: Barat Daya<br>No:43<br>Hex coord:(3;10),Kampung Genting Dalam,7 ,0,0,0,0,0,1,2021-11-24T07:53:24.8982626Z,0
+5.3273,100.2310489,Daerah: Barat Daya<br>No:44 Hex coord:(4;10),Kampung Shee Tan,0,0,0,0,0,0,1,2021-11-24T07:53:25.5912866Z,0
+5.31952,100.2445834,Daerah: Barat Daya<br>No:45<br>Hex coord:(5;10),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:26.2477775Z,0
+5.3273,100.2581179,Daerah: Barat Daya<br>No:46 Hex coord:(6;10),Bukit Sg Ara,1 ,0,0,0,0,0,1,2021-11-24T07:53:26.9155471Z,0
+5.31952,100.2716524,Daerah: Barat Daya<br>No:47<br>Hex coord:(7;10),Lebuh Sungai Ara 1,16 ,0,0,0,0,0,1,2021-11-24T07:53:28.0005271Z,0
+5.3273,100.2851868,Daerah: Barat Daya<br>No:48 Hex coord:(8;10),Bayan Baru,16 ,0,0,0,0,0,1,2021-11-24T07:53:28.6756154Z,0
+5.31952,100.2987213,Daerah: Barat Daya<br>No:49<br>Hex coord:(9;10),Keysight,0,0,0,0,0,0,1,2021-11-24T07:53:29.3372414Z,0
+5.28062,100.1769111,Daerah: Barat Daya<br>No:x<br>Hex coord:(0;11),Jalan Gertak Sanggul,0,0,0,0,0,0,1,2021-11-24T07:53:29.9917951Z,0
+5.30396,100.1904456,Daerah: Barat Daya<br>No:50<br>Hex coord:(1;11),Kampung Bakar Kapur,0,0,0,0,0,0,1,2021-11-24T07:53:30.6538819Z,0
+5.31174,100.20398,Daerah: Barat Daya<br>No:51 Hex coord:(2;11),Kampung Perlis,2 ,0,0,0,0,0,1,2021-11-24T07:53:31.3151939Z,0
+5.30396,100.2175145,Daerah: Barat Daya<br>No:52<br>Hex coord:(3;11),Jalan Kampung Dato Lim Chong Kooi,0,0,0,0,0,0,1,2021-11-24T07:53:31.9779022Z,0
+5.31174,100.2310489,Daerah: Barat Daya<br>No:53 Hex coord:(4;11),Jalan Teluk Kumbar,0,0,0,0,0,0,1,2021-11-24T07:53:32.6495848Z,0
+5.30396,100.2445834,Daerah: Barat Daya<br>No:54<br>Hex coord:(5;11),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:33.3109431Z,0
+5.31174,100.2581179,Daerah: Barat Daya<br>No:55 Hex coord:(6;11),Kem Sg Ara(2) Rejimen Semboyan,10 ,0,0,0,0,0,1,2021-11-24T07:53:33.9793200Z,0
+5.30396,100.2716524,Daerah: Barat Daya<br>No:56<br>Hex coord:(7;11),Jalan Sungai tiram 1.,22 ,0,0,0,0,0,1,2021-11-24T07:53:34.6518654Z,0
+5.31174,100.2851868,Daerah: Barat Daya<br>No:57 Hex coord:(8;11),Jalan Sultan Azlan Shah. Robert Bosch (M) Sdn Bhd,6 ,0,0,0,0,0,1,2021-11-24T07:53:35.3406521Z,0
+5.30396,100.2987213,Daerah: Barat Daya<br>No:x Hex coord:(9;11),Tun Dr. Lim Chong Eu Highway (Viewing Area),0,0,0,0,0,0,1,2021-11-24T07:53:36.0021558Z,0
+5.2884,100.19049,Daerah: Barat Daya<br>No:58<br>Hex coord:(1;12),Kampung Gertak,0,0,0,0,0,0,1,2021-11-24T07:53:36.6635373Z,0
+5.27284,100.19049,Daerah: Barat Daya<br>No:x<br>Hex coord:(1;13),Gertak Sanggul,0,0,0,0,0,0,1,2021-11-24T07:53:37.3472593Z,0
+5.29618,100.20398,Daerah: Barat Daya<br>No:59 Hex coord:(2;12),Kampung Long Tambang,0,0,0,0,0,0,1,2021-11-24T07:53:39.0028681Z,0
+5.2884,100.2175145,Daerah: Barat Daya<br>No:60<br>Hex coord:(3;12),Kampung Suluk,0,0,0,0,0,0,1,2021-11-24T07:53:39.6561741Z,0
+5.29618,100.2310489,Daerah: Barat Daya<br>No:61 Hex coord:(4;12),Kampung Masjid,17 ,0,0,0,0,0,1,2021-11-24T07:53:40.3319382Z,0
+5.2884,100.2445834,Daerah: Barat Daya<br>No:62<br>Hex coord:(5;12),Taman Batu Bukit,11 ,0,0,0,0,0,1,2021-11-24T07:53:40.9988059Z,0
+5.29618,100.2581179,Daerah: Barat Daya<br>No:63 Hex coord:(6;12),Taman Sri Bayu,20 ,0,0,0,0,0,1,2021-11-24T07:53:41.6675416Z,0
+5.2884,100.2716524,Daerah: Barat Daya<br>No:64<br>Hex coord:(7;12),POS Aviation Cargo Complex,4 ,0,0,0,0,0,1,2021-11-24T07:53:42.3423433Z,0
+5.29618,100.2851868,Daerah: Barat Daya<br>No:65 Hex coord:(8;12),Lintang Bayan Lepas 7,1 ,0,0,0,0,0,1,2021-11-24T07:53:43.0088794Z,0
+5.2884,100.2987213,Daerah: Barat Daya<br>No:x Hex coord:(9;12),Jambatan Kedua P.Pinang,0,0,0,0,0,0,1,2021-11-24T07:53:43.6994879Z,0
+5.28062,100.20398,Daerah: Barat Daya<br>No:66 Hex coord:(2;13),Gertak Sanggul,0,0,0,0,0,0,1,2021-11-24T07:53:44.3609281Z,0
+5.28062,100.2310489,Daerah: Barat Daya<br>No:x Hex coord:(4;13),Teluk Kumbar Beach,1 ,0,0,0,0,0,1,2021-11-24T07:53:45.0185200Z,0
+5.27284,100.2445834,Daerah: Barat Daya<br>No:x Hex coord:(5;13),Sg Batu Beach,0,0,0,0,0,0,1,2021-11-24T07:53:45.9727199Z,0
+5.28062,100.2581179,Daerah: Barat Daya<br>No:67 Hex coord:(6;13),Kampung Permatang Damar Laut,2 ,0,0,0,0,0,1,2021-11-24T07:53:46.6426898Z,0
+5.27284,100.2716524,Daerah: Barat Daya<br>No:68<br>Hex coord:(7;13),Lrg Permatang Damar Laut,4 ,0,0,0,0,0,1,2021-11-24T07:53:47.3108049Z,0
+5.28062,100.2851868,Daerah: Barat Daya<br>No:69 Hex coord:(8;13),Cheng Choo Tze. Jalan Teluk Tempoyak,5 ,0,0,0,0,0,1,2021-11-24T07:53:47.9792402Z,0
+5.2572796,100.2716524,Daerah: Barat Daya<br>No:x<br>Hex coord:(7;14),Tua Pek Kong Shrine,0,0,0,0,0,0,1,2021-11-24T07:53:48.6460033Z,0
+5.2650598,100.2851868,Daerah: Barat Daya<br>No:x Hex coord:(8;14),Batu Maung,0,0,0,0,0,0,1,2021-11-24T07:53:49.3091907Z,0
+5.47512,100.2716524,Daerah: Timur Laut<br>No:1<br>Hex coord:(7;0),Seaview Garden,2 ,0,0,0,0,0,1,2021-11-24T07:53:50.9770452Z,0
+5.45956,100.2445834,Daerah: Timur Laut<br>No:2<br>Hex coord:(5;1),Jalan Sungai 1. Batu Ferringhi,0,0,0,0,0,0,1,2021-11-24T07:53:51.6390700Z,0
+5.46734,100.2581179,Daerah: Timur Laut<br>No:3 Hex coord:(6;1),Ferringhi Residence 2,0,0,0,0,0,0,1,2021-11-24T07:53:52.3112595Z,0
+5.45956,100.2716524,Daerah: Timur Laut<br>No:4<br>Hex coord:(7;1),Leader Garden,0,0,0,0,0,0,1,2021-11-24T07:53:52.9795020Z,0
+5.46734,100.2851868,Daerah: Timur Laut<br>No:x<br>Hex coord:(8;1),Tanjung Bungah,1 ,0,0,0,0,0,1,2021-11-24T07:53:53.6495403Z,0
+5.45956,100.2987213,Daerah: Timur Laut<br>No:5<br>Hex coord:(9;1),Tanjung Tokong,7 ,0,0,0,0,0,1,2021-11-24T07:53:54.3218666Z,0
+5.46734,100.3122558,Daerah: Timur Laut<br>No:x<br>Hex coord:(10;1),Tanjung Tokong Beach,0,0,0,0,0,0,1,2021-11-24T07:53:55.0258159Z,0
+5.444,100.2445834,Daerah: Timur Laut<br>No:6<br>Hex coord:(5;2),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:55.6834861Z,0
+5.45178,100.2581179,Daerah: Timur Laut<br>No:7 Hex coord:(6;2),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:56.3406157Z,0
+5.444,100.2716524,Daerah: Timur Laut<br>No:8<br>Hex coord:(7;2),Zi Zai Hill,0,0,0,0,0,0,1,2021-11-24T07:53:57.0068450Z,0
+5.45178,100.2851868,Daerah: Timur Laut<br>No:9 Hex coord:(8;2),TAR Universiti College,0,0,0,0,0,0,1,2021-11-24T07:53:57.6802720Z,0
+5.444,100.2987213,Daerah: Timur Laut<br>No:10<br>Hex coord:(9;2),Mount Erskine,10 ,0,0,0,0,0,1,2021-11-24T07:53:58.3491722Z,0
+5.45178,100.3122558,Daerah: Timur Laut<br>No:x<br>Hex coord:(10;2),Seri Tanjung Pinang,2 ,0,0,0,0,0,1,2021-11-24T07:53:59.0229946Z,0
+5.42844,100.2445834,Daerah: Timur Laut<br>No:11<br>Hex coord:(5;3),n/a,0,0,0,0,0,0,1,2021-11-24T07:53:59.6917600Z,0
+5.43622,100.2581179,Daerah: Timur Laut<br>No:12 Hex coord:(6;3),n/a,0,0,0,0,0,0,1,2021-11-24T07:54:00.3778381Z,0
+5.42844,100.2716524,Daerah: Timur Laut<br>No:13<br>Hex coord:(7;3),Penang Hill,0,0,0,0,0,0,1,2021-11-24T07:54:01.0938213Z,0
+5.43622,100.2851868,Daerah: Timur Laut<br>No:14 Hex coord:(8;3),Botanic Garden,0,0,0,0,0,0,1,2021-11-24T07:54:03.3806313Z,0
+5.42844,100.2987213,Daerah: Timur Laut<br>No:15<br>Hex coord:(9;3),Jalan Utama,3 ,0,0,0,0,0,1,2021-11-24T07:54:04.4726217Z,0
+5.43622,100.3122558,Daerah: Timur Laut<br>No:16 Hex coord:(10;3),Gurney Drive,1 ,0,0,0,0,0,1,2021-11-24T07:54:06.5902450Z,0
+5.42844,100.3257903,Daerah: Timur Laut<br>No:x Hex coord:(11;3),Jalan Sultan Ahmad Shah,5 ,0,0,0,0,0,1,2021-11-24T07:54:08.3075671Z,0
+5.41288,100.2445834,Daerah: Timur Laut<br>No:17<br>Hex coord:(5;4),n/a,0,0,0,0,0,0,1,2021-11-24T07:54:10.0036449Z,0
+5.42066,100.2581179,Daerah: Timur Laut<br>No:18 Hex coord:(6;4),n/a,0,0,0,0,0,0,1,2021-11-24T07:54:11.7182605Z,0
+5.41288,100.2716524,Daerah: Timur Laut<br>No:19<br>Hex coord:(7;4),Penang Hill Middle Station,0,0,0,0,0,0,1,2021-11-24T07:54:13.4238379Z,0
+5.42066,100.2851868,Daerah: Timur Laut<br>No:20 Hex coord:(8;4),Batu Gantung Trail,0,0,0,0,0,0,1,2021-11-24T07:54:15.1426505Z,0
+5.41288,100.2987213,Daerah: Timur Laut<br>No:21<br>Hex coord:(9;4),Taman Lumba Kuda,11 ,0,0,0,0,0,1,2021-11-24T07:54:16.8706468Z,0
+5.42066,100.3122558,Daerah: Timur Laut<br>No:22 Hex coord:(10;4),Jalan Residensi,5 ,0,0,0,0,0,1,2021-11-24T07:54:18.6152266Z,0
+5.41288,100.3257903,Daerah: Timur Laut<br>No:23<br>Hex coord:(11;4),Penang Time Square,30 ,0,0,0,0,0,1,2021-11-24T07:54:20.3607743Z,0
+5.42066,100.3393247,Daerah: Timur Laut<br>No:24 Hex coord:(12;4),Lebuh Light,7 ,0,0,0,0,0,1,2021-11-24T07:54:21.4617204Z,0
+5.4051,100.3393247,Daerah: Timur Laut<br>No:x<br>Hex coord:(12;5),Pengkalan Weld,11 ,0,0,0,0,0,1,2021-11-24T07:54:23.6825538Z,0
+5.39732,100.2445834,Daerah: Timur Laut<br>No:25<br>Hex coord:(5;5),n/a,0,0,0,0,0,0,1,2021-11-24T07:54:24.7733394Z,0
+5.4051,100.2581179,Daerah: Timur Laut<br>No:26 Hex coord:(6;5),n/a,0,0,0,0,0,0,1,2021-11-24T07:54:25.8770063Z,0
+5.39732,100.2716524,Daerah: Timur Laut<br>No:27<br>Hex coord:(7;5),Kek Lok Si Columbarium,5 ,0,0,0,0,0,1,2021-11-24T07:54:27.5759327Z,0
+5.4051,100.2851868,Daerah: Timur Laut<br>No:28 Hex coord:(8;5),Jalan Air Itam,12 ,0,0,0,0,0,1,2021-11-24T07:54:29.2962184Z,0
+5.39732,100.2987213,Daerah: Timur Laut<br>No:29<br>Hex coord:(9;5),Lorong Batu Lancang,14 ,0,0,0,0,0,1,2021-11-24T07:54:30.4109996Z,0
+5.4051,100.3122558,Daerah: Timur Laut<br>No:30 Hex coord:(10;5),Taman Free School,22 ,0,0,0,0,0,1,2021-11-24T07:54:31.5560711Z,0
+5.39732,100.3257903,Daerah: Timur Laut<br>No:x Hex coord:(11;5),Tun Lim Chong Eu Highway,21 ,0,0,0,0,0,1,2021-11-24T07:54:33.3102641Z,0
+5.38954,100.2581179,Daerah: Timur Laut<br>No:31 Hex coord:(6;6),Lorong Jog,0,0,0,0,0,0,1,2021-11-24T07:54:34.9985165Z,0
+5.38176,100.2716524,Daerah: Timur Laut<br>No:32<br>Hex coord:(7;6),United Hokkien Cemeteries,10 ,0,0,0,0,0,1,2021-11-24T07:54:36.7266379Z,0
+5.38954,100.2851868,Daerah: Timur Laut<br>No:33 Hex coord:(8;6),Farlim B.B.Air Itam,30 ,0,0,0,0,0,1,2021-11-24T07:54:37.8457552Z,0
+5.38176,100.2987213,Daerah: Timur Laut<br>No:34<br>Hex coord:(9;6),Cangkat Delima 1. Island Glades,4 ,0,0,0,0,0,1,2021-11-24T07:54:38.9452762Z,0
+5.38954,100.3122558,Daerah: Timur Laut<br>No:35 Hex coord:(10;6),Jelutong Market,30 ,0,0,0,0,0,1,2021-11-24T07:54:41.6646138Z,0
+5.3662,100.2716524,Daerah: Timur Laut<br>No:36<br>Hex coord:(7;7),Lorong Bukit Kukus,3 ,0,0,0,0,0,1,2021-11-24T07:54:43.3805452Z,0
+5.37398,100.2851868,Daerah: Timur Laut<br>No:37 Hex coord:(8;7),Botak Hill,3 ,0,0,0,0,0,1,2021-11-24T07:54:44.4674978Z,0
+5.3662,100.2987213,Daerah: Timur Laut<br>No:38<br>Hex coord:(9;7),Jalan Bukit Gambir,8 ,0,0,0,0,0,1,2021-11-24T07:54:46.1855009Z,0
+5.37398,100.3122558,Daerah: Timur Laut<br>No:39 Hex coord:(10;7),Gelugor,7 ,0,0,0,0,0,1,2021-11-24T07:54:47.2828556Z,0
+5.35064,100.2716524,Daerah: Timur Laut<br>No:40<br>Hex coord:(7;8),Jalan Paya Terubong,2 ,0,0,0,0,0,1,2021-11-24T07:54:48.3767710Z,0
+5.35842,100.2851868,Daerah: Timur Laut<br>No:41 Hex coord:(8;8),Bukit Gambir,4 ,0,0,0,0,0,1,2021-11-24T07:54:49.4641558Z,0
+5.35064,100.2987213,Daerah: Timur Laut<br>No:42<br>Hex coord:(9;8),Sg Dua,19 ,0,0,0,0,0,1,2021-11-24T07:54:50.5631794Z,0
+5.35842,100.3122558,Daerah: Timur Laut<br>No:43 Hex coord:(10;8),MSN PP,12 ,0,0,0,0,0,1,2021-11-24T07:54:52.2777083Z,0
+5.34286,100.2851868,Daerah: Timur Laut<br>No:44 Hex coord:(8;9),Puncak Bukit Jambul,10 ,0,0,0,0,0,1,2021-11-24T07:54:53.9971834Z,0
+5.34286,100.3122558,Daerah: Timur Laut<br>No:45 Hex coord:(10;9),Batu Uban,5 ,0,0,0,0,0,1,2021-11-24T07:54:55.6890615Z,0
+5.3273,100.3122558,Daerah: Timur Laut?<br>No:+Jerejak 1 Hex coord:(10;10),Persiaran Bayan Indah,1 ,0,0,0,0,0,1,2021-11-24T07:54:57.3893667Z,0
+5.57822,100.3515345,Daerah: Kuala Muda<br>No:x<br>Hex coord:(1;0),Kampung Hujung Tepi Sungai. Kedah. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:54:59.0085998Z,0
+5.586,100.3650689,Daerah: Kuala Muda<br>No:x<br>Hex coord:(2;0),Kampung Permatang Kelompang. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:54:59.6785877Z,0
+5.57822,100.3786034,Daerah: Seberang Perai Utara<br>No:1<br>Hex coord:(3;0),Permatang Bendahari. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:00.3814544Z,0
+5.57822,100.4056724,Daerah: Kuala Muda<br>No:x<br>Hex coord:(5;0),Sekolah Kebangsaan Rantau Panjang. Kedah. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:01.0366862Z,0
+5.57044,100.3380001,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(0;1),North Seberang Perai District. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:01.6955983Z,0
+5.56266,100.3515345,Daerah: Seberang Perai Utara<br>No:2<br>Hex coord:(1;1),Kampung Bakau Tua. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:03.3708837Z,0
+5.57044,100.3650689,Daerah: Seberang Perai Utara<br>No:3<br>Hex coord:(2;1),Pulau Mertajam. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:05.0368810Z,0
+5.56266,100.3786034,Daerah: Seberang Perai Utara<br>No:4<br>Hex coord:(3;1),Kampung Permatang Kabu. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:05.6942032Z,0
+5.57044,100.3921379,Daerah: Seberang Perai Utara<br>No:5<br>Hex coord:(4;1),Kampung Permatang Kabu. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:06.3519364Z,0
+5.56266,100.4056724,Daerah: Seberang Perai Utara<br>No:6<br>Hex coord:(5;1),Taman Bongor Muda. 08600. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:07.0252330Z,0
+5.57044,100.4192068,Daerah: Kuala Muda<br>No:x<br>Hex coord:(6;1),Kampung Sungai Korok. 08600. Kedah. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:07.6909185Z,0
+5.56266,100.4327413,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(7;1),Taman Bongor Muda. 08600. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:08.3561736Z,0
+5.57044,100.4462758,Daerah: Kuala Muda<br>No:x<br>Hex coord:(8;1),Taman Seri Pekula 1. 08600. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:09.0138944Z,0
+5.56266,100.4598103,Daerah: Seberang Perai Utara<br>No:7<br>Hex coord:(9;1),Lahar Tiang. 08600. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:09.6717996Z,0
+5.57044,100.4733447,Daerah: Kuala Muda<br>No:x<br>Hex coord:(10;1),Kampung Kepala Bukit. 08600. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:10.3502522Z,0
+5.56266,100.4868792,Daerah: Seberang Perai Utara<br>No:8<br>Hex coord:(11;1),Lahar Tiang. 08600. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:11.0420117Z,0
+5.57044,100.5004137,Daerah: Kuala Muda<br>No:x<br>Hex coord:(12;1),Kuala Muda. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:11.7094521Z,0
+5.56266,100.5139482,Daerah: Kuala Muda<br>No:x<br>Hex coord:(13;1),Kampung Pantai Perai. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:12.3798558Z,0
+5.55488,100.3650689,Daerah: Seberang Perai Utara<br>No:9<br>Hex coord:(2;2),Jalan Pasir Gebu. Kota Kuala Muda. Seberang Perai Utara. Malaysia,8 ,0,0,0,0,0,1,2021-11-24T07:55:13.0434892Z,0
+5.5471,100.3786034,Daerah: Seberang Perai Utara<br>No:10<br>Hex coord:(3;2),Pusat Tuisyen Aura Berjaya. Jalan Penaga. Taman Penaga Permai. 13100 Penaga. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:13.7202199Z,0
+5.55488,100.3921379,Daerah: Seberang Perai Utara<br>No:11<br>Hex coord:(4;2),P102. Kampung Permatang Kabu. 13100. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:14.3760360Z,0
+5.5471,100.4056724,Daerah: Seberang Perai Utara<br>No:12<br>Hex coord:(5;2),Kampung Permatang Kabu. 13100. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:15.0285598Z,0
+5.55488,100.4192068,Daerah: Seberang Perai Utara<br>No:13<br>Hex coord:(6;2),Durian Wenny Kg. Guar Kepah. 1421 Guar Kepah. 13200 Kepala Batas. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:15.7148512Z,0
+5.5471,100.4327413,Daerah: Seberang Perai Utara<br>No:14<br>Hex coord:(7;2),Euan Auto Centre. Kepala Batas. Seberang Perai Utara. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:16.3823260Z,0
+5.55488,100.4462758,Daerah: Seberang Perai Utara<br>No:15<br>Hex coord:(8;2),Permatang Tinggi Bakar Bata. 08600. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:17.0519148Z,0
+5.5471,100.4598103,Daerah: Seberang Perai Utara<br>No:16<br>Hex coord:(9;2),Jalan Paya Keladi. Kepala Batas. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:17.7095015Z,0
+5.55488,100.4733447,Daerah: Seberang Perai Utara<br>No:17<br>Hex coord:(10;2),Lahar Tiang. 08600. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:18.3803305Z,0
+5.5471,100.4868792,Daerah: Seberang Perai Utara<br>No:18<br>Hex coord:(11;2),Pangkalan Udara JBPM Bertam. Kepala Batas. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:55:19.2276028Z,0
+5.55488,100.5004137,Daerah: Seberang Perai Utara<br>No:19<br>Hex coord:(12;2),Pinang Tunggal. Seberang Perai. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:55:19.9018841Z,0
+5.5471,100.5139482,Daerah: Seberang Perai Utara<br>No:20<br>Hex coord:(13;2),Kampung Lembah Raja. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:20.5692182Z,0
+5.55488,100.5274826,Daerah: Kuala Muda<br>No:x<br>Hex coord:(14;2),Kampung Pantai Perai. Kedah. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:21.2382375Z,0
+5.53932,100.3650689,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(2;3),Kuala Sungai Tembus. 13100 Penaga. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:21.8955206Z,0
+5.53154,100.3786034,Daerah: Seberang Perai Utara<br>No:21<br>Hex coord:(3;3),Taman Penaga Permai. 13100. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:55:22.5675337Z,0
+5.53932,100.3921379,Daerah: Seberang Perai Utara<br>No:22<br>Hex coord:(4;3),Taman Penaga Permai. 13100. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:55:23.2323571Z,0
+5.53154,100.4056724,Daerah: Seberang Perai Utara<br>No:23<br>Hex coord:(5;3),460 Jalan Permatang Kuang. 13100 Kepala Batas. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:55:23.8960653Z,0
+5.53932,100.4192068,Daerah: Seberang Perai Utara<br>No:24<br>Hex coord:(6;3),Kampung Padang. 13200. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:55:24.5578341Z,0
+5.53154,100.4327413,Daerah: Seberang Perai Utara<br>No:25<br>Hex coord:(7;3),Taman Bertam Indah. 13200 Kepala Batas. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:55:25.2353148Z,0
+5.53932,100.4462758,Daerah: Seberang Perai Utara<br>No:26<br>Hex coord:(8;3),SK Paya Keladi. 13200 Kepala Batas. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:25.9238851Z,0
+5.53154,100.4598103,Daerah: Seberang Perai Utara<br>No:27<br>Hex coord:(9;3),Paya Keladi Hujung. 13200. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:55:26.6377453Z,0
+5.53932,100.4733447,Daerah: Seberang Perai Utara<br>No:28<br>Hex coord:(10;3),Bertam Perdana. 13200. Penang. Malaysia,12 ,0,0,0,0,0,1,2021-11-24T07:55:27.3026011Z,0
+5.53154,100.4868792,Daerah: Seberang Perai Utara<br>No:29<br>Hex coord:(11;3),Lahar Tiang. 13200. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:27.9614730Z,0
+5.53932,100.5004137,Daerah: Seberang Perai Utara<br>No:30<br>Hex coord:(12;3),Kampung Padang Beka. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:28.6360984Z,0
+5.53154,100.5139482,Daerah: Seberang Perai Utara<br>No:31<br>Hex coord:(13;3),Sungai Korok. 13300. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:29.3030761Z,0
+5.53932,100.5274826,Daerah: Seberang Perai Utara<br>No:32<br>Hex coord:(14;3),North Seberang Perai District. 09400. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:55:29.9539082Z,0
+5.52376,100.3650689,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(2;4),Taman Bekah Indah. 13100. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:30.6174056Z,0
+5.51598,100.3786034,Daerah: Seberang Perai Utara<br>No:33<br>Hex coord:(3;4),Taman Bekah Indah. 13100. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:31.2821322Z,0
+5.52376,100.3921379,Daerah: Seberang Perai Utara<br>No:34<br>Hex coord:(4;4),Taman Penaga Permai. 13100. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:55:31.9314876Z,0
+5.51598,100.4056724,Daerah: Seberang Perai Utara<br>No:35<br>Hex coord:(5;4),Taman Sepakat. 13100. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:33.6651700Z,0
+5.52376,100.4192068,Daerah: Seberang Perai Utara<br>No:36<br>Hex coord:(6;4),Taliair Utama. Kepala Batas. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:34.3326554Z,0
+5.51598,100.4327413,Daerah: Seberang Perai Utara<br>No:37<br>Hex coord:(7;4),Pusat Fesyen Ekonomi V Jaya. 13200 Kepala Batas. Penang. Malaysia,11 ,0,0,0,0,0,1,2021-11-24T07:55:34.9938125Z,0
+5.52376,100.4462758,Daerah: Seberang Perai Utara<br>No:38<br>Hex coord:(8;4),Penang Golf Resort. 1687 Jalan Tun Hamdan Sheikh Tahir. Bertam. 13200. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:35.6538466Z,0
+5.51598,100.4598103,Daerah: Seberang Perai Utara<br>No:39<br>Hex coord:(9;4),Bertam. 13200. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:36.3211803Z,0
+5.52376,100.4733447,Daerah: Seberang Perai Utara<br>No:40<br>Hex coord:(10;4),Giatmara Kepala Batas. Kepala Batas. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:55:37.1074412Z,0
+5.51598,100.4868792,Daerah: Seberang Perai Utara<br>No:41<br>Hex coord:(11;4),SK Bertam Putra. Persiaran Perindustrian Bertam Perdana. Bandar Putra Bertam. 13200. Penang. Malaysia,10 ,0,0,0,0,0,1,2021-11-24T07:55:37.7712694Z,0
+5.52376,100.5004137,Daerah: Seberang Perai Utara<br>No:42<br>Hex coord:(12;4),Pokok Jenerih. 13300. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:55:38.4444812Z,0
+5.51598,100.5139482,Daerah: Seberang Perai Utara<br>No:43<br>Hex coord:(13;4),Hock Eng Estate. Tasek Gelugor. Seberang Perai Utara. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:55:39.1092616Z,0
+5.52376,100.5274826,Daerah: Kuala Muda<br>No:44<br>Hex coord:(14;4),3456 Lorong Serai Wangi 15/11. Padang Serai. Kedah. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T07:55:39.7741621Z,0
+5.50042,100.3786034,Daerah: Seberang Perai Utara<br>No:45<br>Hex coord:(3;5),Titi Mukim. 13100. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:55:41.4566649Z,0
+5.5082,100.3921379,Daerah: Seberang Perai Utara<br>No:46<br>Hex coord:(4;5),Titi Mukim. 13100. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:43.1175887Z,0
+5.50042,100.4056724,Daerah: Seberang Perai Utara<br>No:47<br>Hex coord:(5;5),Masjid Al-Mubarak Permatang Bogak. Butterworth. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:43.7822139Z,0
+5.5082,100.4192068,Daerah: Seberang Perai Utara<br>No:48<br>Hex coord:(6;5),Taman Sepakat. 13200. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:55:44.4496740Z,0
+5.50042,100.4327413,Daerah: Seberang Perai Utara<br>No:49<br>Hex coord:(7;5),Lorong Seri Indah 7. Kepala Batas. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:55:45.1135927Z,0
+5.5082,100.4462758,Daerah: Seberang Perai Utara<br>No:50<br>Hex coord:(8;5),Bertam. 13200. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:45.7913212Z,0
+5.50042,100.4598103,Daerah: Seberang Perai Utara<br>No:51<br>Hex coord:(9;5),Kampung Tersusun Pongsu Seribu. 13200. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:55:46.4513858Z,0
+5.5082,100.4733447,Daerah: Seberang Perai Utara<br>No:52<br>Hex coord:(10;5),Kampung Tok Bedu. 13200. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:47.1175455Z,0
+5.50042,100.4868792,Daerah: Seberang Perai Utara<br>No:53<br>Hex coord:(11;5),Taman Sepadu Baru. 13300. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:47.7895217Z,0
+5.5082,100.5004137,Daerah: Seberang Perai Utara<br>No:54<br>Hex coord:(12;5),Taman Sepadu Baru. 13300. Penang. Malaysia,9 ,0,0,0,0,0,1,2021-11-24T07:55:48.4567851Z,0
+5.50042,100.5139482,Daerah: Seberang Perai Utara<br>No:55<br>Hex coord:(13;5),Kampung Tasek. 13300. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:55:49.1180646Z,0
+5.5082,100.5274826,Daerah: Seberang Perai Utara<br>No:56<br>Hex coord:(14;5),Kampung Baharu. 13300. Penang. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T07:55:49.7790028Z,0
+5.48486,100.3786034,Daerah: Seberang Perai Utara<br>No:57<br>Hex coord:(3;6),Pekan Baru. 13050. Penang. Malaysia,9 ,0,0,0,0,0,1,2021-11-24T07:55:50.5037554Z,0
+5.49264,100.3921379,Daerah: Seberang Perai Utara<br>No:58<br>Hex coord:(4;6),Jalan Permatang Tok Gelam. 13050 Butterworth. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:51.1582716Z,0
+5.48486,100.4056724,Daerah: Seberang Perai Utara<br>No:59<br>Hex coord:(5;6),Kampung Paya. 13050. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:51.8215181Z,0
+5.49264,100.4192068,Daerah: Seberang Perai Utara<br>No:60<br>Hex coord:(6;6),Permatang Tiga. 13220. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:52.4876963Z,0
+5.48486,100.4327413,Daerah: Seberang Perai Utara<br>No:61<br>Hex coord:(7;6),Kampung Telor. 13220. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:55:53.1514875Z,0
+5.49264,100.4462758,Daerah: Seberang Perai Utara<br>No:62<br>Hex coord:(8;6),Taman Orkid Indah. 13220. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:55:54.3214284Z,0
+5.48486,100.4598103,Daerah: Seberang Perai Utara<br>No:63<br>Hex coord:(9;6),Taman Desa Sena. 13220. Penang. Malaysia,9 ,0,0,0,0,0,1,2021-11-24T07:55:55.0066345Z,0
+5.49264,100.4733447,Daerah: Seberang Perai Utara<br>No:64<br>Hex coord:(10;6),Pokok Machang. 13300. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:55:55.6868927Z,0
+5.48486,100.4868792,Daerah: Seberang Perai Utara<br>No:65<br>Hex coord:(11;6),Jalan Hashim Awang. 13300 Tasek Gelugor. Penang. Malaysia,13 ,0,0,0,0,0,1,2021-11-24T07:55:56.3708312Z,0
+5.49264,100.5004137,Daerah: Seberang Perai Utara<br>No:66<br>Hex coord:(12;6),Taman Sepadu Baru. 13300. Penang. Malaysia,23 ,0,0,0,0,0,1,2021-11-24T07:55:57.0391795Z,0
+5.48486,100.5139482,Daerah: Seberang Perai Utara<br>No:67<br>Hex coord:(13;6),Mayfield Estate. Tasek Gelugor. Seberang Perai Utara. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:57.7031711Z,0
+5.49264,100.5274826,Daerah: Kulim<br>No:x<br>Hex coord:(14;6),Taman Lagenda. 13300. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:58.3663192Z,0
+5.4693,100.3786034,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(3;7),Teluk Air Tawar. 13050. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:55:59.0231536Z,0
+5.47708,100.3921379,Daerah: Seberang Perai Utara<br>No:68<br>Hex coord:(4;7),Taman Air Tawar Indah. 13050 Butterworth. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:55:59.6854587Z,0
+5.4693,100.4056724,Daerah: Seberang Perai Utara<br>No:69<br>Hex coord:(5;7),UMNO Cawangan Pekan Darat. 1199 Jalan Pekan Darat. 13800 Butterworth. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:56:00.4112038Z,0
+5.47708,100.4192068,Daerah: Seberang Perai Utara<br>No:70<br>Hex coord:(6;7),North�South Expressway. Pokok Simpor. 13220. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:01.0713801Z,0
+5.4693,100.4327413,Daerah: Seberang Perai Utara<br>No:71<br>Hex coord:(7;7),Kampung Tobiar. 13220. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:56:01.7362158Z,0
+5.47708,100.4462758,Daerah: Seberang Perai Utara<br>No:72<br>Hex coord:(8;7),Ara Rendang. 13220. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:56:02.3963400Z,0
+5.4693,100.4598103,Daerah: Seberang Perai Utara<br>No:73<br>Hex coord:(9;7),Lubuk Meriam. 13220. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:56:03.0840175Z,0
+5.47708,100.4733447,Daerah: Seberang Perai Utara<br>No:74<br>Hex coord:(10;7),Lahar Tambun. 13300. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:56:03.7643871Z,0
+5.4693,100.4868792,Daerah: Seberang Perai Utara<br>No:75<br>Hex coord:(11;7),Taman Saga. 13300. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:56:04.4316348Z,0
+5.47708,100.5004137,Daerah: Seberang Perai Utara<br>No:76<br>Hex coord:(12;7),Taman Haji Ahmad Jamil. 13300 Tasek Gelugor. Penang. Malaysia,18 ,0,0,0,0,0,1,2021-11-24T07:56:05.0986869Z,0
+5.4693,100.5139482,Daerah: Seberang Perai Utara<br>No:77<br>Hex coord:(13;7),Jalan Desa Rakyat. Tasek Gelugor. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:05.7576754Z,0
+5.47708,100.5274826,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(14;7),Ladang Eng Choon. Kulim. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:06.4296733Z,0
+5.45374,100.3786034,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(3;8),Bagan Lebai Tahir. 13000. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:07.0969225Z,0
+5.46152,100.3921379,Daerah: Seberang Perai Utara<br>No:78<br>Hex coord:(4;8),Butterworth Air Force Base. Tingkat Pahlawan 10. Teluk Air Tawar. 13050. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:07.7546288Z,0
+5.45374,100.4056724,Daerah: Seberang Perai Utara<br>No:79<br>Hex coord:(5;8),Kampung Alor Merah. 13800. Penang. Malaysia,8 ,0,0,0,0,0,1,2021-11-24T07:56:08.4289307Z,0
+5.46152,100.4192068,Daerah: Seberang Perai Utara<br>No:80<br>Hex coord:(6;8),North�South Expressway. Kampung Tok Rai. 13800. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:09.0991270Z,0
+5.45374,100.4327413,Daerah: Seberang Perai Utara<br>No:81<br>Hex coord:(7;8),Sungai Dua Water Treatment Plant. Lorong Merbau Indah 5. Sungai Dua. 13800. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:56:09.7634979Z,0
+5.46152,100.4462758,Daerah: Seberang Perai Utara<br>No:82<br>Hex coord:(8;8),Jalan Pokok Sena. Tasek Gelugor. Seberang Perai Utara. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:56:10.4593393Z,0
+5.45374,100.4598103,Daerah: Seberang Perai Utara<br>No:83<br>Hex coord:(9;8),Sungai Tongkat. Tasek Gelugor. Seberang Perai Utara. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:12.1305671Z,0
+5.46152,100.4733447,Daerah: Seberang Perai Utara<br>No:84<br>Hex coord:(10;8),Padang Tonson. 13300. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:56:14.3887972Z,0
+5.45374,100.4868792,Daerah: Seberang Perai Utara<br>No:85<br>Hex coord:(11;8),P127. Bukit Mertajam. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:16.0867275Z,0
+5.46152,100.5004137,Daerah: Seberang Perai Utara<br>No:86<br>Hex coord:(12;8),Taman Saga. 13300. Penang. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T07:56:17.1871907Z,0
+5.45374,100.5139482,Daerah: Lunas<br>No:87<br>Hex coord:(13;8),Institut Kemahiran MARA Seberang Perai Utara. Lot 398 Jalan Ara Kuda. 13300 Lunas. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:19.8915054Z,0
+5.46152,100.5274826,Daerah: Kulim<br>No:x<br>Hex coord:(14;8),Ladang Wellesley. Kulim. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:21.5872265Z,0
+5.43818,100.3786034,Daerah: Seberang Perai Utara<br>No:88<br>Hex coord:(3;9),1816 Taman Pantai Intan. Bagan Ajam. 13000 Butterworth. Penang. Malaysia,17 ,0,0,0,0,0,1,2021-11-24T07:56:22.6829613Z,0
+5.44596,100.3921379,Daerah: Seberang Perai Utara<br>No:89<br>Hex coord:(4;9),Sungai Puyu. Butterworth Outer Ring Road. Sungai Puyu. 13020 Butterworth. Penang. Malaysia,48 ,0,0,0,0,0,1,2021-11-24T07:56:24.3870765Z,0
+5.43818,100.4056724,Daerah: Seberang Perai Utara<br>No:90<br>Hex coord:(5;9),Kampung Tok Sani. 13400. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:56:26.1031472Z,0
+5.44596,100.4192068,Daerah: Seberang Perai Utara<br>No:91<br>Hex coord:(6;9),581 Kampung Teluk. Jalan Sungai Dua. 13800 Butterworth. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:56:27.8196624Z,0
+5.43818,100.4327413,Daerah: Seberang Perai Utara<br>No:92<br>Hex coord:(7;9),Taman Desa Murni. 13800 Butterworth. Penang. Malaysia,16 ,0,0,0,0,0,1,2021-11-24T07:56:29.5556444Z,0
+5.44596,100.4733447,Daerah: Seberang Perai Utara<br>No:93<br>Hex coord:(10;9),Jalan Padang Menora. Kampung Guar Petai. 14400. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:56:31.2265641Z,0
+5.43818,100.4868792,Daerah: Seberang Perai Utara<br>No:94<br>Hex coord:(11;9),Frog Lake. P116. Kampung Guar Petai. 14400 Bukit Mertajam. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:32.9431343Z,0
+5.44596,100.5004137,Daerah: Seberang Perai Utara<br>No:95<br>Hex coord:(12;9),Kampung Guar Petai. 13300. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:34.6435939Z,0
+5.43818,100.5139482,Daerah: Lunas<br>No:96<br>Hex coord:(13;9),Institut Kemahiran MARA Seberang Perai Utara. Lot 398 Jalan Ara Kuda. 13300 Lunas. Kedah. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T07:56:35.7303398Z,0
+5.44596,100.5274826,Daerah: Lunas<br>No:x<br>Hex coord:(14;9),Bandar Permata Lunas. Lunas. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:37.4461001Z,0
+5.42262,100.3786034,Daerah: Seberang Perai Utara<br>No:97<br>Hex coord:(3;10),Medan Riang. Taman Riang 12200 Butterworth. Penang. Malaysia,28 ,0,0,0,0,0,1,2021-11-24T07:56:40.1627639Z,0
+5.4304,100.3921379,Daerah: Seberang Perai Utara<br>No:98<br>Hex coord:(4;10),Royaltea. 2 Lorong Mesra Permai 6. 13400 Butterworth. Penang. Malaysia,46 ,0,0,0,0,0,1,2021-11-24T07:56:41.8809125Z,0
+5.41484,100.3650689,Daerah: Seberang Perai Utara<br>No:99<br>Hex coord:(2;11),North Butterwoth Container Terminal. Butterworth. Penang. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T07:56:43.5870868Z,0
+5.40706,100.3786034,Daerah: Seberang Perai Utara<br>No:100<br>Hex coord:(3;11),Sungai Nyior. 12000. Penang. Malaysia,13 ,0,0,0,0,0,1,2021-11-24T07:56:45.2911599Z,0
+5.41484,100.3921379,Daerah: Seberang Perai Utara<br>No:101<br>Hex coord:(4;11),Mak Mandin Industrial Area. 12300 Butterworth. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:56:46.9922847Z,0
+5.39928,100.3650689,Daerah: Seberang Perai Utara<br>No:102<br>Hex coord:(2;12),Malaysia Smelting Corporation Berhad. Jalan Pantai. Butterworth. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:56:48.6749071Z,0
+5.44596,100.4462758,Daerah: Seberang Perai Tengah<br>No:1<br>Hex coord:(8;9),Kampung Kota. 13800. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:50.3930376Z,0
+5.43818,100.4598103,Daerah: Seberang Perai Tengah<br>No:2<br>Hex coord:(9;9),North Seberang Perai District. 14400. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:51.4749324Z,0
+5.42262,100.4056724,Daerah: Seberang Perai Tengah<br>No:3<br>Hex coord:(5;10),Kampong Tanjong Putus. 13400. Penang. Malaysia,8 ,0,0,0,0,0,1,2021-11-24T07:56:52.5663655Z,0
+5.4304,100.4192068,Daerah: Seberang Perai Tengah<br>No:4<br>Hex coord:(6;10),Sungai Sintok. Permatang Pauh. Seberang Perai Tengah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:53.6516296Z,0
+5.42262,100.4327413,Daerah: Seberang Perai Tengah<br>No:5<br>Hex coord:(7;10),Permatang Pasir. 13500. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:56:55.3247983Z,0
+5.4304,100.4462758,Daerah: Seberang Perai Tengah<br>No:6<br>Hex coord:(8;10),Permatang Pasir. 14400. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:56:57.4229770Z,0
+5.42262,100.4598103,Daerah: Seberang Perai Tengah<br>No:7<br>Hex coord:(9;10),Kampung Padang Tembusu. 14400. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:56:59.1188056Z,0
+5.4304,100.4733447,Daerah: Seberang Perai Tengah<br>No:8<br>Hex coord:(10;10),Pusat Khidmat Ahli Parlimen Permatang Pauh P044. Lot 1612 Jalan Guar Perahu. 14400 Bukit Mertajam. Penang. Malaysia,10 ,0,0,0,0,0,1,2021-11-24T07:57:00.8321764Z,0
+5.42262,100.4868792,Daerah: Seberang Perai Tengah<br>No:9<br>Hex coord:(11;10),Taman Mengkuang Indah. 14400. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:57:02.5018537Z,0
+5.4304,100.5004137,Daerah: Seberang Perai Tengah<br>No:10<br>Hex coord:(12;10),Huap Kean Choong Estate. Lunas. Kulim. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:04.2912073Z,0
+5.42262,100.5139482,Daerah: Seberang Perai Tengah<br>No:11<br>Hex coord:(13;10),Kampung Telok Wang. 09000. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:06.0134548Z,0
+5.4304,100.5274826,Daerah: Kulim<br>No:x<br>Hex coord:(14;10),Taman Desa Sentosa. 09600. Kedah. Malaysia,14 ,0,0,0,0,0,1,2021-11-24T07:57:07.7011072Z,0
+5.40706,100.4056724,Daerah: Seberang Perai Tengah<br>No:12<br>Hex coord:(5;11),River Tropics Condominium. Seberang Jaya. Penang. Malaysia,13 ,0,0,0,0,0,1,2021-11-24T07:57:09.4251083Z,0
+5.41484,100.4192068,Daerah: Seberang Perai Tengah<br>No:13<br>Hex coord:(6;11),Permatang Pasir. 13500. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:57:11.1384828Z,0
+5.40706,100.4327413,Daerah: Seberang Perai Tengah<br>No:14<br>Hex coord:(7;11),Permatang Pasir. 13500. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:12.8555029Z,0
+5.41484,100.4462758,Daerah: Seberang Perai Tengah<br>No:15<br>Hex coord:(8;11),Permatang Pasir. 14400. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:57:15.2599712Z,0
+5.40706,100.4598103,Daerah: Seberang Perai Tengah<br>No:16<br>Hex coord:(9;11),Kampung Petani. 14400. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:57:16.3537243Z,0
+5.41484,100.4733447,Daerah: Seberang Perai Tengah<br>No:17<br>Hex coord:(10;11),Bukit Gua Ipoh. Bukit Mertajam. Seberang Perai Tengah. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:57:18.0504703Z,0
+5.40706,100.4868792,Daerah: Seberang Perai Tengah<br>No:18<br>Hex coord:(11;11),Jalan Mengkuang. Taman Mengkuang Indah. 14400 Bukit Mertajam. Penang. Malaysia,8 ,0,0,0,0,0,1,2021-11-24T07:57:19.1359677Z,0
+5.41484,100.5004137,Daerah: Seberang Perai Tengah<br>No:19<br>Hex coord:(12;11),Ladang Bukit Langkap. Bukit Mertajam. Seberang Perai Tengah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:20.8362959Z,0
+5.40706,100.5139482,Daerah: Seberang Perai Tengah<br>No:20<br>Hex coord:(13;11),Ladang Ken Tong Ung. Seberang Perai Tengah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:22.5603524Z,0
+5.41484,100.5274826,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(14;11),Butterworth Kulim Expressway. Kampung Telok Wang. 09000. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:24.2807380Z,0
+5.3915,100.3786034,Daerah: Seberang Perai Tengah<br>No:21<br>Hex coord:(3;12),Taman Perai Utama. Butterworth. Penang. Malaysia,10 ,0,0,0,0,0,1,2021-11-24T07:57:25.3711970Z,0
+5.39928,100.3921379,Daerah: Seberang Perai Tengah<br>No:22<br>Hex coord:(4;12),Lorong Jelawat 2. Seberang Jaya Industrial Area. Butterworth. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:57:26.4638234Z,0
+5.3915,100.4056724,Daerah: Seberang Perai Tengah<br>No:23<br>Hex coord:(5;12),Pangsapuri B3. Seberang Jaya. Seberang Perai Tengah. Malaysia,21 ,0,0,0,0,0,1,2021-11-24T07:57:27.5794563Z,0
+5.39928,100.4192068,Daerah: Seberang Perai Tengah<br>No:24<br>Hex coord:(6;12),Permatang Janggus. 13500. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:57:29.6714071Z,0
+5.3915,100.4327413,Daerah: Seberang Perai Tengah<br>No:25<br>Hex coord:(7;12),Sungai Hutan Nibung. Bukit Mertajam. Seberang Perai Tengah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:31.3835959Z,0
+5.39928,100.4462758,Daerah: Seberang Perai Tengah<br>No:26<br>Hex coord:(8;12),Butterworth Kulim Expressway. Permatang Pasir. 13500. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:57:34.0508169Z,0
+5.3915,100.4598103,Daerah: Seberang Perai Tengah<br>No:27<br>Hex coord:(9;12),Parit Tepi TNB. Bukit Mertajam. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:57:35.7482986Z,0
+5.39928,100.4733447,Daerah: Seberang Perai Tengah<br>No:28<br>Hex coord:(10;12),Payung Sejahtera. 1593 Jalan Abdul Kadir. 14000 Bukit Mertajam. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:57:36.8392316Z,0
+5.3915,100.4868792,Daerah: Seberang Perai Tengah<br>No:29<br>Hex coord:(11;12),Hock Teik Cheng Sin Berapit Cemetery ??????. Bukit Mertajam. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:57:38.5550534Z,0
+5.39928,100.5004137,Daerah: Seberang Perai Tengah<br>No:30<br>Hex coord:(12;12),Taman Seri Akasia. 09000. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:57:39.6394443Z,0
+5.3915,100.5139482,Daerah: Seberang Perai Tengah<br>No:31<br>Hex coord:(13;12),Arch Perkampungan Sungai Lembu ???????. Kulim. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:41.3172450Z,0
+5.39928,100.5274826,Daerah: Seberang Perai Utara<br>No:x<br>Hex coord:(14;12),Paya Tok Chagar. Kulim. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:42.9926242Z,0
+5.38372,100.3650689,Daerah: Seberang Perai Tengah<br>No:x<br>Hex coord:(2;13),Kuala Perai. Butterworth. Seberang Perai Utara. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:44.0828407Z,0
+5.37594,100.3786034,Daerah: Seberang Perai Tengah<br>No:32<br>Hex coord:(3;13),Prai. 13600. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:45.7675786Z,0
+5.38372,100.3921379,Daerah: Seberang Perai Tengah<br>No:33<br>Hex coord:(4;13),Hong Leong Bank. Lebuh Kurau 1. Prai. 13700 Perai. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:57:46.8616086Z,0
+5.37594,100.4056724,Daerah: Seberang Perai Tengah<br>No:34<br>Hex coord:(5;13),Tiles City. Lorong Irama 1. Prai. 13600 Perai. Penang. Malaysia,15 ,0,0,0,0,0,1,2021-11-24T07:57:48.5794618Z,0
+5.38372,100.4192068,Daerah: Seberang Perai Tengah<br>No:35<br>Hex coord:(6;13),Jalan Permatang Pauh. Kampung Pertama. 13500 Permatang Pauh. Penang. Malaysia,10 ,0,0,0,0,0,1,2021-11-24T07:57:51.2357787Z,0
+5.37594,100.4327413,Daerah: Seberang Perai Tengah<br>No:36<br>Hex coord:(7;13),Bukit Tengah. 13500. Penang. Malaysia,10 ,0,0,0,0,0,1,2021-11-24T07:57:52.9500517Z,0
+5.38372,100.4462758,Daerah: Seberang Perai Tengah<br>No:37<br>Hex coord:(8;13),Taman Tan Sai Gin. 13500. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:54.6652886Z,0
+5.37594,100.4598103,Daerah: Seberang Perai Tengah<br>No:38<br>Hex coord:(9;13),Sekolah Islam Al-Masriyah (SABK). 1267 Jalan Abdul Kadir. 14000 Bukit Mertajam. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:57:56.3769375Z,0
+5.38372,100.4733447,Daerah: Seberang Perai Tengah<br>No:39<br>Hex coord:(10;13),Taman Berapit Indah. 14400. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:57:57.4658611Z,0
+5.37594,100.4868792,Daerah: Seberang Perai Tengah<br>No:40<br>Hex coord:(11;13),Cherok To'kun. 14400. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:57:59.1613335Z,0
+5.38372,100.5004137,Daerah: Seberang Perai Tengah<br>No:41<br>Hex coord:(12;13),Mengkuang Reservoir. Jalan Berapit. Taman Mutiara Jaya. 09000. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:00.2540307Z,0
+5.37594,100.5139482,Daerah: Seberang Perai Tengah<br>No:42<br>Hex coord:(13;13),Blissful Memorial Park. Kulim. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:01.3978997Z,0
+5.38372,100.5274826,Daerah: Kulim<br>No:x<br>Hex coord:(14;13),Jl. Ara 7. Kulim. Kedah. Malaysia,11 ,0,0,0,0,0,1,2021-11-24T07:58:02.5034983Z,0
+5.36038,100.3786034,Daerah: Seberang Perai Tengah<br>No:x<br>Hex coord:(3;14),Prai. 13600. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:03.5963194Z,0
+5.36816,100.3921379,Daerah: Seberang Perai Tengah<br>No:43<br>Hex coord:(4;14),NSTP. Jalan Perusahaan. Prai. 13600 Perai. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:05.6847530Z,0
+5.36038,100.4056724,Daerah: Seberang Perai Tengah<br>No:44<br>Hex coord:(5;14),Jalan Perusahaan. Perai,0,0,0,0,0,0,1,2021-11-24T07:58:06.7694240Z,0
+5.36816,100.4192068,Daerah: Seberang Perai Tengah<br>No:45<br>Hex coord:(6;14),Kampung Tersusun Jalan Pauh. Bukit Mertajam. Penang. Malaysia,43 ,0,0,0,0,0,1,2021-11-24T07:58:07.8692320Z,0
+5.36038,100.4327413,Daerah: Seberang Perai Tengah<br>No:46<br>Hex coord:(7;14),Kampung Siam. 13600. Penang. Malaysia,8 ,0,0,0,0,0,1,2021-11-24T07:58:10.0598361Z,0
+5.36816,100.4462758,Daerah: Seberang Perai Tengah<br>No:47<br>Hex coord:(8;14),Ren Ci Global Village Sdn. Bhd. Bukit Mertajam. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:58:11.8081638Z,0
+5.36038,100.4598103,Daerah: Seberang Perai Tengah<br>No:48<br>Hex coord:(9;14),440 Jalan Chan Ewe Pin. 14000 Bukit Mertajam. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:58:13.5379993Z,0
+5.36816,100.4733447,Daerah: Seberang Perai Tengah<br>No:49<br>Hex coord:(10;14),Kampung Besar. 14000. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:58:14.6368958Z,0
+5.36038,100.4868792,Daerah: Seberang Perai Tengah<br>No:50<br>Hex coord:(11;14),Ladang Saint Annes. Bukit Mertajam. Seberang Perai Tengah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:15.7187281Z,0
+5.36816,100.5004137,Daerah: Seberang Perai Tengah<br>No:51<br>Hex coord:(12;14),Bukit Mertajam Recreational Forest. Bukit Mertajam. Seberang Perai Tengah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:17.4158943Z,0
+5.36038,100.5139482,Daerah: Seberang Perai Tengah<br>No:52<br>Hex coord:(13;14),Kampung Pulau Pisang. 14020. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:18.5044829Z,0
+5.36816,100.5274826,Daerah: Kulim<br>No:x<br>Hex coord:(14;14),Lor. Angsana 17/2. 09000 Kulim. Kedah. Malaysia,15 ,0,0,0,0,0,1,2021-11-24T07:58:20.2198297Z,0
+5.3526,100.3921379,Daerah: Seberang Perai Tengah<br>No:53<br>Hex coord:(4;15),Jalan Perusahaan Maju 4 574. 13600 Perai,0,0,0,0,0,0,1,2021-11-24T07:58:21.9207767Z,0
+5.34482,100.4056724,Daerah: Seberang Perai Tengah<br>No:54<br>Hex coord:(5;15),Lorong Perusahaan 8. Prai Industrial Estate. 13600 Perai. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:23.6374282Z,0
+5.3526,100.4192068,Daerah: Seberang Perai Tengah<br>No:55<br>Hex coord:(6;15),Kenny Rogers Roaster. No.8 Lorong Setia Sentral 2. 14000 Bukit Mertajam. Penang. Malaysia,16 ,0,0,0,0,0,1,2021-11-24T07:58:24.7231123Z,0
+5.34482,100.4327413,Daerah: Seberang Perai Tengah<br>No:56<br>Hex coord:(7;15),Jooi Brothers Sdn. Bhd.. Jalan Pengkalan. Bukit Tengah. 13600. Penang. Malaysia,11 ,0,0,0,0,0,1,2021-11-24T07:58:27.1584860Z,0
+5.3526,100.4462758,Daerah: Seberang Perai Tengah<br>No:57<br>Hex coord:(8;15),Lintang Tembikai. Bukit Mertajam. Penang. Malaysia,13 ,0,0,0,0,0,1,2021-11-24T07:58:28.8528174Z,0
+5.34482,100.4598103,Daerah: Seberang Perai Tengah<br>No:58<br>Hex coord:(9;15),Lorong Saujana Permai 5. Bukit Mertajam. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:58:29.9607123Z,0
+5.3526,100.4733447,Daerah: Seberang Perai Tengah<br>No:59<br>Hex coord:(10;15),2285 Jalan Kulim. 14000 Bukit Mertajam. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:58:31.6717483Z,0
+5.34482,100.4868792,Daerah: Seberang Perai Tengah<br>No:60<br>Hex coord:(11;15),SK Juara. Lorong Masjid. Kampung Jalan Kilang Ubi. 14000. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:58:33.3623604Z,0
+5.3526,100.5004137,Daerah: Seberang Perai Tengah<br>No:61<br>Hex coord:(12;15),60178771250 Nandaka Vihara Meditation Society. Bukit Mertajam. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:34.4503497Z,0
+5.34482,100.5139482,Daerah: Seberang Perai Tengah<br>No:62<br>Hex coord:(13;15),Kampung Pulau Pisang. 14020. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:36.1541626Z,0
+5.3526,100.5274826,Daerah: Kulim<br>No:x<br>Hex coord:(14;15),Jl. Cengal 1a. Kulim. Kedah. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:58:37.2604938Z,0
+5.32926,100.4056724,Daerah: Seberang Perai Tengah<br>No:63<br>Hex coord:(5;16),Bukit Juru Forest Reserve. Jalan Juru. Taman Mengkudu. 14100. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:38.3750273Z,0
+5.33704,100.4192068,Daerah: Seberang Perai Tengah<br>No:64<br>Hex coord:(6;16),Lorong Perusahaan Maju 6. Prai Industrial Estate. 13600 Perai. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:58:40.1031451Z,0
+5.32926,100.4327413,Daerah: Seberang Perai Tengah<br>No:65<br>Hex coord:(7;16),Premium Sound Solutions Sdn. Bhd. 1552(A) Jalan Perusahaan. 13600 Bukit Mertajam. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:58:41.8272472Z,0
+5.33704,100.4462758,Daerah: Seberang Perai Tengah<br>No:66<br>Hex coord:(8;16),Lorong Titi Panjang 5. Bukit Minyak. 14000 Bukit Mertajam. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:58:43.5168174Z,0
+5.32926,100.4598103,Daerah: Seberang Perai Tengah<br>No:67<br>Hex coord:(9;16),Lorong Bukit Minyak Utama 30. Bukit Mertajam. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:58:45.9927775Z,0
+5.33704,100.4733447,Daerah: Seberang Perai Tengah<br>No:68<br>Hex coord:(10;16),Solok Damai. Bukit Mertajam. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:58:47.7061858Z,0
+5.32926,100.4868792,Daerah: Seberang Perai Tengah<br>No:69<br>Hex coord:(11;16),26 Halaman Rusa. 14000 Bukit Mertajam. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:58:50.4215241Z,0
+5.33704,100.5004137,Daerah: Seberang Perai Tengah<br>No:70<br>Hex coord:(12;16),Lorong Machang Bubok 33. Bukit Mertajam. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:58:52.0923089Z,0
+5.32926,100.5139482,Daerah: Seberang Perai Tengah<br>No:71<br>Hex coord:(13;16),17 Lorong Jambu 6. Bukit Mertajam. Penang. Malaysia,41 ,0,0,0,0,0,1,2021-11-24T07:58:53.7944696Z,0
+5.33704,100.5274826,Daerah: Seberang Perai Tengah<br>No:72<br>Hex coord:(14;16),Bukit Machang Bubok. Bukit Mertajam. Seberang Perai Tengah. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:58:56.1421537Z,0
+5.3137,100.4056724,Daerah: Seberang Perai Tengah<br>No:x<br>Hex coord:(5;17),Dataran Semilang. Sungai Sembilang. Perai. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:57.4025245Z,0
+5.32148,100.4192068,Daerah: Seberang Perai Tengah<br>No:73<br>Hex coord:(6;17),11 Jalan Juru Indah. Juru. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:58:59.3031506Z,0
+5.3137,100.4327413,Daerah: Seberang Perai Tengah<br>No:74<br>Hex coord:(7;17),2604 Jalan IKS Juru. Juru. 14100. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:59:00.5770845Z,0
+5.32148,100.4462758,Daerah: Seberang Perai Tengah<br>No:75<br>Hex coord:(8;17),Jalan Juru 2. 14100 Bukit Mertajam. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:59:02.6703294Z,0
+5.3137,100.4598103,Daerah: Seberang Perai Tengah<br>No:76<br>Hex coord:(9;17),Lorong Asas Jaya 19. Bukit Mertajam. Penang. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T07:59:03.8049358Z,0
+5.32148,100.4733447,Daerah: Seberang Perai Tengah<br>No:77<br>Hex coord:(10;17),Lorong Seri Kijang 8. Taman Seri Kijang. 14000 Bukit Mertajam. Penang. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T07:59:05.6706654Z,0
+5.3137,100.4868792,Daerah: Seberang Perai Tengah<br>No:78<br>Hex coord:(11;17),Impian Residence. Bukit Mertajam. Penang. Malaysia,10 ,0,0,0,0,0,1,2021-11-24T07:59:07.5652792Z,0
+5.32148,100.5004137,Daerah: Seberang Perai Tengah<br>No:79<br>Hex coord:(12;17),Ladang Alma. Bukit Mertajam. Seberang Perai Tengah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:09.3276635Z,0
+5.3137,100.5139482,Daerah: Seberang Perai Tengah<br>No:80<br>Hex coord:(13;17),Kampung Berangan Sembilan. 14020. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:59:11.4544475Z,0
+5.32148,100.5274826,Daerah: Seberang Perai Tengah<br>No:81<br>Hex coord:(14;17),Ladang Macang Bubuk. Seberang Perai Tengah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:13.1915202Z,0
+5.30592,100.4192068,Daerah: Seberang Perai Tengah<br>No:82<br>Hex coord:(6;18),27 Lorong Juru Indah 11. Juru. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:14.9169436Z,0
+5.29814,100.4327413,Daerah: Seberang Perai Tengah<br>No:83<br>Hex coord:(7;18),Juru. 14100. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:59:16.6792116Z,0
+5.30592,100.4462758,Daerah: Seberang Perai Tengah<br>No:84<br>Hex coord:(8;18),Lorong Perindustrian Bukit Minyak 15. Bukit Mertajam. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T07:59:18.4449014Z,0
+5.29814,100.4598103,Daerah: Seberang Perai Tengah<br>No:85<br>Hex coord:(9;18),Lengkok Perindustrian Bukit Minyak 3. 14100 Bukit Mertajam. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:20.6385927Z,0
+5.30592,100.4733447,Daerah: Seberang Perai Tengah<br>No:86<br>Hex coord:(10;18),Essex Malaysia Sdn Bhd. Lot 1192 Jalan Permatang Tinggi. 14000 Bukit Mertajam. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:22.3876034Z,0
+5.29814,100.4868792,Daerah: Seberang Perai Tengah<br>No:87<br>Hex coord:(11;18),Permatang Tinggi. 14120. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:23.5314930Z,0
+5.30592,100.5004137,Daerah: Seberang Perai Tengah<br>No:88<br>Hex coord:(12;18),Bukit Teh. 14020. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:25.2787066Z,0
+5.30592,100.5274826,Daerah: Seberang Perai Tengah<br>No:89<br>Hex coord:(14;18),Ladang Sim Lee. Seberang Perai Tengah. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:26.4188099Z,0
+5.29036,100.4192068,Daerah: Seberang Perai Tengah<br>No:90<br>Hex coord:(6;19),Juru. 14100. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:27.5631395Z,0
+5.29036,100.4462758,Daerah: Seberang Perai Tengah<br>No:91<br>Hex coord:(8;19),Lorong Perindustrian Bukit Minyak 19. Bukit Mertajam. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:29.3069019Z,0
+5.29036,100.4733447,Daerah: Seberang Perai Tengah<br>No:92<br>Hex coord:(10;19),Permatang Tinggi. Simpang Ampat. Seberang Perai. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:59:31.0809770Z,0
+5.29814,100.5139482,Daerah: Seberang Perai Selatan<br>No:1<br>Hex coord:(13;18),Kampung Seberang Tasik. Simpang Ampat. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:32.8406241Z,0
+5.28258,100.4327413,Daerah: Seberang Perai Selatan<br>No:2<br>Hex coord:(7;19),Sungai Jawi. Batu Kawan. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:59:33.9738447Z,0
+5.28258,100.4598103,Daerah: Seberang Perai Selatan<br>No:3<br>Hex coord:(9;19),Jalan Seri Tambun 1. Simpang Ampat. Penang. Malaysia,19 ,0,0,0,0,0,1,2021-11-24T07:59:35.7053533Z,0
+5.28258,100.4868792,Daerah: Seberang Perai Selatan<br>No:4<br>Hex coord:(11;19),Indah Water. Simpang Ampat. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T07:59:37.4068214Z,0
+5.29036,100.5004137,Daerah: Seberang Perai Selatan<br>No:5<br>Hex coord:(12;19),P125. Simpang Ampat. Penang. Malaysia,9 ,0,0,0,0,0,1,2021-11-24T07:59:38.9104362Z,0
+5.28258,100.5139482,Daerah: Seberang Perai Selatan<br>No:6<br>Hex coord:(13;19),Lorong IKS Tasek 4. Taman IKS Tasek. Simpang Ampat. Penang. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T07:59:40.1710474Z,0
+5.29036,100.5274826,Daerah: Seberang Perai Selatan<br>No:7<br>Hex coord:(14;19),Sungai Jawi. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:59:41.3067173Z,0
+5.28258,100.5410171,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(15;19),Sungai Junjong. Simpang Ampat. Penang. Malaysia,12 ,0,0,0,0,0,1,2021-11-24T07:59:42.4480553Z,0
+5.26702,100.4056724,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(5;20),Jeti Pulau Aman. Pengkalan Cassia. Bandar Cassia. 14110. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T07:59:43.5763546Z,0
+5.2748,100.4192068,Daerah: Seberang Perai Selatan<br>No:8<br>Hex coord:(6;20),Bukit Batu Kawan Forest. Jalan Pengkalan Batu Kawan. Pengkalan Batu Kawan. 14110. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:59:45.3205610Z,0
+5.26702,100.4327413,Daerah: Seberang Perai Selatan<br>No:9<br>Hex coord:(7;20),Hong Seng Estate. Batu Kawan. Seberang Perai Selatan. Malaysia,12 ,0,0,0,0,0,1,2021-11-24T07:59:48.1991093Z,0
+5.2748,100.4462758,Daerah: Seberang Perai Selatan<br>No:10<br>Hex coord:(8;20),Bukit Tambun. Simpang Ampat. Seberang Perai. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T07:59:50.0747838Z,0
+5.26702,100.4598103,Daerah: Seberang Perai Selatan<br>No:11<br>Hex coord:(9;20),North�South Expressway. Bukit Tambun. Simpang Ampat. Penang. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T07:59:51.9425401Z,0
+5.2748,100.4733447,Daerah: Seberang Perai Selatan<br>No:12<br>Hex coord:(10;20),Lorong Cegar 1. Bukit Tambun. Simpang Ampat. Penang. Malaysia,20 ,0,0,0,0,0,1,2021-11-24T07:59:53.7036411Z,0
+5.26702,100.4868792,Daerah: Seberang Perai Selatan<br>No:13<br>Hex coord:(11;20),Akademi Memandu Berjaya Sdn. Bhd.. 2402 Pergerakan Selekoh Z. Bukit Tambun. 14100 Simpang Ampat. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T07:59:54.9682684Z,0
+5.2748,100.5004137,Daerah: Seberang Perai Selatan<br>No:14<br>Hex coord:(12;20),Jalan Tasek Mutiara 10. Simpang Ampat. Penang. Malaysia,10 ,0,0,0,0,0,1,2021-11-24T07:59:56.6605249Z,0
+5.26702,100.5139482,Daerah: Seberang Perai Selatan<br>No:15<br>Hex coord:(13;20),Jalan Valdor. Sungai Jawi. Simpang Ampat. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T07:59:58.3638420Z,0
+5.2748,100.5274826,Daerah: Seberang Perai Selatan<br>No:16<br>Hex coord:(14;20),Sungai Jawi. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:00:00.4903933Z,0
+5.26702,100.5410171,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(15;20),Ladang Ayer Puteh. Kulim. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:01.6090709Z,0
+5.25924,100.4192068,Daerah: Seberang Perai Selatan<br>No:17<br>Hex coord:(6;21),Jalan Batu Kawan. Bandar Cassia. 14110. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T08:00:04.3529946Z,0
+5.25146,100.4327413,Daerah: Seberang Perai Selatan<br>No:18<br>Hex coord:(7;21),Pulau Batu Kawan. Batu Kawan. Seberang Perai Selatan. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:00:05.4898969Z,0
+5.25924,100.4462758,Daerah: Seberang Perai Selatan<br>No:19<br>Hex coord:(8;21),Sungai Binjai. Batu Kawan. Seberang Perai Selatan. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:00:07.3201633Z,0
+5.25146,100.4598103,Daerah: Seberang Perai Selatan<br>No:20<br>Hex coord:(9;21),Sungai Jawi. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:09.0551003Z,0
+5.25924,100.4733447,Daerah: Seberang Perai Selatan<br>No:21<br>Hex coord:(10;21),Jalan Paboi. Simpang Ampat. Penang. Malaysia,17 ,0,0,0,0,0,1,2021-11-24T08:00:10.1870970Z,0
+5.25146,100.4868792,Daerah: Seberang Perai Selatan<br>No:22<br>Hex coord:(11;21),Hijauan Valdor. Simpang Ampat. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:11.3122264Z,0
+5.25924,100.5004137,Daerah: Seberang Perai Selatan<br>No:23<br>Hex coord:(12;21),?????????. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:13.0633392Z,0
+5.25146,100.5139482,Daerah: Seberang Perai Selatan<br>No:24<br>Hex coord:(13;21),Sungai Jawi. Kampung Sethu. 14200. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:14.6953158Z,0
+5.25924,100.5274826,Daerah: Seberang Perai Selatan<br>No:25<br>Hex coord:(14;21),Sungai Jawi. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:15.8398774Z,0
+5.25146,100.5410171,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(15;21),Bukit Cempedak. Kulim. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:16.9580425Z,0
+5.24368,100.4192068,Daerah: Seberang Perai Selatan<br>No:26<br>Hex coord:(6;22),Bandar Cassia. 14110. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:18.7003836Z,0
+5.2359,100.4327413,Daerah: Seberang Perai Selatan<br>No:27<br>Hex coord:(7;22),Persiaran Cassia Barat 8. Batu Kawan. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:00:19.8233229Z,0
+5.24368,100.4462758,Daerah: Seberang Perai Selatan<br>No:28<br>Hex coord:(8;22),Bandar Cassia. 14110. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T08:00:21.5498772Z,0
+5.2359,100.4598103,Daerah: Seberang Perai Selatan<br>No:29<br>Hex coord:(9;22),Bose Malaysia. 719 Lingkaran Cassia Selatan. 14100 Simpang Ampat. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:23.3084188Z,0
+5.24368,100.4733447,Daerah: Seberang Perai Selatan<br>No:30<br>Hex coord:(10;22),Lebuhraya Utara�Selatan. Simpang Ampat. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:24.5801973Z,0
+5.2359,100.4868792,Daerah: Seberang Perai Selatan<br>No:31<br>Hex coord:(11;22),Sungai Jawi. Seberang Perai. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T08:00:26.3178516Z,0
+5.24368,100.5004137,Daerah: Seberang Perai Selatan<br>No:32<br>Hex coord:(12;22),Sungai Jawi. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:00:28.0743368Z,0
+5.2359,100.5139482,Daerah: Seberang Perai Selatan<br>No:33<br>Hex coord:(13;22),?????. Sungai Jawi. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:29.8380388Z,0
+5.24368,100.5274826,Daerah: Seberang Perai Selatan<br>No:34<br>Hex coord:(14;22),Sungai Jawi. Kampung Sethu. 14200. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:31.5807157Z,0
+5.2359,100.5410171,Daerah: Bandar Baharu<br>No:x<br>Hex coord:(15;22),Bandar Baharu. 14200. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:33.5316322Z,0
+5.22812,100.4192068,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(6;23),Batu Kawan. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:34.6793727Z,0
+5.22034,100.4327413,Daerah: Seberang Perai Selatan<br>No:35<br>Hex coord:(7;23),Persiaran Cassia Selatan 3. Batu Kawan. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:35.8160560Z,0
+5.22812,100.4462758,Daerah: Seberang Perai Selatan<br>No:36<br>Hex coord:(8;23),Honda. Lebuhraya Bandar Cassia. Batu Kawan Industrial Park. 14110. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:37.5495787Z,0
+5.22034,100.4598103,Daerah: Seberang Perai Selatan<br>No:37<br>Hex coord:(9;23),Kampung Bagan Buaya. Nibong Tebal. Seberang Perai. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T08:00:38.6695001Z,0
+5.22812,100.4733447,Daerah: Seberang Perai Selatan<br>No:38<br>Hex coord:(10;23),Kampung Bagan Buaya. Simpang Ampat. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:40.4084391Z,0
+5.22034,100.4868792,Daerah: Seberang Perai Selatan<br>No:39<br>Hex coord:(11;23),Sungai Jawi. Seberang Perai. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T08:00:42.1489726Z,0
+5.22812,100.5004137,Daerah: Seberang Perai Selatan<br>No:40<br>Hex coord:(12;23),Sungai Jawi. Seberang Perai. Malaysia,11 ,0,0,0,0,0,1,2021-11-24T08:00:43.2871232Z,0
+5.22034,100.5139482,Daerah: Seberang Perai Selatan<br>No:41<br>Hex coord:(13;23),Ladang Wee Lee. Jawi. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:45.0296208Z,0
+5.22812,100.5274826,Daerah: Seberang Perai Selatan<br>No:42<br>Hex coord:(14;23),Sungai Jawi. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:46.7420465Z,0
+5.22034,100.5410171,Daerah: Seberang Perai Selatan<br>No:43<br>Hex coord:(15;23),Ladang Sungai Duri. Jawi. Seberang Perai Selatan. Malaysia,19 ,0,0,0,0,0,1,2021-11-24T08:00:48.5050104Z,0
+5.21256,100.4192068,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(6;24),Kuala Tengah. Sungai Jawi. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:50.6925001Z,0
+5.20478,100.4327413,Daerah: Seberang Perai Selatan<br>No:44<br>Hex coord:(7;24),Ladang Byram. Sungai Jawi. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:52.4298742Z,0
+5.21256,100.4462758,Daerah: Seberang Perai Selatan<br>No:45<br>Hex coord:(8;24),Jeti Pangkalan Nelayan Changkat. Sungai Jawi. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:54.1857616Z,0
+5.20478,100.4598103,Daerah: Seberang Perai Selatan<br>No:46<br>Hex coord:(9;24),Kampung Bagan Buaya. Nibong Tebal. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:56.0030874Z,0
+5.21256,100.4733447,Daerah: Seberang Perai Selatan<br>No:47<br>Hex coord:(10;24),P170. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:00:57.7378620Z,0
+5.20478,100.4868792,Daerah: Seberang Perai Selatan<br>No:48<br>Hex coord:(11;24),Sungai Jawi. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:00:58.8628715Z,0
+5.21256,100.5004137,Daerah: Seberang Perai Selatan<br>No:49<br>Hex coord:(12;24),Sungai Jawi. Seberang Perai. Malaysia,11 ,0,0,0,0,0,1,2021-11-24T08:00:59.9957906Z,0
+5.20478,100.5139482,Daerah: Seberang Perai Selatan<br>No:50<br>Hex coord:(13;24),Sungai Jawi. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:01.1813257Z,0
+5.21256,100.5274826,Daerah: Seberang Perai Selatan<br>No:51<br>Hex coord:(14;24),Sungai Jawi. Seberang Perai. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T08:01:02.3137485Z,0
+5.20478,100.5410171,Daerah: Seberang Perai Selatan<br>No:52<br>Hex coord:(15;24),Sungai Jawi. Seberang Perai. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T08:01:05.1021991Z,0
+5.197,100.4192068,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(6;25),Pulau Burong Landfill. Sungai Jawi. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:06.8558642Z,0
+5.18922,100.4327413,Daerah: Seberang Perai Selatan<br>No:53<br>Hex coord:(7;25),Jalan Byram. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:08.7564169Z,0
+5.197,100.4462758,Daerah: Seberang Perai Selatan<br>No:54<br>Hex coord:(8;25),P164. Kampung Bagan Buaya. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:10.5132143Z,0
+5.18922,100.4598103,Daerah: Seberang Perai Selatan<br>No:55<br>Hex coord:(9;25),P166. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:11.7662893Z,0
+5.197,100.4733447,Daerah: Seberang Perai Selatan<br>No:56<br>Hex coord:(10;25),Kampung Bagan Buaya. Nibong Tebal. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:01:13.5175181Z,0
+5.18922,100.4868792,Daerah: Seberang Perai Selatan<br>No:57<br>Hex coord:(11;25),Jalan Nibong Tebal. Kampung Sethu. Nibong Tebal. Penang. Malaysia,3 ,0,0,0,0,0,1,2021-11-24T08:01:15.2546636Z,0
+5.197,100.5004137,Daerah: Seberang Perai Selatan<br>No:58<br>Hex coord:(12;25),Lorong Jawi Permai 4. Sungai Jawi. Jawi. Penang. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T08:01:17.1286696Z,0
+5.18922,100.5139482,Daerah: Seberang Perai Selatan<br>No:59<br>Hex coord:(13;25),Ladang Chain Paik Sin. Jawi. Seberang Perai Selatan. Malaysia,4 ,0,0,0,0,0,1,2021-11-24T08:01:19.0124530Z,0
+5.197,100.5274826,Daerah: Seberang Perai Selatan<br>No:60<br>Hex coord:(14;25),Lorong Widuri 26. Sungai Jawi. Jawi. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T08:01:20.7627258Z,0
+5.18922,100.5410171,Daerah: Jawi<br>No:61<br>Hex coord:(15;25),Ladang Kerian Kedah. Jawi. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:22.6204291Z,0
+5.18144,100.4192068,Daerah: Seberang Perai Selatan<br>No:62<br>Hex coord:(6;26),Hutan Rizab Byran. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:23.7439569Z,0
+5.17366,100.4327413,Daerah: Seberang Perai Selatan<br>No:63<br>Hex coord:(7;26),Kampung Haji Omar. Nibong Tebal. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:24.8806520Z,0
+5.18144,100.4462758,Daerah: Seberang Perai Selatan<br>No:64<br>Hex coord:(8;26),Jalan Byram. Kampung Pengkalan. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:26.0053637Z,0
+5.17366,100.4598103,Daerah: Seberang Perai Selatan<br>No:65<br>Hex coord:(9;26),99 Door Mansion. Nibong Tebal. Penang. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T08:01:27.1385260Z,0
+5.18144,100.4733447,Daerah: Seberang Perai Selatan<br>No:66<br>Hex coord:(10;26),Kampung Haji Omar. Nibong Tebal. Seberang Perai. Malaysia,6 ,0,0,0,0,0,1,2021-11-24T08:01:28.2703392Z,0
+5.17366,100.4868792,Daerah: Seberang Perai Selatan<br>No:67<br>Hex coord:(11;26),Lorong Panchur Mutiara 12. Taman Panchor Mutiara. Nibong Tebal. Penang. Malaysia,13 ,0,0,0,0,0,1,2021-11-24T08:01:29.4239364Z,0
+5.18144,100.5004137,Daerah: Seberang Perai Selatan<br>No:68<br>Hex coord:(12;26),Ladang Abdul Hamid. Nibong Tebal. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:31.1721381Z,0
+5.17366,100.5139482,Daerah: Seberang Perai Selatan<br>No:69<br>Hex coord:(13;26),P156. Sungai Jawi. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:32.9015879Z,0
+5.18144,100.5274826,Daerah: Seberang Perai Selatan<br>No:70<br>Hex coord:(14;26),Sungai Jawi. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:34.6336198Z,0
+5.17366,100.5410171,Daerah: Seberang Perai Selatan<br>No:71<br>Hex coord:(15;26),South Seberang Perai District. Nibong Tebal. Seberang Perai. Malaysia,7 ,0,0,0,0,0,1,2021-11-24T08:01:37.4261606Z,0
+5.1581,100.4056724,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(5;27),South Seberang Perai District. Sungai Acheh. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:39.1419319Z,0
+5.16588,100.4192068,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(6;27),Kuala Kerian. Pulau Pinang. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:40.2404917Z,0
+5.1581,100.4327413,Daerah: Seberang Perai Selatan<br>No:72<br>Hex coord:(7;27),Kampung Sungai Air Itam. Nibong Tebal. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:01:42.3329148Z,0
+5.16588,100.4462758,Daerah: Seberang Perai Selatan<br>No:73<br>Hex coord:(8;27),Kampung Haji Omar. Nibong Tebal. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:44.0543699Z,0
+5.1581,100.4598103,Daerah: Seberang Perai Selatan<br>No:74<br>Hex coord:(9;27),Kampung Haji Omar. Nibong Tebal. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:45.1495780Z,0
+5.16588,100.4733447,Daerah: Seberang Perai Selatan<br>No:75<br>Hex coord:(10;27),Jalan Nuri 1. Nibong Tebal. Penang. Malaysia,5 ,0,0,0,0,0,1,2021-11-24T08:01:46.8621417Z,0
+5.1581,100.4868792,Daerah: Seberang Perai Selatan<br>No:76<br>Hex coord:(11;27),Kampung Haji Omar. Nibong Tebal. Seberang Perai. Malaysia,19 ,0,0,0,0,0,1,2021-11-24T08:01:48.5608768Z,0
+5.16588,100.5004137,Daerah: Seberang Perai Selatan<br>No:77<br>Hex coord:(12;27),Jishan Pack Sdn Bhd. Lot 20384. Jalan Bukit Panchor. 14300 Nibong Tebal. Penang Jalan Bukit Panchor. 14300 Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:49.6534731Z,0
+5.1581,100.5139482,Daerah: Seberang Perai Selatan<br>No:78<br>Hex coord:(13;27),Perkampungan Sungai Kechil. Nibong Tebal. Seberang Perai. Malaysia,2 ,0,0,0,0,0,1,2021-11-24T08:01:51.3814151Z,0
+5.16588,100.5274826,Daerah: Seberang Perai Selatan<br>No:79<br>Hex coord:(14;27),Lorong Pancor Utama 12. Perkampungan Sungai Kechil. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:53.0650972Z,0
+5.1581,100.5410171,Daerah: Seberang Perai Selatan<br>No:80<br>Hex coord:(15;27),Bukit Panchor Reservoir. Jalan Loji Bukit Panchor. Perkampungan Sungai Kechil. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:55.1095109Z,0
+5.16588,100.5545516,Daerah: Bandar Baharu<br>No:x<br>Hex coord:(16;27),Sungai Kechil Hilir. 34950. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:56.8073073Z,0
+5.14254,100.4056724,Daerah: Seberang Perai Selatan<br>No:81<br>Hex coord:(5;28),Sungai Chenaam. Nibong Tebal. Penang. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:01:58.5423042Z,0
+5.15032,100.4192068,Daerah: Seberang Perai Selatan<br>No:82<br>Hex coord:(6;28),Masjid Jamek Sungai Acheh. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:01:59.6336541Z,0
+5.14254,100.4327413,Daerah: Seberang Perai Selatan<br>No:83<br>Hex coord:(7;28),Kampung Batas Pinang. Nibong Tebal. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:01.3519033Z,0
+5.15032,100.4462758,Daerah: Seberang Perai Selatan<br>No:84<br>Hex coord:(8;28),Kampung Tanjong Beremban. Nibong Tebal. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:02:03.4463888Z,0
+5.14254,100.4598103,Daerah: Seberang Perai Selatan<br>No:85<br>Hex coord:(9;28),Masjid Al-Amin. Nibong Tebal. Seberang Perai Selatan. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:02:05.1575080Z,0
+5.15032,100.4733447,Daerah: Seberang Perai Selatan<br>No:86<br>Hex coord:(10;28),Taman Keramat Permai. Nibong Tebal. Seberang Perai. Malaysia,1 ,0,0,0,0,0,1,2021-11-24T08:02:06.2441340Z,0
+5.14254,100.4868792,Daerah: Seberang Perai Selatan<br>No:87<br>Hex coord:(11;28),Taman Pekaka. Nibong Tebal. Seberang Perai. Malaysia,11 ,0,0,0,0,0,1,2021-11-24T08:02:07.9444665Z,0
+5.15032,100.5004137,Daerah: Seberang Perai Selatan<br>No:88<br>Hex coord:(12;28),Sungai Kecil. Nibong Tebal. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:09.0418401Z,0
+5.14254,100.5139482,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(13;28),Perkampungan Sungai Kechil. Nibong Tebal. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:10.1223396Z,0
+5.15032,100.5274826,Daerah: Seberang Perai Selatan<br>No:89<br>Hex coord:(14;28),Bukit Rantai. Seberang Perai Selatan. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:12.8043520Z,0
+5.14254,100.5410171,Daerah: Seberang Perai Selatan<br>No:90<br>Hex coord:(15;28),South Seberang Perai District. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:14.5085499Z,0
+5.15032,100.5545516,Daerah: Bandar Baharu<br>No:x<br>Hex coord:(16;28),Bandar Baharu. 34950 Kampung Permatang Simpor. Kedah. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:16.2278886Z,0
+5.13476,100.3921379,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(4;29),Sungai Bakau,0,0,0,0,0,0,1,2021-11-24T08:02:17.9485193Z,0
+5.12698,100.4056724,Daerah: Seberang Perai Selatan<br>No:91<br>Hex coord:(5;29),Jalan Sungai Bakau Baru. Kampung Sungai Tongkang. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:19.6679652Z,0
+5.13476,100.4192068,Daerah: Seberang Perai Selatan<br>No:92<br>Hex coord:(6;29),Jalan Sungai Bakau. Kampung Sungai Tongkang. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:21.3656729Z,0
+5.12698,100.4327413,Daerah: Seberang Perai Selatan<br>No:93<br>Hex coord:(7;29),Jalan Sempadan. Sungai Bakau. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:23.0601507Z,0
+5.13476,100.4462758,Daerah: Seberang Perai Selatan<br>No:94<br>Hex coord:(8;29),Kampung Batu 3. Nibong Tebal. Seberang Perai. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:24.1502676Z,0
+5.12698,100.4598103,Daerah: Seberang Perai Selatan<br>No:x<br>Hex coord:(9;29),Taman Putera. Nibong Tebal. Penang. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:25.8601041Z,0
+5.13476,100.4733447,Daerah: Seberang Perai Selatan<br>No:95<br>Hex coord:(10;29),Taman Seri Emas. Nibong Tebal. Seberang Perai. Malaysia,10 ,0,0,0,0,0,1,2021-11-24T08:02:27.5748018Z,0
+5.12698,100.4868792,Daerah: Kerian<br>No:x<br>Hex coord:(11;29),Pekan Lama. 34200. Perak. Malaysia,10 ,0,0,0,0,0,1,2021-11-24T08:02:28.6840004Z,0
+5.13476,100.5274826,Daerah: Bandar Baharu<br>No:x<br>Hex coord:(14;29),Bukit Tebuan. Bandar Baharu. Malaysia,0,0,0,0,0,0,1,2021-11-24T08:02:30.9359460Z,0
