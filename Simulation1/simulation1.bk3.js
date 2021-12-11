@@ -1,5 +1,5 @@
 /*
-* By Steve Teoh v 1.2.0.0 @ 2021/12/11 User Travel Location Generator
+* By Steve Teoh v 1.2.0.0 @ 2021/12/08 User Travel Location Generator
 * For Research Purposes only.
 * Purpose: Simulation Tool
 * Steve is an avid wargamer and crazy programmer that can code at amazing speed.
@@ -16,7 +16,6 @@ var primaryschfilename = "https://raw.githubusercontent.com/MoH-Malaysia/covid19
 var secondaryschfilename = "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/vaccination/vax_school.csv";    //easier to read KKM hosted data
 var iptafilename = "ipta.csv";                                                                                                 //self-hosted on baseaddress
 var iptsfilename = "";                                                                                                         //To do. not enough time to work as data entry clerk
-var rnaughtfilename = "rNaught.csv";
 var foldername = "selangor";
 
 const delta_lat = 0.0077800;
@@ -31,31 +30,12 @@ var country = "Malaysia", state = "Selangor", district = "", city = "", region =
 
 
 //Nov 23,25 not available on KKM's website https://covid-19.moh.gov.my/kajian-dan-penyelidikan/nilai-r-malaysia
-//Note: values are approximated for the two missing dates 23/11 and 25/11!! 
-//malaysia  rNaughtMY = [0.96, 0.95, 0.94, 0.94, 0.92, 0.91, 0.92, 0.94, 0.96, 0.99, 1.00, 1.04, 1.05, 1.05, 1.05, 1.04, 1.03, 1.02, 1.01, 1.01, 1.00, 1.00, 1.00, 0.99, 0.99, 0.97, 0.96, 0.96, 0.95, 0.95]; //Malaysia
-//selangor  rNaughtSL = [0.98, 0.98, 1.00, 1.01, 0.99, 0.99, 0.99, 1.00, 1.01, 1.03, 1.03, 1.04, 1.04, 1.04, 1.04, 1.05, 1.06, 1.05, 1.07, 1.08, 1.07, 1.06, 1.05, 1.04, 1.04, 1.02, 1.01, 1.00, 0.99, 0.99]; //selangor
-//KL        rNaughtKL = [1.01, 1.01, 1.01, 0.99, 0.96, 0.98, 1.00, 1.00, 1.02, 1.03, 1.04, 1.06, 1.05, 1.05, 1.04, 1.05, 1.09, 1.09, 1.09, 1.08, 1.06, 1.05, 1.05, 1.05, 1.06, 1.04, 1.02, 1.00, 1.00, 1.02]; //Kuala Lumpur
-//Putrajaya rNaughtPJ = [1.06, 1.05, 1.07, 1.11, 1.06, 1.09, 1.03, 1.06, 1.07, 1.06, 1.16, 1.17, 1.20, 1.20, 1.17, 1.15, 1.12, 1.06, 1.12, 1.17, 1.13, 1.15, 1.13, 1.12, 1.04, 1.03, 1, 1.00, 0.99, 0.98]; //Putrajaya
+//Note: values are approximated for the two missing dates 23/11 and 25/11!!
 
-//New RNaught Data file format
-//location,code,year,month,d01,d02,d03,d04,d05,d06,d07,d08,d09,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27,d28,d29,d30,d31
-var rNaughtMY = []; //malaysia
-var rNaughtSL = []; //selangor
-var rNaughtKL = []; //KL      
-var rNaughtPJ = []; //Putrajaya
-var rNaughtSA = []; //sabah
-var rNaughtPG = []; //penang
-var rNaughtJH = []; //johor
-var rNaughtKN = []; //kelantan
-var rNaughtML = []; //melaka
-var rNaughtLA = []; //Labuan
-var rNaughtNS = []; //negerisembilan
-var rNaughtKH = []; //kedah
-var rNaughtPH = []; //pahang
-var rNaughtPK = []; //perak
-var rNaughtTE = []; //terengganu
-var rNaughtSK = []; //sarawak
-var rNaughtPL = []; //perlis
+var rNaughtMY = [0.96, 0.95, 0.94, 0.94, 0.92, 0.91, 0.92, 0.94, 0.96, 0.99, 1.00, 1.04, 1.05, 1.05, 1.05, 1.04, 1.03, 1.02, 1.01, 1.01, 1.00, 1.00, 1.00, 0.99, 0.99, 0.97, 0.96, 0.96, 0.95, 0.95];
+var rNaughtSL = [0.98, 0.98, 1.00, 1.01, 0.99, 0.99, 0.99, 1.00, 1.01, 1.03, 1.03, 1.04, 1.04, 1.04, 1.04, 1.05, 1.06, 1.05, 1.07, 1.08, 1.07, 1.06, 1.05, 1.04, 1.04, 1.02, 1.01, 1.00, 0.99, 0.99];
+var rNaughtKL = [1.01, 1.01, 1.01, 0.99, 0.96, 0.98, 1.00, 1.00, 1.02, 1.03, 1.04, 1.06, 1.05, 1.05, 1.04, 1.05, 1.09, 1.09, 1.09, 1.08, 1.06, 1.05, 1.05, 1.05, 1.06, 1.04, 1.02, 1.00, 1.00, 1.02];
+var rNaughtPU = [1.06, 1.05, 1.07, 1.11, 1.06, 1.09, 1.03, 1.06, 1.07, 1.06, 1.16, 1.17, 1.20, 1.20, 1.17, 1.15, 1.12, 1.06, 1.12, 1.17, 1.13, 1.15, 1.13, 1.12, 1.04, 1.03, 1, 1.00, 0.99, 0.98];
 
 //Simulation parameter  - Sample Qty
 var multiplier = 1;   //1=100samples, 10=1000samples, 100=10,000samples, 1000=100,000samples etc.
@@ -66,7 +46,7 @@ var personnel = [];
 //Final simulation results container
 var simulation = [];
 
-//containers for various types of students
+//destinations for various types of students
 var primary = [];
 var secondary = [];
 var unicollege = [];
@@ -104,25 +84,6 @@ var lifestyleParam = [
 ]
 
 /**
- * Helper function for stateR0() to find the relevant row with corresponding year and month and returns the index
- * 
- * @param {any} myarray
- * @param {any} inyear
- * @param {any} inmonth
- * 
- * returns: array index, -1 for not found
- */
-function findInArray(myarray, inyear, inmonth) {
-    for (var x = 0; x < myarray.length; x++) {
-        if ((myarray[x][2] == inyear) && (myarray[x][3] == inmonth)) {
-            //console.log(myarray[x][2], myarray[x][3], "index", x);
-            return x;
-        }
-    }
-    return -1;
-}
-
-/**
  * RNaught mapping functions (only state level r0 is available)
  * To do: convert to auto loading from file in future
  *
@@ -130,100 +91,16 @@ function findInArray(myarray, inyear, inmonth) {
  * @param {any} date
  */
 function stateR0(statename, date) {
-    //location,code,year,month,d01,d02,d03,d04,d05,d06,d07,d08,d09,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27,d28,d29,d30,d31
-    const offset = 4;     //offset ==> d01
     var r0 = 0;
-    let mth = date.toISOString().split('T')[0].substring(5, 7);
-    let yr = date.toISOString().split('T')[0].substring(0, 4);
-    let vdate = parseInt(date.toYYYYMMDD());
-    let dpos = -1;
-    //console.log(statename, date.toISOString().split('T')[0]);
     switch (statename) {
         case 'Selangor':
-            dpos = findInArray(rNaughtSL, yr, mth);
-            r0 = rNaughtSL[dpos][vdate - dateBegin + offset];
-            console.log("SL r0 = " + r0);
-            break; //selangor
+            r0 = rNaughtSL[date - dateBegin]; break;
         case 'KL':
-            dpos = findInArray(rNaughtKL, yr, mth);
-            r0 = rNaughtKL[dpos][vdate - dateBegin + offset];
-            console.log("KL r0 = " + r0);
-            break; //Kuala Lumpur
+            r0 = rNaughtKL[date - dateBegin]; break;
         case 'Putrajaya':
-            dpos = findInArray(rNaughtPJ, yr, mth);
-            r0 = rNaughtPJ[dpos][vdate - dateBegin + offset];
-            console.log("PJ r0 = " + r0);
-            break; //Putrajaya
-        case 'Sabah':
-            dpos = findInArray(rNaughtSA, yr, mth);
-            r0 = rNaughtSA[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("SA r0 = " + r0);
-            break; //sabah
-        case 'Penang':
-            dpos = findInArray(rNaughtPG, yr, mth);
-            r0 = rNaughtPG[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("PG r0 = " + r0);
-            break; //penang
-        case 'Johor':
-            dpos = findInArray(rNaughtJH, yr, mth);
-            r0 = rNaughtJH[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("JH r0 = " + r0);
-            break; //johor
-        case 'Kelantan':
-            dpos = findInArray(rNaughtKN, yr, mth);
-            r0 = rNaughtKN[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("KN r0 = " + r0);
-            break; //kelantan
-        case 'Melaka':
-            dpos = findInArray(rNaughtML, yr, mth);
-            r0 = rNaughtML[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("ML r0 = " + r0);
-            break; //melaka
-        case 'Labuan':
-            dpos = findInArray(rNaughtLA, yr, mth);
-            r0 = rNaughtLA[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("LA r0 = " + r0);
-            break; //Labuan
-        case 'Negeri Sembilan':
-            dpos = findInArray(rNaughtNS, yr, mth);
-            r0 = rNaughtNS[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("NS r0 = " + r0);
-            break; //negerisembilan
-        case 'Kedah':
-            dpos = findInArray(rNaughtKH, yr, mth);
-            r0 = rNaughtKH[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("KH r0 = " + r0);
-            break; //kedah
-        case 'Pahang':
-            dpos = findInArray(rNaughtPH, yr, mth);
-            r0 = rNaughtPH[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("PH r0 = " + r0);
-            break; //pahang
-        case 'Perak':
-            dpos = findInArray(rNaughtPK, yr, mth);
-            r0 = rNaughtPK[date.toYYYYMMDD() - dateBegin + offset];
-            console.log("PK r0 = " + r0);
-            break; //perak
-        case 'Terengganu':
-            dpos = findInArray(rNaughtTE, yr, mth);
-            r0 = rNaughtTE[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("TE r0 = " + r0);
-            break; //terengganu
-        case 'Sarawak':
-            dpos = findInArray(rNaughtSK, yr, mth);
-            r0 = rNaughtSK[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("SK r0 = " + r0);
-            break; //sarawak
-        case 'Perlis':
-            dpos = findInArray(rNaughtPL, yr, mth);
-            r0 = rNaughtPL[dpos][date.toYYYYMMDD() - dateBegin + offset];
-            console.log("PL r0 = " + r0);
-            break; //perlis
+            r0 = rNaughtPU[date - dateBegin]; break;
         default:
-            dpos = findInArray(rNaughtMY, yr, mth);
-            r0 = rNaughtMY[dpos][vdate - dateBegin + offset];
-            console.log("MY r0 = " + r0);
-            break; //Malaysia
+            r0 = rNaughtMY[date - dateBegin]; break;
     }
     return r0;
 }
@@ -466,11 +343,6 @@ function initData() {
     LoadUniCollege(16, unicollege, baseaddress + "/data/" + iptafilename);
     //-----------------------------------------------------------------
 
-    // (New Update 2021-12-11)
-    //load R Naught Tables
-    LoadRNaughts(baseaddress + "/data/" + rnaughtfilename);
-    //-----------------------------------------------------------------
-
     //4. Hook event to buttons
     document.getElementById("Samples").addEventListener("click", generateSamples);
     document.getElementById("Simulate").addEventListener("click", startSimulation);
@@ -577,15 +449,11 @@ Date.prototype.addDays = function (days) {
     return date;
 };
 
-Date.prototype.toYYYYMMDD = function () {
-    let temp = this.toISOString().split('T')[0].split('-').join('');
-    return temp;
-    //return this.getFullYear() +
-    //    "-" + (this.getMonth() + 1) +
-    //    "-" + this.getDate();
-};
-
-
+Date.prototype.formatYYYYMMDD = function () {
+    return this.getFullYear() +
+        "-" + (this.getMonth() + 1) +
+        "-" + this.getDate();
+}
 //----------------------
 //Random Generators |
 //----------------------
@@ -688,11 +556,9 @@ function generateSamples() {
             //--
             var endlimit = dEnd;
             endlimit = endlimit.addDays(-parseInt(days));
-            var start = randomDate(dBegin, endlimit);                 //start=  (dBegin ... dateEnd-days)
+            var start = randomDate(dBegin, endlimit);                 //start=  (dBegin .. dateEnd-days)
             var end = new Date(start);
             end = end.addDays(parseInt(days));                        //end = start + days
-            //var start = random(parseInt(dateBegin), parseInt(dateEnd) - days);  
-            //var end = random(start, start + days);
             //--
 
             //if points = 0 or 1, there is no distance to calculate!
@@ -823,7 +689,6 @@ async function startSimulation() {
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, a, state, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                    document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
                     //if one waypoint, it is obviously home, no need to process further
@@ -842,7 +707,6 @@ async function startSimulation() {
                     var t_cases = placesAll[gridId1][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, school.lat, school.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                    document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
                     document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId1][0] + "," + placesAll[gridId1][1] + ") risk=" + placesAll[gridId1][daysDifference(startdate, a) + 4] + " active cases ";
@@ -877,7 +741,6 @@ async function startSimulation() {
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                            document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
                         else {
@@ -888,7 +751,6 @@ async function startSimulation() {
                             var t_cases = "please cross-check";
                             var r0s = "r0";
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                            document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
                     }
@@ -945,7 +807,6 @@ async function startSimulation() {
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                    document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
                     //if one waypoint, it is obviously home, no need to process further
@@ -964,7 +825,6 @@ async function startSimulation() {
                     var t_cases = placesAll[gridId1][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, school2.lat, school2.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                    document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
                     document.getElementById('Update').innerHTML += " at grid (" + placesAll[gridId1][0] + "," + placesAll[gridId1][1] + ") risk=" + placesAll[gridId1][daysDifference(startdate, a) + 4] + " active cases ";
@@ -997,7 +857,6 @@ async function startSimulation() {
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                            document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
                         else {
@@ -1008,7 +867,6 @@ async function startSimulation() {
                             var t_cases = "please cross-check";
                             var r0s = "r0";
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                            document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
                     }
@@ -1065,7 +923,6 @@ async function startSimulation() {
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                    document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
                     //if one waypoint, it is obviously home, no need to process further
@@ -1083,7 +940,6 @@ async function startSimulation() {
                     var t_cases = placesAll[gridId1][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, school2.lat, school2.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                    document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
 
@@ -1117,7 +973,6 @@ async function startSimulation() {
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                            document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
                         else {
@@ -1128,7 +983,6 @@ async function startSimulation() {
                             var t_cases = "please cross-check";
                             var r0s = "r0";
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                            document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
                     }
@@ -1176,7 +1030,6 @@ async function startSimulation() {
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
                     simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                    document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
                     //if one waypoint, it is obviously home, no need to process further
@@ -1213,7 +1066,6 @@ async function startSimulation() {
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                            document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
                         else {
@@ -1224,7 +1076,6 @@ async function startSimulation() {
                             var t_cases = "please cross-check";
                             var r0s = "r0";
                             simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
-                            document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
                     }
@@ -1242,133 +1093,6 @@ async function startSimulation() {
 //------------------------
 //Data loader functions  |
 //------------------------
-
-/**
- * Loads the RNaught values to the respective 'rNaughtxxx' arrays
- * 
- * @param {any} sourceFile
- * 
- */
-async function LoadRNaughts(sourceFile) {
-    let myPromise = new Promise(function (resolve) {
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", sourceFile);   //.csv file
-        xhr.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                var thisGrid = this.responseText;  //return object
-                const data = csvToArray(thisGrid, ',');
-                data.forEach(function (item, index) {
-                    //maintain text format for simulation output. The compute engine will take over post simulation.
-                    let loc = data[index]['location'];
-                    let code = data[index]['code'];
-                    let year = data[index]['year'];
-                    let month = data[index]['month'];
-                    let d01 = data[index]['d01']; var d02 = data[index]['d02'];
-                    let d03 = data[index]['d03']; var d04 = data[index]['d04'];
-                    let d05 = data[index]['d05']; var d06 = data[index]['d06'];
-                    let d07 = data[index]['d07']; var d08 = data[index]['d08'];
-                    let d09 = data[index]['d09']; var d10 = data[index]['d10'];
-                    let d11 = data[index]['d11']; var d12 = data[index]['d12'];
-                    let d13 = data[index]['d13']; var d14 = data[index]['d14'];
-                    let d15 = data[index]['d15']; var d16 = data[index]['d16'];
-                    let d17 = data[index]['d17']; var d18 = data[index]['d18'];
-                    let d19 = data[index]['d19']; var d20 = data[index]['d20'];
-                    let d21 = data[index]['d21']; var d22 = data[index]['d22'];
-                    let d23 = data[index]['d23']; var d24 = data[index]['d24'];
-                    let d25 = data[index]['d25']; var d26 = data[index]['d26'];
-                    let d27 = data[index]['d27']; var d28 = data[index]['d28'];
-                    let d29 = data[index]['d29']; var d30 = data[index]['d30'];
-                    let d31 = data[index]['d31'];
-
-                    //drop the last row if it contains NaN.
-                    if (!(isNaN(code))) {
-                        //console.log(loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31);
-                        //location,code,year,month,d01,d02,d03,d04,d05,d06,d07,d08,d09,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27,d28,d29,d30,d31
-                        switch (loc) {
-                            case "selangor":
-                                rNaughtSL.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "sabah":
-                                rNaughtSA.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "penang":
-                                rNaughtPG.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "johor":
-                                rNaughtJH.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "kelantan":
-                                rNaughtKN.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "melaka":
-                                rNaughtML.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "KL":
-                                rNaughtKL.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "Labuan":
-                                rNaughtLA.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "Putrajaya":
-                                rNaughtPJ.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "negerisembilan":
-                                rNaughtNS.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "kedah":
-                                rNaughtKH.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "pahang":
-                                rNaughtPH.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "perak":
-                                rNaughtPK.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "terengganu":
-                                rNaughtTE.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "sarawak":
-                                rNaughtSK.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "perlis":
-                                rNaughtPL.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            case "malaysia":
-                                rNaughtMY.push([loc, code, year, month, d01, d02, d03, d04, d05, d06, d07, d08, d09, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31]);
-                                break;
-                            default:
-                                break;
-                        }
-                    }
-                });
-                //console.log("response resolved.");
-                resolve(this.responseText);
-            }
-        };
-        xhr.send();
-    });
-    await myPromise.then(() => {
-        document.getElementById('Update').innerHTML += "(Async) R Naught MY data loaded => " + rNaughtMY.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught SL data loaded => " + rNaughtSL.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught KL data loaded => " + rNaughtKL.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PJ data loaded => " + rNaughtPJ.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught SA data loaded => " + rNaughtSA.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PG data loaded => " + rNaughtPG.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught JH data loaded => " + rNaughtJH.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught KN data loaded => " + rNaughtKN.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught ML data loaded => " + rNaughtML.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught LA data loaded => " + rNaughtLA.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught NS data loaded => " + rNaughtNS.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught KH data loaded => " + rNaughtKH.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PH data loaded => " + rNaughtPH.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PK data loaded => " + rNaughtPK.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught TE data loaded => " + rNaughtTE.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught SK data loaded => " + rNaughtSK.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PL data loaded => " + rNaughtPL.length + " records.<br/>";
-        //report the upload status to the html page
-    });
-}
-
 
 /**
  * Loads the summarized (filtered) list of the state's cases to 'places' array
@@ -1770,7 +1494,7 @@ function csvToArray(str, delimiter = ",") {
  */
 function subtringBetween(word, beginning, ending) {
     var mySubString = word.substring(
-        word.indexOf(beginning) + beginning.length,
+        word.indexOf(beginning) + 1,
         word.lastIndexOf(ending));
     return mySubString;
 
