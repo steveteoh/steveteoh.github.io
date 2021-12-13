@@ -841,7 +841,7 @@ async function startSimulation() {
                     var cases = placesAll[gridId1][daysDifference(startdate, a) + 4];
                     var t_cases = placesAll[gridId1][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
-                    simulation.push([who, state, a, school.lat, school.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                    simulation.push([who, a, state, school.lat, school.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
@@ -876,7 +876,7 @@ async function startSimulation() {
                             var cases = placesAll[gridId][daysDifference(startdate, a) + 4];
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
-                            simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                            simulation.push([who, a, state, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                             document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
@@ -887,7 +887,7 @@ async function startSimulation() {
                             var cases = "please cross-check";
                             var t_cases = "please cross-check";
                             var r0s = "r0";
-                            simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                            simulation.push([who, a, state, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                             document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
@@ -944,7 +944,7 @@ async function startSimulation() {
                     var cases = placesAll[gridId2][daysDifference(startdate, a) + 4];
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
-                    simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                    simulation.push([who, a, state, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
@@ -963,7 +963,7 @@ async function startSimulation() {
                     var cases = placesAll[gridId1][daysDifference(startdate, a) + 4];
                     var t_cases = placesAll[gridId1][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
-                    simulation.push([who, state, a, school2.lat, school2.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                    simulation.push([who, a, state, school2.lat, school2.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
@@ -996,7 +996,7 @@ async function startSimulation() {
                             var cases = placesAll[gridId][daysDifference(startdate, a) + 4];
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
-                            simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                            simulation.push([who, a, state, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                             document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
@@ -1007,7 +1007,7 @@ async function startSimulation() {
                             var cases = "please cross-check";
                             var t_cases = "please cross-check";
                             var r0s = "r0";
-                            simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                            simulation.push([who, a, state, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                             document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
@@ -1064,7 +1064,7 @@ async function startSimulation() {
                     var cases = placesAll[gridId2][daysDifference(startdate, a) + 4];
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
-                    simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                    simulation.push([who, a, state, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
@@ -1082,7 +1082,7 @@ async function startSimulation() {
                     var cases = placesAll[gridId1][daysDifference(startdate, a) + 4];
                     var t_cases = placesAll[gridId1][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
-                    simulation.push([who, state, a, school2.lat, school2.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                    simulation.push([who, a, state, school2.lat, school2.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
@@ -1116,7 +1116,7 @@ async function startSimulation() {
                             var cases = placesAll[gridId][daysDifference(startdate, a) + 4];
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
-                            simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                            simulation.push([who, a, state, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                             document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
@@ -1127,7 +1127,7 @@ async function startSimulation() {
                             var cases = "please cross-check";
                             var t_cases = "please cross-check";
                             var r0s = "r0";
-                            simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                            simulation.push([who, a, state, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                             document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
@@ -1175,7 +1175,7 @@ async function startSimulation() {
                     var cases = placesAll[gridId2][daysDifference(startdate, a) + 4];
                     var t_cases = placesAll[gridId2][35];
                     var r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
-                    simulation.push([who, state, a, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                    simulation.push([who, a, state, home.lat, home.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
@@ -1212,7 +1212,7 @@ async function startSimulation() {
                             var cases = placesAll[gridId][daysDifference(startdate, a) + 4];
                             var t_cases = placesAll[gridId][35];
                             var r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
-                            simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                            simulation.push([who, a, state, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                             document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
@@ -1223,7 +1223,7 @@ async function startSimulation() {
                             var cases = "please cross-check";
                             var t_cases = "please cross-check";
                             var r0s = "r0";
-                            simulation.push([who, state, a, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                            simulation.push([who, a, state, lats, lons, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                             document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                             //--------------------------------------------------------------------------------------------------------
                         }
