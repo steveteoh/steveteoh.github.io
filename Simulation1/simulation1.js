@@ -829,7 +829,7 @@ async function startSimulation() {
                     //if one waypoint, it is obviously home, no need to process further
                     if (waypoints == 1) {
                         starting_point = home;   //distance = 0;
-                        break;
+                        continue;
                     }
 
                     //push school address
@@ -951,7 +951,7 @@ async function startSimulation() {
                     //if one waypoint, it is obviously home, no need to process further
                     if (waypoints == 1) {
                         starting_point = home;   //distance = 0;
-                        break;
+                        continue;
                     }
 
                     //push secondary school address
@@ -1071,7 +1071,7 @@ async function startSimulation() {
                     //if one waypoint, it is obviously home, no need to process further
                     if (waypoints == 1) {
                         starting_point = home;   //distance = 0;
-                        break;
+                        continue;
                     }
                     //push uni address
                     document.getElementById('Update').innerHTML += "<br> _________ uni/college address (" + uni.lat + "," + uni.lng + ") @ " + unicollege[selection][1];
@@ -1182,7 +1182,7 @@ async function startSimulation() {
                     //if one waypoint, it is obviously home, no need to process further
                     if (waypoints == 1) {
                         starting_point = home;   //distance = 0;
-                        break;
+                        continue;
                     }
 
                     //
