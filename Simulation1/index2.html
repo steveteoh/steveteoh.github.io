@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulation Functions</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="../css/navi.css" />
+    <script src="./simulation1a.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8KAHldpvIOBBG8Lb3lrpWlFlS3mfFf9o&libraries=geometry"></script>
+</head>
+<body onload="initData();">
+    <div id="googleMap" style="width:10%;height:10px;"></div>
+    <div style="text-align:left">
+        &nbsp;Sample size: <input type="text" name="samples" id="samples" size="20">
+    </div>
+    <div><br /></div>
+    <div style="text-align:left">
+        &nbsp;Start Date: <input type="date" id="startdate">
+        &nbsp;End Date: <input type="date" id="enddate">
+    </div>
+    <div><br /></div>
+    <div>
+        &nbsp;Note: The minimum simulation date is from 2021-11-01.
+        <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The maximum simulation date is up to <span id="yest"></span>.
+    </div>
+    <div><br /></div>
+    <div style="text-align:left">
+        <input id="Samples" type="button" value="1. Generate Samples" />
+        <input id="Simulate" type="button" value="2. Start Simulation" />
+        <input id="Resolve" type="button" value="3. Resolve unknown locations" />
+        <input id="Download" type="button" value="4. Download Results" />
+        <h6>
+            <b>Results : </b><br />
+            <span id="Update"></span>
+        </h6>
+    </div>
+    <footer>
+        <br />
+        <center><h6><span id="notice">Copyright (c) 2021 Steve Teoh et al. All rights reserved.</span></h6></center>
+    </footer>
+</body>
+</html>
