@@ -648,7 +648,7 @@ async function searchStateCases(state, lat, lon, dateFrom, dateTo) {
     let filename = state.toLowerCase().split(" ").join("");
 
     //selangor state survey is now merged with klangvalley
-    if (filename == "" || filename == "federalterritoryofkualalumpur" || filename == "putrajaya" || filename == "selangor" || filename == 'riau') {
+    if (filename == "" || filename == "federalterritoryofkualalumpur" || filename == "putrajaya" || filename == "selangor" || filename == 'riau' || filename == 'northsumatra') {
         filename = "klangvalley"; foldername = "selangor";
     }
     //english to malay name
