@@ -471,9 +471,9 @@ function initData() {
     LoadUniCollege(14, unicollege, baseaddress + "/data/" + iptafilename);
     LoadUniCollege(16, unicollege, baseaddress + "/data/" + iptafilename);
 
-    LoadUniCollege(10, unicollege, baseaddress + "/data/" + iptsfilename);  //10=Selangor, 14=KL, 16=Putrajaya
-    LoadUniCollege(14, unicollege, baseaddress + "/data/" + iptsfilename);
-    LoadUniCollege(16, unicollege, baseaddress + "/data/" + iptsfilename);
+    //LoadUniCollege(10, unicollege, baseaddress + "/data/" + iptsfilename);  //10=Selangor, 14=KL, 16=Putrajaya
+    //LoadUniCollege(14, unicollege, baseaddress + "/data/" + iptsfilename);
+    //LoadUniCollege(16, unicollege, baseaddress + "/data/" + iptsfilename);
     //-----------------------------------------------------------------
 
     // (New Update 2021-12-11)
