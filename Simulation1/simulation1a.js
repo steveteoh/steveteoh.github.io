@@ -1323,7 +1323,7 @@ async function startSimulation() {
                     t_cases = placesAll[gridId1][35];
                     r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
                     state = subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:");
-                    simulation.push([who, a.toISOString().split('T')[0], state, school2.lat, school2.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
+                    simulation.push([who, a.toISOString().split('T')[0], state, uni.lat, uni.lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]);
                     document.getElementById('Update').innerHTML += " (R0/RT @" + a.toISOString().split('T')[0] + " = " + r0s + ")";
                     //--------------------------------------------------------------------------------------------------------
 
