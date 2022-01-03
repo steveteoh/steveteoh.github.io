@@ -1,15 +1,15 @@
-﻿NO,IPTS NAME,STATE,Code,Lat,Lon
-1,"AIMST University (Previously known as : Asian Institute of Medicine, Science & Technology (AIMST))",Kedah,8,,
+﻿NO,NAME,STATE,Code,Lat,Lon
+1,AIMST University (Previously known as : Asian Institute of Medicine, Science & Technology (AIMST)),Kedah,8,,
 2,Albukhary International University,Kedah,8,,
 3,Al-Madinah International University (MEDIU),Selangor,10,3.083945817,101.7004876
 4,Asia e University,Selangor,10,3.076836932,101.589628
-5,"Asia Metropolitan University (Previously known as : Asia Metropolitan University, Johor Bahru Branch Campus)",Johor,1,,
+5,Asia Metropolitan University (Previously known as : Asia Metropolitan University, Johor Bahru Branch Campus),Johor,1,,
 6,Asia Metropolitan University Cyberjaya Campus (Previously known as : Asia Metropolitan University),Selangor,10,2.920936255,101.6551091
 7,Asia Pacific University of Technology and Innovation (Asia Pacific UTI) (Previously known as : Asia Pacific University College of Technology and Innovation (Asia Pacific UCTI)),Wilayah Persekutuan Kuala Lumpur,14,3.055548956,101.70048
 8,Asia School of Business (ASB),Wilayah Persekutuan Kuala Lumpur,14,3.155773412,101.6924621
 9,Binary University of Management and Entrepreneurship (Previously known as : Binary University College of Management and Entrepreneurship (BUCME)),Selangor,10,3.043625558,101.6194626
 10,City University (Previously known as : City University College of Science & Technology (CUCST)),Selangor,10,3.10254286,101.6375372
-11,"Curtin University, Malaysia (Previously known as : Curtin University, Sarawak Malaysia)",Sarawak,13,,
+11,Curtin University, Malaysia (Previously known as : Curtin University, Sarawak Malaysia),Sarawak,13,,
 12,DRB-HICOM University of Automotive Malaysia (Previously known as : International College of Automotive),Pahang,6,,
 13,GlobalNxt University,Wilayah Persekutuan Kuala Lumpur,14,3.13107328,101.6845174
 14,HELP University (Previously known as : HELP University College),Wilayah Persekutuan Kuala Lumpur,14,3.152205113,101.6712307
@@ -27,8 +27,8 @@
 26,Manipal International University,Negeri Sembilan,5,,
 27,Meritus University,Wilayah Persekutuan Kuala Lumpur,14,3.119359408,101.6769954
 28,Monash University Malaysia (Previously known as : Monash University Sunway Campus Malaysia),Selangor,10,3.065146927,101.6009849
-29,"Multimedia University (MMU), Cyberjaya Campus",Selangor,10,2.927967303,101.6419116
-30,"Multimedia University (MMU), Melaka Campus",Malacca,2,,
+29,Multimedia University (MMU), Cyberjaya Campus,Selangor,10,2.927967303,101.6419116
+30,Multimedia University (MMU), Melaka Campus,Malacca,2,,
 31,Newcastle University Medicine Malaysia,Johor,1,,
 32,Nilai University (Previously known as : Nilai University College),Negeri Sembilan,5,,
 33,Open University Malaysia (OUM),Wilayah Persekutuan Kuala Lumpur,14,3.100144087,101.5923195
@@ -43,7 +43,7 @@
 42,Taylor's University (Previously known as : Taylor's University College (Subang Jaya)),Selangor,10,3.064039554,101.6160581
 43,UCSI University (Previously known as : Sedaya International College),Wilayah Persekutuan Kuala Lumpur,14,3.080133511,101.7335605
 44,UCSI University (Terengganu Campus),Terengganu,11,,
-45,"UCSI University, Sarawak Campus (Previously known as : Kolej Antarabangsa Sedaya Sarawak)",Sarawak,13,,
+45,UCSI University, Sarawak Campus (Previously known as : Kolej Antarabangsa Sedaya Sarawak),Sarawak,13,,
 46,UNITAR International University (Previously known as : University of Management and Technology (UMTECH)),Selangor,10,3.100167421,101.6002222
 47,Universiti Islam Antarabangsa Sultan Abdul Halim Mu'adzam Shah (UniSHAMS) (Previously known as : INSANIAH University College (KUIN)),Kedah,8,,
 48,Universiti Islam Malaysia,Selangor,10,3.119254595,101.6417498
@@ -60,20 +60,20 @@
 59,Universiti Kuala Lumpur Kampus Cawangan Malaysian Institute of Chemical and Bioengineering Technology (UniKL MICET),Malacca,2,,
 60,Universiti Kuala Lumpur Kampus Cawangan Malaysian Institute of Industrial Technology (UniKL - MITEC),Johor,1,,
 61,Universiti Kuala Lumpur Kampus Cawangan Royal College of Medicine Perak (UniKL-RCMP) (Previously known as : Universiti Kuala Lumpur - Royal College of Medicine Perak (UniKL RCMP)),Perak,8,,
-62,"Universiti Multimedia (MMU), Kampus Johor",Johor,1,,
-63,"Universiti Selangor (UNISEL), Kampus Bestari Jaya (Previously known as : Universiti Selangor (UNISEL), Kampus Berjuntai Bestari)",Selangor,10,3.415907464,101.4378939
-64,"Universiti Selangor (UNISEL), Shah Alam Campus (Previously known as : Universiti Industri Selangor (UNISEL))",Selangor,10,3.078071852,101.4951202
+62,Universiti Multimedia (MMU), Kampus Johor,Johor,1,,
+63,Universiti Selangor (UNISEL), Kampus Bestari Jaya (Previously known as : Universiti Selangor (UNISEL), Kampus Berjuntai Bestari),Selangor,10,3.415907464,101.4378939
+64,Universiti Selangor (UNISEL), Shah Alam Campus (Previously known as : Universiti Industri Selangor (UNISEL)),Selangor,10,3.078071852,101.4951202
 65,Universiti Sultan Azlan Shah (USAS) (Previously known as : Sultan Azlan Shah Islamic University College),Perak,8,,
 66,Universiti Teknologi PETRONAS (UTP),Perak,8,,
-67,"Universiti Tenaga Nasional (UNITEN, Kampus Sultan Haji Ahmad Shah)",Pahang,6,,
-68,"Universiti Tenaga Nasional Kampus Putrajaya (UNITEN, Kampus Putrajaya)",Selangor,10,2.977066014,101.733645
+67,Universiti Tenaga Nasional (UNITEN, Kampus Sultan Haji Ahmad Shah),Pahang,6,,
+68,Universiti Tenaga Nasional Kampus Putrajaya (UNITEN, Kampus Putrajaya),Selangor,10,2.977066014,101.733645
 69,Universiti Tun Abdul Razak (UNIRAZAK),Wilayah Persekutuan Kuala Lumpur,14,3.1624246,101.7193593
 70,Universiti Tun Abdul Razak (UNIRAZAK) (Previously known as : Universiti Tun Abdul Razak (PINTAR Campus)),Selangor,10,3.105145846,101.5984029
 71,Universiti Tun Abdul Razak (UNIRAZAK) PINTAR Campus (Previously known as : Universiti Tun Abdul Razak (UNITAR)),Selangor,10,3.081915544,101.612398
 72,Universiti Tunku Abdul Rahman (UTAR) Sungai Long Campus,Selangor,10,3.040475633,101.7945405
-73,"Universiti Tunku Abdul Rahman (UTAR), Kuala Lumpur Campus",Wilayah Persekutuan Kuala Lumpur,14,3.040475633,101.7945405
-74,"Universiti Tunku Abdul Rahman (UTAR), Perak Campus",Perak,8,,
-75,"Universiti Tunku Abdul Rahman (UTAR), Petaling Jaya Campus",Selangor,10,3.040475633,101.7945405
+73,Universiti Tunku Abdul Rahman (UTAR), Kuala Lumpur Campus,Wilayah Persekutuan Kuala Lumpur,14,3.040475633,101.7945405
+74,Universiti Tunku Abdul Rahman (UTAR), Perak Campus,Perak,8,,
+75,Universiti Tunku Abdul Rahman (UTAR), Petaling Jaya Campus,Selangor,10,3.040475633,101.7945405
 76,University Malaysia of Computer Science and Engineering (UNIMY),Selangor,10,2.912030013,101.6529093
 77,University of Cyberjaya (UoC) (Previously known as : Cyberjaya University College of Medical Sciences),Selangor,10,2.930606376,101.6380469
 78,University of Nottingham Malaysia (UNM) (Previously known as : The University of Nottingham Malaysia Campus (UNMC)),Selangor,10,2.945309074,101.8747123
@@ -111,10 +111,10 @@
 110,Tunku Abdul Rahman University College Johor Branch Campus (Previously known as : Tunku Abdul Rahman College Johor Branch Campus),Johor,1,,
 111,Tunku Abdul Rahman University College Penang Branch Campus (Previously known as : Tunku Abdul Rahman College Penang Branch Campus),Penang,7,,
 112,Tunku Abdul Rahman University College Perak Branch Campus (Previously known as : Tunku Abdul Rahman College Perak Branch Campus),Perak,8,,
-113,"Tunku Abdul Rahman University College, Kuala Lumpur (Main Campus) (Previously known as : Tunku Abdul Rahman College (TARC))",Wilayah Persekutuan Kuala Lumpur,14,3.216481884,101.7289611
-114,"Tunku Abdul Rahman University College, Pahang Campus (Previously known as : Tunku Abdul Rahman College Pahang Branch Campus)",Pahang,6,,
-115,"Tunku Abdul Rahman University College, Sabah Campus (Previously known as : Tunku Abdul Rahman College Sabah Branch Campus)",Sabah,12,,
-116,"Twintech International University College of Technology, Sri Damansara Campus (Previously known as : L & G Twintech Institute Of Technology)",Wilayah Persekutuan Kuala Lumpur,14,3.20120104,101.6135211
+113,Tunku Abdul Rahman University College, Kuala Lumpur (Main Campus) (Previously known as : Tunku Abdul Rahman College (TARC)),Wilayah Persekutuan Kuala Lumpur,14,3.216481884,101.7289611
+114,Tunku Abdul Rahman University College, Pahang Campus (Previously known as : Tunku Abdul Rahman College Pahang Branch Campus),Pahang,6,,
+115,Tunku Abdul Rahman University College, Sabah Campus (Previously known as : Tunku Abdul Rahman College Sabah Branch Campus),Sabah,12,,
+116,Twintech International University College of Technology, Sri Damansara Campus (Previously known as : L & G Twintech Institute Of Technology),Wilayah Persekutuan Kuala Lumpur,14,3.20120104,101.6135211
 117,University College Bestari (Previously known as : Kolej Teknologi Bestari),Terengganu,11,,
 118,University College Fairview,Selangor,10,3.195854514,101.7521961
 119,University College of Agroscience Malaysia (Previously known as : Kolej RISDA Melaka),Malacca,2,,
@@ -140,8 +140,8 @@
 139,ASA College,Selangor,10,3.318718471,101.5758705
 140,Aseana International College of Health Sciences,Sabah,12,,
 141,Asia College of Exercise and Sport Medicine (ACESM),Selangor,10,3.094080148,101.4451307
-142,"Asia Metropolitan College Kota Kinabalu (Previously known as : Masterskill Global College, Kota Kinabalu)",Sabah,12,,
-143,"Asia Metropolitan College Kuching (Previously known as : Masterskill Global College, Kuching )",Sarawak,13,,
+142,Asia Metropolitan College Kota Kinabalu (Previously known as : Masterskill Global College, Kota Kinabalu),Sabah,12,,
+143,Asia Metropolitan College Kuching (Previously known as : Masterskill Global College, Kuching ),Sarawak,13,,
 144,Asia Pacific Institute of Information Technology (APIIT),Wilayah Persekutuan Kuala Lumpur,14,3.055623951,101.7005551
 145,Asia Pasific Flight Training Academy,Kelantan,3,,
 146,Astin College (Previously known as : Kolej Pengurusan Astin),Selangor,10,3.16262764,101.699969
@@ -210,7 +210,7 @@
 209,Hafiz College,Selangor,10,3.052183108,101.4471081
 210,HELP Academy,Wilayah Persekutuan Kuala Lumpur,14,3.1514704,101.664832
 211,Hospital Fatimah School of Nursing,Perak,8,,
-212,"IACT College (International Advertising, Communication & Technology) (Previously known as : IACT College)",Selangor,10,3.107427677,101.6396981
+212,IACT College (International Advertising, Communication & Technology) (Previously known as : IACT College),Selangor,10,3.107427677,101.6396981
 213,IBS College,Sarawak,13,,
 214,ICAN College (Previously known as : Kolej Integrasi Kejururawatan dan Kesihatan Bersekutu),Wilayah Persekutuan Kuala Lumpur,14,3.129685429,101.7540297
 215,iCOOP College,Selangor,10,2.93859479,101.6541244
@@ -265,7 +265,7 @@
 264,International Institute of Science Mantin (Previously known as : Institute of Medical Sciences Mantin (IMM)),Negeri Sembilan,5,,
 265,International Islamic College,Wilayah Persekutuan Kuala Lumpur,14,3.224227935,101.6885858
 266,International Medical College Melaka (Previously known as : Melaka Pantai College of Nursing and Health Science),Malacca,2,,
-267,"International Medical College Subang Jaya, Malaysia (Previously known as : Kolej Kejururawatan dan Sains Kesihatan Pantai)",Selangor,10,3.060944695,101.593537
+267,International Medical College Subang Jaya, Malaysia (Previously known as : Kolej Kejururawatan dan Sains Kesihatan Pantai),Selangor,10,3.060944695,101.593537
 268,International Open College,Wilayah Persekutuan Kuala Lumpur,14,3.161856773,101.6907508
 269,INTI College Nilai (Previously known as : INTI College Sarawak),Negeri Sembilan,5,,
 270,INTI College Sabah,Sabah,12,,
@@ -334,7 +334,7 @@
 333,Kolej Poly-Tech MARA Cawangan Semporna Sabah,Sabah,12,,
 334,Kolej Poly-Tech MARA Ipoh,Perak,8,,
 335,Kolej Poly-Tech MARA Kota Bharu (Additional Premises),Kelantan,3,,
-336,"Kolej Poly-Tech MARA Kota Bharu, Kelantan",Kelantan,3,,
+336,Kolej Poly-Tech MARA Kota Bharu, Kelantan,Kelantan,3,,
 337,Kolej Queens,Wilayah Persekutuan Kuala Lumpur,14,3.16210496,101.6989036
 338,Kolej Raudhah Bukit Merah (Previously known as : Kolej Perkembangan Awal Kanak-Kanak Bukit Merah),Perak,8,,
 339,Kolej REACH,Wilayah Persekutuan Kuala Lumpur,14,3.195659892,101.6333121
@@ -381,8 +381,8 @@
 380,Malvern International Academy (Previously known as : Malvern International College),Wilayah Persekutuan Kuala Lumpur,14,3.146805576,101.6977767
 381,Mantissa College (Previously known as : Mantissa Institute),Wilayah Persekutuan Kuala Lumpur,14,3.141590665,101.628697
 382,MASA College,Selangor,10,3.001520826,101.5954244
-383,"Masterskill Global College, Ipoh (Previously known as : Masterskill College of Nursing and Health, Ipoh Campus)",Perak,8,,
-384,"Masterskill Global College, Kota Bharu (Previously known as : Masterskill College (Kota Bharu Metro Campus))",Kelantan,3,,
+383,Masterskill Global College, Ipoh (Previously known as : Masterskill College of Nursing and Health, Ipoh Campus),Perak,8,,
+384,Masterskill Global College, Kota Bharu (Previously known as : Masterskill College (Kota Bharu Metro Campus)),Kelantan,3,,
 385,Maxcel Institute Of Management,Sarawak,13,,
 386,Megatech International College (Previously known as : Megatech Institute),Selangor,10,3.075209819,101.6599153
 387,Melaka International College of Science and Technology (MiCoST),Malacca,2,,
@@ -424,7 +424,7 @@
 423,Olympia College Kuala Lumpur,Wilayah Persekutuan Kuala Lumpur,14,3.089627023,101.6338994
 424,Olympia College Petaling Jaya,Selangor,10,3.088639332,101.6394247
 425,Olympia College Pulau Pinang,Penang,7,,
-426,"Olympia College, Kuantan",Pahang,6,,
+426,Olympia College, Kuantan,Pahang,6,,
 427,One World Hanxing College of Journalism and Communication (Previously known as : Hanxing Academy Of Journalism & Communication),Wilayah Persekutuan Kuala Lumpur,14,3.099452855,101.7174251
 428,Optima International College (Previously known as : Optima College),Selangor,10,3.075641312,101.5889868
 429,Oriental Nilam College of Nursing and Health Sciences (Previously known as : Oriental Nilam College of Nursing and Allied Health Sciences),Malacca,2,,
@@ -493,7 +493,7 @@
 492,Taylor's College (Previously known as : Taylor's College Sri Hartamas),Selangor,10,3.164072097,101.6580924
 493,Taylor's College (Petaling Jaya),Selangor,10,3.064733553,101.6177843
 494,Taylor's College Subang Jaya,Selangor,10,3.064733553,101.6177843
-495,"Taylor's College, School Of Hospitality And Tourism",Selangor,10,3.064733553,101.6177843
+495,Taylor's College, School Of Hospitality And Tourism,Selangor,10,3.064733553,101.6177843
 496,Tech Terrain College,Selangor,10,3.047944289,101.5995388
 497,Technology College Sarawak (Previously known as : Twintech College Sarawak Branch),Sarawak,13,,
 498,Technology Park Malaysia College (TPM College),Wilayah Persekutuan Kuala Lumpur,14,3.046199574,101.6932185
