@@ -648,13 +648,14 @@ async function searchStateCases(state, lat, lon, dateFrom, dateTo) {
     let filename = state.toLowerCase().split(" ").join("");
 
     //selangor state survey is now merged with klangvalley
-    if (filename == "" || filename == "federalterritoryofkualalumpur" || filename == "putrajaya" || filename == "selangor") {
+    if (filename == "" || filename == "federalterritoryofkualalumpur" || filename == "putrajaya" || filename == "selangor" || filename == 'riau') {
         filename = "klangvalley"; foldername = "selangor";
     }
     //english to malay name
     if (filename == 'malacca') { filename = 'melaka'; foldername = filename; };
 
     //others to be added
+    //if (filename == 'riau') { }
 
     for (var i = dateFrom; i <= dateTo; i++) {
         placesOutside.splice(0, placesOutside.length);       //clear the entire array list before loading new ones
@@ -946,7 +947,7 @@ async function resolveSimulation() {
                 //let ans = testWater(lat, lon); //in water?
                 //document.getElementById('Update').innerHTML += "<br/>(" + lat + ","+ lon + ") is in water? " + ans;
             }
-            await sleep(600);
+            await sleep(200);
         }
         else {
             //don't delay tooo much!
