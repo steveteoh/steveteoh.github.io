@@ -648,7 +648,7 @@ async function searchStateCases(state, lat, lon, dateFrom, dateTo) {
     let filename = state.toLowerCase().split(" ").join("");
 
     //selangor state survey is now merged with klangvalley
-    if (filename == "" || filename == "federalterritoryofkualalumpur" || filename == "putrajaya" || filename == "selangor" || filename == 'riau' || filename == 'northsumatra') {
+    if (filename == "" || filename == "federalterritoryofkualalumpur" || filename == "putrajaya" || filename == "selangor" || filename == 'riau' || filename == 'northsumatra' || filename == 'bangkabelitungislands') {
         filename = "klangvalley"; foldername = "selangor";
     }
     //english to malay name
@@ -902,10 +902,17 @@ async function resolveSimulation() {
     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR 
     //[who, a.toISOString().split('T')[0], state, lat, lng, cases, r0s, r0s, t_cases, 0, 0, 0, 0, 0]
 
+    let count = 0;
+    for (var z = 0; z < simulation.length; z++) {
+        if (simulation[z][2] == "unknown")
+            count += 1;
+    }
+
     document.getElementById('Update').innerHTML += "<br/>-------------------------------------------------------<br/>";
     document.getElementById('Update').innerHTML += "Resolving unidentified points ....</br>";
-    document.getElementById('Update').innerHTML += "Total = " + simulation.length + " coordinates to cross check </br>";
-    let count = 0;
+    document.getElementById('Update').innerHTML += "Total " + count + " out of " + simulation.length + " coordinates to cross check </br>";
+
+    count = 0;
 
     for (var z = 0; z < simulation.length; z++) {
         let lats = simulation[z][3];
