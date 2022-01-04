@@ -421,7 +421,8 @@ async function getStateName(lats, lons) {
                 resolve(nation);
             })
             .catch((e) => {
-                console.log("Error processing " + latlng.lat + "," + latlng.lon + "Geocoder failed due to: " + e);
+                console.log("Error processing " + latlng.lat + "," + latlng.lon + ". Geocoder failed due to: " + e);
+                document.getElementById('Update').innerHTML += "Error processing " + lats + "," + lons + ". Geocoder failed due to: " + e + ".<br />Please press [3.Resolve unknown location] again to continue";
             });
     });
     await myPromise.then((resolve) => {
@@ -1603,23 +1604,23 @@ async function LoadRNaughts(sourceFile) {
         xhr.send();
     });
     await myPromise.then(() => {
-        document.getElementById('Update').innerHTML += "(Async) R Naught MY data loaded => " + rNaughtMY.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught SL data loaded => " + rNaughtSL.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught KL data loaded => " + rNaughtKL.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PJ data loaded => " + rNaughtPJ.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught SA data loaded => " + rNaughtSA.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PG data loaded => " + rNaughtPG.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught JH data loaded => " + rNaughtJH.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught KN data loaded => " + rNaughtKN.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught ML data loaded => " + rNaughtML.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught LA data loaded => " + rNaughtLA.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught NS data loaded => " + rNaughtNS.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught KH data loaded => " + rNaughtKH.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PH data loaded => " + rNaughtPH.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PK data loaded => " + rNaughtPK.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught TE data loaded => " + rNaughtTE.length + " records.<br/>";
-        document.getElementById('Update').innerHTML += "(Async) R Naught SK data loaded => " + rNaughtSK.length + " records. ";
-        document.getElementById('Update').innerHTML += "(Async) R Naught PL data loaded => " + rNaughtPL.length + " records.<br/>";
+        document.getElementById('Update').innerHTML += "(Async) R Naught MY data loaded => " + rNaughtMY.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught SL data loaded => " + rNaughtSL.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught KL data loaded => " + rNaughtKL.length + " monthly records.<br/>";
+        document.getElementById('Update').innerHTML += "(Async) R Naught PJ data loaded => " + rNaughtPJ.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught SA data loaded => " + rNaughtSA.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught PG data loaded => " + rNaughtPG.length + " monthly records.<br/>";
+        document.getElementById('Update').innerHTML += "(Async) R Naught JH data loaded => " + rNaughtJH.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught KN data loaded => " + rNaughtKN.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught ML data loaded => " + rNaughtML.length + " monthly records.<br/>";
+        document.getElementById('Update').innerHTML += "(Async) R Naught LA data loaded => " + rNaughtLA.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught NS data loaded => " + rNaughtNS.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught KH data loaded => " + rNaughtKH.length + " monthly records.<br/>";
+        document.getElementById('Update').innerHTML += "(Async) R Naught PH data loaded => " + rNaughtPH.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught PK data loaded => " + rNaughtPK.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught TE data loaded => " + rNaughtTE.length + " monthly records.<br/>";
+        document.getElementById('Update').innerHTML += "(Async) R Naught SK data loaded => " + rNaughtSK.length + " monthly records. ";
+        document.getElementById('Update').innerHTML += "(Async) R Naught PL data loaded => " + rNaughtPL.length + " monthly records.<br/>";
         //report the upload status to the html page
     });
 }
