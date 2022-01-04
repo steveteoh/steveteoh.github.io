@@ -910,7 +910,7 @@ async function resolveSimulation() {
 
     document.getElementById('Update').innerHTML += "<br/>-------------------------------------------------------<br/>";
     document.getElementById('Update').innerHTML += "Resolving unidentified points ....</br>";
-    document.getElementById('Update').innerHTML += "Total " + count + " out of " + simulation.length + " coordinates to cross check </br>";
+    document.getElementById('Update').innerHTML += "Remaining " + count + " out of " + simulation.length + " total coordinates to cross check </br>";
 
     count = 0;
 
@@ -1068,7 +1068,7 @@ async function startSimulation() {
                     //push school
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                    who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                    who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + primary[selection][1] + " age " + personnel[y][0];
                     cases = placesAll[gridId1][daysDifference(startdate, a) + 4];
                     t_cases = placesAll[gridId1][35];
                     r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
@@ -1104,7 +1104,7 @@ async function startSimulation() {
                             //push coordinate
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + primary[selection][1] + " age " + personnel[y][0];
                             let cases = placesAll[gridId][daysDifference(startdate, a) + 4];
                             let t_cases = placesAll[gridId][35];
                             let r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
@@ -1116,7 +1116,7 @@ async function startSimulation() {
                         else {
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + primary[selection][1] +  " age " + personnel[y][0];
                             let cases = "please cross-check";
                             let t_cases = "please cross-check";
                             let r0s = "r0";
@@ -1179,7 +1179,7 @@ async function startSimulation() {
                     //push home
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                    let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                    let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + secondary[selection][1] + " age " + personnel[y][0];
                     let cases = placesAll[gridId2][daysDifference(startdate, a) + 4];
                     let t_cases = placesAll[gridId2][35];
                     let r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
@@ -1199,7 +1199,7 @@ async function startSimulation() {
                     //push school
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                    who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                    who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + secondary[selection][1] + " age " + personnel[y][0];
                     cases = placesAll[gridId1][daysDifference(startdate, a) + 4];
                     t_cases = placesAll[gridId1][35];
                     r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
@@ -1233,7 +1233,7 @@ async function startSimulation() {
                             //push coordinate
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + secondary[selection][1] +  " age " + personnel[y][0];
                             let cases = placesAll[gridId][daysDifference(startdate, a) + 4];
                             let t_cases = placesAll[gridId][35];
                             let r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
@@ -1245,7 +1245,7 @@ async function startSimulation() {
                         else {
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + secondary[selection][1] +  " age " + personnel[y][0];
                             let cases = "please cross-check";
                             let t_cases = "please cross-check";
                             let r0s = "r0";
@@ -1307,7 +1307,7 @@ async function startSimulation() {
                     //push home
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                    let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                    let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + unicollege[selection][1] + " age " + personnel[y][0];
                     let cases = placesAll[gridId2][daysDifference(startdate, a) + 4];
                     let t_cases = placesAll[gridId2][35];
                     let r0s = stateR0(subtringBetween(placesAll[gridId2][2], "Daerah: ", "<br>No:"), a);
@@ -1326,7 +1326,7 @@ async function startSimulation() {
                     //push uni 
                     //---------------------------------------------------------------------------------------------------------
                     //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                    who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                    who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + unicollege[selection][1] + " age " + personnel[y][0];
                     cases = placesAll[gridId1][daysDifference(startdate, a) + 4];
                     t_cases = placesAll[gridId1][35];
                     r0s = stateR0(subtringBetween(placesAll[gridId1][2], "Daerah: ", "<br>No:"), a);
@@ -1360,7 +1360,7 @@ async function startSimulation() {
                             //push coordinate
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + unicollege[selection][1] +  " age " + personnel[y][0];
                             let cases = placesAll[gridId][daysDifference(startdate, a) + 4];
                             let t_cases = placesAll[gridId][35];
                             let r0s = stateR0(subtringBetween(placesAll[gridId][2], "Daerah: ", "<br>No:"), a);
@@ -1372,7 +1372,7 @@ async function startSimulation() {
                         else {
                             //---------------------------------------------------------------------------------------------------------
                             //who,date,state,lat,lon,cases,r0,t_R0,t_cases,t_vac_type,t_vac,t_SOPcomp, DR, TDR
-                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " age " + personnel[y][0];
+                            let who = "No " + (y + 1) + " " + lifestyleParam[personnel[y][1]]['category'] + " @ " + unicollege[selection][1] +  " age " + personnel[y][0];
                             let cases = "please cross-check";
                             let t_cases = "please cross-check";
                             let r0s = "r0";
