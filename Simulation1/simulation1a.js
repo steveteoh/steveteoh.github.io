@@ -955,11 +955,11 @@ async function resolveSimulation() {
                 //let ans = testWater(lat, lon); //in water?
                 //document.getElementById('Update').innerHTML += "<br/>(" + lat + ","+ lon + ") is in water? " + ans;
             }
-            await sleep(200);
+            await sleep(1000);
         }
         else {
             //don't delay tooo much!
-            await sleep(200);
+            await sleep(500);
         }
 
 
