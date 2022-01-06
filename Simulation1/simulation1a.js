@@ -422,7 +422,7 @@ async function getStateName(lats, lons) {
             })
             .catch((e) => {
                 console.log("Error processing " + latlng.lat + "," + latlng.lon + ". Geocoder failed due to: " + e);
-                document.getElementById('Update').innerHTML += "Error processing " + lats + "," + lons + ". Geocoder failed due to: " + e + ".<br />Please press [3.Resolve unknown location] again to continue";
+                document.getElementById('Update').innerHTML += "Error processing " + lats + "," + lons + ". Geocoder failed due to: " + e + ".<br />Please press [ 3. Resolve unknown location ] button again to continue";
             });
     });
     await myPromise.then((resolve) => {
@@ -1487,7 +1487,7 @@ async function startSimulation() {
 
         }
     }
-    document.getElementById('Update').innerHTML += "<br/><br/> Simulation Ends";
+    document.getElementById('Update').innerHTML += "<br/><br/> Simulation Completed. Please proceed to next stage.";
     document.getElementById("Samples").disabled = true;   //samples created
     document.getElementById("Simulate").disabled = true;   //Simulation done
     document.getElementById("Resolve").disabled = false;   //only enable once simulation is finished
