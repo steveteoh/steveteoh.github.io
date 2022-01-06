@@ -1,0 +1,1 @@
+type island-*%1.csv seberangperai-*%1.csv > penang_monthly_summary-%1.csv
