@@ -1,0 +1,137 @@
+lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp,reserved
+5.47512,100.2445834,Daerah: Timur Laut<br>No:x<br>Hex coord:(5;0),Ferringhi beach,37 ,0,0,0,0,0,1,2022-03-07T08:00:05.3412344Z,0
+5.4829,100.2581179,Daerah: Timur Laut<br>No:x<br>Hex coord:(6;0),Moonlight Bay,4 ,0,0,0,0,0,1,2022-03-07T08:00:06.0122822Z,0
+5.45956,100.1904456,Daerah: Barat Daya<br>No:1<br>Hex coord:(1;1),Penang National Park,0,0,0,0,0,0,1,2022-03-07T08:00:06.7398923Z,0
+5.46734,100.20398,Daerah: Barat Daya<br>No:x<br>Hex coord:(2;1),Jalan Hassan Abas,3 ,0,0,0,0,0,1,2022-03-07T08:00:07.5489387Z,0
+5.45956,100.2175145,Daerah: Barat Daya<br>No:2<br>Hex coord:(3;1),Teluk Bahang Beach,111 ,0,0,0,0,0,1,2022-03-07T08:00:08.2579781Z,0
+5.46734,100.2310489,Daerah: Barat Daya<br>No:x<br>Hex coord:(4;1),Jalan Teluk Bahang,6 ,0,0,0,0,0,1,2022-03-07T08:00:08.9311691Z,0
+5.444,100.1904456,Daerah: Barat Daya<br>No:3<br>Hex coord:(1;2),Penang National Park,0,0,0,0,0,0,1,2022-03-07T08:00:09.6043691Z,0
+5.45178,100.20398,Daerah: Barat Daya<br>No:4 Hex coord:(2;2),Kampung Tengah,27 ,0,0,0,0,0,1,2022-03-07T08:00:10.2993343Z,0
+5.444,100.2175145,Daerah: Barat Daya<br>No:5<br>Hex coord:(3;2),Teluk Bahang Dam,43 ,0,0,0,0,0,1,2022-03-07T08:00:10.9761709Z,0
+5.45178,100.2310489,Daerah: Barat Daya<br>No:6 Hex coord:(4;2),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:11.6532599Z,0
+5.42844,100.1904456,Daerah: Barat Daya<br>No:7<br>Hex coord:(1;3),Pantai Mas,0,0,0,0,0,0,1,2022-03-07T08:00:12.4034322Z,0
+5.43622,100.20398,Daerah: Barat Daya<br>No:8 Hex coord:(2;3),National Park Penang,0,0,0,0,0,0,1,2022-03-07T08:00:13.0760467Z,0
+5.42844,100.2175145,Daerah: Barat Daya<br>No:9<br>Hex coord:(3;3),8321 Durian Plantation,0,0,0,0,0,0,1,2022-03-07T08:00:13.7417593Z,0
+5.43622,100.2310489,Daerah: Barat Daya<br>No:10 Hex coord:(4;3),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:14.4312495Z,0
+5.41288,100.1904456,Daerah: Barat Daya<br>No:x Hex coord:(1;4),Pantai Acheh,1 ,0,0,0,0,0,1,2022-03-07T08:00:15.1534892Z,0
+5.42066,100.20398,Daerah: Barat Daya<br>No:11 Hex coord:(2;4),Unnamed,1 ,0,0,0,0,0,1,2022-03-07T08:00:15.8114054Z,0
+5.41288,100.2175145,Daerah: Barat Daya<br>No:12<br>Hex coord:(3;4),Titi Kerawang,2 ,0,0,0,0,0,1,2022-03-07T08:00:16.4812882Z,0
+5.42066,100.2310489,Daerah: Barat Daya<br>No:13 Hex coord:(4;4),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:17.1897513Z,0
+5.39732,100.1904456,Daerah: Barat Daya<br>No:14<br>Hex coord:(1;5),Kuala Sungai Pinang,12 ,0,0,0,0,0,1,2022-03-07T08:00:17.8528004Z,0
+5.4051,100.20398,Daerah: Barat Daya<br>No:15 Hex coord:(2;5),Kampung Batu Putih,2 ,0,0,0,0,0,1,2022-03-07T08:00:18.5270360Z,0
+5.39732,100.2175145,Daerah: Barat Daya<br>No:16<br>Hex coord:(3;5),Kampung Sungai Pinang,22 ,0,0,0,0,0,1,2022-03-07T08:00:19.1897956Z,0
+5.4051,100.2310489,Daerah: Barat Daya<br>No:17 Hex coord:(4;5),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:19.8517075Z,0
+5.38176,100.1904456,Daerah: Barat Daya<br>No:18<br>Hex coord:(1;6),Taman Nelayan,15 ,0,0,0,0,0,1,2022-03-07T08:00:20.5359385Z,0
+5.38954,100.20398,Daerah: Barat Daya<br>No:19 Hex coord:(2;6),Kuala Sungai Pinang,6 ,0,0,0,0,0,1,2022-03-07T08:00:21.1901985Z,0
+5.38176,100.2175145,Daerah: Barat Daya<br>No:20<br>Hex coord:(3;6),Kampung Sungai Rusa,7 ,0,0,0,0,0,1,2022-03-07T08:00:21.8650562Z,0
+5.38954,100.2310489,Daerah: Barat Daya<br>No:21 Hex coord:(4;6),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:22.5421598Z,0
+5.38176,100.2445834,Daerah: Barat Daya<br>No:22<br>Hex coord:(5;6),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:23.2000418Z,0
+5.3662,100.1904456,Daerah: Barat Daya<br>No:23<br>Hex coord:(1;7),Unnamed road. Balik Pulau,0,0,0,0,0,0,1,2022-03-07T08:00:23.8735646Z,0
+5.37398,100.20398,Daerah: Barat Daya<br>No:24 Hex coord:(2;7),Kampung Permatang Pasir,7 ,0,0,0,0,0,1,2022-03-07T08:00:24.5494139Z,0
+5.3662,100.2175145,Daerah: Barat Daya<br>No:25<br>Hex coord:(3;7),Bagan Ayer Itam,86 ,0,0,0,0,0,1,2022-03-07T08:00:25.2500667Z,0
+5.37398,100.2310489,Daerah: Barat Daya<br>No:26 Hex coord:(4;7),n/a,5 ,0,0,0,0,0,1,2022-03-07T08:00:25.9049393Z,0
+5.3662,100.2445834,Daerah: Barat Daya<br>No:27<br>Hex coord:(5;7),n/a,1 ,0,0,0,0,0,1,2022-03-07T08:00:26.5661850Z,0
+5.37398,100.2581179,Daerah: Barat Daya<br>No:28 Hex coord:(6;7),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:27.2888533Z,0
+5.35064,100.1904456,Daerah: Barat Daya<br>No:29<br>Hex coord:(1;8),Kuala Jalan Baru,1 ,0,0,0,0,0,1,2022-03-07T08:00:27.9576578Z,0
+5.35842,100.20398,Daerah: Barat Daya<br>No:30 Hex coord:(2;8),Kampung Bagan Air Hitam,32 ,0,0,0,0,0,1,2022-03-07T08:00:28.6149276Z,0
+5.35064,100.2175145,Daerah: Barat Daya<br>No:31<br>Hex coord:(3;8),Kampung Paya Kongsi,49 ,0,0,0,0,0,1,2022-03-07T08:00:29.3296701Z,0
+5.35842,100.2310489,Daerah: Barat Daya<br>No:32 Hex coord:(4;8),Taman Titi Heights,72 ,0,0,0,0,0,1,2022-03-07T08:00:29.9945534Z,0
+5.35064,100.2445834,Daerah: Barat Daya<br>No:33<br>Hex coord:(5;8),Balik Pulau,33 ,0,0,0,0,0,1,2022-03-07T08:00:30.6822409Z,0
+5.35842,100.2581179,Daerah: Barat Daya<br>No:34 Hex coord:(6;8),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:31.3447598Z,0
+5.33508,100.1904456,Daerah: Barat Daya<br>No:x Hex coord:(1;9),Pantai Malindo,0,0,0,0,0,0,1,2022-03-07T08:00:32.0215951Z,0
+5.34286,100.20398,Daerah: Barat Daya<br>No:35 Hex coord:(2;9),Jalan Kuala Sungai Burung,11 ,0,0,0,0,0,1,2022-03-07T08:00:32.7400020Z,0
+5.33508,100.2175145,Daerah: Barat Daya<br>No:36<br>Hex coord:(3;9),Kampung Paya,124 ,0,0,0,0,0,1,2022-03-07T08:00:33.5192618Z,0
+5.34286,100.2310489,Daerah: Barat Daya<br>No:37 Hex coord:(4;9),Taman Sri Indah,52 ,0,0,0,0,0,1,2022-03-07T08:00:34.1922311Z,0
+5.33508,100.2445834,Daerah: Barat Daya<br>No:38<br>Hex coord:(5;9),Carpet Hill,0,0,0,0,0,0,1,2022-03-07T08:00:35.0029627Z,0
+5.34286,100.2581179,Daerah: Barat Daya<br>No:39 Hex coord:(6;9),Jalan Tun Sardon,5 ,0,0,0,0,0,1,2022-03-07T08:00:35.6723849Z,0
+5.33508,100.2716524,Daerah: Barat Daya<br>No:40<br>Hex coord:(7;9),Sg Ara,459 ,0,0,0,0,0,1,2022-03-07T08:00:36.3626175Z,0
+5.33508,100.2986324,Daerah: Barat Daya<br>No:41<br>Hex coord:(9;9),Taman Sri Nibong,312 ,0,0,0,0,0,1,2022-03-07T08:00:37.0535826Z,0
+5.31952,100.1904456,Daerah: Barat Daya<br>No:x Hex coord:(1;10),Betong Island,4 ,0,0,0,0,0,1,2022-03-07T08:00:37.7160965Z,0
+5.3273,100.20398,Daerah: Barat Daya<br>No:42 Hex coord:(2;10),Jalan Bharu,33 ,0,0,0,0,0,1,2022-03-07T08:00:38.3795780Z,0
+5.31952,100.2175145,Daerah: Barat Daya<br>No:43<br>Hex coord:(3;10),Kampung Genting Dalam,19 ,0,0,0,0,0,1,2022-03-07T08:00:39.0386670Z,0
+5.3273,100.2310489,Daerah: Barat Daya<br>No:44 Hex coord:(4;10),Kampung Shee Tan,9 ,0,0,0,0,0,1,2022-03-07T08:00:39.7084767Z,0
+5.31952,100.2445834,Daerah: Barat Daya<br>No:45<br>Hex coord:(5;10),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:40.3882856Z,0
+5.3273,100.2581179,Daerah: Barat Daya<br>No:46 Hex coord:(6;10),Bukit Sg Ara,18 ,0,0,0,0,0,1,2022-03-07T08:00:41.0689634Z,0
+5.31952,100.2716524,Daerah: Barat Daya<br>No:47<br>Hex coord:(7;10),Lebuh Sungai Ara 1,243 ,0,0,0,0,0,1,2022-03-07T08:00:41.7588108Z,0
+5.3273,100.2851868,Daerah: Barat Daya<br>No:48 Hex coord:(8;10),Bayan Baru,238 ,0,0,0,0,0,1,2022-03-07T08:00:42.4853919Z,0
+5.31952,100.2987213,Daerah: Barat Daya<br>No:49<br>Hex coord:(9;10),Keysight,10 ,0,0,0,0,0,1,2022-03-07T08:00:43.1876486Z,0
+5.28062,100.1769111,Daerah: Barat Daya<br>No:x<br>Hex coord:(0;11),Jalan Gertak Sanggul,0,0,0,0,0,0,1,2022-03-07T08:00:43.8498616Z,0
+5.30396,100.1904456,Daerah: Barat Daya<br>No:50<br>Hex coord:(1;11),Kampung Bakar Kapur,16 ,0,0,0,0,0,1,2022-03-07T08:00:44.5201601Z,0
+5.31174,100.20398,Daerah: Barat Daya<br>No:51 Hex coord:(2;11),Kampung Perlis,50 ,0,0,0,0,0,1,2022-03-07T08:00:45.2073059Z,0
+5.30396,100.2175145,Daerah: Barat Daya<br>No:52<br>Hex coord:(3;11),Jalan Kampung Dato Lim Chong Kooi,1 ,0,0,0,0,0,1,2022-03-07T08:00:45.8659943Z,0
+5.31174,100.2310489,Daerah: Barat Daya<br>No:53 Hex coord:(4;11),Jalan Teluk Kumbar,9 ,0,0,0,0,0,1,2022-03-07T08:00:46.5505933Z,0
+5.30396,100.2445834,Daerah: Barat Daya<br>No:54<br>Hex coord:(5;11),n/a,0,0,0,0,0,0,1,2022-03-07T08:00:47.2472354Z,0
+5.31174,100.2581179,Daerah: Barat Daya<br>No:55 Hex coord:(6;11),Kem Sg Ara(2) Rejimen Semboyan,119 ,0,0,0,0,0,1,2022-03-07T08:00:47.9325893Z,0
+5.30396,100.2716524,Daerah: Barat Daya<br>No:56<br>Hex coord:(7;11),Jalan Sungai tiram 1.,170 ,0,0,0,0,0,1,2022-03-07T08:00:49.6225665Z,0
+5.31174,100.2851868,Daerah: Barat Daya<br>No:57 Hex coord:(8;11),Jalan Sultan Azlan Shah. Robert Bosch (M) Sdn Bhd,96 ,0,0,0,0,0,1,2022-03-07T08:00:50.3047127Z,0
+5.30396,100.2987213,Daerah: Barat Daya<br>No:x Hex coord:(9;11),Tun Dr. Lim Chong Eu Highway (Viewing Area),0,0,0,0,0,0,1,2022-03-07T08:00:50.9785803Z,0
+5.2884,100.19049,Daerah: Barat Daya<br>No:58<br>Hex coord:(1;12),Kampung Gertak,5 ,0,0,0,0,0,1,2022-03-07T08:00:51.6472178Z,0
+5.27284,100.19049,Daerah: Barat Daya<br>No:x<br>Hex coord:(1;13),Gertak Sanggul,0,0,0,0,0,0,1,2022-03-07T08:00:52.3156209Z,0
+5.29618,100.20398,Daerah: Barat Daya<br>No:59 Hex coord:(2;12),Kampung Long Tambang,63 ,0,0,0,0,0,1,2022-03-07T08:00:53.0114906Z,0
+5.2884,100.2175145,Daerah: Barat Daya<br>No:60<br>Hex coord:(3;12),Kampung Suluk,62 ,0,0,0,0,0,1,2022-03-07T08:00:53.6866287Z,0
+5.29618,100.2310489,Daerah: Barat Daya<br>No:61 Hex coord:(4;12),Kampung Masjid,199 ,0,0,0,0,0,1,2022-03-07T08:00:55.3957847Z,0
+5.2884,100.2445834,Daerah: Barat Daya<br>No:62<br>Hex coord:(5;12),Taman Batu Bukit,253 ,0,0,0,0,0,1,2022-03-07T08:00:56.0763399Z,0
+5.29618,100.2581179,Daerah: Barat Daya<br>No:63 Hex coord:(6;12),Taman Sri Bayu,267 ,0,0,0,0,0,1,2022-03-07T08:00:56.7706419Z,0
+5.2884,100.2716524,Daerah: Barat Daya<br>No:64<br>Hex coord:(7;12),POS Aviation Cargo Complex,174 ,0,0,0,0,0,1,2022-03-07T08:00:57.4549021Z,0
+5.29618,100.2851868,Daerah: Barat Daya<br>No:65 Hex coord:(8;12),Lintang Bayan Lepas 7,42 ,0,0,0,0,0,1,2022-03-07T08:00:58.1314581Z,0
+5.2884,100.2987213,Daerah: Barat Daya<br>No:x Hex coord:(9;12),Jambatan Kedua P.Pinang,0,0,0,0,0,0,1,2022-03-07T08:00:58.8221418Z,0
+5.28062,100.20398,Daerah: Barat Daya<br>No:66 Hex coord:(2;13),Gertak Sanggul,0,0,0,0,0,0,1,2022-03-07T08:00:59.4945207Z,0
+5.28062,100.2310489,Daerah: Barat Daya<br>No:x Hex coord:(4;13),Teluk Kumbar Beach,98 ,0,0,0,0,0,1,2022-03-07T08:01:00.1933422Z,0
+5.27284,100.2445834,Daerah: Barat Daya<br>No:x Hex coord:(5;13),Sg Batu Beach,0,0,0,0,0,0,1,2022-03-07T08:01:00.8509185Z,0
+5.28062,100.2581179,Daerah: Barat Daya<br>No:67 Hex coord:(6;13),Kampung Permatang Damar Laut,49 ,0,0,0,0,0,1,2022-03-07T08:01:01.5322861Z,0
+5.27284,100.2716524,Daerah: Barat Daya<br>No:68<br>Hex coord:(7;13),Lrg Permatang Damar Laut,173 ,0,0,0,0,0,1,2022-03-07T08:01:02.2338226Z,0
+5.28062,100.2851868,Daerah: Barat Daya<br>No:69 Hex coord:(8;13),Cheng Choo Tze. Jalan Teluk Tempoyak,145 ,0,0,0,0,0,1,2022-03-07T08:01:02.9094446Z,0
+5.2572796,100.2716524,Daerah: Barat Daya<br>No:x<br>Hex coord:(7;14),Tua Pek Kong Shrine,0,0,0,0,0,0,1,2022-03-07T08:01:03.6235950Z,0
+5.2650598,100.2851868,Daerah: Barat Daya<br>No:x Hex coord:(8;14),Batu Maung,1 ,0,0,0,0,0,1,2022-03-07T08:01:05.2854320Z,0
+5.47512,100.2716524,Daerah: Timur Laut<br>No:1<br>Hex coord:(7;0),Seaview Garden,8 ,0,0,0,0,0,1,2022-03-07T08:01:05.9968218Z,0
+5.45956,100.2445834,Daerah: Timur Laut<br>No:2<br>Hex coord:(5;1),Jalan Sungai 1. Batu Ferringhi,7 ,0,0,0,0,0,1,2022-03-07T08:01:06.6739859Z,0
+5.46734,100.2581179,Daerah: Timur Laut<br>No:3 Hex coord:(6;1),Ferringhi Residence 2,8 ,0,0,0,0,0,1,2022-03-07T08:01:07.3606792Z,0
+5.45956,100.2716524,Daerah: Timur Laut<br>No:4<br>Hex coord:(7;1),Leader Garden,14 ,0,0,0,0,0,1,2022-03-07T08:01:08.0269750Z,0
+5.46734,100.2851868,Daerah: Timur Laut<br>No:x<br>Hex coord:(8;1),Tanjung Bungah,63 ,0,0,0,0,0,1,2022-03-07T08:01:09.0466570Z,0
+5.45956,100.2987213,Daerah: Timur Laut<br>No:5<br>Hex coord:(9;1),Tanjung Tokong,111 ,0,0,0,0,0,1,2022-03-07T08:01:09.7237042Z,0
+5.46734,100.3122558,Daerah: Timur Laut<br>No:x<br>Hex coord:(10;1),Tanjung Tokong Beach,31 ,0,0,0,0,0,1,2022-03-07T08:01:10.4874573Z,0
+5.444,100.2445834,Daerah: Timur Laut<br>No:6<br>Hex coord:(5;2),n/a,0,0,0,0,0,0,1,2022-03-07T08:01:11.1625438Z,0
+5.45178,100.2581179,Daerah: Timur Laut<br>No:7 Hex coord:(6;2),n/a,0,0,0,0,0,0,1,2022-03-07T08:01:11.8291110Z,0
+5.444,100.2716524,Daerah: Timur Laut<br>No:8<br>Hex coord:(7;2),Zi Zai Hill,0,0,0,0,0,0,1,2022-03-07T08:01:12.4941155Z,0
+5.45178,100.2851868,Daerah: Timur Laut<br>No:9 Hex coord:(8;2),TAR Universiti College,53 ,0,0,0,0,0,1,2022-03-07T08:01:14.1741982Z,0
+5.444,100.2987213,Daerah: Timur Laut<br>No:10<br>Hex coord:(9;2),Mount Erskine,125 ,0,0,0,0,0,1,2022-03-07T08:01:14.8462037Z,0
+5.45178,100.3122558,Daerah: Timur Laut<br>No:x<br>Hex coord:(10;2),Seri Tanjung Pinang,122 ,0,0,0,0,0,1,2022-03-07T08:01:15.5454686Z,0
+5.42844,100.2445834,Daerah: Timur Laut<br>No:11<br>Hex coord:(5;3),n/a,0,0,0,0,0,0,1,2022-03-07T08:01:16.2150633Z,0
+5.43622,100.2581179,Daerah: Timur Laut<br>No:12 Hex coord:(6;3),n/a,0,0,0,0,0,0,1,2022-03-07T08:01:16.8810812Z,0
+5.42844,100.2716524,Daerah: Timur Laut<br>No:13<br>Hex coord:(7;3),Penang Hill,1 ,0,0,0,0,0,1,2022-03-07T08:01:17.5384481Z,0
+5.43622,100.2851868,Daerah: Timur Laut<br>No:14 Hex coord:(8;3),Botanic Garden,3 ,0,0,0,0,0,1,2022-03-07T08:01:18.3373107Z,0
+5.42844,100.2987213,Daerah: Timur Laut<br>No:15<br>Hex coord:(9;3),Jalan Utama,23 ,0,0,0,0,0,1,2022-03-07T08:01:19.0028457Z,0
+5.43622,100.3122558,Daerah: Timur Laut<br>No:16 Hex coord:(10;3),Gurney Drive,110 ,0,0,0,0,0,1,2022-03-07T08:01:19.6705768Z,0
+5.42844,100.3257903,Daerah: Timur Laut<br>No:x Hex coord:(11;3),Jalan Sultan Ahmad Shah,27 ,0,0,0,0,0,1,2022-03-07T08:01:20.3314399Z,0
+5.41288,100.2445834,Daerah: Timur Laut<br>No:17<br>Hex coord:(5;4),n/a,0,0,0,0,0,0,1,2022-03-07T08:01:20.9970067Z,0
+5.42066,100.2581179,Daerah: Timur Laut<br>No:18 Hex coord:(6;4),n/a,0,0,0,0,0,0,1,2022-03-07T08:01:21.6925867Z,0
+5.41288,100.2716524,Daerah: Timur Laut<br>No:19<br>Hex coord:(7;4),Penang Hill Middle Station,22 ,0,0,0,0,0,1,2022-03-07T08:01:22.3609173Z,0
+5.42066,100.2851868,Daerah: Timur Laut<br>No:20 Hex coord:(8;4),Batu Gantung Trail,0,0,0,0,0,0,1,2022-03-07T08:01:23.0221489Z,0
+5.41288,100.2987213,Daerah: Timur Laut<br>No:21<br>Hex coord:(9;4),Taman Lumba Kuda,153 ,0,0,0,0,0,1,2022-03-07T08:01:24.6892919Z,0
+5.42066,100.3122558,Daerah: Timur Laut<br>No:22 Hex coord:(10;4),Jalan Residensi,85 ,0,0,0,0,0,1,2022-03-07T08:01:25.3875236Z,0
+5.41288,100.3257903,Daerah: Timur Laut<br>No:23<br>Hex coord:(11;4),Penang Time Square,336 ,0,0,0,0,0,1,2022-03-07T08:01:26.1721738Z,0
+5.42066,100.3393247,Daerah: Timur Laut<br>No:24 Hex coord:(12;4),Lebuh Light,108 ,0,0,0,0,0,1,2022-03-07T08:01:26.8697479Z,0
+5.4051,100.3393247,Daerah: Timur Laut<br>No:x<br>Hex coord:(12;5),Pengkalan Weld,113 ,0,0,0,0,0,1,2022-03-07T08:01:27.5640561Z,0
+5.39732,100.2445834,Daerah: Timur Laut<br>No:25<br>Hex coord:(5;5),n/a,0,0,0,0,0,0,1,2022-03-07T08:01:28.2241212Z,0
+5.4051,100.2581179,Daerah: Timur Laut<br>No:26 Hex coord:(6;5),n/a,0,0,0,0,0,0,1,2022-03-07T08:01:28.8930905Z,0
+5.39732,100.2716524,Daerah: Timur Laut<br>No:27<br>Hex coord:(7;5),Kek Lok Si Columbarium,104 ,0,0,0,0,0,1,2022-03-07T08:01:29.5565220Z,0
+5.4051,100.2851868,Daerah: Timur Laut<br>No:28 Hex coord:(8;5),Jalan Air Itam,280 ,0,0,0,0,0,1,2022-03-07T08:01:30.2399136Z,0
+5.39732,100.2987213,Daerah: Timur Laut<br>No:29<br>Hex coord:(9;5),Lorong Batu Lancang,188 ,0,0,0,0,0,1,2022-03-07T08:01:30.9219400Z,0
+5.4051,100.3122558,Daerah: Timur Laut<br>No:30 Hex coord:(10;5),Taman Free School,296 ,0,0,0,0,0,1,2022-03-07T08:01:31.6520120Z,0
+5.39732,100.3257903,Daerah: Timur Laut<br>No:x Hex coord:(11;5),Tun Lim Chong Eu Highway,219 ,0,0,0,0,0,1,2022-03-07T08:01:32.3512566Z,0
+5.38954,100.2581179,Daerah: Timur Laut<br>No:31 Hex coord:(6;6),Lorong Jog,1 ,0,0,0,0,0,1,2022-03-07T08:01:33.0296861Z,0
+5.38176,100.2716524,Daerah: Timur Laut<br>No:32<br>Hex coord:(7;6),United Hokkien Cemeteries,178 ,0,0,0,0,0,1,2022-03-07T08:01:33.7084260Z,0
+5.38954,100.2851868,Daerah: Timur Laut<br>No:33 Hex coord:(8;6),Farlim B.B.Air Itam,418 ,0,0,0,0,0,1,2022-03-07T08:01:34.3999319Z,0
+5.38176,100.2987213,Daerah: Timur Laut<br>No:34<br>Hex coord:(9;6),Cangkat Delima 1. Island Glades,138 ,0,0,0,0,0,1,2022-03-07T08:01:36.0909950Z,0
+5.38954,100.3122558,Daerah: Timur Laut<br>No:35 Hex coord:(10;6),Jelutong Market,402 ,0,0,0,0,0,1,2022-03-07T08:01:37.3744952Z,0
+5.3662,100.2716524,Daerah: Timur Laut<br>No:36<br>Hex coord:(7;7),Lorong Bukit Kukus,166 ,0,0,0,0,0,1,2022-03-07T08:01:38.0552501Z,0
+5.37398,100.2851868,Daerah: Timur Laut<br>No:37 Hex coord:(8;7),Botak Hill,74 ,0,0,0,0,0,1,2022-03-07T08:01:38.7347485Z,0
+5.3662,100.2987213,Daerah: Timur Laut<br>No:38<br>Hex coord:(9;7),Jalan Bukit Gambir,148 ,0,0,0,0,0,1,2022-03-07T08:01:39.4102382Z,0
+5.37398,100.3122558,Daerah: Timur Laut<br>No:39 Hex coord:(10;7),Gelugor,150 ,0,0,0,0,0,1,2022-03-07T08:01:40.0913708Z,0
+5.35064,100.2716524,Daerah: Timur Laut<br>No:40<br>Hex coord:(7;8),Jalan Paya Terubong,41 ,0,0,0,0,0,1,2022-03-07T08:01:40.7624651Z,0
+5.35842,100.2851868,Daerah: Timur Laut<br>No:41 Hex coord:(8;8),Bukit Gambir,32 ,0,0,0,0,0,1,2022-03-07T08:01:41.4678225Z,0
+5.35064,100.2987213,Daerah: Timur Laut<br>No:42<br>Hex coord:(9;8),Sg Dua,275 ,0,0,0,0,0,1,2022-03-07T08:01:42.1924952Z,0
+5.35842,100.3122558,Daerah: Timur Laut<br>No:43 Hex coord:(10;8),MSN PP,149 ,0,0,0,0,0,1,2022-03-07T08:01:42.8693610Z,0
+5.34286,100.2851868,Daerah: Timur Laut<br>No:44 Hex coord:(8;9),Puncak Bukit Jambul,128 ,0,0,0,0,0,1,2022-03-07T08:01:43.5591606Z,0
+5.34286,100.3122558,Daerah: Timur Laut<br>No:45 Hex coord:(10;9),Batu Uban,99 ,0,0,0,0,0,1,2022-03-07T08:01:44.2645918Z,0
+5.3273,100.3122558,Daerah: Timur Laut?<br>No:+Jerejak 1 Hex coord:(10;10),Persiaran Bayan Indah,3 ,0,0,0,0,0,1,2022-03-07T08:01:44.9284294Z,0
