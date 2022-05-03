@@ -2,7 +2,6 @@
   [ "title", "filename", "keyname", "key", "elementname", "element", "isdate" ],
   [ "Active Cases (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "cases_active", 9, true ],
   [ "Total Cases (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "cases_total", 8, true ],
-  [ "Daily New Cases (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "cases_new", 7, true ],
   [ "Tests (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "tests", 10, true ],
   [ "ICU (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "icu", 11, true ],
   [ "Deaths (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "deaths", 12, true ],
