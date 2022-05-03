@@ -6,8 +6,9 @@
     <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <script src="./klangvalley3.js"></script>
+    <script src="./klangvalley2.js"></script>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8KAHldpvIOBBG8Lb3lrpWlFlS3mfFf9o&libraries=geometry,drawing"></script>
+    <!--<script async defer type="text/javascript" src="../src/markerwithlabel.js"></script>-->
     <style type="text/css">
         #floating-panel2 {
             position: absolute;
@@ -63,7 +64,7 @@
     <div class="col-xs-12" style="text-align:center">
         <div id="title">
             <h4>
-                <b>Klang Valley - Active covid cases for the past 14 days (Total:<span id="grandtotal"></span>) Ver 4.4.0.1 by Steve Teoh (c) 2022</b>
+                <b>Klang Valley - Active covid cases for the past 14 days (Total:<span id="grandtotal"></span>) Ver 4.3.0.0 Beta by Steve (c) Dec 2021</b>
             </h4>
         </div>
         <div style="text-align:center">
@@ -86,6 +87,8 @@
                 <span id="puLastUpdate"></span>
             </h6>
         </div>
+        <div id="buttonRow"></div>
+        <div><span>&nbsp;</span></div>
         <div id="floating-panel">
             <div class='my-legend'>
                 <div class='legend-title'>Number of Active Covid-19 cases (14-days period)</div>
