@@ -1,0 +1,47 @@
+lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp,reserved
+3.201029,101.591229,Daerah: Petaling Jaya<br>No:1<br>Hex coord:(3;0),Jalan Kuala Selangor,11 ,0,0,0,0,0,1,2022-05-07T02:30:13.8074145Z,0
+3.201029,101.618209,Daerah: Petaling Jaya<br>No:2<br>Hex coord:(5;0),Sri Damansara,6 ,0,0,0,0,0,1,2022-05-07T02:30:15.0338280Z,0
+3.193249,101.577739,Daerah: Shah Alam / PJ <br>No:x1<br>Hex coord:(2;1),(Filled Gap)Kampung Baru Sg Buloh,2 ,0,0,0,0,0,1,2022-05-07T02:30:16.8460884Z,0
+3.185469,101.591229,Daerah: Petaling Jaya<br>No:3<br>Hex coord:(3;1),PJU 10,4 ,0,0,0,0,0,1,2022-05-07T02:30:18.0188157Z,0
+3.193249,101.604719,Daerah: Petaling Jaya<br>No:4<br>Hex coord:(4;1),Bdr Sri Damansara,2 ,0,0,0,0,0,1,2022-05-07T02:30:19.2024287Z,0
+3.185469,101.618209,Daerah: Petaling Jaya<br>No:5<br>Hex coord:(5;1),Sunway SPK,14 ,0,0,0,0,0,1,2022-05-07T02:30:20.9305813Z,0
+3.177689,101.577739,Daerah: Petaling Jaya<br>No:6<br>Hex coord:(2;2),PPR Kota Damansara,5 ,0,0,0,0,0,1,2022-05-07T02:30:22.8064623Z,0
+3.169909,101.591229,Daerah: Petaling Jaya<br>No:7<br>Hex coord:(3;2),PJU 5. Kota Damansara.,2 ,0,0,0,0,0,1,2022-05-07T02:30:24.6875458Z,0
+3.177689,101.604719,Daerah: Petaling Jaya<br>No:8<br>Hex coord:(4;2),The Rafflesia,0,0,0,0,0,0,1,2022-05-07T02:30:26.5165084Z,0
+3.169909,101.618209,Daerah: KL / Petaling Jaya<br>No:x2<br>Hex coord:(5;2),(Filled Gap)Bukit Lanjan,4 ,0,0,0,0,0,1,2022-05-07T02:30:28.3343793Z,0
+3.154349,101.564249,Daerah: Petaling Jaya<br>No:9<br>Hex coord:(1;3),Sunsuria Technology Centre,1 ,0,0,0,0,0,1,2022-05-07T02:30:29.5069967Z,0
+3.162129,101.577739,Daerah: Petaling Jaya<br>No:10<br>Hex coord:(2;3),Jalan Cecawi 6/3. Kota Damansara,9 ,0,0,0,0,0,1,2022-05-07T02:30:31.3924874Z,0
+3.154349,101.591229,Daerah: Petaling Jaya<br>No:11<br>Hex coord:(3;3),The Strand,2 ,0,0,0,0,0,1,2022-05-07T02:30:32.6318842Z,0
+3.162129,101.604719,Daerah: Petaling Jaya<br>No:12<br>Hex coord:(4;3),PJU 7,5 ,0,0,0,0,0,1,2022-05-07T02:30:34.4618882Z,0
+3.154349,101.618209,Daerah: KL / Petaling Jaya<br>No:x3<br>Hex coord:(5;3),(Filled Gap) TTDI,5 ,0,0,0,0,0,1,2022-05-07T02:30:35.6240903Z,0
+3.138789,101.564249,Daerah: Petaling Jaya<br>No:13<br>Hex coord:(1;4),Selangor Shooting Club,0,0,0,0,0,0,1,2022-05-07T02:30:37.4202453Z,0
+3.146569,101.577739,Daerah: Petaling Jaya<br>No:14<br>Hex coord:(2;4),Tropicana Indah,3 ,0,0,0,0,0,1,2022-05-07T02:30:39.2240851Z,0
+3.138789,101.591229,Daerah: Petaling Jaya<br>No:15<br>Hex coord:(3;4),PJU 3,1 ,0,0,0,0,0,1,2022-05-07T02:30:40.9817763Z,0
+3.146569,101.604719,Daerah: Petaling Jaya<br>No:16<br>Hex coord:(4;4),Sunway Damansara,11 ,0,0,0,0,0,1,2022-05-07T02:30:42.7652643Z,0
+3.138789,101.618209,Daerah: Petaling Jaya<br>No:17<br>Hex coord:(5;4),Kayu Ara,7 ,0,0,0,0,0,1,2022-05-07T02:30:43.9434608Z,0
+3.131009,101.577739,Daerah: Petaling Jaya<br>No:18<br>Hex coord:(2;5),Tropicana Golf and Country Club,4 ,0,0,0,0,0,1,2022-05-07T02:30:45.1014854Z,0
+3.123229,101.591229,Daerah: Petaling Jaya<br>No:19<br>Hex coord:(3;5),PJU 1A,7 ,0,0,0,0,0,1,2022-05-07T02:30:46.2732334Z,0
+3.131009,101.604719,Daerah: Petaling Jaya<br>No:20<br>Hex coord:(4;5),Bandar Utama,0,0,0,0,0,0,1,2022-05-07T02:30:48.0945931Z,0
+3.123229,101.618209,Daerah: Petaling Jaya<br>No:21<br>Hex coord:(5;5),Damansara Jaya,3 ,0,0,0,0,0,1,2022-05-07T02:30:49.2566570Z,0
+3.131009,101.631699,Daerah: Petaling Jaya<br>No:22<br>Hex coord:(6;5),Seksyen 17,7 ,0,0,0,0,0,1,2022-05-07T02:30:51.0773576Z,0
+3.123229,101.645189,Daerah: Petaling Jaya<br>No:23<br>Hex coord:(7;5),Seksyen 16,3 ,0,0,0,0,0,1,2022-05-07T02:30:53.0160984Z,0
+3.115449,101.577739,Daerah: Petaling Jaya<br>No:24<br>Hex coord:(2;6),PJU 1A,1 ,0,0,0,0,0,1,2022-05-07T02:30:54.9031857Z,0
+3.107669,101.591229,Daerah: Petaling Jaya<br>No:25<br>Hex coord:(3;6),Kelana Jaya NKVE,8 ,0,0,0,0,0,1,2022-05-07T02:30:56.7102411Z,0
+3.115449,101.604719,Daerah: Petaling Jaya<br>No:26<br>Hex coord:(4;6),Taman Mayang,1 ,0,0,0,0,0,1,2022-05-07T02:30:58.8941451Z,0
+3.107669,101.618209,Daerah: Petaling Jaya<br>No:27<br>Hex coord:(5;6),Sea Park,5 ,0,0,0,0,0,1,2022-05-07T02:31:00.7219947Z,0
+3.115449,101.631699,Daerah: Petaling Jaya<br>No:28<br>Hex coord:(6;6),Seksyen 19,2 ,0,0,0,0,0,1,2022-05-07T02:31:02.5167642Z,0
+3.107669,101.645189,Daerah: Petaling Jaya<br>No:29<br>Hex coord:(7;6),Jalan Utara,23 ,0,0,0,0,0,1,2022-05-07T02:31:04.3696967Z,0
+3.115449,101.658679,Daerah: KL / Petaling Jaya<br>No:x4<br>Hex coord:(8;6),(Filled Gap) Universiti Malaya,4 ,0,0,0,0,0,1,2022-05-07T02:31:06.2071614Z,0
+3.092109,101.591229,Daerah: Subang Jaya / Petaling Jaya<br>No:x5<br>Hex coord:(3;7),(Filled Gap)Park and Ride Glenmarie,1 ,0,0,0,0,0,1,2022-05-07T02:31:08.0209125Z,0
+3.099889,101.604719,Daerah: Petaling Jaya<br>No:30<br>Hex coord:(4;7),SS5,4 ,0,0,0,0,0,1,2022-05-07T02:31:09.8312075Z,0
+3.092109,101.618209,Daerah: Petaling Jaya<br>No:31<br>Hex coord:(5;7),SS1,6 ,0,0,0,0,0,1,2022-05-07T02:31:11.6270288Z,0
+3.099889,101.631699,Daerah: Petaling Jaya<br>No:32<br>Hex coord:(6;7),Seksyen 14,3 ,0,0,0,0,0,1,2022-05-07T02:31:12.7957336Z,0
+3.092109,101.645189,Daerah: Petaling Jaya<br>No:33<br>Hex coord:(7;7),Assunta,26 ,0,0,0,0,0,1,2022-05-07T02:31:14.5812930Z,0
+3.099889,101.658679,Daerah: Petaling Jaya<br>No:34<br>Hex coord:(8;7),Bukit Gasing,5 ,0,0,0,0,0,1,2022-05-07T02:31:16.3713325Z,0
+3.084329,101.604719,Daerah: Petaling Jaya<br>No:35<br>Hex coord:(4;8),Kelab Golf Negara Subang,1 ,0,0,0,0,0,1,2022-05-07T02:31:18.2191043Z,0
+3.076549,101.618209,Daerah: Petaling Jaya<br>No:36<br>Hex coord:(5;8),PJS 6,2 ,0,0,0,0,0,1,2022-05-07T02:31:20.0444433Z,0
+3.084329,101.631699,Daerah: Petaling Jaya<br>No:37<br>Hex coord:(6;8),Kampung Dato Harun,5 ,0,0,0,0,0,1,2022-05-07T02:31:21.2266190Z,0
+3.076549,101.645189,Daerah: Petaling Jaya<br>No:38<br>Hex coord:(7;8),Sri Manja,8 ,0,0,0,0,0,1,2022-05-07T02:31:23.0498881Z,0
+3.084329,101.658679,Daerah: Petaling Jaya<br>No:39<br>Hex coord:(8;8),Seksyen 1A,7 ,0,0,0,0,0,1,2022-05-07T02:31:24.4589693Z,0
+3.068769,101.604719,Daerah: Subang Jaya / Petaling Jaya<br>No:x6<br>Hex coord:(4;9),(Filled Gap)Bandar Sunway,2 ,0,0,0,0,0,1,2022-05-07T02:31:26.2627772Z,0
+3.068769,101.631699,Daerah: Subang Jaya / Petaling Jaya<br>No:x7<br>Hex coord:(6;9),(Filled Gap) Taman Mawar,6 ,0,0,0,0,0,1,2022-05-07T02:31:27.4384215Z,0
