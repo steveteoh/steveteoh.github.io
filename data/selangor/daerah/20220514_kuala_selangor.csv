@@ -1,0 +1,463 @@
+lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp,reserved
+3.57666,101.30315,Daerah: Kuala Selangor<br>No:1<br>Hex coord:(15;1),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:14.3475535Z,0
+3.58444,101.31664,Daerah: Kuala Selangor<br>No:2<br>Hex coord:(16;1),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:16.2545515Z,0
+3.57666,101.33013,Daerah: Kuala Selangor<br>No:3<br>Hex coord:(17;1),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:17.9347931Z,0
+3.58444,101.34362,Daerah: Kuala Selangor<br>No:4<br>Hex coord:(18;1),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:19.8060569Z,0
+3.57666,101.35711,Daerah: Kuala Selangor<br>No:5<br>Hex coord:(19;1),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:20.9242748Z,0
+3.5611,101.24919,Daerah: Kuala Selangor<br>No:6<br>Hex coord:(11;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:22.8262982Z,0
+3.5611,101.27617,Daerah: Kuala Selangor<br>No:7<br>Hex coord:(13;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:23.9464181Z,0
+3.56888,101.28966,Daerah: Kuala Selangor<br>No:8<br>Hex coord:(14;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:25.6983407Z,0
+3.5611,101.30315,Daerah: Kuala Selangor<br>No:9<br>Hex coord:(15;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:27.4663528Z,0
+3.56888,101.31664,Daerah: Kuala Selangor<br>No:10<br>Hex coord:(16;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:29.3735022Z,0
+3.5611,101.33013,Daerah: Kuala Selangor<br>No:11<br>Hex coord:(17;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:31.1083986Z,0
+3.56888,101.34362,Daerah: Kuala Selangor<br>No:12<br>Hex coord:(18;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:32.8436867Z,0
+3.5611,101.35711,Daerah: Kuala Selangor<br>No:13<br>Hex coord:(19;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:34.5424115Z,0
+3.56888,101.3706,Daerah: Kuala Selangor<br>No:14<br>Hex coord:(20;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:36.2593346Z,0
+3.5611,101.38409,Daerah: Kuala Selangor<br>No:15<br>Hex coord:(21;2),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:37.3824584Z,0
+3.54554,101.22221,Daerah: Kuala Selangor<br>No:16<br>Hex coord:(9;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:39.1474042Z,0
+3.55332,101.2357,Daerah: Kuala Selangor<br>No:17<br>Hex coord:(10;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:40.9069597Z,0
+3.54554,101.24919,Daerah: Kuala Selangor<br>No:18<br>Hex coord:(11;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:43.4654466Z,0
+3.55332,101.26268,Daerah: Kuala Selangor<br>No:19<br>Hex coord:(12;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:44.5905008Z,0
+3.54554,101.27617,Daerah: Kuala Selangor<br>No:20<br>Hex coord:(13;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:45.7132968Z,0
+3.55332,101.28966,Daerah: Kuala Selangor<br>No:21<br>Hex coord:(14;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:46.8320307Z,0
+3.54554,101.30315,Daerah: Kuala Selangor<br>No:22<br>Hex coord:(15;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:47.9516038Z,0
+3.55332,101.31664,Daerah: Kuala Selangor<br>No:23<br>Hex coord:(16;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:49.6749793Z,0
+3.54554,101.33013,Daerah: Kuala Selangor<br>No:24<br>Hex coord:(17;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:50.8067067Z,0
+3.55332,101.34362,Daerah: Kuala Selangor<br>No:25<br>Hex coord:(18;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:52.5556861Z,0
+3.54554,101.35711,Daerah: Kuala Selangor<br>No:26<br>Hex coord:(19;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:54.3183640Z,0
+3.55332,101.3706,Daerah: Kuala Selangor<br>No:27<br>Hex coord:(20;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:56.0616784Z,0
+3.54554,101.38409,Daerah: Kuala Selangor<br>No:28<br>Hex coord:(21;3),Hutan Rizab Raja Musa. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:57.1971709Z,0
+3.55332,101.39758,Daerah: Kuala Selangor<br>No:29<br>Hex coord:(22;3),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:58.3198969Z,0
+3.52998,101.16825,Daerah: Kuala Selangor<br>No:30<br>Hex coord:(5;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:05:59.4683569Z,0
+3.52998,101.19523,Daerah: Kuala Selangor<br>No:31<br>Hex coord:(7;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:01.4395749Z,0
+3.53776,101.20872,Daerah: Kuala Selangor<br>No:32<br>Hex coord:(8;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:03.2028569Z,0
+3.52998,101.22221,Daerah: Kuala Selangor<br>No:33<br>Hex coord:(9;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:04.4816154Z,0
+3.53776,101.2357,Daerah: Kuala Selangor<br>No:34<br>Hex coord:(10;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:06.1911436Z,0
+3.52998,101.24919,Daerah: Kuala Selangor<br>No:35<br>Hex coord:(11;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:07.8563437Z,0
+3.53776,101.26268,Daerah: Kuala Selangor<br>No:36<br>Hex coord:(12;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:09.5856365Z,0
+3.52998,101.27617,Daerah: Kuala Selangor<br>No:37<br>Hex coord:(13;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:10.7060238Z,0
+3.53776,101.28966,Daerah: Kuala Selangor<br>No:38<br>Hex coord:(14;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:12.5805420Z,0
+3.52998,101.30315,Daerah: Kuala Selangor<br>No:39<br>Hex coord:(15;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:14.4583944Z,0
+3.53776,101.31664,Daerah: Kuala Selangor<br>No:40<br>Hex coord:(16;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:16.1927957Z,0
+3.52998,101.33013,Daerah: Kuala Selangor<br>No:41<br>Hex coord:(17;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:17.9555196Z,0
+3.53776,101.34362,Daerah: Kuala Selangor<br>No:42<br>Hex coord:(18;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:19.6795301Z,0
+3.52998,101.35711,Daerah: Kuala Selangor<br>No:43<br>Hex coord:(19;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:21.5514909Z,0
+3.53776,101.3706,Daerah: Kuala Selangor<br>No:44<br>Hex coord:(20;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:22.6673802Z,0
+3.52998,101.38409,Daerah: Kuala Selangor<br>No:45<br>Hex coord:(21;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:24.5635815Z,0
+3.53776,101.39758,Daerah: Kuala Selangor<br>No:46<br>Hex coord:(22;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:26.2850743Z,0
+3.52998,101.41107,Daerah: Kuala Selangor<br>No:47<br>Hex coord:(23;4),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:28.1843311Z,0
+3.51442,101.16825,Daerah: Kuala Selangor<br>No:48<br>Hex coord:(5;5),Kuala Selangor. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:29.9038619Z,0
+3.5222,101.18174,Daerah: Kuala Selangor<br>No:49<br>Hex coord:(6;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:31.0249338Z,0
+3.51442,101.19523,Daerah: Kuala Selangor<br>No:50<br>Hex coord:(7;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:32.1672503Z,0
+3.5222,101.20872,Daerah: Kuala Selangor<br>No:51<br>Hex coord:(8;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:33.8976864Z,0
+3.51442,101.22221,Daerah: Kuala Selangor<br>No:52<br>Hex coord:(9;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:35.6031568Z,0
+3.5222,101.2357,Daerah: Kuala Selangor<br>No:53<br>Hex coord:(10;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:37.3370325Z,0
+3.51442,101.24919,Daerah: Kuala Selangor<br>No:54<br>Hex coord:(11;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:38.5942499Z,0
+3.5222,101.26268,Daerah: Kuala Selangor<br>No:55<br>Hex coord:(12;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:39.7157906Z,0
+3.51442,101.27617,Daerah: Kuala Selangor<br>No:56<br>Hex coord:(13;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:41.6133673Z,0
+3.5222,101.28966,Daerah: Kuala Selangor<br>No:57<br>Hex coord:(14;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:43.3766927Z,0
+3.51442,101.30315,Daerah: Kuala Selangor<br>No:58<br>Hex coord:(15;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:45.2810939Z,0
+3.5222,101.31664,Daerah: Kuala Selangor<br>No:59<br>Hex coord:(16;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:46.5559005Z,0
+3.51442,101.33013,Daerah: Kuala Selangor<br>No:60<br>Hex coord:(17;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:48.4428313Z,0
+3.5222,101.34362,Daerah: Kuala Selangor<br>No:61<br>Hex coord:(18;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:49.5676697Z,0
+3.51442,101.35711,Daerah: Kuala Selangor<br>No:62<br>Hex coord:(19;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:50.6943535Z,0
+3.5222,101.3706,Daerah: Kuala Selangor<br>No:63<br>Hex coord:(20;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:52.4193591Z,0
+3.51442,101.38409,Daerah: Kuala Selangor<br>No:64<br>Hex coord:(21;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:54.1058344Z,0
+3.5222,101.39758,Daerah: Kuala Selangor<br>No:65<br>Hex coord:(22;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:56.0012639Z,0
+3.51442,101.41107,Daerah: Kuala Selangor<br>No:66<br>Hex coord:(23;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:57.9022561Z,0
+3.5222,101.42456,Daerah: Kuala Selangor<br>No:67<br>Hex coord:(24;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:06:59.6436503Z,0
+3.51442,101.43805,Daerah: Kuala Selangor<br>No:68<br>Hex coord:(25;5),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:01.4086858Z,0
+3.49886,101.14127,Daerah: Kuala Selangor<br>No:69<br>Hex coord:(3;6),LN Pt. 4 Sungai Burung. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:03.1351006Z,0
+3.50664,101.15476,Daerah: Kuala Selangor<br>No:70<br>Hex coord:(4;6),Kuala Selangor. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:04.2586353Z,0
+3.49886,101.16825,Daerah: Kuala Selangor<br>No:71<br>Hex coord:(5;6),45400 Sekinchan. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:06.1758863Z,0
+3.50664,101.18174,Daerah: Kuala Selangor<br>No:72<br>Hex coord:(6;6),Kuala Selangor. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:07.9221101Z,0
+3.49886,101.19523,Daerah: Kuala Selangor<br>No:73<br>Hex coord:(7;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:09.0526652Z,0
+3.50664,101.20872,Daerah: Kuala Selangor<br>No:74<br>Hex coord:(8;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:10.9434527Z,0
+3.49886,101.22221,Daerah: Kuala Selangor<br>No:75<br>Hex coord:(9;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:12.6714222Z,0
+3.50664,101.2357,Daerah: Kuala Selangor<br>No:76<br>Hex coord:(10;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:14.3867795Z,0
+3.49886,101.24919,Daerah: Kuala Selangor<br>No:77<br>Hex coord:(11;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:15.5087873Z,0
+3.50664,101.26268,Daerah: Kuala Selangor<br>No:78<br>Hex coord:(12;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:17.2507120Z,0
+3.49886,101.27617,Daerah: Kuala Selangor<br>No:79<br>Hex coord:(13;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:19.1264137Z,0
+3.50664,101.28966,Daerah: Kuala Selangor<br>No:80<br>Hex coord:(14;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:21.0072765Z,0
+3.49886,101.30315,Daerah: Kuala Selangor<br>No:81<br>Hex coord:(15;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:22.8515706Z,0
+3.50664,101.31664,Daerah: Kuala Selangor<br>No:82<br>Hex coord:(16;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:24.5850684Z,0
+3.49886,101.33013,Daerah: Kuala Selangor<br>No:83<br>Hex coord:(17;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:26.3233794Z,0
+3.50664,101.34362,Daerah: Kuala Selangor<br>No:84<br>Hex coord:(18;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:28.0552285Z,0
+3.49886,101.35711,Daerah: Kuala Selangor<br>No:85<br>Hex coord:(19;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:29.8144066Z,0
+3.50664,101.3706,Daerah: Kuala Selangor<br>No:86<br>Hex coord:(20;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:31.7247654Z,0
+3.49886,101.38409,Daerah: Kuala Selangor<br>No:87<br>Hex coord:(21;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:33.4450664Z,0
+3.50664,101.39758,Daerah: Kuala Selangor<br>No:88<br>Hex coord:(22;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:35.1574242Z,0
+3.49886,101.41107,Daerah: Kuala Selangor<br>No:89<br>Hex coord:(23;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:36.8945922Z,0
+3.50664,101.42456,Daerah: Kuala Selangor<br>No:90<br>Hex coord:(24;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:38.6315057Z,0
+3.49886,101.43805,Daerah: Kuala Selangor<br>No:91<br>Hex coord:(25;6),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:40.3674022Z,0
+3.4833,101.11429,Daerah: Kuala Selangor<br>No:92<br>Hex coord:(1;7),Kuala Selangor. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:42.1134421Z,0
+3.49108,101.12778,Daerah: Kuala Selangor<br>No:93<br>Hex coord:(2;7),Jalan Taliair 3. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:43.2379374Z,0
+3.4833,101.14127,Daerah: Kuala Selangor<br>No:94<br>Hex coord:(3;7),Rizab Melayu Sungai Burong. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:44.3651215Z,0
+3.49108,101.15476,Daerah: Kuala Selangor<br>No:95<br>Hex coord:(4;7),Jalan Parit 3. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:46.1157600Z,0
+3.4833,101.16825,Daerah: Kuala Selangor<br>No:96<br>Hex coord:(5;7),Kuala Selangor. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:47.7862466Z,0
+3.49108,101.18174,Daerah: Kuala Selangor<br>No:97<br>Hex coord:(6;7),d'Bendang Homestay. Tanjung Karang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:48.9090480Z,0
+3.4833,101.19523,Daerah: Kuala Selangor<br>No:98<br>Hex coord:(7;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:50.0217406Z,0
+3.49108,101.20872,Daerah: Kuala Selangor<br>No:99<br>Hex coord:(8;7),Tanjung Karang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:51.1953208Z,0
+3.4833,101.22221,Daerah: Kuala Selangor<br>No:100<br>Hex coord:(9;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:52.3070539Z,0
+3.49108,101.2357,Daerah: Kuala Selangor<br>No:101<br>Hex coord:(10;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:53.4292674Z,0
+3.4833,101.24919,Daerah: Kuala Selangor<br>No:102<br>Hex coord:(11;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:55.1713737Z,0
+3.49108,101.26268,Daerah: Kuala Selangor<br>No:103<br>Hex coord:(12;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:56.9201198Z,0
+3.4833,101.27617,Daerah: Kuala Selangor<br>No:104<br>Hex coord:(13;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:58.0535174Z,0
+3.49108,101.28966,Daerah: Kuala Selangor<br>No:105<br>Hex coord:(14;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:07:59.7849807Z,0
+3.4833,101.30315,Daerah: Kuala Selangor<br>No:106<br>Hex coord:(15;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:01.4786343Z,0
+3.49108,101.31664,Daerah: Kuala Selangor<br>No:107<br>Hex coord:(16;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:03.2334870Z,0
+3.4833,101.33013,Daerah: Kuala Selangor<br>No:108<br>Hex coord:(17;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:04.9667830Z,0
+3.49108,101.34362,Daerah: Kuala Selangor<br>No:109<br>Hex coord:(18;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:06.6932593Z,0
+3.4833,101.35711,Daerah: Kuala Selangor<br>No:110<br>Hex coord:(19;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:08.4056632Z,0
+3.49108,101.3706,Daerah: Kuala Selangor<br>No:111<br>Hex coord:(20;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:10.2843065Z,0
+3.4833,101.38409,Daerah: Kuala Selangor<br>No:112<br>Hex coord:(21;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:12.0273063Z,0
+3.49108,101.39758,Daerah: Kuala Selangor<br>No:113<br>Hex coord:(22;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:13.7696708Z,0
+3.4833,101.41107,Daerah: Kuala Selangor<br>No:114<br>Hex coord:(23;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:15.4711269Z,0
+3.49108,101.42456,Daerah: Kuala Selangor<br>No:115<br>Hex coord:(24;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:17.1757531Z,0
+3.4833,101.43805,Daerah: Kuala Selangor<br>No:116<br>Hex coord:(25;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:18.9154762Z,0
+3.49108,101.45154,Daerah: Kuala Selangor<br>No:117<br>Hex coord:(26;7),B74. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:20.6404986Z,0
+3.4833,101.46503,Daerah: Kuala Selangor<br>No:118<br>Hex coord:(27;7),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:22.3946357Z,0
+3.46774,101.11429,Daerah: Kuala Selangor<br>No:119<br>Hex coord:(1;8),Jeti Nelayan Kampung Parit 3 Burong,0,0,0,0,0,0,1,2022-05-14T02:08:23.5221091Z,0
+3.47552,101.12778,Daerah: Kuala Selangor<br>No:120<br>Hex coord:(2;8),Surau Parit 3. Jalan Parit 3. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:24.6350868Z,0
+3.46774,101.14127,Daerah: Kuala Selangor<br>No:121<br>Hex coord:(3;8),Masjid Sungai Burung. Jalan Kuala Selangor - Teluk Intan. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:25.7703000Z,0
+3.47552,101.15476,Daerah: Kuala Selangor<br>No:122<br>Hex coord:(4;8),Kuala Selangor. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:27.5303852Z,0
+3.46774,101.16825,Daerah: Kuala Selangor<br>No:123<br>Hex coord:(5;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:28.6537600Z,0
+3.47552,101.18174,Daerah: Kuala Selangor<br>No:124<br>Hex coord:(6;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:29.7832514Z,0
+3.46774,101.19523,Daerah: Kuala Selangor<br>No:125<br>Hex coord:(7;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:31.5205703Z,0
+3.47552,101.20872,Daerah: Kuala Selangor<br>No:126<br>Hex coord:(8;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:33.4153659Z,0
+3.46774,101.22221,Daerah: Kuala Selangor<br>No:127<br>Hex coord:(9;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:35.3254037Z,0
+3.47552,101.2357,Daerah: Kuala Selangor<br>No:128<br>Hex coord:(10;8),Terusan Besar. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:37.0660529Z,0
+3.46774,101.24919,Daerah: Kuala Selangor<br>No:129<br>Hex coord:(11;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:38.1977437Z,0
+3.47552,101.26268,Daerah: Kuala Selangor<br>No:130<br>Hex coord:(12;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:39.9487580Z,0
+3.46774,101.27617,Daerah: Kuala Selangor<br>No:131<br>Hex coord:(13;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:41.6608346Z,0
+3.47552,101.28966,Daerah: Kuala Selangor<br>No:132<br>Hex coord:(14;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:43.3859001Z,0
+3.46774,101.30315,Daerah: Kuala Selangor<br>No:133<br>Hex coord:(15;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:45.1403666Z,0
+3.47552,101.31664,Daerah: Kuala Selangor<br>No:134<br>Hex coord:(16;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:46.8718866Z,0
+3.46774,101.33013,Daerah: Kuala Selangor<br>No:135<br>Hex coord:(17;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:48.0055241Z,0
+3.47552,101.34362,Daerah: Kuala Selangor<br>No:136<br>Hex coord:(18;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:49.7114583Z,0
+3.46774,101.35711,Daerah: Kuala Selangor<br>No:137<br>Hex coord:(19;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:51.4227868Z,0
+3.47552,101.3706,Daerah: Kuala Selangor<br>No:138<br>Hex coord:(20;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:53.1767710Z,0
+3.46774,101.38409,Daerah: Kuala Selangor<br>No:139<br>Hex coord:(21;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:54.9309110Z,0
+3.47552,101.39758,Daerah: Kuala Selangor<br>No:140<br>Hex coord:(22;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:56.6778990Z,0
+3.46774,101.41107,Daerah: Kuala Selangor<br>No:141<br>Hex coord:(23;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:08:58.3837210Z,0
+3.47552,101.42456,Daerah: Kuala Selangor<br>No:142<br>Hex coord:(24;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:00.0932195Z,0
+3.46774,101.43805,Daerah: Kuala Selangor<br>No:143<br>Hex coord:(25;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:01.8497033Z,0
+3.47552,101.45154,Daerah: Kuala Selangor<br>No:144<br>Hex coord:(26;8),B74. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:03.5941130Z,0
+3.46774,101.46503,Daerah: Kuala Selangor<br>No:145<br>Hex coord:(27;8),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:05.2805732Z,0
+3.45996,101.12778,Daerah: Kuala Selangor<br>No:146<br>Hex coord:(2;9),Kuala Selangor. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:07.0000284Z,0
+3.45218,101.14127,Daerah: Kuala Selangor<br>No:147<br>Hex coord:(3;9),Kuala Selangor. 45400. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:08.1137814Z,0
+3.45996,101.15476,Daerah: Kuala Selangor<br>No:148<br>Hex coord:(4;9),Parit Satu. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:09.8460464Z,0
+3.45218,101.16825,Daerah: Kuala Selangor<br>No:149<br>Hex coord:(5;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:11.7496495Z,0
+3.45996,101.18174,Daerah: Kuala Selangor<br>No:150<br>Hex coord:(6;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:13.0428250Z,0
+3.45218,101.19523,Daerah: Kuala Selangor<br>No:151<br>Hex coord:(7;9),Parit Satu. Tanjung Karang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:14.7774411Z,0
+3.45996,101.20872,Daerah: Kuala Selangor<br>No:152<br>Hex coord:(8;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:16.6590689Z,0
+3.45218,101.22221,Daerah: Kuala Selangor<br>No:153<br>Hex coord:(9;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:18.5714229Z,0
+3.45996,101.2357,Daerah: Kuala Selangor<br>No:154<br>Hex coord:(10;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:20.2801271Z,0
+3.45218,101.24919,Daerah: Kuala Selangor<br>No:155<br>Hex coord:(11;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:22.0338290Z,0
+3.45996,101.26268,Daerah: Kuala Selangor<br>No:156<br>Hex coord:(12;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:23.1756680Z,0
+3.45218,101.27617,Daerah: Kuala Selangor<br>No:157<br>Hex coord:(13;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:24.9115257Z,0
+3.45996,101.28966,Daerah: Kuala Selangor<br>No:158<br>Hex coord:(14;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:26.0238356Z,0
+3.45218,101.30315,Daerah: Kuala Selangor<br>No:159<br>Hex coord:(15;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:27.1485286Z,0
+3.45996,101.31664,Daerah: Kuala Selangor<br>No:160<br>Hex coord:(16;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:28.4680320Z,0
+3.45218,101.33013,Daerah: Kuala Selangor<br>No:161<br>Hex coord:(17;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:29.5950323Z,0
+3.45996,101.34362,Daerah: Kuala Selangor<br>No:162<br>Hex coord:(18;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:31.3409646Z,0
+3.45218,101.35711,Daerah: Kuala Selangor<br>No:163<br>Hex coord:(19;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:32.4793900Z,0
+3.45996,101.3706,Daerah: Kuala Selangor<br>No:164<br>Hex coord:(20;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:34.2185849Z,0
+3.45218,101.38409,Daerah: Kuala Selangor<br>No:165<br>Hex coord:(21;9),Kuala Selangor. 45600 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:35.9517649Z,0
+3.45996,101.39758,Daerah: Kuala Selangor<br>No:166<br>Hex coord:(22;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:37.8443119Z,0
+3.45218,101.41107,Daerah: Kuala Selangor<br>No:167<br>Hex coord:(23;9),Kuala Selangor. 45600 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:39.5848726Z,0
+3.45996,101.42456,Daerah: Kuala Selangor<br>No:168<br>Hex coord:(24;9),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:41.2863248Z,0
+3.45218,101.43805,Daerah: Kuala Selangor<br>No:169<br>Hex coord:(25;9),Kuala Selangor. 45600 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:43.0226246Z,0
+3.45996,101.45154,Daerah: Kuala Selangor<br>No:170<br>Hex coord:(26;9),B74. Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:44.1495060Z,0
+3.43662,101.14127,Daerah: Kuala Selangor<br>No:171<br>Hex coord:(3;10),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:45.2746435Z,0
+3.4444,101.15476,Daerah: Kuala Selangor<br>No:172<br>Hex coord:(4;10),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:46.9770440Z,0
+3.43662,101.16825,Daerah: Kuala Selangor<br>No:173<br>Hex coord:(5;10),Lorong Menanti 1. Tanjung Karang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:48.1042707Z,0
+3.4444,101.18174,Daerah: Kuala Selangor<br>No:174<br>Hex coord:(6;10),Sungai Tengi. Tanjung Karang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:49.8690914Z,0
+3.43662,101.19523,Daerah: Kuala Selangor<br>No:175<br>Hex coord:(7;10),Kampung Sungai Tengi Kanan. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:51.7426524Z,0
+3.4444,101.20872,Daerah: Kuala Selangor<br>No:176<br>Hex coord:(8;10),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:53.0223733Z,0
+3.43662,101.22221,Daerah: Kuala Selangor<br>No:177<br>Hex coord:(9;10),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:54.9010446Z,0
+3.4444,101.2357,Daerah: Kuala Selangor<br>No:178<br>Hex coord:(10;10),Futsal Court Sri Tiram. Tanjung Karang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:56.6317054Z,0
+3.43662,101.24919,Daerah: Kuala Selangor<br>No:179<br>Hex coord:(11;10),Taman Seri Tiram. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:09:58.5099214Z,0
+3.4444,101.26268,Daerah: Kuala Selangor<br>No:180<br>Hex coord:(12;10),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:00.3985004Z,0
+3.43662,101.27617,Daerah: Kuala Selangor<br>No:181<br>Hex coord:(13;10),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:01.5535046Z,0
+3.4444,101.28966,Daerah: Kuala Selangor<br>No:182<br>Hex coord:(14;10),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:03.4425431Z,0
+3.43662,101.30315,Daerah: Kuala Selangor<br>No:183<br>Hex coord:(15;10),Kuala Selangor. Kampung Raja Musa. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:04.7294943Z,0
+3.4444,101.31664,Daerah: Kuala Selangor<br>No:184<br>Hex coord:(16;10),Kuala Selangor. Kampung Raja Musa. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:06.4590499Z,0
+3.43662,101.33013,Daerah: Kuala Selangor<br>No:185<br>Hex coord:(17;10),Kuala Selangor. Kampung Raja Musa. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:07.7362659Z,0
+3.4444,101.34362,Daerah: Kuala Selangor<br>No:186<br>Hex coord:(18;10),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:08.8655635Z,0
+3.43662,101.35711,Daerah: Kuala Selangor<br>No:187<br>Hex coord:(19;10),Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:10.6018045Z,0
+3.4444,101.3706,Daerah: Kuala Selangor<br>No:188<br>Hex coord:(20;10),Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:11.7229768Z,0
+3.43662,101.38409,Daerah: Kuala Selangor<br>No:189<br>Hex coord:(21;10),Kuala Selangor. 45600 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:13.4598039Z,0
+3.4444,101.39758,Daerah: Kuala Selangor<br>No:190<br>Hex coord:(22;10),Kuala Selangor. 45600 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:15.1976314Z,0
+3.43662,101.41107,Daerah: Kuala Selangor<br>No:191<br>Hex coord:(23;10),Kampung Rantau Panjang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:16.9509721Z,0
+3.4444,101.42456,Daerah: Kuala Selangor<br>No:192<br>Hex coord:(24;10),Kampung Rantau Panjang. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:18.6994182Z,0
+3.43662,101.43805,Daerah: Kuala Selangor<br>No:193<br>Hex coord:(25;10),Kuala Selangor. 45600 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:20.5744767Z,0
+3.4444,101.45154,Daerah: Kuala Selangor<br>No:194<br>Hex coord:(26;10),B74. Kampung Rantau Panjang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:21.6993485Z,0
+3.42884,101.15476,Daerah: Kuala Selangor<br>No:195<br>Hex coord:(4;11),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:23.4553811Z,0
+3.42106,101.16825,Daerah: Kuala Selangor<br>No:196<br>Hex coord:(5;11),Taman Mahsuri. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:25.3765219Z,0
+3.42884,101.18174,Daerah: Kuala Selangor<br>No:197<br>Hex coord:(6;11),Taman Mahsuri. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:27.1464900Z,0
+3.42106,101.19523,Daerah: Kuala Selangor<br>No:198<br>Hex coord:(7;11),Jalan SGG 7/2. Taman Mahsuri. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:28.8831521Z,0
+3.42884,101.20872,Daerah: Kuala Selangor<br>No:199<br>Hex coord:(8;11),Tali Air Tiga. Tanjung Karang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:30.0018492Z,0
+3.42106,101.22221,Daerah: Kuala Selangor<br>No:200<br>Hex coord:(9;11),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:31.7366622Z,0
+3.42884,101.2357,Daerah: Kuala Selangor<br>No:201<br>Hex coord:(10;11),Sekolah Menengah Kebangsaan Tiram Jaya. Tanjung Karang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:32.8634909Z,0
+3.42106,101.24919,Daerah: Kuala Selangor<br>No:202<br>Hex coord:(11;11),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:34.7940297Z,0
+3.42884,101.26268,Daerah: Kuala Selangor<br>No:203<br>Hex coord:(12;11),Jalan Mawar. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:35.9248088Z,0
+3.42106,101.27617,Daerah: Kuala Selangor<br>No:204<br>Hex coord:(13;11),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:37.8289284Z,0
+3.42884,101.28966,Daerah: Kuala Selangor<br>No:205<br>Hex coord:(14;11),Kuala Selangor. Kampung Raja Musa. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:39.7151651Z,0
+3.42106,101.30315,Daerah: Kuala Selangor<br>No:206<br>Hex coord:(15;11),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:40.9899930Z,0
+3.42884,101.31664,Daerah: Kuala Selangor<br>No:207<br>Hex coord:(16;11),Kuala Selangor. Kampung Raja Musa. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:42.7386293Z,0
+3.42106,101.33013,Daerah: Kuala Selangor<br>No:208<br>Hex coord:(17;11),Raja Musa Malay Reservation. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:44.6051257Z,0
+3.42884,101.34362,Daerah: Kuala Selangor<br>No:209<br>Hex coord:(18;11),Kuala Selangor. Kampung Raja Musa. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:46.3594726Z,0
+3.42106,101.35711,Daerah: Kuala Selangor<br>No:210<br>Hex coord:(19;11),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:48.1152445Z,0
+3.42884,101.3706,Daerah: Kuala Selangor<br>No:211<br>Hex coord:(20;11),Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:49.8406123Z,0
+3.42106,101.38409,Daerah: Kuala Selangor<br>No:212<br>Hex coord:(21;11),Kuala Selangor. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:51.5933464Z,0
+3.42884,101.39758,Daerah: Kuala Selangor<br>No:213<br>Hex coord:(22;11),Kuala Selangor. 45600 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:53.3308850Z,0
+3.42106,101.41107,Daerah: Kuala Selangor<br>No:214<br>Hex coord:(23;11),Kampung Rantau Panjang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:55.0806231Z,0
+3.42884,101.42456,Daerah: Kuala Selangor<br>No:215<br>Hex coord:(24;11),Kampung Rantau Panjang. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:56.8467047Z,0
+3.42106,101.43805,Daerah: Kuala Selangor<br>No:216<br>Hex coord:(25;11),UNISEL Bestari Jaya. Jalan Timur Tambahan. Kampung Rantau Panjang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:10:58.5563844Z,0
+3.42884,101.45154,Daerah: Kuala Selangor<br>No:217<br>Hex coord:(26;11),Kampung Rantau Panjang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:00.2900617Z,0
+3.41328,101.15476,Daerah: Kuala Selangor<br>No:218<br>Hex coord:(4;12),Taman Mahsuri. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:02.0293809Z,0
+3.4055,101.16825,Daerah: Kuala Selangor<br>No:219<br>Hex coord:(5;12),Taman Mahsuri. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:03.7370465Z,0
+3.41328,101.18174,Daerah: Kuala Selangor<br>No:220<br>Hex coord:(6;12),Taman Mahsuri. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:04.8826115Z,0
+3.4055,101.19523,Daerah: Kuala Selangor<br>No:221<br>Hex coord:(7;12),Ladang Banjar. Tanjung Karang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:06.6485903Z,0
+3.41328,101.20872,Daerah: Kuala Selangor<br>No:222<br>Hex coord:(8;12),Jalan Sungai Gulang-Gulang. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:07.7688555Z,0
+3.4055,101.22221,Daerah: Kuala Selangor<br>No:223<br>Hex coord:(9;12),Sungai Tunggol. Tanjung Karang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:09.4935102Z,0
+3.41328,101.2357,Daerah: Kuala Selangor<br>No:224<br>Hex coord:(10;12),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:10.6121619Z,0
+3.4055,101.24919,Daerah: Kuala Selangor<br>No:225<br>Hex coord:(11;12),Kuala Selangor Group of Estates. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:11.7356728Z,0
+3.41328,101.26268,Daerah: Kuala Selangor<br>No:226<br>Hex coord:(12;12),Jalan Raja Musa. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:12.8675220Z,0
+3.4055,101.27617,Daerah: Kuala Selangor<br>No:227<br>Hex coord:(13;12),Jalan Bukit Belimbing. Kampung Tanjong Keramat. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:14.7600166Z,0
+3.41328,101.28966,Daerah: Kuala Selangor<br>No:228<br>Hex coord:(14;12),Raja Musa Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:16.5026747Z,0
+3.4055,101.30315,Daerah: Kuala Selangor<br>No:229<br>Hex coord:(15;12),Jalan Kampung Lubuk Jaya. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:17.6264388Z,0
+3.41328,101.31664,Daerah: Kuala Selangor<br>No:230<br>Hex coord:(16;12),Masjid. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:19.3389821Z,0
+3.4055,101.33013,Daerah: Kuala Selangor<br>No:231<br>Hex coord:(17;12),Jalan Raja Musa. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:20.4676933Z,0
+3.41328,101.34362,Daerah: Kuala Selangor<br>No:232<br>Hex coord:(18;12),Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:22.2073583Z,0
+3.4055,101.35711,Daerah: Kuala Selangor<br>No:233<br>Hex coord:(19;12),Jalan Raja Musa. Kampung Sungai Darah. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:23.4881654Z,0
+3.41328,101.3706,Daerah: Kuala Selangor<br>No:234<br>Hex coord:(20;12),Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:25.2263267Z,0
+3.4055,101.38409,Daerah: Kuala Selangor<br>No:235<br>Hex coord:(21;12),Kuala Selangor. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:26.9763424Z,0
+3.41328,101.39758,Daerah: Kuala Selangor<br>No:236<br>Hex coord:(22;12),Kuala Selangor. 45600 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:28.7306105Z,0
+3.4055,101.41107,Daerah: Kuala Selangor<br>No:237<br>Hex coord:(23;12),Kampung Rantau Panjang. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:30.5996222Z,0
+3.41328,101.42456,Daerah: Kuala Selangor<br>No:238<br>Hex coord:(24;12),Kampung Rantau Panjang. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:32.4881033Z,0
+3.4055,101.43805,Daerah: Kuala Selangor<br>No:239<br>Hex coord:(25;12),Jalan Rantau Panjang Kiri. Kampung Rantau Panjang. Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:34.2052396Z,0
+3.41328,101.45154,Daerah: Kuala Selangor<br>No:240<br>Hex coord:(26;12),Kampung Rantau Panjang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:46.3650956Z,0
+3.39772,101.18174,Daerah: Kuala Selangor<br>No:241<br>Hex coord:(6;13),Desa Mawar Leisure Park. Tanjung Karang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:48.2583864Z,0
+3.38994,101.19523,Daerah: Kuala Selangor<br>No:242<br>Hex coord:(7;13),MiniMart & Restaurant. Tanjung Karang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:49.9657929Z,0
+3.39772,101.20872,Daerah: Kuala Selangor<br>No:243<br>Hex coord:(8;13),Ladang Nazirabad. Tanjung Karang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:51.0966716Z,0
+3.38994,101.22221,Daerah: Kuala Selangor<br>No:244<br>Hex coord:(9;13),Jalan Kuala Selangor-Teluk Intan. Taman Intan. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:52.8332600Z,0
+3.39772,101.2357,Daerah: Kuala Selangor<br>No:245<br>Hex coord:(10;13),Ladang Sungai Terap. Tanjung Karang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:54.5624782Z,0
+3.38994,101.24919,Daerah: Kuala Selangor<br>No:246<br>Hex coord:(11;13),Kampung Tanjong Keramat. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:56.5514086Z,0
+3.39772,101.26268,Daerah: Kuala Selangor<br>No:247<br>Hex coord:(12;13),West Coast Expressway. Taman Intan. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:57.6772768Z,0
+3.38994,101.27617,Daerah: Kuala Selangor<br>No:248<br>Hex coord:(13;13),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:11:59.5939206Z,0
+3.39772,101.28966,Daerah: Kuala Selangor<br>No:249<br>Hex coord:(14;13),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:01.3195064Z,0
+3.38994,101.30315,Daerah: Kuala Selangor<br>No:250<br>Hex coord:(15;13),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:03.0927905Z,0
+3.39772,101.31664,Daerah: Kuala Selangor<br>No:251<br>Hex coord:(16;13),Eng Hong Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:04.8591523Z,0
+3.38994,101.33013,Daerah: Kuala Selangor<br>No:252<br>Hex coord:(17;13),Sungai Selangor Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:06.8190889Z,0
+3.39772,101.34362,Daerah: Kuala Selangor<br>No:253<br>Hex coord:(18;13),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:08.5166975Z,0
+3.38994,101.35711,Daerah: Kuala Selangor<br>No:254<br>Hex coord:(19;13),Kuala Selangor. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:09.6346848Z,0
+3.39772,101.3706,Daerah: Kuala Selangor<br>No:255<br>Hex coord:(20;13),Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:10.7507213Z,0
+3.38994,101.38409,Daerah: Kuala Selangor<br>No:256<br>Hex coord:(21;13),Sungai Tebing Tinggi. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:12.5219195Z,0
+3.39772,101.39758,Daerah: Kuala Selangor<br>No:257<br>Hex coord:(22;13),Tennamaram Estate. Bestari Jaya. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:13.6471234Z,0
+3.38994,101.41107,Daerah: Kuala Selangor<br>No:258<br>Hex coord:(23;13),Jalan Raja Musa. Taman Seri Indah. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:15.4937021Z,0
+3.39772,101.42456,Daerah: Kuala Selangor<br>No:259<br>Hex coord:(24;13),HORAS 600 (Hybrid Off River Augmentation System). Jalan Timur Tambahan. Kampung Rantau Panjang. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:17.3400577Z,0
+3.38994,101.43805,Daerah: Kuala Selangor<br>No:260<br>Hex coord:(25;13),Kampung Sungai Darah. 45600 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:19.2387617Z,0
+3.38216,101.18174,Daerah: Kuala Selangor<br>No:261<br>Hex coord:(6;14),Kuala Selangor. Bagan Pasir. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:20.5172456Z,0
+3.37438,101.19523,Daerah: Kuala Selangor<br>No:262<br>Hex coord:(7;14),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:22.6893834Z,0
+3.38216,101.20872,Daerah: Kuala Selangor<br>No:263<br>Hex coord:(8;14),Taman Intan. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:24.5912471Z,0
+3.37438,101.22221,Daerah: Kuala Selangor<br>No:264<br>Hex coord:(9;14),Taman Intan. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:25.8778963Z,0
+3.38216,101.2357,Daerah: Kuala Selangor<br>No:265<br>Hex coord:(10;14),Rizab Melayu Ujong Permatang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:27.8193747Z,0
+3.37438,101.24919,Daerah: Kuala Selangor<br>No:266<br>Hex coord:(11;14),Taman Intan. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:29.6863406Z,0
+3.38216,101.26268,Daerah: Kuala Selangor<br>No:267<br>Hex coord:(12;14),Bukit Belimbing. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:31.4246518Z,0
+3.37438,101.27617,Daerah: Kuala Selangor<br>No:268<br>Hex coord:(13;14),Kampung Tanjong Keramat. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:33.1367398Z,0
+3.38216,101.28966,Daerah: Kuala Selangor<br>No:269<br>Hex coord:(14;14),Sungai Bukit Belimbing. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:34.8951821Z,0
+3.37438,101.30315,Daerah: Kuala Selangor<br>No:270<br>Hex coord:(15;14),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:36.7586893Z,0
+3.38216,101.31664,Daerah: Kuala Selangor<br>No:271<br>Hex coord:(16;14),Sungai Kampong Lubok. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:38.5208033Z,0
+3.37438,101.33013,Daerah: Kuala Selangor<br>No:272<br>Hex coord:(17;14),Tanjong Putus. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:39.6519235Z,0
+3.38216,101.34362,Daerah: Kuala Selangor<br>No:273<br>Hex coord:(18;14),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:41.3797690Z,0
+3.37438,101.35711,Daerah: Kuala Selangor<br>No:274<br>Hex coord:(19;14),Kuala Selangor. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:43.0681703Z,0
+3.38216,101.3706,Daerah: Kuala Selangor<br>No:275<br>Hex coord:(20;14),Tanjong Pasir Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:44.1916005Z,0
+3.37438,101.38409,Daerah: Kuala Selangor<br>No:276<br>Hex coord:(21;14),Taman Seri Indah. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:45.9207535Z,0
+3.38216,101.39758,Daerah: Kuala Selangor<br>No:277<br>Hex coord:(22;14),SMT Kuala Selangor. Jalan Seri Indah 2. Taman Seri Indah. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:47.6701192Z,0
+3.37438,101.41107,Daerah: Kuala Selangor<br>No:278<br>Hex coord:(23;14),Taman Seri Indah. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:48.8096821Z,0
+3.38216,101.42456,Daerah: Kuala Selangor<br>No:279<br>Hex coord:(24;14),sya. Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:49.9386239Z,0
+3.37438,101.43805,Daerah: Kuala Selangor<br>No:280<br>Hex coord:(25;14),Kampung Sungai Darah. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:51.6810677Z,0
+3.3666,101.18174,Daerah: Kuala Selangor<br>No:281<br>Hex coord:(6;15),Sungai Tunggol,0,0,0,0,0,0,1,2022-05-14T02:12:52.8151617Z,0
+3.35882,101.19523,Daerah: Kuala Selangor<br>No:282<br>Hex coord:(7;15),Sungai Pak Kalong,0,0,0,0,0,0,1,2022-05-14T02:12:54.5395026Z,0
+3.3666,101.20872,Daerah: Kuala Selangor<br>No:283<br>Hex coord:(8;15),Jalan Sungai Terap. Taman Intan. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:56.2321006Z,0
+3.35882,101.22221,Daerah: Kuala Selangor<br>No:284<br>Hex coord:(9;15),Sungai Ular. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:57.9771184Z,0
+3.3666,101.2357,Daerah: Kuala Selangor<br>No:285<br>Hex coord:(10;15),Cendol Durian Borhan. Jalan Kuala Selangor - Teluk Intan. 45000 Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:12:59.8686706Z,0
+3.35882,101.24919,Daerah: Kuala Selangor<br>No:286<br>Hex coord:(11;15),Jalan Kuala Selangor-Teluk Intan. Kampung Tanjong Keramat. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:01.0053329Z,0
+3.3666,101.26268,Daerah: Kuala Selangor<br>No:287<br>Hex coord:(12;15),Sungai Telok Penyamun. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:02.7050566Z,0
+3.35882,101.27617,Daerah: Kuala Selangor<br>No:288<br>Hex coord:(13;15),Kampung Teluk Penyamun. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:04.4249540Z,0
+3.3666,101.28966,Daerah: Kuala Selangor<br>No:289<br>Hex coord:(14;15),Kuala Selangor. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:05.5464095Z,0
+3.35882,101.30315,Daerah: Kuala Selangor<br>No:290<br>Hex coord:(15;15),Kuala Selangor. 45500. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:07.2905550Z,0
+3.3666,101.31664,Daerah: Kuala Selangor<br>No:291<br>Hex coord:(16;15),Tanjong Labak. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:09.0405301Z,0
+3.35882,101.33013,Daerah: Kuala Selangor<br>No:292<br>Hex coord:(17;15),Tanjong Putus. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:10.7736633Z,0
+3.3666,101.34362,Daerah: Kuala Selangor<br>No:293<br>Hex coord:(18;15),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:12.5064360Z,0
+3.35882,101.35711,Daerah: Kuala Selangor<br>No:294<br>Hex coord:(19;15),Kuala Selangor. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:14.2316645Z,0
+3.3666,101.3706,Daerah: Kuala Selangor<br>No:295<br>Hex coord:(20;15),Tanjong Rambai. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:15.9784030Z,0
+3.35882,101.38409,Daerah: Kuala Selangor<br>No:296<br>Hex coord:(21;15),Taman Seri Indah. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:17.7180097Z,0
+3.3666,101.39758,Daerah: Kuala Selangor<br>No:297<br>Hex coord:(22;15),Taman Seri Indah. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:19.4293050Z,0
+3.35882,101.41107,Daerah: Kuala Selangor<br>No:298<br>Hex coord:(23;15),Jalan Bukit Badong. Taman Ijok Jaya Seksyen 1. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:20.7129420Z,0
+3.3666,101.42456,Daerah: Kuala Selangor<br>No:299<br>Hex coord:(24;15),45600 Kampung Jaya Setia. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:22.4690977Z,0
+3.35882,101.43805,Daerah: Kuala Selangor<br>No:300<br>Hex coord:(25;15),Kampung Sungai Darah. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:23.6846582Z,0
+3.35104,101.20872,Daerah: Kuala Selangor<br>No:301<br>Hex coord:(8;16),Hutan Rizab Banjar Utara,0,0,0,0,0,0,1,2022-05-14T02:13:25.5668612Z,0
+3.34326,101.22221,Daerah: Kuala Selangor<br>No:302<br>Hex coord:(9;16),Kampung Tanjong Keramat. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:27.3227367Z,0
+3.35104,101.2357,Daerah: Kuala Selangor<br>No:303<br>Hex coord:(10;16),Kuala Selangor Fort. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:28.4451136Z,0
+3.34326,101.24919,Daerah: Kuala Selangor<br>No:304<br>Hex coord:(11;16),Taman Melawati. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:29.5899002Z,0
+3.35104,101.26268,Daerah: Kuala Selangor<br>No:305<br>Hex coord:(12;16),Kampung Sepakat. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:31.3268840Z,0
+3.34326,101.27617,Daerah: Kuala Selangor<br>No:306<br>Hex coord:(13;16),Kampung Sepakat. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:32.4599133Z,0
+3.35104,101.28966,Daerah: Kuala Selangor<br>No:307<br>Hex coord:(14;16),Jalan Rawang. Kampung Teluk Penyamun. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:34.2089831Z,0
+3.34326,101.30315,Daerah: Kuala Selangor<br>No:308<br>Hex coord:(15;16),Kampong Kuatan Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:35.9670565Z,0
+3.35104,101.31664,Daerah: Kuala Selangor<br>No:309<br>Hex coord:(16;16),Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:37.0919011Z,0
+3.34326,101.33013,Daerah: Kuala Selangor<br>No:310<br>Hex coord:(17;16),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:38.9946861Z,0
+3.35104,101.34362,Daerah: Kuala Selangor<br>No:311<br>Hex coord:(18;16),Kempsey Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:40.7145293Z,0
+3.34326,101.35711,Daerah: Kuala Selangor<br>No:312<br>Hex coord:(19;16),West Coast Expressway. Kampung Bukit Badong. 45500. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:42.4639938Z,0
+3.35104,101.3706,Daerah: Kuala Selangor<br>No:313<br>Hex coord:(20;16),Jany Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:44.1952128Z,0
+3.34326,101.38409,Daerah: Kuala Selangor<br>No:314<br>Hex coord:(21;16),Sungai Rawang. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:45.9682397Z,0
+3.35104,101.39758,Daerah: Kuala Selangor<br>No:315<br>Hex coord:(22;16),Jawa Selangor Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:47.7000486Z,0
+3.34326,101.41107,Daerah: Kuala Selangor<br>No:316<br>Hex coord:(23;16),Masjid Ar - Rahman. Jalan Bukit Badong. 46000 Bestari Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:49.4533329Z,0
+3.35104,101.42456,Daerah: Kuala Selangor<br>No:317<br>Hex coord:(24;16),Kampung Bukit Badong. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:51.2236840Z,0
+3.34326,101.43805,Daerah: Kuala Selangor<br>No:318<br>Hex coord:(25;16),Bukit Badong Water Treatment Plant. Jalan Warisan. Taman Ijok Jaya Seksyen 1. 48100. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:52.3573274Z,0
+3.33548,101.2357,Daerah: Kuala Selangor<br>No:319<br>Hex coord:(10;17),Kuala Selangor Nature Park. Jalan Kota. Taman Melawati. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:53.4855290Z,0
+3.3277,101.24919,Daerah: Kuala Selangor<br>No:320<br>Hex coord:(11;17),Jalan Kemajuan. Bandar Baharu Malawati. 45000 Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:54.6225106Z,0
+3.33548,101.26268,Daerah: Kuala Selangor<br>No:321<br>Hex coord:(12;17),Sea Lion Firefly Concept Hotel. 21 Jalan Seri Temenggung 3. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:55.7544638Z,0
+3.3277,101.27617,Daerah: Kuala Selangor<br>No:322<br>Hex coord:(13;17),森林餐厅 - Xing's Restaurant. 17 Jalan Medan Niaga 7. 45000 Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:57.5014622Z,0
+3.33548,101.28966,Daerah: Kuala Selangor<br>No:323<br>Hex coord:(14;17),Lapanutan Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:13:59.2431871Z,0
+3.3277,101.30315,Daerah: Kuala Selangor<br>No:324<br>Hex coord:(15;17),Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:00.9886931Z,0
+3.33548,101.31664,Daerah: Kuala Selangor<br>No:325<br>Hex coord:(16;17),Kuala Selangor Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:02.7891328Z,0
+3.3277,101.33013,Daerah: Kuala Selangor<br>No:326<br>Hex coord:(17;17),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:03.9020463Z,0
+3.33548,101.34362,Daerah: Kuala Selangor<br>No:327<br>Hex coord:(18;17),Rosevale Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:05.0425622Z,0
+3.3277,101.35711,Daerah: Kuala Selangor<br>No:328<br>Hex coord:(19;17),Kuala Selangor. 48100 Ijok. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:06.8003827Z,0
+3.33548,101.3706,Daerah: Kuala Selangor<br>No:329<br>Hex coord:(20;17),West Coast Expressway. Kampung Ijok. 45500. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:08.7343832Z,0
+3.3277,101.38409,Daerah: Kuala Selangor<br>No:330<br>Hex coord:(21;17),Jalan Saga. 45600 Kampung Masjid. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:10.6245230Z,0
+3.33548,101.39758,Daerah: Kuala Selangor<br>No:331<br>Hex coord:(22;17),Kampung Bukit Badong. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:12.3459446Z,0
+3.3277,101.41107,Daerah: Kuala Selangor<br>No:332<br>Hex coord:(23;17),Dewan Rafulin SK Bukit Badong. Batu 3 Jalan Bukit Badong. 45000 Kampung Masjid. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:14.0799647Z,0
+3.33548,101.42456,Daerah: Kuala Selangor<br>No:333<br>Hex coord:(24;17),Taman Ijok Jaya Seksyen 1. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:15.9936351Z,0
+3.3277,101.43805,Daerah: Kuala Selangor<br>No:334<br>Hex coord:(25;17),Hutan Simpan Bukit Badong. Kampung Masjid. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:17.8490749Z,0
+3.31992,101.26268,Daerah: Kuala Selangor<br>No:335<br>Hex coord:(12;18),Lorong M.U 3C. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:19.5775851Z,0
+3.31214,101.27617,Daerah: Kuala Selangor<br>No:336<br>Hex coord:(13;18),Assam Jawa. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:20.7122106Z,0
+3.31992,101.28966,Daerah: Kuala Selangor<br>No:337<br>Hex coord:(14;18),Assam Jawa. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:22.4743986Z,0
+3.31214,101.30315,Daerah: Kuala Selangor<br>No:338<br>Hex coord:(15;18),Bukit Rotan. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:24.2354414Z,0
+3.31992,101.31664,Daerah: Kuala Selangor<br>No:339<br>Hex coord:(16;18),Bukit Rotan. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:26.1543926Z,0
+3.31214,101.33013,Daerah: Kuala Selangor<br>No:340<br>Hex coord:(17;18),Shalimar Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:27.2974371Z,0
+3.31992,101.34362,Daerah: Kuala Selangor<br>No:341<br>Hex coord:(18;18),Kuala Selangor. 48100 Ijok. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:29.0312457Z,0
+3.31214,101.35711,Daerah: Kuala Selangor<br>No:342<br>Hex coord:(19;18),Bukit Rotan. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:30.7634608Z,0
+3.31992,101.3706,Daerah: Kuala Selangor<br>No:343<br>Hex coord:(20;18),Raja Ghiri Estate. Kampung Masjid. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:31.9011719Z,0
+3.31214,101.38409,Daerah: Kuala Selangor<br>No:344<br>Hex coord:(21;18),Kampung Ijok. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:33.8194556Z,0
+3.31992,101.39758,Daerah: Kuala Selangor<br>No:345<br>Hex coord:(22;18),Taman Ijok Jaya Seksyen 1. 45600. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:35.5071165Z,0
+3.31214,101.41107,Daerah: Kuala Selangor<br>No:346<br>Hex coord:(23;18),Taman Ijok Utama. Kampung Ijok. 48100 Kampung Masjid. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:37.2524254Z,0
+3.31992,101.42456,Daerah: Kuala Selangor<br>No:347<br>Hex coord:(24;18),Taman Ijok Jaya Seksyen 1. 48100. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:39.0174941Z,0
+3.30436,101.26268,Daerah: Kuala Selangor<br>No:348<br>Hex coord:(12;19),Sungai Banjar,0,0,0,0,0,0,1,2022-05-14T02:14:40.9223180Z,0
+3.29658,101.27617,Daerah: Kuala Selangor<br>No:349<br>Hex coord:(13;19),Assam Jawa. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:42.0452655Z,0
+3.30436,101.28966,Daerah: Kuala Selangor<br>No:350<br>Hex coord:(14;19),Assam Jawa. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:43.7947852Z,0
+3.29658,101.30315,Daerah: Kuala Selangor<br>No:351<br>Hex coord:(15;19),Kampung Api-Api. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:45.5351010Z,0
+3.30436,101.31664,Daerah: Kuala Selangor<br>No:352<br>Hex coord:(16;19),Bukit Rotan. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:47.3979869Z,0
+3.29658,101.33013,Daerah: Kuala Selangor<br>No:353<br>Hex coord:(17;19),Bukit Rotan. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:49.1282216Z,0
+3.30436,101.34362,Daerah: Kuala Selangor<br>No:354<br>Hex coord:(18;19),Jalan Kepong - Kuala Selangor. Assam Jawa. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:50.8501296Z,0
+3.29658,101.35711,Daerah: Kuala Selangor<br>No:355<br>Hex coord:(19;19),Kampung Masjid. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:52.5991430Z,0
+3.30436,101.3706,Daerah: Kuala Selangor<br>No:356<br>Hex coord:(20;19),Kampung Ijok. 45500. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:53.7264355Z,0
+3.29658,101.38409,Daerah: Kuala Selangor<br>No:357<br>Hex coord:(21;19),Woodlake Estate. Kampung Masjid. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:54.8445915Z,0
+3.30436,101.39758,Daerah: Kuala Selangor<br>No:358<br>Hex coord:(22;19),Taman Ijok Jaya Seksyen 1. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:56.5814608Z,0
+3.29658,101.41107,Daerah: Kuala Selangor<br>No:359<br>Hex coord:(23;19),Taman Ijok Jaya Seksyen 1. 45620. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:58.4377982Z,0
+3.30436,101.42456,Daerah: Kuala Selangor<br>No:360<br>Hex coord:(24;19),Jalan Kepong - Kuala Selangor. Taman Ijok Jaya Seksyen 1. 45620 Kampung Masjid. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:14:59.5989464Z,0
+3.29658,101.43805,Daerah: Kuala Selangor<br>No:361<br>Hex coord:(25;19),Kuala Selangor Chinese Cemetery. Kampung Masjid. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:01.4036043Z,0
+3.2888,101.28966,Daerah: Kuala Selangor<br>No:362<br>Hex coord:(14;20),Kampung Api-Api. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:02.5466260Z,0
+3.28102,101.30315,Daerah: Kuala Selangor<br>No:363<br>Hex coord:(15;20),Kampung Api-Api. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:04.2937732Z,0
+3.2888,101.31664,Daerah: Kuala Selangor<br>No:364<br>Hex coord:(16;20),Kampung Api-Api. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:05.4286835Z,0
+3.28102,101.33013,Daerah: Kuala Selangor<br>No:365<br>Hex coord:(17;20),Rothiemay Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:07.1809054Z,0
+3.2888,101.34362,Daerah: Kuala Selangor<br>No:366<br>Hex coord:(18;20),Parit Chabang. Jeram. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:08.9025241Z,0
+3.28102,101.35711,Daerah: Kuala Selangor<br>No:367<br>Hex coord:(19;20),Kampung Bukit Kuching. 45500. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:10.6682516Z,0
+3.2888,101.3706,Daerah: Kuala Selangor<br>No:368<br>Hex coord:(20;20),Kampung Ijok. 45500. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:12.4070176Z,0
+3.28102,101.38409,Daerah: Kuala Selangor<br>No:369<br>Hex coord:(21;20),Kampung Bukit Hijau. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:14.1631692Z,0
+3.2888,101.39758,Daerah: Kuala Selangor<br>No:370<br>Hex coord:(22;20),Plaza Tol Ijok. Kampung Masjid. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:15.9399970Z,0
+3.28102,101.41107,Daerah: Kuala Selangor<br>No:371<br>Hex coord:(23;20),Kuala Selangor. 48100 Ijok. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:17.0690191Z,0
+3.2888,101.42456,Daerah: Kuala Selangor<br>No:372<br>Hex coord:(24;20),Lebuhraya LATAR. Kampung Masjid. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:19.0343877Z,0
+3.28102,101.43805,Daerah: Kuala Selangor<br>No:373<br>Hex coord:(25;20),Bukit Mayong. Kampung Masjid. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:20.7707934Z,0
+3.2888,101.45154,Daerah: Kuala Selangor<br>No:374<br>Hex coord:(26;20),Kuala Selangor. 45620. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:22.6434709Z,0
+3.27324,101.28966,Daerah: Kuala Selangor<br>No:375<br>Hex coord:(14;21),Jalan pt 4. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:24.4181228Z,0
+3.26546,101.30315,Daerah: Kuala Selangor<br>No:376<br>Hex coord:(15;21),Kuala Sungai Buloh. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:26.1719142Z,0
+3.27324,101.31664,Daerah: Kuala Selangor<br>No:377<br>Hex coord:(16;21),Braunston Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:27.4658176Z,0
+3.26546,101.33013,Daerah: Kuala Selangor<br>No:378<br>Hex coord:(17;21),Parit Gajah. Jeram. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:29.1444750Z,0
+3.27324,101.34362,Daerah: Kuala Selangor<br>No:379<br>Hex coord:(18;21),Kampung Bukit Kuching. 45700 Jeram. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:30.9137947Z,0
+3.26546,101.35711,Daerah: Kuala Selangor<br>No:380<br>Hex coord:(19;21),Jalan Rizab Haji Ali 1. Jeram. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:32.0301850Z,0
+3.27324,101.3706,Daerah: Kuala Selangor<br>No:381<br>Hex coord:(20;21),Kampung Bukit Hijau. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:33.9529786Z,0
+3.26546,101.38409,Daerah: Kuala Selangor<br>No:382<br>Hex coord:(21;21),Bukit Cherakah Malay Reservation. Jeram. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:35.7035211Z,0
+3.27324,101.39758,Daerah: Kuala Selangor<br>No:383<br>Hex coord:(22;21),Kampung Bukit Hijau. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:37.4241695Z,0
+3.26546,101.41107,Daerah: Kuala Selangor<br>No:384<br>Hex coord:(23;21),Bukit Ijok Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:39.1831206Z,0
+3.27324,101.42456,Daerah: Kuala Selangor<br>No:385<br>Hex coord:(24;21),Kampung Ijok. 42300 Bandar Puncak Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:41.0579552Z,0
+3.26546,101.43805,Daerah: Kuala Selangor<br>No:386<br>Hex coord:(25;21),Kampung Bukit Hijau. 42300 Bandar Puncak Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:42.9529404Z,0
+3.27324,101.45154,Daerah: Kuala Selangor<br>No:387<br>Hex coord:(26;21),UPP PULP & PAPER (M) SDN BHD. Lot 225. Batang Berjuntai. 45620. Selangor. Jalan Kuala Selangor. Ijok. 45600 Bestari Jaya. Selangor Jalan Platinum. 45620 Rawang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:44.7099580Z,0
+3.26546,101.46503,Daerah: Kuala Selangor<br>No:388<br>Hex coord:(27;21),Tuan Mee Estate. Rawang. Gombak. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:46.5858071Z,0
+3.27324,101.47852,Daerah: Kuala Selangor<br>No:389<br>Hex coord:(28;21),Kuang West Toll Plaza. Rawang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:48.3408841Z,0
+3.26546,101.49201,Daerah: Kuala Selangor<br>No:390<br>Hex coord:(29;21),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:50.0764623Z,0
+3.2499,101.30315,Daerah: Kuala Selangor<br>No:391<br>Hex coord:(15;22),Jalan Tok Wahid. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:51.8127744Z,0
+3.25768,101.31664,Daerah: Kuala Selangor<br>No:392<br>Hex coord:(16;22),SJK (C) Chung Wah. Sasaran. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:53.5726633Z,0
+3.2499,101.33013,Daerah: Kuala Selangor<br>No:393<br>Hex coord:(17;22),Kenny Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:55.3019112Z,0
+3.25768,101.34362,Daerah: Kuala Selangor<br>No:394<br>Hex coord:(18;22),Kampung Bukit Kuching. 45700. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:57.0553970Z,0
+3.2499,101.35711,Daerah: Kuala Selangor<br>No:395<br>Hex coord:(19;22),Kampung Bukit Hijau. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:15:58.1795992Z,0
+3.25768,101.3706,Daerah: Kuala Selangor<br>No:396<br>Hex coord:(20;22),Jalan Rizab Zazuli. Jeram. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:00.0981251Z,0
+3.2499,101.38409,Daerah: Kuala Selangor<br>No:397<br>Hex coord:(21;22),Kampung Bukit Hijau. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:01.8399111Z,0
+3.25768,101.39758,Daerah: Kuala Selangor<br>No:398<br>Hex coord:(22;22),Kampung Bukit Hijau. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:03.5914887Z,0
+3.2499,101.41107,Daerah: Kuala Selangor<br>No:399<br>Hex coord:(23;22),Jalan Ambang Suria 16/13. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:05.3656112Z,0
+3.25768,101.42456,Daerah: Kuala Selangor<br>No:400<br>Hex coord:(24;22),Lorong Cindai - Jentayu. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:06.4985215Z,0
+3.2499,101.43805,Daerah: Kuala Selangor<br>No:401<br>Hex coord:(25;22),Kuala Selangor. 42300 Bandar Puncak Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:08.2543504Z,0
+3.25768,101.45154,Daerah: Kuala Selangor<br>No:402<br>Hex coord:(26;22),Jalan A.P. 2E/2. 42300 Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:10.1617147Z,0
+3.2499,101.46503,Daerah: Kuala Selangor<br>No:403<br>Hex coord:(27;22),Kuala Selangor. 45620. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:11.2885260Z,0
+3.25768,101.47852,Daerah: Kuala Selangor<br>No:404<br>Hex coord:(28;22),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:12.9970963Z,0
+3.2499,101.49201,Daerah: Kuala Selangor<br>No:405<br>Hex coord:(29;22),Kuala Selangor. 47000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:14.1120530Z,0
+3.23434,101.30315,Daerah: Kuala Selangor<br>No:406<br>Hex coord:(15;23),Bukit Jeram. 45000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:15.8292657Z,0
+3.24212,101.31664,Daerah: Kuala Selangor<br>No:407<br>Hex coord:(16;23),Bukit Jeram. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:17.5163435Z,0
+3.23434,101.33013,Daerah: Kuala Selangor<br>No:408<br>Hex coord:(17;23),Simpang Tiga. 45800. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:19.2815925Z,0
+3.24212,101.34362,Daerah: Kuala Selangor<br>No:409<br>Hex coord:(18;23),Bukit Jeram. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:21.0975706Z,0
+3.23434,101.35711,Daerah: Kuala Selangor<br>No:410<br>Hex coord:(19;23),Jalan Mat Sah Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:23.0058701Z,0
+3.24212,101.3706,Daerah: Kuala Selangor<br>No:411<br>Hex coord:(20;23),Jalan 1 Rizab Balai Raya. Kampung Bukit Hijau. Jeram. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:24.1758192Z,0
+3.23434,101.38409,Daerah: Kuala Selangor<br>No:412<br>Hex coord:(21;23),Bukit Cerakah. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:25.3214285Z,0
+3.24212,101.39758,Daerah: Kuala Selangor<br>No:413<br>Hex coord:(22;23),Kampung Bukit Hijau. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:26.4782264Z,0
+3.23434,101.41107,Daerah: Kuala Selangor<br>No:414<br>Hex coord:(23;23),Tadika Sayang Manja. 1 Jalan Alam Suria 16/24. 42300 Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:27.6168480Z,0
+3.24212,101.42456,Daerah: Kuala Selangor<br>No:415<br>Hex coord:(24;23),Residensi Warnasari 2. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:29.4100656Z,0
+3.23434,101.43805,Daerah: Kuala Selangor<br>No:416<br>Hex coord:(25;23),Kedai Serbaneka Nt Puncak Alam Jaya. 38 Jalan Puncak Alam Jaya 14. 42300 Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:31.1423912Z,0
+3.24212,101.45154,Daerah: Kuala Selangor<br>No:417<br>Hex coord:(26;23),Jalan Tiaj 2/3. Kuala Selangor. 42300 Bandar Puncak Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:32.8916212Z,0
+3.23434,101.46503,Daerah: Kuala Selangor<br>No:418<br>Hex coord:(27;23),Kuala Selangor. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:34.6431579Z,0
+3.24212,101.47852,Daerah: Kuala Selangor<br>No:419<br>Hex coord:(28;23),Bandar Seri Coalfields. 47000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:36.4008096Z,0
+3.23434,101.49201,Daerah: Kuala Selangor<br>No:420<br>Hex coord:(29;23),Kuala Selangor. 47000 Sungai Buloh. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:38.1094061Z,0
+3.22656,101.31664,Daerah: Kuala Selangor<br>No:421<br>Hex coord:(16;24),Bukit Jeram. 45800. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:39.8478794Z,0
+3.21878,101.33013,Daerah: Kuala Selangor<br>No:422<br>Hex coord:(17;24),Simpang Tiga. 45800. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:41.5585591Z,0
+3.22656,101.34362,Daerah: Kuala Selangor<br>No:423<br>Hex coord:(18;24),Simpang Tiga. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:43.2947193Z,0
+3.21878,101.35711,Daerah: Kuala Selangor<br>No:424<br>Hex coord:(19;24),Simpang Tiga. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:44.9927846Z,0
+3.22656,101.3706,Daerah: Kuala Selangor<br>No:425<br>Hex coord:(20;24),Kampung Bukit Hijau. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:46.7088217Z,0
+3.21878,101.38409,Daerah: Kuala Selangor<br>No:426<br>Hex coord:(21;24),Guernsey Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:48.4350005Z,0
+3.22656,101.39758,Daerah: Kuala Selangor<br>No:427<br>Hex coord:(22;24),Bukit Cerakah Trail. Kampung Bukit Hijau. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:50.1555710Z,0
+3.21878,101.41107,Daerah: Kuala Selangor<br>No:428<br>Hex coord:(23;24),Kampung Bukit Hijau. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:51.8582841Z,0
+3.22656,101.42456,Daerah: Kuala Selangor<br>No:429<br>Hex coord:(24;24),Lorong Naluri Sukma 8/24. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:53.6064080Z,0
+3.21878,101.43805,Daerah: Kuala Selangor<br>No:430<br>Hex coord:(25;24),Lorong Mahkota Impian 2/31. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:55.3916219Z,0
+3.22656,101.45154,Daerah: Kuala Selangor<br>No:431<br>Hex coord:(26;24),Laluan 1210. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:57.1394363Z,0
+3.21878,101.46503,Daerah: Kuala Selangor<br>No:432<br>Hex coord:(27;24),Eco Grandeur. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:58.2743328Z,0
+3.22656,101.47852,Daerah: Kuala Selangor<br>No:433<br>Hex coord:(28;24),Eco Grandeur. 42300 Bandar Puncak Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:16:59.9773814Z,0
+3.21878,101.49201,Daerah: Kuala Selangor<br>No:434<br>Hex coord:(29;24),Eco Grandeur. 42300 Bandar Puncak Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:01.7038325Z,0
+3.211,101.31664,Daerah: Kuala Selangor<br>No:435<br>Hex coord:(16;25),Sungai Sembilang. 45800. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:02.8441215Z,0
+3.20322,101.33013,Daerah: Kuala Selangor<br>No:436<br>Hex coord:(17;25),Sungai Sembilang. 45800. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:04.5633385Z,0
+3.211,101.34362,Daerah: Kuala Selangor<br>No:437<br>Hex coord:(18;25),Simpang Tiga. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:06.3041451Z,0
+3.20322,101.35711,Daerah: Kuala Selangor<br>No:438<br>Hex coord:(19;25),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:07.4300955Z,0
+3.211,101.3706,Daerah: Kuala Selangor<br>No:439<br>Hex coord:(20;25),Jalan Bukit Kerayong. Kampung Bukit Hijau. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:09.1492820Z,0
+3.20322,101.38409,Daerah: Kuala Selangor<br>No:440<br>Hex coord:(21;25),Bukit Cherakah Estate. Klang. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:10.8870711Z,0
+3.211,101.39758,Daerah: Kuala Selangor<br>No:441<br>Hex coord:(22;25),West Coast Expressway. Kampung Bukit Hijau. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:12.0065712Z,0
+3.20322,101.41107,Daerah: Kuala Selangor<br>No:442<br>Hex coord:(23;25),Kampung Bukit Hijau. 42300. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:13.1301607Z,0
+3.211,101.42456,Daerah: Kuala Selangor<br>No:443<br>Hex coord:(24;25),SMK Puncak Alam. Jalan Mahkota Impian 2/1. Kuala Selangor. 42300 Bandar Puncak Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:15.0511006Z,0
+3.20322,101.43805,Daerah: Kuala Selangor<br>No:444<br>Hex coord:(25;25),Qawwan. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:16.7598018Z,0
+3.211,101.45154,Daerah: Kuala Selangor<br>No:445<br>Hex coord:(26;25),Bulatan Akademik. Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:18.5082976Z,0
+3.20322,101.46503,Daerah: Kuala Selangor<br>No:446<br>Hex coord:(27;25),Persiaran Mokhtar Dahari. Sungai Buloh. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:20.2617298Z,0
+3.211,101.47852,Daerah: Kuala Selangor<br>No:447<br>Hex coord:(28;25),Jalan Seri Pagi 1. Bandar Saujana Utama. 47000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:21.4021541Z,0
+3.20322,101.49201,Daerah: Kuala Selangor<br>No:448<br>Hex coord:(29;25),Bandar Saujana Utama. 47000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:22.5394455Z,0
+3.19544,101.31664,Daerah: Kuala Selangor<br>No:449<br>Hex coord:(16;26),Jalan Sungai Sembilang. Sungai Sembilang. 45800. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:24.2766979Z,0
+3.18766,101.33013,Daerah: Kuala Selangor<br>No:450<br>Hex coord:(17;26),Athlone Estate. Kuala Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:25.3995442Z,0
+3.19544,101.34362,Daerah: Kuala Selangor<br>No:451<br>Hex coord:(18;26),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:27.1328933Z,0
+3.18766,101.35711,Daerah: Kuala Selangor<br>No:452<br>Hex coord:(19;26),Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:28.2506111Z,0
+3.19544,101.3706,Daerah: Kuala Selangor<br>No:453<br>Hex coord:(20;26),JSL Leachate Treatment Plant. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:30.0147107Z,0
+3.18766,101.38409,Daerah: Kuala Selangor<br>No:454<br>Hex coord:(21;26),Jalan Mohamed Ikram. Klang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:31.7443386Z,0
+3.19544,101.39758,Daerah: Kuala Selangor<br>No:455<br>Hex coord:(22;26),Jalan Bukit Kerayong. Klang. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:33.4732218Z,0
+3.19544,101.42456,Daerah: Kuala Selangor<br>No:456<br>Hex coord:(24;26),Kuala Selangor. 42300 Bandar Puncak Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:35.1769223Z,0
+3.19544,101.45154,Daerah: Kuala Selangor<br>No:457<br>Hex coord:(26;26),Jalan Kolej. 42300 Kuala Selangor. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:36.9221585Z,0
+3.19544,101.47852,Daerah: Kuala Selangor<br>No:458<br>Hex coord:(28;26),Bandar Saujana Utama. 47000. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:38.6657659Z,0
+3.18766,101.49201,Daerah: Kuala Selangor<br>No:459<br>Hex coord:(29;26),Water Balancing Tank. Persiaran Shorea. Elmina. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:40.5532647Z,0
+3.17988,101.31664,Daerah: Kuala Selangor<br>No:460<br>Hex coord:(16;27),KM 26 SK Tambak Jawa. 45800. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:42.2879712Z,0
+3.1721,101.33013,Daerah: Kuala Selangor<br>No:461<br>Hex coord:(17;27),Kampung Bagan Sungai Janggut. 45800. Selangor. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:44.1835574Z,0
+3.17988,101.34362,Daerah: Kuala Selangor<br>No:462<br>Hex coord:(18;27),SJK(T) Ladang Brafferton. Klang. Malaysia,0,0,0,0,0,0,1,2022-05-14T02:17:45.9527347Z,0
