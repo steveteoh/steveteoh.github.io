@@ -1,0 +1,642 @@
+lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,weeklydeaths,totaldeaths,weight,timestamp,reserved
+2.490301,102.1742571,Daerah: Melaka<br>No:1<br>Hex coord:(15;0),Taboh Naning. 78000. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:35:12.0180048Z,0
+2.474741,102.1742571,Daerah: Melaka<br>No:2<br>Hex coord:(15;1),Jalan Tanah Wakaf. Alor Gajah. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:12.8248926Z,0
+2.482521,102.1877916,Daerah: Melaka<br>No:3<br>Hex coord:(16;1),Taboh Naning. 73000. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:35:13.7033180Z,0
+2.474741,102.2013261,Daerah: Melaka<br>No:4<br>Hex coord:(17;1),Kemajuan Tanah Bukit Payong. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:14.5920791Z,0
+2.474741,102.3096019,Daerah: Melaka<br>No:5<br>Hex coord:(25;1),Bukit Datok Berjulang. Tampin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:15.4449516Z,0
+2.474741,102.3366708,Daerah: Melaka<br>No:6<br>Hex coord:(27;1),Ladang Leong Watt Hin. Tampin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:16.3016087Z,0
+2.482521,102.3502053,Daerah: Melaka<br>No:7<br>Hex coord:(28;1),Tampin. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:17.0637699Z,0
+2.474741,102.3637398,Daerah: Melaka<br>No:8<br>Hex coord:(29;1),Sungai Dua Estate. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:17.7764421Z,0
+2.482521,102.3772742,Daerah: Melaka<br>No:9<br>Hex coord:(30;1),Kampung On Lok. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:18.4775398Z,0
+2.474741,102.3908087,Daerah: Melaka<br>No:10<br>Hex coord:(31;1),Kampung On Lok. 73200. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:19.2179726Z,0
+2.459181,102.1201192,Daerah: Melaka<br>No:11<br>Hex coord:(11;2),Bukit Jelutong. Rembau. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:19.9541828Z,0
+2.459181,102.1471882,Daerah: Melaka<br>No:12<br>Hex coord:(13;2),Bukit Putus. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:20.6981299Z,0
+2.466961,102.1607226,Daerah: Melaka<br>No:13<br>Hex coord:(14;2),Bukit Dinding. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:21.5302831Z,0
+2.459181,102.1742571,Daerah: Melaka<br>No:14<br>Hex coord:(15;2),Bukit Gajah Mati. 76000 Alor Gajah. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:22.3242610Z,0
+2.466961,102.1877916,Daerah: Melaka<br>No:15<br>Hex coord:(16;2),Taboh Naning. 73000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:23.0477533Z,0
+2.459181,102.2013261,Daerah: Melaka<br>No:16<br>Hex coord:(17;2),Kampung Cerana Putih. 73000. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:35:23.8432196Z,0
+2.466961,102.2148605,Daerah: Melaka<br>No:17<br>Hex coord:(18;2),Ladang Merlimau Pegoh. Tampin. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:35:24.6834260Z,0
+2.459181,102.228395,Daerah: Melaka<br>No:18<br>Hex coord:(19;2),Bandar Satelit Sebang. 73000. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:35:25.3687873Z,0
+2.459181,102.255464,Daerah: Melaka<br>No:19<br>Hex coord:(21;2),Alor Gajah. 73000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:26.0751060Z,0
+2.459181,102.2825329,Daerah: Melaka<br>No:20<br>Hex coord:(23;2),Bukit Manis. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:26.7885406Z,0
+2.466961,102.2960674,Daerah: Melaka<br>No:21<br>Hex coord:(24;2),Tampin. Negeri Sembilan. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:27.5286813Z,0
+2.459181,102.3096019,Daerah: Melaka<br>No:22<br>Hex coord:(25;2),Alor Gajah. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:28.2192855Z,0
+2.466961,102.3231363,Daerah: Melaka<br>No:23<br>Hex coord:(26;2),Tebong. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:28.9166230Z,0
+2.459181,102.3366708,Daerah: Melaka<br>No:24<br>Hex coord:(27;2),Tebong. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:29.6128056Z,0
+2.466961,102.3502053,Daerah: Melaka<br>No:25<br>Hex coord:(28;2),Loh Gek Neo Estate. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:30.3306462Z,0
+2.459181,102.3637398,Daerah: Melaka<br>No:26<br>Hex coord:(29;2),Alor Gajah. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:31.0192438Z,0
+2.466961,102.3772742,Daerah: Melaka<br>No:27<br>Hex coord:(30;2),Kampung On Lok. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:31.7394551Z,0
+2.459181,102.3908087,Daerah: Melaka<br>No:28<br>Hex coord:(31;2),Kampung On Lok. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:32.5012329Z,0
+2.466961,102.4043432,Daerah: Melaka<br>No:29<br>Hex coord:(32;2),Bukit Sepuloh. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:33.1922409Z,0
+2.459181,102.4178777,Daerah: Melaka<br>No:30<br>Hex coord:(33;2),Batang Melaka. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:33.8846784Z,0
+2.466961,102.4314121,Daerah: Melaka<br>No:31<br>Hex coord:(34;2),Bukit Punggor. Tampin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:34.6333110Z,0
+2.443621,102.0659813,Daerah: Melaka<br>No:32<br>Hex coord:(7;3),Jeti Pengkalan Nelayan Kampung Telok Berembang. Kampung Telok Berembang. 78100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:35.4174144Z,0
+2.451401,102.0795158,Daerah: Melaka<br>No:33<br>Hex coord:(8;3),Sungai Siput. Lubok China. Rembau. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:35:36.1706687Z,0
+2.443621,102.0930503,Daerah: Melaka<br>No:34<br>Hex coord:(9;3),Sawah Padang Kuala. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:36.9371279Z,0
+2.451401,102.1065847,Daerah: Melaka<br>No:35<br>Hex coord:(10;3),Bukit Palas. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:37.6399315Z,0
+2.443621,102.1201192,Daerah: Melaka<br>No:36<br>Hex coord:(11;3),Solok Limau Nipis. 78100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:38.3375017Z,0
+2.451401,102.1336537,Daerah: Melaka<br>No:37<br>Hex coord:(12;3),Bukit Maling Maling. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:39.1229189Z,0
+2.443621,102.1471882,Daerah: Melaka<br>No:38<br>Hex coord:(13;3),Kemajuan Tanah Bukit Terbakar. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:39.8528537Z,0
+2.451401,102.1607226,Daerah: Melaka<br>No:39<br>Hex coord:(14;3),Ladang Melekek. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:40.5438920Z,0
+2.443621,102.1742571,Daerah: Melaka<br>No:40<br>Hex coord:(15;3),Ladang J.V dan A.H Keun. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:41.2965869Z,0
+2.451401,102.1877916,Daerah: Melaka<br>No:41<br>Hex coord:(16;3),Kampung Cerana Putih. 73000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:42.0788951Z,0
+2.443621,102.2013261,Daerah: Melaka<br>No:42<br>Hex coord:(17;3),Ladang Melaka. Alor Gajah. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:35:42.8202157Z,0
+2.451401,102.2148605,Daerah: Melaka<br>No:43<br>Hex coord:(18;3),Bukit Datok Bintang Kemarau. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:43.5460239Z,0
+2.443621,102.228395,Daerah: Melaka<br>No:44<br>Hex coord:(19;3),Bukit Sebang. Alor Gajah. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:35:44.3225883Z,0
+2.451401,102.2419295,Daerah: Melaka<br>No:45<br>Hex coord:(20;3),Jalan Kemuning. Tampin. Negeri Sembilan. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:45.0776866Z,0
+2.443621,102.255464,Daerah: Melaka<br>No:46<br>Hex coord:(21;3),Padang Sebang. 73000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:45.8208659Z,0
+2.451401,102.2689984,Daerah: Melaka<br>No:47<br>Hex coord:(22;3),Sungai Keru. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:46.5713794Z,0
+2.443621,102.2825329,Daerah: Melaka<br>No:48<br>Hex coord:(23;3),Jalan Kemuning. Kemuning. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:47.5406309Z,0
+2.451401,102.2960674,Daerah: Melaka<br>No:49<br>Hex coord:(24;3),Hutan Percha Police Station. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:48.2471117Z,0
+2.443621,102.3096019,Daerah: Melaka<br>No:50<br>Hex coord:(25;3),Sungai Tunjang. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:48.9888106Z,0
+2.451401,102.3231363,Daerah: Melaka<br>No:51<br>Hex coord:(26;3),Bukit Pantat Ulat. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:49.7332052Z,0
+2.443621,102.3366708,Daerah: Melaka<br>No:52<br>Hex coord:(27;3),Ladang Chin Poh. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:50.4689549Z,0
+2.451401,102.3502053,Daerah: Melaka<br>No:53<br>Hex coord:(28;3),Bukit Bangkong. Tampin. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:51.1816954Z,0
+2.443621,102.3637398,Daerah: Melaka<br>No:54<br>Hex coord:(29;3),Sungai Jus. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:51.9569060Z,0
+2.451401,102.3772742,Daerah: Melaka<br>No:55<br>Hex coord:(30;3),Ladang Tebong. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:52.6774603Z,0
+2.443621,102.3908087,Daerah: Melaka<br>No:56<br>Hex coord:(31;3),77000 Jasin. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:53.3573207Z,0
+2.451401,102.4043432,Daerah: Melaka<br>No:57<br>Hex coord:(32;3),Kampung On Lok. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:35:54.0595088Z,0
+2.443621,102.4178777,Daerah: Melaka<br>No:58<br>Hex coord:(33;3),77000 Jasin. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:54.7413166Z,0
+2.451401,102.4314121,Daerah: Melaka<br>No:59<br>Hex coord:(34;3),Bukit Bemban. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:55.4183076Z,0
+2.443621,102.4449466,Daerah: Melaka<br>No:60<br>Hex coord:(35;3),77000 Jasin. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:56.1024451Z,0
+2.443621,102.4720156,Daerah: Melaka<br>No:61<br>Hex coord:(37;3),Nyalas. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:56.7999761Z,0
+2.428061,102.0659813,Daerah: Melaka<br>No:62<br>Hex coord:(7;4),Tebing Tinggi. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:57.5663807Z,0
+2.435841,102.0795158,Daerah: Melaka<br>No:63<br>Hex coord:(8;4),Ladang Bahagian Home. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:58.2630191Z,0
+2.428061,102.0930503,Daerah: Melaka<br>No:64<br>Hex coord:(9;4),Ramuan China Kechil. 78100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:58.9489813Z,0
+2.435841,102.1065847,Daerah: Melaka<br>No:65<br>Hex coord:(10;4),Bukit Sendok. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:35:59.6357180Z,0
+2.428061,102.1201192,Daerah: Melaka<br>No:66<br>Hex coord:(11;4),Brisu. 78100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:00.3329340Z,0
+2.435841,102.1336537,Daerah: Melaka<br>No:67<br>Hex coord:(12;4),Masjid Brisu. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:01.0255729Z,0
+2.428061,102.1471882,Daerah: Melaka<br>No:68<br>Hex coord:(13;4),Brisu. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:01.7252326Z,0
+2.435841,102.1607226,Daerah: Melaka<br>No:69<br>Hex coord:(14;4),Kampung Cerana Putih. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:02.4688586Z,0
+2.428061,102.1742571,Daerah: Melaka<br>No:70<br>Hex coord:(15;4),Kampung Cerana Putih. 76000. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:36:03.1772380Z,0
+2.435841,102.1877916,Daerah: Melaka<br>No:71<br>Hex coord:(16;4),Kampung Cerana Putih. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:03.8654567Z,0
+2.428061,102.2013261,Daerah: Melaka<br>No:72<br>Hex coord:(17;4),Kampung Cerana Putih. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:04.5555931Z,0
+2.435841,102.2148605,Daerah: Melaka<br>No:73<br>Hex coord:(18;4),lot 1291 D’Amour Villa. 1291 1291 D’Amour Villa. Alor Gajah. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:05.2448791Z,0
+2.428061,102.228395,Daerah: Melaka<br>No:74<br>Hex coord:(19;4),lot 1291 D’Amour Villa. 1291 1291 D’Amour Villa. Alor Gajah. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:05.9429200Z,0
+2.435841,102.2419295,Daerah: Melaka<br>No:75<br>Hex coord:(20;4),Bukit Merchant. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:06.6417877Z,0
+2.428061,102.255464,Daerah: Melaka<br>No:76<br>Hex coord:(21;4),Padang Sebang. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:36:07.3987297Z,0
+2.435841,102.2689984,Daerah: Melaka<br>No:77<br>Hex coord:(22;4),Kemuning. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:08.1225231Z,0
+2.428061,102.2825329,Daerah: Melaka<br>No:78<br>Hex coord:(23;4),Ladang Kemuning. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:08.8731566Z,0
+2.435841,102.2960674,Daerah: Melaka<br>No:79<br>Hex coord:(24;4),Alor Gajah. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:09.5629407Z,0
+2.428061,102.3096019,Daerah: Melaka<br>No:80<br>Hex coord:(25;4),Ayer Pandan. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:10.2840714Z,0
+2.435841,102.3231363,Daerah: Melaka<br>No:81<br>Hex coord:(26;4),Ladang Tebong Lang. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:11.0041669Z,0
+2.428061,102.3366708,Daerah: Melaka<br>No:82<br>Hex coord:(27;4),Alor Gajah. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:11.7511235Z,0
+2.435841,102.3502053,Daerah: Melaka<br>No:83<br>Hex coord:(28;4),Sungai Mikut. Tampin. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:12.5337027Z,0
+2.428061,102.3637398,Daerah: Melaka<br>No:84<br>Hex coord:(29;4),77000 Jasin. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:13.2649045Z,0
+2.435841,102.3772742,Daerah: Melaka<br>No:85<br>Hex coord:(30;4),Jus Reservoir. Jalan Selandar - Batang Melaka. Tampin. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:14.0004998Z,0
+2.428061,102.3908087,Daerah: Melaka<br>No:86<br>Hex coord:(31;4),Jus Dam. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:14.7992159Z,0
+2.435841,102.4043432,Daerah: Melaka<br>No:87<br>Hex coord:(32;4),Sungai Ayer Jus. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:15.5443952Z,0
+2.428061,102.4178777,Daerah: Melaka<br>No:88<br>Hex coord:(33;4),Jalan Kampung Jus. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:16.3593296Z,0
+2.435841,102.4314121,Daerah: Melaka<br>No:89<br>Hex coord:(34;4),Anak Ayer Batu Buaya. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:17.1328364Z,0
+2.428061,102.4449466,Daerah: Melaka<br>No:90<br>Hex coord:(35;4),Jalan Gapis. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:17.9040095Z,0
+2.435841,102.4584811,Daerah: Melaka<br>No:91<br>Hex coord:(36;4),Jalan Gapis. Nyalas. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:18.6506123Z,0
+2.428061,102.4720156,Daerah: Melaka<br>No:92<br>Hex coord:(37;4),Nyalas. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:36:19.4718978Z,0
+2.435841,102.48555,Daerah: Melaka<br>No:93<br>Hex coord:(38;4),Bukit Takah Ladang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:20.2555993Z,0
+2.428061,102.4990845,Daerah: Melaka<br>No:94<br>Hex coord:(39;4),Masjid Baharu. 77100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:20.9845117Z,0
+2.435841,102.512619,Daerah: Melaka<br>No:95<br>Hex coord:(40;4),Bukit Lelong. Tampin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:21.7614440Z,0
+2.428061,102.5261535,Daerah: Melaka<br>No:96<br>Hex coord:(41;4),Tampin. 77100. Negeri Sembilan. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:22.5413042Z,0
+2.420281,102.0253779,Daerah: Melaka<br>No:97<br>Hex coord:(4;5),Alor Gajah. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:23.2523779Z,0
+2.412501,102.0389124,Daerah: Melaka<br>No:98<br>Hex coord:(5;5),Bukit Chempedak. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:23.9801605Z,0
+2.420281,102.0524468,Daerah: Melaka<br>No:99<br>Hex coord:(6;5),Tanjung Lubok Buntal. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:24.6814724Z,0
+2.412501,102.0659813,Daerah: Melaka<br>No:100<br>Hex coord:(7;5),Ramuan China Besar. 78100. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:36:25.4054853Z,0
+2.420281,102.0795158,Daerah: Melaka<br>No:101<br>Hex coord:(8;5),Ramuan China Kechil. 78100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:26.1360166Z,0
+2.412501,102.0930503,Daerah: Melaka<br>No:102<br>Hex coord:(9;5),Ladang Chong Kwang. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:26.9251766Z,0
+2.420281,102.1065847,Daerah: Melaka<br>No:103<br>Hex coord:(10;5),Ramuan China Kechil. 78100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:27.6417685Z,0
+2.412501,102.1201192,Daerah: Melaka<br>No:104<br>Hex coord:(11;5),Anak Ayer Batu. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:28.3853410Z,0
+2.420281,102.1336537,Daerah: Melaka<br>No:105<br>Hex coord:(12;5),Brisu. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:29.1202485Z,0
+2.412501,102.1471882,Daerah: Melaka<br>No:106<br>Hex coord:(13;5),Brisu. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:29.8259975Z,0
+2.420281,102.1607226,Daerah: Melaka<br>No:107<br>Hex coord:(14;5),Bukit Tempurung. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:30.5721266Z,0
+2.412501,102.1742571,Daerah: Melaka<br>No:108<br>Hex coord:(15;5),Ayer Pa'abas. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:31.3429188Z,0
+2.420281,102.1877916,Daerah: Melaka<br>No:109<br>Hex coord:(16;5),Ladang Merlimau Pegoh. Alor Gajah. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:36:32.0969438Z,0
+2.412501,102.2013261,Daerah: Melaka<br>No:110<br>Hex coord:(17;5),Alor Gajah. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:32.8480742Z,0
+2.420281,102.2148605,Daerah: Melaka<br>No:111<br>Hex coord:(18;5),Alor Gajah. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:33.5976475Z,0
+2.412501,102.228395,Daerah: Melaka<br>No:112<br>Hex coord:(19;5),Ladang Kemuning. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:34.3848840Z,0
+2.420281,102.2419295,Daerah: Melaka<br>No:113<br>Hex coord:(20;5),Padang Sebang. Alor Gajah. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:36:35.0935655Z,0
+2.412501,102.255464,Daerah: Melaka<br>No:114<br>Hex coord:(21;5),Loji Rawatan Air Gadek. Alor Gajah. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:35.8508656Z,0
+2.420281,102.2689984,Daerah: Melaka<br>No:115<br>Hex coord:(22;5),Ladang Tian Guan. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:36.6673940Z,0
+2.412501,102.2825329,Daerah: Melaka<br>No:116<br>Hex coord:(23;5),Anak Ayer Menggong. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:37.5085070Z,0
+2.420281,102.2960674,Daerah: Melaka<br>No:117<br>Hex coord:(24;5),FELDA Tun Ghaffar Menggong. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:38.2221077Z,0
+2.412501,102.3096019,Daerah: Melaka<br>No:118<br>Hex coord:(25;5),Kemajuan Tanah Menggong. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:39.0002176Z,0
+2.420281,102.3231363,Daerah: Melaka<br>No:119<br>Hex coord:(26;5),Sungai Batu Berkarat. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:39.7550424Z,0
+2.412501,102.3366708,Daerah: Melaka<br>No:120<br>Hex coord:(27;5),Ladang Hup Bee. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:40.4947034Z,0
+2.420281,102.3502053,Daerah: Melaka<br>No:121<br>Hex coord:(28;5),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:41.2342161Z,0
+2.412501,102.3637398,Daerah: Melaka<br>No:122<br>Hex coord:(29;5),Bukit Sedanan. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:42.0284416Z,0
+2.420281,102.3772742,Daerah: Melaka<br>No:123<br>Hex coord:(30;5),Jasin District. 77500 Selandar. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:42.7585617Z,0
+2.412501,102.3908087,Daerah: Melaka<br>No:124<br>Hex coord:(31;5),Sungai Ayer Dua. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:43.4942353Z,0
+2.420281,102.4043432,Daerah: Melaka<br>No:125<br>Hex coord:(32;5),Anak Ayer Batu Puteh. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:44.2211503Z,0
+2.412501,102.4178777,Daerah: Melaka<br>No:126<br>Hex coord:(33;5),Ladang Sarasvathi. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:44.9574755Z,0
+2.420281,102.4314121,Daerah: Melaka<br>No:127<br>Hex coord:(34;5),Bukit Batu Hampar. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:45.6975592Z,0
+2.412501,102.4449466,Daerah: Melaka<br>No:128<br>Hex coord:(35;5),Bukit Batu Lebar. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:46.4380901Z,0
+2.420281,102.4584811,Daerah: Melaka<br>No:129<br>Hex coord:(36;5),Jalan Felda Bukit Senggeh. FELDA Tun Ghaffar Bukit Senggeh. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:47.2471734Z,0
+2.412501,102.4720156,Daerah: Melaka<br>No:130<br>Hex coord:(37;5),Ladang Nyalas. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:47.9687940Z,0
+2.420281,102.48555,Daerah: Melaka<br>No:131<br>Hex coord:(38;5),Masjid Baharu. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:48.7049566Z,0
+2.412501,102.4990845,Daerah: Melaka<br>No:132<br>Hex coord:(39;5),Sungai Meriang Kiri. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:49.4834925Z,0
+2.420281,102.512619,Daerah: Melaka<br>No:133<br>Hex coord:(40;5),Masjid Baharu. 77100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:50.1937115Z,0
+2.412501,102.5261535,Daerah: Melaka<br>No:134<br>Hex coord:(41;5),Ladang Bukit Asahan. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:50.9305747Z,0
+2.420281,102.5396879,Daerah: Melaka<br>No:135<br>Hex coord:(42;5),Jasin District. 77100 Bukit Asahan. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:51.6539997Z,0
+2.412501,102.5532224,Daerah: Melaka<br>No:136<br>Hex coord:(43;5),Jasin District. 77100 Bukit Asahan. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:52.4395421Z,0
+2.412501,102.5802914,Daerah: Melaka<br>No:137<br>Hex coord:(45;5),Jalan Asahan-Jementah. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:53.1662681Z,0
+2.396941,101.9847745,Daerah: Melaka<br>No:138<br>Hex coord:(1;6),Sungai Teruntun. Port Dickson. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:53.8964558Z,0
+2.396941,102.0118434,Daerah: Melaka<br>No:139<br>Hex coord:(3;6),Kampung Ayer Molek. 78200. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:54.6111549Z,0
+2.404721,102.0253779,Daerah: Melaka<br>No:140<br>Hex coord:(4;6),Alor Gajah. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:55.3599432Z,0
+2.396941,102.0389124,Daerah: Melaka<br>No:141<br>Hex coord:(5;6),Ladang Soon Hock San. Kuala Sungai Baru,0,0,0,0,0,0,1,2022-07-12T20:36:56.0811272Z,0
+2.404721,102.0524468,Daerah: Melaka<br>No:142<br>Hex coord:(6;6),Kemajuan Tanah Lubok Buntar. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:56.8170246Z,0
+2.396941,102.0659813,Daerah: Melaka<br>No:143<br>Hex coord:(7;6),Sin Mah Multifeed Farm. Kuala Sungai Baru,0,0,0,0,0,0,1,2022-07-12T20:36:57.6258475Z,0
+2.404721,102.0795158,Daerah: Melaka<br>No:144<br>Hex coord:(8;6),Masjid Kg Ramuan China Besar. Masjid Tanah. Alor Gajah. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:36:58.3595201Z,0
+2.396941,102.0930503,Daerah: Melaka<br>No:145<br>Hex coord:(9;6),Taman Datuk Setia. 78100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:59.0797805Z,0
+2.404721,102.1065847,Daerah: Melaka<br>No:146<br>Hex coord:(10;6),Solok Limau Nipis. 78100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:36:59.8203250Z,0
+2.396941,102.1201192,Daerah: Melaka<br>No:147<br>Hex coord:(11;6),Solok Limau Nipis. 76000. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:37:00.5554550Z,0
+2.404721,102.1336537,Daerah: Melaka<br>No:148<br>Hex coord:(12;6),Bukit Telok. Masjid Tanah. Alor Gajah. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:37:01.2591036Z,0
+2.396941,102.1471882,Daerah: Melaka<br>No:149<br>Hex coord:(13;6),Ayer Pa'abas. 76000. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:37:02.0595971Z,0
+2.404721,102.1607226,Daerah: Melaka<br>No:150<br>Hex coord:(14;6),Maktab Rendah Sains Mara Alor Gajah. 78000 Alor Gajah. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:02.7679742Z,0
+2.396941,102.1742571,Daerah: Melaka<br>No:151<br>Hex coord:(15;6),Ayer Pa'abas. 76000. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:37:03.5080395Z,0
+2.404721,102.1877916,Daerah: Melaka<br>No:152<br>Hex coord:(16;6),Bukit Busok. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:04.2548816Z,0
+2.396941,102.2013261,Daerah: Melaka<br>No:153<br>Hex coord:(17;6),Hospital Alor Gajah. 19. Pengkalan. 78000. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:37:05.0026697Z,0
+2.404721,102.2148605,Daerah: Melaka<br>No:154<br>Hex coord:(18;6),a famosa resort hotel. Jalan Alor Gajah–Tampin. Alor Gajah. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:05.7479103Z,0
+2.396941,102.228395,Daerah: Melaka<br>No:155<br>Hex coord:(19;6),Ladang Lian Hin. Alor Gajah. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:37:06.4779350Z,0
+2.404721,102.2419295,Daerah: Melaka<br>No:156<br>Hex coord:(20;6),Gadek. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:37:07.2557368Z,0
+2.396941,102.255464,Daerah: Melaka<br>No:157<br>Hex coord:(21;6),Gadek. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:07.9658161Z,0
+2.404721,102.2689984,Daerah: Melaka<br>No:158<br>Hex coord:(22;6),Sungai Batang Melaka. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:08.6876792Z,0
+2.396941,102.2825329,Daerah: Melaka<br>No:159<br>Hex coord:(23;6),Ladang Melaka Pindah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:09.4441405Z,0
+2.404721,102.2960674,Daerah: Melaka<br>No:160<br>Hex coord:(24;6),Alor Gajah. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:10.1597354Z,0
+2.396941,102.3096019,Daerah: Melaka<br>No:161<br>Hex coord:(25;6),Ladang Ong Hing Tiang. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:10.8828819Z,0
+2.404721,102.3231363,Daerah: Melaka<br>No:162<br>Hex coord:(26;6),Bukit Batu Berkarat. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:11.6224466Z,0
+2.396941,102.3366708,Daerah: Melaka<br>No:163<br>Hex coord:(27;6),Ladang Ong Hing Tiang. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:12.3973222Z,0
+2.404721,102.3502053,Daerah: Melaka<br>No:164<br>Hex coord:(28;6),Jasin District. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:13.1858661Z,0
+2.396941,102.3637398,Daerah: Melaka<br>No:165<br>Hex coord:(29;6),Jasin District. 77500 Selandar. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:13.9172078Z,0
+2.404721,102.3772742,Daerah: Melaka<br>No:166<br>Hex coord:(30;6),Jasin District. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:16.8520675Z,0
+2.396941,102.3908087,Daerah: Melaka<br>No:167<br>Hex coord:(31;6),Song Han Enterprise Sdn Bhd. Jalan Iks S 2/5. 77500 Jasin. Melaka Jalan IKS S 2/5. 77500 Jasin. Melaka. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:37:17.8086178Z,0
+2.404721,102.4043432,Daerah: Melaka<br>No:168<br>Hex coord:(32;6),Jasin District. 77500. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:37:18.6356584Z,0
+2.396941,102.4178777,Daerah: Melaka<br>No:169<br>Hex coord:(33;6),Jasin District. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:19.4273879Z,0
+2.404721,102.4314121,Daerah: Melaka<br>No:170<br>Hex coord:(34;6),Jasin District. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:20.2890612Z,0
+2.396941,102.4449466,Daerah: Melaka<br>No:171<br>Hex coord:(35;6),Bukit Batu Asahan. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:21.3697131Z,0
+2.404721,102.4584811,Daerah: Melaka<br>No:172<br>Hex coord:(36;6),Jalan Felda Bukit Senggeh. FELDA Tun Ghaffar Bukit Senggeh. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:22.4877731Z,0
+2.396941,102.4720156,Daerah: Melaka<br>No:173<br>Hex coord:(37;6),FELDA Tun Ghaffar Bukit Senggeh. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:23.2576029Z,0
+2.404721,102.48555,Daerah: Melaka<br>No:174<br>Hex coord:(38;6),Masjid Baharu. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:24.0606047Z,0
+2.396941,102.4990845,Daerah: Melaka<br>No:175<br>Hex coord:(39;6),Bekoh Estate Nyalas Division. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:24.7884474Z,0
+2.404721,102.512619,Daerah: Melaka<br>No:176<br>Hex coord:(40;6),Bukit Bulat. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:25.5217438Z,0
+2.396941,102.5261535,Daerah: Melaka<br>No:177<br>Hex coord:(41;6),Jasin District. 77100 Bukit Asahan. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:26.2385951Z,0
+2.404721,102.5396879,Daerah: Melaka<br>No:178<br>Hex coord:(42;6),Ladang Melaka Bukit Asahan. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:27.0320545Z,0
+2.396941,102.5532224,Daerah: Melaka<br>No:179<br>Hex coord:(43;6),Kampung Maju Pondok Batang. 77100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:27.7612970Z,0
+2.404721,102.5667569,Daerah: Melaka<br>No:180<br>Hex coord:(44;6),Kampung Maju Pondok Batang. 77100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:28.4944683Z,0
+2.381381,101.9847745,Daerah: Melaka<br>No:181<br>Hex coord:(1;7),Bukit Batu Puteh. Kuala Sungai Baru,0,0,0,0,0,0,1,2022-07-12T20:37:29.2363662Z,0
+2.389161,101.9983089,Daerah: Melaka<br>No:182<br>Hex coord:(2;7),Taman Kuala Permai. 78200. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:29.9937488Z,0
+2.381381,102.0118434,Daerah: Melaka<br>No:183<br>Hex coord:(3;7),Taman Kuala Permai. 78200. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:30.7255178Z,0
+2.389161,102.0253779,Daerah: Melaka<br>No:184<br>Hex coord:(4;7),Kampung Ayer Molek. 78200. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:31.4494898Z,0
+2.381381,102.0389124,Daerah: Melaka<br>No:185<br>Hex coord:(5;7),Taman Rebana Jernih. 78200 Kuala Sungai Baru. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:37:32.2227389Z,0
+2.389161,102.0524468,Daerah: Melaka<br>No:186<br>Hex coord:(6;7),Ladang Hup Choon. Kuala Sungai Baru,0,0,0,0,0,0,1,2022-07-12T20:37:32.9768156Z,0
+2.381381,102.0659813,Daerah: Melaka<br>No:187<br>Hex coord:(7;7),Paya Merbau. Kuala Sungai Baru,0,0,0,0,0,0,1,2022-07-12T20:37:33.7365634Z,0
+2.389161,102.0795158,Daerah: Melaka<br>No:188<br>Hex coord:(8;7),Ramuan China Besar. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:34.5077616Z,0
+2.381381,102.0930503,Daerah: Melaka<br>No:189<br>Hex coord:(9;7),Bukit Keledang. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:35.2562595Z,0
+2.389161,102.1065847,Daerah: Melaka<br>No:190<br>Hex coord:(10;7),Ladang Sungai Baharu. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:36.0166379Z,0
+2.381381,102.1201192,Daerah: Melaka<br>No:191<br>Hex coord:(11;7),Keramat Batu Hitam. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:36.7383843Z,0
+2.389161,102.1336537,Daerah: Melaka<br>No:192<br>Hex coord:(12;7),Solok Limau Nipis. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:37.5234814Z,0
+2.381381,102.1471882,Daerah: Melaka<br>No:193<br>Hex coord:(13;7),Bukit Putus. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:38.2396690Z,0
+2.389161,102.1607226,Daerah: Melaka<br>No:194<br>Hex coord:(14;7),Ayer Pa'abas. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:39.1226697Z,0
+2.381381,102.1742571,Daerah: Melaka<br>No:195<br>Hex coord:(15;7),Ayer Pa'abas. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:39.8579032Z,0
+2.389161,102.1877916,Daerah: Melaka<br>No:196<br>Hex coord:(16;7),Kem Permata Resort. Lebuh AMJ. Pengkalan. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:40.5879763Z,0
+2.381381,102.2013261,Daerah: Melaka<br>No:197<br>Hex coord:(17;7),Pengkalan. 76100. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:37:41.3346282Z,0
+2.389161,102.2148605,Daerah: Melaka<br>No:198<br>Hex coord:(18;7),The Opegoh. Alor Gajah. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:37:42.1108409Z,0
+2.381381,102.228395,Daerah: Melaka<br>No:199<br>Hex coord:(19;7),Ladang Joo Hin. Alor Gajah. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:37:42.8575635Z,0
+2.389161,102.2419295,Daerah: Melaka<br>No:200<br>Hex coord:(20;7),Ladang Tiang Guan. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:43.5802991Z,0
+2.381381,102.255464,Daerah: Melaka<br>No:201<br>Hex coord:(21;7),Panchor. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:44.3049065Z,0
+2.389161,102.2689984,Daerah: Melaka<br>No:202<br>Hex coord:(22;7),Ladang Syarikat Berhad Melaka Bersatu. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:45.0644946Z,0
+2.381381,102.2825329,Daerah: Melaka<br>No:203<br>Hex coord:(23;7),Panchor. 76100. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:37:45.8038790Z,0
+2.389161,102.2960674,Daerah: Melaka<br>No:204<br>Hex coord:(24;7),Alor Gajah. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:46.5198698Z,0
+2.381381,102.3096019,Daerah: Melaka<br>No:205<br>Hex coord:(25;7),Anak Ayer Siput. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:47.3090504Z,0
+2.389161,102.3231363,Daerah: Melaka<br>No:206<br>Hex coord:(26;7),Ladang Melaka Bersatu Berhad. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:48.0614895Z,0
+2.381381,102.3366708,Daerah: Melaka<br>No:207<br>Hex coord:(27;7),Machap. 77500. Malacca. Malaysia,8,0,0,0,0,0,1,2022-07-12T20:37:48.7882473Z,0
+2.389161,102.3502053,Daerah: Melaka<br>No:208<br>Hex coord:(28;7),Jasin District. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:49.5020162Z,0
+2.381381,102.3637398,Daerah: Melaka<br>No:209<br>Hex coord:(29;7),Jasin District. 77500. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:37:50.2088687Z,0
+2.389161,102.3772742,Daerah: Melaka<br>No:210<br>Hex coord:(30;7),Selandar Police Station. Jasin. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:50.9532413Z,0
+2.381381,102.3908087,Daerah: Melaka<br>No:211<br>Hex coord:(31;7),Jalan Bakti. 77500 Jasin. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:51.6736221Z,0
+2.389161,102.4043432,Daerah: Melaka<br>No:212<br>Hex coord:(32;7),Bukit Seraya. Jasin. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:37:52.4538762Z,0
+2.381381,102.4178777,Daerah: Melaka<br>No:213<br>Hex coord:(33;7),Jasin District. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:53.1809606Z,0
+2.389161,102.4314121,Daerah: Melaka<br>No:214<br>Hex coord:(34;7),Sawah Ulu Rejang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:53.9072898Z,0
+2.381381,102.4449466,Daerah: Melaka<br>No:215<br>Hex coord:(35;7),Bukit Batu Tiga. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:54.6365961Z,0
+2.389161,102.4584811,Daerah: Melaka<br>No:216<br>Hex coord:(36;7),FELDA Tun Ghaffar Bukit Senggeh. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:55.3550543Z,0
+2.381381,102.4720156,Daerah: Melaka<br>No:217<br>Hex coord:(37;7),Sungai Paya Lebar. Jasin. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:37:56.0997925Z,0
+2.389161,102.48555,Daerah: Melaka<br>No:218<br>Hex coord:(38;7),Kemajuan Tanah Bukit Senggeh. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:56.8848130Z,0
+2.381381,102.4990845,Daerah: Melaka<br>No:219<br>Hex coord:(39;7),Kampung Maju Pondok Batang. 77100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:57.6799252Z,0
+2.389161,102.512619,Daerah: Melaka<br>No:220<br>Hex coord:(40;7),Kampung Maju Pondok Batang. 77100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:58.4349408Z,0
+2.381381,102.5261535,Daerah: Melaka<br>No:221<br>Hex coord:(41;7),Jalan Sialang. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:37:59.1899791Z,0
+2.373601,101.9983089,Daerah: Melaka<br>No:222<br>Hex coord:(2;8),Jalan Kuala Permai 2. Taman Kuala Permai. 78200 Kuala Sungai Baru. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:37:59.9187499Z,0
+2.373601,102.0253779,Daerah: Melaka<br>No:223<br>Hex coord:(4;8),Kampung Man Lok. 78200. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:00.6310136Z,0
+2.365821,102.0389124,Daerah: Melaka<br>No:224<br>Hex coord:(5;8),M161. Kampung Man Lok. 78200 Kuala Sungai Baru. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:01.3374458Z,0
+2.373601,102.0524468,Daerah: Melaka<br>No:225<br>Hex coord:(6;8),Kampung Man Lok. 78200. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:02.1219548Z,0
+2.365821,102.0659813,Daerah: Melaka<br>No:226<br>Hex coord:(7;8),Kampung Ayer Molek. 78200. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:38:02.8988111Z,0
+2.373601,102.0795158,Daerah: Melaka<br>No:227<br>Hex coord:(8;8),Ladang Sungei Baru. 783400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:03.6155997Z,0
+2.365821,102.0930503,Daerah: Melaka<br>No:228<br>Hex coord:(9;8),Jalan Tok Talib. Kampung Lekok. 783400. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:38:04.3873217Z,0
+2.373601,102.1065847,Daerah: Melaka<br>No:229<br>Hex coord:(10;8),Kampung Lekok. 783400. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:38:05.1086548Z,0
+2.365821,102.1201192,Daerah: Melaka<br>No:230<br>Hex coord:(11;8),Kampung Lekok. 783400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:05.8468593Z,0
+2.373601,102.1336537,Daerah: Melaka<br>No:231<br>Hex coord:(12;8),Tan Jin Ann Estate. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:06.5977368Z,0
+2.365821,102.1471882,Daerah: Melaka<br>No:232<br>Hex coord:(13;8),Kampung Lekok. 783400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:07.4521737Z,0
+2.373601,102.1607226,Daerah: Melaka<br>No:233<br>Hex coord:(14;8),Ayer Pa'abas. 76000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:08.1883647Z,0
+2.365821,102.1742571,Daerah: Melaka<br>No:234<br>Hex coord:(15;8),Surau Al-Falah Lendu Hilir. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:08.9101522Z,0
+2.373601,102.1877916,Daerah: Melaka<br>No:235<br>Hex coord:(16;8),Kemuning Estate Rumbia Division. 78000. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:38:09.6259102Z,0
+2.365821,102.2013261,Daerah: Melaka<br>No:236<br>Hex coord:(17;8),Pengkalan. 78000. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:38:10.3582480Z,0
+2.373601,102.2148605,Daerah: Melaka<br>No:237<br>Hex coord:(18;8),Tali Ayer Ulu Kelemak. Alor Gajah. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:38:11.0858412Z,0
+2.365821,102.228395,Daerah: Melaka<br>No:238<br>Hex coord:(19;8),Ladang Soon Lee. Alor Gajah. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:38:11.8195482Z,0
+2.373601,102.2419295,Daerah: Melaka<br>No:239<br>Hex coord:(20;8),Melaka Pindah. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:12.7473139Z,0
+2.365821,102.255464,Daerah: Melaka<br>No:240<br>Hex coord:(21;8),Bukit Panchor. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:13.4995669Z,0
+2.373601,102.2689984,Daerah: Melaka<br>No:241<br>Hex coord:(22;8),Panchor. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:14.2352587Z,0
+2.365821,102.2825329,Daerah: Melaka<br>No:242<br>Hex coord:(23;8),United Melaka Rubber Estates. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:14.9732023Z,0
+2.373601,102.2960674,Daerah: Melaka<br>No:243<br>Hex coord:(24;8),Syarikat Tong Bee Chan. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:15.7119311Z,0
+2.365821,102.3096019,Daerah: Melaka<br>No:244<br>Hex coord:(25;8),Syarikat Lian Hwa Melaka. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:16.4499108Z,0
+2.373601,102.3231363,Daerah: Melaka<br>No:245<br>Hex coord:(26;8),Sungai Anak Ayer Siput. Malacca. Melaka Tengah. Malaysia,7,0,0,0,0,0,1,2022-07-12T20:38:17.2455870Z,0
+2.365821,102.3366708,Daerah: Melaka<br>No:246<br>Hex coord:(27;8),Anak Ayer Tengah. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:17.9701467Z,0
+2.373601,102.3502053,Daerah: Melaka<br>No:247<br>Hex coord:(28;8),Machap. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:18.6996805Z,0
+2.365821,102.3637398,Daerah: Melaka<br>No:248<br>Hex coord:(29;8),Ladang Soon Hoe. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:19.4860529Z,0
+2.373601,102.3772742,Daerah: Melaka<br>No:249<br>Hex coord:(30;8),Sungai Ayer Mentangor. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:20.2889338Z,0
+2.365821,102.3908087,Daerah: Melaka<br>No:250<br>Hex coord:(31;8),Jasin District. 77500 Selandar. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:21.1273267Z,0
+2.373601,102.4043432,Daerah: Melaka<br>No:251<br>Hex coord:(32;8),Jasin District. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:22.0121834Z,0
+2.365821,102.4178777,Daerah: Melaka<br>No:252<br>Hex coord:(33;8),Jalan Bukit Langsat. Jasin District. 77500. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:22.8610432Z,0
+2.373601,102.4314121,Daerah: Melaka<br>No:253<br>Hex coord:(34;8),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:23.7009072Z,0
+2.365821,102.4449466,Daerah: Melaka<br>No:254<br>Hex coord:(35;8),Jalan Bukit Langsat. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:24.4764765Z,0
+2.373601,102.4584811,Daerah: Melaka<br>No:255<br>Hex coord:(36;8),Sungai Batu Tiga. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:25.2915995Z,0
+2.365821,102.4720156,Daerah: Melaka<br>No:256<br>Hex coord:(37;8),Jalan Bukit Langsat. Simpang Bekoh. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:26.1066288Z,0
+2.373601,102.48555,Daerah: Melaka<br>No:257<br>Hex coord:(38;8),Sungai Paya Lebar. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:27.0738137Z,0
+2.365821,102.4990845,Daerah: Melaka<br>No:258<br>Hex coord:(39;8),Simpang Bekoh. 77100. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:38:27.9638921Z,0
+2.373601,102.512619,Daerah: Melaka<br>No:259<br>Hex coord:(40;8),Bukit Bendera. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:28.7274612Z,0
+2.365821,102.5261535,Daerah: Melaka<br>No:260<br>Hex coord:(41;8),Jalan Sialang. Simpang Bekoh. 77100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:29.5136674Z,0
+2.350261,102.0389124,Daerah: Melaka<br>No:261<br>Hex coord:(5;9),Kampung Man Lok. 78200. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:30.2605289Z,0
+2.358041,102.0524468,Daerah: Melaka<br>No:262<br>Hex coord:(6;9),Jalan Perkampungan Nelayan 1. Perkampungan Nelayan Negeri Melaka. 78200. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:31.0107011Z,0
+2.350261,102.0659813,Daerah: Melaka<br>No:263<br>Hex coord:(7;9),Kampung Baru Paya Mengkuang. 78300. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:38:31.7484366Z,0
+2.358041,102.0795158,Daerah: Melaka<br>No:264<br>Hex coord:(8;9),Bukit Lintang. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:32.5639610Z,0
+2.350261,102.0930503,Daerah: Melaka<br>No:265<br>Hex coord:(9;9),Taman Makmur Fasa 11. 78300. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:38:33.3084937Z,0
+2.358041,102.1065847,Daerah: Melaka<br>No:266<br>Hex coord:(10;9),Taman Sungai Baru Ulu. 783400. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:38:34.0840488Z,0
+2.350261,102.1201192,Daerah: Melaka<br>No:267<br>Hex coord:(11;9),Masjid Durian Tunggal. Masjid Tanah. Melaka. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:38:34.8322681Z,0
+2.358041,102.1336537,Daerah: Melaka<br>No:268<br>Hex coord:(12;9),Kampung Lekok. 783400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:35.5746921Z,0
+2.350261,102.1471882,Daerah: Melaka<br>No:269<br>Hex coord:(13;9),Kampung Bukit Hantu. 783400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:36.3362635Z,0
+2.358041,102.1607226,Daerah: Melaka<br>No:270<br>Hex coord:(14;9),Bukit Dato Sayed. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:37.1151078Z,0
+2.350261,102.1742571,Daerah: Melaka<br>No:271<br>Hex coord:(15;9),Lendu. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:37.8159888Z,0
+2.358041,102.1877916,Daerah: Melaka<br>No:272<br>Hex coord:(16;9),Lendu. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:38.5588549Z,0
+2.350261,102.2013261,Daerah: Melaka<br>No:273<br>Hex coord:(17;9),Taman Sungai Petai Bahagia. 78000. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:38:39.2929830Z,0
+2.358041,102.2148605,Daerah: Melaka<br>No:274<br>Hex coord:(18;9),Sungai Ayer Mentangor. Alor Gajah. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:38:40.0348204Z,0
+2.350261,102.228395,Daerah: Melaka<br>No:275<br>Hex coord:(19;9),Bukit Gereja. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:40.7804938Z,0
+2.358041,102.2419295,Daerah: Melaka<br>No:276<br>Hex coord:(20;9),Melaka Pindah. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:41.5197877Z,0
+2.350261,102.255464,Daerah: Melaka<br>No:277<br>Hex coord:(21;9),Parit Melana. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:42.3092878Z,0
+2.358041,102.2689984,Daerah: Melaka<br>No:278<br>Hex coord:(22;9),Parit Melana. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:43.0740739Z,0
+2.350261,102.2825329,Daerah: Melaka<br>No:279<br>Hex coord:(23;9),Parit Melana. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:43.8230682Z,0
+2.358041,102.2960674,Daerah: Melaka<br>No:280<br>Hex coord:(24;9),Syarikat Tong Bee Chan. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:44.5648794Z,0
+2.350261,102.3096019,Daerah: Melaka<br>No:281<br>Hex coord:(25;9),Projek Berkelompok Ternakan Ikan Dalam Sangkar. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:45.2914307Z,0
+2.358041,102.3231363,Daerah: Melaka<br>No:282<br>Hex coord:(26;9),Ladang Hock Bee. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:46.0343620Z,0
+2.350261,102.3366708,Daerah: Melaka<br>No:283<br>Hex coord:(27;9),Durian Tunggal. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:46.8124950Z,0
+2.358041,102.3502053,Daerah: Melaka<br>No:284<br>Hex coord:(28;9),Durian Tunggal. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:47.6012160Z,0
+2.350261,102.3637398,Daerah: Melaka<br>No:285<br>Hex coord:(29;9),Anak Ayer Talan. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:48.3345950Z,0
+2.358041,102.3772742,Daerah: Melaka<br>No:286<br>Hex coord:(30;9),Jasin District. 77500. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:38:49.0924260Z,0
+2.350261,102.3908087,Daerah: Melaka<br>No:287<br>Hex coord:(31;9),Solok Bukit Beruang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:49.8273983Z,0
+2.358041,102.4043432,Daerah: Melaka<br>No:288<br>Hex coord:(32;9),Jalan Bunga Raya. Melaka. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:38:50.5488500Z,0
+2.350261,102.4178777,Daerah: Melaka<br>No:289<br>Hex coord:(33;9),Jasin District. 77000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:51.2906060Z,0
+2.358041,102.4314121,Daerah: Melaka<br>No:290<br>Hex coord:(34;9),Jalan Sri Kesang. Jasin. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:52.0723630Z,0
+2.350261,102.4449466,Daerah: Melaka<br>No:291<br>Hex coord:(35;9),Ladang Jasin. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:52.8299966Z,0
+2.358041,102.4584811,Daerah: Melaka<br>No:292<br>Hex coord:(36;9),Jalan Bukit Langsat. Simpang Bekoh. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:53.5685007Z,0
+2.350261,102.4720156,Daerah: Melaka<br>No:293<br>Hex coord:(37;9),Ladang Diomand Jubilee. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:54.2749533Z,0
+2.358041,102.48555,Daerah: Melaka<br>No:294<br>Hex coord:(38;9),Jalan Felda Bukit Senggeh. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:55.0042800Z,0
+2.350261,102.4990845,Daerah: Melaka<br>No:295<br>Hex coord:(39;9),Ladang Chabau. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:55.7425715Z,0
+2.358041,102.512619,Daerah: Melaka<br>No:296<br>Hex coord:(40;9),Simpang Bekoh. 77100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:56.4633159Z,0
+2.334701,102.0659813,Daerah: Melaka<br>No:297<br>Hex coord:(7;10),Paya Mengkuang. 78300 Masjid Tanah. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:38:57.3336556Z,0
+2.342481,102.0795158,Daerah: Melaka<br>No:298<br>Hex coord:(8;10),Ladang Wee Weh Sioh. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:58.0810511Z,0
+2.334701,102.0930503,Daerah: Melaka<br>No:299<br>Hex coord:(9;10),Ladang Wee Weh Sioh. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:38:58.8071628Z,0
+2.342481,102.1065847,Daerah: Melaka<br>No:300<br>Hex coord:(10;10),Ag 7854 Solok Tulang Daeng. 783400 Masjid Tanah. Melaka. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:38:59.5478529Z,0
+2.334701,102.1201192,Daerah: Melaka<br>No:301<br>Hex coord:(11;10),Sungai Baru Ulu. 783400. Malacca. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:39:00.3358549Z,0
+2.342481,102.1336537,Daerah: Melaka<br>No:302<br>Hex coord:(12;10),Bukit Lintang. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:01.0685809Z,0
+2.334701,102.1471882,Daerah: Melaka<br>No:303<br>Hex coord:(13;10),Bukit Segaoh. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:01.7984172Z,0
+2.342481,102.1607226,Daerah: Melaka<br>No:304<br>Hex coord:(14;10),Lendu. 783400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:02.5624223Z,0
+2.334701,102.1742571,Daerah: Melaka<br>No:305<br>Hex coord:(15;10),Kampung Bukit Hantu. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:03.3099066Z,0
+2.342481,102.1877916,Daerah: Melaka<br>No:306<br>Hex coord:(16;10),Lendu. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:04.0434964Z,0
+2.334701,102.2013261,Daerah: Melaka<br>No:307<br>Hex coord:(17;10),Ladang Pegoh. Alor Gajah. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:39:04.7823456Z,0
+2.342481,102.2148605,Daerah: Melaka<br>No:308<br>Hex coord:(18;10),Nass Craft World. SP16 Jalan Sungai Petai Bahagia Utama. Taman Sungai Petai Bahagia. 78000 Alor Gajah. Melaka. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:39:05.5220526Z,0
+2.334701,102.228395,Daerah: Melaka<br>No:309<br>Hex coord:(19;10),Batu Lelaga. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:06.3404886Z,0
+2.342481,102.2419295,Daerah: Melaka<br>No:310<br>Hex coord:(20;10),Melaka Pindah. 78000. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:39:07.3614887Z,0
+2.334701,102.255464,Daerah: Melaka<br>No:311<br>Hex coord:(21;10),Parit Melana. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:08.1046334Z,0
+2.342481,102.2689984,Daerah: Melaka<br>No:312<br>Hex coord:(22;10),Sungai Parit Melana. Malacca. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:08.8576794Z,0
+2.334701,102.2825329,Daerah: Melaka<br>No:313<br>Hex coord:(23;10),Ee Kong Guan Estate. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:09.6277594Z,0
+2.342481,102.2960674,Daerah: Melaka<br>No:314<br>Hex coord:(24;10),Ladang Sing Lian Bahagian Garing. Alor Gajah. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:39:10.3917683Z,0
+2.334701,102.3096019,Daerah: Melaka<br>No:315<br>Hex coord:(25;10),Taman Rekreasi Durian Tunggal. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:11.1305144Z,0
+2.342481,102.3231363,Daerah: Melaka<br>No:316<br>Hex coord:(26;10),Ladang Seng Heng. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:11.9221256Z,0
+2.334701,102.3366708,Daerah: Melaka<br>No:317<br>Hex coord:(27;10),Ladang Sing Lian. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:12.6518205Z,0
+2.342481,102.3502053,Daerah: Melaka<br>No:318<br>Hex coord:(28;10),Ladang Low Sin Mui Berhad. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:13.3846871Z,0
+2.334701,102.3637398,Daerah: Melaka<br>No:319<br>Hex coord:(29;10),Ladang Selandar Kesang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:14.1257107Z,0
+2.342481,102.3772742,Daerah: Melaka<br>No:320<br>Hex coord:(30;10),Ladang Ayer Panas. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:14.8599968Z,0
+2.334701,102.3908087,Daerah: Melaka<br>No:321<br>Hex coord:(31;10),Jalan Kemengkang 3/1. Jasin District. 77000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:15.6442875Z,0
+2.342481,102.4043432,Daerah: Melaka<br>No:322<br>Hex coord:(32;10),Jalan Bunga Kembang China. FELDA Tun Ghaffar Kemendor. 77000 Jasin. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:16.3657803Z,0
+2.334701,102.4178777,Daerah: Melaka<br>No:323<br>Hex coord:(33;10),Kemendore Estate. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:17.1612789Z,0
+2.342481,102.4314121,Daerah: Melaka<br>No:324<br>Hex coord:(34;10),Jalan Sri Kesang 17. Jasin. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:17.8803225Z,0
+2.334701,102.4449466,Daerah: Melaka<br>No:325<br>Hex coord:(35;10),Ladang Ghi Leong San. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:18.6243934Z,0
+2.342481,102.4584811,Daerah: Melaka<br>No:326<br>Hex coord:(36;10),77000 Jasin. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:19.3638537Z,0
+2.334701,102.4720156,Daerah: Melaka<br>No:327<br>Hex coord:(37;10),Bukit Katong. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:20.1071556Z,0
+2.342481,102.48555,Daerah: Melaka<br>No:328<br>Hex coord:(38;10),Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:20.8283358Z,0
+2.334701,102.4990845,Daerah: Melaka<br>No:329<br>Hex coord:(39;10),Kim Chin Sun Estate. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:21.5547022Z,0
+2.326921,102.0795158,Daerah: Melaka<br>No:330<br>Hex coord:(8;11),Sekolah Kebangsaan Pengkalan Balak. 138. Pengkalan Balak. 78300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:22.3365956Z,0
+2.319141,102.0930503,Daerah: Melaka<br>No:331<br>Hex coord:(9;11),Pengkalan Balak. 78300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:23.0800409Z,0
+2.326921,102.1065847,Daerah: Melaka<br>No:332<br>Hex coord:(10;11),Ladang Ban On. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:23.8275444Z,0
+2.319141,102.1201192,Daerah: Melaka<br>No:333<br>Hex coord:(11;11),Sungai Baharu Ulu. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:24.6054100Z,0
+2.326921,102.1336537,Daerah: Melaka<br>No:334<br>Hex coord:(12;11),Taman Masjid Tanah. 783400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:25.3410296Z,0
+2.319141,102.1471882,Daerah: Melaka<br>No:335<br>Hex coord:(13;11),Ladang Chan Seng Kee. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:26.0806346Z,0
+2.326921,102.1607226,Daerah: Melaka<br>No:336<br>Hex coord:(14;11),Bukit Hantu. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:26.8266833Z,0
+2.319141,102.1742571,Daerah: Melaka<br>No:337<br>Hex coord:(15;11),Kampung Bukit Hantu. 76300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:27.6682109Z,0
+2.326921,102.1877916,Daerah: Melaka<br>No:338<br>Hex coord:(16;11),Kemuning Estate Rumbia Division. 78000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:28.4086703Z,0
+2.319141,102.2013261,Daerah: Melaka<br>No:339<br>Hex coord:(17;11),Bukit Jelutong Besar. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:29.1303172Z,0
+2.326921,102.2148605,Daerah: Melaka<br>No:340<br>Hex coord:(18;11),Taman Rembia Perkasa. 76450. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:39:29.8844125Z,0
+2.319141,102.228395,Daerah: Melaka<br>No:341<br>Hex coord:(19;11),Rembia. 76450. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:30.6280346Z,0
+2.326921,102.2419295,Daerah: Melaka<br>No:342<br>Hex coord:(20;11),Central Malacca. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:39:31.3857485Z,0
+2.319141,102.255464,Daerah: Melaka<br>No:343<br>Hex coord:(21;11),Belimbing. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:32.1813627Z,0
+2.326921,102.2689984,Daerah: Melaka<br>No:344<br>Hex coord:(22;11),Durian Tunggal. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:32.9936957Z,0
+2.319141,102.2825329,Daerah: Melaka<br>No:345<br>Hex coord:(23;11),Durian Tunggal. 76100. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:39:33.7991979Z,0
+2.326921,102.2960674,Daerah: Melaka<br>No:346<br>Hex coord:(24;11),Durian Tunggal. 76100 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:39:34.5774264Z,0
+2.319141,102.3096019,Daerah: Melaka<br>No:347<br>Hex coord:(25;11),Ladang Hong Teng. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:35.3592676Z,0
+2.326921,102.3231363,Daerah: Melaka<br>No:348<br>Hex coord:(26;11),Jalan Simpang Gading -Kesang Pajak. Durian Tunggal. 76100. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:36.4065792Z,0
+2.319141,102.3366708,Daerah: Melaka<br>No:349<br>Hex coord:(27;11),Lombong Bijih Timah Teck Han Sun. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:37.5979463Z,0
+2.326921,102.3502053,Daerah: Melaka<br>No:350<br>Hex coord:(28;11),Ladang Lin Sin. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:38.5457394Z,0
+2.319141,102.3637398,Daerah: Melaka<br>No:351<br>Hex coord:(29;11),Ayer Panas Forest Reserve. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:39.3929411Z,0
+2.326921,102.3772742,Daerah: Melaka<br>No:352<br>Hex coord:(30;11),Jasin District. 77000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:40.1049797Z,0
+2.319141,102.3908087,Daerah: Melaka<br>No:353<br>Hex coord:(31;11),Masjid As-Salam. Jalan Demang Haji Abu. Kampung Ulu Duyong. 77000 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:39:40.8319974Z,0
+2.326921,102.4043432,Daerah: Melaka<br>No:354<br>Hex coord:(32;11),Jalan Kemengkang 10. Sempang Kerayong. 77000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:41.5595421Z,0
+2.319141,102.4178777,Daerah: Melaka<br>No:355<br>Hex coord:(33;11),Jalan Sidang Haji Md Noor. Sempang Kerayong. 77000 Jasin. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:42.3709617Z,0
+2.326921,102.4314121,Daerah: Melaka<br>No:356<br>Hex coord:(34;11),Jalan Jasin Height Utama. Jasin. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:43.1294393Z,0
+2.319141,102.4449466,Daerah: Melaka<br>No:357<br>Hex coord:(35;11),Sempang Kerayong. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:39:43.8765187Z,0
+2.326921,102.4584811,Daerah: Melaka<br>No:358<br>Hex coord:(36;11),Sempang Kerayong. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:44.6114076Z,0
+2.319141,102.4720156,Daerah: Melaka<br>No:359<br>Hex coord:(37;11),Jalan Rim. Sempang Kerayong. 77000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:45.3159407Z,0
+2.326921,102.48555,Daerah: Melaka<br>No:360<br>Hex coord:(38;11),Simpang Bekoh. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:46.0494624Z,0
+2.319141,102.4990845,Daerah: Melaka<br>No:361<br>Hex coord:(39;11),Ladang Gan Hung. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:46.7619215Z,0
+2.326921,102.512619,Daerah: Melaka<br>No:362<br>Hex coord:(40;11),Simpang Bekoh. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:47.6769264Z,0
+2.311361,102.0795158,Daerah: Melaka<br>No:363<br>Hex coord:(8;12),Tanjung Bidara. 78300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:48.4519403Z,0
+2.303581,102.0930503,Daerah: Melaka<br>No:364<br>Hex coord:(9;12),Bukit Tinggi. Masjid Tanah. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:49.2100104Z,0
+2.311361,102.1065847,Daerah: Melaka<br>No:365<br>Hex coord:(10;12),Ladang Yap Pong Neo. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:49.9699428Z,0
+2.303581,102.1201192,Daerah: Melaka<br>No:366<br>Hex coord:(11;12),Bukit Syed Mulia. Sungai Udang. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:50.7666382Z,0
+2.311361,102.1336537,Daerah: Melaka<br>No:367<br>Hex coord:(12;12),Bukit Semeling. Sungai Udang. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:51.5290102Z,0
+2.303581,102.1471882,Daerah: Melaka<br>No:368<br>Hex coord:(13;12),Bukit Tangga. Sungai Udang. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:52.2971634Z,0
+2.311361,102.1607226,Daerah: Melaka<br>No:369<br>Hex coord:(14;12),Kampung Bukit Hantu. 76300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:53.0505825Z,0
+2.303581,102.1742571,Daerah: Melaka<br>No:370<br>Hex coord:(15;12),Ayer Salak. 76450. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:39:53.8512006Z,0
+2.311361,102.1877916,Daerah: Melaka<br>No:371<br>Hex coord:(16;12),Bukit Undan. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:54.5815363Z,0
+2.303581,102.2013261,Daerah: Melaka<br>No:372<br>Hex coord:(17;12),Paya Rumput. 76450. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:39:55.3324384Z,0
+2.311361,102.2148605,Daerah: Melaka<br>No:373<br>Hex coord:(18;12),Rembia. 76450. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:39:56.0746465Z,0
+2.303581,102.228395,Daerah: Melaka<br>No:374<br>Hex coord:(19;12),Ladang Bertam. Malacca. Melaka Tengah. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:39:56.8026178Z,0
+2.311361,102.2419295,Daerah: Melaka<br>No:375<br>Hex coord:(20;12),Ladang Hoe Seng. Malacca. Melaka Tengah. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:39:57.5869353Z,0
+2.303581,102.255464,Daerah: Melaka<br>No:376<br>Hex coord:(21;12),1K Residence (Taman 1 Krubong). 76100. Malacca. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:39:58.3423220Z,0
+2.311361,102.2689984,Daerah: Melaka<br>No:377<br>Hex coord:(22;12),Lanjoot Estate. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:39:59.0723138Z,0
+2.303581,102.2825329,Daerah: Melaka<br>No:378<br>Hex coord:(23;12),Durian Tunggal. 76100 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:39:59.8174455Z,0
+2.311361,102.2960674,Daerah: Melaka<br>No:379<br>Hex coord:(24;12),Durian Tunggal. 76100 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:00.5371752Z,0
+2.303581,102.3096019,Daerah: Melaka<br>No:380<br>Hex coord:(25;12),World's Bee Museum. DT 427 Taman Rama-Rama. Air Keroh. 75450 Malacca. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:01.2709442Z,0
+2.311361,102.3231363,Daerah: Melaka<br>No:381<br>Hex coord:(26;12),Universiti Teknikal Malaysia Melaka (UTeM) Main Campus. Jalan UTEM. Durian Tunggal. 76100 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:02.0495067Z,0
+2.303581,102.3366708,Daerah: Melaka<br>No:382<br>Hex coord:(27;12),Bukit Ular Upa. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:02.7625492Z,0
+2.311361,102.3502053,Daerah: Melaka<br>No:383<br>Hex coord:(28;12),Kampung Ulu Duyong. 77000 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:03.4936583Z,0
+2.303581,102.3637398,Daerah: Melaka<br>No:384<br>Hex coord:(29;12),Sungai Ulu Duyong. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:04.3267084Z,0
+2.311361,102.3772742,Daerah: Melaka<br>No:385<br>Hex coord:(30;12),Jasin District. 77000 Kesang. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:05.0503675Z,0
+2.303581,102.3908087,Daerah: Melaka<br>No:386<br>Hex coord:(31;12),Ladang Chan Kim Chwee. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:05.7876462Z,0
+2.311361,102.4043432,Daerah: Melaka<br>No:387<br>Hex coord:(32;12),Ladang Ayer Molek. Jasin. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:40:06.5171254Z,0
+2.303581,102.4178777,Daerah: Melaka<br>No:388<br>Hex coord:(33;12),Jalan Teratai 11. Jasin. Melaka. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:40:07.3219436Z,0
+2.311361,102.4314121,Daerah: Melaka<br>No:389<br>Hex coord:(34;12),Jalan Rim/Simpang Bekoh. Sempang Kerayong. 77000 Jasin. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:40:08.3851711Z,0
+2.303581,102.4449466,Daerah: Melaka<br>No:390<br>Hex coord:(35;12),Sempang Kerayong. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:09.3384278Z,0
+2.311361,102.4584811,Daerah: Melaka<br>No:391<br>Hex coord:(36;12),Sempang Kerayong. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:10.2305376Z,0
+2.303581,102.4720156,Daerah: Melaka<br>No:392<br>Hex coord:(37;12),Chin Chin. OVR6668. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:40:11.1210655Z,0
+2.311361,102.48555,Daerah: Melaka<br>No:393<br>Hex coord:(38;12),77000 Jasin. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:11.9111549Z,0
+2.303581,102.4990845,Daerah: Melaka<br>No:394<br>Hex coord:(39;12),Chohong. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:12.7978229Z,0
+2.295801,102.0795158,Daerah: Melaka<br>No:395<br>Hex coord:(8;13),Kampung Balik Batu. 78300. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:40:13.5103418Z,0
+2.288021,102.0930503,Daerah: Melaka<br>No:396<br>Hex coord:(9;13),Hospital Kem Terendak. Jalan Bukit Terendak. Tanjung Bidara. 76300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:14.3315746Z,0
+2.295801,102.1065847,Daerah: Melaka<br>No:397<br>Hex coord:(10;13),Air Hitam Darat. 76300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:15.0695892Z,0
+2.288021,102.1201192,Daerah: Melaka<br>No:398<br>Hex coord:(11;13),Keramat Datok Panchor. Sungai Udang. Alor Gajah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:15.8033323Z,0
+2.295801,102.1336537,Daerah: Melaka<br>No:399<br>Hex coord:(12;13),CNK Basikal. Jalan Melaka - Masjid Tanah - Lubok Cina. Alor Gajah. 76300 Sungai Udang. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:40:16.5190822Z,0
+2.288021,102.1471882,Daerah: Melaka<br>No:400<br>Hex coord:(13;13),33. Kampung Baru Sungai Udang. 76300. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:40:17.3046740Z,0
+2.295801,102.1607226,Daerah: Melaka<br>No:401<br>Hex coord:(14;13),Ayer Salak. 76300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:18.0550860Z,0
+2.288021,102.1742571,Daerah: Melaka<br>No:402<br>Hex coord:(15;13),Jalan Nobat 7. Ayer Salak. 75260 Malacca. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:40:18.7932003Z,0
+2.295801,102.1877916,Daerah: Melaka<br>No:403<br>Hex coord:(16;13),Ayer Salak. 76450. Malacca. Malaysia,8,0,0,0,0,0,1,2022-07-12T20:40:19.5549076Z,0
+2.288021,102.2013261,Daerah: Melaka<br>No:404<br>Hex coord:(17;13),33. Taman Bertam Jaya. 76450. Malacca. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:40:20.2988091Z,0
+2.295801,102.2148605,Daerah: Melaka<br>No:405<br>Hex coord:(18;13),Jalan Orkid 1. Paya Rumput. 76450 Malacca. Malacca. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:40:21.0459655Z,0
+2.288021,102.228395,Daerah: Melaka<br>No:406<br>Hex coord:(19;13),Paya Rumput. 76450 Malacca. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:40:21.7854061Z,0
+2.295801,102.2419295,Daerah: Melaka<br>No:407<br>Hex coord:(20;13),Kawasan PerindustrIan Krubong. 76450. Malacca. Malaysia,7,0,0,0,0,0,1,2022-07-12T20:40:22.5638275Z,0
+2.288021,102.255464,Daerah: Melaka<br>No:408<br>Hex coord:(21;13),33. Krubong. V Hang Tuah Jaya Municipal Council. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:40:23.3053246Z,0
+2.295801,102.2689984,Daerah: Melaka<br>No:409<br>Hex coord:(22;13),Durian Tunggal. 76100 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:40:24.0427838Z,0
+2.288021,102.2825329,Daerah: Melaka<br>No:410<br>Hex coord:(23;13),Durian Tunggal. 76100 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,7,0,0,0,0,0,1,2022-07-12T20:40:24.8323133Z,0
+2.295801,102.2960674,Daerah: Melaka<br>No:411<br>Hex coord:(24;13),Ladang Bertam. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:25.5730574Z,0
+2.288021,102.3096019,Daerah: Melaka<br>No:412<br>Hex coord:(25;13),Durian Tunggal. 76100 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:26.3532432Z,0
+2.295801,102.3231363,Daerah: Melaka<br>No:413<br>Hex coord:(26;13),Kolej Yayasan Saad. Malacca. Melaka Tengah. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:40:27.1586252Z,0
+2.288021,102.3366708,Daerah: Melaka<br>No:414<br>Hex coord:(27;13),Kampung Ulu Duyong. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:27.9089210Z,0
+2.295801,102.3502053,Daerah: Melaka<br>No:415<br>Hex coord:(28;13),North–South Expressway. Taman Damai Bemban. 77000 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:28.6413024Z,0
+2.288021,102.3637398,Daerah: Melaka<br>No:416<br>Hex coord:(29;13),North–South Expressway. Taman Damai Bemban. 77000 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:29.3756187Z,0
+2.295801,102.3772742,Daerah: Melaka<br>No:417<br>Hex coord:(30;13),Ladang Jiddi Joned Enterprise Sendirian Berhad. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:30.1059123Z,0
+2.288021,102.3908087,Daerah: Melaka<br>No:418<br>Hex coord:(31;13),North–South Expressway. Taman Damai Bemban. 77000 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:30.8228792Z,0
+2.295801,102.4043432,Daerah: Melaka<br>No:419<br>Hex coord:(32;13),Jalan MP 1. Sempang Kerayong. 77000. Malacca. Malaysia,7,0,0,0,0,0,1,2022-07-12T20:40:31.5553463Z,0
+2.288021,102.4178777,Daerah: Melaka<br>No:420<br>Hex coord:(33;13),Ladang Asia Selatan Sendirian Berhad. Jasin. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:40:32.4819962Z,0
+2.295801,102.4314121,Daerah: Melaka<br>No:421<br>Hex coord:(34;13),Ladang Jasin. Jasin. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:40:33.3559555Z,0
+2.288021,102.4449466,Daerah: Melaka<br>No:422<br>Hex coord:(35;13),Ladang Yoong Chee Seong. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:34.1258919Z,0
+2.295801,102.4584811,Daerah: Melaka<br>No:423<br>Hex coord:(36;13),Sungai Chin Chin. Jasin. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:40:34.8746111Z,0
+2.288021,102.4720156,Daerah: Melaka<br>No:424<br>Hex coord:(37;13),Chin Chin. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:35.6091046Z,0
+2.295801,102.48555,Daerah: Melaka<br>No:425<br>Hex coord:(38;13),Sawah Kumpai. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:36.3392530Z,0
+2.288021,102.4990845,Daerah: Melaka<br>No:426<br>Hex coord:(39;13),Chohong. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:37.1199987Z,0
+2.280241,102.1065847,Daerah: Melaka<br>No:427<br>Hex coord:(10;14),Terendak Camp. Jalan Leech Avenue. Kampung Baru Sungai Udang. 76300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:37.8723782Z,0
+2.272461,102.1201192,Daerah: Melaka<br>No:428<br>Hex coord:(11;14),Bukit Mentagon. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:38.7224934Z,0
+2.280241,102.1336537,Daerah: Melaka<br>No:429<br>Hex coord:(12;14),Jalan Ahjid MD. Isa. Malacca. Melaka. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:40:39.5377775Z,0
+2.272461,102.1471882,Daerah: Melaka<br>No:430<br>Hex coord:(13;14),Kampung Baru Sungai Udang. 76300. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:40.2693188Z,0
+2.280241,102.1607226,Daerah: Melaka<br>No:431<br>Hex coord:(14;14),Ayer Salak. 76300. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:40:41.0396848Z,0
+2.272461,102.1742571,Daerah: Melaka<br>No:432<br>Hex coord:(15;14),Grand Fortune Corporation Sdn. Bhd. No. 10. JAlan TP4 Taman Perindustrian Bukit Rambai. Mukim Tanjung Minyak. Melaka. 75250 Malacca Jalan TP4. 75250 Malacca. Melaka. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:40:41.9149226Z,0
+2.280241,102.1877916,Daerah: Melaka<br>No:433<br>Hex coord:(16;14),JALAN ZUHAL 6. Malacca. Melaka. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:40:42.6779044Z,0
+2.272461,102.2013261,Daerah: Melaka<br>No:434<br>Hex coord:(17;14),Brahmavihara Monastery. Lot 491 Jalan Wakaf. 76450 Malacca. Melaka. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:40:43.4116215Z,0
+2.280241,102.2148605,Daerah: Melaka<br>No:435<br>Hex coord:(18;14),Tesco Cheng Melaka. 1 Jalan Inang 3. 75460 Malacca. Melaka. Malaysia,24,0,0,0,0,0,1,2022-07-12T20:40:44.1877766Z,0
+2.272461,102.228395,Daerah: Melaka<br>No:436<br>Hex coord:(19;14),Lot 4811 Jalan TTC 30. 75250 Malacca. Melaka. Malaysia,12,0,0,0,0,0,1,2022-07-12T20:40:44.9550589Z,0
+2.280241,102.2419295,Daerah: Melaka<br>No:437<br>Hex coord:(20;14),Medan Selera Krubong. Malacca. Melaka. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:40:45.7106493Z,0
+2.272461,102.255464,Daerah: Melaka<br>No:438<br>Hex coord:(21;14),Taman Angkasa Nuri. 75350 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:40:46.4759409Z,0
+2.280241,102.2689984,Daerah: Melaka<br>No:439<br>Hex coord:(22;14),Durian Tunggal. 76100 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:40:47.2502591Z,0
+2.272461,102.2825329,Daerah: Melaka<br>No:440<br>Hex coord:(23;14),LINGKARAN MITC. Ayer Keroh. Melaka. Malaysia,13,0,0,0,0,0,1,2022-07-12T20:40:48.0035544Z,0
+2.280241,102.2960674,Daerah: Melaka<br>No:441<br>Hex coord:(24;14),Jalan Belia 14. Taman Tasik Utama. V Hang Tuah Jaya Municipal Council. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:40:48.7827072Z,0
+2.272461,102.3096019,Daerah: Melaka<br>No:442<br>Hex coord:(25;14),Tiara Melaka Golf Resort. Jalan KNMP 2. Taman Ayer Keroh Height. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:40:49.5331222Z,0
+2.280241,102.3231363,Daerah: Melaka<br>No:443<br>Hex coord:(26;14),Kampung Tun Razak. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:50.2601001Z,0
+2.272461,102.3366708,Daerah: Melaka<br>No:444<br>Hex coord:(27;14),Country Village Resort. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:40:51.0120047Z,0
+2.280241,102.3502053,Daerah: Melaka<br>No:445<br>Hex coord:(28;14),Kampung Ulu Duyong. Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:51.7465939Z,0
+2.272461,102.3637398,Daerah: Melaka<br>No:446<br>Hex coord:(29;14),Taman Damai Bemban. Hang Tuah Jaya Municipal Council. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:40:52.5600402Z,0
+2.280241,102.3772742,Daerah: Melaka<br>No:447<br>Hex coord:(30;14),Jalan Melaka / Jasin. Bemban. 77000 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:40:53.2825771Z,0
+2.272461,102.3908087,Daerah: Melaka<br>No:448<br>Hex coord:(31;14),Jalan Jasin Perdana 8. Bemban. Melaka. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:40:54.0421654Z,0
+2.280241,102.4043432,Daerah: Melaka<br>No:449<br>Hex coord:(32;14),Bemban. 77000. Malacca. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:40:54.8342944Z,0
+2.272461,102.4178777,Daerah: Melaka<br>No:450<br>Hex coord:(33;14),Sempang Kerayong. 77000. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:55.6180750Z,0
+2.280241,102.4314121,Daerah: Melaka<br>No:451<br>Hex coord:(34;14),Jalan Taman Maju / Lipat Kajang. Sempang Kerayong. 77000 Jasin. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:56.3410933Z,0
+2.272461,102.4449466,Daerah: Melaka<br>No:452<br>Hex coord:(35;14),Sempang Kerayong. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:57.1481102Z,0
+2.280241,102.4584811,Daerah: Melaka<br>No:453<br>Hex coord:(36;14),Ladang Ho Hin San. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:57.8988889Z,0
+2.272461,102.4720156,Daerah: Melaka<br>No:454<br>Hex coord:(37;14),Bukit Bahuddin. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:40:58.6386768Z,0
+2.280241,102.48555,Daerah: Melaka<br>No:455<br>Hex coord:(38;14),Chin Chin. OVR6668. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:40:59.3702762Z,0
+2.264681,102.1336537,Daerah: Melaka<br>No:456<br>Hex coord:(12;15),PETRONAS Melaka Refinery Complex. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:00.1977733Z,0
+2.256901,102.1471882,Daerah: Melaka<br>No:457<br>Hex coord:(13;15),PETRONAS Melaka Refinery Complex. 76400. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:41:00.9244122Z,0
+2.264681,102.1607226,Daerah: Melaka<br>No:458<br>Hex coord:(14;15),Taman Bukit Rambai. 76400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:01.6797722Z,0
+2.256901,102.1742571,Daerah: Melaka<br>No:459<br>Hex coord:(15;15),TASKA PERMATA KEMAS TAMAN BUKIT RAMBAI. No.9 Lorong 2. Jalan Perawan. Taman Bukit Rambai. 75250 Malacca. Melaka. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:41:02.4598631Z,0
+2.264681,102.1877916,Daerah: Melaka<br>No:460<br>Hex coord:(16;15),no 1. jalan ru 24 taman rambai utama. 75250 Malacca. Melaka. Malaysia,9,0,0,0,0,0,1,2022-07-12T20:41:03.1754269Z,0
+2.256901,102.2013261,Daerah: Melaka<br>No:461<br>Hex coord:(17;15),Taman Tanjong Minyak. 75260. Malacca. Malaysia,7,0,0,0,0,0,1,2022-07-12T20:41:03.8894226Z,0
+2.264681,102.2148605,Daerah: Melaka<br>No:462<br>Hex coord:(18;15),Cheng. 76450. Malacca. Malaysia,14,0,0,0,0,0,1,2022-07-12T20:41:04.6274578Z,0
+2.256901,102.228395,Daerah: Melaka<br>No:463<br>Hex coord:(19;15),Shanghai Paramount. 14 Jalan TTC 12. Malacca. Melaka. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:41:05.3701739Z,0
+2.264681,102.2419295,Daerah: Melaka<br>No:464<br>Hex coord:(20;15),Rumah Mak. 17 Jalan Jasa Merdeka 21. 75350 Malacca. Melaka. Malaysia,8,0,0,0,0,0,1,2022-07-12T20:41:06.2335948Z,0
+2.256901,102.255464,Daerah: Melaka<br>No:465<br>Hex coord:(21;15),Taman Pertama. 75350 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,16,0,0,0,0,0,1,2022-07-12T20:41:07.0198894Z,0
+2.264681,102.2689984,Daerah: Melaka<br>No:466<br>Hex coord:(22;15),Taman Tasik Utama. V Hang Tuah Jaya Municipal Council. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:41:07.7766429Z,0
+2.256901,102.2825329,Daerah: Melaka<br>No:467<br>Hex coord:(23;15),Restoran Heights. 41 Jalan MH 1. 75450 Ayer Keroh. Melaka. Malaysia,17,0,0,0,0,0,1,2022-07-12T20:41:08.5222190Z,0
+2.264681,102.2960674,Daerah: Melaka<br>No:468<br>Hex coord:(24;15),Kementerian Dalam Negeri. Jalan Seri Negeri. Taman Ayer Keroh Height. V Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:09.3506785Z,0
+2.256901,102.3096019,Daerah: Melaka<br>No:469<br>Hex coord:(25;15),Kemajuan Tanah Baru Bukit Katil. Malacca. Melaka Tengah. Malaysia,8,0,0,0,0,0,1,2022-07-12T20:41:10.1197028Z,0
+2.264681,102.3231363,Daerah: Melaka<br>No:470<br>Hex coord:(26;15),Taman Vista Kirana. Malacca. Melaka. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:41:10.8600349Z,0
+2.256901,102.3366708,Daerah: Melaka<br>No:471<br>Hex coord:(27;15),Ladang Talgarth. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:11.6176686Z,0
+2.264681,102.3502053,Daerah: Melaka<br>No:472<br>Hex coord:(28;15),Kampung Ulu Duyong. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:12.3903236Z,0
+2.256901,102.3637398,Daerah: Melaka<br>No:473<br>Hex coord:(29;15),Sungai Bemban. Jasin. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:41:13.1022695Z,0
+2.264681,102.3772742,Daerah: Melaka<br>No:474<br>Hex coord:(30;15),Jalan Melaka / Jasin. Jasin. Melaka. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:41:13.8138887Z,0
+2.256901,102.3908087,Daerah: Melaka<br>No:475<br>Hex coord:(31;15),Datok Sempang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:14.5606938Z,0
+2.264681,102.4043432,Daerah: Melaka<br>No:476<br>Hex coord:(32;15),Ladang Jasin Lalang. Bemban. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:15.2946283Z,0
+2.256901,102.4178777,Daerah: Melaka<br>No:477<br>Hex coord:(33;15),Bemban. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:15.9890471Z,0
+2.264681,102.4314121,Daerah: Melaka<br>No:478<br>Hex coord:(34;15),Ladang Jasin Lalang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:16.6998824Z,0
+2.256901,102.4449466,Daerah: Melaka<br>No:479<br>Hex coord:(35;15),Jalan Merlimau Jasin. Jasin. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:17.6501263Z,0
+2.264681,102.4584811,Daerah: Melaka<br>No:480<br>Hex coord:(36;15),Kemajuan Tanah Lipat Kajang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:18.3618576Z,0
+2.256901,102.4720156,Daerah: Melaka<br>No:481<br>Hex coord:(37;15),Lebuhraya Utara–Selatan. Jasin. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:19.2005450Z,0
+2.264681,102.48555,Daerah: Melaka<br>No:482<br>Hex coord:(38;15),Jasin District. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:19.9121694Z,0
+2.241341,102.1471882,Daerah: Melaka<br>No:483<br>Hex coord:(13;16),Kampung Tanah Merah Jaya. 76400. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:41:20.6730187Z,0
+2.249121,102.1607226,Daerah: Melaka<br>No:484<br>Hex coord:(14;16),TASKA PERMATA KEMAS PKM TANGGA BATU. PUSAT KEGIATAN MASYARAKAT TANGGA BAU. KM14 KM14. TANGGA BATU TANJUNG KLING MELAKA. 76400 Malacca. Melaka. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:41:21.4118840Z,0
+2.241341,102.1742571,Daerah: Melaka<br>No:485<br>Hex coord:(15;16),Bukit Rambai. 76400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:22.2281917Z,0
+2.249121,102.1877916,Daerah: Melaka<br>No:486<br>Hex coord:(16;16),Mdm. Kiow Cendol. 516-1 Batu 7 1/4. 75250 Malacca. Melaka. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:41:22.9765796Z,0
+2.241341,102.2013261,Daerah: Melaka<br>No:487<br>Hex coord:(17;16),Taman Rembia Ria. 75260. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:41:23.7135946Z,0
+2.249121,102.2148605,Daerah: Melaka<br>No:488<br>Hex coord:(18;16),Taman Bertam Perdana. 75250. Malacca. Malaysia,8,0,0,0,0,0,1,2022-07-12T20:41:24.4736894Z,0
+2.241341,102.228395,Daerah: Melaka<br>No:489<br>Hex coord:(19;16),Pusat Jagaan Wargamas Murni. 41 Jalan Murni 18. 75250 Malacca. Melaka. Malaysia,23,0,0,0,0,0,1,2022-07-12T20:41:25.2229940Z,0
+2.249121,102.2419295,Daerah: Melaka<br>No:490<br>Hex coord:(20;16),Sun Pro Tinted Centre. 29 Jalan MP 3. Malim Jaya. 75350 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,12,0,0,0,0,0,1,2022-07-12T20:41:25.9746440Z,0
+2.241341,102.255464,Daerah: Melaka<br>No:491<br>Hex coord:(21;16),Taman Melaka Baru. 75350 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,18,0,0,0,0,0,1,2022-07-12T20:41:26.7294774Z,0
+2.249121,102.2689984,Daerah: Melaka<br>No:492<br>Hex coord:(22;16),VR Melaka JingXin. 668k jalan bukit melaka 1/3. 75450 Ayer Keroh. Melaka. Malaysia,29,0,0,0,0,0,1,2022-07-12T20:41:27.5051246Z,0
+2.241341,102.2825329,Daerah: Melaka<br>No:493<br>Hex coord:(23;16),Taman Bunga Raya. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,13,0,0,0,0,0,1,2022-07-12T20:41:28.2759980Z,0
+2.249121,102.2960674,Daerah: Melaka<br>No:494<br>Hex coord:(24;16),Taman Pelangi. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,10,0,0,0,0,0,1,2022-07-12T20:41:29.0016635Z,0
+2.241341,102.3096019,Daerah: Melaka<br>No:495<br>Hex coord:(25;16),Jalan SI 14B. Taman Pengkalan Jaya. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,24,0,0,0,0,0,1,2022-07-12T20:41:29.7839245Z,0
+2.249121,102.3231363,Daerah: Melaka<br>No:496<br>Hex coord:(26;16),Taman Tuah Perdana. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:41:30.5338367Z,0
+2.241341,102.3366708,Daerah: Melaka<br>No:497<br>Hex coord:(27;16),Taman Tuah Perdana. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:31.2456076Z,0
+2.249121,102.3502053,Daerah: Melaka<br>No:498<br>Hex coord:(28;16),Sungai Ayer Panas. Malacca. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:32.0644584Z,0
+2.241341,102.3637398,Daerah: Melaka<br>No:499<br>Hex coord:(29;16),Ladang Nesa. Ayer Molek. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:32.8000998Z,0
+2.249121,102.3772742,Daerah: Melaka<br>No:500<br>Hex coord:(30;16),Ladang Diamond Jubilee. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:33.5330328Z,0
+2.241341,102.3908087,Daerah: Melaka<br>No:501<br>Hex coord:(31;16),M109. Bemban. Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:34.2504831Z,0
+2.249121,102.4043432,Daerah: Melaka<br>No:502<br>Hex coord:(32;16),Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:34.9919135Z,0
+2.241341,102.4178777,Daerah: Melaka<br>No:503<br>Hex coord:(33;16),Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:35.7080371Z,0
+2.249121,102.4314121,Daerah: Melaka<br>No:504<br>Hex coord:(34;16),Sempang Kerayong. OVR6668. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:41:36.4280883Z,0
+2.241341,102.4449466,Daerah: Melaka<br>No:505<br>Hex coord:(35;16),Jasin District. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:41:37.1988449Z,0
+2.249121,102.4584811,Daerah: Melaka<br>No:506<br>Hex coord:(36;16),Sempang Kerayong. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:37.9042785Z,0
+2.241341,102.4720156,Daerah: Melaka<br>No:507<br>Hex coord:(37;16),Sempang Kerayong. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:38.6298396Z,0
+2.249121,102.48555,Daerah: Melaka<br>No:508<br>Hex coord:(38;16),Kemajuan Tanah Bukit Kuau. Tangkak. Ledang. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:39.3697829Z,0
+2.233561,102.1607226,Daerah: Melaka<br>No:509<br>Hex coord:(14;17),Jalan Tanjung Kling. Kampung Tanah Merah Jaya. 76400 Malacca. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:41:40.1044498Z,0
+2.225781,102.1742571,Daerah: Melaka<br>No:510<br>Hex coord:(15;17),Rumah Pangsa Lereh.Tanjong Keling.Melaka.Malaysia. 2/10 Jalan Kampung Pinang B. 76400 Malacca. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:40.8625361Z,0
+2.233561,102.1877916,Daerah: Melaka<br>No:511<br>Hex coord:(16;17),Taman Pantai Emas. 76400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:41.5856981Z,0
+2.225781,102.2013261,Daerah: Melaka<br>No:512<br>Hex coord:(17;17),Klebang Besar. 75250. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:41:42.3682765Z,0
+2.233561,102.2148605,Daerah: Melaka<br>No:513<br>Hex coord:(18;17),Taman Gadong Perdana. 75250. Malacca. Malaysia,17,0,0,0,0,0,1,2022-07-12T20:41:43.1165708Z,0
+2.225781,102.228395,Daerah: Melaka<br>No:514<br>Hex coord:(19;17),Taman Mutiara. 75250. Malacca. Malaysia,11,0,0,0,0,0,1,2022-07-12T20:41:43.8811288Z,0
+2.233561,102.2419295,Daerah: Melaka<br>No:515<br>Hex coord:(20;17),Malim Jaya. 75250. Malacca. Malaysia,9,0,0,0,0,0,1,2022-07-12T20:41:44.6726078Z,0
+2.225781,102.255464,Daerah: Melaka<br>No:516<br>Hex coord:(21;17),PUSAT ANAK GENIUS NEGARA BUKIT PERINGGIT. MELAKA. No.47 Bukit Peringgit. 75150 Malacca. Melaka. Malaysia,10,0,0,0,0,0,1,2022-07-12T20:41:45.4198815Z,0
+2.233561,102.2689984,Daerah: Melaka<br>No:517<br>Hex coord:(22;17),Jamag Trading Sdn Bhd. 76 Jalan Sentosa. 75150 Malacca. Melaka. Malaysia,13,0,0,0,0,0,1,2022-07-12T20:41:46.1787729Z,0
+2.225781,102.2825329,Daerah: Melaka<br>No:518<br>Hex coord:(23;17),Taman Delima Raya. 75150 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,15,0,0,0,0,0,1,2022-07-12T20:41:46.9770116Z,0
+2.233561,102.2960674,Daerah: Melaka<br>No:519<br>Hex coord:(24;17),Bukit Berangan. Malacca. Melaka Tengah. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:41:47.7647635Z,0
+2.225781,102.3096019,Daerah: Melaka<br>No:520<br>Hex coord:(25;17),SMK Bukit Katil. Km 9 Jalan Tun Kudu. 75450 Malacca. Melaka. Malaysia,8,0,0,0,0,0,1,2022-07-12T20:41:48.4845150Z,0
+2.233561,102.3231363,Daerah: Melaka<br>No:521<br>Hex coord:(26;17),Taman Tuah Perdana. 75450 Hang Tuah Jaya Municipal Council. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:49.2388624Z,0
+2.225781,102.3366708,Daerah: Melaka<br>No:522<br>Hex coord:(27;17),Taman Tambak Paya Permai. 75450. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:49.9736445Z,0
+2.233561,102.3502053,Daerah: Melaka<br>No:523<br>Hex coord:(28;17),Solok Paya. Malacca. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:50.7146810Z,0
+2.225781,102.3637398,Daerah: Melaka<br>No:524<br>Hex coord:(29;17),Solok Seberang Anak Ayer. Ayer Molek. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:51.4749894Z,0
+2.233561,102.3772742,Daerah: Melaka<br>No:525<br>Hex coord:(30;17),Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:52.1842198Z,0
+2.225781,102.3908087,Daerah: Melaka<br>No:526<br>Hex coord:(31;17),Ladang Ee Kong Guan. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:52.9000973Z,0
+2.233561,102.4043432,Daerah: Melaka<br>No:527<br>Hex coord:(32;17),Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:53.6180630Z,0
+2.225781,102.4178777,Daerah: Melaka<br>No:528<br>Hex coord:(33;17),Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:54.3334618Z,0
+2.233561,102.4314121,Daerah: Melaka<br>No:529<br>Hex coord:(34;17),Merlimau Pegoh Estate. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:55.0520201Z,0
+2.225781,102.4449466,Daerah: Melaka<br>No:530<br>Hex coord:(35;17),Jalan Merlimau Jasin. Sempang Kerayong. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:55.7571990Z,0
+2.233561,102.4584811,Daerah: Melaka<br>No:531<br>Hex coord:(36;17),Kemajuan Tanah Lembah Kesang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:56.4977834Z,0
+2.225781,102.4720156,Daerah: Melaka<br>No:532<br>Hex coord:(37;17),Jasin District. OVR6668. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:57.3104784Z,0
+2.233561,102.48555,Daerah: Melaka<br>No:533<br>Hex coord:(38;17),Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:41:58.0409740Z,0
+2.218001,102.1607226,Daerah: Melaka<br>No:534<br>Hex coord:(14;18),Pantai Puteri. 76400. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:41:58.7904405Z,0
+2.218001,102.1877916,Daerah: Melaka<br>No:535<br>Hex coord:(16;18),Taman Muhibbah. 76400. Malacca. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:41:59.5342429Z,0
+2.210221,102.2013261,Daerah: Melaka<br>No:536<br>Hex coord:(17;18),Laksa Johor Lorong Pandan. No 2 Lot 4. Balai Raya. 75200. Malacca. 75200 Malacca. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:00.3173661Z,0
+2.218001,102.2148605,Daerah: Melaka<br>No:537<br>Hex coord:(18;18),Lorong Tan Uwee Soh. Malacca. Melaka. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:01.0537616Z,0
+2.210221,102.228395,Daerah: Melaka<br>No:538<br>Hex coord:(19;18),Petronas. Jalan Pandan. Taman Pandan Mawar. 75300 Malacca. Malacca. Malaysia,14,0,0,0,0,0,1,2022-07-12T20:42:01.8070152Z,0
+2.218001,102.2419295,Daerah: Melaka<br>No:539<br>Hex coord:(20;18),Jalan Tun Perak. Taman Kenanga Mewah. 75300 Malacca. Melaka. Malaysia,13,0,0,0,0,0,1,2022-07-12T20:42:02.7052459Z,0
+2.210221,102.255464,Daerah: Melaka<br>No:540<br>Hex coord:(21;18),Kampung Pengkalan Rama Pantai. 75400. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:42:03.4513234Z,0
+2.218001,102.2689984,Daerah: Melaka<br>No:541<br>Hex coord:(22;18),KMT Wound Care Center. 15 Jalan PNBBU 3. 75150 Malacca. Melaka. Malaysia,19,0,0,0,0,0,1,2022-07-12T20:42:04.2284309Z,0
+2.210221,102.2825329,Daerah: Melaka<br>No:542<br>Hex coord:(23;18),Bukit Piatu. 75150. Malacca. Malaysia,8,0,0,0,0,0,1,2022-07-12T20:42:05.0300264Z,0
+2.218001,102.2960674,Daerah: Melaka<br>No:543<br>Hex coord:(24;18),Taman Penghulu Jabar. 75150. Malacca. Malaysia,12,0,0,0,0,0,1,2022-07-12T20:42:05.7923816Z,0
+2.210221,102.3096019,Daerah: Melaka<br>No:544<br>Hex coord:(25;18),Jalan Seri Duyong 1/5. Malacca. Melaka. Malaysia,16,0,0,0,0,0,1,2022-07-12T20:42:06.5436958Z,0
+2.218001,102.3231363,Daerah: Melaka<br>No:545<br>Hex coord:(26;18),Taman Pengkalan Jaya. 75450. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:07.3043100Z,0
+2.210221,102.3366708,Daerah: Melaka<br>No:546<br>Hex coord:(27;18),Taman Tambak Paya Permai. 75450. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:08.0466552Z,0
+2.218001,102.3502053,Daerah: Melaka<br>No:547<br>Hex coord:(28;18),Nora Ee Sendirian Berhad. Ayer Molek. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:08.7622454Z,0
+2.210221,102.3637398,Daerah: Melaka<br>No:548<br>Hex coord:(29;18),Ladang Fong Mee. Ayer Molek. Melaka Tengah. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:42:09.5210713Z,0
+2.218001,102.3772742,Daerah: Melaka<br>No:549<br>Hex coord:(30;18),Ladang Hup Lee. Ayer Molek. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:10.2513107Z,0
+2.210221,102.3908087,Daerah: Melaka<br>No:550<br>Hex coord:(31;18),Ladang Radella. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:10.9700695Z,0
+2.218001,102.4043432,Daerah: Melaka<br>No:551<br>Hex coord:(32;18),Ladang Jasin Lalang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:11.6825120Z,0
+2.210221,102.4178777,Daerah: Melaka<br>No:552<br>Hex coord:(33;18),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:12.4329293Z,0
+2.218001,102.4314121,Daerah: Melaka<br>No:553<br>Hex coord:(34;18),Paya Lebar. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:13.1705177Z,0
+2.210221,102.4449466,Daerah: Melaka<br>No:554<br>Hex coord:(35;18),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:13.8622250Z,0
+2.218001,102.4584811,Daerah: Melaka<br>No:555<br>Hex coord:(36;18),Jalan Melati. Jasin. Melaka. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:14.5888149Z,0
+2.210221,102.4720156,Daerah: Melaka<br>No:556<br>Hex coord:(37;18),Sungai Semujok. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:15.3342703Z,0
+2.218001,102.48555,Daerah: Melaka<br>No:557<br>Hex coord:(38;18),Paya Jenuang Lanjut. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:16.0883854Z,0
+2.202441,102.2148605,Daerah: Melaka<br>No:558<br>Hex coord:(18;19),Oriental Nilam College of Nursing and Health Sciences. Malacca. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:16.8042915Z,0
+2.194661,102.228395,Daerah: Melaka<br>No:559<br>Hex coord:(19;19),Atlantis Residences. 11A Jalan KSB. 75200 Malacca. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:17.6101270Z,0
+2.202441,102.2419295,Daerah: Melaka<br>No:560<br>Hex coord:(20;19),Chop Sin Bee Hin (SBH Bicyles). 48 Jalan Ong Kim Wee. 75300 Malacca. Melaka. Malaysia,18,0,0,0,0,0,1,2022-07-12T20:42:18.3959114Z,0
+2.194661,102.255464,Daerah: Melaka<br>No:561<br>Hex coord:(21;19),VR Melaka Hui Yuan. 6B Jalan Laksamana. 75100 Malacca. Melaka. Malaysia,17,0,0,0,0,0,1,2022-07-12T20:42:19.2192048Z,0
+2.202441,102.2689984,Daerah: Melaka<br>No:562<br>Hex coord:(22;19),Stadium Hoki MBMB. Jalan Ayer Leleh. Taman Bukit Piatu Mutiara. 75050 Malacca City. Malacca. Malaysia,17,0,0,0,0,0,1,2022-07-12T20:42:19.9611320Z,0
+2.194661,102.2825329,Daerah: Melaka<br>No:563<br>Hex coord:(23;19),Taman Pertam Jaya. 75050. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:42:20.7036915Z,0
+2.202441,102.2960674,Daerah: Melaka<br>No:564<br>Hex coord:(24;19),Taman Duyong Permai. 75050. Malacca. Malaysia,9,0,0,0,0,0,1,2022-07-12T20:42:21.4549022Z,0
+2.194661,102.3096019,Daerah: Melaka<br>No:565<br>Hex coord:(25;19),TASKA PERMATA KEMAS SURATULAIN PEKA TAMAN SERI DUYONG. No.1 Jalan SD 3/4. 75460 Malacca. Melaka. Malaysia,7,0,0,0,0,0,1,2022-07-12T20:42:22.2415304Z,0
+2.202441,102.3231363,Daerah: Melaka<br>No:566<br>Hex coord:(26;19),Bukit Lintang. Malacca. Malaysia,7,0,0,0,0,0,1,2022-07-12T20:42:22.9802501Z,0
+2.194661,102.3366708,Daerah: Melaka<br>No:567<br>Hex coord:(27;19),Bukit Lintang. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:42:23.7281750Z,0
+2.202441,102.3502053,Daerah: Melaka<br>No:568<br>Hex coord:(28;19),Kampung Surau Batu. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:24.4812071Z,0
+2.194661,102.3637398,Daerah: Melaka<br>No:569<br>Hex coord:(29;19),Kampung Bukit Gadong. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:25.2395797Z,0
+2.202441,102.3772742,Daerah: Melaka<br>No:570<br>Hex coord:(30;19),Tiang Dua. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:25.9828499Z,0
+2.194661,102.3908087,Daerah: Melaka<br>No:571<br>Hex coord:(31;19),M109. Ayer Molek. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:26.6854380Z,0
+2.202441,102.4043432,Daerah: Melaka<br>No:572<br>Hex coord:(32;19),Ladang Bukit Kajang. Ayer Molek. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:27.4904045Z,0
+2.194661,102.4178777,Daerah: Melaka<br>No:573<br>Hex coord:(33;19),Paya Gelok Pechah. Ayer Molek. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:28.2136850Z,0
+2.202441,102.4314121,Daerah: Melaka<br>No:574<br>Hex coord:(34;19),Ladang Selatan Bahru. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:28.9350787Z,0
+2.194661,102.4449466,Daerah: Melaka<br>No:575<br>Hex coord:(35;19),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:29.6496213Z,0
+2.202441,102.4584811,Daerah: Melaka<br>No:576<br>Hex coord:(36;19),Bukit Tembakau. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:30.3741197Z,0
+2.194661,102.4720156,Daerah: Melaka<br>No:577<br>Hex coord:(37;19),Lancang Intake and Bulk Transfer. Johor. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:31.1073786Z,0
+2.186881,102.2689984,Daerah: Melaka<br>No:578<br>Hex coord:(22;20),Vienna Inn. 190 Jalan Ujong Pasir. 75050 Malacca. Melaka. Malaysia,17,0,0,0,0,0,1,2022-07-12T20:42:31.8257698Z,0
+2.179101,102.2825329,Daerah: Melaka<br>No:579<br>Hex coord:(23;20),Taman Padang Temu. 75050. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:42:32.5966597Z,0
+2.186881,102.2960674,Daerah: Melaka<br>No:580<br>Hex coord:(24;20),Sungai Duyong. Malacca. Melaka. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:42:33.3418140Z,0
+2.179101,102.3096019,Daerah: Melaka<br>No:581<br>Hex coord:(25;20),Alai. 75050. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:42:34.0761677Z,0
+2.186881,102.3231363,Daerah: Melaka<br>No:582<br>Hex coord:(26;20),Bukit Lintang. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:42:34.8311399Z,0
+2.179101,102.3366708,Daerah: Melaka<br>No:583<br>Hex coord:(27;20),Pernu. 75450. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:42:35.5446563Z,0
+2.186881,102.3502053,Daerah: Melaka<br>No:584<br>Hex coord:(28;20),Lebuh AMJ. Malacca. Melaka. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:42:36.2685609Z,0
+2.179101,102.3637398,Daerah: Melaka<br>No:585<br>Hex coord:(29;20),Kampung Bukit Gadong. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:37.0384923Z,0
+2.186881,102.3772742,Daerah: Melaka<br>No:586<br>Hex coord:(30;20),U-turn. Ayer Molek. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:37.7706890Z,0
+2.179101,102.3908087,Daerah: Melaka<br>No:587<br>Hex coord:(31;20),M109. Ayer Molek. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:38.5108475Z,0
+2.186881,102.4043432,Daerah: Melaka<br>No:588<br>Hex coord:(32;20),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:39.2481182Z,0
+2.179101,102.4178777,Daerah: Melaka<br>No:589<br>Hex coord:(33;20),Lebuh AMJ. Kampung Sempang Pantai Siring. Malacca City. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:39.9729335Z,0
+2.186881,102.4314121,Daerah: Melaka<br>No:590<br>Hex coord:(34;20),Merlimau Pegoh Estate. Merlimau. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:40.7138805Z,0
+2.179101,102.4449466,Daerah: Melaka<br>No:591<br>Hex coord:(35;20),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:41.5145676Z,0
+2.186881,102.4584811,Daerah: Melaka<br>No:592<br>Hex coord:(36;20),Paya Buloh. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:42.3269366Z,0
+2.179101,102.4720156,Daerah: Melaka<br>No:593<br>Hex coord:(37;20),Paya Mengkuang. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:43.0518673Z,0
+2.171321,102.2960674,Daerah: Melaka<br>No:594<br>Hex coord:(24;21),Alai. 75050. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:43.8067114Z,0
+2.171321,102.3231363,Daerah: Melaka<br>No:595<br>Hex coord:(26;21),Telok Mas. Malacca. Malaysia,8,0,0,0,0,0,1,2022-07-12T20:42:44.5577546Z,0
+2.163541,102.3366708,Daerah: Melaka<br>No:596<br>Hex coord:(27;21),Pernu. 75450. Malacca. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:42:45.2670663Z,0
+2.171321,102.3502053,Daerah: Melaka<br>No:597<br>Hex coord:(28;21),Umbai. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:42:46.0017573Z,0
+2.163541,102.3637398,Daerah: Melaka<br>No:598<br>Hex coord:(29;21),Kampung Pulai. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:46.7460727Z,0
+2.171321,102.3772742,Daerah: Melaka<br>No:599<br>Hex coord:(30;21),Ladang Serkam. Ayer Molek. Melaka Tengah. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:47.7043988Z,0
+2.163541,102.3908087,Daerah: Melaka<br>No:600<br>Hex coord:(31;21),Kampung Sempang Pantai Siring. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:48.4262116Z,0
+2.171321,102.4043432,Daerah: Melaka<br>No:601<br>Hex coord:(32;21),Kampung Sempang Pantai Siring. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:49.1448074Z,0
+2.163541,102.4178777,Daerah: Melaka<br>No:602<br>Hex coord:(33;21),Kampung Sempang Pantai Siring. Malacca. Malaysia,6,0,0,0,0,0,1,2022-07-12T20:42:49.9022399Z,0
+2.171321,102.4314121,Daerah: Melaka<br>No:603<br>Hex coord:(34;21),Ladang Merlimau. Merlimau. Jasin. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:50.7067783Z,0
+2.163541,102.4449466,Daerah: Melaka<br>No:604<br>Hex coord:(35;21),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:51.4590001Z,0
+2.171321,102.4584811,Daerah: Melaka<br>No:605<br>Hex coord:(36;21),Ladang Merlimau. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:52.2385247Z,0
+2.163541,102.4720156,Daerah: Melaka<br>No:606<br>Hex coord:(37;21),Jasin District. 77400. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:53.0728157Z,0
+2.171321,102.48555,Daerah: Melaka<br>No:607<br>Hex coord:(38;21),Jasin District. 77400. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:53.8124364Z,0
+2.163541,102.4990845,Daerah: Melaka<br>No:608<br>Hex coord:(39;21),Jasin District. 77400. Malacca. Malaysia,3,0,0,0,0,0,1,2022-07-12T20:42:54.5486498Z,0
+2.163541,102.5261535,Daerah: Melaka<br>No:609<br>Hex coord:(41;21),Pine Packaging (M) Sdn. Bhd.. Sungai Rambai. Malacca. JA1880. Batu 22 1/2. Parit Perawas. 77400. Sungai Rambai. Melaka. 77400 Sungai Rambai. Malacca Parit Perawas. 77400 Sungai Rambai. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:55.2456571Z,0
+2.155761,102.3502053,Daerah: Melaka<br>No:610<br>Hex coord:(28;22),Jalan Damai. Umbai. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:55.9950257Z,0
+2.147981,102.3637398,Daerah: Melaka<br>No:611<br>Hex coord:(29;22),jalan taman pulai jaya 1. Umbai,7,0,0,0,0,0,1,2022-07-12T20:42:56.7406660Z,0
+2.155761,102.3772742,Daerah: Melaka<br>No:612<br>Hex coord:(30;22),Serkam. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:42:57.5147492Z,0
+2.147981,102.3908087,Daerah: Melaka<br>No:613<br>Hex coord:(31;22),Kampung Sempang Pantai Siring. Malacca. Malaysia,13,0,0,0,0,0,1,2022-07-12T20:42:58.2723354Z,0
+2.155761,102.4043432,Daerah: Melaka<br>No:614<br>Hex coord:(32;22),Kampung Sempang Pantai Siring. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:42:58.9917389Z,0
+2.147981,102.4178777,Daerah: Melaka<br>No:615<br>Hex coord:(33;22),JALAN USAHA 1 FASA 1. Merlimau. Melaka. Malaysia,9,0,0,0,0,0,1,2022-07-12T20:42:59.7363909Z,0
+2.155761,102.4314121,Daerah: Melaka<br>No:616<br>Hex coord:(34;22),JALAN MUHIBAH 6C. Kampung Sempang Pantai Siring. Merlimau. Melaka. Malaysia,13,0,0,0,0,0,1,2022-07-12T20:43:00.4764494Z,0
+2.147981,102.4449466,Daerah: Melaka<br>No:617<br>Hex coord:(35;22),Jalan Batu Gajah. Kampung Sempang Pantai Siring. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:01.1968382Z,0
+2.155761,102.4584811,Daerah: Melaka<br>No:618<br>Hex coord:(36;22),Lebuh AMJ. Merlimau. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:01.9599718Z,0
+2.147981,102.4720156,Daerah: Melaka<br>No:619<br>Hex coord:(37;22),Jasin District. 77400. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:43:02.6616411Z,0
+2.155761,102.48555,Daerah: Melaka<br>No:620<br>Hex coord:(38;22),Jasin District. 77400. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:43:03.4055544Z,0
+2.147981,102.4990845,Daerah: Melaka<br>No:621<br>Hex coord:(39;22),Jalan Semadi. Jasin District. 77400 Sungai Rambai. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:43:04.1514769Z,0
+2.155761,102.512619,Daerah: Melaka<br>No:622<br>Hex coord:(40;22),Pine Packaging (M) Sdn. Bhd.. Sungai Rambai. Malacca. JA1880. Batu 22 1/2. Parit Perawas. 77400. Sungai Rambai. Melaka. 77400 Sungai Rambai. Malacca Parit Perawas. 77400 Sungai Rambai. Melaka. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:04.8728457Z,0
+2.147981,102.5261535,Daerah: Melaka<br>No:623<br>Hex coord:(41;22),Jasin District. 77400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:05.5996497Z,0
+2.140201,102.3772742,Daerah: Melaka<br>No:624<br>Hex coord:(30;23),Serkam. Malacca. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:43:06.3455040Z,0
+2.140201,102.4043432,Daerah: Melaka<br>No:625<br>Hex coord:(32;23),Kampung Sempang Pantai Siring. Malacca. Malaysia,1,0,0,0,0,0,1,2022-07-12T20:43:07.1233671Z,0
+2.132421,102.4178777,Daerah: Melaka<br>No:626<br>Hex coord:(33;23),Kampung Sempang Pantai Siring. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:07.8752547Z,0
+2.140201,102.4314121,Daerah: Melaka<br>No:627<br>Hex coord:(34;23),jalan komuniti jasin. Kampung Sempang Pantai Siring. Merlimau. Melaka. Malaysia,5,0,0,0,0,0,1,2022-07-12T20:43:08.5941951Z,0
+2.132421,102.4449466,Daerah: Melaka<br>No:628<br>Hex coord:(35;23),Kampung Sempang Pantai Siring. Malacca. Malaysia,4,0,0,0,0,0,1,2022-07-12T20:43:09.3568029Z,0
+2.140201,102.4584811,Daerah: Melaka<br>No:629<br>Hex coord:(36;23),JALAN MERLIMAU. Merlimau. Melaka. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:43:10.0824372Z,0
+2.132421,102.4720156,Daerah: Melaka<br>No:630<br>Hex coord:(37;23),Jasin District. 77400. Malacca. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:43:10.8574944Z,0
+2.140201,102.48555,Daerah: Melaka<br>No:631<br>Hex coord:(38;23),Parit Sialang. Sungai Rambai. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:11.5811780Z,0
+2.132421,102.4990845,Daerah: Melaka<br>No:632<br>Hex coord:(39;23),Lebuh AMJ. 77400 Sungai Rambai. Melaka. Malaysia,2,0,0,0,0,0,1,2022-07-12T20:43:12.3560594Z,0
+2.140201,102.512619,Daerah: Melaka<br>No:633<br>Hex coord:(40;23),Parit Gantong. Sungai Rambai. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:13.1444883Z,0
+2.132421,102.5261535,Daerah: Melaka<br>No:634<br>Hex coord:(41;23),Jasin District. 77400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:13.8673817Z,0
+2.124641,102.4314121,Daerah: Melaka<br>No:635<br>Hex coord:(34;24),Sungai Rengai. Merlimau. Jasin. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:14.6060744Z,0
+2.116861,102.4449466,Daerah: Melaka<br>No:636<br>Hex coord:(35;24),Sungai Ayer Tawar,0,0,0,0,0,0,1,2022-07-12T20:43:15.3260013Z,0
+2.124641,102.4584811,Daerah: Melaka<br>No:637<br>Hex coord:(36;24),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:16.0580150Z,0
+2.116861,102.4720156,Daerah: Melaka<br>No:638<br>Hex coord:(37;24),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:16.7849018Z,0
+2.124641,102.48555,Daerah: Melaka<br>No:639<br>Hex coord:(38;24),Jalan Melaka - Muar. 77400 Malacca City. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:17.5354972Z,0
+2.124641,102.512619,Daerah: Melaka<br>No:640<br>Hex coord:(40;24),Jasin District. 77400. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:18.2579211Z,0
+2.109081,102.48555,Daerah: Melaka<br>No:641<br>Hex coord:(38;25),Jasin District. Malacca. Malaysia,0,0,0,0,0,0,1,2022-07-12T20:43:19.1232401Z,0
