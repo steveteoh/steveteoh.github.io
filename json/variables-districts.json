@@ -1,9 +1,9 @@
-[
+﻿[
   [ "title", "filename", "keyname", "key", "elementname", "element", "isdate" ],
-  [ "Active Cases (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "cases_active", 9, true ],
-  [ "Total Cases (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "cases_total", 8, true ],
-  [ "Tests (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "tests", 10, true ],
-  [ "ICU (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "icu", 11, true ],
-  [ "Deaths (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "deaths", 12, true ],
-  [ "Recovered (wrt Cluster)", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "recovered", 13, true ]
+  [ "Active Cases (wrt Cluster)活动案例（集群）", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "cases_active", 9, true ],
+  [ "Total Cases (wrt Cluster)总病例（集群）", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "cases_total", 8, true ],
+  [ "Tests (wrt Cluster)测试（集群）", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "tests", 10, true ],
+  [ "ICU (wrt Cluster)加护病房（集群）", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "icu", 11, true ],
+  [ "Deaths (wrt Cluster)死亡人数（集群）", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "deaths", 12, true ],
+  [ "Recovered (wrt Cluster)康复人数（集群）", "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/epidemic/clusters.csv", "district", 2, "recovered", 13, true ]
 ]
