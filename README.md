@@ -10,11 +10,11 @@ Welcome to Steve Teoh's public github page. This page highlights the shared sour
 ### Statistic Maps for Malaysia based on KKM's Official Data Source (New)
 Here is the latest statistical map that contains district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public ) 
 [District-level statistics page](https://steveteoh.github.io/Statistics/main2.html). <br>
-Just point to the respective zone for total of that area. Zoom in and double click the coloured districts for more information. <br>
+Just point to the respective zone for total of that area. Zoom in and double click the coloured districts for more information. <br><br>
 ![District-level Statistic Maps](https://steveteoh.github.io/img/statistics2.png) <br>
 
 Here is the statistical map that contains all state-level variables. The dropdown options are automatically generated (based on data from https://github.com/MoH-Malaysia/covid19-public )  
-[State-level statistics page](https://steveteoh.github.io/Statistics/). <br>Just point to the respective zone for total of that area. <br>     
+[State-level statistics page](https://steveteoh.github.io/Statistics/). <br>Just point to the respective zone for total of that area. <br><br>     
 ![State-level Statistic Maps](https://steveteoh.github.io/img/statistics.png) <br>
 
 ### Covid-19 Hex Maps for Malaysia
