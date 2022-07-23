@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\data\\perak",
-    "\\Maps\\Selangor\\daerah",
+    "\\json",
     "\\Wilayah"
   ],
-  "SelectedNode": "\\Terengganu",
+  "SelectedNode": "\\json\\variables-districts.json",
   "PreviewInSolutionExplorer": false
 }

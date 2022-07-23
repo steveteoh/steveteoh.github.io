@@ -1,11 +1,12 @@
 ﻿## Welcome to steveteoh.github.io Repo
-Last Updated: 20/07/2022
+Last Updated: 23/07/2022
 <br/>Created: 26/08/2021 
 
 Welcome to Steve Teoh's public github page. This page highlights the shared sources available in http://steveteoh.github.io as demo webpages.
 
 ### Data Sources
 14-day active cases data is sourced from mysejahtera app (api lookup). Contact the [author](mailto:chteoh@1utar.my?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.
+Map Data Last Updated: 23/7/2022<br>
 
 ### Statistic Maps for Malaysia based on KKM's Official Data Source (New)
 Here is the latest statistical map that contains district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public ) 
