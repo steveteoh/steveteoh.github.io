@@ -15,7 +15,7 @@ Note:
 ```
 {"hotSpots":[],"zoneType":"GREEN","messages":{"ms_MY":"Hai {name}, tiada kes COVID-19 dalam lingkungan radius 1km dari lokasi ini yang dilaporkan dalam masa 14 hari yang lepas.","en_US":"Hi {name}, there have been no reported case(s) of COVID-19 within a 1km radius from your searched location in the last 14 days."},"note":null} 
 ```
-is superceded by new version with the following format:<br><br>
+is now superceded by a new version with the following format:<br><br>
 ```
 {"hotSpots":[
 {"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":31,"radiusInMeters":1000.0,"durationInDays":14},
