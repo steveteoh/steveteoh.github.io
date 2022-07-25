@@ -3,7 +3,7 @@
 Last Updated: 25/07/2022
 <br/>Created: 26/08/2021 
 
-Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in http://steveteoh.github.io for demo purposes.
+Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io_ for demo purposes.
 
 ### Data Sources
 Map Data Last Updated: 25/7/2022<br>
