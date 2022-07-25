@@ -10,7 +10,7 @@ Map Data Last Updated: 25/7/2022<br>
 14-day active cases data is sourced from mysejahtera app through api lookup. Contact the [author](mailto:chteoh@1utar.my?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.<br><br>
 
 Note: 
-- Map data from **09/05/2022** to **08/07/2022** were all zeroes due to the old interface API location _https://mysejahtera.malaysia.gov.my/register/api/nearby/hotspots?type=locateme_ being superceded by _https://mysejahtera.malaysia.gov.my/epms/v1/hotspot/nearby?type=locateme_ <br>
+- Map data from **09/05/2022** to **08/07/2022** were all zeroes due to the old hotspots interface API location _https://mysejahtera.malaysia.gov.my/register/api/nearby/hotspots?type=locateme_ being superceded by _https://mysejahtera.malaysia.gov.my/epms/v1/hotspot/nearby?type=locateme_ <br>
 - The old json response: 
 ```
 {"hotSpots":[],"zoneType":"GREEN","messages":{"ms_MY":"Hai {name}, tiada kes COVID-19 dalam lingkungan radius 1km dari lokasi ini yang dilaporkan dalam masa 14 hari yang lepas.","en_US":"Hi {name}, there have been no reported case(s) of COVID-19 within a 1km radius from your searched location in the last 14 days."},"note":null} 
@@ -20,7 +20,7 @@ is superceded by new version with the following format:<br><br>
 
 Warning: <br>
 The old API will still respond to requests, but it will not give you the correct no of cases for each lookup (all zeroes!). <br>
-This would also mean that the lookup feature will not work on older versions of mysejahtera mobile app (v 1.0.x to 1.1.8).<br><br>
+This would also mean that the lotspots lookup feature will not work on older versions of mysejahtera mobile app (v 1.0.x to 1.1.8).<br><br>
 
 ### Statistic Maps for Malaysia based on KKM's Official Data Source (New)
 Here is the latest statistical map that contains district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public ) 
