@@ -10,11 +10,19 @@ Map Data Last Updated: 25/7/2022<br>
 14-day active cases data is sourced from mysejahtera app through api lookup. Contact the [author](mailto:chteoh@1utar.my?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.<br>
 Note: 
 - Map data from **09/05/2022** to **08/07/2022** were all zeroes due to the old hotspots interface API location _https://mysejahtera.malaysia.gov.my/register/api/nearby/hotspots?type=locateme_ being superceded by _https://mysejahtera.malaysia.gov.my/epms/v1/hotspot/nearby?type=locateme_ <br>
-- The old json response: 
+- The request json is still the same
+```
+[{
+"lat" : "3.0926898",
+"lng" : "101.7342783",
+"classification":"LOW_RISK_NS"
+}]
+```
+- However, the old json response: 
 ```
 {"hotSpots":[],"zoneType":"GREEN","messages":{"ms_MY":"Hai {name}, tiada kes COVID-19 dalam lingkungan radius 1km dari lokasi ini yang dilaporkan dalam masa 14 hari yang lepas.","en_US":"Hi {name}, there have been no reported case(s) of COVID-19 within a 1km radius from your searched location in the last 14 days."},"note":null} 
 ```
-is now superceded by a new version with the following format:<br>
+is now superceded by a new version with the following format in Mysejahtera ver 2.x.x :<br>
 ```
 {"hotSpots":[
 {"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":31,"radiusInMeters":1000.0,"durationInDays":14}, 
