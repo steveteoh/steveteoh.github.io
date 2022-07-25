@@ -1,12 +1,26 @@
-﻿## Welcome to steveteoh.github.io Repo
+﻿## Welcome to Steve Teoh's 'Public Health Monitoring Repo
+### steveteoh.github.io
+
 Last Updated: 23/07/2022
 <br/>Created: 26/08/2021 
 
 Welcome to Steve Teoh's public github page. This page highlights the shared sources available in http://steveteoh.github.io as demo webpages.
 
 ### Data Sources
-14-day active cases data is sourced from mysejahtera app (api lookup). Contact the [author](mailto:chteoh@1utar.my?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.
-Map Data Last Updated: 23/7/2022<br>
+14-day active cases data is sourced from mysejahtera app through api lookup. Contact the [author](mailto:chteoh@1utar.my?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.
+Map Data Last Updated: 23/7/2022<br><br>
+Note: Map data from 09/05/2022 to 08/07/2022 were all zeroes due to the old interface API location https://mysejahtera.malaysia.gov.my/register/api/nearby/hotspots?type=locateme being superceded<br>
+by https://mysejahtera.malaysia.gov.my/epms/v1/hotspot/nearby?type=locateme.<br>
+The old json response: {"hotSpots":[],"zoneType":"GREEN","messages":{"ms_MY":"Hai {name}, tiada kes COVID-19 dalam lingkungan radius 1km dari lokasi ini yang dilaporkan dalam masa 14 hari yang lepas.","en_US":"Hi {name}, there have been no reported case(s) of COVID-19 within a 1km radius from your searched location in the last 14 days."},"note":null} is superceded by new version with the following format:<br>
+{"hotSpots":[{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":31,"radiusInMeters":1000.0,"durationInDays":14},
+             {"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},
+             {"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90},
+             {"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},
+             {"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":3,"radiusInMeters":5000.0,"durationInDays":7},
+             {"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},
+             {"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180}]}
+<br><br>
+Warning: The old API will still respond, but it will not give you the correct no of cases for each lookup.<br><br>
 
 ### Statistic Maps for Malaysia based on KKM's Official Data Source (New)
 Here is the latest statistical map that contains district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public ) 
