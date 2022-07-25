@@ -1,11 +1,13 @@
 ﻿## Welcome to Steve Teoh's 'Public Health Monitoring Repo
 
-Last Updated: 23/07/2022
+Last Updated: 25/07/2022
 <br/>Created: 26/08/2021 
 
 Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in http://steveteoh.github.io for demo purposes.
 
 ### Data Sources
+Last Updated: 25/07/2022
+
 14-day active cases data is sourced from mysejahtera app through api lookup. Contact the [author](mailto:chteoh@1utar.my?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.
 Map Data Last Updated: 23/7/2022<br><br>
 Note: 
