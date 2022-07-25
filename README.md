@@ -26,7 +26,8 @@ is now superceded by a new version with the following format:<br><br>
 {"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},<br>
 {"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180}<br>
 ]}
-```<br><br>
+```
+<br><br>
 
 Warning: <br>
 The old API will still respond to requests, but it will not give you the correct no of cases for each lookup (all zeroes!). <br>
