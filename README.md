@@ -1,5 +1,4 @@
 ﻿## Welcome to Steve Teoh's 'Public Health Monitoring Repo
-### steveteoh.github.io
 
 Last Updated: 23/07/2022
 <br/>Created: 26/08/2021 
