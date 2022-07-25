@@ -20,7 +20,7 @@ is superceded by new version with the following format:<br><br>
              ```<br><br>
 Warning: <br>
 The old API will still respond to requests, but it will not give you the correct no of cases for each lookup (all zeroes!). <br>
-This would also mean that this lookup feature will not work on old versions of mysejahtera (v 1.0.x to 1.1.8).<br><br>
+This would also mean that the lookup feature will not work on older versions of mysejahtera mobile app (v 1.0.x to 1.1.8).<br><br>
 
 ### Statistic Maps for Malaysia based on KKM's Official Data Source (New)
 Here is the latest statistical map that contains district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public ) 
