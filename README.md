@@ -1,12 +1,12 @@
 ﻿## Welcome to Steve Teoh's Public Health Monitoring Repo
 
-Last Updated: 27/07/2022
+Last Updated: 31/07/2022
 <br/>Created: 26/08/2021 
 
 Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io_ for demo purposes.
 
 ### Data Sources
-Map Data Last Updated: 26/7/2022<br>
+Map Data Last Updated: 31/7/2022<br>
 14-day active cases data is sourced from mysejahtera app through api lookup. Contact the [author](mailto:chteoh@1utar.my?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.<br>
 Note: 
 - Map data from **09/05/2022** to **08/07/2022** were all zeroes due to the old hotspots interface API location _https://mysejahtera.malaysia.gov.my/register/api/nearby/hotspots?type=locateme_ being superceded by _https://mysejahtera.malaysia.gov.my/epms/v1/hotspot/nearby?type=locateme_ <br>
