@@ -6411,10 +6411,7 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 3.846478,103.3641298,Daerah: Pahang<br>No:6410<br>Hex coord:(150;60),n/a,2,0,0,0,0,0,1,2022-08-02T18:02:02.3260459Z,0
 3.830918,101.6030581,Daerah: Pahang<br>No:6411<br>Hex coord:(20;61),n/a,0,0,0,0,0,0,1,2022-08-02T18:02:03.0562714Z,0
 3.823138,101.6166048,Daerah: Pahang<br>No:6412<br>Hex coord:(21;61),n/a,0,0,0,0,0,0,1,2022-08-02T18:02:03.7719060Z,0
-3.830918,101.6301515,Daerah: Pahang<br>No:6413<br>Hex coord:(22;61),n/a,0,0,0,0,0,0,1,2022-08-02T18:02:04.4930874Z,0An error occurred while sending the request.
-The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
-The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
-
+3.830918,101.6301515,Daerah: Pahang<br>No:6413<br>Hex coord:(22;61),n/a,0,0,0,0,0,0,1,2022-08-02T18:02:04.4930874Z,0
 3.823138,101.6436982,Daerah: Pahang<br>No:6414<br>Hex coord:(23;61),n/a,0,0,0,0,0,0,1,2022-08-02T18:05:44.6352197Z,0
 3.830918,101.6572449,Daerah: Pahang<br>No:6415<br>Hex coord:(24;61),n/a,0,0,0,0,0,0,1,2022-08-02T18:05:45.3432034Z,0
 3.823138,101.6707916,Daerah: Pahang<br>No:6416<br>Hex coord:(25;61),n/a,0,0,0,0,0,0,1,2022-08-02T18:05:46.0235964Z,0
@@ -13255,10 +13252,7 @@ The request was canceled due to the configured HttpClient.Timeout of 100 seconds
 2.757278,102.849355,Daerah: Pahang<br>No:13251<br>Hex coord:(112;130),n/a,0,0,0,0,0,0,1,2022-08-02T18:02:02.3486857Z,0
 2.749498,102.8629017,Daerah: Pahang<br>No:13252<br>Hex coord:(113;130),n/a,0,0,0,0,0,0,1,2022-08-02T18:02:03.1090948Z,0
 2.757278,102.8764484,Daerah: Pahang<br>No:13253<br>Hex coord:(114;130),n/a,0,0,0,0,0,0,1,2022-08-02T18:02:03.8271859Z,0
-2.749498,102.8899951,Daerah: Pahang<br>No:13254<br>Hex coord:(115;130),n/a,0,0,0,0,0,0,1,2022-08-02T18:02:04.5342822Z,0An error occurred while sending the request.
-The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
-The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
-
+2.749498,102.8899951,Daerah: Pahang<br>No:13254<br>Hex coord:(115;130),n/a,0,0,0,0,0,0,1,2022-08-02T18:02:04.5342822Z,0
 2.757278,102.9035418,Daerah: Pahang<br>No:13255<br>Hex coord:(116;130),n/a,0,0,0,0,0,0,1,2022-08-02T18:05:44.9559774Z,0
 2.749498,102.9170885,Daerah: Pahang<br>No:13256<br>Hex coord:(117;130),n/a,0,0,0,0,0,0,1,2022-08-02T18:05:45.6422207Z,0
 2.757278,102.9306352,Daerah: Pahang<br>No:13257<br>Hex coord:(118;130),n/a,0,0,0,0,0,0,1,2022-08-02T18:05:46.3228648Z,0

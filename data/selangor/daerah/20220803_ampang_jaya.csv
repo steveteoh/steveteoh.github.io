@@ -52,10 +52,7 @@ lat,lon,label,placename,weeklyactive,totalactive,weeklyrecovered,totalrecovered,
 3.136835,101.787023,Daerah: Ampang Jaya<br>No:47<br>Hex coord:(4;10),Taman Saujana Ampang,27,0,0,0,0,0,1,2022-08-02T18:01:46.2123485Z,0
 3.113495,101.746553,Daerah: Ampang Jaya<br>No:48<br>Hex coord:(1;11),MRR2 Safari,82,0,0,0,0,0,1,2022-08-02T18:01:47.0773302Z,0
 3.121275,101.760043,Daerah: Ampang Jaya<br>No:49<br>Hex coord:(2;11),Pandan Perdana/Kampung Cheras Baru,147,0,0,0,0,0,1,2022-08-02T18:01:47.9089796Z,0
-3.113495,101.773533,Daerah: Ampang Jaya<br>No:50<br>Hex coord:(3;11),Jalan Saga 28. Ampang. Selangor. Malaysia,38,0,0,0,0,0,1,2022-08-02T18:01:48.7373213Z,0An error occurred while sending the request.
-The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
-The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
-
+3.113495,101.773533,Daerah: Ampang Jaya<br>No:50<br>Hex coord:(3;11),Jalan Saga 28. Ampang. Selangor. Malaysia,38,0,0,0,0,0,1,2022-08-02T18:01:48.7373213Z,0
 3.121275,101.787023,Daerah: Hulu Langat / Ampang Jaya<br>No:x5<br>Hex coord:(4;11),(Filled Gap) Jalan Hulu Langat,5,0,0,0,0,0,1,2022-08-02T18:05:28.8101497Z,0
 3.097935,101.746553,Daerah: KL / Ampang Jaya<br>No:x6<br>Hex coord:(1;12),(Filled Gap) Taman Supreme,142,0,0,0,0,0,1,2022-08-02T18:05:29.6903766Z,0
 3.105715,101.760043,Daerah: Ampang Jaya<br>No:51<br>Hex coord:(2;12),Jalan Bukit Permai 2/3. 55300 Kuala Lumpur. Kuala Lumpur. Malaysia,37,0,0,0,0,0,1,2022-08-02T18:05:30.5482495Z,0
