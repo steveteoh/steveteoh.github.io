@@ -3,7 +3,7 @@
 Last Updated: 24/11/2022
 <br/>Created: 26/08/2021 
 
-Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io_ for demo purposes.
+Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io_ for demo purposes. It is a CSR initiative together with the National Institute of Health for monitoring the spread of COVID-19 pandemic.
 
 ### Data Sources
 Map Data Last Updated: 24/11/2022<br>
