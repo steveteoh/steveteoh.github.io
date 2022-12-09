@@ -151,7 +151,7 @@ Note: Kindly email me on the link below if you wish to have the raw code.
 [MIT](https://steveteoh.github.io/LICENSE)
 
 #### Author
-**Steve Teoh** (B.S, MSc, PhD, MIET, SMIEEE)
+**Steve Teoh** (B.S, MSc, PhD, PTech, MIET, SMIEEE)
 
 ### Issues and Contact
 Kindly contact Steve Teoh at [@teohcheehooi](https://twitter.com/teohcheehooi) or email to [Steve](mailto:chteoh@1utar.my?subject=Map "Map")
