@@ -1,0 +1,1003 @@
+[
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.236649",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:1<br>Hex coord:(3;0)",
+"LocName": "Jalan Indah 3. Taman Selayang Jaya. 68100 Selayang Municipal Council. Selangor. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:14.3882071Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":13,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":2,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.228869",
+"Lon": "101.64098",
+"Label": "Daerah: Kuala Lumpur<br>No:2<br>Hex coord:(2;1)",
+"LocName": "Taman Kepong Indah. 52000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:15.8918720Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.221089",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:3<br>Hex coord:(3;1)",
+"LocName": "Klinik Kesihatan Jinjang. 2 Jalan Jinjang Setia 3. Kepong. 52000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:17.1160426Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":11,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.228869",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:4<br>Hex coord:(4;1)",
+"LocName": "Middle Ring Road 2. Taman Batu View. 68100 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:19.5991697Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":4,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.221089",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:5<br>Hex coord:(5;1)",
+"LocName": "Sungai Batu flood retention pond. Jalan 4. Batu. 52000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:20.9689696Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.221089",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:6<br>Hex coord:(9;1)",
+"LocName": "Block H. Lot 2890 Jalan Malinja. Desa Melawati. 53000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:22.5309238Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":5,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":2,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.213309",
+"Lon": "101.64098",
+"Label": "Daerah: Kuala Lumpur<br>No:7<br>Hex coord:(2;2)",
+"LocName": "Klinik Alam Medik. Jalan Prima 1. Batu. 52000 Kuala Lumpur. Selangor. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:24.0139080Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":24,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.205529",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:8<br>Hex coord:(3;2)",
+"LocName": "Jalan 4/32A. Batu. 52000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:25.2982667Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":9,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":13,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.213309",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:9<br>Hex coord:(4;2)",
+"LocName": "100 Jalan Sibu. Taman Batu View. 68100 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:26.6801947Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.205529",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:10<br>Hex coord:(5;2)",
+"LocName": "Casa Idaman. 5 Jalan 1/12D. Kampong Batu Muda Tambahan. 51100 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:28.1970189Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":8,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.213309",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:11<br>Hex coord:(6;2)",
+"LocName": "Taman Kosmo Jaya. 53000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:29.7802485Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":5,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.205529",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:12<br>Hex coord:(7;2)",
+"LocName": "Jalan Umbun. Taman Teratai Mewah. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:31.5128940Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":6,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.213309",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:13<br>Hex coord:(8;2)",
+"LocName": "Jalan 3D/6. Setapak. 53000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:33.1947502Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":2,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.205529",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:14<br>Hex coord:(9;2)",
+"LocName": "Wangsa Maju. 53300 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:34.7962834Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":5,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":2,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.189969",
+"Lon": "101.62749",
+"Label": "Daerah: Kuala Lumpur<br>No:15<br>Hex coord:(1;3)",
+"LocName": "Adiva. Taman Bukit Maluri. 52200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:36.4494992Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.197749",
+"Lon": "101.64098",
+"Label": "Daerah: Kuala Lumpur<br>No:16<br>Hex coord:(2;3)",
+"LocName": "Kawasan Perusahaan Taman Bukit Maluri. Taman Bukit Maluri. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:37.5987136Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":12,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.189969",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:17<br>Hex coord:(3;3)",
+"LocName": "Segambut Toll Plaza. Kampong Segambut. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:38.8313257Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":6,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":12,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.197749",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:18<br>Hex coord:(4;3)",
+"LocName": "Jalan Jambu Golok. Segambut. 51200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:40.1960773Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":6,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.189969",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:19<br>Hex coord:(5;3)",
+"LocName": "Lengkok Cumarasamy. Taman Million. 51200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:41.7464254Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.197749",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:20<br>Hex coord:(6;3)",
+"LocName": "Taman Kosmo Jaya. 51100 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:43.2802581Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":11,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.189969",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:21<br>Hex coord:(7;3)",
+"LocName": "Christ Lutheran Church. Setapak. KL. 52 Jalan Genting Klang. Titiwangsa. 53300 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:44.9680332Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":11,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.197749",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:22<br>Hex coord:(8;3)",
+"LocName": "Tabernacle of David. Jalan Usahawan 2. Setapak. 53200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:46.6628978Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":7,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.189969",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:23<br>Hex coord:(9;3)",
+"LocName": "Institut Terjemahan & Buku Malaysia. Jalan 1/27E. Setiawangsa. 53300 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:48.3631568Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.197749",
+"Lon": "101.7489",
+"Label": "Daerah: Kuala Lumpur<br>No:24<br>Hex coord:(10;3)",
+"LocName": "Jalan 12/27A. Wangsa Maju. 54200 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:50.0609885Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":4,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":1,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.174409",
+"Lon": "101.62749",
+"Label": "Daerah: Kuala Lumpur<br>No:25<br>Hex coord:(1;4)",
+"LocName": "Country Heights Damansara. Segambut Jaya. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:51.4816757Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.182189",
+"Lon": "101.64098",
+"Label": "Daerah: Kuala Lumpur<br>No:26<br>Hex coord:(2;4)",
+"LocName": "Jalan Desa Bistari. Segambut Jaya. 52200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:52.6133123Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":12,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.174409",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:27<br>Hex coord:(3;4)",
+"LocName": "1 Jalan Kiara 2. Kampong Segambut Dalam. 50480 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:53.8153346Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":5,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.182189",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:28<br>Hex coord:(4;4)",
+"LocName": "Jalan Dutamas 3. Segambut. 51200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:55.1290069Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.174409",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:29<br>Hex coord:(5;4)",
+"LocName": "2 Jalan Tijani 2. Bukit Tunku. 50480 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:56.5961798Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.182189",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:30<br>Hex coord:(6;4)",
+"LocName": "A Lorong TImur. Taman Million. 51000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:58.0469147Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":6,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":3,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.174409",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:31<br>Hex coord:(7;4)",
+"LocName": "SM Puteri Titiwangsa. Jalan Temerloh. Kampung Baru. 10024 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:22:59.6479413Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.182189",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:32<br>Hex coord:(8;4)",
+"LocName": "E33. Titiwangsa. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:01.1795919Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.182189",
+"Lon": "101.7489",
+"Label": "Daerah: Kuala Lumpur<br>No:33<br>Hex coord:(10;4)",
+"LocName": "Lebuhraya Duta - Ulu Kelang. Taman Setiawangsa. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:02.8302672Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":4,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":2,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.158849",
+"Lon": "101.62749",
+"Label": "Daerah: Kuala Lumpur<br>No:34<br>Hex coord:(1;5)",
+"LocName": "Jalan Cahaya 1. Taman Tun Dr Ismail. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:04.3819170Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.166629",
+"Lon": "101.64098",
+"Label": "Daerah: Kuala Lumpur<br>No:35<br>Hex coord:(2;5)",
+"LocName": "Mont Kiara. 6000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:05.4627526Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.158849",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:36<br>Hex coord:(3;5)",
+"LocName": "Jalan Setiakasih 4. Mont Kiara. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:06.6441178Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.166629",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:37<br>Hex coord:(4;5)",
+"LocName": "Immigration office (visa extension). Aras 1. Wisma Rampai. Jalan 34/26. Taman Sri Rampai Jalan Sri Hartamas 1. Kompleks Kerajaan. 53300 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:07.8626619Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.158849",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:38<br>Hex coord:(5;5)",
+"LocName": "Lebuhraya Sultan Iskandar. Taman Duta. 50580 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:09.1607765Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.166629",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:39<br>Hex coord:(6;5)",
+"LocName": "Sani. 63 Jalan Putra. Chow Kit. 50350 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:10.4649036Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":7,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.158849",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:40<br>Hex coord:(7;5)",
+"LocName": "Maya. 138 Jalan Ampang. Kampong Baharu. 50450 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:11.9641443Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.166629",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:41<br>Hex coord:(8;5)",
+"LocName": "Lorong Kiri 1. Pulapol. 54000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:13.4796443Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":4,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.158849",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:42<br>Hex coord:(9;5)",
+"LocName": "Menara Perkeso. 281 Jalan Ampang. Taman U-Thant. 50538 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:15.0961747Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":6,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.143289",
+"Lon": "101.62749",
+"Label": "Daerah: Kuala Lumpur<br>No:43<br>Hex coord:(1;6)",
+"LocName": "249 Persiaran Zaaba. Taman Tun Dr Ismail. TTDI. 60000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:16.5792901Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.151069",
+"Lon": "101.64098",
+"Label": "Daerah: Kuala Lumpur<br>No:44<br>Hex coord:(2;6)",
+"LocName": "Kawan-Kawan. Taman Tun Dr Ismail. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:17.6582745Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.143289",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:45<br>Hex coord:(3;6)",
+"LocName": "Lorong Setiabistari 4. Bukit Kiara. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:18.7458411Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.151069",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:46<br>Hex coord:(4;6)",
+"LocName": "CIMB Bank. 6 Changkat Semantan. Kampong Bukit Mati. 50490 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:19.8955372Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.143289",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:47<br>Hex coord:(5;6)",
+"LocName": "Persiaran Tuanku Ja'Afar. Brickfields. 50566 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:21.1128947Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.151069",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:48<br>Hex coord:(6;6)",
+"LocName": "Jalan Parlimen. Bukit Bintang. 50050 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:22.3632386Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.143289",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:49<br>Hex coord:(7;6)",
+"LocName": "Kompleks Sun. Lorong Pudu 14. Bukit Bintang. 50200 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:23.6968503Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":11,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.151069",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:50<br>Hex coord:(8;6)",
+"LocName": "Embassy of Japan. No.11 Jalan Tun Razak. Kampong Dollah. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:25.1627959Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.143289",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:51<br>Hex coord:(9;6)",
+"LocName": "CHIOSCO - STEAK . BURGERS . PASTA . FUSION. No. 17 Jalan Thaver. Kampung Pandan. 55100 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:26.6628426Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":8,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.135509",
+"Lon": "101.64098",
+"Label": "Daerah: Kuala Lumpur<br>No:52<br>Hex coord:(2;7)",
+"LocName": "TPC Kuala Lumpur. Persiaran Bukit Kiara. Damansara Heights. 50490 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:28.0457468Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.127729",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:53<br>Hex coord:(3;7)",
+"LocName": "University of Malaya. Jalan 16/5. PJ State. 47350 Petaling Jaya. Selangor. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:29.1299162Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.135509",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:54<br>Hex coord:(4;7)",
+"LocName": "223 Jalan Ara. Taman Bandaraya. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:30.2925456Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.127729",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:55<br>Hex coord:(5;7)",
+"LocName": "Signature Hotel. 130E Jalan Thamby Abdullah. Brickfields. 50470 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:31.4984029Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":5,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.135509",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:56<br>Hex coord:(6;7)",
+"LocName": "To KLCC. Cheras. Kg. Attap. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:32.8179725Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.127729",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:57<br>Hex coord:(7;7)",
+"LocName": "Jalan 1/78. Taman Ikan Emas. 57000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:34.1458218Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":8,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":12,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.135509",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:58<br>Hex coord:(8;7)",
+"LocName": "IKEA. 2 Jalan Cochrane. Cheras. 55100 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:35.6126113Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.127729",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:59<br>Hex coord:(9;7)",
+"LocName": "Zomi Adventist Church - Malaysia. 41 Lorong 6 E/91. Taman Shamelin Perkasa. 56100 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:37.0637641Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":13,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.112169",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:60<br>Hex coord:(3;8)",
+"LocName": "yes 200 mm DIP Force Main. University of Malaya. 50603 Petaling Jaya. Selangor. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:38.5135535Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.119949",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:61<br>Hex coord:(4;8)",
+"LocName": "Sekeping Tenggiri. 48 Jalan Tenggiri. Taman Bukit Pantai. 59100 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:39.8100345Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":3,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.112169",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:62<br>Hex coord:(5;8)",
+"LocName": "Persiaran Seputeh. Taman Desa. 50614 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:41.0958987Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.119949",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:63<br>Hex coord:(6;8)",
+"LocName": "Seputeh. 50460 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:42.5128763Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.112169",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:64<br>Hex coord:(7;8)",
+"LocName": "Jalan 1/89. Salak Selatan. 55200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:43.9152732Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":5,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.119949",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:65<br>Hex coord:(8;8)",
+"LocName": "Sungai Besi Expressway. Cheras. 51500 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:45.4295690Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":13,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.112169",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:66<br>Hex coord:(9;8)",
+"LocName": "Jalan Selangat. Taman Cheras. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:46.9623560Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":6,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.104389",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:67<br>Hex coord:(4;9)",
+"LocName": "Jalan Pantai Permai 4. Bukit Kerinchi. 59200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:53.1622898Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":8,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":5,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.096609",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:68<br>Hex coord:(5;9)",
+"LocName": "Jalan Desa. Taman Desa. 58200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:54.6627649Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":10,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.104389",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:69<br>Hex coord:(6;9)",
+"LocName": "Salak Expressway. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:56.2357118Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.096609",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:70<br>Hex coord:(7;9)",
+"LocName": "648-1 Jalan 27. Bandar Sri Permaisuri. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:57.7463609Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":7,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":2,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.104389",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:71<br>Hex coord:(8;9)",
+"LocName": "Sekolah Menengah Teknik Kuala Lumpur. Jalan Tasik Permaisuri 1. Cheras. 51020 Kuala Lumpur. Selangor. Malaysia"}],
+"Timestamp":"2023-01-17T17:23:59.3796481Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":4,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.096609",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:72<br>Hex coord:(9;9)",
+"LocName": "Cheras. 56000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:00.9808977Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.104389",
+"Lon": "101.7489",
+"Label": "Daerah: Kuala Lumpur<br>No:73<br>Hex coord:(10;9)",
+"LocName": "Cheras. 56100 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:02.3958832Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":4,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.088829",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:74<br>Hex coord:(4;10)",
+"LocName": "Terminal IKS Pantai Dalam. Jalan Pantai Dalam. 59200 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:39.7626361Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":13,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.081049",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:75<br>Hex coord:(5;10)",
+"LocName": "Jalan Mesra Ria. Taman Gembira. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:41.2283781Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":5,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.088829",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:76<br>Hex coord:(6;10)",
+"LocName": "Solid Steel Metal Sdn Bhd. 861 Jalan 35. Salak South. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:44.8128882Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":4,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.081049",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:77<br>Hex coord:(7;10)",
+"LocName": "5 Jalan 2/125. Salak South. 57100 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:46.4464813Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":9,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.088829",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:78<br>Hex coord:(8;10)",
+"LocName": "EXMobile. 72 Jalan Kilang Midah. Cheras. 56000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:47.9634788Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":6,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.081049",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:79<br>Hex coord:(9;10)",
+"LocName": "AmBank. 110 Jalan Cerdas. Taman Orchid Desa. 56100 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:49.4448560Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.065489",
+"Lon": "101.65447",
+"Label": "Daerah: Kuala Lumpur<br>No:80<br>Hex coord:(3;11)",
+"LocName": "Kolam Takungan Banjir Kampung Bohol. Shah Alam Expressway. Overseas Union Garden. 47180 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:50.8150202Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":4,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.073269",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:81<br>Hex coord:(4;11)",
+"LocName": "Lorong Awan Jawa. Overseas Union Garden. 41100 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:52.1460566Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":2,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.065489",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:82<br>Hex coord:(5;11)",
+"LocName": "Jalan Hujan Bubuk. Bandar Sri Petaling. 57000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:53.6298284Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.073269",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:83<br>Hex coord:(6;11)",
+"LocName": "Jalan 15/149. Taman Sri Petaling. 57000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:55.0462848Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":6,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.065489",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:84<br>Hex coord:(7;11)",
+"LocName": "MRT Putrajaya Line. Pekan Sungai Besi. Sungai Besi. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:56.5973086Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":7,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.073269",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:85<br>Hex coord:(8;11)",
+"LocName": "Sungai Besi. 56000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:57.9987665Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.065489",
+"Lon": "101.73541",
+"Label": "Daerah: Kuala Lumpur<br>No:86<br>Hex coord:(9;11)",
+"LocName": "Jalan Damai Murni 2. Taman Orchid Desa. Cheras. Selangor. Malaysia"}],
+"Timestamp":"2023-01-17T17:24:59.3311788Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.057709",
+"Lon": "101.66796",
+"Label": "Daerah: Kuala Lumpur<br>No:87<br>Hex coord:(4;12)",
+"LocName": "Murni Discovery Bukit Jalil. 41 Jalan 16/155C. Hutan Simpan Air Hitam. 57000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:25:00.5633416Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":4,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":1,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.049929",
+"Lon": "101.68145",
+"Label": "Daerah: Kuala Lumpur<br>No:88<br>Hex coord:(5;12)",
+"LocName": "Calvary Convention Centre. Jalan 1/155B. Bukit Jalil. 57000 Kuala Lumpur. Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:25:01.9305037Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":5,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.057709",
+"Lon": "101.69494",
+"Label": "Daerah: Kuala Lumpur<br>No:89<br>Hex coord:(6;12)",
+"LocName": "Kuala Lumpur Sports City. Jalan Technologi 3. Bukit Jalil. 57000 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:25:03.1312733Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.049929",
+"Lon": "101.70843",
+"Label": "Daerah: Kuala Lumpur<br>No:90<br>Hex coord:(7;12)",
+"LocName": "217. Sungai Besi. Kuala Lumpur. Selangor. Malaysia"}],
+"Timestamp":"2023-01-17T17:25:04.4966343Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"KL",
+"Lat": "3.057709",
+"Lon": "101.72192",
+"Label": "Daerah: Kuala Lumpur<br>No:91<br>Hex coord:(8;12)",
+"LocName": "Sungai Besi. 57100 Kuala Lumpur. Malaysia"}],
+"Timestamp":"2023-01-17T17:25:05.7320726Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+}
+]

@@ -1,0 +1,574 @@
+[
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.273148",
+"Lon": "115.317955",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(15;7)",
+"LocName": "Pulau Daat"}],
+"Timestamp":"2023-01-17T18:00:49.1211624Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.2249",
+"Lon": "115.130984",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(0;0)",
+"LocName": "Kuraman Island"}],
+"Timestamp":"2023-01-17T18:00:50.0825022Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.385856",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:1<br>Hex coord:(9;0)",
+"LocName": "87014 Kampung Pohon Batu. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:50.8011797Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":2,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.393636",
+"Lon": "115.255644",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(10;0)",
+"LocName": "Tanjung Kubong"}],
+"Timestamp":"2023-01-17T18:00:51.5075383Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.370296",
+"Lon": "115.215174",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(7;1)",
+"LocName": "Sungai Pohon Batu. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:52.2043633Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":2,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.378076",
+"Lon": "115.228664",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(8;1)",
+"LocName": "Batu Manikar Beach. Jalan Batu Manikar. 87014 Kampung Pohon Batu. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:52.9242424Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":2,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.370296",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:2<br>Hex coord:(9;1)",
+"LocName": "Jalan Lubok Temiang. 87014 Kampung Pohon Batu. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:53.6487389Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":2,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.378076",
+"Lon": "115.255644",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(10;1)",
+"LocName": "Kubong Point. 87014 Kampung Pohon Batu. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:54.3797739Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":2,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.354736",
+"Lon": "115.215174",
+"Label": "Daerah: Labuan<br>No:3<br>Hex coord:(7;2)",
+"LocName": "Jalan OKK Daud. 87014 Kampung Pohon Batu. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:55.0926845Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.362516",
+"Lon": "115.228664",
+"Label": "Daerah: Labuan<br>No:4<br>Hex coord:(8;2)",
+"LocName": "87014 Kampung Pohon Batu. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:55.8102871Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":2,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.354736",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:5<br>Hex coord:(9;2)",
+"LocName": "87000 Kampung Pohon Batu. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:56.5404104Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.346956",
+"Lon": "115.201684",
+"Label": "Daerah: Labuan<br>No:6<br>Hex coord:(6;3)",
+"LocName": "Jalan Pancur Hitam. 87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:57.2634828Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.339176",
+"Lon": "115.215174",
+"Label": "Daerah: Labuan<br>No:7<br>Hex coord:(7;3)",
+"LocName": "Jalan Bukit Kuda. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:57.9810300Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.346956",
+"Lon": "115.228664",
+"Label": "Daerah: Labuan<br>No:8<br>Hex coord:(8;3)",
+"LocName": "87000 Kampung Pohon Batu. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:58.7158836Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.339176",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:9<br>Hex coord:(9;3)",
+"LocName": "87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:00:59.4491909Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.323616",
+"Lon": "115.188194",
+"Label": "Daerah: Labuan<br>No:10<br>Hex coord:(5;4)",
+"LocName": "87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:00.1672006Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.331396",
+"Lon": "115.201684",
+"Label": "Daerah: Labuan<br>No:11<br>Hex coord:(6;4)",
+"LocName": "87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:00.8708203Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":9,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.323616",
+"Lon": "115.215174",
+"Label": "Daerah: Labuan<br>No:12<br>Hex coord:(7;4)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:01.5930809Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":15,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.331396",
+"Lon": "115.228664",
+"Label": "Daerah: Labuan<br>No:13<br>Hex coord:(8;4)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:02.3906352Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.323616",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:14<br>Hex coord:(9;4)",
+"LocName": "Jalan Kerupang Tiga. Kampung Patau-Patau II (Water Village). 87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:03.1183597Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":13,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.331396",
+"Lon": "115.255644",
+"Label": "Daerah: Labuan<br>No:14<br>Hex coord:(10;4)",
+"LocName": "Sungai Dollah. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:03.8398403Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.308056",
+"Lon": "115.188194",
+"Label": "Daerah: Labuan<br>No:15<br>Hex coord:(5;5)",
+"LocName": "Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:04.5581154Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.315836",
+"Lon": "115.201684",
+"Label": "Daerah: Labuan<br>No:16<br>Hex coord:(6;5)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:05.3055280Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":13,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.308056",
+"Lon": "115.215174",
+"Label": "Daerah: Labuan<br>No:17<br>Hex coord:(7;5)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:06.0697834Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":17,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.315836",
+"Lon": "115.228664",
+"Label": "Daerah: Labuan<br>No:18<br>Hex coord:(8;5)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87000 Kampung Pantai. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:06.8023701Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":16,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.308056",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:19<br>Hex coord:(9;5)",
+"LocName": "Jalan Pulau Buah. Kampung Patau-Patau II (Water Village). 87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:07.5421300Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":16,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.315836",
+"Lon": "115.255644",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(10;5)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87000 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:08.2772883Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":13,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.300276",
+"Lon": "115.174704",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(4;6)",
+"LocName": "Sungai Pagar Beach. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:08.9959490Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.292496",
+"Lon": "115.188194",
+"Label": "Daerah: Labuan<br>No:20<br>Hex coord:(5;6)",
+"LocName": "Jalan Bukit Timbalai. 87009 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:09.7170836Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.300276",
+"Lon": "115.201684",
+"Label": "Daerah: Labuan<br>No:21<br>Hex coord:(6;6)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87009 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:10.4444410Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.292496",
+"Lon": "115.215174",
+"Label": "Daerah: Labuan<br>No:22<br>Hex coord:(7;6)",
+"LocName": "Jalan Kinabenuwa. Kampung Patau-Patau II (Water Village). 87009 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:11.1806798Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":15,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.300276",
+"Lon": "115.228664",
+"Label": "Daerah: Labuan<br>No:23<br>Hex coord:(8;6)",
+"LocName": "Kindom Hall of Jehovah's Witnesses. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:11.9079943Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":14,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.292496",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:24<br>Hex coord:(9;6)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87007 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:12.6376096Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":14,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.300276",
+"Lon": "115.255644",
+"Label": "Daerah: Labuan<br>No:25<br>Hex coord:(10;6)",
+"LocName": "Sungai Membidai. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:13.3674832Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.292496",
+"Lon": "115.269134",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(11;6)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87007 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:14.0933432Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.284716",
+"Lon": "115.174704",
+"Label": "Daerah: Labuan<br>No:26<br>Hex coord:(4;7)",
+"LocName": "SM Sains Labuan. Jalan Sungai Pagar. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:14.8251748Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.276936",
+"Lon": "115.188194",
+"Label": "Daerah: Labuan<br>No:27<br>Hex coord:(5;7)",
+"LocName": "Jalan Bebuloh. Kampung Patau-Patau II (Water Village). 87009 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:15.5488571Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.284716",
+"Lon": "115.201684",
+"Label": "Daerah: Labuan<br>No:28<br>Hex coord:(6;7)",
+"LocName": "Sungai Buton. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:16.2857358Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":13,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.276936",
+"Lon": "115.215174",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(7;7)",
+"LocName": "Sungai Kina Benuwa. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:17.0004629Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":13,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.284716",
+"Lon": "115.228664",
+"Label": "Daerah: Labuan<br>No:29<br>Hex coord:(8;7)",
+"LocName": "Kampung Patau-Patau II (Water Village). 87009 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:17.7346998Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":3,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":14,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.276936",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:30<br>Hex coord:(9;7)",
+"LocName": "Public Bank. Jalan Merdeka. Kampung Patau-Patau I (Water Village). 87009 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:18.4527873Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":14,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.284716",
+"Lon": "115.255644",
+"Label": "Daerah: Labuan<br>No:31<br>Hex coord:(10;7)",
+"LocName": "Labuan Golf Club. Jalan Jumidor Buyong. Kampung Patau-Patau II (Water Village). 87007 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:19.1669674Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":11,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.261376",
+"Lon": "115.161214",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(3;8)",
+"LocName": "Sungai Timbaran. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:19.8790631Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.253596",
+"Lon": "115.161214",
+"Label": "Daerah: Labuan<br>No:xx<br>Hex coord:(3;9)",
+"LocName": "Sungai Timbaran. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:20.6007957Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.269156",
+"Lon": "115.174704",
+"Label": "Daerah: Labuan<br>No:32<br>Hex coord:(4;8)",
+"LocName": "Jalan Sungai Pagar. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:21.3078708Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.261376",
+"Lon": "115.188194",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(5;8)",
+"LocName": "TLDM Labuan"}],
+"Timestamp":"2023-01-17T18:01:22.0287594Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":4,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.269156",
+"Lon": "115.228664",
+"Label": "Daerah: Labuan<br>No:33<br>Hex coord:(8;8)",
+"LocName": "Ibu Pejabat Jabatan Bomba Dan Penyelamat Malaysia W.P Labuan. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:22.7289475Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":1,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":10,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.261376",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(9;8)",
+"LocName": "Kampung Patau-Patau I (Water Village). 87009 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:23.4518755Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.253596",
+"Lon": "115.242154",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(9;9)",
+"LocName": "Petronas Chemicals Methanol PLant. 87009 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:24.1559556Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":6,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.269156",
+"Lon": "115.255644",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(10;8)",
+"LocName": "Tanjung Bendera Beacon. Victoria. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:24.8613883Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":7,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.253596",
+"Lon": "115.174704",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(4;9)",
+"LocName": "Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:25.5723654Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+},
+{
+"Location": [{
+"Statefile":"Labuan",
+"Lat": "5.253596",
+"Lon": "115.228664",
+"Label": "Daerah: Labuan<br>No:x<br>Hex coord:(8;9)",
+"LocName": "Kampung Patau-Patau I (Water Village). 87009 Labuan. Labuan. Malaysia"}],
+"Timestamp":"2023-01-17T18:01:26.2833627Z",
+"Response": 
+{"hotSpots":[{"disease":"TB","displayName":{"enUS":"Tuberculosis","msMY":"Tibi"},"iconUri":"/hotspot/icons/TB.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":60},{"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},{"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25},{"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut​"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":8,"radiusInMeters":5000.0,"durationInDays":7},{"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},{"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90}]}
+}
+]
