@@ -15,7 +15,7 @@ Note:
  - Below are the links to the some of the smaller json output for comparison with the corresponding csv files for side by side comparison:
    [20230118 KL Raw Data](https://steveteoh.github.io/data/wp/20230118_KL.raw.json)                    [20230118 KL csv file](https://steveteoh.github.io/data/wp/20230118_KL.csv)
    [20230118 Putrajaya Raw Data](https://steveteoh.github.io/data/wp/20230118_Putrajaya.raw.json)      [20230118 Putrajaya csv file](https://steveteoh.github.io/data/wp/20230118_Putrajaya.csv)
-   [20230118 Labuan Raw Data](https://steveteoh.github.io/data/wp/20230118_Labuan.raw.json)            [20230118 Labuan csv file]((https://steveteoh.github.io/data/wp/20230118_Labuan.csv)
+   [20230118 Labuan Raw Data](https://steveteoh.github.io/data/wp/20230118_Labuan.raw.json)            [20230118 Labuan csv file](https://steveteoh.github.io/data/wp/20230118_Labuan.csv)
 
  - It turns out that there is a possibility that the Mysejahtera programmer has accidentally swapped the data columns. It certainly reflects very bad on a software purportedly worth more than RM 70 million!
  - I am now doing a trial on error by swapping the columns with most active cases, i.e. HFMD and TB columns with the Covid-19 column for the csv datasource from 18/1/2023 onwards. 
