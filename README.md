@@ -9,8 +9,8 @@ Welcome to Steve Teoh's public health github page. This page highlights the shar
 Map Data Last Updated: 12/01/2023<br>
 14-day active cases data is sourced from mysejahtera app through api lookup. Contact the [author](mailto:chteoh@1utar.my?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.<br>
 Note: 
-- Since 13/01/2023, the MYsejahtera query response has returned all zeros for Covid-19 cases nationwide. It is impossible that a infectious disease can just suddenly vanish into thin air.
- - Upon closer inspection, there is a likelyhood that the data column was mixed up with HFMD which suddenly showed a widespread coverage. 
+- Since **13/01/2023**, the MYsejahtera query response has returned all zeros for Covid-19 cases nationwide. It is impossible that a infectious disease can just suddenly vanish into thin air.
+ - Upon closer inspection, there is a likelyhood that the **Covid-19** data column was mixed up with **HFMD** or **TB** which suddenly showed a widespread coverage. 
  - In order to assess the nature of the problem, I have collected raw data of several smaller areas in json format for analysis.
  - Below are the links to the some of the smaller json output for comparison with the corresponding csv files for side by side comparison:
    [20230118 KL Raw Data](https://steveteoh.github.io/data/wp/20230118_KL.raw.json)                    [20230118 KL csv file](https://steveteoh.github.io/data/wp/20230118_KL.csv)
