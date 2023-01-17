@@ -1,14 +1,25 @@
 ﻿## Welcome to Steve Teoh's Public Health Monitoring Repo
 
-Last Updated: 24/11/2022
+Last Updated: 18/01/2023
 <br/>Created: 26/08/2021 
 
-Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io_ for demo purposes.  This page highlights the shared sources available in _https://steveteoh.github.io_ for demo purposes. It is a public-domain CSR with National Institute of Health to help monitor the spread of COVID-19.
+Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io_ for demo and educational purposes.  This page highlights the shared sources available in _https://steveteoh.github.io_ for demo purposes. It is a public-domain CSR with National Institute of Health to help monitor the spread of COVID-19.
 
 ### Data Sources
-Map Data Last Updated: 09/12/2022<br>
+Map Data Last Updated: 12/01/2023<br>
 14-day active cases data is sourced from mysejahtera app through api lookup. Contact the [author](mailto:chteoh@1utar.my?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.<br>
 Note: 
+- Since 13/01/2023, the MYsejahtera query response has returned all zeros for Covid-19 cases nationwide. It is impossible that a infectious disease can just suddenly vanish into thin air.
+ - Upon closer inspection, there is a likelyhood that the data column was mixed up with HFMD which suddenly showed a widespread coverage. 
+ - In order to assess the nature of the problem, I have collected raw data of several smaller areas in json format for analysis.
+ - Below are the links to the some of the smaller json output for comparison with the corresponding csv files for side by side comparison:
+   [20230118 KL Raw Data](https://steveteoh.github.io/data/wp/20230118_KL.raw.json)                    [20230118 KL csv file](https://steveteoh.github.io/data/wp/20230118_KL.csv)
+   [20230118 Putrajaya Raw Data](https://steveteoh.github.io/data/wp/20230118_Putrajaya.raw.json)      [20230118 Putrajaya csv file](https://steveteoh.github.io/data/wp/20230118_Putrajaya.csv)
+   [20230118 Labuan Raw Data](https://steveteoh.github.io/data/wp/20230118_Labuan.raw.json)            [20230118 Labuan csv file]((https://steveteoh.github.io/data/wp/20230118_Labuan.csv)
+
+ - It turns out that there is a possibility that the Mysejahtera programmer has accidentally swapped the data columns. It certainly reflects very bad on a software purportedly worth more than RM 70 million!
+ - I have swapped the HFMD and Covid-19 columns for the csv datasource from 18/1/2023 onwards. If there is anything that look peculiar, please let me know. Thank you very much.
+
 - Map data from **09/05/2022** to **08/07/2022** were all zeroes due to the old hotspots interface API location _https://mysejahtera.malaysia.gov.my/register/api/nearby/hotspots?type=locateme_ being superceded by _https://mysejahtera.malaysia.gov.my/epms/v1/hotspot/nearby?type=locateme_ <br>
 - The request json is still the same
 ```
