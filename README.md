@@ -18,7 +18,8 @@ Note:
    [20230118 Labuan Raw Data](https://steveteoh.github.io/data/wp/20230118_Labuan.raw.json)            [20230118 Labuan csv file]((https://steveteoh.github.io/data/wp/20230118_Labuan.csv)
 
  - It turns out that there is a possibility that the Mysejahtera programmer has accidentally swapped the data columns. It certainly reflects very bad on a software purportedly worth more than RM 70 million!
- - I have swapped the HFMD and Covid-19 columns for the csv datasource from 18/1/2023 onwards. If there is anything that look peculiar, please let me know. Thank you very much.
+ - I am now doing a trial on error by swapping the columns with most active cases, i.e. HFMD and TB columns with the Covid-19 column for the csv datasource from 18/1/2023 onwards. 
+ - If the map output looks peculiar, please let me know. Thank you very much.
 
 - Map data from **09/05/2022** to **08/07/2022** were all zeroes due to the old hotspots interface API location _https://mysejahtera.malaysia.gov.my/register/api/nearby/hotspots?type=locateme_ being superceded by _https://mysejahtera.malaysia.gov.my/epms/v1/hotspot/nearby?type=locateme_ <br>
 - The request json is still the same
