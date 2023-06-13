@@ -1,0 +1,93 @@
+lat,lon,label,placename,weeklyactive,DENGUE,RABIES,ANIMAL_RABIES,MEASLES,HFMD,weight,timestamp,TB
+3.223441,101.495798,Daerah: Shah Alam<br>No:1<br>Hex coord:(4;0),47000 Merbau Indah. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:13.3766677Z,14
+3.215661,101.509288,Daerah: Shah Alam<br>No:2<br>Hex coord:(5;0),Kampung Merbau Sempak. 47000 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:14.8159647Z,1
+3.215661,101.536268,Daerah: Shah Alam<br>No:3<br>Hex coord:(7;0),Kampung Baru Sungai Pelong. 47000 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:15.9440037Z,0
+3.215661,101.563248,Daerah: Shah Alam<br>No:4<br>Hex coord:(9;0),Jalan BRP 4/5. Paya Jaras. 47830 Sungai Buloh. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:17.1108600Z,1
+3.207881,101.495798,Daerah: Shah Alam<br>No:5<br>Hex coord:(4;1),Elmina. 47000 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:18.1689920Z,0
+3.200101,101.509288,Daerah: Shah Alam<br>No:6<br>Hex coord:(5;1),Kampung Kubu Gajah. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:19.2698010Z,1
+3.207881,101.522778,Daerah: Shah Alam<br>No:7<br>Hex coord:(6;1),Taman Paya Jaras Permai. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:20.3891661Z,1
+3.200101,101.536268,Daerah: Shah Alam<br>No:8<br>Hex coord:(7;1),Paya Jaras. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:21.5283111Z,1
+3.207881,101.549758,Daerah: Shah Alam<br>No:9<br>Hex coord:(8;1),Paya Jaras. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:22.6603841Z,1
+3.200101,101.563248,Daerah: Shah Alam<br>No:10<br>Hex coord:(9;1),Sungai Buloh New Village. 47830. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:23.8671465Z,0
+3.184541,101.455328,Daerah: Shah Alam<br>No:11<br>Hex coord:(1;2),Kampung Bukit Cherakah. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:24.9183643Z,0
+3.192321,101.468818,Daerah: Shah Alam<br>No:12<br>Hex coord:(2;2),Kuala Selangor. 47000. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:26.0007970Z,0
+3.184541,101.482308,Daerah: Shah Alam<br>No:13<br>Hex coord:(3;2),Sungai Buloh. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:27.0757158Z,0
+3.192321,101.495798,Daerah: Shah Alam<br>No:14<br>Hex coord:(4;2),Elmina. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:28.1995045Z,0
+3.184541,101.509288,Daerah: Shah Alam<br>No:15<br>Hex coord:(5;2),Elmina. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:29.3336003Z,1
+3.192321,101.522778,Daerah: Shah Alam<br>No:16<br>Hex coord:(6;2),Jalan Frekuensi U16/113A. Elmina. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:30.4702481Z,1
+3.184541,101.536268,Daerah: Shah Alam<br>No:17<br>Hex coord:(7;2),Kompleks Pejabat Kerajaan Daerah Petaling. Persiaran Atmosfera. Elmina. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:31.6267855Z,1
+3.192321,101.549758,Daerah: Shah Alam<br>No:18<br>Hex coord:(8;2),Paya Jaras Dalam. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:32.8159459Z,0
+3.184541,101.563248,Daerah: Shah Alam<br>No:19<br>Hex coord:(9;2),Bintang Packaging Industries (M) Sdn Bhd. LOT 2737-A Jalan Industri 12. 47000 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:34.0358596Z,0
+3.192321,101.576738,Daerah: Shah Alam<br>No:20<br>Hex coord:(10;2),Nuan Caf�. Lot 2177 Jalan Baru Sungai Buloh. 40160 Petaling Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:35.2593888Z,0
+3.176761,101.468818,Daerah: Shah Alam<br>No:21<br>Hex coord:(2;3),Persiaran Mokhtar Dahari. Kampung Bukit Cherakah. 41050 KLANG Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:36.3396176Z,0
+3.168981,101.482308,Daerah: Shah Alam<br>No:22<br>Hex coord:(3;3),Subang Kolam Ayer. Shah Alam. Petaling. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:37.4420236Z,0
+3.176761,101.495798,Daerah: Shah Alam<br>No:23<br>Hex coord:(4;3),Subang Dam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:38.5499981Z,0
+3.168981,101.509288,Daerah: Shah Alam<br>No:24<br>Hex coord:(5;3),Taman Bukit Subang. 40800 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:39.6882392Z,0
+3.176761,101.522778,Daerah: Shah Alam<br>No:25<br>Hex coord:(6;3),Pangsapuri Melati Blok 12. Blok 12 Jalan Metafasa U16/3. Seksyen U16. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:40.7782351Z,0
+3.168981,101.536268,Daerah: Shah Alam<br>No:26<br>Hex coord:(7;3),ELM LIGHTING SDN BHD. 16 & 18 & 22 & 24 Jalan Utarid U5/29. 40150 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:41.9736659Z,1
+3.176761,101.549758,Daerah: Shah Alam<br>No:27<br>Hex coord:(8;3),Pangsapuri Damai. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:43.1741378Z,0
+3.168981,101.563248,Daerah: Shah Alam<br>No:28<br>Hex coord:(9;3),Pasar Raya Borong & Runcit SURIA. 12 Jalan TSB 10. 47810 Petaling Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:44.3916062Z,0
+3.153421,101.482308,Daerah: Shah Alam<br>No:29<br>Hex coord:(3;4),Subang. 40170 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:45.4580495Z,0
+3.161201,101.495798,Daerah: Shah Alam<br>No:30<br>Hex coord:(4;4),Elmina. 40800 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:46.5459748Z,0
+3.153421,101.509288,Daerah: Shah Alam<br>No:31<br>Hex coord:(5;4),Urban Explorer. 5A Jalan Elektron U16/P. 40160 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:47.6650546Z,0
+3.161201,101.522778,Daerah: Shah Alam<br>No:32<br>Hex coord:(6;4),Persiaran Nukleus. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:48.7657737Z,0
+3.153421,101.536268,Daerah: Shah Alam<br>No:33<br>Hex coord:(7;4),Jalan Jati. Subang. 40800 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:49.9224644Z,6
+3.161201,101.549758,Daerah: Shah Alam<br>No:34<br>Hex coord:(8;4),MyBicycle Shop. No. 7 Jalan Bulan BL U5/BL. Bandar Pinggiran Subang. 40150 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:51.1285297Z,0
+3.137861,101.455328,Daerah: Shah Alam<br>No:35<br>Hex coord:(1;5),Kwangtung Cemetery. Klang. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:52.2093399Z,0
+3.145641,101.468818,Daerah: Shah Alam<br>No:36<br>Hex coord:(2;5),Jalan Hamzah. Kampung Budiman. 40710 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:53.2807369Z,1
+3.137861,101.482308,Daerah: Shah Alam<br>No:37<br>Hex coord:(3;5),Basuh Muka. 40710 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:54.5372386Z,2
+3.145641,101.495798,Daerah: Shah Alam<br>No:38<br>Hex coord:(4;5),Jalan Pulau Angsa U10/2. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:55.6141997Z,0
+3.137861,101.509288,Daerah: Shah Alam<br>No:39<br>Hex coord:(5;5),Jalan Hijau Alam U9/17A. Subang. 40170 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:56.7292855Z,1
+3.145641,101.522778,Daerah: Shah Alam<br>No:40<br>Hex coord:(6;5),10 Jalan Subang Permai 10. Subang. 40800 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:57.8218613Z,0
+3.137861,101.536268,Daerah: Shah Alam<br>No:41<br>Hex coord:(7;5),Jalan 3C. Subang. 40150 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:01:58.9333963Z,0
+3.145641,101.549758,Daerah: Shah Alam<br>No:42<br>Hex coord:(8;5),KK Bikers Enterprise. No 3 Jalan Dinar 3/B. 40150 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:00.1236756Z,1
+3.122301,101.455328,Daerah: Shah Alam<br>No:43<br>Hex coord:(1;6),Persiaran Setia Perdana. Section U13 (Setia Alam). 40710 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:01.2257554Z,1
+3.130081,101.468818,Daerah: Shah Alam<br>No:44<br>Hex coord:(2;6),De Palma Apartment. No 6 Pesiaran Setia. 40170 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:02.3271599Z,0
+3.122301,101.482308,Daerah: Shah Alam<br>No:45<br>Hex coord:(3;6),The Wall. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:03.4007321Z,0
+3.130081,101.495798,Daerah: Shah Alam<br>No:46<br>Hex coord:(4;6),Masjid Al-Raudhah. Jalan Pulau Angsa U10/23. Subang. 40710 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:04.5120885Z,0
+3.122301,101.509288,Daerah: Shah Alam<br>No:47<br>Hex coord:(5;6),Subang. 40710 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:05.6205894Z,0
+3.130081,101.522778,Daerah: Shah Alam<br>No:48<br>Hex coord:(6;6),Subang. 40800 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:06.7289624Z,0
+3.122301,101.536268,Daerah: Shah Alam<br>No:49<br>Hex coord:(7;6),Jalan Pertiwi. Subang. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:07.8433794Z,0
+3.130081,101.549758,Daerah: Shah Alam<br>No:50<br>Hex coord:(8;6),Sultan Abdul Aziz Shah Airport. Jalan Lapangan Terbang Subang. Ara Damansara. 40150. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:09.0306945Z,0
+3.122301,101.563248,Daerah: Shah Alam<br>No:51<br>Hex coord:(9;6),Ara Damansara. 40150. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:10.2392075Z,0
+3.106741,101.455328,Daerah: Shah Alam<br>No:52<br>Hex coord:(1;7),Section U13 (Setia Alam). 40170 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:11.4256748Z,1
+3.114521,101.468818,Daerah: Shah Alam<br>No:53<br>Hex coord:(2;7),Jalan Setia Perdana U13/27A. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:12.5484291Z,0
+3.106741,101.482308,Daerah: Shah Alam<br>No:54<br>Hex coord:(3;7),Section U13 (Setia Alam). 40170 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:13.6600869Z,0
+3.114521,101.495798,Daerah: Shah Alam<br>No:55<br>Hex coord:(4;7),Malaysia Agriculture Park. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:14.8014974Z,0
+3.106741,101.509288,Daerah: Shah Alam<br>No:56<br>Hex coord:(5;7),Fly Fishing Lure Casting Centre. Trek Hutan ke Empangan Sungai Baru. Subang. 40604 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:15.9553358Z,0
+3.114521,101.522778,Daerah: Shah Alam<br>No:57<br>Hex coord:(6;7),Jalan Birai U8/70. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:17.0715553Z,0
+3.106741,101.536268,Daerah: Shah Alam<br>No:58<br>Hex coord:(7;7),REAL Kids. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:18.1804897Z,1
+3.114521,101.549758,Daerah: Shah Alam<br>No:59<br>Hex coord:(8;7),MBO. 6 Persiaran Pasak Bumi. 40150 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:19.3280724Z,0
+3.106741,101.563248,Daerah: Shah Alam<br>No:60<br>Hex coord:(9;7),Bunga Raya Course. Jalan Sastera U2/1. Glenmarie. 40150. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:20.4969936Z,0
+3.098961,101.468818,Daerah: Shah Alam<br>No:61<br>Hex coord:(2;8),Section U13 (Setia Alam). 40170 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:21.6500693Z,0
+3.091181,101.482308,Daerah: Shah Alam<br>No:62<br>Hex coord:(3;8),Persiaran Setia Alam. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:22.8190670Z,0
+3.098961,101.495798,Daerah: Shah Alam<br>No:63<br>Hex coord:(4;8),Section U11 (Bukit Bandaraya). 40604 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:23.9495219Z,0
+3.091181,101.509288,Daerah: Shah Alam<br>No:64<br>Hex coord:(5;8),Jalan Liku C. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:25.1211613Z,2
+3.098961,101.522778,Daerah: Shah Alam<br>No:65<br>Hex coord:(6;8),Bukit Jelutong. 40604 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:26.2698216Z,0
+3.091181,101.536268,Daerah: Shah Alam<br>No:66<br>Hex coord:(7;8),Sultan Abdul Aziz Shah Golf & Country Club. No. 1 Vila Elemen. Glenmarie. 40100 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:27.3858496Z,2
+3.098961,101.549758,Daerah: Shah Alam<br>No:67<br>Hex coord:(8;8),Detention Pond. Jalan Astaka U8/88. Glenmarie. 40150. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:28.5683113Z,0
+3.091181,101.563248,Daerah: Shah Alam<br>No:68<br>Hex coord:(9;8),Kawasaki Motors. 12 Jalan Jurunilai U1/20. Glenmarie. 40150 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:29.8172589Z,0
+3.098961,101.576738,Daerah: Shah Alam<br>No:69<br>Hex coord:(10;8),The Garden Course. New Klang Valley Expressway. Glenmarie. 40250. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:31.1021663Z,0
+3.091181,101.590228,Daerah: Shah Alam<br>No:70<br>Hex coord:(11;8),Water Balancing Tank. Jalan Lapangan Terbang Subang. Kelana Jaya. 40250 Petaling Jaya. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:32.4131242Z,0
+3.075621,101.482308,Daerah: Shah Alam<br>No:71<br>Hex coord:(3;9),1 Tadika Si Cilik Pintar. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:33.6187147Z,0
+3.083401,101.495798,Daerah: Shah Alam<br>No:72<br>Hex coord:(4;9),Jalan Platinum 7/40. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:34.8042717Z,0
+3.075621,101.509288,Daerah: Shah Alam<br>No:73<br>Hex coord:(5;9),Serai Thai. Shah Alam. Petaling. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:35.9983377Z,1
+3.083401,101.522778,Daerah: Shah Alam<br>No:74<br>Hex coord:(6;9),Section 5. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:37.1887429Z,1
+3.075621,101.536268,Daerah: Shah Alam<br>No:75<br>Hex coord:(7;9),Carlton Holiday Hotel. 1 Persiaran Akuatik. 40100 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:38.3777903Z,1
+3.083401,101.549758,Daerah: Shah Alam<br>No:76<br>Hex coord:(8;9),Giant Hypermarket. Jalan Lompat Pagar 13/37. Batu Tiga. 40100. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:39.5805205Z,1
+3.083401,101.576738,Daerah: Shah Alam<br>No:77<br>Hex coord:(10;9),Nissan Glenmarie 4S. Jalan Pelukis U1/46. Glenmarie. 40250. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:40.8950491Z,0
+3.060061,101.482308,Daerah: Shah Alam<br>No:78<br>Hex coord:(3;10),Section 16. 41150 KLANG Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:42.1327321Z,2
+3.067841,101.495798,Daerah: Shah Alam<br>No:79<br>Hex coord:(4;10),MARA University of Technology Shah Alam Campus. Jalan Kenanga. Section 1. 40450 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:43.3066568Z,1
+3.060061,101.509288,Daerah: Shah Alam<br>No:80<br>Hex coord:(5;10),Bulatan Perusahaan. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:44.5000355Z,0
+3.067841,101.522778,Daerah: Shah Alam<br>No:81<br>Hex coord:(6;10),Persiaran Bandaraya. Taman Sri Muda. 40000 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:45.7286219Z,2
+3.060061,101.536268,Daerah: Shah Alam<br>No:82<br>Hex coord:(7;10),Bigwheel. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:46.9793294Z,1
+3.067841,101.549758,Daerah: Shah Alam<br>No:83<br>Hex coord:(8;10),Alam Sanjung Service Apartments. 1 Jalan Budiman 22/3. 40300 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:48.2410172Z,2
+3.044501,101.482308,Daerah: Shah Alam<br>No:84<br>Hex coord:(3;11),West Coast Expressway. Sungai Rasah Dalam @ Kulon. 41300 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:49.5299703Z,0
+3.052281,101.495798,Daerah: Shah Alam<br>No:85<br>Hex coord:(4;11),Jalan Bilal Wondo. 40200 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:50.7688136Z,0
+3.044501,101.509288,Daerah: Shah Alam<br>No:86<br>Hex coord:(5;11),Jalan Sembilang 17/31. 40200 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:52.0101906Z,1
+3.052281,101.522778,Daerah: Shah Alam<br>No:87<br>Hex coord:(6;11),Jalan Kelapa 18/42. Taman Sri Muda. 40420 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:53.2412965Z,0
+3.044501,101.536268,Daerah: Shah Alam<br>No:88<br>Hex coord:(7;11),Maisha Restaurant. 1 Jalan Nelayan 19/A. Seksyen 19. Shah Alam. Selangor. 40300 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:54.4685751Z,2
+3.052281,101.549758,Daerah: Shah Alam<br>No:89<br>Hex coord:(8;11),Jalan Jubli Perak 22/1A. Taman Sri Muda. 40300 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:55.7527769Z,0
+3.028941,101.482308,Daerah: Shah Alam<br>No:90<br>Hex coord:(3;12),Klinik Mediviron. 40 Jalan Congkak. Taman Alam Nyata 3. Seksyen 36. 40470 Klang. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:57.0153420Z,0
+3.036721,101.495798,Daerah: Shah Alam<br>No:91<br>Hex coord:(4;12),Alam Impian. 40470 Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,2023-06-10T18:02:58.3008972Z,0
+3.028941,101.509288,Daerah: Shah Alam<br>No:92<br>Hex coord:(5;12),I&P Alam Impian Sales Gallery. 1 Jalan Panglima Hitam 35/26. Shah Alam. Selangor. Malaysia,0,0,0,0,0,0,1,202
