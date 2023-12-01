@@ -78,27 +78,27 @@ Here is the statistical map that contains all state-level variables. The dropdow
 ### Covid-19 Hex Maps for Malaysia
 (Legend and styles updated)  (New)
 Below are state-level maps for : <br>
-1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](http://steveteoh.github.io/KlangValley/) (last updated 18/07/2022, 09/05/2022), <br>
+1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](https://steveteoh.github.io/KlangValley/?date=20230611) (last updated 18/07/2022, 09/05/2022), <br>
    Ver 4.4.0.1 of Klang Valley now supports selection of dates using the request format: <br>
-   [https://steveteoh.github.io/KlangValley/?date=20220716](https://steveteoh.github.io/KlangValley/?date=20220716) <br>
+   [https://steveteoh.github.io/KlangValley/?date=20220716](https://steveteoh.github.io/KlangValley/?date=20230611) <br>
    The rest just shows the map using the latest data. <br><br>   ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)
 
-2. [Johor](http://steveteoh.github.io/Johor/) (last updated 18/07/2022, 08/05/22), <br>        |
-3. [Kedah](https://steveteoh.github.io/Kedah/) (last updated 18/07/2022, 08/05/22), <br>  |
-4. [Kelantan](https://steveteoh.github.io/Kelantan/) (last updated 18/07/2022, 08/05/22), <br>  |
-5. [Melaka](http://steveteoh.github.io/Melaka/) (last updated 18/07/2022, 08/05/22), <br>  |
-6. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/) (last updated 18/07/2022, 08/05/22), <br>  |
-7. [Pahang](https://steveteoh.github.io/Pahang/) (last updated 18/07/2022, 08/05/22), <br>  |
-8. [Penang](http://steveteoh.github.io/Penang/) (last updated 18/07/2022, 08/05/22), <br>  |
-9. [Perak](https://steveteoh.github.io/Perak/) (last updated 18/07/2022, 08/05/22), <br>  |
-10. [Perlis](https://steveteoh.github.io/Perlis/) (last updated 18/07/2022, 08/05/22), <br>  |
-11. [Sabah](http://steveteoh.github.io/Sabah/) (last updated 18/07/2022, 08/05/22), <br>  |
-12. [Sarawak](http://steveteoh.github.io/Sarawak/) (last updated 18/07/2022, 08/05/22), <br>  |
-13. [Terengganu](https://steveteoh.github.io/Terengganu/) (last updated 18/07/2022, 08/05/22), <br>  |
-14. [Wilayah Persekutuan](http://steveteoh.github.io/Wilayah/) <br>  |
-    [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/) (last updated 18/07/2022, 08/05/22), <br>  |
-    [Putrajaya](http://steveteoh.github.io/Putrajaya/) (last updated 18/07/2022, 08/05/22), <br>  |
-    [Labuan](http://steveteoh.github.io/Labuan/) (last updated 18/07/2022, 08/05/22).<br>  | 
+2. [Johor](http://steveteoh.github.io/Johor/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>        |
+3. [Kedah](https://steveteoh.github.io/Kedah/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+4. [Kelantan](https://steveteoh.github.io/Kelantan/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+5. [Melaka](http://steveteoh.github.io/Melaka/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+6. [Negeri Sembilan](http://steveteoh.github.io/NegeriSembilan/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+7. [Pahang](https://steveteoh.github.io/Pahang/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+8. [Penang](http://steveteoh.github.io/Penang/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+9. [Perak](https://steveteoh.github.io/Perak/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+10. [Perlis](https://steveteoh.github.io/Perlis/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+11. [Sabah](http://steveteoh.github.io/Sabah/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+12. [Sarawak](http://steveteoh.github.io/Sarawak/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+13. [Terengganu](https://steveteoh.github.io/Terengganu/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+14. [Wilayah Persekutuan](http://steveteoh.github.io/Wilayah/?date=20230611) <br>  |
+    [Kuala Lumpur](http://steveteoh.github.io/KualaLumpur/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+    [Putrajaya](http://steveteoh.github.io/Putrajaya/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  |
+    [Labuan](http://steveteoh.github.io/Labuan/?date=20230611) (last updated 18/07/2022, 08/05/22).<br>  | 
  
 Note: 
 1. The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
