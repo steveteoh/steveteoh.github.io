@@ -1,0 +1,271 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#nav {
+    width: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#floating-panel {
+    position: absolute;
+    top: auto;
+    left: 70%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+#map {
+    flex: 1 1 auto;
+}
+
+#controls {
+    top: 10px;
+    left: 110px;
+    width: 360px;
+    height: 45px;
+}
+
+.nicebox {
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 13px;
+    z-index: 5;
+    box-shadow: 0 4px 6px -4px #333;
+    padding: 5px 10px;
+    background: white;
+    background: linear-gradient(to bottom, white 0%, whitesmoke 100%);
+    border: #e5e5e5 1px solid;
+}
+
+#data-box {
+    top: 10px;
+    left: 500px;
+    height: 45px;
+    line-height: 45px;
+    display: none;
+}
+
+#census-variable {
+    width: 360px;
+    height: 20px;
+}
+
+#legend {
+    display: flex;
+    display: -webkit-box;
+    padding-top: 7px;
+}
+
+.color-key {
+    background: linear-gradient( to right, #db4639 0%, #db7f29 17%, #d1bf1f 33%, #92c51b 50%, #48ba17 67%, #12ab24 83%, #0f9f59 100% );
+    flex: 1;
+    -webkit-box-flex: 1;
+    margin: 0 5px;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+#data-value {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#data-label {
+    font-size: 2em;
+    font-weight: normal;
+    padding-right: 10px;
+}
+
+    #data-label:after {
+        content: ":";
+    }
+
+#data-caret {
+    margin-left: -5px;
+    display: none;
+    font-size: 14px;
+    width: 14px;
+}
+
+.nav-item {
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 8px 16px;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    font-size: calc(16px + 1vh);
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button {
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 4px 4px;
+    font-size: 8px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #62aa04;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px #999;
+    float: left;
+}
+
+.nav-item:active {
+    background-color: #eee !important;
+}
+
+@media (hover: hover) {
+    .nav-item:hover {
+        background-color: #eee !important;
+    }
+}
+
+.info-item {
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 2px 8px;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    font-size: calc(14px + 0.2vh);
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.notice {
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 1px 4px;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    font-size: calc(12px + 0.1vh);
+    font-weight: 500;
+    background-color: #fff;
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+
+    .my-legend .legend-scale ul li {
+        display: block;
+        float: left;
+        width: 50px;
+        margin-bottom: 6px;
+        text-align: center;
+        font-size: 80%;
+        list-style: none;
+    }
+
+.my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 50px;
+}
+
+.my-legend .legend-source {
+    text-align: left;
+    font-size: 70%;
+    color: #999;
+    clear: both;
+}
+
+.my-legend a {
+    color: #777;
+}
+
+#floating-panel2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    z-index: 5;
+    background-color: transparent;
+    padding: 5px;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.labels {
+    color: black;
+    background-color: transparent;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 180px;
+    /* border: 2px solid black; */
+    white-space: nowrap;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hide {
+    display: none
+}

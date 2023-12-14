@@ -1,0 +1,21 @@
+[
+  [ "State Name", "index", "filename", "foldername" ],
+  [ "Malaysia", 0, "malaysia", "" ],
+  [ "Johor", 1, "johor", "johor" ],
+  [ "Kedah", 2, "kedah", "kedah" ],
+  [ "Kelantan", 3, "kelantan", "kelantan" ],
+  [ "Melaka", 4, "melaka", "melaka" ],
+  [ "Negeri Sembilan", 5, "negerisembilan", "negerisembilan" ],
+  [ "Pahang", 6, "pahang", "pahang" ],
+  [ "Pulau Pinang", 7, "island, seberangperai", "penang" ],
+  [ "Perak", 8, "perak", "perak" ],
+  [ "Perlis", 9, "perlis", "perlis" ],
+  [ "Selangor", 10, "selangor", "selangor" ],
+  [ "Terengganu", 11, "terengganu", "terengganu" ],
+  [ "Sabah", 12, "sabah", "sabah" ],
+  [ "Sarawak", 13, "sarawak", "sarawak" ],
+  [ "W.P. Kuala Lumpur", 14, "KL", "wp" ],
+  [ "W.P. Labuan", 15, "Labuan", "wp" ],
+  [ "W.P. Putrajaya", 16, "Putrajaya", "wp" ],
+  [ "Klang Valley", 17, "klangvalley", "selangor" ]
+]

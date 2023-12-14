@@ -1,0 +1,1470 @@
+[
+  {
+    "no": 1,
+    "ndx": 1,
+    "state_id": 1,
+    "geojson_id": 71,
+    "state": "Johor",
+    "district": "Batu Pahat",
+    "daerah": "Batu Pahat"
+  },
+  {
+    "no": 2,
+    "ndx": 2,
+    "state_id": 1,
+    "geojson_id": 75,
+    "state": "Johor",
+    "district": "Johor Bahru",
+    "daerah": "Johor Bahru"
+  },
+  {
+    "no": 3,
+    "ndx": 3,
+    "state_id": 1,
+    "geojson_id": 72,
+    "state": "Johor",
+    "district": "Kluang",
+    "daerah": "Kluang"
+  },
+  {
+    "no": 4,
+    "ndx": 4,
+    "state_id": 1,
+    "geojson_id": 1,
+    "state": "Johor",
+    "district": "Kota Tinggi",
+    "daerah": "Kota Tinggi"
+  },
+  {
+    "no": 5,
+    "ndx": 5,
+    "state_id": 1,
+    "geojson_id": 74,
+    "state": "Johor",
+    "district": "Kulai Jaya",
+    "daerah": "Kulai"
+  },
+  {
+    "no": 6,
+    "ndx": 6,
+    "state_id": 1,
+    "geojson_id": 150,
+    "state": "Johor",
+    "district": "Mersing",
+    "daerah": "Mersing"
+  },
+  {
+    "no": 7,
+    "ndx": 7,
+    "state_id": 1,
+    "geojson_id": 70,
+    "state": "Johor",
+    "district": "Muar",
+    "daerah": "Muar"
+  },
+  {
+    "no": 8,
+    "ndx": 8,
+    "state_id": 1,
+    "geojson_id": 73,
+    "state": "Johor",
+    "district": "Pontian",
+    "daerah": "Pontian"
+  },
+  {
+    "no": 9,
+    "ndx": 9,
+    "state_id": 1,
+    "geojson_id": 140,
+    "state": "Johor",
+    "district": "Segamat",
+    "daerah": "Segamat"
+  },
+  {
+    "no": 10,
+    "ndx": 10,
+    "state_id": 1,
+    "geojson_id": 69,
+    "state": "Johor",
+    "district": "Tangkak",
+    "daerah": "Tangkak"
+  },
+  {
+    "no": 11,
+    "ndx": 11,
+    "state_id": 2,
+    "geojson_id": 7,
+    "state": "Kedah",
+    "district": "Baling",
+    "daerah": "Baling"
+  },
+  {
+    "no": 12,
+    "ndx": 12,
+    "state_id": 2,
+    "geojson_id": 18,
+    "state": "Kedah",
+    "district": "Bandar Baharu",
+    "daerah": "Bandar Baharu"
+  },
+  {
+    "no": 13,
+    "ndx": 13,
+    "state_id": 2,
+    "geojson_id": 9,
+    "state": "Kedah",
+    "district": "Kota Setar",
+    "daerah": "Kota Setar"
+  },
+  {
+    "no": 14,
+    "ndx": 14,
+    "state_id": 2,
+    "geojson_id": 14,
+    "state": "Kedah",
+    "district": "Kuala Muda",
+    "daerah": "Kuala Muda"
+  },
+  {
+    "no": 15,
+    "ndx": 15,
+    "state_id": 2,
+    "geojson_id": 137,
+    "state": "Kedah",
+    "district": "Kubang Pasu",
+    "daerah": "Kubang Pasu"
+  },
+  {
+    "no": 16,
+    "ndx": 16,
+    "state_id": 2,
+    "geojson_id": 19,
+    "state": "Kedah",
+    "district": "Kulim",
+    "daerah": "Kulim"
+  },
+  {
+    "no": 17,
+    "ndx": 17,
+    "state_id": 2,
+    "geojson_id": 136,
+    "state": "Kedah",
+    "district": "Langkawi",
+    "daerah": "Langkawi"
+  },
+  {
+    "no": 18,
+    "ndx": 18,
+    "state_id": 2,
+    "geojson_id": 11,
+    "state": "Kedah",
+    "district": "Padang Terap",
+    "daerah": "Padang Terap"
+  },
+  {
+    "no": 19,
+    "ndx": 19,
+    "state_id": 2,
+    "geojson_id": 12,
+    "state": "Kedah",
+    "district": "Pendang",
+    "daerah": "Pendang"
+  },
+  {
+    "no": 20,
+    "ndx": 20,
+    "state_id": 2,
+    "geojson_id": 10,
+    "state": "Kedah",
+    "district": "Pokok Sena",
+    "daerah": "Pokok Sena"
+  },
+  {
+    "no": 21,
+    "ndx": 21,
+    "state_id": 2,
+    "geojson_id": 15,
+    "state": "Kedah",
+    "district": "Sik",
+    "daerah": "Sik"
+  },
+  {
+    "no": 22,
+    "ndx": 22,
+    "state_id": 2,
+    "geojson_id": 13,
+    "state": "Kedah",
+    "district": "Yan",
+    "daerah": "Yan"
+  },
+  {
+    "no": 23,
+    "ndx": 23,
+    "state_id": 3,
+    "geojson_id": 36,
+    "state": "Kelantan",
+    "district": "Bachok",
+    "daerah": "Bachok"
+  },
+  {
+    "no": 24,
+    "ndx": 24,
+    "state_id": 3,
+    "geojson_id": 30,
+    "state": "Kelantan",
+    "district": "Gua Musang",
+    "daerah": "Gua Musang"
+  },
+  {
+    "no": 25,
+    "ndx": 25,
+    "state_id": 3,
+    "geojson_id": 32,
+    "state": "Kelantan",
+    "district": "Jeli",
+    "daerah": "Jeli"
+  },
+  {
+    "no": 153,
+    "ndx": 26,
+    "state_id": 3,
+    "state": "Kelantan",
+    "district": "Kecil Lojing",
+    "daerah": "Kecil Lojing"
+  },
+  {
+    "no": 26,
+    "ndx": 27,
+    "state_id": 3,
+    "geojson_id": 37,
+    "state": "Kelantan",
+    "district": "Kota Bharu",
+    "daerah": "Kota Bharu"
+  },
+  {
+    "no": 27,
+    "ndx": 28,
+    "state_id": 3,
+    "geojson_id": 31,
+    "state": "Kelantan",
+    "district": "Kuala Krai",
+    "daerah": "Kuala Krai"
+  },
+  {
+    "no": 28,
+    "ndx": 29,
+    "state_id": 3,
+    "geojson_id": 34,
+    "state": "Kelantan",
+    "district": "Machang",
+    "daerah": "Machang"
+  },
+  {
+    "no": 29,
+    "ndx": 30,
+    "state_id": 3,
+    "geojson_id": 3,
+    "state": "Kelantan",
+    "district": "Pasir Mas",
+    "daerah": "Pasir Mas"
+  },
+  {
+    "no": 30,
+    "ndx": 31,
+    "state_id": 3,
+    "geojson_id": 35,
+    "state": "Kelantan",
+    "district": "Pasir Puteh",
+    "daerah": "Pasir Puteh"
+  },
+  {
+    "no": 31,
+    "ndx": 32,
+    "state_id": 3,
+    "geojson_id": 33,
+    "state": "Kelantan",
+    "district": "Tanah Merah",
+    "daerah": "Tanah Merah"
+  },
+  {
+    "no": 32,
+    "ndx": 33,
+    "state_id": 3,
+    "geojson_id": 38,
+    "state": "Kelantan",
+    "district": "Tumpat",
+    "daerah": "Tumpat"
+  },
+  {
+    "no": 33,
+    "ndx": 34,
+    "state_id": 4,
+    "geojson_id": 132,
+    "state": "Melaka",
+    "district": "Alor Gajah",
+    "daerah": "Alor Gajah"
+  },
+  {
+    "no": 34,
+    "ndx": 35,
+    "state_id": 4,
+    "geojson_id": 68,
+    "state": "Melaka",
+    "district": "Jasin",
+    "daerah": "Jasin"
+  },
+  {
+    "no": 35,
+    "ndx": 36,
+    "state_id": 4,
+    "geojson_id": 67,
+    "state": "Melaka",
+    "district": "Central Melaka",
+    "daerah": "Melaka Tengah"
+  },
+  {
+    "no": 36,
+    "ndx": 37,
+    "state_id": 5,
+    "geojson_id": 61,
+    "state": "Negeri Sembilan",
+    "district": "Jelebu",
+    "daerah": "Jelebu"
+  },
+  {
+    "no": 37,
+    "ndx": 38,
+    "state_id": 5,
+    "geojson_id": 64,
+    "state": "Negeri Sembilan",
+    "district": "Jempol",
+    "daerah": "Jempol"
+  },
+  {
+    "no": 38,
+    "ndx": 39,
+    "state_id": 5,
+    "geojson_id": 2,
+    "state": "Negeri Sembilan",
+    "district": "Kuala Pilah",
+    "daerah": "Kuala Pilah"
+  },
+  {
+    "no": 39,
+    "ndx": 40,
+    "state_id": 5,
+    "geojson_id": 62,
+    "state": "Negeri Sembilan",
+    "district": "Port Dickson",
+    "daerah": "Port Dickson"
+  },
+  {
+    "no": 40,
+    "ndx": 41,
+    "state_id": 5,
+    "geojson_id": 65,
+    "state": "Negeri Sembilan",
+    "district": "Rembau",
+    "daerah": "Rembau"
+  },
+  {
+    "no": 41,
+    "ndx": 42,
+    "state_id": 5,
+    "geojson_id": 63,
+    "state": "Negeri Sembilan",
+    "district": "Seremban",
+    "daerah": "Seremban"
+  },
+  {
+    "no": 42,
+    "ndx": 43,
+    "state_id": 5,
+    "geojson_id": 66,
+    "state": "Negeri Sembilan",
+    "district": "Tampin",
+    "daerah": "Tampin"
+  },
+  {
+    "no": 43,
+    "ndx": 44,
+    "state_id": 6,
+    "geojson_id": 48,
+    "state": "Pahang",
+    "district": "Bentong",
+    "daerah": "Bentong"
+  },
+  {
+    "no": 44,
+    "ndx": 45,
+    "state_id": 6,
+    "geojson_id": 50,
+    "state": "Pahang",
+    "district": "Bera",
+    "daerah": "Bera"
+  },
+  {
+    "no": 45,
+    "ndx": 46,
+    "state_id": 6,
+    "geojson_id": 45,
+    "state": "Pahang",
+    "district": "Cameron Highlands",
+    "daerah": "Cameron Highlands"
+  },
+  {
+    "no": 46,
+    "ndx": 47,
+    "state_id": 6,
+    "geojson_id": 6,
+    "state": "Pahang",
+    "district": "Jerantut",
+    "daerah": "Jerantut"
+  },
+  {
+    "no": 47,
+    "ndx": 48,
+    "state_id": 6,
+    "geojson_id": 54,
+    "state": "Pahang",
+    "district": "Kuantan",
+    "daerah": "Kuantan"
+  },
+  {
+    "no": 48,
+    "ndx": 49,
+    "state_id": 6,
+    "geojson_id": 46,
+    "state": "Pahang",
+    "district": "Lipis",
+    "daerah": "Lipis"
+  },
+  {
+    "no": 49,
+    "ndx": 50,
+    "state_id": 6,
+    "geojson_id": 53,
+    "state": "Pahang",
+    "district": "Maran",
+    "daerah": "Maran"
+  },
+  {
+    "no": 50,
+    "ndx": 51,
+    "state_id": 6,
+    "geojson_id": 52,
+    "state": "Pahang",
+    "district": "Pekan",
+    "daerah": "Pekan"
+  },
+  {
+    "no": 51,
+    "ndx": 53,
+    "state_id": 6,
+    "geojson_id": 151,
+    "state": "Pahang",
+    "district": "Pulau Tioman",
+    "daerah": "Pulau Tioman (Rompin)"
+  },
+  {
+    "no": 52,
+    "ndx": 52,
+    "state_id": 6,
+    "geojson_id": 47,
+    "state": "Pahang",
+    "district": "Raub",
+    "daerah": "Raub"
+  },
+  {
+    "no": 53,
+    "ndx": 53,
+    "state_id": 6,
+    "geojson_id": 51,
+    "state": "Pahang",
+    "district": "Rompin",
+    "daerah": "Rompin"
+  },
+  {
+    "no": 54,
+    "ndx": 54,
+    "state_id": 6,
+    "geojson_id": 49,
+    "state": "Pahang",
+    "district": "Temerloh",
+    "daerah": "Temerloh"
+  },
+  {
+    "no": 55,
+    "ndx": 68,
+    "state_id": 7,
+    "geojson_id": 146,
+    "state": "Penang",
+    "district": "Southwest Penang Island",
+    "daerah": "Barat Daya"
+  },
+  {
+    "no": 56,
+    "ndx": 69,
+    "state_id": 7,
+    "geojson_id": 16,
+    "state": "Penang",
+    "district": "South Seberang Perai",
+    "daerah": "Seberang Perai Selatan"
+  },
+  {
+    "no": 57,
+    "ndx": 70,
+    "state_id": 7,
+    "geojson_id": 17,
+    "state": "Penang",
+    "district": "Central Seberang Perai",
+    "daerah": "Seberang Perai Tengah"
+  },
+  {
+    "no": 58,
+    "ndx": 71,
+    "state_id": 7,
+    "geojson_id": 134,
+    "state": "Penang",
+    "district": "Seberang Perai Utara",
+    "daerah": "Seberang Perai Utara"
+  },
+  {
+    "no": 59,
+    "ndx": 72,
+    "state_id": 7,
+    "geojson_id": 145,
+    "state": "Penang",
+    "district": "Northeast Penang Island",
+    "daerah": "Timur Laut"
+  },
+  {
+    "no": 60,
+    "ndx": 55,
+    "state_id": 8,
+    "geojson_id": 27,
+    "state": "Perak",
+    "district": "Bagan Datuk",
+    "daerah": "Bagan Datuk"
+  },
+  {
+    "no": 61,
+    "ndx": 56,
+    "state_id": 8,
+    "geojson_id": 149,
+    "state": "Perak",
+    "district": "Batang Padang",
+    "daerah": "Batang Padang"
+  },
+  {
+    "no": 62,
+    "ndx": 57,
+    "state_id": 8,
+    "geojson_id": 28,
+    "state": "Perak",
+    "district": "Hilir Perak",
+    "daerah": "Hilir Perak"
+  },
+  {
+    "no": 63,
+    "ndx": 58,
+    "state_id": 8,
+    "geojson_id": 133,
+    "state": "Perak",
+    "district": "Hulu Perak",
+    "daerah": "Hulu Perak"
+  },
+  {
+    "no": 64,
+    "ndx": 59,
+    "state_id": 8,
+    "geojson_id": 25,
+    "state": "Perak",
+    "district": "Kampar",
+    "daerah": "Kampar"
+  },
+  {
+    "no": 65,
+    "ndx": 60,
+    "state_id": 8,
+    "geojson_id": 20,
+    "state": "Perak",
+    "district": "Kerian",
+    "daerah": "Kerian"
+  },
+  {
+    "no": 66,
+    "ndx": 61,
+    "state_id": 8,
+    "geojson_id": 24,
+    "state": "Perak",
+    "district": "Kinta",
+    "daerah": "Kinta"
+  },
+  {
+    "no": 67,
+    "ndx": 62,
+    "state_id": 8,
+    "geojson_id": 26,
+    "state": "Perak",
+    "district": "Kuala Kangsar",
+    "daerah": "Kuala Kangsar"
+  },
+  {
+    "no": 68,
+    "ndx": 63,
+    "state_id": 8,
+    "geojson_id": 21,
+    "state": "Perak",
+    "district": "Larut and Selama",
+    "daerah": "Larut, Matang dan Selama"
+  },
+  {
+    "no": 69,
+    "ndx": 64,
+    "state_id": 8,
+    "geojson_id": 22,
+    "state": "Perak",
+    "district": "Manjung",
+    "daerah": "Manjung"
+  },
+  {
+    "no": 70,
+    "ndx": 65,
+    "state_id": 8,
+    "geojson_id": 29,
+    "state": "Perak",
+    "district": "Muallim",
+    "daerah": "Muallim"
+  },
+  {
+    "no": 71,
+    "ndx": 66,
+    "state_id": 8,
+    "geojson_id": 23,
+    "state": "Perak",
+    "district": "Perak Tengah",
+    "daerah": "Perak Tengah"
+  },
+  {
+    "no": 72,
+    "ndx": 67,
+    "state_id": 9,
+    "geojson_id": 8,
+    "state": "Perlis",
+    "district": "Perlis",
+    "daerah": "Perlis"
+  },
+  {
+    "no": 73,
+    "ndx": 73,
+    "state_id": 12,
+    "geojson_id": 113,
+    "state": "Sabah",
+    "district": "Beaufort",
+    "daerah": "Beaufort"
+  },
+  {
+    "no": 74,
+    "ndx": 74,
+    "state_id": 12,
+    "geojson_id": 143,
+    "state": "Sabah",
+    "district": "Beluran",
+    "daerah": "Beluran"
+  },
+  {
+    "no": 154,
+    "ndx": 75,
+    "state_id": 12,
+    "state": "Sabah",
+    "district": "Kalabakan",
+    "daerah": "Kalabakan"
+  },
+  {
+    "no": 75,
+    "ndx": 76,
+    "state_id": 12,
+    "geojson_id": 120,
+    "state": "Sabah",
+    "district": "Keningau",
+    "daerah": "Keningau"
+  },
+  {
+    "no": 76,
+    "ndx": 77,
+    "state_id": 12,
+    "geojson_id": 127,
+    "state": "Sabah",
+    "district": "Kinabatangan",
+    "daerah": "Kinabatangan"
+  },
+  {
+    "no": 77,
+    "ndx": 78,
+    "state_id": 12,
+    "geojson_id": 129,
+    "state": "Sabah",
+    "district": "Kota Belud",
+    "daerah": "Kota Belud"
+  },
+  {
+    "no": 78,
+    "ndx": 79,
+    "state_id": 12,
+    "geojson_id": 117,
+    "state": "Sabah",
+    "district": "Kota Kinabalu",
+    "daerah": "Kota Kinabalu"
+  },
+  {
+    "no": 79,
+    "ndx": 80,
+    "state_id": 12,
+    "geojson_id": 144,
+    "state": "Sabah",
+    "district": "Kota Marudu",
+    "daerah": "Kota Marudu"
+  },
+  {
+    "no": 80,
+    "ndx": 81,
+    "state_id": 12,
+    "geojson_id": 112,
+    "state": "Sabah",
+    "district": "Kuala Penyu",
+    "daerah": "Kuala Penyu"
+  },
+  {
+    "no": 81,
+    "ndx": 82,
+    "state_id": 12,
+    "geojson_id": 142,
+    "state": "Sabah",
+    "district": "Kudat",
+    "daerah": "Kudat"
+  },
+  {
+    "no": 82,
+    "ndx": 83,
+    "state_id": 12,
+    "geojson_id": 124,
+    "state": "Sabah",
+    "district": "Kunak",
+    "daerah": "Kunak"
+  },
+  {
+    "no": 83,
+    "ndx": 84,
+    "state_id": 12,
+    "geojson_id": 125,
+    "state": "Sabah",
+    "district": "Lahad Datu",
+    "daerah": "Lahad Datu"
+  },
+  {
+    "no": 84,
+    "ndx": 85,
+    "state_id": 12,
+    "geojson_id": 121,
+    "state": "Sabah",
+    "district": "Nabawan",
+    "daerah": "Nabawan"
+  },
+  {
+    "no": 85,
+    "ndx": 86,
+    "state_id": 12,
+    "geojson_id": 115,
+    "state": "Sabah",
+    "district": "Papar",
+    "daerah": "Papar"
+  },
+  {
+    "no": 86,
+    "ndx": 87,
+    "state_id": 12,
+    "geojson_id": 116,
+    "state": "Sabah",
+    "district": "Penampang",
+    "daerah": "Penampang"
+  },
+  {
+    "no": 87,
+    "ndx": 88,
+    "state_id": 12,
+    "geojson_id": 130,
+    "state": "Sabah",
+    "district": "Pitas",
+    "daerah": "Pitas"
+  },
+  {
+    "no": 155,
+    "ndx": 89,
+    "state_id": 12,
+    "state": "Sabah",
+    "district": "Putatan",
+    "daerah": "Putatan"
+  },
+  {
+    "no": 88,
+    "ndx": 90,
+    "state_id": 12,
+    "geojson_id": 128,
+    "state": "Sabah",
+    "district": "Ranau",
+    "daerah": "Ranau"
+  },
+  {
+    "no": 89,
+    "ndx": 91,
+    "state_id": 12,
+    "geojson_id": 126,
+    "state": "Sabah",
+    "district": "Sandakan",
+    "daerah": "Sandakan"
+  },
+  {
+    "no": 90,
+    "ndx": 92,
+    "state_id": 12,
+    "geojson_id": 141,
+    "state": "Sabah",
+    "district": "Semporna",
+    "daerah": "Semporna"
+  },
+  {
+    "no": 91,
+    "ndx": 93,
+    "state_id": 12,
+    "geojson_id": 111,
+    "state": "Sabah",
+    "district": "Sipitang",
+    "daerah": "Sipitang"
+  },
+  {
+    "no": 92,
+    "ndx": 94,
+    "state_id": 12,
+    "geojson_id": 119,
+    "state": "Sabah",
+    "district": "Tambunan",
+    "daerah": "Tambunan"
+  },
+  {
+    "no": 93,
+    "ndx": 95,
+    "state_id": 12,
+    "geojson_id": 123,
+    "state": "Sabah",
+    "district": "Tawau",
+    "daerah": "Tawau"
+  },
+  {
+    "no": 156,
+    "ndx": 96,
+    "state_id": 12,
+    "state": "Sabah",
+    "district": "Telupid",
+    "daerah": "Telupid"
+  },
+  {
+    "no": 94,
+    "ndx": 97,
+    "state_id": 12,
+    "geojson_id": 114,
+    "state": "Sabah",
+    "district": "Tenom",
+    "daerah": "Tenom"
+  },
+  {
+    "no": 95,
+    "ndx": 98,
+    "state_id": 12,
+    "geojson_id": 122,
+    "state": "Sabah",
+    "district": "Tongod",
+    "daerah": "Tongod"
+  },
+  {
+    "no": 96,
+    "ndx": 99,
+    "state_id": 12,
+    "geojson_id": 118,
+    "state": "Sabah",
+    "district": "Tuaran",
+    "daerah": "Tuaran"
+  },
+  {
+    "no": 97,
+    "ndx": 100,
+    "state_id": 13,
+    "geojson_id": 82,
+    "state": "Sarawak",
+    "district": "Asajaya",
+    "daerah": "Asajaya"
+  },
+  {
+    "no": 98,
+    "ndx": 101,
+    "state_id": 13,
+    "geojson_id": 77,
+    "state": "Sarawak",
+    "district": "Bau",
+    "daerah": "Bau"
+  },
+  {
+    "no": 99,
+    "ndx": 102,
+    "state_id": 13,
+    "geojson_id": 106,
+    "state": "Sarawak",
+    "district": "Belaga",
+    "daerah": "Belaga"
+  },
+  {
+    "no": 157,
+    "ndx": 103,
+    "state_id": 13,
+    "state": "Sarawak",
+    "district": "Beluru",
+    "daerah": "Beluru"
+  },
+  {
+    "no": 100,
+    "ndx": 104,
+    "state_id": 13,
+    "geojson_id": 85,
+    "state": "Sarawak",
+    "district": "Betong",
+    "daerah": "Betong"
+  },
+  {
+    "no": 101,
+    "ndx": 105,
+    "state_id": 13,
+    "geojson_id": 105,
+    "state": "Sarawak",
+    "district": "Bintulu",
+    "daerah": "Bintulu"
+  },
+  {
+    "no": 102,
+    "ndx": 106,
+    "state_id": 13,
+    "geojson_id": 102,
+    "state": "Sarawak",
+    "district": "Bukit Mabong",
+    "daerah": "Bukit Mabong"
+  },
+  {
+    "no": 103,
+    "ndx": 107,
+    "state_id": 13,
+    "geojson_id": 99,
+    "state": "Sarawak",
+    "district": "Dalat",
+    "daerah": "Dalat"
+  },
+  {
+    "no": 104,
+    "ndx": 108,
+    "state_id": 13,
+    "geojson_id": 91,
+    "state": "Sarawak",
+    "district": "Daro",
+    "daerah": "Daro"
+  },
+  {
+    "no": 105,
+    "ndx": 109,
+    "state_id": 13,
+    "geojson_id": 96,
+    "state": "Sarawak",
+    "district": "Julau",
+    "daerah": "Julau"
+  },
+  {
+    "no": 106,
+    "ndx": 110,
+    "state_id": 13,
+    "geojson_id": 88,
+    "state": "Sarawak",
+    "district": "Kabong",
+    "daerah": "Kabong"
+  },
+  {
+    "no": 107,
+    "ndx": 111,
+    "state_id": 13,
+    "geojson_id": 94,
+    "state": "Sarawak",
+    "district": "Kanowit",
+    "daerah": "Kanowit"
+  },
+  {
+    "no": 108,
+    "ndx": 112,
+    "state_id": 13,
+    "geojson_id": 103,
+    "state": "Sarawak",
+    "district": "Kapit",
+    "daerah": "Kapit"
+  },
+  {
+    "no": 109,
+    "ndx": 113,
+    "state_id": 13,
+    "geojson_id": 80,
+    "state": "Sarawak",
+    "district": "Kuching",
+    "daerah": "Kuching"
+  },
+  {
+    "no": 110,
+    "ndx": 114,
+    "state_id": 13,
+    "geojson_id": 109,
+    "state": "Sarawak",
+    "district": "Lawas",
+    "daerah": "Lawas"
+  },
+  {
+    "no": 111,
+    "ndx": 115,
+    "state_id": 13,
+    "geojson_id": 110,
+    "state": "Sarawak",
+    "district": "Limbang",
+    "daerah": "Limbang"
+  },
+  {
+    "no": 112,
+    "ndx": 116,
+    "state_id": 13,
+    "geojson_id": 84,
+    "state": "Sarawak",
+    "district": "Lubok Antu",
+    "daerah": "Lubok Antu"
+  },
+  {
+    "no": 113,
+    "ndx": 117,
+    "state_id": 13,
+    "geojson_id": 76,
+    "state": "Sarawak",
+    "district": "Lundu",
+    "daerah": "Lundu"
+  },
+  {
+    "no": 114,
+    "ndx": 118,
+    "state_id": 13,
+    "geojson_id": 108,
+    "state": "Sarawak",
+    "district": "Marudi",
+    "daerah": "Marudi"
+  },
+  {
+    "no": 115,
+    "ndx": 119,
+    "state_id": 13,
+    "geojson_id": 98,
+    "state": "Sarawak",
+    "district": "Matu",
+    "daerah": "Matu"
+  },
+  {
+    "no": 116,
+    "ndx": 120,
+    "state_id": 13,
+    "geojson_id": 92,
+    "state": "Sarawak",
+    "district": "Meradong",
+    "daerah": "Maradong"
+  },
+  {
+    "no": 117,
+    "ndx": 121,
+    "state_id": 13,
+    "geojson_id": 107,
+    "state": "Sarawak",
+    "district": "Miri",
+    "daerah": "Miri"
+  },
+  {
+    "no": 118,
+    "ndx": 122,
+    "state_id": 13,
+    "geojson_id": 100,
+    "state": "Sarawak",
+    "district": "Mukah",
+    "daerah": "Mukah"
+  },
+  {
+    "no": 119,
+    "ndx": 123,
+    "state_id": 13,
+    "geojson_id": 95,
+    "state": "Sarawak",
+    "district": "Pakan",
+    "daerah": "Pakan"
+  },
+  {
+    "no": 120,
+    "ndx": 124,
+    "state_id": 13,
+    "geojson_id": 89,
+    "state": "Sarawak",
+    "district": "Pusa",
+    "daerah": "Pusa"
+  },
+  {
+    "no": 121,
+    "ndx": 125,
+    "state_id": 13,
+    "geojson_id": 81,
+    "state": "Sarawak",
+    "district": "Samarahan",
+    "daerah": "Samarahan"
+  },
+  {
+    "no": 122,
+    "ndx": 126,
+    "state_id": 13,
+    "geojson_id": 86,
+    "state": "Sarawak",
+    "district": "Saratok",
+    "daerah": "Saratok"
+  },
+  {
+    "no": 123,
+    "ndx": 127,
+    "state_id": 13,
+    "geojson_id": 90,
+    "state": "Sarawak",
+    "district": "Sarikei",
+    "daerah": "Sarikei"
+  },
+  {
+    "no": 158,
+    "ndx": 128,
+    "state_id": 13,
+    "state": "Sarawak",
+    "district": "Sebauh",
+    "daerah": "Sebauh"
+  },
+  {
+    "no": 124,
+    "ndx": 129,
+    "state_id": 13,
+    "geojson_id": 101,
+    "state": "Sarawak",
+    "district": "Selangau",
+    "daerah": "Selangau"
+  },
+  {
+    "no": 125,
+    "ndx": 130,
+    "state_id": 13,
+    "geojson_id": 78,
+    "state": "Sarawak",
+    "district": "Serian",
+    "daerah": "Serian"
+  },
+  {
+    "no": 126,
+    "ndx": 131,
+    "state_id": 13,
+    "geojson_id": 93,
+    "state": "Sarawak",
+    "district": "Sibu",
+    "daerah": "Sibu"
+  },
+  {
+    "no": 127,
+    "ndx": 132,
+    "state_id": 13,
+    "geojson_id": 83,
+    "state": "Sarawak",
+    "district": "Simunjan",
+    "daerah": "Simunjan"
+  },
+  {
+    "no": 128,
+    "ndx": 133,
+    "state_id": 13,
+    "geojson_id": 97,
+    "state": "Sarawak",
+    "district": "Song",
+    "daerah": "Song"
+  },
+  {
+    "no": 129,
+    "ndx": 134,
+    "state_id": 13,
+    "geojson_id": 87,
+    "state": "Sarawak",
+    "district": "Sri Aman",
+    "daerah": "Sri Aman"
+  },
+  {
+    "no": 159,
+    "ndx": 135,
+    "state_id": 13,
+    "state": "Sarawak",
+    "district": "Subis",
+    "daerah": "Subis"
+  },
+  {
+    "no": 130,
+    "ndx": 136,
+    "state_id": 13,
+    "geojson_id": 152,
+    "state": "Sarawak",
+    "district": "Tanjung Manis",
+    "daerah": "Tanjung Manis"
+  },
+  {
+    "no": 131,
+    "ndx": 137,
+    "state_id": 13,
+    "geojson_id": 104,
+    "state": "Sarawak",
+    "district": "Tatau",
+    "daerah": "Tatau"
+  },
+  {
+    "no": 132,
+    "ndx": 138,
+    "state_id": 13,
+    "geojson_id": 79,
+    "state": "Sarawak",
+    "district": "Tebedu",
+    "daerah": "Tebedu"
+  },
+  {
+    "no": 160,
+    "ndx": 139,
+    "state_id": 13,
+    "state": "Sarawak",
+    "district": "Telang Usan",
+    "daerah": "Telang Usan"
+  },
+  {
+    "no": 133,
+    "ndx": 140,
+    "state_id": 10,
+    "geojson_id": 60,
+    "state": "Selangor",
+    "district": "Gombak",
+    "daerah": "Gombak"
+  },
+  {
+    "no": 134,
+    "ndx": 141,
+    "state_id": 10,
+    "geojson_id": 131,
+    "state": "Selangor",
+    "district": "Hulu Langat",
+    "daerah": "Hulu Langat"
+  },
+  {
+    "no": 135,
+    "ndx": 142,
+    "state_id": 10,
+    "geojson_id": 55,
+    "state": "Selangor",
+    "district": "Hulu Selangor",
+    "daerah": "Hulu Selangor"
+  },
+  {
+    "no": 136,
+    "ndx": 143,
+    "state_id": 10,
+    "geojson_id": 57,
+    "state": "Selangor",
+    "district": "Klang",
+    "daerah": "Klang"
+  },
+  {
+    "no": 137,
+    "ndx": 144,
+    "state_id": 10,
+    "geojson_id": 58,
+    "state": "Selangor",
+    "district": "Kuala Langat",
+    "daerah": "Kuala Langat"
+  },
+  {
+    "no": 138,
+    "ndx": 145,
+    "state_id": 10,
+    "geojson_id": 56,
+    "state": "Selangor",
+    "district": "Kuala Selangor",
+    "daerah": "Kuala Selangor"
+  },
+  {
+    "no": 139,
+    "ndx": 146,
+    "state_id": 10,
+    "geojson_id": 147,
+    "state": "Selangor",
+    "district": "Petaling",
+    "daerah": "Petaling"
+  },
+  {
+    "no": 140,
+    "ndx": 147,
+    "state_id": 10,
+    "geojson_id": 139,
+    "state": "Selangor",
+    "district": "Sabak Bernam",
+    "daerah": "Sabak Bernam"
+  },
+  {
+    "no": 141,
+    "ndx": 148,
+    "state_id": 10,
+    "geojson_id": 148,
+    "state": "Selangor",
+    "district": "Sepang",
+    "daerah": "Sepang"
+  },
+  {
+    "no": 142,
+    "ndx": 149,
+    "state_id": 11,
+    "geojson_id": 138,
+    "state": "Terengganu",
+    "district": "Besut",
+    "daerah": "Besut"
+  },
+  {
+    "no": 143,
+    "ndx": 150,
+    "state_id": 11,
+    "geojson_id": 40,
+    "state": "Terengganu",
+    "district": "Dungun",
+    "daerah": "Dungun"
+  },
+  {
+    "no": 144,
+    "ndx": 151,
+    "state_id": 11,
+    "geojson_id": 5,
+    "state": "Terengganu",
+    "district": "Hulu Terengganu",
+    "daerah": "Hulu Terengganu"
+  },
+  {
+    "no": 145,
+    "ndx": 152,
+    "state_id": 11,
+    "geojson_id": 39,
+    "state": "Terengganu",
+    "district": "Kemaman",
+    "daerah": "Kemaman"
+  },
+  {
+    "no": 146,
+    "ndx": 153,
+    "state_id": 11,
+    "geojson_id": 43,
+    "state": "Terengganu",
+    "district": "Kuala Nerus",
+    "daerah": "Kuala Nerus"
+  },
+  {
+    "no": 147,
+    "ndx": 154,
+    "state_id": 11,
+    "geojson_id": 42,
+    "state": "Terengganu",
+    "district": "Kuala Terengganu",
+    "daerah": "Kuala Terengganu"
+  },
+  {
+    "no": 148,
+    "ndx": 155,
+    "state_id": 11,
+    "geojson_id": 41,
+    "state": "Terengganu",
+    "district": "Marang",
+    "daerah": "Marang"
+  },
+  {
+    "no": 149,
+    "ndx": 156,
+    "state_id": 11,
+    "geojson_id": 44,
+    "state": "Terengganu",
+    "district": "Setiu",
+    "daerah": "Setiu"
+  },
+  {
+    "no": 150,
+    "ndx": 157,
+    "state_id": 14,
+    "geojson_id": 59,
+    "state": "Wilayah Persekutuan",
+    "district": "Kuala Lumpur",
+    "daerah": "Kuala Lumpur"
+  },
+  {
+    "no": 151,
+    "ndx": 158,
+    "state_id": 15,
+    "geojson_id": 135,
+    "state": "Wilayah Persekutuan",
+    "district": "Labuan",
+    "daerah": "Labuan"
+  },
+  {
+    "no": 152,
+    "ndx": 159,
+    "state_id": 16,
+    "geojson_id": 4,
+    "state": "Wilayah Persekutuan",
+    "district": "Putrajaya",
+    "daerah": "Putrajaya"
+  },
+  {
+    "no": 150,
+    "ndx": 160,
+    "state_id": 16,
+    "geojson_id": 4,
+    "state": "Wilayah Persekutuan",
+    "district": "Lembah Pantai",
+    "daerah": "Lembah Pantai"
+  },
+  {
+    "no": 150,
+    "ndx": 161,
+    "state_id": 16,
+    "geojson_id": 4,
+    "state": "Wilayah Persekutuan",
+    "district": "Cheras",
+    "daerah": "Cheras"
+  },
+  {
+    "no": 150,
+    "ndx": 162,
+    "state_id": 16,
+    "geojson_id": 4,
+    "state": "Wilayah Persekutuan",
+    "district": "Titiwangsa",
+    "daerah": "Titiwangsa"
+  },
+  {
+    "no": 150,
+    "ndx": 163,
+    "state_id": 16,
+    "geojson_id": 4,
+    "state": "Wilayah Persekutuan",
+    "district": "Kepong",
+    "daerah": "Kepong"
+  }
+]
