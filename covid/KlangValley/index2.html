@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="./klangvalley2.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8KAHldpvIOBBG8Lb3lrpWlFlS3mfFf9o&libraries=geometry,drawing"></script>
+    <!--<script async defer type="text/javascript" src="../src/markerwithlabel.js"></script>-->
+    <style type="text/css">
+        #floating-panel2 {
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            z-index: 5;
+            background-color: transparent;
+            padding: 5px;
+            text-align: center;
+            font-family: "Roboto", "sans-serif";
+            line-height: 30px;
+            padding-left: 10px;
+        }
+
+        .labels {
+            color: black;
+            background-color: transparent;
+            font-family: "Lucida Grande", "Arial", sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            width: 180px;
+            /* border: 2px solid black; */
+            white-space: nowrap;
+        }
+
+        .loader {
+            border: 16px solid #f3f3f3; /* Light grey */
+            border-top: 16px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .hide {
+            display: none
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col-xs-12" style="text-align:center">
+        <div id="title">
+            <h4>
+                <b>Klang Valley - Active covid cases for the past 14 days (Total:<span id="grandtotal"></span>) Ver 4.3.0.0 Beta by Steve (c) Dec 2021</b>
+            </h4>
+        </div>
+        <div style="text-align:center">
+            <h6>
+                <b>Last Updated : </b>
+                <span id="selLastUpdate"></span>
+                <span id="ajLastUpdate"></span>
+                <span id="hlLastUpdate"></span>
+                <span id="hsLastUpdate"></span>
+                <span id="kgLastUpdate"></span>
+                <span id="lgLastUpdate"></span>
+                <span id="ksLastUpdate"></span>
+                <span id="pjLastUpdate"></span>
+                <span id="sbLastUpdate"></span>
+                <span id="slLastUpdate"></span>
+                <span id="seLastUpdate"></span>
+                <span id="saLastUpdate"></span>
+                <span id="sjLastUpdate"></span>
+                <span id="klLastUpdate"></span>
+                <span id="puLastUpdate"></span>
+            </h6>
+        </div>
+        <div id="buttonRow"></div>
+        <div><span>&nbsp;</span></div>
+        <div id="floating-panel">
+            <div class='my-legend'>
+                <div class='legend-title'>Number of Active Covid-19 cases (14-days period)</div>
+                <div class='legend-scale'>
+                    <ul class='legend-labels'>
+                        <li><span style='background:#00ff00;'></span>0 </li>
+                        <li><span style='background:#ffff66;'></span>1-20</li>
+                        <li><span style='background:#ff9900;'></span>21-40</li>
+                        <li><span style='background:#ff4343;'></span>41-80</li>
+                        <li><span style='background:#cc0000;'></span>81-200</li>
+                        <li><span style='background: #660066;'></span>201-300</li>
+                        <li><span style='background: #0033ff;'></span>> 300</li>
+                    </ul>
+                </div>
+                <div class='legend-source'>Source: <a href="#link to source">Mysejahtera. Note: KKM scale until 80. Above 80 is red</a></div>
+                <input id="hide-markers" type="button" value="Hide Markers" />
+                <input id="show-markers" type="button" value="Show Markers" />
+            </div>
+        </div>
+    </div>
+    <div id="map_canvas" style="width:100%; height:90vh;"></div>
+    <div id="floating-panel2">
+        <div class="loader"></div>
+    </div>
+</body>
+</html>
