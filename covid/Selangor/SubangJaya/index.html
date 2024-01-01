@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="ops.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8KAHldpvIOBBG8Lb3lrpWlFlS3mfFf9o&libraries=geometry" async></script>
+</head>
+
+<body>
+    <div class="col-xs-12" style="text-align:center">
+        <h4>
+            Selangor District - Subang Jaya (Active covid cases for the past 14 days. 1 km radius sampling) (<span id="grandtotal"></span>)
+        </h4>
+        <div style="text-align:center">
+            <h6>
+                <b>Last Updated : </b>
+                <span id="LastUpdate"></span>
+            </h6>
+        </div>
+        <div id="floating-panel">
+            <div class='my-legend'>
+                <div class='legend-title'>Number of Active Covid-19 cases (14-days period)</div>
+                <div class='legend-scale'>
+                    <ul class='legend-labels'>
+                        <li><span style='background:#00ff00;'></span>< 10</li>
+                        <li><span style='background:#ffff66;'></span>11-50</li>
+                        <li><span style='background:#ff9900;'></span>50-99</li>
+                        <li><span style='background:#ff4343;'></span>100-199</li>
+                        <li><span style='background:#cc0000;'></span>200-299</li>
+                        <li><span style='background:#660066;'></span>> 300</li>
+                    </ul>
+                </div>
+                <div class='legend-source'>Source: <a href="#link to source">Mysejahtera</a></div>
+                <input id="hide-markers" type="button" value="Hide Markers" />
+                <input id="show-markers" type="button" value="Show Markers" />
+            </div>
+        </div>
+    </div>
+    <div id="map_canvas" style="width:100%; height:90vh;"></div>
+</body>
+
+</html>
