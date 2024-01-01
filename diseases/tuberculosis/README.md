@@ -9,7 +9,7 @@ Welcome to Steve Teoh's public health github page. This page highlights the shar
 Map Data Last Updated: 01/01/2024<br>
 60-day active cases data is sourced from mysejahtera app through api lookup. Contact the [author](mailto:chteoh@ieee.org?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.<br>
 Note: 
-Latest format as of 27/9/2022 (changes in the sequence of elements):
+Latest Mysejahtera json format as of 27/9/2022 (changes in the sequence of elements):
 ```
 {"hotSpots":[
 {"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90},
@@ -17,7 +17,7 @@ Latest format as of 27/9/2022 (changes in the sequence of elements):
 {"disease":"DENGUE","displayName":{"enUS":"Dengue","msMY":"Denggi"},"iconUri":"/hotspot/icons/dengue.svg","activeCases":0,"radiusInMeters":200.0,"durationInDays":14},
 {"disease":"ANIMAL_RABIES","displayName":{"enUS":"Animal Rabies","msMY":"Rabies dalam haiwan"},"iconUri":"/hotspot/icons/rabiesCircle.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":180},
 {"disease":"HFMD","displayName":{"enUS":"Hand, Foot & Mouth Disease","msMY":"Penyakit Tangan, Kaki & Mulut?"},"iconUri":"/hotspot/icons/HFMD.svg","activeCases":0,"radiusInMeters":5000.0,"durationInDays":7},
-{"disease":"Tuberculosis","displayName":{"enUS":"Tuberculosis","msMY":"Tuberculosis"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},
+{"disease":"COVID-19","displayName":{"enUS":"COVID-19","msMY":"COVID-19"},"iconUri":"/hotspot/icons/COVID19.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":14},
 {"disease":"MEASLES","displayName":{"enUS":"Measles","msMY":"Demam Campak"},"iconUri":"/hotspot/icons/measles.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":25}
 ]}
 ```

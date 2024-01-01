@@ -51,7 +51,7 @@ Warning: <br>
 The old API will still respond to requests, but it will not give you the correct no of cases for each lookup (all zeroes!). <br>
 This would also mean that the hotspots lookup feature will not work on older versions of mysejahtera mobile app (v 1.0.x to 1.1.8).<br><br>
 
-Latest format as of 27/9/2022 (changes in the sequence of elements):
+Latest Mysejahtera json format as of 27/9/2022 (changes in the sequence of elements):
 ```
 {"hotSpots":[
 {"disease":"RABIES","displayName":{"enUS":"Human Rabies","msMY":"Rabies dalam manusia"},"iconUri":"/hotspot/icons/rabies.svg","activeCases":0,"radiusInMeters":1000.0,"durationInDays":90},
