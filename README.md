@@ -6,7 +6,7 @@ Last Updated: 19/12/2023
 Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io_ for demo and educational purposes. It is a public-domain CSR with National Institute of Health to help monitor the spread of COVID-19.
 
 ### Data Sources
-Map Data Last Updated: 12/01/2023<br>
+Map Data Last Updated: 01/01/2024<br>
 14-day active cases data is sourced from mysejahtera app through api lookup. Contact the [author](mailto:chteoh@ieee.org?subject=Mysejahtera "Mysejahtera") for info about how to extract data from mysejahtera.<br>
 Note: 
 - Since **13/01/2023**, the MYsejahtera query response has returned all zeros for Covid-19 cases nationwide. It is impossible that a infectious disease can just suddenly vanish into thin air.
