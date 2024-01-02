@@ -3,7 +3,7 @@
 Last Updated: 
 <br/>Created:  
 
-Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io_ for demo and educational purposes. It is a public-domain CSR with National Institute of Health to help monitor the spread of Tuberculosis.
+Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io/diseases/_ for demo and educational purposes. It is a public-domain CSR with National Institute of Health to help monitor the spread of Tuberculosis.
 
 ### Data Sources
 Map Data Last Updated: 01/01/2024<br>
