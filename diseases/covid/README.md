@@ -3,7 +3,8 @@
 Last Updated: 19/12/2023
 <br/>Created: 26/08/2021 
 
-Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io/diseases/_ for demo and educational purposes. It is a public-domain CSR with National Institute of Health to help monitor the spread of COVID-19.
+Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io/diseases/_ for demo and educational purposes.<br>
+It is a public-domain CSR with National Institute of Health to help monitor the spread of COVID-19.
 
 ### Data Sources
 Map Data Last Updated: 01/01/2024<br>

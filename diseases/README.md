@@ -3,18 +3,18 @@
 Last Updated: 01/01/2024
 <br/>Created:  
 
-Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io/diseases/_ for demo and educational purposes. 
+Welcome to Steve Teoh's public health github page. This page highlights the shared sources available in _https://steveteoh.github.io/diseases/_ for demo and educational purposes.<br>
 It is a public-domain CSR with National Institute of Health to help monitor the spread of infectious diseases.
 
 ### Coverage
-The following infectious diseases are covered:
-[Covid-19](https://steveteoh.github.io/diseases/covid/)
-[Dengue](https://steveteoh.github.io/diseases/dengue/)
-[Tuberculosis](https://steveteoh.github.io/diseases/tuberculosis/)
-[Hand, Foot and Mouth Disease(HFMD)](https://steveteoh.github.io/diseases/hfmd/)
-[Measles](https://steveteoh.github.io/diseases/measles/)
-[Human Rabies](https://steveteoh.github.io/diseases/rabies/)
-[Animal Rabies](https://steveteoh.github.io/diseases/animal-rabies/)
+The following infectious diseases are covered:<br>
+[Covid-19](https://steveteoh.github.io/diseases/covid/)<br>
+[Dengue](https://steveteoh.github.io/diseases/dengue/)<br>
+[Tuberculosis](https://steveteoh.github.io/diseases/tuberculosis/)<br>
+[Hand, Foot and Mouth Disease(HFMD)](https://steveteoh.github.io/diseases/hfmd/)<br>
+[Measles](https://steveteoh.github.io/diseases/measles/)<br>
+[Human Rabies](https://steveteoh.github.io/diseases/rabies/)<br>
+[Animal Rabies](https://steveteoh.github.io/diseases/animal-rabies/)<br>
 
 ### Map Data Source
 Map Data Last Updated: 01/01/2024<br>
