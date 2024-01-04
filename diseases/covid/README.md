@@ -66,16 +66,6 @@ Latest Mysejahtera json format as of 27/9/2022 (changes in the sequence of eleme
 ```
 <br>
 
-### Statistic Maps for Malaysia based on KKM's Official Data Source (New)
-Here is the latest statistical map that contains district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public ) 
-[District-level statistics page](https://steveteoh.github.io/Statistics/main2.html). <br>
-Just point to the respective zone for total of that area. Zoom in and double click the coloured districts for more information. <br><br>
-![District-level Statistic Maps](https://steveteoh.github.io/img/statistics2.png) <br>
-
-Here is the statistical map that contains all state-level variables. The dropdown options are automatically generated (based on data from https://github.com/MoH-Malaysia/covid19-public )  
-[State-level statistics page](https://steveteoh.github.io/Statistics/). <br>Just point to the respective zone for total of that area. <br><br>     
-![State-level Statistic Maps](https://steveteoh.github.io/img/statistics.png) <br>
-
 ### Covid-19 Hex Maps for Malaysia
 (Legend and styles updated)  (New)
 Below are state-level maps for : <br>
@@ -135,12 +125,6 @@ Below are standalone maps for Penang districts: <br>
 3. [Seberang Perai](http://steveteoh.github.io/diseases/covid/Penang/perai.html) (last updated 18/07/2022, 08/05/22). <br>
 
 General Note: The javascripts are minified and obfuscated for faster performance. Kindly email me on the link below if you wish to have the raw code. 
-
-### MalaysiaHeatmap
-[My shared code](http://steveteoh.github.io/MalaysiaHeatMap) derived from [Khoo Hao Yit's work](https://github.com/KhooHaoYit/KhooHaoYit.github.io/tree/main/Covid19%20Malaysia%20Heatmap)
-
-### HexGrid (Concepts)
-[My shared code](http://steveteoh.github.io/HexGrid) derived from [https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map](https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map) 
 
 ### Built With
 

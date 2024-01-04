@@ -9,6 +9,7 @@ It is a public-domain CSR with National Institute of Health to help monitor the 
 ### Coverage
 The following infectious diseases are covered:<br>
 [Covid-19](https://steveteoh.github.io/diseases/covid/)<br>
+![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)<br>
 [Dengue](https://steveteoh.github.io/diseases/dengue/)<br>
 [Tuberculosis](https://steveteoh.github.io/diseases/tuberculosis/)<br>
 [Hand, Foot and Mouth Disease(HFMD)](https://steveteoh.github.io/diseases/hfmd/)<br>

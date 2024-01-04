@@ -10,6 +10,21 @@ It is a public-domain CSR. The author does not provide any expressed or implied 
 Last Updated: 04/01/2024<br>
 Contact the [author](mailto:chteoh@ieee.org?subject=Repos "Repos") for info.<br>
 
+### Infectious Diseases Mapping
+[Infectious Disease Mapping](https://steveteoh.github.io/diseases/)<br>
+
+### Specific Infectious Diseases
+The following infectious diseases are covered:<br>
+[Covid-19](https://steveteoh.github.io/diseases/covid/)<br> 
+![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg) <br>
+[Dengue (coming soon)](https://steveteoh.github.io/diseases/dengue/)<br>
+[Tuberculosis (coming soon)](https://steveteoh.github.io/diseases/tuberculosis/)<br>
+[Hand, Foot and Mouth Disease(HFMD) (coming soon)](https://steveteoh.github.io/diseases/hfmd/)<br>
+[Measles (coming soon)](https://steveteoh.github.io/diseases/measles/)<br>
+[Human Rabies (coming soon)](https://steveteoh.github.io/diseases/rabies/)<br>
+[Animal Rabies (coming soon)](https://steveteoh.github.io/diseases/animal-rabies/)<br>
+
+
 ### Census Maps
 #### District Level
 Here is the latest statistical map that contains district-level variables. The dropdown options are automatically generated ( based on data from https://github.com/MoH-Malaysia/covid19-public ) 
@@ -22,16 +37,13 @@ Here is the statistical map that contains all state-level variables. The dropdow
 [State-level statistics page](https://steveteoh.github.io/Statistics/). <br>Just point to the respective zone for total of that area. <br><br>     
 ![State-level Statistic Maps](https://steveteoh.github.io/img/statistics.png) <br>
 
-### Infectious Diseases Mapping
-[Infectious Disease Mapping](https://steveteoh.github.io/diseases/)<br>
-The following infectious diseases are covered:<br>
-[Covid-19](https://steveteoh.github.io/diseases/covid/)<br>
-[Dengue (coming soon)](https://steveteoh.github.io/diseases/dengue/)<br>
-[Tuberculosis (coming soon)](https://steveteoh.github.io/diseases/tuberculosis/)<br>
-[Hand, Foot and Mouth Disease(HFMD) (coming soon)](https://steveteoh.github.io/diseases/hfmd/)<br>
-[Measles (coming soon)](https://steveteoh.github.io/diseases/measles/)<br>
-[Human Rabies (coming soon)](https://steveteoh.github.io/diseases/rabies/)<br>
-[Animal Rabies (coming soon)](https://steveteoh.github.io/diseases/animal-rabies/)<br>
+
+### MalaysiaHeatmap
+[My shared code](http://steveteoh.github.io/MalaysiaHeatMap) derived from [Khoo Hao Yit's work](https://github.com/KhooHaoYit/KhooHaoYit.github.io/tree/main/Covid19%20Malaysia%20Heatmap)
+
+### HexGrid (Concepts)
+[My shared code](http://steveteoh.github.io/HexGrid) derived from [https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map](https://github.com/ondeweb/Hexagon-Grid-overlay-on-Google-Map) 
+
 
 ### 🤝 Contribution and Support
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
