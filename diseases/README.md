@@ -8,14 +8,14 @@ It is a public-domain CSR with National Institute of Health to help monitor the 
 
 ### Coverage
 The following infectious diseases are covered:<br>
-[Covid-19](https://steveteoh.github.io/diseases/covid/)<br>
+[1. Covid-19](https://steveteoh.github.io/diseases/covid/)<br>
 ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)<br>
-[Dengue](https://steveteoh.github.io/diseases/dengue/)<br>
-[Tuberculosis](https://steveteoh.github.io/diseases/tuberculosis/)<br>
-[Hand, Foot and Mouth Disease(HFMD)](https://steveteoh.github.io/diseases/hfmd/)<br>
-[Measles](https://steveteoh.github.io/diseases/measles/)<br>
-[Human Rabies](https://steveteoh.github.io/diseases/rabies/)<br>
-[Animal Rabies](https://steveteoh.github.io/diseases/animal-rabies/)<br>
+[2. Dengue](https://steveteoh.github.io/diseases/dengue/)<br>
+[3. Tuberculosis](https://steveteoh.github.io/diseases/tuberculosis/)<br>
+[4. Hand, Foot and Mouth Disease(HFMD)](https://steveteoh.github.io/diseases/hfmd/)<br>
+[5. Measles](https://steveteoh.github.io/diseases/measles/)<br>
+[6. Human Rabies](https://steveteoh.github.io/diseases/rabies/)<br>
+[7. Animal Rabies](https://steveteoh.github.io/diseases/animal-rabies/)<br>
 
 ### Map Data Source
 Map Data Last Updated: 01/01/2024<br>

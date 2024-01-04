@@ -15,14 +15,14 @@ Contact the [author](mailto:chteoh@ieee.org?subject=Repos "Repos") for info.<br>
 
 ### Specific Infectious Diseases
 The following infectious diseases are covered:<br>
-[Covid-19](https://steveteoh.github.io/diseases/covid/)<br> 
+[1. Covid-19](https://steveteoh.github.io/diseases/covid/)<br> 
 ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg) <br>
-[Dengue (coming soon)](https://steveteoh.github.io/diseases/dengue/)<br>
-[Tuberculosis (coming soon)](https://steveteoh.github.io/diseases/tuberculosis/)<br>
-[Hand, Foot and Mouth Disease(HFMD) (coming soon)](https://steveteoh.github.io/diseases/hfmd/)<br>
-[Measles (coming soon)](https://steveteoh.github.io/diseases/measles/)<br>
-[Human Rabies (coming soon)](https://steveteoh.github.io/diseases/rabies/)<br>
-[Animal Rabies (coming soon)](https://steveteoh.github.io/diseases/animal-rabies/)<br>
+[2. Dengue (coming soon)](https://steveteoh.github.io/diseases/dengue/)<br>
+[3. Tuberculosis (coming soon)](https://steveteoh.github.io/diseases/tuberculosis/)<br>
+[4. Hand, Foot and Mouth Disease(HFMD) (coming soon)](https://steveteoh.github.io/diseases/hfmd/)<br>
+[5. Measles (coming soon)](https://steveteoh.github.io/diseases/measles/)<br>
+[6. Human Rabies (coming soon)](https://steveteoh.github.io/diseases/rabies/)<br>
+[7. Animal Rabies (coming soon)](https://steveteoh.github.io/diseases/animal-rabies/)<br>
 
 
 ### Census Maps
