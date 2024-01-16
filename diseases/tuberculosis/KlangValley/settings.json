@@ -2,7 +2,7 @@
   "localurl": "http://localhost:1337/data/klangvalley.csv",
   "inputurl": "https://steveteoh.github.io/data/selangor/klangvalley.csv",
   "districturl": "https://steveteoh.github.io/Maps/states/selangor.geojson",
-  "localename": "Klang Valley",
+  "mapid": "Klang Valley",
   "dtype": "TB",
   "dname": "Tuberculosis",
   "duration": "60"
