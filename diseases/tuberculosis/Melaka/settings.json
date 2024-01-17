@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/melaka.csv",
+  "inputurl": "https://steveteoh.github.io/data/melaka/melaka.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/malacca.geojson",
+  "mapid": "Melaka",
+  "dtype": "TB",
+  "dname": "Tuberculosis",
+  "duration": "60"
+}

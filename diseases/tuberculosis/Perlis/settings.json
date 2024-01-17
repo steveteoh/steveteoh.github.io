@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/perlis.csv",
+  "inputurl": "https://steveteoh.github.io/data/perlis/perlis.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/perlis.geojson",
+  "mapid": "Perlis",
+  "dtype": "TB",
+  "dname": "Tuberculosis",
+  "duration": "60"
+}

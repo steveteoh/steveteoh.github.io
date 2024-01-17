@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/sarawak.csv",
+  "inputurl": "https://steveteoh.github.io/data/sarawak/sarawak.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/sarawak.geojson",
+  "mapid": "Sarawak",
+  "dtype": "TB",
+  "dname": "Tuberculosis",
+  "duration": "60"
+}

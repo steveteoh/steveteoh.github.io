@@ -1,0 +1,9 @@
+{
+  "localurl": [ "http://localhost:1337/data/island.csv", "http://localhost:1337/data/seberangperai.csv" ],
+  "inputurl": [ "https://steveteoh.github.io/Maps/Penang/island.json", "https://steveteoh.github.io/Maps/Penang/seberangperai.json" ],
+  "districturl": [ "https://steveteoh.github.io/data/penang/island.csv", "https://steveteoh.github.io/data/penang/seberangperai.csv" ],
+  "mapid": [ "Majlis Bandaraya Pulau Pinang", "Majlis Perbandaran Seberang Perai" ],
+  "dtype": "TB",
+  "dname": "Tuberculosis",
+  "duration": "60"
+}
