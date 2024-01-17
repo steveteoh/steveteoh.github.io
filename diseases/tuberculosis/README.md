@@ -29,7 +29,7 @@ Below are state-level maps for : <br>
 1. [Klang Valley (Selangor, Kuala Lumpur dan Putrajaya)](https://steveteoh.github.io/diseases/tuberculosis/KlangValley/) (last updated 01/01/2024), <br>
    Ver 4.4.0.1 of Klang Valley now supports selection of dates using the request format: <br>
    [https://steveteoh.github.io/diseases/tuberculosis/KlangValley/?date=20240101](https://steveteoh.github.io/diseases/tuberculosis/KlangValley/) <br>
-   The rest just shows the map using the latest data. <br><br>   ![Klang Valley](https://steveteoh.github.io/img/tb-klangvalley.jpg)
+   The rest just shows the map using the latest data. <br><br>   ![Klang Valley](https://steveteoh.github.io/img/kvtb.jpg)
 
 2. [Johor](http://steveteoh.github.io/diseases/tuberculosis/Johor/?date=20230611) (last updated 01/01/24), <br>        |
 3. [Kedah](https://steveteoh.github.io/diseases/tuberculosis/Kedah/?date=20230611) (last updated 01/01/24), <br>  |
