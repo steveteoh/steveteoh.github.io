@@ -1,13 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\data",
-    "\\data\\wp",
-    "\\diseases\\animal-rabies",
+    "\\diseases",
     "\\diseases\\covid",
-    "\\Selangor",
+    "\\diseases\\covid\\Wilayah",
+    "\\diseases\\tuberculosis",
+    "\\diseases\\tuberculosis\\Wilayah",
     "\\Selangor\\SubangJaya"
   ],
-  "SelectedNode": "\\data\\wp",
+  "SelectedNode": "\\diseases\\covid\\Penang",
   "PreviewInSolutionExplorer": false
 }
