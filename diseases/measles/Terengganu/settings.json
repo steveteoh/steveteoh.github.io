@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/terengganu.csv",
+  "inputurl": "https://steveteoh.github.io/data/terengganu/terengganu.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/terengganu.geojson",
+  "mapid": "Terengganu",
+  "dtype": "MEASLES",
+  "dname": "Measles",
+  "duration": "25"
+}

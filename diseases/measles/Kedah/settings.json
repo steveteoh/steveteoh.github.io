@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/kedah.csv",
+  "inputurl": "https://steveteoh.github.io/data/kedah/kedah.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/kedah.geojson",
+  "mapid": "Kedah",
+  "dtype": "MEASLES",
+  "dname": "Measles",
+  "duration": "25"
+}

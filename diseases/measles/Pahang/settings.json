@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/pahang.csv",
+  "inputurl": "https://steveteoh.github.io/data/pahang/pahang.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/pahang.geojson",
+  "mapid": "Pahang",
+  "dtype": "MEASLES",
+  "dname": "Measles",
+  "duration": "25"
+}

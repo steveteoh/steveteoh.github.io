@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/Labuan.csv",
+  "inputurl": "https://steveteoh.github.io/data/wp/Labuan.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/labuan.geojson",
+  "mapid": "Labuan",
+  "dtype": "MEASLES",
+  "dname": "Measles",
+  "duration": "25"
+}

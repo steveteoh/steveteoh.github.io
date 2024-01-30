@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/johor.csv",
+  "inputurl": "https://steveteoh.github.io/data/johor/johor.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/johor.geojson",
+  "mapid": "Johor",
+  "dtype": "RABIES",
+  "dname": "Rabies",
+  "duration": "90"
+}

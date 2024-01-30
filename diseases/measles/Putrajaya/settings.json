@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/Putrajaya.csv",
+  "inputurl": "https://steveteoh.github.io/data/wp/Putrajaya.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/selangor.geojson",
+  "mapid": "Putrajaya",
+  "dtype": "MEASLES",
+  "dname": "Measles",
+  "duration": "25"
+}

@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/negerisembilan.csv",
+  "inputurl": "https://steveteoh.github.io/data/negerisembilan/negerisembilan.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/negerisembilan.geojson",
+  "mapid": "Negeri Sembilan",
+  "dtype": "RABIES",
+  "dname": "Rabies",
+  "duration": "90"
+}

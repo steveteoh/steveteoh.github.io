@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/klangvalley.csv",
+  "inputurl": "https://steveteoh.github.io/data/selangor/klangvalley.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/selangor.geojson",
+  "mapid": "Selangor, Kuala Lumpur and Putrajaya",
+  "dtype": "MEASLES",
+  "dname": "Measles",
+  "duration": "25"
+}

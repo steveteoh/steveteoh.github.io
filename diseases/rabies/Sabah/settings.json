@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/sabah.csv",
+  "inputurl": "https://steveteoh.github.io/data/sabah/sabah.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/sabah.geojson",
+  "mapid": "Sabah",
+  "dtype": "RABIES",
+  "dname": "Rabies",
+  "duration": "90"
+}

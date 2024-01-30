@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/kelantan.csv",
+  "inputurl": "https://steveteoh.github.io/data/kelantan/kelantan.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/kelantan.geojson",
+  "mapid": "Kelantan",
+  "dtype": "RABIES",
+  "dname": "Rabies",
+  "duration": "90"
+}

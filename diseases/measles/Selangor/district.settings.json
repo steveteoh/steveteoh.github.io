@@ -1,0 +1,54 @@
+{
+  "localurl": [
+    "https://localhost:1337/data/daerah/ampang_jaya.csv",
+    "https://localhost:1337/data/daerah/hulu_langat.csv",
+    "https://localhost:1337/data/daerah/hulu_selangor.csv",
+    "https://localhost:1337/data/daerah/klang.csv",
+    "https://localhost:1337/data/daerah/kuala_langat.csv",
+    "https://localhost:1337/data/daerah/kuala_selangor.csv",
+    "https://localhost:1337/data/daerah/petaling_jaya.csv",
+    "https://localhost:1337/data/daerah/sabak_bernam.csv",
+    "https://localhost:1337/data/daerah/selayang.csv",
+    "https://localhost:1337/data/daerah/sepang.csv",
+    "https://localhost:1337/data/daerah/shah_alam.csv",
+    "https://localhost:1337/data/daerah/subang_jaya.csv"
+    //'https://localhost:1337/data/KL.csv',
+    //'https://localhost:1337/data/Putrajaya.csv'
+  ],
+  "inputurl": [
+    "https://steveteoh.github.io/data/selangor/daerah/ampang_jaya.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/hulu_langat.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/hulu_selangor.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/klang.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/kuala_langat.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/kuala_selangor.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/petaling_jaya.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/sabak_bernam.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/selayang.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/sepang.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/shah_alam.csv",
+    "https://steveteoh.github.io/data/selangor/daerah/subang_jaya2.csv"
+    //'https://steveteoh.github.io/data/wp/KL.csv',
+    //'https://steveteoh.github.io/data/wp/Putrajaya.csv'
+  ],
+  "districturl": [
+    "https://steveteoh.github.io/Maps/Selangor/daerah/ampang_jaya.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/hulu_langat.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/hulu_selangor.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/klang.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/kuala_langat.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/kuala_selangor.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/petaling_jaya.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/sabak_bernam.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/selayang.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/sepang.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/shah_alam.json",
+    "https://steveteoh.github.io/Maps/Selangor/daerah/subang_jaya.json"
+    //'https://steveteoh.github.io/Maps/WP/KL_zones.json',
+    //'https://steveteoh.github.io/Maps/wp/Putrajaya.json'
+  ],
+  "mapid": [ "Ampang Jaya", "Hulu Langat", "Hulu Selangor", "Klang", "Kuala Langat", "Kuala Selangor", "Petaling Jaya", "Sabak Bernam", "Selayang", "Sepang", "Shah Alam", "Subang Jaya", "Kuala Lumpur", "Putrajaya" ],
+  "dtype": "MEASLES",
+  "dname": "Measles",
+  "duration": "25"
+}

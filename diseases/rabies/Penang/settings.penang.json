@@ -1,0 +1,10 @@
+{
+  "localurl": [ "http://localhost:1337/data/island.csv", "http://localhost:1337/data/seberangperai.csv" ],
+  "inputurl": [ "https://steveteoh.github.io/data/penang/island.csv", "https://steveteoh.github.io/data/penang/seberangperai.csv" ],
+  "districturl": [ "https://steveteoh.github.io/Maps/Penang/island.json", "https://steveteoh.github.io/Maps/Penang/seberangperai.json" ],
+  "stateurl": "https://steveteoh.github.io/Maps/Penang/penang.json",
+  "mapid": [ "Majlis Bandaraya Pulau Pinang", "Majlis Perbandaran Seberang Perai" ],
+  "dtype": "RABIES",
+  "dname": "Rabies",
+  "duration": "90"
+}

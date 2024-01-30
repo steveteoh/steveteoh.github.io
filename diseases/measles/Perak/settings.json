@@ -1,0 +1,9 @@
+{
+  "localurl": "http://localhost:1337/data/perak.csv",
+  "inputurl": "https://steveteoh.github.io/data/perak/perak.csv",
+  "districturl": "https://steveteoh.github.io/Maps/states/perak.geojson",
+  "mapid": "Perak",
+  "dtype": "MEASLES",
+  "dname": "Measles",
+  "duration": "25"
+}
