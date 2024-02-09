@@ -31,18 +31,18 @@ Below are state-level maps for : <br>
    [https://steveteoh.github.io/diseases/tuberculosis/KlangValley/?date=20240101](https://steveteoh.github.io/diseases/tuberculosis/KlangValley/) <br>
    The rest just shows the map using the latest data. <br><br>   ![Klang Valley](https://steveteoh.github.io/img/kvtb.jpg)
 
-2. [Johor](http://steveteoh.github.io/diseases/tuberculosis/Johor/?date=20230611) (last updated 01/01/24), <br>        |
-3. [Kedah](https://steveteoh.github.io/diseases/tuberculosis/Kedah/?date=20230611) (last updated 01/01/24), <br>  |
-4. [Kelantan](https://steveteoh.github.io/diseases/tuberculosis/Kelantan/?date=20230611) (last updated 01/01/24), <br>  |
-5. [Melaka](http://steveteoh.github.io/diseases/tuberculosis/Melaka/?date=20230611) (last updated 01/01/24), <br>  |
-6. [Negeri Sembilan](http://steveteoh.github.io/diseases/tuberculosis/NegeriSembilan/?date=20230611) (last updated 01/01/24), <br>  |
-7. [Pahang](https://steveteoh.github.io/diseases/tuberculosis/Pahang/?date=20230611) (last updated 01/01/24), <br>  |
-8. [Penang](http://steveteoh.github.io/diseases/tuberculosis/Penang/?date=20230611) (last updated 01/01/24), <br>  |
-9. [Perak](https://steveteoh.github.io/diseases/tuberculosis/Perak/?date=20230611) (last updated 01/01/24), <br>  |
-10. [Perlis](https://steveteoh.github.io/diseases/tuberculosis/Perlis/?date=20230611) (last updated 01/01/24), <br>  |
-11. [Sabah](http://steveteoh.github.io/diseases/tuberculosis/Sabah/?date=20230611) (last updated 01/01/24), <br>  |
-12. [Sarawak](http://steveteoh.github.io/diseases/tuberculosis/Sarawak/?date=20230611) (last updated 01/01/24), <br>  |
-13. [Terengganu](https://steveteoh.github.io/diseases/tuberculosis/Terengganu/?date=20230611) (last updated 01/01/24), <br>  |
+2. [Johor](http://steveteoh.github.io/diseases/tuberculosis/Johor/) (last updated 01/01/24), <br>        |
+3. [Kedah](https://steveteoh.github.io/diseases/tuberculosis/Kedah/) (last updated 01/01/24), <br>  |
+4. [Kelantan](https://steveteoh.github.io/diseases/tuberculosis/Kelantan/) (last updated 01/01/24), <br>  |
+5. [Melaka](http://steveteoh.github.io/diseases/tuberculosis/Melaka/) (last updated 01/01/24), <br>  |
+6. [Negeri Sembilan](http://steveteoh.github.io/diseases/tuberculosis/NegeriSembilan/) (last updated 01/01/24), <br>  |
+7. [Pahang](https://steveteoh.github.io/diseases/tuberculosis/Pahang/) (last updated 01/01/24), <br>  |
+8. [Penang](http://steveteoh.github.io/diseases/tuberculosis/Penang/) (last updated 01/01/24), <br>  |
+9. [Perak](https://steveteoh.github.io/diseases/tuberculosis/Perak/) (last updated 01/01/24), <br>  |
+10. [Perlis](https://steveteoh.github.io/diseases/tuberculosis/Perlis/) (last updated 01/01/24), <br>  |
+11. [Sabah](http://steveteoh.github.io/diseases/tuberculosis/Sabah/) (last updated 01/01/24), <br>  |
+12. [Sarawak](http://steveteoh.github.io/diseases/tuberculosis/Sarawak/) (last updated 01/01/24), <br>  |
+13. [Terengganu](https://steveteoh.github.io/diseases/tuberculosis/Terengganu/) (last updated 01/01/24), <br>  |
 14. [Wilayah Persekutuan](http://steveteoh.github.io/diseases/tuberculosis/Wilayah/) <br>  |
     [Kuala Lumpur](http://steveteoh.github.io/diseases/tuberculosis/KualaLumpur/) (last updated 01/01/24), <br>  |
     [Putrajaya](http://steveteoh.github.io/diseases/tuberculosis/Putrajaya/) (last updated 01/01/24), <br>  |

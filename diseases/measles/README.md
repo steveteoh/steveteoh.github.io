@@ -31,18 +31,18 @@ Below are state-level maps for : <br>
    [https://steveteoh.github.io/diseases/measles/KlangValley/?date=20240101](https://steveteoh.github.io/diseases/measles/KlangValley/) <br>
    The rest just shows the map using the latest data. <br><br>   ![Klang Valley](https://steveteoh.github.io/img/ms-klangvalley.jpg)
 
-2. [Johor](http://steveteoh.github.io/diseases/measles/Johor/?date=20230611) (last updated 01/01/24), <br>        |
-3. [Kedah](https://steveteoh.github.io/diseases/measles/Kedah/?date=20230611) (last updated 01/01/24), <br>  |
-4. [Kelantan](https://steveteoh.github.io/diseases/measles/Kelantan/?date=20230611) (last updated 01/01/24), <br>  |
-5. [Melaka](http://steveteoh.github.io/diseases/measles/Melaka/?date=20230611) (last updated 01/01/24), <br>  |
-6. [Negeri Sembilan](http://steveteoh.github.io/diseases/measles/NegeriSembilan/?date=20230611) (last updated 01/01/24), <br>  |
-7. [Pahang](https://steveteoh.github.io/diseases/measles/Pahang/?date=20230611) (last updated 01/01/24), <br>  |
-8. [Penang](http://steveteoh.github.io/diseases/measles/Penang/?date=20230611) (last updated 01/01/24), <br>  |
-9. [Perak](https://steveteoh.github.io/diseases/measles/Perak/?date=20230611) (last updated 01/01/24), <br>  |
-10. [Perlis](https://steveteoh.github.io/diseases/measles/Perlis/?date=20230611) (last updated 01/01/24), <br>  |
-11. [Sabah](http://steveteoh.github.io/diseases/measles/Sabah/?date=20230611) (last updated 01/01/24), <br>  |
-12. [Sarawak](http://steveteoh.github.io/diseases/measles/Sarawak/?date=20230611) (last updated 01/01/24), <br>  |
-13. [Terengganu](https://steveteoh.github.io/diseases/measles/Terengganu/?date=20230611) (last updated 01/01/24), <br>  |
+2. [Johor](http://steveteoh.github.io/diseases/measles/Johor/) (last updated 01/01/24), <br>        |
+3. [Kedah](https://steveteoh.github.io/diseases/measles/Kedah/) (last updated 01/01/24), <br>  |
+4. [Kelantan](https://steveteoh.github.io/diseases/measles/Kelantan/) (last updated 01/01/24), <br>  |
+5. [Melaka](http://steveteoh.github.io/diseases/measles/Melaka/) (last updated 01/01/24), <br>  |
+6. [Negeri Sembilan](http://steveteoh.github.io/diseases/measles/NegeriSembilan/) (last updated 01/01/24), <br>  |
+7. [Pahang](https://steveteoh.github.io/diseases/measles/Pahang/) (last updated 01/01/24), <br>  |
+8. [Penang](http://steveteoh.github.io/diseases/measles/Penang/) (last updated 01/01/24), <br>  |
+9. [Perak](https://steveteoh.github.io/diseases/measles/Perak/) (last updated 01/01/24), <br>  |
+10. [Perlis](https://steveteoh.github.io/diseases/measles/Perlis/) (last updated 01/01/24), <br>  |
+11. [Sabah](http://steveteoh.github.io/diseases/measles/Sabah/) (last updated 01/01/24), <br>  |
+12. [Sarawak](http://steveteoh.github.io/diseases/measles/Sarawak/) (last updated 01/01/24), <br>  |
+13. [Terengganu](https://steveteoh.github.io/diseases/measles/Terengganu/) (last updated 01/01/24), <br>  |
 14. [Wilayah Persekutuan](http://steveteoh.github.io/diseases/measles/Wilayah/) <br>  |
     [Kuala Lumpur](http://steveteoh.github.io/diseases/measles/KualaLumpur/) (last updated 01/01/24), <br>  |
     [Putrajaya](http://steveteoh.github.io/diseases/measles/Putrajaya/) (last updated 01/01/24), <br>  |

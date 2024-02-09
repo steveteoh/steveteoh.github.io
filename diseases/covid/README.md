@@ -74,18 +74,18 @@ Below are state-level maps for : <br>
    [https://steveteoh.github.io/diseases/covid/KlangValley/?date=20220716](https://steveteoh.github.io/diseases/covid/KlangValley/) <br>
    The rest just shows the map using the latest data. <br><br>   ![Klang Valley](https://steveteoh.github.io/img/klangvalley.jpg)
 
-2. [Johor](http://steveteoh.github.io/diseases/covid/Johor/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>        
-3. [Kedah](https://steveteoh.github.io/diseases/covid/Kedah/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-4. [Kelantan](https://steveteoh.github.io/diseases/covid/Kelantan/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-5. [Melaka](http://steveteoh.github.io/Melaka/diseases/covid/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-6. [Negeri Sembilan](http://steveteoh.github.io/diseases/covid/NegeriSembilan/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-7. [Pahang](https://steveteoh.github.io/diseases/covid/Pahang/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-8. [Penang](http://steveteoh.github.io/diseases/covid/Penang/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-9. [Perak](https://steveteoh.github.io/diseases/covid/Perak/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-10. [Perlis](https://steveteoh.github.io/diseases/covid/Perlis/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-11. [Sabah](http://steveteoh.github.io/diseases/covid/Sabah/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-12. [Sarawak](http://steveteoh.github.io/diseases/covid/Sarawak/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
-13. [Terengganu](https://steveteoh.github.io/diseases/covid/Terengganu/?date=20230611) (last updated 18/07/2022, 08/05/22), <br>  
+2. [Johor](http://steveteoh.github.io/diseases/covid/Johor/) (last updated 18/07/2022, 08/05/22), <br>        
+3. [Kedah](https://steveteoh.github.io/diseases/covid/Kedah/) (last updated 18/07/2022, 08/05/22), <br>  
+4. [Kelantan](https://steveteoh.github.io/diseases/covid/Kelantan/) (last updated 18/07/2022, 08/05/22), <br>  
+5. [Melaka](http://steveteoh.github.io/Melaka/diseases/covid/) (last updated 18/07/2022, 08/05/22), <br>  
+6. [Negeri Sembilan](http://steveteoh.github.io/diseases/covid/NegeriSembilan/) (last updated 18/07/2022, 08/05/22), <br>  
+7. [Pahang](https://steveteoh.github.io/diseases/covid/Pahang/) (last updated 18/07/2022, 08/05/22), <br>  
+8. [Penang](http://steveteoh.github.io/diseases/covid/Penang/) (last updated 18/07/2022, 08/05/22), <br>  
+9. [Perak](https://steveteoh.github.io/diseases/covid/Perak/) (last updated 18/07/2022, 08/05/22), <br>  
+10. [Perlis](https://steveteoh.github.io/diseases/covid/Perlis/) (last updated 18/07/2022, 08/05/22), <br>  
+11. [Sabah](http://steveteoh.github.io/diseases/covid/Sabah/) (last updated 18/07/2022, 08/05/22), <br>  
+12. [Sarawak](http://steveteoh.github.io/diseases/covid/Sarawak/) (last updated 18/07/2022, 08/05/22), <br>  
+13. [Terengganu](https://steveteoh.github.io/diseases/covid/Terengganu/) (last updated 18/07/2022, 08/05/22), <br>  
 14. [Wilayah Persekutuan](http://steveteoh.github.io/diseases/covid/Wilayah/) <br>  
     [Kuala Lumpur](http://steveteoh.github.io/diseases/covid/KualaLumpur/) (last updated 13/12/2023, 18/07/2022, 08/05/22), <br>  
     [Putrajaya](http://steveteoh.github.io/diseases/covid/Putrajaya/) (last updated 13/12/2023, 18/07/2022, 08/05/22), <br>  

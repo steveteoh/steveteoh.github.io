@@ -31,18 +31,18 @@ Below are state-level maps for : <br>
    [https://steveteoh.github.io/diseases/rabies/KlangValley/?date=20240101](https://steveteoh.github.io/diseases/rabies/KlangValley/) <br>
    The rest just shows the map using the latest data. <br><br>   ![Klang Valley](https://steveteoh.github.io/img/rb-klangvalley.jpg)
 
-2. [Johor](http://steveteoh.github.io/diseases/rabies/Johor/?date=20230611) (last updated 01/01/24), <br>        |
-3. [Kedah](https://steveteoh.github.io/diseases/rabies/Kedah/?date=20230611) (last updated 01/01/24), <br>  |
-4. [Kelantan](https://steveteoh.github.io/diseases/rabies/Kelantan/?date=20230611) (last updated 01/01/24), <br>  |
-5. [Melaka](http://steveteoh.github.io/diseases/rabies/Melaka/?date=20230611) (last updated 01/01/24), <br>  |
-6. [Negeri Sembilan](http://steveteoh.github.io/diseases/rabies/NegeriSembilan/?date=20230611) (last updated 01/01/24), <br>  |
-7. [Pahang](https://steveteoh.github.io/diseases/rabies/Pahang/?date=20230611) (last updated 01/01/24), <br>  |
-8. [Penang](http://steveteoh.github.io/diseases/rabies/Penang/?date=20230611) (last updated 01/01/24), <br>  |
-9. [Perak](https://steveteoh.github.io/diseases/rabies/Perak/?date=20230611) (last updated 01/01/24), <br>  |
-10. [Perlis](https://steveteoh.github.io/diseases/rabies/Perlis/?date=20230611) (last updated 01/01/24), <br>  |
-11. [Sabah](http://steveteoh.github.io/diseases/rabies/Sabah/?date=20230611) (last updated 01/01/24), <br>  |
-12. [Sarawak](http://steveteoh.github.io/diseases/rabies/Sarawak/?date=20230611) (last updated 01/01/24), <br>  |
-13. [Terengganu](https://steveteoh.github.io/diseases/rabies/Terengganu/?date=20230611) (last updated 01/01/24), <br>  |
+2. [Johor](http://steveteoh.github.io/diseases/rabies/Johor/) (last updated 01/01/24), <br>        |
+3. [Kedah](https://steveteoh.github.io/diseases/rabies/Kedah/) (last updated 01/01/24), <br>  |
+4. [Kelantan](https://steveteoh.github.io/diseases/rabies/Kelantan/) (last updated 01/01/24), <br>  |
+5. [Melaka](http://steveteoh.github.io/diseases/rabies/Melaka/) (last updated 01/01/24), <br>  |
+6. [Negeri Sembilan](http://steveteoh.github.io/diseases/rabies/NegeriSembilan/) (last updated 01/01/24), <br>  |
+7. [Pahang](https://steveteoh.github.io/diseases/rabies/Pahang/) (last updated 01/01/24), <br>  |
+8. [Penang](http://steveteoh.github.io/diseases/rabies/Penang/) (last updated 01/01/24), <br>  |
+9. [Perak](https://steveteoh.github.io/diseases/rabies/Perak/) (last updated 01/01/24), <br>  |
+10. [Perlis](https://steveteoh.github.io/diseases/rabies/Perlis/) (last updated 01/01/24), <br>  |
+11. [Sabah](http://steveteoh.github.io/diseases/rabies/Sabah/) (last updated 01/01/24), <br>  |
+12. [Sarawak](http://steveteoh.github.io/diseases/rabies/Sarawak/) (last updated 01/01/24), <br>  |
+13. [Terengganu](https://steveteoh.github.io/diseases/rabies/Terengganu/) (last updated 01/01/24), <br>  |
 14. [Wilayah Persekutuan](http://steveteoh.github.io/diseases/rabies/Wilayah/) <br>  |
     [Kuala Lumpur](http://steveteoh.github.io/diseases/rabies/KualaLumpur/) (last updated 01/01/24), <br>  |
     [Putrajaya](http://steveteoh.github.io/diseases/rabies/Putrajaya/) (last updated 01/01/24), <br>  |

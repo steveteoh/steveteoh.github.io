@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\diseases",
-    "\\diseases\\covid",
-    "\\diseases\\covid\\Wilayah",
-    "\\diseases\\tuberculosis",
-    "\\diseases\\tuberculosis\\Wilayah",
-    "\\Selangor\\SubangJaya"
+    "\\diseases\\measles\\Wilayah",
+    "\\diseases\\rabies",
+    "\\diseases\\tuberculosis\\Penang",
+    "\\Maps\\Penang"
   ],
-  "SelectedNode": "\\diseases\\covid\\Penang",
+  "SelectedNode": "\\diseases\\rabies\\README.md",
   "PreviewInSolutionExplorer": false
 }
